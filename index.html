@@ -28,12 +28,16 @@
 <body
     class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-sans transition-colors duration-300">
     <header></header>
+    <!-- LCP Optimized Hero Section -->
     <section class="relative pt-20 overflow-hidden bg-slate-900">
         <div class="absolute inset-0 opacity-40">
-            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDwQwdd7uIAbyPk13ndW2rswSVdHtwl7m8KzZ09eGwWWcKKb8FCwiCrPvLTRc6NS0YC6XuRYqij7cLLhwryr1Q7qbKjOZOeWRrOomOJZ45XCi-XECu2cLYYEkMpQZP49_wHswINA-2IBggqdINZfVjENeHAvCfs8ZEVs7FMNFcKl1ab_nzj8VsQz6MP5Tf0NS6AjHlG-08FG5aBpOiZX49miIAXx6iTwyv2XGOZuftFStx_CU1ub_YLoIT2pIJz9Dq9BRZ1H7-l8bK"
-                alt="Sportler auf der Laufbahn" class="w-full h-full object-cover opacity-30" loading="lazy">
+            <!-- Fetchpriority High for LCP -->
+            <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&q=80&w=2000"
+                fetchpriority="high"
+                alt="Sportler auf der Laufbahn beim Start" class="w-full h-full object-cover opacity-50"
+                style="object-position: center 30%;">
         </div>
-        <div class="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/60 to-transparent"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/70 to-transparent"></div>
         <div
             class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 flex flex-col items-start justify-center min-h-[600px]">
             <span
@@ -41,39 +45,42 @@
                 Leidenschaft seit 1952
             </span>
             <h1
-                class="font-display text-4xl md:text-6xl lg:text-7xl font-black text-white max-w-2xl leading-[1.1] mb-6">
-                Schneller, Höher, <span class="text-primary">Weiter.</span>
+                class="font-display text-4xl md:text-6xl lg:text-7xl font-black text-white max-w-3xl leading-[1.1] mb-6 drop-shadow-lg">
+                Schneller, Höher, <span class="text-primary text-transparent bg-clip-text bg-gradient-to-r from-primary to-emerald-400">Weiter.</span>
             </h1>
-            <p class="text-slate-300 text-lg md:text-xl max-w-xl mb-10 leading-relaxed">
+            <p class="text-slate-200 text-lg md:text-xl max-w-xl mb-10 leading-relaxed font-medium drop-shadow-md">
                 Der Recklinghäuser Leichtathletik Club bietet professionelles Training, Teamgeist und Spitzenförderung
                 für alle Altersklassen.
             </p>
             <div class="flex flex-wrap gap-4">
                 <button
-                    class="bg-primary text-white px-8 py-4 rounded-xl font-bold text-lg hover:shadow-xl hover:shadow-primary/30 transition-all">
+                    class="bg-primary text-white min-h-[44px] px-8 py-4 rounded-xl font-bold text-lg hover:shadow-xl hover:shadow-primary/30 transition-all transform hover:-translate-y-1">
                     Probetraining vereinbaren
                 </button>
                 <button
-                    class="bg-white/10 backdrop-blur-md text-white border border-white/20 px-8 py-4 rounded-xl font-bold text-lg hover:bg-white hover:text-slate-900 transition-all">
+                    class="bg-white/10 backdrop-blur-md text-white border border-white/20 min-h-[44px] px-8 py-4 rounded-xl font-bold text-lg hover:bg-white hover:text-slate-900 transition-all transform hover:-translate-y-1">
                     Aktuelle Termine
                 </button>
             </div>
         </div>
     </section>
+
+    <!-- Main Content -->
     <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
             <div class="lg:col-span-8 space-y-12">
                 <div class="flex justify-between items-end border-b border-slate-200 dark:border-slate-800 pb-4">
                     <div>
+                        <!-- Logical H2 Hierarchy -->
                         <h2 class="font-display text-3xl font-black uppercase tracking-tight">Aktuelles</h2>
                         <p class="text-slate-500 dark:text-slate-400 mt-1">Berichte und Ergebnisse aus dem Club</p>
                     </div>
                     <div class="flex space-x-2 pb-1">
                         <button
-                            class="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 hover:text-primary transition-colors"><span
+                            class="min-w-[44px] min-h-[44px] flex items-center justify-center rounded-xl bg-slate-100 dark:bg-slate-800 hover:text-primary transition-colors" aria-label="Vorherige Artikel"><span
                                 class="material-icons-round">chevron_left</span></button>
                         <button
-                            class="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 hover:text-primary transition-colors"><span
+                            class="min-w-[44px] min-h-[44px] flex items-center justify-center rounded-xl bg-slate-100 dark:bg-slate-800 hover:text-primary transition-colors" aria-label="Nächste Artikel"><span
                                 class="material-icons-round">chevron_right</span></button>
                     </div>
                 </div>
@@ -83,6 +90,8 @@
                     <div class="animate-pulse bg-slate-200 dark:bg-slate-800 h-64 rounded-2xl"></div>
                 </div>
             </div>
+
+            <!-- Sidebar -->
             <aside class="lg:col-span-4 space-y-12">
                 <div
                     class="bg-slate-100 dark:bg-slate-900/50 p-8 rounded-3xl border border-slate-200 dark:border-slate-800">
@@ -112,9 +121,11 @@
                         </div>
                     </div>
                     <button
-                        class="w-full mt-8 py-3 bg-slate-900 dark:bg-white dark:text-slate-900 text-white font-bold rounded-xl text-sm">Alle
+                        class="w-full mt-8 py-3 min-h-[44px] bg-slate-900 dark:bg-white dark:text-slate-900 text-white font-bold rounded-xl text-sm hover:shadow-lg transition-all">Alle
                         Termine</button>
                 </div>
+
+                <!-- Partners / Consistent Spacing -->
                 <div>
                     <h3
                         class="font-display font-bold text-sm uppercase tracking-widest text-slate-400 mb-8 border-b border-slate-200 dark:border-slate-800 pb-2">
@@ -143,15 +154,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-primary p-8 rounded-3xl text-white relative overflow-hidden group">
-                    <div class="absolute -right-10 -bottom-10 opacity-20 group-hover:scale-110 transition-transform">
+
+                <!-- CTA -->
+                <div class="bg-primary p-8 rounded-3xl text-white relative overflow-hidden group shadow-xl shadow-primary/20">
+                    <div class="absolute -right-10 -bottom-10 opacity-20 group-hover:scale-110 transition-transform duration-700">
                         <span class="material-icons-round text-[150px]">emoji_events</span>
                     </div>
                     <div class="relative z-10">
                         <h3 class="font-display font-bold text-2xl mb-4">Teil des Teams werden?</h3>
-                        <p class="text-white/80 text-sm mb-6 leading-relaxed">Entdecke die Vielfalt der Leichtathletik
+                        <p class="text-white/90 text-sm mb-6 leading-relaxed font-medium">Entdecke die Vielfalt der Leichtathletik
                             und trainiere mit Profis.</p>
-                        <button class="bg-white text-primary px-6 py-2.5 rounded-xl font-bold text-sm">Jetzt
+                        <button class="bg-white text-primary px-6 py-3 min-h-[44px] rounded-xl font-bold text-sm shadow-lg">Jetzt
                             anmelden</button>
                     </div>
                 </div>
@@ -168,16 +181,20 @@
                 container.innerHTML = '';
                 news.slice(0, 3).forEach(article => {
                     const articleEl = document.createElement('article');
-                    articleEl.className = "group grid grid-cols-1 md:grid-cols-12 gap-6 items-start";
+                    articleEl.className = "group grid grid-cols-1 md:grid-cols-12 gap-8 items-start";
 
-                    const imageUrl = article.images.length > 0 ? article.images[0].local : 'https://via.placeholder.com/600x400?text=RLC+1952';
+                    // Fallback to high-quality Unsplash image if local not found or placeholder
+                    let imageUrl = article.images.length > 0 ? article.images[0].local : 'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?auto=format&fit=crop&q=80&w=800';
+                    if (imageUrl.includes('placeholder')) {
+                        imageUrl = 'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?auto=format&fit=crop&q=80&w=800';
+                    }
                     const fullImageUrl = imageUrl.startsWith('http') ? imageUrl : imageUrl;
 
                     articleEl.innerHTML = `
-                        <div class="md:col-span-5 h-[240px] overflow-hidden">
-                            <img src="${fullImageUrl}" alt="${article.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" onerror="this.src='https://via.placeholder.com/800x600?text=RLC+1952'">
+                        <div class="md:col-span-5 h-[240px] overflow-hidden rounded-2xl shadow-md">
+                            <img src="${fullImageUrl}" alt="${article.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&q=80&w=800'">
                         </div>
-                        <div class="md:col-span-7 space-y-3">
+                        <div class="md:col-span-7 space-y-4">
                             <div class="flex items-center space-x-3 text-sm text-slate-500 font-semibold uppercase tracking-wider">
                                 <span class="text-primary" aria-label="Veröffentlichungsdatum">${article.date}</span>
                             </div>
@@ -185,7 +202,7 @@
                             <p class="text-slate-600 dark:text-slate-400 leading-relaxed line-clamp-3">
                                 ${article.content_text}
                             </p>
-                            <a class="inline-flex items-center font-bold text-primary group/link" href="pages/news/${article.id}.html">
+                            <a class="inline-flex items-center font-bold text-primary group/link min-h-[44px]" href="pages/news/${article.id}.html">
                                 Weiterlesen <span
                                     class="material-icons-round text-sm ml-1 group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
                             </a>
