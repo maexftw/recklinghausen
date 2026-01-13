@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html class="light" lang="de">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>RLC 1952 - News &amp; Aktuelles</title>
+  <meta name="description"
+    content="Aktuelle Nachrichten, Wettkampfergebnisse und Berichte vom Recklinghäuser Leichtathletik Club 1952 e.V. Bleiben Sie auf dem Laufenden über unser Vereinsleben.">
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Outfit:wght@600;700;800&amp;display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Montserrat:wght@700;900&amp;display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+  <script src="../assets/js/news_data.js"></script>
+  <script src="../assets/js/components.js"></script>
+</head>
+
+<body
+  class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-sans transition-colors duration-300">
+  <header></header>
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div class="mb-12">
+      <h1 class="font-display text-4xl font-extrabold mb-6">News &amp; Archiv</h1>
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-6">
+        <div class="flex flex-wrap gap-2">
+          <button
+            class="px-5 py-2.5 rounded-full bg-primary text-white font-semibold shadow-lg shadow-primary/20 transition-all hover:scale-105">Alle</button>
+          <button
+            class="px-5 py-2.5 rounded-full bg-white dark:bg-card-dark border border-slate-200 dark:border-slate-700 font-medium hover:border-primary transition-all">Wettkampfergebnisse</button>
+          <button
+            class="px-5 py-2.5 rounded-full bg-white dark:bg-card-dark border border-slate-200 dark:border-slate-700 font-medium hover:border-primary transition-all">Vereinsleben</button>
+          <button
+            class="px-5 py-2.5 rounded-full bg-white dark:bg-card-dark border border-slate-200 dark:border-slate-700 font-medium hover:border-primary transition-all">Training</button>
+        </div>
+        <div class="relative min-w-[280px]">
+          <span class="material-icons-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400">search</span>
+          <input
+            class="w-full pl-10 pr-4 py-2.5 rounded-xl border-slate-200 dark:border-slate-700 bg-white dark:bg-card-dark focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
+            placeholder="Beiträge suchen..." type="text" aria-label="News Beiträge suchen" />
+        </div>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+      <div class="lg:col-span-8 space-y-8">
+        <div id="news-container" class="space-y-8">
+          <!-- Loading placeholder -->
+          <div class="animate-pulse bg-slate-200 dark:bg-slate-800 h-64 rounded-2xl"></div>
+          <div class="animate-pulse bg-slate-200 dark:bg-slate-800 h-64 rounded-2xl"></div>
+        </div>
+        <nav class="flex items-center justify-center space-x-2 pt-8">
+          <button
+            class="w-10 h-10 rounded-lg flex items-center justify-center border border-slate-200 dark:border-slate-700 text-slate-400 hover:text-primary hover:border-primary transition-all">
+            <span class="material-icons-outlined">chevron_left</span>
+          </button>
+          <button
+            class="w-10 h-10 rounded-lg flex items-center justify-center bg-primary text-white font-bold">1</button>
+          <button
+            class="w-10 h-10 rounded-lg flex items-center justify-center border border-slate-200 dark:border-slate-700 font-bold hover:text-primary hover:border-primary transition-all">2</button>
+          <button
+            class="w-10 h-10 rounded-lg flex items-center justify-center border border-slate-200 dark:border-slate-700 font-bold hover:text-primary hover:border-primary transition-all">3</button>
+          <span class="px-2 text-slate-400">...</span>
+          <button
+            class="w-10 h-10 rounded-lg flex items-center justify-center border border-slate-200 dark:border-slate-700 font-bold hover:text-primary hover:border-primary transition-all">12</button>
+          <button
+            class="w-10 h-10 rounded-lg flex items-center justify-center border border-slate-200 dark:border-slate-700 text-slate-400 hover:text-primary hover:border-primary transition-all">
+            <span class="material-icons-outlined">chevron_right</span>
+          </button>
+        </nav>
+      </div>
+      <aside class="lg:col-span-4 space-y-10">
+        <section class="bg-primary rounded-2xl p-8 text-white shadow-xl shadow-primary/20">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="material-icons-outlined text-3xl">mail</span>
+            <h4 class="font-display text-xl font-bold">Newsletter</h4>
+          </div>
+          <p class="text-white/90 mb-6 text-sm leading-relaxed">Verpasse keine Neuigkeiten mehr. Wir informieren dich
+            über Termine, Ergebnisse und Vereins-Events.</p>
+          <form class="space-y-3">
+            <input class="w-full px-4 py-3 rounded-xl border-none text-slate-900 focus:ring-2 focus:ring-white"
+              placeholder="Deine E-Mail Adresse" type="email" aria-label="E-Mail Adresse für Newsletter" />
+            <button
+              class="w-full bg-slate-900 text-white font-bold py-3 rounded-xl hover:bg-slate-800 transition-colors">Abonnieren</button>
+          </form>
+        </section>
+        <section class="bg-card-light dark:bg-card-dark rounded-2xl p-8 border border-slate-100 dark:border-slate-800">
+          <div class="flex items-center justify-between mb-6">
+            <div class="flex items-center gap-3">
+              <img alt="RLC Profile" class="w-8 h-8 rounded-full border border-primary"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLxWakq7hg6ytpjYqCVITFT_vu6INO9MpXHBMlcaahoI2EPg84uplMud7ZnJgqqfeyxP8OIFHKXLrVmKI5brVHTxzASRmn6LHvumSmlTUjAy4K5DO5Cg4qUHL5g9lrJipp7jijDXdR1gfW3LQSaOgHb8pCxZmwGCdIPApkMuu0gjWCnt37cH0niy1Ap0Z6DRxKTesmzcsYKR9id4dzgbreUHzxVdmxIdRLamPyEsXo8IZyzCf1LvXb11pGXNi-iUi3P_JCtcSkOSS7" />
+              <h4 class="font-bold text-sm tracking-tight">Instagram @rlc1952</h4>
+            </div>
+            <a class="text-primary text-xs font-bold hover:underline" href="#">Folgen</a>
+          </div>
+          <div class="grid grid-cols-3 gap-2">
+            <img alt="Post"
+              class="aspect-square object-cover rounded-lg hover:opacity-80 cursor-pointer transition-opacity"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDtapXZSBLnPJvlbQ8oCC27RgPOpntZ0Ps7SzFB83gg_6kKg0xuJ0nn_GwBPAN91LTDJrUiZsZbNL9ucFuYi9_JaD-ziBV6TfYvFKIfquxT4isOMiBXRhOwSmksJiCbkrPzpMslMc4WQfUBNry1NlJSXVxA_NmUqQ14AqrpCpF-snwMO4-XnBC239zoSUCX5U_y4_IIRoMqk16i-l-IpzCHsLKRB-tltsLqmAGKe1ctCDlXUXTLrTDzwnyuhNjQv4A_HOSV5LoQ4Ml1" />
+            <img alt="Post"
+              class="aspect-square object-cover rounded-lg hover:opacity-80 cursor-pointer transition-opacity"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAqQCkYw7pF7AK2PZYkoqulxWQAZT27EPjb1Ope63cSBRItNmyRsOESDi0pwNvGhtuXMjaDHqKen-k1xHEVu1pYDq6pZB3LKlewXfTG-3AfAAYAKf4UcD6MOMOQJoqNOTdh59od3Ss1YXUZm3ThgeDtfqaL85a-MB6_wJnZETkVz7On5wXH6mymDMO6_YI-kGIFh7PX7p30bXU1Tkb7MBtWmzPlAOQ8egeJRrrJHCpXZtcSKndhKOGrYounSuSkhHPYmAhvlToxWBO" />
+            <img alt="Post"
+              class="aspect-square object-cover rounded-lg hover:opacity-80 cursor-pointer transition-opacity"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDHqUB4tQPEVKBSbn8IB6tuPzEpz_Mksa4sSag9kzGgpypzAbcp4tdiA3TgtxA2ejqiUlL6KgsOB7Xg3UndQBqD6Uw1vCzQLom2QrfuXA3HOe3wQP7X-aVT-ijEPPigb_CKZfdxU3qgFvT-DEns0fJ5Qt_3FxxJVWX36hSElmK2YhXAQLoeoetGLGvjdkfCZD1udu5YAgKm2L7IBiw0JR08MZLM_j-bQxIz4C8uacgWHbTmRkce0wZ8Z8f0FdUU1YTpL2VlAKeHiktP" />
+            <img alt="Post"
+              class="aspect-square object-cover rounded-lg hover:opacity-80 cursor-pointer transition-opacity"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpUoD2nf-mMXiN70gc8u5n1vFSlyLpuyZFYg2XG30LPeAZhjpwPm5z2Aehv20pd6A1aQWgFvXmoEBmKWYpCfxnjux-5oqjcyKxCdpLAHZ5qgPB01RRdDFwAHx7mzJT2PR0Yjhn64SUl7kyNSK_5FOCXkrxiW6ON7EiUh_XF1UvJNoIasxlV3GJJo2EFv222sVKiNzHbhQyLj0C3abHxh7iMC0xRbHn6ekqierRvlxqkn1elDGS5xArvbVketeQBG4g-kRQC0HROIbQ" />
+            <img alt="Post"
+              class="aspect-square object-cover rounded-lg hover:opacity-80 cursor-pointer transition-opacity"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1ilmH97BWebbtnz9C3Fvt1ymEUQVbxaE7byyxq-pR7pFtYvs6ECivmxFhvLQpwAwr9UN6tgFGiiPNydrXVlmOzSDeKPz8_x6bWL0NuKWZCiel10j1sTw_xI3O0kjazTU2sV3ULYsdNngm--N_x9VrcZAHX1yVngnWL7QUlh7Koni298mHau7XE5mjnNQ-fEheLuRe6AYBV2yjl6SndLXBg39Pu6971T446GtoT0Zx3uAxiiERUvuy3_OUAVxkffMJe0R_ggSaqmA6" />
+            <img alt="Post"
+              class="aspect-square object-cover rounded-lg hover:opacity-80 cursor-pointer transition-opacity"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpifx6M9RMwcUdLAB0PPJXnUH3UECnDq9mp--XHwDeGn396lcJMlYmlriqgv3SLFGJBb7fDv6i463rf5ciMbbFIK2T4nfIC0pkDXeGC8ZulUOupv-0wDaHkxu8hmQTkX9w_RR5WgwxgOeV5wj2l8_wS5XAsFF7iw0zh_S8LU_KGpCdzNP6eHdXZpBBAZWgWshxWTNicaSeC15PNKStm-JNkyk5TP5t2R8nyawKta3qlFVv8dAyNr-FJK8DU5IlkTnDtT50rJmjuxhP" />
+          </div>
+        </section>
+        <section class="space-y-4">
+          <p class="text-xs font-bold text-slate-400 uppercase tracking-widest text-center">Gefördert durch</p>
+          <div
+            class="bg-white dark:bg-white rounded-xl p-6 flex flex-col items-center gap-6 shadow-sm grayscale hover:grayscale-0 transition-all">
+            <img alt="Landessportbund NRW" class="h-12 w-auto object-contain"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBtjEU7QXs2jKmuC5nG0GzaDW2lPf9gEiK4tft32RBNn9JUQZVoglEZBOWw0AGpRUuvYtc0hwfuGhLrnPeuN5-eF27HvpDKrcihAfmhcp_Egso15T680bOIVeSn-pUjIzRp5ahKl54F-RBLYb0Afrs-Olhy-H90s8c8rU1j6IRmGbJcrJJfdVcZewqREPYmO8ogD08UtvUjRIs0BRG5vpoDZH2SoiRGiw-M9MKJNeLs6XV4VD9F1vMn4ge8ihgkezMkizMYBQ--wbA0" />
+            <img alt="bodynostic" class="h-10 w-auto object-contain"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCfyU5HXyFywmH1wpk6OJPjDvGfXy3CoMprk0_BOAoVy5gA9fWfFGPe-qhLJnMor3OB2XqiTZgAwtmdn-BDtfjG-ze5NiU4PvjpSiRgywLNyxbwsA-2RCrkgjRvt-kwttP8SWqmKGhSqepNGM6Chzmg5uSxdvr4GJ7xLvZRGRVG83MxxNKh2X4VjZUYpc3goMF6ia4ErsKpnyqiEWhTAIH_7XRXp5FabqWJV3u7sQ_pisYepEHPLKr2swH-SopbYbOiazPyTCWPHE3C" />
+          </div>
+        </section>
+        <div class="bg-slate-100 dark:bg-slate-800/50 rounded-2xl p-8">
+          <h4 class="font-bold mb-4">Interne Links</h4>
+          <ul class="space-y-3">
+            <li><a class="text-sm flex items-center gap-2 hover:text-primary transition-colors" href="#"><span
+                  class="material-icons-outlined text-sm">chevron_right</span> Mitgliederbereich</a></li>
+            <li><a class="text-sm flex items-center gap-2 hover:text-primary transition-colors" href="#"><span
+                  class="material-icons-outlined text-sm">chevron_right</span> Downloads</a></li>
+            <li><a class="text-sm flex items-center gap-2 hover:text-primary transition-colors" href="#"><span
+                  class="material-icons-outlined text-sm">chevron_right</span> Vereinssatzung</a></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </main>
+  <footer></footer>
+
+  <script>
+    const ARTICLES_PER_PAGE = 10;
+    let currentPage = 1;
+
+    function renderPagination(totalArticles) {
+      const totalPages = Math.ceil(totalArticles / ARTICLES_PER_PAGE);
+      const nav = document.querySelector('nav');
+      if (!nav) return;
+
+      nav.innerHTML = '';
+
+      // Prev Button
+      const prevBtn = document.createElement('button');
+      prevBtn.className = `w-10 h-10 rounded-lg flex items-center justify-center border border-slate-200 dark:border-slate-700 ${currentPage === 1 ? 'text-slate-300 pointer-events-none' : 'text-slate-400 hover:text-primary hover:border-primary'} transition-all`;
+      prevBtn.innerHTML = '<span class="material-icons-outlined">chevron_left</span>';
+      prevBtn.onclick = () => { if (currentPage > 1) { currentPage--; loadNews(); window.scrollTo(0, 0); } };
+      nav.appendChild(prevBtn);
+
+      // Page Numbers (Simplified: current, start, end, dots)
+      let startPage = Math.max(1, currentPage - 2);
+      let endPage = Math.min(totalPages, currentPage + 2);
+
+      if (startPage > 1) {
+        nav.appendChild(createPageBtn(1));
+        if (startPage > 2) nav.appendChild(createDots());
+      }
+
+      for (let i = startPage; i <= endPage; i++) {
+        nav.appendChild(createPageBtn(i));
+      }
+
+      if (endPage < totalPages) {
+        if (endPage < totalPages - 1) nav.appendChild(createDots());
+        nav.appendChild(createPageBtn(totalPages));
+      }
+
+      // Next Button
+      const nextBtn = document.createElement('button');
+      nextBtn.className = `w-10 h-10 rounded-lg flex items-center justify-center border border-slate-200 dark:border-slate-700 ${currentPage === totalPages ? 'text-slate-300 pointer-events-none' : 'text-slate-400 hover:text-primary hover:border-primary'} transition-all`;
+      nextBtn.innerHTML = '<span class="material-icons-outlined">chevron_right</span>';
+      nextBtn.onclick = () => { if (currentPage < totalPages) { currentPage++; loadNews(); window.scrollTo(0, 0); } };
+      nav.appendChild(nextBtn);
+    }
+
+    function createPageBtn(page) {
+      const btn = document.createElement('button');
+      btn.className = `w-10 h-10 rounded-lg flex items-center justify-center font-bold transition-all ${currentPage === page ? 'bg-primary text-white shadow-lg shadow-primary/20' : 'border border-slate-200 dark:border-slate-700 hover:text-primary hover:border-primary'}`;
+      btn.textContent = page;
+      btn.onclick = () => { currentPage = page; loadNews(); window.scrollTo(0, 0); };
+      return btn;
+    }
+
+    function createDots() {
+      const span = document.createElement('span');
+      span.className = 'px-2 text-slate-400';
+      span.textContent = '...';
+      return span;
+    }
+
+    async function loadNews() {
+      try {
+        const news = window.newsData || [];
+        const container = document.getElementById('news-container');
+        if (!container) return;
+
+        container.innerHTML = '';
+
+        const start = (currentPage - 1) * ARTICLES_PER_PAGE;
+        const end = start + ARTICLES_PER_PAGE;
+        const pageArticles = news.slice(start, end);
+
+        if (pageArticles.length === 0) {
+          container.innerHTML = '<p class="text-center py-12 text-slate-500">Keine weiteren Artikel gefunden.</p>';
+          return;
+        }
+
+        pageArticles.forEach(article => {
+          const card = document.createElement('article');
+          card.className = "group bg-card-light dark:bg-card-dark rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-100 dark:border-slate-800";
+
+          const imageUrl = article.images && article.images.length > 0 ? article.images[0].local : 'https://via.placeholder.com/600x400?text=RLC+1952';
+          const fullImageUrl = imageUrl.startsWith('http') ? imageUrl : '../' + imageUrl;
+
+          card.innerHTML = `
+                        <div class="flex flex-col md:row gap-0">
+                            <div class="md:grid md:grid-cols-5 h-full">
+                                <div class="md:col-span-2 relative overflow-hidden h-64 md:h-full min-h-[250px]">
+                                    <img src="${fullImageUrl}" alt="${article.title}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" onerror="this.src='https://via.placeholder.com/800x600?text=RLC+1952'">
+                                    <div class="absolute top-4 left-4">
+                                        <span class="bg-primary text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider shadow-sm">${article.date}</span>
+                                    </div>
+                                </div>
+                                <div class="md:col-span-3 p-6 md:p-8 flex flex-col justify-between bg-white dark:bg-slate-900">
+                                    <div class="space-y-4">
+                                        <h3 class="font-display text-2xl font-bold group-hover:text-primary transition-colors leading-tight">${article.title}</h3>
+                                        <p class="text-slate-600 dark:text-slate-400 line-clamp-3 text-base leading-relaxed">
+                                            ${article.content_text}
+                                        </p>
+                                    </div>
+                                    <div class="mt-8 flex items-center justify-between">
+                                        <a href="news/${article.id}.html" class="inline-flex items-center font-bold text-primary group/link hover:underline">
+                                            Weiterlesen
+                                            <span class="material-icons-outlined text-sm ml-1 transition-transform group-hover/link:translate-x-1">arrow_forward</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+          container.appendChild(card);
+        });
+
+        renderPagination(news.length);
+      } catch (error) {
+        console.error('Error loading news:', error);
+        document.getElementById('news-container').innerHTML = '<p class="col-span-full text-center text-red-500 py-12">Fehler beim Laden des Archivs.</p>';
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', loadNews);
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,10939 @@
+window.newsData = [
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-0-10193",
+        "id": "10193",
+        "title": "NEUES JAHR - NEUE QUALIS TEIL 2",
+        "date": "06. Januar 2026",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20260106173515_Arne_Bianca.jpg\"/></div><p class=\"detailViewTop\"><b>Auch die Senioren starteten in die neue Wettkampfsaison mit einem Top-Ergebnis.<br>Aus dem vollen Training heraus startete Arne Wendler am 04.01.2026 bei einem Hallenwettkampf in Luxemburg über die 60m in der Altersklasse M55.</br></b></p>",
+        "content_text": "Auch die Senioren starteten in die neue Wettkampfsaison mit einem Top-Ergebnis.\nAus dem vollen Training heraus startete Arne Wendler am 04.01.2026 bei einem Hallenwettkampf in Luxemburg über die 60m in der Altersklasse M55.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20260106173515_Arne_Bianca.jpg",
+                "local": "news_assets/10193/zoom_20260106173515_Arne_Bianca.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-0-10192",
+        "id": "10192",
+        "title": "NEUES JAHR - NEUE QUALIS TEIL 1",
+        "date": "06. Januar 2026",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20260106173623_Jonathan_Patrizio.JPG\"/></div><p class=\"detailViewTop\"><b>Den ersten Wettkampf des neuen Jahres 2026 absolvierten die Athletinnen und Athletinnen der Wettkampfgruppe U18+ in Dortmund beim New Year Indoor in der Helmut-Körnig-Halle am 04.01.2026. </b></p>",
+        "content_text": "Den ersten Wettkampf des neuen Jahres 2026 absolvierten die Athletinnen und Athletinnen der Wettkampfgruppe U18+ in Dortmund beim New Year Indoor in der Helmut-Körnig-Halle am 04.01.2026.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20260106173623_Jonathan_Patrizio.JPG",
+                "local": "news_assets/10192/zoom_20260106173623_Jonathan_Patrizio.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-0-10191",
+        "id": "10191",
+        "title": "RECKLINGHäUSER LC GLäNZT BEIM JUNIOR-ADVENTSCUP IN DORTMUND",
+        "date": "15. Dezember 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20251215153135_Jendrik.jpg\"/></div><p class=\"detailViewTop\"><b>Beim Junior-Adventscup in der Helmut-Körnig-Halle am 13. Dezember 2025 präsentierte sich der Nachwuchs des Recklinghäuser LC in starker Form. Mit persönlichen Bestleistungen und soliden Platzierungen zeigten die Athletinnen und Athleten, dass sie bestens für die Hallensaison gerüstet sind.</b></p>",
+        "content_text": "Beim Junior-Adventscup in der Helmut-Körnig-Halle am 13. Dezember 2025 präsentierte sich der Nachwuchs des Recklinghäuser LC in starker Form. Mit persönlichen Bestleistungen und soliden Platzierungen zeigten die Athletinnen und Athleten, dass sie bestens für die Hallensaison gerüstet sind.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20251215153135_Jendrik.jpg",
+                "local": "news_assets/10191/zoom_20251215153135_Jendrik.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-1-10190",
+        "id": "10190",
+        "title": "KILA-CUP-EHRUNG U10",
+        "date": "03. Dezember 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20251203180257_U10KuLaCup.jpeg\"/></div><p class=\"detailViewTop\"><b>Auch die Kids der Jahrgänge 2016/2017 haben sich beim Kreis-KiLa-Cup 2025 richtig gut geschlagen. Sie belegten bei der Endabrechnung aller drei Wettbewerde den 3. Rang und wurden ebenfalls mit einem Pokal geehrt, den hier Zeynep Cüce stolz als erste hochhält.</b></p>",
+        "content_text": "Auch die Kids der Jahrgänge 2016/2017 haben sich beim Kreis-KiLa-Cup 2025 richtig gut geschlagen. Sie belegten bei der Endabrechnung aller drei Wettbewerde den 3. Rang und wurden ebenfalls mit einem Pokal geehrt, den hier Zeynep Cüce stolz als erste hochhält.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20251203180257_U10KuLaCup.jpeg",
+                "local": "news_assets/10190/zoom_20251203180257_U10KuLaCup.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-1-10189",
+        "id": "10189",
+        "title": "EHRUNG IM KILA-CUP U8",
+        "date": "03. Dezember 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20251203180020_U8KiLaCup.jpeg\"/></div><p class=\"detailViewTop\"><b>Auch die jüngsten Wettkämpferinnen und Wettkämpfer der Jahrgänge 2018/2019 wurden für ihren 4. Platz im Kreis-KiLa-Cup 2025 durhc einen Pokal geehrt. </b></p>",
+        "content_text": "Auch die jüngsten Wettkämpferinnen und Wettkämpfer der Jahrgänge 2018/2019 wurden für ihren 4. Platz im Kreis-KiLa-Cup 2025 durhc einen Pokal geehrt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20251203180020_U8KiLaCup.jpeg",
+                "local": "news_assets/10189/zoom_20251203180020_U8KiLaCup.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-1-10188",
+        "id": "10188",
+        "title": "KREISMEISTEREHRUNG",
+        "date": "03. Dezember 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20251203175530_KMEhrung.jpeg\"/></div><p class=\"detailViewTop\"><b>Wie in jedem Jahr wurden im Rahmen des RLC-Wintersportfestes auch die Kreismeister in Reihen des Recklinghäuser LC mit einem Best-of-T-Shirt 2025 geehrt.</b></p>",
+        "content_text": "Wie in jedem Jahr wurden im Rahmen des RLC-Wintersportfestes auch die Kreismeister in Reihen des Recklinghäuser LC mit einem Best-of-T-Shirt 2025 geehrt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20251203175530_KMEhrung.jpeg",
+                "local": "news_assets/10188/zoom_20251203175530_KMEhrung.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-2-10187",
+        "id": "10187",
+        "title": "WINTERSPORTFEST 2025",
+        "date": "03. Dezember 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20251203174201_Totale_Wintersportfest.jpeg\"/></div><p class=\"detailViewTop\"><b>Am 01.12.2025 lud der Recklinghäuser LC wieder alle Kinder der Jahrgänge 2020 - 2013 zum traditionellen Wintersportfest ein. Fast 90 Kinder folgten dieser Einladung und tobten sich bei alternativen Diziplinen wie</b></p>",
+        "content_text": "Am 01.12.2025 lud der Recklinghäuser LC wieder alle Kinder der Jahrgänge 2020 - 2013 zum traditionellen Wintersportfest ein. Fast 90 Kinder folgten dieser Einladung und tobten sich bei alternativen Diziplinen wie",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20251203174201_Totale_Wintersportfest.jpeg",
+                "local": "news_assets/10187/zoom_20251203174201_Totale_Wintersportfest.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-2-10186",
+        "id": "10186",
+        "title": "UND NOCH EIN KREISMEISTERTITEL",
+        "date": "03. Dezember 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20251203173146_JrgenKM_Halbmarathon30.11.2025.png\"/></div><p class=\"detailViewTop\"><b>Bei den im Rahmen der Bertlicher Strassenläufe stattfindenden Kreishalbmarathonmeisterschaften am 30.11.2025 holte Dauerläufer Jürgen Neuhausen seinen nächsten Titel, diesmal auf der ungewohnt langen Strecke.</b></p>",
+        "content_text": "Bei den im Rahmen der Bertlicher Strassenläufe stattfindenden Kreishalbmarathonmeisterschaften am 30.11.2025 holte Dauerläufer Jürgen Neuhausen seinen nächsten Titel, diesmal auf der ungewohnt langen Strecke.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20251203173146_JrgenKM_Halbmarathon30.11.2025.png",
+                "local": "news_assets/10186/zoom_20251203173146_JrgenKM_Halbmarathon30.11.2025.png"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-3-10185",
+        "id": "10185",
+        "title": "WINTERSPORTFEST IM RECKLINGHäUSER LC",
+        "date": "16. November 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20251116153315_RLC-Logo_450x150.png\"/></div><p class=\"detailViewTop\"><b><strong>Liebe Eltern</strong>, <strong>der Recklinghäuser LC veranstaltet am Montag, den 01.12.2025 sein traditionelles Wintersportfest für alle Kinder des RLC vom Jahrgang 2020 - 2013.</strong></b></p>",
+        "content_text": "Liebe Eltern\n,\nder Recklinghäuser LC veranstaltet am Montag, den 01.12.2025 sein traditionelles Wintersportfest für alle Kinder des RLC vom Jahrgang 2020 - 2013.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20251116153315_RLC-Logo_450x150.png",
+                "local": "news_assets/10185/zoom_20251116153315_RLC-Logo_450x150.png"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-2-10184",
+        "id": "10184",
+        "title": "JüRGEN NEUHAUSEN KäMPFT SICH DURCH!",
+        "date": "16. November 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20251116152345_Jrgeb_01.jpeg\"/></div><p class=\"detailViewTop\"><b>Bei den Westf. Meisterschaften im Crosslauf am 15.11. in Oelde und typischem Crosslaufwetter ( kühl-nieselig, einfach ungemütlich) hat RLC-Langstreckler Jürgen Neuhausen einen tollen 4. Platz in seiner Altersklasse belegt.</b></p>",
+        "content_text": "Bei den Westf. Meisterschaften im Crosslauf am 15.11. in Oelde und typischem Crosslaufwetter ( kühl-nieselig, einfach ungemütlich) hat RLC-Langstreckler Jürgen Neuhausen einen tollen 4. Platz in seiner Altersklasse belegt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20251116152345_Jrgeb_01.jpeg",
+                "local": "news_assets/10184/zoom_20251116152345_Jrgeb_01.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-3-10181",
+        "id": "10181",
+        "title": "ÄNDERUNG DER TRAININGSGRUPPEN UND TRAININGSZEITEN",
+        "date": "16. Oktober 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20251016175644_RLC-Logo_450x150.png\"/></div><p class=\"detailViewTop\"><b>Wie in jedem Jahr, werden nach den Herbstferien in Verbindung mit dem Wechsel in die Sporthallen unsere Trainingsgruppen im Kinder- und Jugendbereich neu konfiguriert. Damit ergeben sich für viele Gruppen auch Veränderung an Wochentag und Trainingszeit.</b></p>",
+        "content_text": "Wie in jedem Jahr, werden nach den Herbstferien in Verbindung mit dem Wechsel in die Sporthallen unsere Trainingsgruppen im Kinder- und Jugendbereich neu konfiguriert. Damit ergeben sich für viele Gruppen auch Veränderung an Wochentag und Trainingszeit.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20251016175644_RLC-Logo_450x150.png",
+                "local": "news_assets/10181/zoom_20251016175644_RLC-Logo_450x150.png"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-4-10180",
+        "id": "10180",
+        "title": "ERFOLGREICHE KIDS-CUP- TEILNEHMER IM TRIKOT DES RLC",
+        "date": "06. Oktober 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20251006181433_U10_cup_02.jpg\"/></div><p class=\"detailViewTop\"><b>Im Jahr 2025 gab es drei Kinderleichtathletik-Veranstaltungen im Rahmen der Recklinghäuser Kids-Cup-Serie für Kinder U8 und U10. Am gestrigen Staffeltag ging das Finale in Bertlich</b></p>",
+        "content_text": "Im Jahr 2025 gab es drei Kinderleichtathletik-Veranstaltungen im Rahmen der Recklinghäuser Kids-Cup-Serie für Kinder U8 und U10. Am gestrigen Staffeltag ging das Finale in Bertlich",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20251006181433_U10_cup_02.jpg",
+                "local": "news_assets/10180/zoom_20251006181433_U10_cup_02.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-4-10179",
+        "id": "10179",
+        "title": "DAUERLäUFER NEUHAUSEN ERFOLGREICH UNTERWEGS",
+        "date": "06. Oktober 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20251006175627_HM_Jrgen.jpeg\"/></div><p class=\"detailViewTop\"><b>Am 28.09.2025 fanden im Rahmen der Bertlicher Straßenläufe auch die Westf. Halbmarathonmeisterschaften statt. Mit dabei wie immer: Ü60-Seniorenläufer Jürgen Neuhausen.</b></p>",
+        "content_text": "Am 28.09.2025 fanden im Rahmen der Bertlicher Straßenläufe auch die Westf. Halbmarathonmeisterschaften statt. Mit dabei wie immer: Ü60-Seniorenläufer Jürgen Neuhausen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20251006175627_HM_Jrgen.jpeg",
+                "local": "news_assets/10179/zoom_20251006175627_HM_Jrgen.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-3-10178",
+        "id": "10178",
+        "title": "NOCH MEHR KREISMEISTERTITEL FüR DEN RLC",
+        "date": "06. Oktober 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20251006102946_6x50.jpg\"/></div><p class=\"detailViewTop\"><b>am 05.10.2025 fanden in Herten-Bertlich die Kreismeisterschaften der Staffeln, wie eigentlich immer in den vergangenen Jahren bei nass-kühlen 11°C und stürmischen Winden. Der RLC konnte nur mit einer reduzierten Anzahl an Staffeln teilnehmen, da einige Athleten zeitgleich zu einer Kadermaßnahme eingeladen waren.</b></p>",
+        "content_text": "am 05.10.2025 fanden in Herten-Bertlich die Kreismeisterschaften der Staffeln, wie eigentlich immer in den vergangenen Jahren bei nass-kühlen 11°C und stürmischen Winden. Der RLC konnte nur mit einer reduzierten Anzahl an Staffeln teilnehmen, da einige Athleten zeitgleich zu einer Kadermaßnahme eingeladen waren.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20251006102946_6x50.jpg",
+                "local": "news_assets/10178/zoom_20251006102946_6x50.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-4-10177",
+        "id": "10177",
+        "title": "42. STADTMEISTERSCHAFTEN: VIELE BESTLEISTUNGEN DES RLC-NACHWUCHSES",
+        "date": "21. September 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250921200135_1000003968.jpg\"/></div><p class=\"detailViewTop\"><b>Am 20.09.2025 fanden im heimischen Hohenhorst-Stadion die 42. Stadtmeisterschaften Recklinghausens unter der Federführung des RLC bei bestem Leichtathletik-Wetter statt.<br>Ausgelegt für Jahrgänge 2017 – 2008 gab es die meisten Meldungen im Kinderbereich, schließlich war es die letzte Bahn-Veranstaltung im Stadion 2025.</br></b></p>",
+        "content_text": "Am 20.09.2025 fanden im heimischen Hohenhorst-Stadion die 42. Stadtmeisterschaften Recklinghausens unter der Federführung des RLC bei bestem Leichtathletik-Wetter statt.\nAusgelegt für Jahrgänge 2017 – 2008 gab es die meisten Meldungen im Kinderbereich, schließlich war es die letzte Bahn-Veranstaltung im Stadion 2025.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250921200135_1000003968.jpg",
+                "local": "news_assets/10177/zoom_20250921200135_1000003968.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-5-10176",
+        "id": "10176",
+        "title": "RLC-QUARTETT MIT GUTEN LEISTUNGEN BEI WESTF. U14-MEISTERSCHAFTEN",
+        "date": "17. September 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250917181717_Jendrik.jpg\"/></div><p class=\"detailViewTop\"><b>Die Westfälischen U14-Meisterschaften fanden in diesem Jahr am 14.09.2025 im heimischen Hohenhorst-Stadion statt. Dafür hatten sich mit Inga Ribbrock, Mats Banaszak, Jendrik Tornow Lafuente und Aron Porr gleich 4 Aktive des RLC qualifiziert.</b></p>",
+        "content_text": "Die Westfälischen U14-Meisterschaften fanden in diesem Jahr am 14.09.2025 im heimischen Hohenhorst-Stadion statt. Dafür hatten sich mit Inga Ribbrock, Mats Banaszak, Jendrik Tornow Lafuente und Aron Porr gleich 4 Aktive des RLC qualifiziert.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250917181717_Jendrik.jpg",
+                "local": "news_assets/10176/zoom_20250917181717_Jendrik.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-5-10175",
+        "id": "10175",
+        "title": "WARTELISTE U6 UND U8",
+        "date": "15. September 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250915090038_RLC-Logo_450x150.png\"/></div><p class=\"detailViewTop\"><b>Liebe Eltern, aufgrund des starken Andrangs sehen wir uns gezwungen, für die Gruppe U6, d.h. Kinder der Jahrgänge 2020/2021 eine Aufnahmesperre auszusprechen. Das gilt auch fürs Probetraining.</b></p>",
+        "content_text": "Liebe Eltern, aufgrund des starken Andrangs sehen wir uns gezwungen, für die Gruppe U6, d.h. Kinder der Jahrgänge 2020/2021 eine Aufnahmesperre auszusprechen. Das gilt auch fürs Probetraining.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250915090038_RLC-Logo_450x150.png",
+                "local": "news_assets/10175/zoom_20250915090038_RLC-Logo_450x150.png"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-5-10174",
+        "id": "10174",
+        "title": "ERFOLGREICHE RLCLER BEI 5KM-WESTFALENMEISTERSCHAFTEN",
+        "date": "26. August 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250826145752_5km_01.jpg\"/></div><p class=\"detailViewTop\"><b>Am 24.08.2025 fanden eingebettet in die Gladbecker Sparkassenläufe die Westf. 5Km-Meisterschaften bei idealem Lauf-Wetter statt. Die sechs gemeldeten RLC-Aktiven platzierten sich allesamt auf dem Treppchen, auch die einzige weibliche Mannschaft des RLC mit Janine Langer, Hannah Dahmen und Gabi Ott landete auf einem guten 5. Rang.</b></p>",
+        "content_text": "Am 24.08.2025 fanden eingebettet in die Gladbecker Sparkassenläufe die Westf. 5Km-Meisterschaften bei idealem Lauf-Wetter statt. Die sechs gemeldeten RLC-Aktiven platzierten sich allesamt auf dem Treppchen, auch die einzige weibliche Mannschaft des RLC mit Janine Langer, Hannah Dahmen und Gabi Ott landete auf einem guten 5. Rang.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250826145752_5km_01.jpg",
+                "local": "news_assets/10174/zoom_20250826145752_5km_01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-6-10172",
+        "id": "10172",
+        "title": "4X400M-MJ-STAFFEL DER STG RECKLINGHAUSEN-HAMM IST DEUTSCHER MEISTER!",
+        "date": "02. August 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250807150929_IMG-20250804-WA0008.jpg\"/></div><p class=\"detailViewTop\"><b>Patrizio Paschek, Jonathan Perner, Mattis Sand und Fabien Straberg haben sich bei den im Rahmen der Finals in Dresden stattfindenen nationalen Staffelmeisterschaften der Jugendlichen in bravouröser Manier den Titel erkämpft!</b></p>",
+        "content_text": "Patrizio Paschek, Jonathan Perner, Mattis Sand und Fabien Straberg haben sich bei den im Rahmen der Finals in Dresden stattfindenen nationalen Staffelmeisterschaften der Jugendlichen in bravouröser Manier den Titel erkämpft!",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250807150929_IMG-20250804-WA0008.jpg",
+                "local": "news_assets/10172/zoom_20250807150929_IMG-20250804-WA0008.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-6-10169",
+        "id": "10169",
+        "title": "LINDA BEERHORST BEI DER DM U23 IN ULM",
+        "date": "15. Juli 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250715173955_Linda_Ulm_bearb..jpg\"/></div><p class=\"detailViewTop\"><b>Als einzige Starterin bei der DM U23 vom 04.-06.Juli in Ulm vertrat Linda Beerhorst die Farben des RLC. Bei sehr guten äußeren Bedingungen ging Linda <br>über 400m an den Start. Im 3. Vorlauf lief sie in 57,19 sec eine neue persönliche Bestzeit. „Gerne wäre ich unter 57 Sekunden geblieben“, war ihr nicht ganz zufriedenes Fazit. Dazu gibt es ja in der Saison noch weitere Möglichkeiten!</br></b></p>",
+        "content_text": "Als einzige Starterin bei der DM U23 vom 04.-06.Juli in Ulm vertrat Linda Beerhorst die Farben des RLC. Bei sehr guten äußeren Bedingungen ging Linda\nüber 400m an den Start. Im 3. Vorlauf lief sie in 57,19 sec eine neue persönliche Bestzeit. „Gerne wäre ich unter 57 Sekunden geblieben“, war ihr nicht ganz zufriedenes Fazit. Dazu gibt es ja in der Saison noch weitere Möglichkeiten!",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250715173955_Linda_Ulm_bearb..jpg",
+                "local": "news_assets/10169/zoom_20250715173955_Linda_Ulm_bearb..jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-6-10168",
+        "id": "10168",
+        "title": "DM U18/U20 IM NEUEN SPORTPARK LOHRHEIDE MIT RLC-BETEILIGUNG",
+        "date": "15. Juli 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250715173528_400m_Cracks_Trainer.JPG\"/></div><p class=\"detailViewTop\"><b>Mit den dreitägigen Deutschen U18- und U20 Meisterschaften wurde der mit <br>55 Millionen Euro neu umgebaute und modernisierte Sportpark Lohrheide in Wattenscheid von NRW Ministerpräsident Hendrik Wüst offiziell eröffnet.<br/>Bei der „Premierenfeier“ waren zahlreiche Athleten des RLC vertreten.</br></b></p>",
+        "content_text": "Mit den dreitägigen Deutschen U18- und U20 Meisterschaften wurde der mit\n55 Millionen Euro neu umgebaute und modernisierte Sportpark Lohrheide in Wattenscheid von NRW Ministerpräsident Hendrik Wüst offiziell eröffnet.\nBei der „Premierenfeier“ waren zahlreiche Athleten des RLC vertreten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250715173528_400m_Cracks_Trainer.JPG",
+                "local": "news_assets/10168/zoom_20250715173528_400m_Cracks_Trainer.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-7-10167",
+        "id": "10167",
+        "title": "FLVW-MASTERS IN WASSENBERG: RLC-SENIORINNEN UND -SENIOREN TRUMPFEN AUF/ JüRGEN NEUHAUSEN STARTETE BEIM WINTERBERGER BOBBAHN-RENNEN",
+        "date": "07. Juli 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250707104945_Senioren_Urkunden.jpg\"/></div><p class=\"detailViewTop\"><b>Am 05.07./06.07.2025 fanden in diesem Jahr die FLVW-Senioren-Meisterschaften in Wasserberg als Kombi-Veranstaltung mit dem Verband Nordrhein statt. Am ersten Tag war das Wetter ok, wenn auch windig, am 2. Tag kalt, nass und windig, was den Beteiligten alles abverlangte.</b></p>",
+        "content_text": "Am 05.07./06.07.2025 fanden in diesem Jahr die FLVW-Senioren-Meisterschaften in Wasserberg als Kombi-Veranstaltung mit dem Verband Nordrhein statt. Am ersten Tag war das Wetter ok, wenn auch windig, am 2. Tag kalt, nass und windig, was den Beteiligten alles abverlangte.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250707104945_Senioren_Urkunden.jpg",
+                "local": "news_assets/10167/zoom_20250707104945_Senioren_Urkunden.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-7-10166",
+        "id": "10166",
+        "title": "KREISMEHRKAMPFMEISTERSCHAFTEN: 6 WEITERE KREISMEISTERTITEL FüR DIE U10/U12",
+        "date": "05. Juli 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250705224625_Siegerehrung_WKU12.jpg\"/></div><p class=\"detailViewTop\"><b>Bei warmem und ruhigen Leichtathletikwetter konnten die Kreismehrkampf-meisterschaften am 05.07.2025 im heimischen Hohenhorst-Stadion zum Abschluss der Sommersaison ohne Probleme über die Bühne gebracht werden, 6 weitere Titel für den RLC sprangen dabei heraus.</b></p>",
+        "content_text": "Bei warmem und ruhigen Leichtathletikwetter konnten die Kreismehrkampf-meisterschaften am 05.07.2025 im heimischen Hohenhorst-Stadion zum Abschluss der Sommersaison ohne Probleme über die Bühne gebracht werden, 6 weitere Titel für den RLC sprangen dabei heraus.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250705224625_Siegerehrung_WKU12.jpg",
+                "local": "news_assets/10166/zoom_20250705224625_Siegerehrung_WKU12.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-7-10165",
+        "id": "10165",
+        "title": "KREISEINZELMEISTERSCHAFTEN: 17 TITEL FüR RLCLERINNEN",
+        "date": "03. Juli 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250703185820_Rohat_Marlena.jpg\"/></div><p class=\"detailViewTop\"><b>Die Kreiseinzelmeisterschaften am 29.06. in Haltern-Sythen gerieten wie eigentlich immer zu einer Hitzeschlacht par excellence: die Kids der Jahrgänge 2012 – 2017, die Kampfrichter: alle hatten damit zu tun, soviel Flüssigkeit wie möglich aufzunehmen und sich immer mal in einen schattigen Bereich zurückzuziehen.</b></p>",
+        "content_text": "Die Kreiseinzelmeisterschaften am 29.06. in Haltern-Sythen gerieten wie eigentlich immer zu einer Hitzeschlacht par excellence: die Kids der Jahrgänge 2012 – 2017, die Kampfrichter: alle hatten damit zu tun, soviel Flüssigkeit wie möglich aufzunehmen und sich immer mal in einen schattigen Bereich zurückzuziehen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250703185820_Rohat_Marlena.jpg",
+                "local": "news_assets/10165/zoom_20250703185820_Rohat_Marlena.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-8-10164",
+        "id": "10164",
+        "title": "21.-22.06.2025 LAGE  WESTFäLISCHE MEISTERSCHAFTEN II UND III MATEJA STEVIC UND JONATHAN PERNER WESTFäLISCHE MEISTER MJU18 4X100M LäUFT QUALI FüR DIE DEUTSCHEN MEISTERSCHAFTEN",
+        "date": "24. Juni 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250624153458_Jonathan_Patrizio.JPG\"/></div><p class=\"detailViewTop\"><b>Mit 25 Athleten und Athletinnen der Altersklassen U16/U18/U20/M/F startete der RLC Nachwuchs in Lage/ Ostwestfalen bei den westfälischen Meisterschaften II und III. Subtropische Bedingungen – bis zu 34° Samstag/Sonntag – verlangten den Aktiven alles ab.</b></p>",
+        "content_text": "Mit 25 Athleten und Athletinnen der Altersklassen U16/U18/U20/M/F startete der RLC Nachwuchs in Lage/ Ostwestfalen bei den westfälischen Meisterschaften II und III. Subtropische Bedingungen – bis zu 34° Samstag/Sonntag – verlangten den Aktiven alles ab.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250624153458_Jonathan_Patrizio.JPG",
+                "local": "news_assets/10164/zoom_20250624153458_Jonathan_Patrizio.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-8-10163",
+        "id": "10163",
+        "title": "RECKLINGHäUSER KIDS CUP: SECHS RLC-MANNSCHAFTEN IN GUTER FORM",
+        "date": "22. Juni 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250622180117_U12-Mannschaften_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Für den 14. Recklinghäuser Kids Cup am 19.06.2025 hatten je 2 Mannschaften der Altersklassen U8, U10 und U12 des RLC gemeldet. Die jüngeren zeigten sich stark verbessert gegenüber ihrem Auftritt in Oer-Erkenschwick, die älteren U12er steuerten viele persönliche Bestleistungen zum Gesamtergebnis bei.</b></p>",
+        "content_text": "Für den 14. Recklinghäuser Kids Cup am 19.06.2025 hatten je 2 Mannschaften der Altersklassen U8, U10 und U12 des RLC gemeldet. Die jüngeren zeigten sich stark verbessert gegenüber ihrem Auftritt in Oer-Erkenschwick, die älteren U12er steuerten viele persönliche Bestleistungen zum Gesamtergebnis bei.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250622180117_U12-Mannschaften_bearb.jpg",
+                "local": "news_assets/10163/zoom_20250622180117_U12-Mannschaften_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-8-10162",
+        "id": "10162",
+        "title": "NEUE BESTLEISTUNG FüR FABIAN STRABERG: 47,57SEC üBER 400M",
+        "date": "17. Juni 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250617104254_Fabian_Ludger.JPG\"/></div><p class=\"detailViewTop\"><b>Der Deutsche Leichtathletik Verband hatte am Wochenende ( 14.06.2025) seine Sprintelite nach Regensburg zur Sparkassen Gala eingeladen. <br>Dabei war auch der männliche Nachwuchskader 400m. Regensburg, ein erster Test<br/>auf den Weg zu den U20 Europameisterschaften am 07.-10.08.2025 in Tampere/Finnland. </br></b></p>",
+        "content_text": "Der Deutsche Leichtathletik Verband hatte am Wochenende ( 14.06.2025) seine Sprintelite nach Regensburg zur Sparkassen Gala eingeladen.\nDabei war auch der männliche Nachwuchskader 400m. Regensburg, ein erster Test\nauf den Weg zu den U20 Europameisterschaften am 07.-10.08.2025 in Tampere/Finnland.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250617104254_Fabian_Ludger.JPG",
+                "local": "news_assets/10162/zoom_20250617104254_Fabian_Ludger.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-9-10161",
+        "id": "10161",
+        "title": "JüRGEN NEUHAUSEN: PLATZ 3 BEI WESTFäLISCHEN 10KM-MEISTERSCHAFTEN",
+        "date": "15. Juni 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250615174906_Jrgen_10km3Pl.jpeg\"/></div><p class=\"detailViewTop\"><b>Unser dauerlaufender M60-Senior Jürden Neuhausen hat schon wieder zugeschlagen: am 15.06.2025 in Menden bei drückend-schwülem Wetter, gerade für Ausdauersportler nicht die günstigste Wetterlage, schaffte es Jürgen gegen starke Konkurrenz, sich 42:15min den 3. Platz bei den Westfälischen 10km-Meisterschaften zu sichern.</b></p>",
+        "content_text": "Unser dauerlaufender M60-Senior Jürden Neuhausen hat schon wieder zugeschlagen: am 15.06.2025 in Menden bei drückend-schwülem Wetter, gerade für Ausdauersportler nicht die günstigste Wetterlage, schaffte es Jürgen gegen starke Konkurrenz, sich 42:15min den 3. Platz bei den Westfälischen 10km-Meisterschaften zu sichern.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250615174906_Jrgen_10km3Pl.jpeg",
+                "local": "news_assets/10161/zoom_20250615174906_Jrgen_10km3Pl.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-9-10160",
+        "id": "10160",
+        "title": "DM NORMEN BEIM SUMMER MEETING IN DORTMUND",
+        "date": "02. Juni 2025",
+        "content_html": "<p class=\"detailViewTop\"><b>Zeitgleich zum bodynostic-Meeting am 31.05. in Recklinghausen starteten einige RLC Athleten/innen beim Sportfest in Dortmund-Lanstrop. Bei der Veranstaltung standen die Langhürden auf dem Programm und Jonathan Perner blieb bei seinem Debütrennen über 400m Hürden in der MJ U18 in 56,59sec gleich deutlich unter der DM Norm für die deutschen Jugendmeisterschaften am 11.07.-13.07.2025 in BO- Wattenscheid.</b></p>",
+        "content_text": "Zeitgleich zum bodynostic-Meeting am 31.05. in Recklinghausen starteten einige RLC Athleten/innen beim Sportfest in Dortmund-Lanstrop. Bei der Veranstaltung standen die Langhürden auf dem Programm und Jonathan Perner blieb bei seinem Debütrennen über 400m Hürden in der MJ U18 in 56,59sec gleich deutlich unter der DM Norm für die deutschen Jugendmeisterschaften am 11.07.-13.07.2025 in BO- Wattenscheid.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-9-10158",
+        "id": "10158",
+        "title": "ZWEI WESTFALENTITEL FÜR DIE STARTGEMEINSCHAFT RECKLINGHAUSEN/HAMM",
+        "date": "02. Juni 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250602125552_PHOTO-2025-05-30-13-28-15.jpg\"/></div><p class=\"detailViewTop\"><b> Bei den Westfälischen Langstaffelmeisterschaften in Witten am 29.05. konnten die 4x400m-Staffeln der WJ U20 und MJ U20 der Startgemeinschaft Recklinghausen/Hamm wie im letzten Jahr beide Titel gewinnen.</b></p>",
+        "content_text": "Bei den Westfälischen Langstaffelmeisterschaften in Witten am 29.05. konnten die 4x400m-Staffeln der WJ U20 und MJ U20 der Startgemeinschaft Recklinghausen/Hamm wie im letzten Jahr beide Titel gewinnen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250602125552_PHOTO-2025-05-30-13-28-15.jpg",
+                "local": "news_assets/10158/zoom_20250602125552_PHOTO-2025-05-30-13-28-15.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-10-10157",
+        "id": "10157",
+        "title": "„DAUERLäUFER“ JüRGEN NEUHAUSEN ERNEUT WESTFALENMEISTER üBER 10.000M",
+        "date": "20. Mai 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250520152154_Jrgen_bearb.jpeg\"/></div><p class=\"detailViewTop\"><b>Die Siegesserie geht für Jürgen Neuhausen, M60, weiter. Am 18.05.2025 gewann unser unermüdlicher Langstreckler im Russheide-Stadion Bielefeld in 43:05,61min mit über einer Minute Vorsprung den Westfalentitel. O-Ton Jürgen:</b></p>",
+        "content_text": "Die Siegesserie geht für Jürgen Neuhausen, M60, weiter. Am 18.05.2025 gewann unser unermüdlicher Langstreckler im Russheide-Stadion Bielefeld in 43:05,61min mit über einer Minute Vorsprung den Westfalentitel. O-Ton Jürgen:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250520152154_Jrgen_bearb.jpeg",
+                "local": "news_assets/10157/zoom_20250520152154_Jrgen_bearb.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-10-10156",
+        "id": "10156",
+        "title": "ALLIANZ-CUP IN ERKENSCHWICK -  EIN GUTES PFLASTER FüR U14-AKTIVE",
+        "date": "20. Mai 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250520150513_Inga.jpg\"/></div><p class=\"detailViewTop\"><b>Am 18.05.2025 hatte Christina Sip einige ihrer U14-Aktivposten zum Allianz-Cup in Erkenschwick gemeldet, 9 persönliche Bestleistungen bzw. Einstellung der Bestleistungen sprangen dabei heraus.</b></p>",
+        "content_text": "Am 18.05.2025 hatte Christina Sip einige ihrer U14-Aktivposten zum Allianz-Cup in Erkenschwick gemeldet, 9 persönliche Bestleistungen bzw. Einstellung der Bestleistungen sprangen dabei heraus.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250520150513_Inga.jpg",
+                "local": "news_assets/10156/zoom_20250520150513_Inga.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-11-10155",
+        "id": "10155",
+        "title": "PRIMA LEISTUNGEN DER U10-RLCER!",
+        "date": "18. Mai 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250518180108_U10.JPG\"/></div><p class=\"detailViewTop\"><b> Bei der ersten KiLa-Veranstaltung 2025 des FLVW-Kreises Recklinghausen ( hier findet eine vereinsübergreifende Liga-Wertung aus drei unterschiedlichen KiLa-Veranstaltungen im Jahr 2025 statt) am 17.05.2025 in Oer-Erkenschwick belegten die U10-Kids von Carsten Praßni und Julian Simmet einen tollen 4. Platz.</b></p>",
+        "content_text": "Bei der ersten KiLa-Veranstaltung 2025 des FLVW-Kreises Recklinghausen ( hier findet eine vereinsübergreifende Liga-Wertung aus drei unterschiedlichen KiLa-Veranstaltungen im Jahr 2025 statt) am 17.05.2025 in Oer-Erkenschwick belegten die U10-Kids von Carsten Praßni und Julian Simmet einen tollen 4. Platz.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250518180108_U10.JPG",
+                "local": "news_assets/10155/zoom_20250518180108_U10.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-11-10154",
+        "id": "10154",
+        "title": "FEINE LEISTUNG FüR JüNGSTEN DES RLC!",
+        "date": "18. Mai 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250518175909_U8.JPG\"/></div><p class=\"detailViewTop\"><b>Beim ersten Auftritt der U8-Kids von Fabienne Manderla und Charlotte Klein in diesem Jahr haben sich Johann Dahmen – schon ein alter Hase in Sachen Kinderleichtathletik-Wettkämpfen – Juna Rodemann, Titus Mohr, Josefine Wüller, Younes Sibai sowie Jakob Christensen als Neulinge bestens geschlagen.</b></p>",
+        "content_text": "Beim ersten Auftritt der U8-Kids von Fabienne Manderla und Charlotte Klein in diesem Jahr haben sich Johann Dahmen – schon ein alter Hase in Sachen Kinderleichtathletik-Wettkämpfen – Juna Rodemann, Titus Mohr, Josefine Wüller, Younes Sibai sowie Jakob Christensen als Neulinge bestens geschlagen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250518175909_U8.JPG",
+                "local": "news_assets/10154/zoom_20250518175909_U8.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-11-10153",
+        "id": "10153",
+        "title": "8 STARTS, 7X PB, 3X QUALI DM! SEHR  ERFOLGREICHER START IN DIE SAISON FüR DIE 400M - UND 800M- LäUFER/INNEN.",
+        "date": "13. Mai 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250514083347_DM-Fahrer.jpg\"/></div><p class=\"detailViewTop\"><b>Beim Saisonauftakt in Dortmund, am Samstag, den 10.05. gelang den Athletinnen und Athleten aus der Trainingsgruppe von Jan Spiegel und Ludger Zander ein Auftakt nach Maß.</b></p>",
+        "content_text": "Beim Saisonauftakt in Dortmund, am Samstag, den 10.05. gelang den Athletinnen und Athleten aus der Trainingsgruppe von Jan Spiegel und Ludger Zander ein Auftakt nach Maß.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250514083347_DM-Fahrer.jpg",
+                "local": "news_assets/10153/zoom_20250514083347_DM-Fahrer.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-12-10152",
+        "id": "10152",
+        "title": "SCHEINE FüR VEREINE IST WIEDER DA!",
+        "date": "08. Mai 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250508152029_Scheine_01.png\"/></div><p class=\"detailViewTop\"><b>Liebe Mitglieder, Freunde und UnterstützerInnen des Recklinghäuser LC:<br>die erfolgreiche REWE-Aktion \" Scheine für Vereine\" ist wieder da!</br></b></p>",
+        "content_text": "Liebe Mitglieder, Freunde und UnterstützerInnen des Recklinghäuser LC:\ndie erfolgreiche REWE-Aktion \" Scheine für Vereine\" ist wieder da!",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250508152029_Scheine_01.png",
+                "local": "news_assets/10152/zoom_20250508152029_Scheine_01.png"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-12-10151",
+        "id": "10151",
+        "title": "„FAMILIENAUSFLUG“ ZUR BAHNERöFFNUNG",
+        "date": "05. Mai 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250505094108_FamilienausflugLdenscheid_02.jpeg\"/></div><p class=\"detailViewTop\"><b>Der erste Freiluftstart unserer Wettkampfsenioren/innen am 04.05.2025 in Lüdenscheid geriet zu einem Familienausflug mit vielen persönlichen Bestleistungen und Qualifikationen zur Deutschen Masters im August.</b></p>",
+        "content_text": "Der erste Freiluftstart unserer Wettkampfsenioren/innen am 04.05.2025 in Lüdenscheid geriet zu einem Familienausflug mit vielen persönlichen Bestleistungen und Qualifikationen zur Deutschen Masters im August.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250505094108_FamilienausflugLdenscheid_02.jpeg",
+                "local": "news_assets/10151/zoom_20250505094108_FamilienausflugLdenscheid_02.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-12-10150",
+        "id": "10150",
+        "title": "EIN PRIMA START IN DIE FRELLUFTSAISON",
+        "date": "04. Mai 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250504172048_Marlena_03.05.2025.jpeg\"/></div><p class=\"detailViewTop\"><b>RLC-Nachwuchstalent Marlena-Bianca Wendler, gerade 10 Jahre alt geworden, startete am 03.05.2025 beim Sparkassen- Jugend-Sportfest in Gladbeck gleich mit einem Paukenschlag und zwei persönlichen Bestleistungen.</b></p>",
+        "content_text": "RLC-Nachwuchstalent Marlena-Bianca Wendler, gerade 10 Jahre alt geworden, startete am 03.05.2025 beim Sparkassen- Jugend-Sportfest in Gladbeck gleich mit einem Paukenschlag und zwei persönlichen Bestleistungen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250504172048_Marlena_03.05.2025.jpeg",
+                "local": "news_assets/10150/zoom_20250504172048_Marlena_03.05.2025.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-13-10145",
+        "id": "10145",
+        "title": "SCHNUPPERTRAINING IN DEN OSTERFERIEN",
+        "date": "03. April 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250403181051_Moritz.JPG\"/></div><p class=\"detailViewTop\"><b>der Recklinghäuser LC bittet in den Osterferien Schnuppertraining für alle Kinder der Jahrgänge 2017 - 2012 an:</b></p>",
+        "content_text": "der Recklinghäuser LC bittet in den Osterferien Schnuppertraining für alle Kinder der Jahrgänge 2017 - 2012 an:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250403181051_Moritz.JPG",
+                "local": "news_assets/10145/zoom_20250403181051_Moritz.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-13-10136",
+        "id": "10136",
+        "title": "KREISCROSSLAUFMEISTERSCHAFTEN: VIELE RLC-ERFOLGE",
+        "date": "30. März 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250330180636_Mannschaft_WKU12.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Kreiscrosslaufmeisterschaften am 30.03.2025 in Herten konnten die Aktiven des RLC sich erfolgreich zu Wort melden. Acht Kreismeistertitel und 11 weitere „ Treppchenplatzierungen“ waren eine prima Ausbeute bei typischem „Crosswetter“: kalt, stürmisch, nass.</b></p>",
+        "content_text": "Bei den Kreiscrosslaufmeisterschaften am 30.03.2025 in Herten konnten die Aktiven des RLC sich erfolgreich zu Wort melden. Acht Kreismeistertitel und 11 weitere „ Treppchenplatzierungen“ waren eine prima Ausbeute bei typischem „Crosswetter“: kalt, stürmisch, nass.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250330180636_Mannschaft_WKU12.jpg",
+                "local": "news_assets/10136/zoom_20250330180636_Mannschaft_WKU12.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-14-10135",
+        "id": "10135",
+        "title": "BIANCA BRODA HOLT SILBERMEDAILLE BEI MASTERS-DM",
+        "date": "02. März 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250303172623_Siegerehrung_Bianca.jpg\"/></div><p class=\"detailViewTop\"><b>Nach vielen Jahren gesundheitsbedingter Wettkampfabstinenz kehrte Bianca Broda als W35-Seniorin erstmals wieder auf die Leichtathletikbahn zurück, auf der sie vom 8. Lebensjahr bis Mitte der 2010er Jahre viele Erfolge als Hürdensprinterin und Mehrkämpferin auch auf nationaler Ebene gefeiert hatte. Und das gleich mit einem Paukenschlag: mit 4,94m erkämpfte sich Bianca im Weitsprung W35 den 2. Platz bei der Deutschen Senioren-Meisterschaft am 02.03.2025 in Frankfurt.</b></p>",
+        "content_text": "Nach vielen Jahren gesundheitsbedingter Wettkampfabstinenz kehrte Bianca Broda als W35-Seniorin erstmals wieder auf die Leichtathletikbahn zurück, auf der sie vom 8. Lebensjahr bis Mitte der 2010er Jahre viele Erfolge als Hürdensprinterin und Mehrkämpferin auch auf nationaler Ebene gefeiert hatte. Und das gleich mit einem Paukenschlag: mit 4,94m erkämpfte sich Bianca im Weitsprung W35 den 2. Platz bei der Deutschen Senioren-Meisterschaft am 02.03.2025 in Frankfurt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250303172623_Siegerehrung_Bianca.jpg",
+                "local": "news_assets/10135/zoom_20250303172623_Siegerehrung_Bianca.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-13-10134",
+        "id": "10134",
+        "title": "WESTF. U14-MEISTERSCHAFTEN: MINI-TEAM HOLT DREI PODESTPLATZIERUNGEN",
+        "date": "02. März 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250302183210_Team_Christina.jpg\"/></div><p class=\"detailViewTop\"><b>Am 02.03.2025 fanden im Paderborner Ahornpark die diesjährigen U14-Westfalenmeisterschaften Halle unter RLC-Beteiligung statt. Inga Ribbrock ( W13) und Jendrik Tornow Lafuente (M12) hatten sich erfolgreich für fünf Disziplinen qualifiziert und lieferten tolle Leistungen ab.</b></p>",
+        "content_text": "Am 02.03.2025 fanden im Paderborner Ahornpark die diesjährigen U14-Westfalenmeisterschaften Halle unter RLC-Beteiligung statt. Inga Ribbrock ( W13) und Jendrik Tornow Lafuente (M12) hatten sich erfolgreich für fünf Disziplinen qualifiziert und lieferten tolle Leistungen ab.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250302183210_Team_Christina.jpg",
+                "local": "news_assets/10134/zoom_20250302183210_Team_Christina.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-14-10133",
+        "id": "10133",
+        "title": "BIANCA BRODA SPRINGT SICH ZUR MASTERS-DM",
+        "date": "17. Februar 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250223175501_Bianca-Staffel_bearb.JPG\"/></div><p class=\"detailViewTop\"><b>Nachdem bei den Westf. Masters vor zwei Wochen das Hauptaugenmerk der Seniorentrainingsgruppe auf den Staffeln lag, meldeten Jacqueline Huber ( W30) und Trainerin Bianca Broda (noch W35) außer der Wertung bei den Nordrheinmeisterschaften der Senioren am 16.02.2025 in Düsseldorf.</b></p>",
+        "content_text": "Nachdem bei den Westf. Masters vor zwei Wochen das Hauptaugenmerk der Seniorentrainingsgruppe auf den Staffeln lag, meldeten Jacqueline Huber ( W30) und Trainerin Bianca Broda (noch W35) außer der Wertung bei den Nordrheinmeisterschaften der Senioren am 16.02.2025 in Düsseldorf.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250223175501_Bianca-Staffel_bearb.JPG",
+                "local": "news_assets/10133/zoom_20250223175501_Bianca-Staffel_bearb.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-14-10132",
+        "id": "10132",
+        "title": "ERFOLGREICHER HALLENWETTKAMPF FüR U14-JUGEND",
+        "date": "11. Februar 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250211154327_Jendrik_800_bearb.JPG\"/></div><p class=\"detailViewTop\"><b>Als Vorbereitung auf die in 3 Wochen anstehenden U14-Westfalenmeisterschaften in Paderborn hat Trainerin Christina Sip noch einmal mit einigen Mädchen und Jungen aus ihrer Trainungsgruppe einen Test in der Helmut-Körnig-Halle in Dortmund gebucht.</b></p>",
+        "content_text": "Als Vorbereitung auf die in 3 Wochen anstehenden U14-Westfalenmeisterschaften in Paderborn hat Trainerin Christina Sip noch einmal mit einigen Mädchen und Jungen aus ihrer Trainungsgruppe einen Test in der Helmut-Körnig-Halle in Dortmund gebucht.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250211154327_Jendrik_800_bearb.JPG",
+                "local": "news_assets/10132/zoom_20250211154327_Jendrik_800_bearb.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-15-10131",
+        "id": "10131",
+        "title": "WESTFäLISCHE MEISTERSCHAFT TEIL III: NOCH MEHR MEDAILLEN FüR DIE RLC-JUGEND",
+        "date": "05. Februar 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250205102232_Jonathan_200m_Pl6.JPG\"/></div><p class=\"detailViewTop\"><b>Am Sonntag, den 02.02.2025 fand in der Dortmunder Helmut-Körnig-Halle die letzte Westfalenmeisterschaft der Hallen-Leichtathletik statt: diesmal standen überwiegend die Mittelstrecken sowie einige Kurzstrecken auf dem Wettkampfplan und auch diesmal trumpften die RLC-Athleten auf:</b></p>",
+        "content_text": "Am Sonntag, den 02.02.2025 fand in der Dortmunder Helmut-Körnig-Halle die letzte Westfalenmeisterschaft der Hallen-Leichtathletik statt: diesmal standen überwiegend die Mittelstrecken sowie einige Kurzstrecken auf dem Wettkampfplan und auch diesmal trumpften die RLC-Athleten auf:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250205102232_Jonathan_200m_Pl6.JPG",
+                "local": "news_assets/10131/zoom_20250205102232_Jonathan_200m_Pl6.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-15-10130",
+        "id": "10130",
+        "title": "WESTFäLISCHE MASTERS: LUISA OTT-FESTSPIELE / ERFOLGSGESCHICHTE FüR DEN RLC",
+        "date": "02. Februar 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250202155556_MAnnschaft_Masters_01.02.2025.jpeg\"/></div><p class=\"detailViewTop\"><b>Am 01.02.2025 machten sich die erfolgsverwöhnten Seniorinnen und Senioren des RLC zu den Westfälischen Meisterschaften in der Dortmunder Helmut-Körnig-Halle auf, unterstützt durch jede Menge „Groupies“ in Form der 2.Vorsitzenden Monika Crölle, weiterem familiärem Anhang und Ersatzläuferinnen/-läufern. Mit drei Titeln, einem zweiten und einem dritten Platz und einigen persönlichen Bestleistungen kehrte die Truppe um Trainerin Bianca Broda gutgelaunt wieder nach Recklinghausen zurück.</b></p>",
+        "content_text": "Am 01.02.2025 machten sich die erfolgsverwöhnten Seniorinnen und Senioren des RLC zu den Westfälischen Meisterschaften in der Dortmunder Helmut-Körnig-Halle auf, unterstützt durch jede Menge „Groupies“ in Form der 2.Vorsitzenden Monika Crölle, weiterem familiärem Anhang und Ersatzläuferinnen/-läufern. Mit drei Titeln, einem zweiten und einem dritten Platz und einigen persönlichen Bestleistungen kehrte die Truppe um Trainerin Bianca Broda gutgelaunt wieder nach Recklinghausen zurück.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250202155556_MAnnschaft_Masters_01.02.2025.jpeg",
+                "local": "news_assets/10130/zoom_20250202155556_MAnnschaft_Masters_01.02.2025.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-15-10129",
+        "id": "10129",
+        "title": "ERFOLGREICHES WOCHENENDE FüR DIE RLC- ATHLETINNEN UND -ATHLETEN. WESTFäLISCHE HALLENMEISTERSCHAFTEN I.+II AM 25. – 26. JAN 2025 IN DORTMUND",
+        "date": "27. Januar 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250127154605_U18_Staffel1.jpg\"/></div><p class=\"detailViewTop\"><b>Zu einem Titel hat es bei den diesjährigen Westfälischen Hallenmeisterschaften I. und II.  am 25. – 26. Januar in Dortmund für die RLC Aktiven nicht (ganz) gereicht, aber am Ende standen viele tolle Ergebnisse und persönliche Bestleistungen!</b></p>",
+        "content_text": "Zu einem Titel hat es bei den diesjährigen Westfälischen Hallenmeisterschaften I. und II.  am 25. – 26. Januar in Dortmund für die RLC Aktiven nicht (ganz) gereicht, aber am Ende standen viele tolle Ergebnisse und persönliche Bestleistungen!",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250127154605_U18_Staffel1.jpg",
+                "local": "news_assets/10129/zoom_20250127154605_U18_Staffel1.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-16-10128",
+        "id": "10128",
+        "title": "37. RECKLINGHäUSER SILVESTERLAUF – DER KRöNENDE JAHRESABSCHLUSS DES RLC-JAHRES 2024",
+        "date": "02. Januar 2025",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250102192148_Silvesterlauftasse.jpg\"/></div><p class=\"detailViewTop\"><b>Bei kaltem, aber trockenem Laufwetter fand am 31.12.2024 zum 37. Male der Recklinghäuser Silvesterlauf statt, diesmal mit der Rekord-Meldezahl von 703 Teilnehmer/innen, davon 45 Bambinis, die über 400m oder 800m im Stadion so schnell liefen, wie ihre kleinen Beinchen die 4 – 9Jährigen trugen. Für alle Bambinis gab es eine Urkunde sowie eine Sporttrinkflasche der Fa. Bodynostic by Lückenotto, die reißenden Absatz fanden.</b></p>",
+        "content_text": "Bei kaltem, aber trockenem Laufwetter fand am 31.12.2024 zum 37. Male der Recklinghäuser Silvesterlauf statt, diesmal mit der Rekord-Meldezahl von 703 Teilnehmer/innen, davon 45 Bambinis, die über 400m oder 800m im Stadion so schnell liefen, wie ihre kleinen Beinchen die 4 – 9Jährigen trugen. Für alle Bambinis gab es eine Urkunde sowie eine Sporttrinkflasche der Fa. Bodynostic by Lückenotto, die reißenden Absatz fanden.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20250102192148_Silvesterlauftasse.jpg",
+                "local": "news_assets/10128/zoom_20250102192148_Silvesterlauftasse.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-16-10127",
+        "id": "10127",
+        "title": "JAHRESABSCHLUSS UND WINTERSPORTFEST DES RLC",
+        "date": "15. Dezember 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20241215110536_Kreismeisterehrung24.jpg\"/></div><p class=\"detailViewTop\"><b>Am 02.12.2024 fand in der Vestischen Arena Alfons-Schütt das traditionelle Wintersportfest des Recklinghäuser LC in Verbindung mit der abschließenden Kreismeisterehrung als Jahresabschlussveranstaltung des Jahres 2024 statt.</b></p>",
+        "content_text": "Am 02.12.2024 fand in der Vestischen Arena Alfons-Schütt das traditionelle Wintersportfest des Recklinghäuser LC in Verbindung mit der abschließenden Kreismeisterehrung als Jahresabschlussveranstaltung des Jahres 2024 statt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20241215110536_Kreismeisterehrung24.jpg",
+                "local": "news_assets/10127/zoom_20241215110536_Kreismeisterehrung24.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-16-10126",
+        "id": "10126",
+        "title": "LETZTE KREISMEISTERSCHAFT 2024, GLEICHER SIEGER: JüRGEN NEUHAUSEN",
+        "date": "15. Dezember 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20241215105955_Siegerehrug_KM_Halbmarathon.jpeg\"/></div><p class=\"detailViewTop\"><b>Die letzten Kreismeisterschaften des Jahres 2024 fanden über die Halbmarathonstrecke im Rahmen der Bertlicher Strassenläufe am ersten Adventsonntag, 01.12.2024, statt.<br>Wie immer aussichtsreich am Start: M60-Senior Jürgen Neuhausen.</br></b></p>",
+        "content_text": "Die letzten Kreismeisterschaften des Jahres 2024 fanden über die Halbmarathonstrecke im Rahmen der Bertlicher Strassenläufe am ersten Adventsonntag, 01.12.2024, statt.\nWie immer aussichtsreich am Start: M60-Senior Jürgen Neuhausen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20241215105955_Siegerehrug_KM_Halbmarathon.jpeg",
+                "local": "news_assets/10126/zoom_20241215105955_Siegerehrug_KM_Halbmarathon.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-17-10125",
+        "id": "10125",
+        "title": "BLUMENSAATLAUF: RLC-LäUFER/INNEN IN TOPFORM",
+        "date": "24. November 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20241124193331_Blumensaatlauf24.jpg\"/></div><p class=\"detailViewTop\"><b>Ebenfalls am 23.11.2024 waren drei Aktive der Trainingsgruppe um Bianca Broda sowie der bereits sehr erfolgreiche U20-Läufer Noah Stöcker beim 10km-Blumensaatlauf in Essen am Start.<br>Und auch hier mit tollen Erfolgen und auch hier bei eiskalten Temperaturen, aber trockenem Wetter.</br></b></p>",
+        "content_text": "Ebenfalls am 23.11.2024 waren drei Aktive der Trainingsgruppe um Bianca Broda sowie der bereits sehr erfolgreiche U20-Läufer Noah Stöcker beim 10km-Blumensaatlauf in Essen am Start.\nUnd auch hier mit tollen Erfolgen und auch hier bei eiskalten Temperaturen, aber trockenem Wetter.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20241124193331_Blumensaatlauf24.jpg",
+                "local": "news_assets/10125/zoom_20241124193331_Blumensaatlauf24.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-17-10124",
+        "id": "10124",
+        "title": "JüRGEN NEUHAUSEN AUCH BEI CROSS-DM ERFOLGREICH",
+        "date": "24. November 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20241124193208_Jrgen_cross_dm_23.11.2024.png\"/></div><p class=\"detailViewTop\"><b>Am 23.11.2024 startete unser unermüdlicher-Seniorenläufer Jürgen Neuhausen bei den Deutschen Meisterschaften im Crosslauf in Riesenbeck/NRW bei extrem kaltem Wetter und auf einer sehr anspruchsvollen Strecke.</b></p>",
+        "content_text": "Am 23.11.2024 startete unser unermüdlicher-Seniorenläufer Jürgen Neuhausen bei den Deutschen Meisterschaften im Crosslauf in Riesenbeck/NRW bei extrem kaltem Wetter und auf einer sehr anspruchsvollen Strecke.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20241124193208_Jrgen_cross_dm_23.11.2024.png",
+                "local": "news_assets/10124/zoom_20241124193208_Jrgen_cross_dm_23.11.2024.png"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-17-10123",
+        "id": "10123",
+        "title": "JüRGEN NEUHAUSEN - WESTF. VIZEMEISTER IM CROSSLAUF",
+        "date": "14. November 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20241114091227_Jrgen_Lauf.jpeg\"/></div><p class=\"detailViewTop\"><b>am 09.11.2024 fanden in Paderborn die Westfälischen Crosslaufmeisterschaften mit RLC-Beteiligung statt. Mit dabei: natürlich Jürgen Neuhausen. Und natürlich auf dem Treppchen.</b></p>",
+        "content_text": "am 09.11.2024 fanden in Paderborn die Westfälischen Crosslaufmeisterschaften mit RLC-Beteiligung statt. Mit dabei: natürlich Jürgen Neuhausen. Und natürlich auf dem Treppchen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20241114091227_Jrgen_Lauf.jpeg",
+                "local": "news_assets/10123/zoom_20241114091227_Jrgen_Lauf.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-18-10122",
+        "id": "10122",
+        "title": "U10-RUNNERS ZWEITER IM TANDEM-BIATHLON / ZWEITE IN KIDS-CUP-GESAMTWERTUNG",
+        "date": "27. Oktober 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20241027171212_RLC-Runners_03.jpg\"/></div><p class=\"detailViewTop\"><b>Am Sonntag, den 27.10.2025 traten die Kinder der U10-Mannschaft letztmalig zu einem Freiluftwettkampf in 2024 an: durch Krankheit arg dezimiert war zumindest die Mindestanzahl von sechs Kids am Start. Oskar Busert, Henry Crölle, Carla Dahmen, Kilian Orlok,  Oliver Roleff und Finn Scheurer gaben in der Disziplin Tandem-Biathlon in Herten ihr Bestes.</b></p>",
+        "content_text": "Am Sonntag, den 27.10.2025 traten die Kinder der U10-Mannschaft letztmalig zu einem Freiluftwettkampf in 2024 an: durch Krankheit arg dezimiert war zumindest die Mindestanzahl von sechs Kids am Start. Oskar Busert, Henry Crölle, Carla Dahmen, Kilian Orlok,  Oliver Roleff und Finn Scheurer gaben in der Disziplin Tandem-Biathlon in Herten ihr Bestes.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20241027171212_RLC-Runners_03.jpg",
+                "local": "news_assets/10122/zoom_20241027171212_RLC-Runners_03.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-18-10121",
+        "id": "10121",
+        "title": "JüRGEN NEUHAUSEN: 10KM-STRASSENMEISTER WESTFALEN",
+        "date": "13. Oktober 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20241013161701_Jrgen_10km.jpeg\"/></div><p class=\"detailViewTop\"><b>Am 12.10.2025 wurden in Coesfeld die Westfälischen Strassenlaufmeisterschaften ausgetragen. Wie immer mitten drin, statt nur dabei: Ü60-Seniorenmeister Jürgen Neuhausen vom RLC.</b></p>",
+        "content_text": "Am 12.10.2025 wurden in Coesfeld die Westfälischen Strassenlaufmeisterschaften ausgetragen. Wie immer mitten drin, statt nur dabei: Ü60-Seniorenmeister Jürgen Neuhausen vom RLC.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20241013161701_Jrgen_10km.jpeg",
+                "local": "news_assets/10121/zoom_20241013161701_Jrgen_10km.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-18-10119",
+        "id": "10119",
+        "title": "KREISSTAFFELMEISTERSCHAFTEN: 7 TITEL FüR DEN RLC",
+        "date": "29. September 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20240929154315_U10_02.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den gestrigen Kreisstaffelmeisterschaften in Waltrop – hier hätte man sich eine bessere Organisation und ein besseres Wetter für die vor allem jungen TeilnehmerInnen gewünscht – konnte der Recklinghäuser LC gleich sieben Titel mit nach Hause bringen.</b></p>",
+        "content_text": "Bei den gestrigen Kreisstaffelmeisterschaften in Waltrop – hier hätte man sich eine bessere Organisation und ein besseres Wetter für die vor allem jungen TeilnehmerInnen gewünscht – konnte der Recklinghäuser LC gleich sieben Titel mit nach Hause bringen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20240929154315_U10_02.jpg",
+                "local": "news_assets/10119/zoom_20240929154315_U10_02.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-19-10118",
+        "id": "10118",
+        "title": "FABIAN STRABERG: FüR SEINE AUßERGEWöHNLICHEN ERFOLGE GEEHRT",
+        "date": "24. September 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20240924101646_Fabian_Monika_Jochen.jpeg\"/></div><p class=\"detailViewTop\"><b>Fabian Straberg wurde heute im Rahmen der Stadtmeisterschaften vom Recklinghäuser LC durch den 1. Vorsitzenden Jochen Kurdelbaum und die 2. Vorsitzende Monika Crölle mit einer Prämie für seine Erfolge geehrt.</b></p>",
+        "content_text": "Fabian Straberg wurde heute im Rahmen der Stadtmeisterschaften vom Recklinghäuser LC durch den 1. Vorsitzenden Jochen Kurdelbaum und die 2. Vorsitzende Monika Crölle mit einer Prämie für seine Erfolge geehrt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20240924101646_Fabian_Monika_Jochen.jpeg",
+                "local": "news_assets/10118/zoom_20240924101646_Fabian_Monika_Jochen.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-19-10117",
+        "id": "10117",
+        "title": "SAISONABSCHLUß 2024 IM HOHENHORST-STADION",
+        "date": "22. September 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20240922182618_U10_U12_StM24.jpg\"/></div><p class=\"detailViewTop\"><b>Traditionell bilden die Offenen Stadtmeisterschaften in Recklinghausen den Abschluß einer langen Wettkampf-Freiluftsaison. Bei bestem LA-Wetter konnten die 211 gemeldeten Kinder und Jugendliche sich noch einmal in ihren Lieblingsdisziplinen oder bei neuen Disziplinen testen.</b></p>",
+        "content_text": "Traditionell bilden die Offenen Stadtmeisterschaften in Recklinghausen den Abschluß einer langen Wettkampf-Freiluftsaison. Bei bestem LA-Wetter konnten die 211 gemeldeten Kinder und Jugendliche sich noch einmal in ihren Lieblingsdisziplinen oder bei neuen Disziplinen testen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20240922182618_U10_U12_StM24.jpg",
+                "local": "news_assets/10117/zoom_20240922182618_U10_U12_StM24.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-19-10116",
+        "id": "10116",
+        "title": "SAISONHöHEPUNKT DER U14",
+        "date": "20. September 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20240920152520_Marie_Hoch_14.09.2024.jpg\"/></div><p class=\"detailViewTop\"><b>die diesjährigen Westfalenmeisterschaften der U14 fanden am 14.09.2024 in Kamen, Sportschule Kaiserau statt. Die Trainerinnen Christina Sip und Dorothee Böhme konnten einige vielversprechende Jugendliche melden, so dass mehrere „Treppchenplätze“ den Weg nach Recklinghausen antreten konnten.</b></p>",
+        "content_text": "die diesjährigen Westfalenmeisterschaften der U14 fanden am 14.09.2024 in Kamen, Sportschule Kaiserau statt. Die Trainerinnen Christina Sip und Dorothee Böhme konnten einige vielversprechende Jugendliche melden, so dass mehrere „Treppchenplätze“ den Weg nach Recklinghausen antreten konnten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20240920152520_Marie_Hoch_14.09.2024.jpg",
+                "local": "news_assets/10116/zoom_20240920152520_Marie_Hoch_14.09.2024.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-20-10115",
+        "id": "10115",
+        "title": "ERFOLGREICHE RLC-KIDS",
+        "date": "30. August 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20240830082654_Siegerehrung_bearb_site.jpg\"/></div><p class=\"detailViewTop\"><b>Nicht nur Junioren und Senioren des RLC sind erfolgreich: auch die Kids haben in den vergangenen Wochen bewiesen, was in ihnen steckt. Am gestrigen Abend konnten wir endlich die Siegerehrung der Kreismeisterschaften im Mehrkampf durchführen.</b></p>",
+        "content_text": "Nicht nur Junioren und Senioren des RLC sind erfolgreich: auch die Kids haben in den vergangenen Wochen bewiesen, was in ihnen steckt. Am gestrigen Abend konnten wir endlich die Siegerehrung der Kreismeisterschaften im Mehrkampf durchführen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20240830082654_Siegerehrung_bearb_site.jpg",
+                "local": "news_assets/10115/zoom_20240830082654_Siegerehrung_bearb_site.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-20-10114",
+        "id": "10114",
+        "title": "RLC-TALENT IN DER ERFOLGSSPUR",
+        "date": "25. August 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20240825190447_Marlena_Pokale_01.jpeg\"/></div><p class=\"detailViewTop\"><b>Nicht nur die Jugendläufer und Senioren des RLC sind auf der Erfolgsspur unterwegs, auch bei den jüngeren Aktiven häufen sich die Erfolgsmeldungen. Diesmal im Fokus: Marlena Wendler, W9, die ihre Lauftalente auch außerhalb der Kreismeisterschaften demonstriert.</b></p>",
+        "content_text": "Nicht nur die Jugendläufer und Senioren des RLC sind auf der Erfolgsspur unterwegs, auch bei den jüngeren Aktiven häufen sich die Erfolgsmeldungen. Diesmal im Fokus: Marlena Wendler, W9, die ihre Lauftalente auch außerhalb der Kreismeisterschaften demonstriert.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20240825190447_Marlena_Pokale_01.jpeg",
+                "local": "news_assets/10114/zoom_20240825190447_Marlena_Pokale_01.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-20-10113",
+        "id": "10113",
+        "title": "RLC-LANGSTRECKLER AUF ERFOLGSKURS",
+        "date": "25. August 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20240825184026_image1.png\"/></div><p class=\"detailViewTop\"><b>In den vergangenen Wochen waren vor allem Jürgen Neuhausen  und Martin Godde bei Westfälischen Mersterschaften richtig erfolgreich.</b></p>",
+        "content_text": "In den vergangenen Wochen waren vor allem Jürgen Neuhausen  und Martin Godde bei Westfälischen Mersterschaften richtig erfolgreich.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20240825184026_image1.png",
+                "local": "news_assets/10113/zoom_20240825184026_image1.png"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-21-10112",
+        "id": "10112",
+        "title": "FABIAN STRABERG: DRITTER DER U20-DM üBER 400M, ERHäLT EINLADUNG ZUR U20-WM IN PERU!",
+        "date": "28. Juli 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20240731175116_Fabian_03.JPG\"/></div><p class=\"detailViewTop\"><b>Das nennt man einen Lauf: nachdem U20-Läufer Fabian Straberg im Juni eine Verletzungspause einlegen musste, ist es ihm nun gelungen, innerhalb von 2 Wochen, seine persönliche Bestleistung über 400m von 48,79sec über 48,20sec in Rhede und 48,15sec im Halbfinale in Koblenz am gestrigen Samstag auf jetzt 47,86sec im Finale zu verbessern.</b></p>",
+        "content_text": "Das nennt man einen Lauf: nachdem U20-Läufer Fabian Straberg im Juni eine Verletzungspause einlegen musste, ist es ihm nun gelungen, innerhalb von 2 Wochen, seine persönliche Bestleistung über 400m von 48,79sec über 48,20sec in Rhede und 48,15sec im Halbfinale in Koblenz am gestrigen Samstag auf jetzt 47,86sec im Finale zu verbessern.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20240731175116_Fabian_03.JPG",
+                "local": "news_assets/10112/zoom_20240731175116_Fabian_03.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-22-10110",
+        "id": "10110",
+        "title": "AKTION \"SCHEINE FüR VEREINE\" BEENDET",
+        "date": "07. Juli 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20240707180249_Scheinefrvereinelogo1.png\"/></div><p class=\"detailViewTop\"><b>Liebe Mitglieder, Freunde, Unterstützer des Recklinghäuser LC: in den 5 Wochen, in denen bei REWE-Einkäufen \"Scheine für Vereine\" zu erhalten waren, haben wir es mit vereinten Kräften geschafft, 7788 Scheine zu ergattern und hochzuladen,Eine riesige Anzahl, durch die wir viele hochwertige Trainingsmaterialien für alle Gruppen und zwei Geräte zur Unterstützung unseres Cateringteams bestellen konnte.</b></p>",
+        "content_text": "Liebe Mitglieder, Freunde, Unterstützer des Recklinghäuser LC: in den 5 Wochen, in denen bei REWE-Einkäufen \"Scheine für Vereine\" zu erhalten waren, haben wir es mit vereinten Kräften geschafft, 7788 Scheine zu ergattern und hochzuladen,Eine riesige Anzahl, durch die wir viele hochwertige Trainingsmaterialien für alle Gruppen und zwei Geräte zur Unterstützung unseres Cateringteams bestellen konnte.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-21-10109",
+        "id": "10109",
+        "title": "TOPAUFTRITT DER 4 X 400M-STAFFEL WJU20 BEI DEUTSCHER MEISTERSCHAFT",
+        "date": "07. Juli 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20240708141217_IMG_1420.jpeg\"/></div><p class=\"detailViewTop\"><b>Im Rahmen der Deutschen Meisterschaften der „Großen“ 28.-30.06.2024 in Braunschweig fanden auch die Deutschen Meisterschaften der U20-Jugend-Langstaffeln statt. Für dieses Rennen hatten sich sowohl die weibliche als auch die männlich U20-Staffel der  Startgemeinschaft Recklinghausen-Hamm als Westfälische Meister und über die Zeit qualifiziert.</b></p>",
+        "content_text": "Im Rahmen der Deutschen Meisterschaften der „Großen“ 28.-30.06.2024 in Braunschweig fanden auch die Deutschen Meisterschaften der U20-Jugend-Langstaffeln statt. Für dieses Rennen hatten sich sowohl die weibliche als auch die männlich U20-Staffel der  Startgemeinschaft Recklinghausen-Hamm als Westfälische Meister und über die Zeit qualifiziert.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20240708141217_IMG_1420.jpeg",
+                "local": "news_assets/10109/zoom_20240708141217_IMG_1420.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-22-10108",
+        "id": "10108",
+        "title": "RLC-NACHWUCHS IN ACTION",
+        "date": "25. Juni 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20240626175658_SiegerehrungW950m.jpg\"/></div><p class=\"detailViewTop\"><b>Die erste Kreismeisterschaft für U10 – U14 des Jahres 2024 fand am 23.06.2024 in Haltern-Sythen in Form der Kreiseinzel- und Kreismehrkampfmeisterschaften bei sonnig-warmem Wetter statt.<br>6 Mehrkampftitel, 2 Mannschaftsmehrkampftitel und 16 Einzeltitel waren die Ausbeute der acht bis 13jährigen Nachwuchssportler des RLC.</br></b></p>",
+        "content_text": "Die erste Kreismeisterschaft für U10 – U14 des Jahres 2024 fand am 23.06.2024 in Haltern-Sythen in Form der Kreiseinzel- und Kreismehrkampfmeisterschaften bei sonnig-warmem Wetter statt.\n6 Mehrkampftitel, 2 Mannschaftsmehrkampftitel und 16 Einzeltitel waren die Ausbeute der acht bis 13jährigen Nachwuchssportler des RLC.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20240626175658_SiegerehrungW950m.jpg",
+                "local": "news_assets/10108/zoom_20240626175658_SiegerehrungW950m.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-22-10107",
+        "id": "10107",
+        "title": "RLC-SENIOREN AUF TRAB",
+        "date": "25. Juni 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20240625142115_Arne_Ludgerbearb.jpg\"/></div><p class=\"detailViewTop\"><b>am 22.06.2024 nahmen Jacqueline Huber, Marijan Becker, Arne Wendler und Jürgen Neuhausen an den Westfalenmeisterschaften der Senioren in Reken teil. Die Athleten konnten zwei Westfalenmeistertitel, eine Vizemeisterschaft und weitere Podestplatzierungen für den Recklinghäuser LC erlaufen.</b></p>",
+        "content_text": "am 22.06.2024 nahmen Jacqueline Huber, Marijan Becker, Arne Wendler und Jürgen Neuhausen an den Westfalenmeisterschaften der Senioren in Reken teil. Die Athleten konnten zwei Westfalenmeistertitel, eine Vizemeisterschaft und weitere Podestplatzierungen für den Recklinghäuser LC erlaufen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20240625142115_Arne_Ludgerbearb.jpg",
+                "local": "news_assets/10107/zoom_20240625142115_Arne_Ludgerbearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-23-10106",
+        "id": "10106",
+        "title": "RLC-JUGEND IN TOP-FORM",
+        "date": "16. Juni 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20240616182025_StaffelMJU20.JPG\"/></div><p class=\"detailViewTop\"><b>Höher, schneller und weiter war das Motto der RLCler bei den Westfälischen Jugendmeisterschaften in der Leichtathletik, die am 9., 15. und 16. Juni in Dortmund und Gladbeck ausgetragen wurden.</b></p>",
+        "content_text": "Höher, schneller und weiter war das Motto der RLCler bei den Westfälischen Jugendmeisterschaften in der Leichtathletik, die am 9., 15. und 16. Juni in Dortmund und Gladbeck ausgetragen wurden.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20240616182025_StaffelMJU20.JPG",
+                "local": "news_assets/10106/zoom_20240616182025_StaffelMJU20.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-23-10105",
+        "id": "10105",
+        "title": "ZWEI ERFOLGREICHE MäDELS STARTETEN IN MüNSTER",
+        "date": "10. Juni 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20240610103635_Marlena_Carla.jpg\"/></div><p class=\"detailViewTop\"><b>Marlena Wendler und Carla Dahmen haben am 08.06.2024 einen Ausflug zum Münsteraner Zoo erfolgreich mit einer Teilnahme am Mehrkampf-Cup in Münster Hiltrup verbunden.</b></p>",
+        "content_text": "Marlena Wendler und Carla Dahmen haben am 08.06.2024 einen Ausflug zum Münsteraner Zoo erfolgreich mit einer Teilnahme am Mehrkampf-Cup in Münster Hiltrup verbunden.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20240610103635_Marlena_Carla.jpg",
+                "local": "news_assets/10105/zoom_20240610103635_Marlena_Carla.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-24-10104",
+        "id": "10104",
+        "title": "KIDS CUP - KLEINE RLCLER GANZ GROß",
+        "date": "31. Mai 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20240531183022_IMG_20240530_1341072.jpg\"/></div><p class=\"detailViewTop\"><b>Die 13. Kids-Cup-Veranstaltung des RLC am 30.05.2024 im Stadion Hohenhorst war ein voller Erfolg: 24 Kindermannschaften aus U8, U10 und U12, 220 Kinder kämpften in vier Disziplinen um den Sieg oder zumindest eine gute Platzierung und hatten so eine der wenigen Gelegenheiten, als Mannschaft am Start zu sein, nicht als Einzelkämpfer.</b></p>",
+        "content_text": "Die 13. Kids-Cup-Veranstaltung des RLC am 30.05.2024 im Stadion Hohenhorst war ein voller Erfolg: 24 Kindermannschaften aus U8, U10 und U12, 220 Kinder kämpften in vier Disziplinen um den Sieg oder zumindest eine gute Platzierung und hatten so eine der wenigen Gelegenheiten, als Mannschaft am Start zu sein, nicht als Einzelkämpfer.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20240531183022_IMG_20240530_1341072.jpg",
+                "local": "news_assets/10104/zoom_20240531183022_IMG_20240530_1341072.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-23-10103",
+        "id": "10103",
+        "title": "SCHEINE FüR VEREINE IST WIEDER DA!",
+        "date": "16. Juni 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20240528154931_Scheine_01.png\"/></div><p class=\"detailViewTop\"><b>Liebe Mitglieder, Freunde und UnterstützerInnen des Recklinghäuser LC:</b></p>",
+        "content_text": "Liebe Mitglieder, Freunde und UnterstützerInnen des Recklinghäuser LC:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20240528154931_Scheine_01.png",
+                "local": "news_assets/10103/zoom_20240528154931_Scheine_01.png"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-24-10102",
+        "id": "10102",
+        "title": "LINDA BEERHORST FüR DM QUALIFIZIERT",
+        "date": "28. Mai 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20240528152844_StaffelWJU_Nicole.jpeg\"/></div><p class=\"detailViewTop\"><b>Nach den Erfolgen der RLC-Jugend bei den Westfälischen Langstaffelmeisterschaften mit Topzeiten beschlossen die beiden Trainer/in Nicole vom Hove und Ludger Zander, den noch sehr jungen Ahtletinnen und Athleten eine weitere Chance auf einen 400m-Einzelstart zu geben.</b></p>",
+        "content_text": "Nach den Erfolgen der RLC-Jugend bei den Westfälischen Langstaffelmeisterschaften mit Topzeiten beschlossen die beiden Trainer/in Nicole vom Hove und Ludger Zander, den noch sehr jungen Ahtletinnen und Athleten eine weitere Chance auf einen 400m-Einzelstart zu geben.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20240528152844_StaffelWJU_Nicole.jpeg",
+                "local": "news_assets/10102/zoom_20240528152844_StaffelWJU_Nicole.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-24-10101",
+        "id": "10101",
+        "title": "TOLLE ERGEBNISSE FüR U14-AKTIVEN",
+        "date": "22. Mai 2024",
+        "content_html": "<p class=\"detailViewTop\"><b>Auch am 3. Wochenende in Folge konnten viele der Starterinnen und Starter des RLC/U14 neue persönliche Bestleistungen aufstellen oder zumindest konstante Leistungen zu den letzten Wettkämpfen zeigen.</b></p>",
+        "content_text": "Auch am 3. Wochenende in Folge konnten viele der Starterinnen und Starter des RLC/U14 neue persönliche Bestleistungen aufstellen oder zumindest konstante Leistungen zu den letzten Wettkämpfen zeigen.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-25-10100",
+        "id": "10100",
+        "title": "KILA-CUP OER-ERKENSCHWICK TEIL 2",
+        "date": "20. Mai 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20240520190516_U12_Trio.jpg\"/></div><p class=\"detailViewTop\"><b>Am 2. Teil des Tages kamen die U12-Kids, nicht in einem Mannschafts-, sondern in einem modifizierten Einzelwettkampf in den Disziplinen: 50m, 50mH, Medizinballstossen, Weitsprung, Hochsprung, 800m zum Einsatz.</b></p>",
+        "content_text": "Am 2. Teil des Tages kamen die U12-Kids, nicht in einem Mannschafts-, sondern in einem modifizierten Einzelwettkampf in den Disziplinen: 50m, 50mH, Medizinballstossen, Weitsprung, Hochsprung, 800m zum Einsatz.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20240520190516_U12_Trio.jpg",
+                "local": "news_assets/10100/zoom_20240520190516_U12_Trio.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-25-10099",
+        "id": "10099",
+        "title": "KILA-CUP OER-ERKENSCHWICK TEIL 1",
+        "date": "20. Mai 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20240520190257_U10_KiLa-Manschaft.jpg\"/></div><p class=\"detailViewTop\"><b>Im Rahmen des Stimmberg-Meeting hatte der TUS 09 Erkenschwick am 19.05.2024 zum KiLa-Cup für U8, U10 und U12 eingeladen.<br>Jeweils 2 Mannschaften U8 und U10 hatte der RLC gemeldet, leider musste eine U10-Mannschaft aufgrund krankheitsbedingter Ausfälle einiger Leistungsträger/innen gestrichen werden, …</br></b></p>",
+        "content_text": "Im Rahmen des Stimmberg-Meeting hatte der TUS 09 Erkenschwick am 19.05.2024 zum KiLa-Cup für U8, U10 und U12 eingeladen.\nJeweils 2 Mannschaften U8 und U10 hatte der RLC gemeldet, leider musste eine U10-Mannschaft aufgrund krankheitsbedingter Ausfälle einiger Leistungsträger/innen gestrichen werden, …",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20240520190257_U10_KiLa-Manschaft.jpg",
+                "local": "news_assets/10099/zoom_20240520190257_U10_KiLa-Manschaft.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-25-10098",
+        "id": "10098",
+        "title": "TOLLER ERFOLG FüR DIE STG RECKLINGHAUSEN-HAMM",
+        "date": "13. Mai 2024",
+        "content_html": "<p class=\"detailViewTop\"><b>2x Westfälischer Meister iin der 4x400m-Staffel der weiblichen und männlichen Jugend U20<br>2x Qualifikation für die Deutschen Meisterschaften in Braunschweig.</br></b></p>",
+        "content_text": "2x Westfälischer Meister iin der 4x400m-Staffel der weiblichen und männlichen Jugend U20\n2x Qualifikation für die Deutschen Meisterschaften in Braunschweig.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-26-10097",
+        "id": "10097",
+        "title": "SAISONAUFTAKT DER RLC-JUGEND IN WALTROP",
+        "date": "06. Mai 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20240506051358_Inga_01.JPG\"/></div><p class=\"detailViewTop\"><b>Am 04.05.2024 startete die RLC-Jugend zum Saisonauftakt bei den Offenen Stadtmeisterschaften in Waltrop. Bei akzeptablem Wetter, wenn auch einem kurzen Schauerintermezzo, waren die <br>12 – 19Jährigen um gute Leistungen und vielleicht schon die eine oder andere Quali-Leistung für die anstehenden Meisterschaften bemüht.</br></b></p>",
+        "content_text": "Am 04.05.2024 startete die RLC-Jugend zum Saisonauftakt bei den Offenen Stadtmeisterschaften in Waltrop. Bei akzeptablem Wetter, wenn auch einem kurzen Schauerintermezzo, waren die\n12 – 19Jährigen um gute Leistungen und vielleicht schon die eine oder andere Quali-Leistung für die anstehenden Meisterschaften bemüht.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20240506051358_Inga_01.JPG",
+                "local": "news_assets/10097/zoom_20240506051358_Inga_01.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-26-10096",
+        "id": "10096",
+        "title": "ERFOLGREICHE ERSTE FREILUFTWETTBEWERBE FüR RLC-AKTIVE",
+        "date": "04. Mai 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20240504175554_DM_Berglauf_Kulbartsch.jpg\"/></div><p class=\"detailViewTop\"><b>Bei mehreren Veranstaltungen haben Athletinnen und Athleten des RLC in den vergangenen Wochen erfolgreich ihre Form gestestet.<br>Bei der Bahneröffnung am 14.04.24 im Nattenbergstadion in Lüdenscheid hat Nachwuchstalent Marlena Wendler ihr Wettkampfjahr eröffnet.</br></b></p>",
+        "content_text": "Bei mehreren Veranstaltungen haben Athletinnen und Athleten des RLC in den vergangenen Wochen erfolgreich ihre Form gestestet.\nBei der Bahneröffnung am 14.04.24 im Nattenbergstadion in Lüdenscheid hat Nachwuchstalent Marlena Wendler ihr Wettkampfjahr eröffnet.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20240504175554_DM_Berglauf_Kulbartsch.jpg",
+                "local": "news_assets/10096/zoom_20240504175554_DM_Berglauf_Kulbartsch.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-26-10095",
+        "id": "10095",
+        "title": "ER KANN ES DOCH NOCH! JüRGEN NEUHAUSEN WESTFALENMEISTER Ü60!",
+        "date": "23. April 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20240423153901_Jrgen_Westf.25km.JPG\"/></div><p class=\"detailViewTop\"><b>Der nächste Westfalentitel für unseren Seniorenläufer Jürgen Neuhausen winkte bei den Westfalenmeisterschaften über 10.000m am 21.04.2024 in Rheine. Vor drei Tagen hatte er uns noch sein Leid geklagt, dass es irgendwie nicht so liefe, er immer langsamer würde.</b></p>",
+        "content_text": "Der nächste Westfalentitel für unseren Seniorenläufer Jürgen Neuhausen winkte bei den Westfalenmeisterschaften über 10.000m am 21.04.2024 in Rheine. Vor drei Tagen hatte er uns noch sein Leid geklagt, dass es irgendwie nicht so liefe, er immer langsamer würde.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20240423153901_Jrgen_Westf.25km.JPG",
+                "local": "news_assets/10095/zoom_20240423153901_Jrgen_Westf.25km.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-27-10093",
+        "id": "10093",
+        "title": "GüNTER KEFENBAUM WIRD EHRENVORSITZENDER DES RLC -  ERFOLGREICHE JAHRESHAUPTVERSAMMLUNG",
+        "date": "23. März 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20240323172831_Vorstand_bearb.JPG\"/></div><p class=\"detailViewTop\"><b>Am 20.03.2024 fand die in 2jährlichem Abstand durchzuführende Jahreshauptversammlung des Recklinghäuser LC im Kolpinghaus Recklinghausen statt.</b></p>",
+        "content_text": "Am 20.03.2024 fand die in 2jährlichem Abstand durchzuführende Jahreshauptversammlung des Recklinghäuser LC im Kolpinghaus Recklinghausen statt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20240323172831_Vorstand_bearb.JPG",
+                "local": "news_assets/10093/zoom_20240323172831_Vorstand_bearb.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-27-10092",
+        "id": "10092",
+        "title": "EREIGNISREICHE WOCHEN FüR RLC-ATHLETEN",
+        "date": "02. März 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20240302175036_FabiabDM.JPG\"/></div><p class=\"detailViewTop\"><b>Bei den Deutschen U20-Meisterschaften am 24.02.2024 lief Fabian Straberg im Trikot des RLC im Vorlauf über 400m eine neue persönliche Hallenbestleistung in 49.30sec, gleichbedeutend mit der viertschnellsten Vorlaufzeit.</b></p>",
+        "content_text": "Bei den Deutschen U20-Meisterschaften am 24.02.2024 lief Fabian Straberg im Trikot des RLC im Vorlauf über 400m eine neue persönliche Hallenbestleistung in 49.30sec, gleichbedeutend mit der viertschnellsten Vorlaufzeit.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20240302175036_FabiabDM.JPG",
+                "local": "news_assets/10092/zoom_20240302175036_FabiabDM.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-27-10091",
+        "id": "10091",
+        "title": "TOP-ERGEBNISSE FüR RLC-NACHWUCHS",
+        "date": "16. Februar 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20240216182956_Marlena_kidscup.JPG\"/></div><p class=\"detailViewTop\"><b>bei der Leichtathletik Hallen Veranstaltung Junior Indoor Jump'n' Run am 10.02.2024 in Dortmund gab es einige Ausrufezeichen der Athleten des Recklinghäuser LC.</b></p>",
+        "content_text": "bei der Leichtathletik Hallen Veranstaltung Junior Indoor Jump'n' Run am 10.02.2024 in Dortmund gab es einige Ausrufezeichen der Athleten des Recklinghäuser LC.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20240216182956_Marlena_kidscup.JPG",
+                "local": "news_assets/10091/zoom_20240216182956_Marlena_kidscup.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-28-10090",
+        "id": "10090",
+        "title": "EINLADUNG ZUR JAHRESHAUPTVERSAMMLUNG",
+        "date": "06. Februar 2024",
+        "content_html": "<p class=\"detailViewTop\"><b>Liebe Vereinsmitglieder und Erziehungsberechtigte,<br><br/> der Recklinghäuser Leichtathletik Club e.V. lädt zur Jahreshauptversammlung am Mittwoch, den 20.03.2024 um 19.30 Uhr in Becky`s Kolpinghaus, Herzogswall 38, 45657 Recklinghausen. <br/><br/>Nähere Informationen entnehmt ihr bitte der angehängten Einladung.</br></b></p>",
+        "content_text": "Liebe Vereinsmitglieder und Erziehungsberechtigte,\nder Recklinghäuser Leichtathletik Club e.V. lädt zur Jahreshauptversammlung am Mittwoch, den 20.03.2024 um 19.30 Uhr in Becky`s Kolpinghaus, Herzogswall 38, 45657 Recklinghausen.\nNähere Informationen entnehmt ihr bitte der angehängten Einladung.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-28-10089",
+        "id": "10089",
+        "title": "JüRGEN NEUHAUSEN WIRD WESTFALEN MEISTER, JANINE LANGER VIZEMEISTERIN!",
+        "date": "04. Februar 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20240204180857_Jrgen_Janine_westfHalle24.jpg\"/></div><p class=\"detailViewTop\"><b>Auch die Senioren vom RLC konnten unter dem Hallendach der Helmut-Körnig-Halle in Dortmund überzeugen, schnelle Zeiten und gute Platzierungen erlaufen. ürgen Neuhausen brauchte für die 3000 m nur 11:33,04 und sicherte sich den ersten Platz der AK M 60 und damit den nächsten Titel Westfalenmeister.</b></p>",
+        "content_text": "Auch die Senioren vom RLC konnten unter dem Hallendach der Helmut-Körnig-Halle in Dortmund überzeugen, schnelle Zeiten und gute Platzierungen erlaufen. ürgen Neuhausen brauchte für die 3000 m nur 11:33,04 und sicherte sich den ersten Platz der AK M 60 und damit den nächsten Titel Westfalenmeister.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20240204180857_Jrgen_Janine_westfHalle24.jpg",
+                "local": "news_assets/10089/zoom_20240204180857_Jrgen_Janine_westfHalle24.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-28-10081",
+        "id": "10081",
+        "title": "2.TITEL FüR FABIAN STRABERG. 3X1000M-STAFFEL MJU20 HOLT DEN TITEL",
+        "date": "31. Januar 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20240131185717_Fabian_01.jpeg\"/></div><p class=\"detailViewTop\"><b>Am 27./28.Januar fanden in der Dortmunder Helmut-Körnig-Halle die Westfälischen Hallenmeisterschaften Teil II+III statt mit höchste erfreulichen Ergebnisse aus RLC-Sicht.</b></p>",
+        "content_text": "Am 27./28.Januar fanden in der Dortmunder Helmut-Körnig-Halle die Westfälischen Hallenmeisterschaften Teil II+III statt mit höchste erfreulichen Ergebnisse aus RLC-Sicht.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20240131185717_Fabian_01.jpeg",
+                "local": "news_assets/10081/zoom_20240131185717_Fabian_01.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-29-10080",
+        "id": "10080",
+        "title": "DAS JAHR 2024 FäNGT JA GUT AN!",
+        "date": "22. Januar 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20240122094412_Westfalen1_SiegerehrungFabian.jpeg\"/></div><p class=\"detailViewTop\"><b>Am Sonntag, 21. Januar fiel der Startschuss für die Meisterschaftssaison in der Leichtathletikhalle: Dortmund war Gastgeber des ersten Teils der Westfälischen Hallenmeisterschaften für Jugendliche und Erwachsene. Den Leichtathletinnen und Leichtathleten des Recklinghäuser LC gelang ein Auftakt nach Maß.</b></p>",
+        "content_text": "Am Sonntag, 21. Januar fiel der Startschuss für die Meisterschaftssaison in der Leichtathletikhalle: Dortmund war Gastgeber des ersten Teils der Westfälischen Hallenmeisterschaften für Jugendliche und Erwachsene. Den Leichtathletinnen und Leichtathleten des Recklinghäuser LC gelang ein Auftakt nach Maß.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20240122094412_Westfalen1_SiegerehrungFabian.jpeg",
+                "local": "news_assets/10080/zoom_20240122094412_Westfalen1_SiegerehrungFabian.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-29-10079",
+        "id": "10079",
+        "title": "FOTOS VOM SILVESTERLAUF",
+        "date": "03. Januar 2024",
+        "content_html": "<p class=\"detailViewTop\"><b>Dank des Einsatzes von Günter Kefenbaum und Felix Lange können wir euch eine Menge Fotos vom Silvesterlauf bereit stellen, auf denen sich vermutlich jeder Teilnehmer irgendwo wieder finden sollte:</b></p>",
+        "content_text": "Dank des Einsatzes von Günter Kefenbaum und Felix Lange können wir euch eine Menge Fotos vom Silvesterlauf bereit stellen, auf denen sich vermutlich jeder Teilnehmer irgendwo wieder finden sollte:",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-29-10077",
+        "id": "10077",
+        "title": "DAS WETTKAMPFJAHR 2023 GEHT ZU ENDE,",
+        "date": "11. Dezember 2023",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20231211144911_Mannschaft_HM.jpg\"/></div><p class=\"detailViewTop\"><b>doch vor dem abschließenden Silvesterlauf des Recklinghäuser LC gingen einige aktive RLCler bei den Kreismeisterschaften im Halbmarathon und den Deutschen Crosslauf-Meisterschaften erfolgreich an den Start.</b></p>",
+        "content_text": "doch vor dem abschließenden Silvesterlauf des Recklinghäuser LC gingen einige aktive RLCler bei den Kreismeisterschaften im Halbmarathon und den Deutschen Crosslauf-Meisterschaften erfolgreich an den Start.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20231211144911_Mannschaft_HM.jpg",
+                "local": "news_assets/10077/zoom_20231211144911_Mannschaft_HM.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-30-10075",
+        "id": "10075",
+        "title": "AKTUELL: SILVESTERLAUF",
+        "date": "12. November 2023",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20231112161136_frame.png\"/></div><p class=\"detailViewTop\"><b>Ab sofort sind Ausschreibung und Anmeldung des 36. Recklinghäuser Silvesterlaufes online. </b></p>",
+        "content_text": "Ab sofort sind Ausschreibung und Anmeldung des 36. Recklinghäuser Silvesterlaufes online.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20231112161136_frame.png",
+                "local": "news_assets/10075/zoom_20231112161136_frame.png"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-30-10074",
+        "id": "10074",
+        "title": "TOLLE RLC-ERFOLGE BEI WESTF. CROSS",
+        "date": "11.  -  12. November2023",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20231112153241_Louisa_Siegerehrung.jpg\"/></div><p class=\"detailViewTop\"><b>Der 11.11.2023 stand für Louisa Sürgit, Noah Stöcker, Janine Langer und Jürgen Neuhausen nicht unter dem Karneval-Stern: sie hatten für die Westfälischen Crosslaufmeisterschaften in Herne gemeldet und das mit Erfolg!</b></p>",
+        "content_text": "Der 11.11.2023 stand für Louisa Sürgit, Noah Stöcker, Janine Langer und Jürgen Neuhausen nicht unter dem Karneval-Stern: sie hatten für die Westfälischen Crosslaufmeisterschaften in Herne gemeldet und das mit Erfolg!",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20231112153241_Louisa_Siegerehrung.jpg",
+                "local": "news_assets/10074/zoom_20231112153241_Louisa_Siegerehrung.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-30-10073",
+        "id": "10073",
+        "title": "ENDE DER BAHNWETTBEWERBE = BEGINN DER CROSSLAUF-SAISON",
+        "date": "12. November 2023 -  11. November 2024",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20231111103919_Marlena_02.jpeg\"/></div><p class=\"detailViewTop\"><b>Kaum sind die letzten Urkunden der Bahnwettbewerbe Sommer 2023 verteilt, scharren schon die Crossläuferinnen und – läufer mit den Hufen, um ihrer Passion nach zu gehen, teilweise sind es die gleichen Athleten.</b></p>",
+        "content_text": "Kaum sind die letzten Urkunden der Bahnwettbewerbe Sommer 2023 verteilt, scharren schon die Crossläuferinnen und – läufer mit den Hufen, um ihrer Passion nach zu gehen, teilweise sind es die gleichen Athleten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20231111103919_Marlena_02.jpeg",
+                "local": "news_assets/10073/zoom_20231111103919_Marlena_02.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-31-10069",
+        "id": "10069",
+        "title": "RLC-LäUFER MARTIN GODDE ERFOLGREICH BEIM BERLIN-MARATHON",
+        "date": "27. September 2023",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20230927150430_052e18e6-a22f-48df-95f9-e6a460.JPG\"/></div><p class=\"detailViewTop\"><b>\"Von der tollen Stimmung an der Strecke sowie den perfekten Wetterbedingungen beim Berlin-Marathon profitierten nicht nur die Rekordläuferinnen und -läufer, sondern auch der RLC-Läufer Martin Godde“ als einer von 47912 Teilnehmern.</b></p>",
+        "content_text": "\"Von der tollen Stimmung an der Strecke sowie den perfekten Wetterbedingungen beim Berlin-Marathon profitierten nicht nur die Rekordläuferinnen und -läufer, sondern auch der RLC-Läufer Martin Godde“ als einer von 47912 Teilnehmern.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20230927150430_052e18e6-a22f-48df-95f9-e6a460.JPG",
+                "local": "news_assets/10069/zoom_20230927150430_052e18e6-a22f-48df-95f9-e6a460.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-31-10068",
+        "id": "10068",
+        "title": "ERFOLGREICHE NACHWUCHS- RLCLER/INNEN BEIM BAHNABSCHLUSS 2023",
+        "date": "17. September 2023",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20230917105035_WJU12_Siegerehrung.JPG\"/></div><p class=\"detailViewTop\"><b>Der letzte leichtathletische Bahnwettbewerb im Kreis Recklinghausen stellte noch einmal den jüngeren Nachwuchs in den Fokus, in der Kombi-Veranstaltung Offene Stadtmeisterschaften und Kreismehrkampf bewiesen erneut viele Kids ihr Talent.</b></p>",
+        "content_text": "Der letzte leichtathletische Bahnwettbewerb im Kreis Recklinghausen stellte noch einmal den jüngeren Nachwuchs in den Fokus, in der Kombi-Veranstaltung Offene Stadtmeisterschaften und Kreismehrkampf bewiesen erneut viele Kids ihr Talent.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20230917105035_WJU12_Siegerehrung.JPG",
+                "local": "news_assets/10068/zoom_20230917105035_WJU12_Siegerehrung.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-32-10066",
+        "id": "10066",
+        "title": "RLC-NACHWUCHS IN TOPFORM, 25 NEUE KREISMEISTERINNEN UND KREISMEISTER",
+        "date": "12. September 2023",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20230912214913_U10_Mdels.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Kreiseinzelmeisterschaften und Kreisbestenkämpfen der U10 – U14 am 10.09.2023 in Haltern-Sythen bewiesen die 30 RCLler/-innen: sie stehen den „ Großen“ in keiner Weise nach. <br>Neben 25 Kreismeistertiteln bejubelten sie weitere 42 Urkunden und trotzten daher mit Bravour der Hitzeschlacht in Sythen.</br></b></p>",
+        "content_text": "Bei den Kreiseinzelmeisterschaften und Kreisbestenkämpfen der U10 – U14 am 10.09.2023 in Haltern-Sythen bewiesen die 30 RCLler/-innen: sie stehen den „ Großen“ in keiner Weise nach.\nNeben 25 Kreismeistertiteln bejubelten sie weitere 42 Urkunden und trotzten daher mit Bravour der Hitzeschlacht in Sythen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20230912214913_U10_Mdels.jpg",
+                "local": "news_assets/10066/zoom_20230912214913_U10_Mdels.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-32-10064",
+        "id": "10064",
+        "title": "DREIMAL BRONZE FüR ARNE WENDLER",
+        "date": "13. August 2023",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20230813175025_Siegerehrung_200m_13.08.2023.JPG\"/></div><p class=\"detailViewTop\"><b>Bei den Deutschen Masters, den Deutschen Seniorenmeisterschaften am 12./13.08.2023 im Grenzlandstadion Mönchen-Gladbach, hat Arne Wendler (M50) gleich 3 Bronzemedaillen erkämpft.</b></p>",
+        "content_text": "Bei den Deutschen Masters, den Deutschen Seniorenmeisterschaften am 12./13.08.2023 im Grenzlandstadion Mönchen-Gladbach, hat Arne Wendler (M50) gleich 3 Bronzemedaillen erkämpft.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20230813175025_Siegerehrung_200m_13.08.2023.JPG",
+                "local": "news_assets/10064/zoom_20230813175025_Siegerehrung_200m_13.08.2023.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-33-10062",
+        "id": "10062",
+        "title": "FABIAN STRABERG DEUTSCHER U18-MEISTER üBER 400M",
+        "date": "22. Juli 2023",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20230724182658_Fabian_Siegerehrung.JPG\"/></div><p class=\"detailViewTop\"><b>Das Langsprint-Talent des Recklinghäuser LC, Fabian Straberg, hat bei den Deutschen Jugendmeisterschaften in Rostock soeben sein Vorhaben in die Tat umgesetzt: bereits aus dem Halbfinale ging er als Schnellster in 48,89sec hervor, um dann im Finale trotz eines Fehlstarts aufgrund technischer Probleme in 49,12sec erneut die Nase vorne zu haben.</b></p>",
+        "content_text": "Das Langsprint-Talent des Recklinghäuser LC, Fabian Straberg, hat bei den Deutschen Jugendmeisterschaften in Rostock soeben sein Vorhaben in die Tat umgesetzt: bereits aus dem Halbfinale ging er als Schnellster in 48,89sec hervor, um dann im Finale trotz eines Fehlstarts aufgrund technischer Probleme in 49,12sec erneut die Nase vorne zu haben.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20230724182658_Fabian_Siegerehrung.JPG",
+                "local": "news_assets/10062/zoom_20230724182658_Fabian_Siegerehrung.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-33-10061",
+        "id": "10061",
+        "title": "AUCH AUßERHALB DER STADIONBAHNEN SIND RLCLER ERFOLGREICH!",
+        "date": "21. Juni 2023",
+        "content_html": "<p class=\"detailViewTop\"><b><p> Christian Kulbartsch, M50,  Athlet aus der Trainingsgruppe von Bianca Broda, hatte sich entschieden, beim Zugspitz-Ultratrail am 17.06.2023 in Garmisch-Partenkirchen zu starten.</p></b></p>",
+        "content_text": "Christian Kulbartsch, M50,  Athlet aus der Trainingsgruppe von Bianca Broda, hatte sich entschieden, beim Zugspitz-Ultratrail am 17.06.2023 in Garmisch-Partenkirchen zu starten.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-34-10060",
+        "id": "10060",
+        "title": "VIER WEITERE WESTFALENTITEL FüR RLC-ATHLETEN, VIELE WEITERE TOLLE PLATZIERUNGEN",
+        "date": "21. Juni 2023",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20230621150955_received_1447727056058579.jpeg\"/></div><p class=\"detailViewTop\"><b>Die gehäufte Anzahl an Westfalenmeisterschaften in den vergangenen 9 Tagen hat dem RLC vier weitere Titel beschert: Fabian Straberg (MJU18) verteidigte seinen Titel über 400m aus 2022 und Arne Wendler ( M50) sammele seine nächsten Titel über 100m, 200m und 400m.</b></p>",
+        "content_text": "Die gehäufte Anzahl an Westfalenmeisterschaften in den vergangenen 9 Tagen hat dem RLC vier weitere Titel beschert: Fabian Straberg (MJU18) verteidigte seinen Titel über 400m aus 2022 und Arne Wendler ( M50) sammele seine nächsten Titel über 100m, 200m und 400m.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20230621150955_received_1447727056058579.jpeg",
+                "local": "news_assets/10060/zoom_20230621150955_received_1447727056058579.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-34-10058",
+        "id": "10058",
+        "title": "FABIAN STRABERG LäUFT NEUE BESTLEISTUNG BEI JUGEND-GALA",
+        "date": "14. Juni 2023",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20230614152148_fabian-gala.png\"/></div><p class=\"detailViewTop\"><b>Im Auestadion in Kassel, Austragungsort der Deutschen Leichtathletik Meisterschaften  am 8.+9. Juli, fand die DLV U18 Gala 2023 statt.</b></p>",
+        "content_text": "Im Auestadion in Kassel, Austragungsort der Deutschen Leichtathletik Meisterschaften  am 8.+9. Juli, fand die DLV U18 Gala 2023 statt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20230614152148_fabian-gala.png",
+                "local": "news_assets/10058/zoom_20230614152148_fabian-gala.png"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-35-10056",
+        "id": "10056",
+        "title": "12. RECKLINGHäUSER KIDS CUP EIN GROßER ERFOLG",
+        "date": "11. Juni 2023",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20230611193643_U10.JPG\"/></div><p class=\"detailViewTop\"><b>Die 12. Auflage des Recklinghäuser Kids Cup am 08.06.2023 können alle Beteiligten wieder als einen vollen Erfolg verbuchen. 10 U8-Mannschaften, 15 U10-Mannschaften und zum Abschluss 7 U12Mannschaften mit insgesamt 250 Kinder in der Jahrgänge 2017 – 2012 absolvierten als Mannschaftskampf:</b></p>",
+        "content_text": "Die 12. Auflage des Recklinghäuser Kids Cup am 08.06.2023 können alle Beteiligten wieder als einen vollen Erfolg verbuchen. 10 U8-Mannschaften, 15 U10-Mannschaften und zum Abschluss 7 U12Mannschaften mit insgesamt 250 Kinder in der Jahrgänge 2017 – 2012 absolvierten als Mannschaftskampf:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20230611193643_U10.JPG",
+                "local": "news_assets/10056/zoom_20230611193643_U10.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-34-10055",
+        "id": "10055",
+        "title": "JüRGEN NEUHAUSEN ERFOLGREICH ON TOUR",
+        "date": "11. Juni 2023",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20230611192350_Jrgen_Pfeiffer.JPG\"/></div><p class=\"detailViewTop\"><b>Seniorensportler Jürgen Neuhausen ( M60) startete in dieser Woche so richtig durch: erst nahm er am 1. Zechenlauf rund um die Zeche Westerholt in voller Grubenwehrmontur samt Atemschutz und Helm teile, belegte trotz des enormen Zusatzgewichtes noch Rang 3 in der AK 60 in tollen 23:57min, ...</b></p>",
+        "content_text": "Seniorensportler Jürgen Neuhausen ( M60) startete in dieser Woche so richtig durch: erst nahm er am 1. Zechenlauf rund um die Zeche Westerholt in voller Grubenwehrmontur samt Atemschutz und Helm teile, belegte trotz des enormen Zusatzgewichtes noch Rang 3 in der AK 60 in tollen 23:57min, ...",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20230611192350_Jrgen_Pfeiffer.JPG",
+                "local": "news_assets/10055/zoom_20230611192350_Jrgen_Pfeiffer.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-35-10054",
+        "id": "10054",
+        "title": "ARNE WENDLER IN ACTION",
+        "date": "04. Juni 2023",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20230604175018_Arne_01.JPG\"/></div><p class=\"detailViewTop\"><b>Für die Offenen Kreismeisterschaften in Lüdenscheid am 04.06.2023 hatte Arne Wendler, M50, seinen Saisoneinstieg geplant und der ist gelungen, und wie: mit 2 Pbs und 2 Qualis.</b></p>",
+        "content_text": "Für die Offenen Kreismeisterschaften in Lüdenscheid am 04.06.2023 hatte Arne Wendler, M50, seinen Saisoneinstieg geplant und der ist gelungen, und wie: mit 2 Pbs und 2 Qualis.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20230604175018_Arne_01.JPG",
+                "local": "news_assets/10054/zoom_20230604175018_Arne_01.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-36-10052",
+        "id": "10052",
+        "title": "NEUE BESTZEITEN UND TITEL FüR RLC-ATHLETEN",
+        "date": "21. Mai 2023",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20230521173359_Noah_21.05.2023.jpeg\"/></div><p class=\"detailViewTop\"><b>Fabian Straberg auf Platz 2 der Deutschen Bestenliste über 400 Meter, Mateja Stevic Dritter beim Nationalen Meeting in Hannover und Noah Stöcker Münsterlandmeister über 800 Meter in Rheine.</b></p>",
+        "content_text": "Fabian Straberg auf Platz 2 der Deutschen Bestenliste über 400 Meter, Mateja Stevic Dritter beim Nationalen Meeting in Hannover und Noah Stöcker Münsterlandmeister über 800 Meter in Rheine.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20230521173359_Noah_21.05.2023.jpeg",
+                "local": "news_assets/10052/zoom_20230521173359_Noah_21.05.2023.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-36-10051",
+        "id": "10051",
+        "title": "4X400M MJU20 NRW-MEISTER",
+        "date": "19. Mai 2023",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20230519174930_4x400mmJu20.jpg\"/></div><p class=\"detailViewTop\"><b>Toller Erfolg für die männliche U20 der Startgemeinschaft Recklinghausen/Hamm bei den NRW-Langstaffelmeisterschaften in Witten am 18. Mai.  In einem spannenden Rennen mit den Läufern des TV Gladbeck gelang es Schlussläufer Fabian Straberg letztendlich den entscheidenden Vorsprung herauslaufen, so dass das Quartett mit Moritz Sand, Elias Korting, Mateja Stevic und Fabian Straberg in 3:26,02 vor dem TV Gladbeck 3:29,98 den Titel gewinnen konnte.</b></p>",
+        "content_text": "Toller Erfolg für die männliche U20 der Startgemeinschaft Recklinghausen/Hamm bei den NRW-Langstaffelmeisterschaften in Witten am 18. Mai.  In einem spannenden Rennen mit den Läufern des TV Gladbeck gelang es Schlussläufer Fabian Straberg letztendlich den entscheidenden Vorsprung herauslaufen, so dass das Quartett mit Moritz Sand, Elias Korting, Mateja Stevic und Fabian Straberg in 3:26,02 vor dem TV Gladbeck 3:29,98 den Titel gewinnen konnte.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20230519174930_4x400mmJu20.jpg",
+                "local": "news_assets/10051/zoom_20230519174930_4x400mmJu20.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-36-10050",
+        "id": "10050",
+        "title": "1.BODYNOSTIC-MEETING EIN VOLLER ERFOLG",
+        "date": "17. Mai 2023",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20230517152157_U10_U12.jpg\"/></div><p class=\"detailViewTop\"><b>Das 1.bodynostic-Meeting am 13.05.2023 ging bei bestem Leichtathletik-Wetter im Hohenhorst-Stadion über die Bühne, mit Meldezahlen, fast wie zu alten, Vor-Corona-Zeiten.</b></p>",
+        "content_text": "Das 1.bodynostic-Meeting am 13.05.2023 ging bei bestem Leichtathletik-Wetter im Hohenhorst-Stadion über die Bühne, mit Meldezahlen, fast wie zu alten, Vor-Corona-Zeiten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20230517152157_U10_U12.jpg",
+                "local": "news_assets/10050/zoom_20230517152157_U10_U12.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-37-10049",
+        "id": "10049",
+        "title": "WETTKAMPFAUFTAKT FüR U14-TRAININGSGRUPPE IN WALTROPER",
+        "date": "10. Mai 2023",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20230510153509_Leni.JPG\"/></div><p class=\"detailViewTop\"><b>Bei den Waltroper Stadtmeisterschaften 2023 hatten 9 Athletinnen und Athleten der U14-Trainingsgruppe von Christina Sip und Dorothee Böhme gemeldet, alle konnten mit richtig guten Leistungen aufwarten.</b></p>",
+        "content_text": "Bei den Waltroper Stadtmeisterschaften 2023 hatten 9 Athletinnen und Athleten der U14-Trainingsgruppe von Christina Sip und Dorothee Böhme gemeldet, alle konnten mit richtig guten Leistungen aufwarten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20230510153509_Leni.JPG",
+                "local": "news_assets/10049/zoom_20230510153509_Leni.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-37-10048",
+        "id": "10048",
+        "title": "ZWEI DM-NORMEN UND MEHRERE SIEGE IN WALTROP FüR U18/U20-AKTIVE",
+        "date": "10. Mai 2023",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20230510150133_Finja_Louisa_Fabienne.jpeg\"/></div><p class=\"detailViewTop\"><b>Der Saisonauftakt der Leistungsgruppe der Trainer Ludger Zander und Nicole vom Hove des Recklinghäuser Leichtathletik Clubs ist geglückt. Bei den offenen Waltroper Stadtmeisterschaften hakte U18-Bundeskaderathlet Fabian Straberg gleich zwei Normen für die Deutschen Jugendmeisterschaften im Sommer ab.</b></p>",
+        "content_text": "Der Saisonauftakt der Leistungsgruppe der Trainer Ludger Zander und Nicole vom Hove des Recklinghäuser Leichtathletik Clubs ist geglückt. Bei den offenen Waltroper Stadtmeisterschaften hakte U18-Bundeskaderathlet Fabian Straberg gleich zwei Normen für die Deutschen Jugendmeisterschaften im Sommer ab.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20230510150133_Finja_Louisa_Fabienne.jpeg",
+                "local": "news_assets/10048/zoom_20230510150133_Finja_Louisa_Fabienne.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-37-10047",
+        "id": "10047",
+        "title": "RLC-LANGSTRECKLER GUT UNTERWEGS",
+        "date": "10. Mai 2023",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20230510144934_Niklas_Kemnader.JPG\"/></div><p class=\"detailViewTop\"><b>Die Langstrecken-Asse des RLC waren in den vergangenen Wochenenden flessig unterwegs: am 30.04 beim Nordkirchener Schloss- und Dorflauf sowie am 07.05.23 beim Kemnader Seelauf.</b></p>",
+        "content_text": "Die Langstrecken-Asse des RLC waren in den vergangenen Wochenenden flessig unterwegs: am 30.04 beim Nordkirchener Schloss- und Dorflauf sowie am 07.05.23 beim Kemnader Seelauf.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20230510144934_Niklas_Kemnader.JPG",
+                "local": "news_assets/10047/zoom_20230510144934_Niklas_Kemnader.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-38-10046",
+        "id": "10046",
+        "title": "BODYNOSTIC – HERZLICH WILLKOMMEN DEM NEUEN RLC-SPONSOR!",
+        "date": "01. Mai 2023",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20230501154445_2106_DSC5583.jpg\"/></div><p class=\"detailViewTop\"><b>Wir freuen uns, die Firma „<strong>bodynostic by Lückenotto – das Bewegungslabor</strong>“ als neuen Vereins- und Veranstaltungssponsor des Recklinghäuser Leichtathletik Club 1952 im Hohenhorst-Stadion begrüßen zu dürfen.</b></p>",
+        "content_text": "Wir freuen uns, die Firma „\nbodynostic by Lückenotto – das Bewegungslabor\n“ als neuen Vereins- und Veranstaltungssponsor des Recklinghäuser Leichtathletik Club 1952 im Hohenhorst-Stadion begrüßen zu dürfen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20230501154445_2106_DSC5583.jpg",
+                "local": "news_assets/10046/zoom_20230501154445_2106_DSC5583.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-38-10045",
+        "id": "10045",
+        "title": "RLC-SENIOREN IM MEISTERSCHAFTSMODUS",
+        "date": "23. April 2023",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20230423183916_JrgenGabi_01.jpeg\"/></div><p class=\"detailViewTop\"><b>Bei den NRW-Langstreckenmeisterschaften am 22.04.2023 im Dortmunder Hacheney-Stadion haben unsere beiden RLC-Senioren zu richtig abgsahnt: Jürgen Neuhausen (M60) wurde über 10000m NRW-Meister, Gabi Ott (W55) über 5000m Dritte.</b></p>",
+        "content_text": "Bei den NRW-Langstreckenmeisterschaften am 22.04.2023 im Dortmunder Hacheney-Stadion haben unsere beiden RLC-Senioren zu richtig abgsahnt: Jürgen Neuhausen (M60) wurde über 10000m NRW-Meister, Gabi Ott (W55) über 5000m Dritte.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20230423183916_JrgenGabi_01.jpeg",
+                "local": "news_assets/10045/zoom_20230423183916_JrgenGabi_01.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-38-10043",
+        "id": "10043",
+        "title": "16 KREISMEISTERTITEL FüR RLC-AKTIVE BEI KREISMEISTERSCHAFTEN IM CROSSLAUF",
+        "date": "19. März 2023",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20230319193509_MKU12_01.JPG\"/></div><p class=\"detailViewTop\"><b>Die erste Kreismeisterschaft des Jahres 2023 fand am 19.03.2023 in Form der Crosslaufmeisterschaften in Herten statt, wobei die gemeldeten 38 RLCler 12 Einzel- und 4 Mannschaftstitel trotz aufkommendem Regen mit nach Recklinghausen nehmen konnten.</b></p>",
+        "content_text": "Die erste Kreismeisterschaft des Jahres 2023 fand am 19.03.2023 in Form der Crosslaufmeisterschaften in Herten statt, wobei die gemeldeten 38 RLCler 12 Einzel- und 4 Mannschaftstitel trotz aufkommendem Regen mit nach Recklinghausen nehmen konnten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20230319193509_MKU12_01.JPG",
+                "local": "news_assets/10043/zoom_20230319193509_MKU12_01.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-39-10041",
+        "id": "10041",
+        "title": "PREMIERE: WESTFALENMEISTERSCHAFTEN U14, TITEL FüR LUCIA MEIER, TOP-ERGEBNISSE FüR DEN RLC",
+        "date": "09. März 2023",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20230309163359_Lucia_01.jpg\"/></div><p class=\"detailViewTop\"><b>Zum ersten Mal wurden Jugendliche U14 zu einer Westfalenmeisterschaft am 05.03.2023 in Paderborn eingeladen, mit dabei aus RLC-Sicht: Lucia Meier, Marie Manderla, Nùria Tornow Lafuente, Joris Preckel und Max Esther.</b></p>",
+        "content_text": "Zum ersten Mal wurden Jugendliche U14 zu einer Westfalenmeisterschaft am 05.03.2023 in Paderborn eingeladen, mit dabei aus RLC-Sicht: Lucia Meier, Marie Manderla, Nùria Tornow Lafuente, Joris Preckel und Max Esther.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20230309163359_Lucia_01.jpg",
+                "local": "news_assets/10041/zoom_20230309163359_Lucia_01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-39-10040",
+        "id": "10040",
+        "title": "FABIAN STRABERG IM FINALE DER JUGENDHALLEN-DM UNTER DEN TOP 10",
+        "date": "26. Februar 2023",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20230226155547_Fabien_Linda_bearb.jpeg\"/></div><p class=\"detailViewTop\"><b>Linda Beerhorst und Fabian Straberg aus der Trainingsgruppe von Ludger Zander und Nicole vom Hove vertraten die Farben des Recklinghäuser LC bei den Deutschen Jugendhallenmeisterschaften in Dortmund.</b></p>",
+        "content_text": "Linda Beerhorst und Fabian Straberg aus der Trainingsgruppe von Ludger Zander und Nicole vom Hove vertraten die Farben des Recklinghäuser LC bei den Deutschen Jugendhallenmeisterschaften in Dortmund.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20230226155547_Fabien_Linda_bearb.jpeg",
+                "local": "news_assets/10040/zoom_20230226155547_Fabien_Linda_bearb.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-39-10032",
+        "id": "10032",
+        "title": "BRONZEMEDAILLE FüR LINDA BEERHORST BEI NRW-MEISTERSCHAFTEN",
+        "date": "07. Februar 2023",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20230207151945_IMG_4569.JPG\"/></div><p class=\"detailViewTop\"><b>Am ersten Tag der NRW-Meisterschaften vertrat Linda Beerhorst die Farben des RLC bei den NRW Meisterschaften in Düsseldorf.</b></p>",
+        "content_text": "Am ersten Tag der NRW-Meisterschaften vertrat Linda Beerhorst die Farben des RLC bei den NRW Meisterschaften in Düsseldorf.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20230207151945_IMG_4569.JPG",
+                "local": "news_assets/10032/zoom_20230207151945_IMG_4569.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-40-10031",
+        "id": "10031",
+        "title": "ERFOLGREICHE HALLENPREMIERE DER U14-JUGEND IN DORTMUND",
+        "date": "29. Januar 2023",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20230129191441_Lucia_01.JPG\"/></div><p class=\"detailViewTop\"><b>Am 29.01.2023 wagten Trainerinnen Christina Sip und Dorothee Böhme mit ihren U14-Jugendlichen einen Start in der erneuerten Helmut-Körnig-Halle in Dortmund, um einige Qualifikationsnormen für die Premiere der U14-Westfalenmeisterschaft am 05.03.2023 in Paderborn erringen.</b></p>",
+        "content_text": "Am 29.01.2023 wagten Trainerinnen Christina Sip und Dorothee Böhme mit ihren U14-Jugendlichen einen Start in der erneuerten Helmut-Körnig-Halle in Dortmund, um einige Qualifikationsnormen für die Premiere der U14-Westfalenmeisterschaft am 05.03.2023 in Paderborn erringen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20230129191441_Lucia_01.JPG",
+                "local": "news_assets/10031/zoom_20230129191441_Lucia_01.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-40-10030",
+        "id": "10030",
+        "title": "FABIAN STRABERG WESTFALENMEISTER 400M, ELIAS KORTING TOP TEN",
+        "date": "29. Januar 2023",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20230129154003_Fabian_01.jpeg\"/></div><p class=\"detailViewTop\"><b>Am dritten Tag der Westfälischen Meisterschaften war der RLC mit zwei Athleten aus der Trainingsgruppe von LudgerZander und Nicole vom Hove über 400 Meter vertreten.</b></p>",
+        "content_text": "Am dritten Tag der Westfälischen Meisterschaften war der RLC mit zwei Athleten aus der Trainingsgruppe von LudgerZander und Nicole vom Hove über 400 Meter vertreten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20230129154003_Fabian_01.jpeg",
+                "local": "news_assets/10030/zoom_20230129154003_Fabian_01.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-40-10029",
+        "id": "10029",
+        "title": "VIZEMEISTERTITEL FüR LINDA BEERHORST UND FABIAN STRABERG BEI WESTFäLISCHEN HALLENMEISTERSCHAFTEN. TITEL FüR OLYMPISCHE STAFFEL.",
+        "date": "22. Januar 2023",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20230123084427_Siegerehrung_Fabian.jpeg\"/></div><p class=\"detailViewTop\"><b>Die Leichtathletinnen und Athleten des Recklinghäuser LC sind am vergangenen Wochenende erfolgreich bei den Westfälischen Meisterschaften U16/U18/ U20 und M/F in die Meisterschaftssaison in der Halle gestartet.</b></p>",
+        "content_text": "Die Leichtathletinnen und Athleten des Recklinghäuser LC sind am vergangenen Wochenende erfolgreich bei den Westfälischen Meisterschaften U16/U18/ U20 und M/F in die Meisterschaftssaison in der Halle gestartet.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20230123084427_Siegerehrung_Fabian.jpeg",
+                "local": "news_assets/10029/zoom_20230123084427_Siegerehrung_Fabian.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-41-10028",
+        "id": "10028",
+        "title": "RLC-SENIOREN IN TOP-FORM",
+        "date": "12. Januar 2023",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20230112175921_Arne_Mikro.JPG\"/></div><p class=\"detailViewTop\"><b>Bei den offenen LVN-Meisterschaften im Düsseldorfer Arena-Sportpark gingen am 08.01.2023 die beiden RLC-Senioren Jacqueline Huber ( W30 ) und Arne Wendler (M50) aW an den Start und das sehr erfolgreich.</b></p>",
+        "content_text": "Bei den offenen LVN-Meisterschaften im Düsseldorfer Arena-Sportpark gingen am 08.01.2023 die beiden RLC-Senioren Jacqueline Huber ( W30 ) und Arne Wendler (M50) aW an den Start und das sehr erfolgreich.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20230112175921_Arne_Mikro.JPG",
+                "local": "news_assets/10028/zoom_20230112175921_Arne_Mikro.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-41-10023",
+        "id": "10023",
+        "title": "ERFOLGREICHER START IN DIE HALLENSAISON",
+        "date": "15. Dezember 2022",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20221215133201_Paderborn_Halle_01.jpeg\"/></div><p class=\"detailViewTop\"><b>Einige Athleten aus der Trainingsgruppe von Bianca Broda haben den weiten Weg nach Paderborn auf sich genommen, um den ersten Hallenstart der Saison 22/23 in Angriff zu nehmen. Mit richtig guten Ergebnissen!</b></p>",
+        "content_text": "Einige Athleten aus der Trainingsgruppe von Bianca Broda haben den weiten Weg nach Paderborn auf sich genommen, um den ersten Hallenstart der Saison 22/23 in Angriff zu nehmen. Mit richtig guten Ergebnissen!",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20221215133201_Paderborn_Halle_01.jpeg",
+                "local": "news_assets/10023/zoom_20221215133201_Paderborn_Halle_01.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-41-10021",
+        "id": "10021",
+        "title": "SILVESTERLAUF-ANMELDUNG",
+        "date": "30. November 2022",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20221130212648_Start_5km01.JPG\"/></div><p class=\"detailViewTop\"><b> Die Anmeldung für den 35. Recklinghäuser Silvesterlauf ist mittlerweile bei race|result freigeschaltet: <a href=\"https://my.raceresult.com/225143\" target=\"_blank\">https://my.raceresult.com/225143</a></b></p>",
+        "content_text": "Die Anmeldung für den 35. Recklinghäuser Silvesterlauf ist mittlerweile bei race|result freigeschaltet:\nhttps://my.raceresult.com/225143",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20221130212648_Start_5km01.JPG",
+                "local": "news_assets/10021/zoom_20221130212648_Start_5km01.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-42-10017",
+        "id": "10017",
+        "title": "JüRGEN NEUHAUSEN WIEDER AUF DEM SIEGERPODEST",
+        "date": "13. November 2022",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20221113173700_Jrgen_Lauf_bearb.JPG\"/></div><p class=\"detailViewTop\"><b>Bei den Westf. Meisterschaften im Crosslauf startete RLC-Läufer Jürgen Neuhausen ( noch Ü55, ab dem 01.01.23 aber Ü60) am 12.11.2022 in Hörstel-Riesenbeck über die Strecke von 8,1km.</b></p>",
+        "content_text": "Bei den Westf. Meisterschaften im Crosslauf startete RLC-Läufer Jürgen Neuhausen ( noch Ü55, ab dem 01.01.23 aber Ü60) am 12.11.2022 in Hörstel-Riesenbeck über die Strecke von 8,1km.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20221113173700_Jrgen_Lauf_bearb.JPG",
+                "local": "news_assets/10017/zoom_20221113173700_Jrgen_Lauf_bearb.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-42-10015",
+        "id": "10015",
+        "title": "TOPERGEBNISSE IN COESFELD",
+        "date": "12. Oktober 2022",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20221012154843_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Bei bestem Laufwetter standen am Samstag, den 08.10.2022, sechs Athletinnen und Athleten des Recklinghäuser LC an der Startlinie zum 28. Coesfelder Citylauf. Die Traditionsveranstaltung mit der schnellen Laufstrecke wird dort alljährlich in der Coesfelder Innenstadt ausgetragen.</b></p>",
+        "content_text": "Bei bestem Laufwetter standen am Samstag, den 08.10.2022, sechs Athletinnen und Athleten des Recklinghäuser LC an der Startlinie zum 28. Coesfelder Citylauf. Die Traditionsveranstaltung mit der schnellen Laufstrecke wird dort alljährlich in der Coesfelder Innenstadt ausgetragen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20221012154843_bearb.jpg",
+                "local": "news_assets/10015/zoom_20221012154843_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-42-10014",
+        "id": "10014",
+        "title": "TOP-AUFTRITT VON MATTHIAS AMONEIT BEIM BERLIN-MARATHON",
+        "date": "04. Oktober 2022",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20221004100131_IMG-20220925-WA0013.jpg\"/></div><p class=\"detailViewTop\"><b>Von der grandiosen Stimmung an der Strecke sowie den perfekten Wetterbedingungen beim Berlin-Marathon profitierte nicht nur der alte und neue Weltrekordinhaber Eliud Kipchoge, sondern auch der RLC-Läufer Marathonläufer Matthias Amoneit.</b></p>",
+        "content_text": "Von der grandiosen Stimmung an der Strecke sowie den perfekten Wetterbedingungen beim Berlin-Marathon profitierte nicht nur der alte und neue Weltrekordinhaber Eliud Kipchoge, sondern auch der RLC-Läufer Marathonläufer Matthias Amoneit.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20221004100131_IMG-20220925-WA0013.jpg",
+                "local": "news_assets/10014/zoom_20221004100131_IMG-20220925-WA0013.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-43-10013",
+        "id": "10013",
+        "title": "12 WEITERE KREISMEISTERTITEL FüR DEN RLC",
+        "date": "25. September 2022",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20220925182421_Siegerehrung_WKU12_01.JPG\"/></div><p class=\"detailViewTop\"><b>Die Kreismehrkampfmeisterschaften der U10 – U14-Kids am 24.09.2022 im heimischen Hohenhorst-Stadion waren ein voller Erfolg: von den 32 zu vergebenen Kreismeistertiteln blieben 12 bei RLC-Athletinnen und Athleten.</b></p>",
+        "content_text": "Die Kreismehrkampfmeisterschaften der U10 – U14-Kids am 24.09.2022 im heimischen Hohenhorst-Stadion waren ein voller Erfolg: von den 32 zu vergebenen Kreismeistertiteln blieben 12 bei RLC-Athletinnen und Athleten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20220925182421_Siegerehrung_WKU12_01.JPG",
+                "local": "news_assets/10013/zoom_20220925182421_Siegerehrung_WKU12_01.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-43-10012",
+        "id": "10012",
+        "title": "10KM – DM MIT RLC-BETEILIGUNG",
+        "date": "23. September 2022",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20220923155709_Gabi_Christian.JPG\"/></div><p class=\"detailViewTop\"><b>Am 18.09.2022 fanden in Saarbrücken die Deutschen 10km-Meisterschaften unter Beteiligung zweier RLC-Aktiver statt: Gabi Ott und Christian Kulbartsch starteten das 1. Mal bei einer DM und kehrten mit tollen Ergebnissen nach Recklinghausen zurück.</b></p>",
+        "content_text": "Am 18.09.2022 fanden in Saarbrücken die Deutschen 10km-Meisterschaften unter Beteiligung zweier RLC-Aktiver statt: Gabi Ott und Christian Kulbartsch starteten das 1. Mal bei einer DM und kehrten mit tollen Ergebnissen nach Recklinghausen zurück.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20220923155709_Gabi_Christian.JPG",
+                "local": "news_assets/10012/zoom_20220923155709_Gabi_Christian.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-43-10011",
+        "id": "10011",
+        "title": "ERFOLGE üBER ERFOLGE FüR DEN RLC!",
+        "date": "18. September 2022",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20220923154143_50mW11.JPG\"/></div><p class=\"detailViewTop\"><b>Beim vorletzten Stadionwettkampf 2022 im Hohenhorst konnte der RLC-Nachwuchs noch mal so richtig zeigen, was die Leichtathletik zu bieten hat.<br>Wettertechnisch hatten wir noch Glück im Unglück. Bei kühlen 14° C waren die sonnigen Abschnitte, nur unterbrochen durch 5 dicke Schauer, in der Überhand.</br></b></p>",
+        "content_text": "Beim vorletzten Stadionwettkampf 2022 im Hohenhorst konnte der RLC-Nachwuchs noch mal so richtig zeigen, was die Leichtathletik zu bieten hat.\nWettertechnisch hatten wir noch Glück im Unglück. Bei kühlen 14° C waren die sonnigen Abschnitte, nur unterbrochen durch 5 dicke Schauer, in der Überhand.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20220923154143_50mW11.JPG",
+                "local": "news_assets/10011/zoom_20220923154143_50mW11.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-44-10010",
+        "id": "10010",
+        "title": "BRONZEMEDAILLE UND BESTLEISTUNGEN BEI JUGEND-DM",
+        "date": "20. Juli 2022",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20220720211408_Mannschaft_01.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Deutschen Jugendmeisterschaften in Ulm hat sich gezeigt: Die Athletinnen und Athleten des Trainerteams Ludger Zander und Nicole vom Hove sind auf den Punkt topfit.</b></p>",
+        "content_text": "Bei den Deutschen Jugendmeisterschaften in Ulm hat sich gezeigt: Die Athletinnen und Athleten des Trainerteams Ludger Zander und Nicole vom Hove sind auf den Punkt topfit.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20220720211408_Mannschaft_01.jpg",
+                "local": "news_assets/10010/zoom_20220720211408_Mannschaft_01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-44-10009",
+        "id": "10009",
+        "title": "GOLD, SILBER UND BRONZE BEI DEN NRW-JUGENDMEISTERSCHAFTEN",
+        "date": "02. Juli 2022",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20220702200152_Staffel.jpeg\"/></div><p class=\"detailViewTop\"><b>Mit einem kompletten Medaillensatz kehrten die Jugendlichen der Altersklasse U18 aus der Trainingsgruppe von Ludger Zander und Nicole vom Hove von den NRW-Jugendmeisterschaften aus dem rheinischen Troisdorf zurück.</b></p>",
+        "content_text": "Mit einem kompletten Medaillensatz kehrten die Jugendlichen der Altersklasse U18 aus der Trainingsgruppe von Ludger Zander und Nicole vom Hove von den NRW-Jugendmeisterschaften aus dem rheinischen Troisdorf zurück.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20220702200152_Staffel.jpeg",
+                "local": "news_assets/10009/zoom_20220702200152_Staffel.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-44-10008",
+        "id": "10008",
+        "title": "KINDERLEICHTATHLETIK-TAG IM HOHENHORST-STADION",
+        "date": "22. Juni 2022",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20220622215550_IMG_3428.JPG\"/></div><p class=\"detailViewTop\"><b>Den Fronleichnam-Tag 2022 hatte der RLC zum KiLa-Tag auserkoren. Für die Altersklassen U8, U10 und U12 wurden Mannschaftswettbewerbe in den Disziplinen: Sprints aus unterschiedlichen Startpositionen, Hoch-Weit-Sprung bzw. Additionsweitsprung, Mini-Vortex-Zonenweitwurf bzw. Additionsschlagball-Wurf, Hindernis-Sprint-Pendelstaffel, 50m-Hürdenlauf und 6 x 50m-Staffel angeboten.</b></p>",
+        "content_text": "Den Fronleichnam-Tag 2022 hatte der RLC zum KiLa-Tag auserkoren. Für die Altersklassen U8, U10 und U12 wurden Mannschaftswettbewerbe in den Disziplinen: Sprints aus unterschiedlichen Startpositionen, Hoch-Weit-Sprung bzw. Additionsweitsprung, Mini-Vortex-Zonenweitwurf bzw. Additionsschlagball-Wurf, Hindernis-Sprint-Pendelstaffel, 50m-Hürdenlauf und 6 x 50m-Staffel angeboten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20220622215550_IMG_3428.JPG",
+                "local": "news_assets/10008/zoom_20220622215550_IMG_3428.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-45-10007",
+        "id": "10007",
+        "title": "VIER WESTFALENTITEL UND DREI VIZEMEISTERTITEL",
+        "date": "22. Juni 2022",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20220622211334_MJU18_800m.JPG\"/></div><p class=\"detailViewTop\"><b>Bei den Westfälischen Jugend-Meisterschaften in unserem Stadion Hohenhorst zeigten die Sprinter, Sprinterinnen und Mittelstreckler aus der Trainingsgruppe von Ludger Zander und Nicole vom Hove, dass jede Menge Potenzial in Ihnen steckt.</b></p>",
+        "content_text": "Bei den Westfälischen Jugend-Meisterschaften in unserem Stadion Hohenhorst zeigten die Sprinter, Sprinterinnen und Mittelstreckler aus der Trainingsgruppe von Ludger Zander und Nicole vom Hove, dass jede Menge Potenzial in Ihnen steckt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20220622211334_MJU18_800m.JPG",
+                "local": "news_assets/10007/zoom_20220622211334_MJU18_800m.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-45-10003",
+        "id": "10003",
+        "title": "JENDRIK TORNOW-LAFUENTE-FESTSPIELE IN SYTHEN",
+        "date": "12. Juni 2022",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20220612182907_LuciaSE.jpg\"/></div><p class=\"detailViewTop\"><b>Bei gößtenteils sonnig-warmen Leichtathletik-Wetter fanden nach 2 Jahren endlich wieder Kreiseinzelmeisterschaften U12/U14 sowie Bestenkämpfe der U10 in Haltern-Sythen statt.<br>Im Trikot des RLC traten 22 Kids an, die 15 Titel einheimsten und weitere 50 Urkunden mit nach Recklinghausen bringen konnten.</br></b></p>",
+        "content_text": "Bei gößtenteils sonnig-warmen Leichtathletik-Wetter fanden nach 2 Jahren endlich wieder Kreiseinzelmeisterschaften U12/U14 sowie Bestenkämpfe der U10 in Haltern-Sythen statt.\nIm Trikot des RLC traten 22 Kids an, die 15 Titel einheimsten und weitere 50 Urkunden mit nach Recklinghausen bringen konnten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20220612182907_LuciaSE.jpg",
+                "local": "news_assets/10003/zoom_20220612182907_LuciaSE.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-46-10002",
+        "id": "10002",
+        "title": "ALEXA GROLL WESTFALENMEISTERIN üBER 800M W15",
+        "date": "12. Juni 2022",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20220612173020_Alexa_02.jpg\"/></div><p class=\"detailViewTop\"><b>Der RLC hat eine neue Westfalenmeisterin: Alexa Groll, W15 aus der Trainingsgruppe von Sebastian Stephani. Sie gewann bei sonnigen 23° C den ersten von 2 Wertungsläufen in 2:31,52min und bestätigte damit ihre Meldezeit.</b></p>",
+        "content_text": "Der RLC hat eine neue Westfalenmeisterin: Alexa Groll, W15 aus der Trainingsgruppe von Sebastian Stephani. Sie gewann bei sonnigen 23° C den ersten von 2 Wertungsläufen in 2:31,52min und bestätigte damit ihre Meldezeit.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20220612173020_Alexa_02.jpg",
+                "local": "news_assets/10002/zoom_20220612173020_Alexa_02.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-45-10001",
+        "id": "10001",
+        "title": "ERFOLGREICHE RLCLERINNEN BEI NRW-MEISTERSCHAFTEN",
+        "date": "12. Juni 2022",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20220612160100_FStaffel.jpeg\"/></div><p class=\"detailViewTop\"><b>Nach zwei Jahren Pause wurden endlich wieder NRW-Meisterschaften der Frauen durchgeführt.U23-Athletin Clara vom Hove nahm dort die herausfordernde 400m-Hürden-Strecke in Angriff.</b></p>",
+        "content_text": "Nach zwei Jahren Pause wurden endlich wieder NRW-Meisterschaften der Frauen durchgeführt.U23-Athletin Clara vom Hove nahm dort die herausfordernde 400m-Hürden-Strecke in Angriff.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20220612160100_FStaffel.jpeg",
+                "local": "news_assets/10001/zoom_20220612160100_FStaffel.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-46-9998",
+        "id": "9998",
+        "title": "4 X 100M- WJU18-STAFFEL LäUFT QUALI FüR DM!",
+        "date": "22. Mai 2022",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20220522171158_U18Staffel.jpeg\"/></div><p class=\"detailViewTop\"><b>die Mädels der weiblichen U18 der StG RE-HAmm sind heute beim Klingensportfest in Solingen die Norm für die Deutschen Jugendmeisterschaften in Ulm über 4x100m gelaufen.</b></p>",
+        "content_text": "die Mädels der weiblichen U18 der StG RE-HAmm sind heute beim Klingensportfest in Solingen die Norm für die Deutschen Jugendmeisterschaften in Ulm über 4x100m gelaufen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20220522171158_U18Staffel.jpeg",
+                "local": "news_assets/9998/zoom_20220522171158_U18Staffel.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-46-9997",
+        "id": "9997",
+        "title": "RLC-YOUNGSTERS ON TOUR",
+        "date": "22. Mai 2022",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20220522170806_U10.JPG\"/></div><p class=\"detailViewTop\"><b>Auch für die jüngsten RLCler hat die Wettkampfsaison 2022 begonnen. Kids der Altersklassen U8 und U10 traten in Oer-Erkenschwick zu einem Kinder-Leichtathletik-Mannschafts-Wettkampf...</b></p>",
+        "content_text": "Auch für die jüngsten RLCler hat die Wettkampfsaison 2022 begonnen. Kids der Altersklassen U8 und U10 traten in Oer-Erkenschwick zu einem Kinder-Leichtathletik-Mannschafts-Wettkampf...",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20220522170806_U10.JPG",
+                "local": "news_assets/9997/zoom_20220522170806_U10.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-47-9996",
+        "id": "9996",
+        "title": "BAHNERöFFNUNG 2022 HOHENHORST – RE STARTET DURCH",
+        "date": "17. Mai 2022",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20220517151628_Marie.JPG\"/></div><p class=\"detailViewTop\"><b>Nach 30 Monaten konnten wir endlich wieder einen Bahnwettbewerb ohne Corona-Einschränkungen anbieten: ein tolles Gefühl bei warmem und windarmem Leichtathletik-Wetter.</b></p>",
+        "content_text": "Nach 30 Monaten konnten wir endlich wieder einen Bahnwettbewerb ohne Corona-Einschränkungen anbieten: ein tolles Gefühl bei warmem und windarmem Leichtathletik-Wetter.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20220517151628_Marie.JPG",
+                "local": "news_assets/9996/zoom_20220517151628_Marie.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-47-9995",
+        "id": "9995",
+        "title": "ES GEHT WIEDER LOS! TEIL 2",
+        "date": "08. Mai 2022",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20220508200514_Lotte_01.jpg\"/></div><p class=\"detailViewTop\"><b>Ebenfalls im ersten Freilufteinsatz war die U16-Jugendtruppe von Sebastian Stephani bei einem gut besetzten Einstiegswettkampf in Hagen.<br>Im Fokus sollten hier die beiden 4x100m-Staffeln der WJU16 und MJU16 stehen. Leider mussten zwei Mitglieder der WJU16 bereits nach den Vorkämpfen verletztungsbedingt die Segel streichen, so dass ein echter Test leider ausbleiben musste.</br></b></p>",
+        "content_text": "Ebenfalls im ersten Freilufteinsatz war die U16-Jugendtruppe von Sebastian Stephani bei einem gut besetzten Einstiegswettkampf in Hagen.\nIm Fokus sollten hier die beiden 4x100m-Staffeln der WJU16 und MJU16 stehen. Leider mussten zwei Mitglieder der WJU16 bereits nach den Vorkämpfen verletztungsbedingt die Segel streichen, so dass ein echter Test leider ausbleiben musste.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20220508200514_Lotte_01.jpg",
+                "local": "news_assets/9995/zoom_20220508200514_Lotte_01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-47-9994",
+        "id": "9994",
+        "title": "ES GEHT WIEDER LOS!",
+        "date": "08. Mai 2022",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20220508195510_TN_waltrop070522.jpg\"/></div><p class=\"detailViewTop\"><b>Den ersten Freiluftwettkampf im Kreis Recklinghausen, am 07.05.2022 in Waltrop, nutzten viele der RLC-Jugendlichen, um auf sich aufmerksam zu machen. Gleich 3 Qualis für die U18/U20 DM Mitte Juli in Ulm und diverse Qualis für die Westf.U18/U20 in Recklinghausen sammelten die Athletinnen und Athleten von Ludger Zander und Nicole vom Hove ein.</b></p>",
+        "content_text": "Den ersten Freiluftwettkampf im Kreis Recklinghausen, am 07.05.2022 in Waltrop, nutzten viele der RLC-Jugendlichen, um auf sich aufmerksam zu machen. Gleich 3 Qualis für die U18/U20 DM Mitte Juli in Ulm und diverse Qualis für die Westf.U18/U20 in Recklinghausen sammelten die Athletinnen und Athleten von Ludger Zander und Nicole vom Hove ein.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20220508195510_TN_waltrop070522.jpg",
+                "local": "news_assets/9994/zoom_20220508195510_TN_waltrop070522.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-48-9993",
+        "id": "9993",
+        "title": "RLC-QUARTETT BEIM MARATHON ERFOLGREICH!",
+        "date": "04. April 2022",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20220404221818_DM_Marathon_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Unter der Betreuung von RLC-Langstreckentrainer Thomas Vogl haben sich 4 gestandene RLC-Läufer aufgemacht, der DM Marathon in Hannover am 03.04.2022 bei bestem Marathonwetter ( dem einen oder anderen war es eher zu kalt) ihren Stempel aufzudrücken.</b></p>",
+        "content_text": "Unter der Betreuung von RLC-Langstreckentrainer Thomas Vogl haben sich 4 gestandene RLC-Läufer aufgemacht, der DM Marathon in Hannover am 03.04.2022 bei bestem Marathonwetter ( dem einen oder anderen war es eher zu kalt) ihren Stempel aufzudrücken.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20220404221818_DM_Marathon_bearb.jpg",
+                "local": "news_assets/9993/zoom_20220404221818_DM_Marathon_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-48-9991",
+        "id": "9991",
+        "title": "EINLADUNG ZUR JAHRESHAUPTVERSAMMLUNG",
+        "date": "26. März 2022",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20220326190346_rlc-logo.jpg\"/></div><p class=\"detailViewTop\"><b>Liebe VereinsmitgliederInnen und Erziehungsberechtigte,</b></p>",
+        "content_text": "Liebe VereinsmitgliederInnen und Erziehungsberechtigte,",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-48-9982",
+        "id": "9982",
+        "title": "RLC FEIERT VIELE ERFOLGE BEIM KREISCROSS",
+        "date": "20. März 2022",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20220320200846_WKU12.jpg\"/></div><p class=\"detailViewTop\"><b>Nach genau 3 langen Jahren konnte im FLVW-Kreis Recklinghausen endlich wieder eine Kreismeisterschaften im Crosslauf stattfinden, am 20.03.2022 bei der LA SV Herten, bei trockenem, wenn auch 8°C kalten Wetter.</b></p>",
+        "content_text": "Nach genau 3 langen Jahren konnte im FLVW-Kreis Recklinghausen endlich wieder eine Kreismeisterschaften im Crosslauf stattfinden, am 20.03.2022 bei der LA SV Herten, bei trockenem, wenn auch 8°C kalten Wetter.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20220320200846_WKU12.jpg",
+                "local": "news_assets/9982/zoom_20220320200846_WKU12.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-49-9981",
+        "id": "9981",
+        "title": "2. NRW-TITEL FüR FABIAN STRABERG",
+        "date": "06. Februar 2022",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20220209154302_Fabian_Treppchen.JPG\"/></div><p class=\"detailViewTop\"><b>Nachdem der 15jährige Fabian Straberg am gestrigen Samstag gemeinsam mit seiner MJU18-4x200m-Staffel bereits einen NRW-Titel einfahren konnte, ließ er heute den Titel über 400m folgen.</b></p>",
+        "content_text": "Nachdem der 15jährige Fabian Straberg am gestrigen Samstag gemeinsam mit seiner MJU18-4x200m-Staffel bereits einen NRW-Titel einfahren konnte, ließ er heute den Titel über 400m folgen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20220209154302_Fabian_Treppchen.JPG",
+                "local": "news_assets/9981/zoom_20220209154302_Fabian_Treppchen.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-49-9980",
+        "id": "9980",
+        "title": "KEIN WOCHENENDE OHNE RLC-ERFOLGE!",
+        "date": "05. Februar 2022",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20220206101130_Staffeln.JPG\"/></div><p class=\"detailViewTop\"><b>NRW-Hallenmeisterschaften in Düsseldorf: Unsere Jugendlichen lassen sich nicht lumpen! Erneut ein Titel und ein toller 4. Platz der U18-Trainingsgruppe.</b></p>",
+        "content_text": "NRW-Hallenmeisterschaften in Düsseldorf: Unsere Jugendlichen lassen sich nicht lumpen! Erneut ein Titel und ein toller 4. Platz der U18-Trainingsgruppe.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20220206101130_Staffeln.JPG",
+                "local": "news_assets/9980/zoom_20220206101130_Staffeln.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-49-9979",
+        "id": "9979",
+        "title": "3. WETTKAMPFTAG WESTFäLISCHE HALLENMEISTERSCHAFTEN = 3. TITEL FüR DEN RLC",
+        "date": "30. Januar 2022",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20220130181609_Siegerehrung_olyp.Staffel.jpg\"/></div><p class=\"detailViewTop\"><b>Die kleine, aber feine Athleten-Crew des RLC konnte auch am 30.01.2022, dem 3. Wettkampftag der Westfälischen Hallenmeisterschaften in Dortmund einen weiteren Titel einfahren. Die MJU18-Starter: Fabian Straberg, Elias Korting, Finn Kedzia und Schlussläufer Noah Stöcker erliefen sich in  3:49,49min den Titel in der Olympischen Staffel.</b></p>",
+        "content_text": "Die kleine, aber feine Athleten-Crew des RLC konnte auch am 30.01.2022, dem 3. Wettkampftag der Westfälischen Hallenmeisterschaften in Dortmund einen weiteren Titel einfahren. Die MJU18-Starter: Fabian Straberg, Elias Korting, Finn Kedzia und Schlussläufer Noah Stöcker erliefen sich in  3:49,49min den Titel in der Olympischen Staffel.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20220130181609_Siegerehrung_olyp.Staffel.jpg",
+                "local": "news_assets/9979/zoom_20220130181609_Siegerehrung_olyp.Staffel.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-50-9978",
+        "id": "9978",
+        "title": "WESTFäLISCHE MEISTERSCHAFTEN IN CORONAZEITEN: EINE RLC-ERFOLGSGESCHICHTE",
+        "date": "23. Januar 2022",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20220123174910_TN_WM_1_2_DO.jpg\"/></div><p class=\"detailViewTop\"><b>Nach 2 von 3 Wettkampftagen Westf. Hallenmeisterschaften 2022 in Dortmund weisen die jungen Athletinnen und Athleten des RLC eine tolle Bilanz auf: 5 Starts = 2 Titel, ein 2., ein 3. und ein 4. Rang auf dem begehrten Treppchen, besser gehts wohl kaum.</b></p>",
+        "content_text": "Nach 2 von 3 Wettkampftagen Westf. Hallenmeisterschaften 2022 in Dortmund weisen die jungen Athletinnen und Athleten des RLC eine tolle Bilanz auf: 5 Starts = 2 Titel, ein 2., ein 3. und ein 4. Rang auf dem begehrten Treppchen, besser gehts wohl kaum.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20220123174910_TN_WM_1_2_DO.jpg",
+                "local": "news_assets/9978/zoom_20220123174910_TN_WM_1_2_DO.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-50-9977",
+        "id": "9977",
+        "title": "FIT WERDEN – FIT SEIN – FIT BLEIBEN!",
+        "date": "13. Januar 2022",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20220113154611_Kleingerte.jpg\"/></div><p class=\"detailViewTop\"><b>Unter diesem Motto startet der RLC am 20.01.2022 um 20.00Uhr in der Sporthalle der GS an der Hohenzollernstraße den neuen Gesundheitskurs Ü50 unter der Leitung des ausgebildeten Reha-Trainers Sebastian Much.</b></p>",
+        "content_text": "Unter diesem Motto startet der RLC am 20.01.2022 um 20.00Uhr in der Sporthalle der GS an der Hohenzollernstraße den neuen Gesundheitskurs Ü50 unter der Leitung des ausgebildeten Reha-Trainers Sebastian Much.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20220113154611_Kleingerte.jpg",
+                "local": "news_assets/9977/zoom_20220113154611_Kleingerte.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-50-9976",
+        "id": "9976",
+        "title": "NICHT NUR DIE JüNGSTEN HATTEN SPAß! SILVESTERLAUF BEIM RLC EIN VOLLER ERFOLG!",
+        "date": "02. Januar 2022",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20220102185821_Mathilsa_Hasan.JPG\"/></div><p class=\"detailViewTop\"><b>Nach vielem Hin-und-Her, drei neuen Coronaverordnungen und 4 Anpassungen der Silvesterlauf-Ausschreibung wurde die Durchführung unseres 34. Recklinghäuser Silvesterlauf mit einigen Veränderungen genehmigt.</b></p>",
+        "content_text": "Nach vielem Hin-und-Her, drei neuen Coronaverordnungen und 4 Anpassungen der Silvesterlauf-Ausschreibung wurde die Durchführung unseres 34. Recklinghäuser Silvesterlauf mit einigen Veränderungen genehmigt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20220102185821_Mathilsa_Hasan.JPG",
+                "local": "news_assets/9976/zoom_20220102185821_Mathilsa_Hasan.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-51-9974",
+        "id": "9974",
+        "title": "DER RECKLINGHäUSER SILVESTERLAUF DARF STARTEN!",
+        "date": "09. Dezember 2021",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20211209152103_Abendlauf_03.jpg\"/></div><p class=\"detailViewTop\"><b>Für alle laufbegeisterten Menschen eine gute Nachricht: der Recklinghäuser LC darf nach derzeitigen Corona-Richtlinien den Silvesterlauf durchführen, wenn auch in abgespeckter Form.</b></p>",
+        "content_text": "Für alle laufbegeisterten Menschen eine gute Nachricht: der Recklinghäuser LC darf nach derzeitigen Corona-Richtlinien den Silvesterlauf durchführen, wenn auch in abgespeckter Form.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20211209152103_Abendlauf_03.jpg",
+                "local": "news_assets/9974/zoom_20211209152103_Abendlauf_03.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-51-9973",
+        "id": "9973",
+        "title": "CORONA-UPDATE 24.11.2021 / OHNE 2G-NACHWEIS KEIN TRAINING!",
+        "date": "25. November 2021",
+        "content_html": "<p class=\"detailViewTop\"><b>Liebe RLCler, jetzt ist es soweit, auch wir müssen bei <strong>allen RLC-Mitgliedern</strong> über 15 Jahre vor Nutzung einer Trainingsstätte, egal ob Einfachhalle, Alfons-Schütt-Arena, Stadion Hohenhorst oder Kraftraum eine <strong>2G-Kontrolle</strong> durchführen.</b></p>",
+        "content_text": "Liebe RLCler, jetzt ist es soweit, auch wir müssen bei\nallen RLC-Mitgliedern\nüber 15 Jahre vor Nutzung einer Trainingsstätte, egal ob Einfachhalle, Alfons-Schütt-Arena, Stadion Hohenhorst oder Kraftraum eine\n2G-Kontrolle\ndurchführen.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-51-9966",
+        "id": "9966",
+        "title": "WESTFäLISCHE CROSSLAUFMEISTERSCHAFTEN: NASS, KALT, ABER ERFOLGREICH",
+        "date": "13. November 2021",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20211113155857_Louisa_02.jpeg\"/></div><p class=\"detailViewTop\"><b>Das kleine RLC-Team bei den Westf. Crosslaufmeisterschaften am 13.11.2021 in Breckerfeld kam ziemlich durchgefroren, aber mit stolzgeschwellter Brust nach Recklinghausen zurück.</b></p>",
+        "content_text": "Das kleine RLC-Team bei den Westf. Crosslaufmeisterschaften am 13.11.2021 in Breckerfeld kam ziemlich durchgefroren, aber mit stolzgeschwellter Brust nach Recklinghausen zurück.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20211113155857_Louisa_02.jpeg",
+                "local": "news_assets/9966/zoom_20211113155857_Louisa_02.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-52-9965",
+        "id": "9965",
+        "title": "NEUES KURS-ANGEBOT DES RLC FüR Ü50",
+        "date": "07. November 2021",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20211107171922_Kleingerte.jpg\"/></div><p class=\"detailViewTop\"><b>Unter dem Motto: <strong>Fit werden – Fit sein – Fit bleiben</strong> bietet der RLC allen Mitgliedern und externen Interessenten den neuen Gesundheitskurs Ü50 an: jeden Donnerstag treffen sich alle Interessierten um 20.00Uhr in der Sporthalle der GS Hohenzollern, Hohenzollernstraße 3, 45659 Recklinghausen, um unter Anleitung eines qualifizierten Reha-Trainers ein allgemeines Fitnessprogramm zu absolvieren,</b></p>",
+        "content_text": "Unter dem Motto:\nFit werden – Fit sein – Fit bleiben\nbietet der RLC allen Mitgliedern und externen Interessenten den neuen Gesundheitskurs Ü50 an: jeden Donnerstag treffen sich alle Interessierten um 20.00Uhr in der Sporthalle der GS Hohenzollern, Hohenzollernstraße 3, 45659 Recklinghausen, um unter Anleitung eines qualifizierten Reha-Trainers ein allgemeines Fitnessprogramm zu absolvieren,",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20211107171922_Kleingerte.jpg",
+                "local": "news_assets/9965/zoom_20211107171922_Kleingerte.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-52-9964",
+        "id": "9964",
+        "title": "DRINGEND GESUCHT: SENIOREN-NACHWUCHS",
+        "date": "06.  -  07. November2021",
+        "content_html": "<p class=\"detailViewTop\"><b>Der RLC sucht neue Mitstreiter für die Seniorengruppe Ü60, die unter Leitung von Ulrich Moschner seit vielen Jahren mit viel Spaß und Engagement immer Montags, 18.30 – 20.00Uhr in der Sporthalle der Hohenzollernschule, Hohenzollernstraße 3, 45659 Recklinghausen, ihrem Gymnastik-, Volleyball- und Hockeytraining nachgeht.</b></p>",
+        "content_text": "Der RLC sucht neue Mitstreiter für die Seniorengruppe Ü60, die unter Leitung von Ulrich Moschner seit vielen Jahren mit viel Spaß und Engagement immer Montags, 18.30 – 20.00Uhr in der Sporthalle der Hohenzollernschule, Hohenzollernstraße 3, 45659 Recklinghausen, ihrem Gymnastik-, Volleyball- und Hockeytraining nachgeht.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-53-9963",
+        "id": "9963",
+        "title": "ERFOLGREICHE ERSTE CROSSLAUF-VERSUCHE SEIT 2 JAHREN",
+        "date": "31. Oktober 2021",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20211031184804_U12_01.JPG\"/></div><p class=\"detailViewTop\"><b>Beim Crosslauf durchs Backumer Tal am 31.10.2021 gingen mit Julius Troselj, Helia Meier, Marie Manderla und Leni Nefedev 4 U12-Kids für den RLC an den Start, deren letzte Erfahrungen auf diesem Gebiet mehr als 2 Jahre zurücklagen, zudem war die Strecke durchs hügelige Backumer Tal mit 2500m doppelt so lang, wie in den Jahren vorher, dafür diesmal trocken und sonnig mit für einen Crosslauf idealen 13 Grad.</b></p>",
+        "content_text": "Beim Crosslauf durchs Backumer Tal am 31.10.2021 gingen mit Julius Troselj, Helia Meier, Marie Manderla und Leni Nefedev 4 U12-Kids für den RLC an den Start, deren letzte Erfahrungen auf diesem Gebiet mehr als 2 Jahre zurücklagen, zudem war die Strecke durchs hügelige Backumer Tal mit 2500m doppelt so lang, wie in den Jahren vorher, dafür diesmal trocken und sonnig mit für einen Crosslauf idealen 13 Grad.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20211031184804_U12_01.JPG",
+                "local": "news_assets/9963/zoom_20211031184804_U12_01.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-52-9962",
+        "id": "9962",
+        "title": "RLC-KIDS GROß IN FORM",
+        "date": "31. Oktober 2021",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20211031184411_U10_01.JPG\"/></div><p class=\"detailViewTop\"><b>Parallel zum Crosslauf im Backumer Tal am 31.10.2021 war auch ein Tandem-Biathlon-Wettbewerb für U10- Kids ausgeschrieben.  Auch der RLC hatte dafür gemeldet und es gab einen tollen ersten Platz für die Mini-RLCler zu feiern.</b></p>",
+        "content_text": "Parallel zum Crosslauf im Backumer Tal am 31.10.2021 war auch ein Tandem-Biathlon-Wettbewerb für U10- Kids ausgeschrieben.  Auch der RLC hatte dafür gemeldet und es gab einen tollen ersten Platz für die Mini-RLCler zu feiern.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20211031184411_U10_01.JPG",
+                "local": "news_assets/9962/zoom_20211031184411_U10_01.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-53-9959",
+        "id": "9959",
+        "title": "ENDLICH WIEDER EIN ( FAST ) NORMALER WETTKAMPF",
+        "date": "20. September 2021",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20210920153032_U10_Dreikampf.jpg\"/></div><p class=\"detailViewTop\"><b>Die 38. Offenen Stadtmeisterschaften standen unter einem ganz besonderen Stern: der erste normale Wettkampf seit 18 Monaten und gleichzeitig mussten einige Leistungsträger im Organisationsteam krankheitsbedingt ersetzt werden. Wir haben es geschafft! Eine tolle Veranstaltung liegt hinter uns, ein Wettkampf, der für viele Athletinnen und Athleten der allererste ihre Lebens war.</b></p>",
+        "content_text": "Die 38. Offenen Stadtmeisterschaften standen unter einem ganz besonderen Stern: der erste normale Wettkampf seit 18 Monaten und gleichzeitig mussten einige Leistungsträger im Organisationsteam krankheitsbedingt ersetzt werden. Wir haben es geschafft! Eine tolle Veranstaltung liegt hinter uns, ein Wettkampf, der für viele Athletinnen und Athleten der allererste ihre Lebens war.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20210920153032_U10_Dreikampf.jpg",
+                "local": "news_assets/9959/zoom_20210920153032_U10_Dreikampf.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-53-9958",
+        "id": "9958",
+        "title": "STRABERG-MEISTERSCHAFTEN / WEITERER TITEL IN FINJA TOBERS SAMMLUNG",
+        "date": "12. September 2021",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20210913154956_U16_U18.jpg\"/></div><p class=\"detailViewTop\"><b>Die kurzfristig anberaumten westfälischen U16/U18/U20 am 11./12.09. in Lage dominierte aus RLC-Sicht <strong>Fabian Straberg, M15. </strong><br>Er siegte nacheinander über <strong>800m in 2:04,57min</strong> (verbesserte dabei seine Meldeleistung um ganze 5 Sekunden) und über <strong>300m in 38,01sec</strong> (auch hier neue persönliche Bestleistung), um als letztes über 100m noch in 12,25sec den 6. Rang zu belegen.</br></b></p>",
+        "content_text": "Die kurzfristig anberaumten westfälischen U16/U18/U20 am 11./12.09. in Lage dominierte aus RLC-Sicht\nFabian Straberg, M15.\nEr siegte nacheinander über\n800m in 2:04,57min\n(verbesserte dabei seine Meldeleistung um ganze 5 Sekunden) und über\n300m in 38,01sec\n(auch hier neue persönliche Bestleistung), um als letztes über 100m noch in 12,25sec den 6. Rang zu belegen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20210913154956_U16_U18.jpg",
+                "local": "news_assets/9958/zoom_20210913154956_U16_U18.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-54-9957",
+        "id": "9957",
+        "title": "PRIMA AUFTRITT VON FINJA TOBER BEI DEUTSCHER MEISTERSCHAFT",
+        "date": "30. Juli 2021",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20210730191721_Finja.jpg\"/></div><p class=\"detailViewTop\"><b>Bei ihren ersten Deutschen Meisterschaften, der DJM U18 am 30.07.2021 in Rostock, konnte Finja Tober, Jhg. 2005 so richtig überzeugen. In ihrem erst 4. Rennen über die Stadionrunde erlief sich Finja in 59,19sec einen tollen 15. Rang.</b></p>",
+        "content_text": "Bei ihren ersten Deutschen Meisterschaften, der DJM U18 am 30.07.2021 in Rostock, konnte Finja Tober, Jhg. 2005 so richtig überzeugen. In ihrem erst 4. Rennen über die Stadionrunde erlief sich Finja in 59,19sec einen tollen 15. Rang.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20210730191721_Finja.jpg",
+                "local": "news_assets/9957/zoom_20210730191721_Finja.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-54-9956",
+        "id": "9956",
+        "title": "4. ABENDLAUF: ANMELDUNG IST FREIGESCHALTET - AKTUALISIERUNGSMAßNAHMEN",
+        "date": "09. August 2021",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20210812220722_sparkasse.png\"/></div><p class=\"detailViewTop\"><b> Der 4. Sparkassen-Abend-Lauf findet am 27. August statt. Alle wichtigen Informationen und die Anmeldung gibt es auf der Veranstaltungsseite bei race|result: <a href=\"https://my.raceresult.com/175281\" target=\"_blank\">https://my.raceresult.com/175281/</a></b></p>",
+        "content_text": "Der 4. Sparkassen-Abend-Lauf findet am 27. August statt. Alle wichtigen Informationen und die Anmeldung gibt es auf der Veranstaltungsseite bei race|result:\nhttps://my.raceresult.com/175281/",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20210812220722_sparkasse.png",
+                "local": "news_assets/9956/zoom_20210812220722_sparkasse.png"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-54-9955",
+        "id": "9955",
+        "title": "SPRINT IN DIE FERIEN: ERGEBNISLISTE",
+        "date": "04. Juli 2021",
+        "content_html": "<p class=\"detailViewTop\"><b>Online-Ergebnisse: <br><a href=\"https://ergebnisse.leichtathletik.de/Competitions/Details/4959\" target=\"_blank\">https://ergebnisse.leichtathletik.de/Competitions/Details/4959</a><br/><a href=\"../assets/pdf/sidf2021-ergebnisliste.pdf\">PDF</a> </br></b></p>",
+        "content_text": "Online-Ergebnisse:\nhttps://ergebnisse.leichtathletik.de/Competitions/Details/4959\nPDF",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-55-9953",
+        "id": "9953",
+        "title": "ENDLICH: DER ERSTE HEIM-WETTKAMPF DER SAISON 2021 / PRIMA LEISTUNGEN DER JüNGSTEN",
+        "date": "28. Juni 2021",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20210628224724_U8.jpg\"/></div><p class=\"detailViewTop\"><b>In Form eines Kinderleichtathletik-Wettkampfes am 26.06.2021 konnte der RLC leichtathletik-begeisterten Kinder zwischen 6 und 11 Jahren erstmals in 2021 wieder eine Sportaktion anbieten.<br>130 Kinder (dazu 250 Begleiter ) durften sich bei Mannschaftswettkämpfen U8, U10 und U12 beweisen und zum krönenden Abschluss mit je einer Urkunde nach Hause gehen.</br></b></p>",
+        "content_text": "In Form eines Kinderleichtathletik-Wettkampfes am 26.06.2021 konnte der RLC leichtathletik-begeisterten Kinder zwischen 6 und 11 Jahren erstmals in 2021 wieder eine Sportaktion anbieten.\n130 Kinder (dazu 250 Begleiter ) durften sich bei Mannschaftswettkämpfen U8, U10 und U12 beweisen und zum krönenden Abschluss mit je einer Urkunde nach Hause gehen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20210628224724_U8.jpg",
+                "local": "news_assets/9953/zoom_20210628224724_U8.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-55-9951",
+        "id": "9951",
+        "title": "TOPLEISTUNGEN DER RLC-ATHLETEN BEI SUPERWETTER",
+        "date": "16. Juni 2021",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20210616154426_Finja.jpg\"/></div><p class=\"detailViewTop\"><b>Noch vor drei Wochen blieb Trainer Ludger Zander nichts anderes übrig, als angesichts des eisigen, nassen Wetters ein wenig zu fluchen, liefen doch seine Athletinnen und Athleten teilweise haarscharf an Qualileistungen vorbei.<br>Also gab es an diesem Wochenende einen Neustart in Solingen -  und jetzt passt alles!<br/>Allen voran Finja Tober, WJU18 und Nils Hartleif, MJU18 stellten ihre excellente Form unter Beweis, dem coronabedingten Trainingsrückstand zum Trotz.</br></b></p>",
+        "content_text": "Noch vor drei Wochen blieb Trainer Ludger Zander nichts anderes übrig, als angesichts des eisigen, nassen Wetters ein wenig zu fluchen, liefen doch seine Athletinnen und Athleten teilweise haarscharf an Qualileistungen vorbei.\nAlso gab es an diesem Wochenende einen Neustart in Solingen -  und jetzt passt alles!\nAllen voran Finja Tober, WJU18 und Nils Hartleif, MJU18 stellten ihre excellente Form unter Beweis, dem coronabedingten Trainingsrückstand zum Trotz.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20210616154426_Finja.jpg",
+                "local": "news_assets/9951/zoom_20210616154426_Finja.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-56-9945",
+        "id": "9945",
+        "title": "ENDLICH WIEDER EIN WETTKAMPF!",
+        "date": "24. Mai 2021",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20210524165447_Nils_Kurve02.JPG\"/></div><p class=\"detailViewTop\"><b>Dieser Stoßseufzer war die einhellige Reaktion auf den ersten Leichtathletikwettkampf seit 7 Monaten! Und das bei scheußlichem Dauerregen, 13° Kälte und massivem Gegenwind bei allen Sprints.</b></p>",
+        "content_text": "Dieser Stoßseufzer war die einhellige Reaktion auf den ersten Leichtathletikwettkampf seit 7 Monaten! Und das bei scheußlichem Dauerregen, 13° Kälte und massivem Gegenwind bei allen Sprints.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20210524165447_Nils_Kurve02.JPG",
+                "local": "news_assets/9945/zoom_20210524165447_Nils_Kurve02.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-56-9943",
+        "id": "9943",
+        "title": "WIEDERAUFNAHME DES TRAININGS",
+        "date": "27. Februar 2021",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20210227175945_B35A0022.JPG\"/></div><p class=\"detailViewTop\"><b>nach der neuesten Aktualisierung der Coronaschutzverordnung ist es jetzt wieder möglich, das Stadion Hohenhorst für leichtathletisches Training einzelner Athleten zu nutzen. In der Verordnung heißt es:</b></p>",
+        "content_text": "nach der neuesten Aktualisierung der Coronaschutzverordnung ist es jetzt wieder möglich, das Stadion Hohenhorst für leichtathletisches Training einzelner Athleten zu nutzen. In der Verordnung heißt es:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20210227175945_B35A0022.JPG",
+                "local": "news_assets/9943/zoom_20210227175945_B35A0022.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-56-9942",
+        "id": "9942",
+        "title": "LIEBE RLC-LERINNEN UND RLC-LER",
+        "date": "08. Februar 2021",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20210208183800_corona_koordiaufstellung_02bea.jpg\"/></div><p class=\"detailViewTop\"><b>nachdem wir ein eher unschönes Sportjahr hinter uns bringen mussten, hoffen wir nun zumindest auf ein besseres Leichtathletik-Jahr in 2021.</b></p>",
+        "content_text": "nachdem wir ein eher unschönes Sportjahr hinter uns bringen mussten, hoffen wir nun zumindest auf ein besseres Leichtathletik-Jahr in 2021.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20210208183800_corona_koordiaufstellung_02bea.jpg",
+                "local": "news_assets/9942/zoom_20210208183800_corona_koordiaufstellung_02bea.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-57-9941",
+        "id": "9941",
+        "title": "EIN FROHES NEUES JAHR 2021!",
+        "date": "02. Januar 2021",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20210102190438_sparkler-839831__340.jpg\"/></div><p class=\"detailViewTop\"><b><strong>Der Recklinghäuser Leichtathletik Club 1952 e.V. wünscht allen seinen Mitgliedern, Freunden und Unterstützern ein glückliches, erfolgreiches und gesundes Neues Jahr 2021.</strong></b></p>",
+        "content_text": "Der Recklinghäuser Leichtathletik Club 1952 e.V. wünscht allen seinen Mitgliedern, Freunden und Unterstützern ein glückliches, erfolgreiches und gesundes Neues Jahr 2021.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20210102190438_sparkler-839831__340.jpg",
+                "local": "news_assets/9941/zoom_20210102190438_sparkler-839831__340.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-57-9939",
+        "id": "9939",
+        "title": "SCHEINE FüR VEREINE GEHT IN DIE VERLäNGERUNG!",
+        "date": "29. November 2020",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20201129190934_ScheinefrVereine.jpg\"/></div><p class=\"detailViewTop\"><b><strong>Liebe Mitglieder und Freunde</strong> des Recklinghäuser Leichtathletik Clubs: herzlichen Dank fürs fleissige Sammeln der <strong>\"Scheine für Vereine\"</strong>. die <strong>Aktion geht in die Verlängerung bis zum 20.12.2020</strong>.Bitte sammelt fleissig weiter, es sind noch viele Wünsche offen!</b></p>",
+        "content_text": "Liebe Mitglieder und Freunde\ndes Recklinghäuser Leichtathletik Clubs: herzlichen Dank fürs fleissige Sammeln der\n\"Scheine für Vereine\"\n. die\nAktion geht in die Verlängerung bis zum 20.12.2020\n.Bitte sammelt fleissig weiter, es sind noch viele Wünsche offen!",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20201129190934_ScheinefrVereine.jpg",
+                "local": "news_assets/9939/zoom_20201129190934_ScheinefrVereine.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-57-9938",
+        "id": "9938",
+        "title": "RECKLINGHäUSER LEICHTATHLETIK CLUB 1952 E.V. BEI SCHEINE-FüR-VEREINE DABEI",
+        "date": "07. November 2020",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20201107182139_Fernseher.jpg\"/></div><p class=\"detailViewTop\"><b><strong>Liebe Vereinsmitglieder und Freunde,</strong>seit dem 02.11.2020 läuft wieder die Aktion: <strong>Scheine für Vereine</strong>. Dabei erhalten REWE-KundInnen beim Einkauf für mehr als 15.00Euro einen „Vereinsschein“ mit einem numerischen bzw. eine QR-Code.</b></p>",
+        "content_text": "Liebe Vereinsmitglieder und Freunde,\nseit dem 02.11.2020 läuft wieder die Aktion:\nScheine für Vereine\n. Dabei erhalten REWE-KundInnen beim Einkauf für mehr als 15.00Euro einen „Vereinsschein“ mit einem numerischen bzw. eine QR-Code.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20201107182139_Fernseher.jpg",
+                "local": "news_assets/9938/zoom_20201107182139_Fernseher.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-58-9937",
+        "id": "9937",
+        "title": "RLC STELLT SEINEN TRAININGSBETRIEB FüR NOVEMBER EIN!",
+        "date": "31. Oktober 2020",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20201031164000_Corona_koordi_03.jpg\"/></div><p class=\"detailViewTop\"><b>An alle Mitglieder und Freunde des Recklinghäuser LC,<br><br/>mit Erlass vom 31.10.2020 werden ab Montag, den 02.11.2020 bis einschließlich Montag, dem 30.11.2020 alle Sporthallen, Sportplätze und auch das Stadion Hohenhorst für den Amateursportbetrieb geschlossen.</br></b></p>",
+        "content_text": "An alle Mitglieder und Freunde des Recklinghäuser LC,\nmit Erlass vom 31.10.2020 werden ab Montag, den 02.11.2020 bis einschließlich Montag, dem 30.11.2020 alle Sporthallen, Sportplätze und auch das Stadion Hohenhorst für den Amateursportbetrieb geschlossen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20201031164000_Corona_koordi_03.jpg",
+                "local": "news_assets/9937/zoom_20201031164000_Corona_koordi_03.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-58-9929",
+        "id": "9929",
+        "title": "LINDA BEERHORST HOLTE WESTFALENTITEL üBER 300M / WEITERE TOPERGEBNISSE",
+        "date": "13. September 2020",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20200913191556_Ilja_Noah.JPG\"/></div><p class=\"detailViewTop\"><b>Eine der wenigen Meisterschaften in diesem Jahr waren die Westfälischen Meisterschaften U16 / U18 am 12./13.09.2020 in Hagen. Das U16-Trainerinnengespann Sabine Kruse / Uschi Götz-Trogemann hatte alle Jugendlichen gemeldet, die durch ihre Vorleistungen in den vergangenen Wochen eine Aussicht auf einen Platz unter den besten 8 TeilnehmerInnen hätten haben können.</b></p>",
+        "content_text": "Eine der wenigen Meisterschaften in diesem Jahr waren die Westfälischen Meisterschaften U16 / U18 am 12./13.09.2020 in Hagen. Das U16-Trainerinnengespann Sabine Kruse / Uschi Götz-Trogemann hatte alle Jugendlichen gemeldet, die durch ihre Vorleistungen in den vergangenen Wochen eine Aussicht auf einen Platz unter den besten 8 TeilnehmerInnen hätten haben können.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20200913191556_Ilja_Noah.JPG",
+                "local": "news_assets/9929/zoom_20200913191556_Ilja_Noah.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-58-9928",
+        "id": "9928",
+        "title": "ERSTER KILA-WETTBERWERB SEIT 14 MONATEN – EIN VOLLER ERFOLG!",
+        "date": "13. September 2020",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20200913180940_RLC1_U10_bearb.JPG\"/></div><p class=\"detailViewTop\"><b>Am Samstag, den 12.09.2020 konnten wir seit über einem Jahr wieder einen KiLa-Wettkampf, diesmal für U10 und U12-Kids anbieten und damit ein wenig Normalität in die Kinderleichtathletik zurückbringen.</b></p>",
+        "content_text": "Am Samstag, den 12.09.2020 konnten wir seit über einem Jahr wieder einen KiLa-Wettkampf, diesmal für U10 und U12-Kids anbieten und damit ein wenig Normalität in die Kinderleichtathletik zurückbringen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20200913180940_RLC1_U10_bearb.JPG",
+                "local": "news_assets/9928/zoom_20200913180940_RLC1_U10_bearb.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-59-9927",
+        "id": "9927",
+        "title": "3. ABENDLAUF: EINE LAUFVERANSTALTUNG UNTER BESONDEREN BEDINGUNGEN",
+        "date": "29. August 2020",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20200829092717_20200828_191417.jpg\"/></div><p class=\"detailViewTop\"><b>Trotz der besonderen Auflagen unter den aktuellen Bedingungen konnte der Abendlauf im dritten Anlauf wieder einen Teilnehmerrekord verzeichnen: 118 Läufer begaben sich am Freitagabend bei bestem Laufwetter auf die zwei Runden durch den Hohenhorster Wald.</b></p>",
+        "content_text": "Trotz der besonderen Auflagen unter den aktuellen Bedingungen konnte der Abendlauf im dritten Anlauf wieder einen Teilnehmerrekord verzeichnen: 118 Läufer begaben sich am Freitagabend bei bestem Laufwetter auf die zwei Runden durch den Hohenhorster Wald.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20200829092717_20200828_191417.jpg",
+                "local": "news_assets/9927/zoom_20200829092717_20200828_191417.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-59-9925",
+        "id": "9925",
+        "title": "RLCLER BEI JUMP`RUN-MEETING ERFOLGREICH",
+        "date": "16. August 2020",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20200816224949_MJU16_01.jpg\"/></div><p class=\"detailViewTop\"><b>Beim 2. von Coronamaßnahmen geprägten LA-Meeting in Dortmund, diesmal mit „Jump`run“  betitelt, liefen die U16-Athletinnen und Athleten des Trainerteams Sabine Kruse / Uschi Götz-Trogemann erneut zu guter Form auf.</b></p>",
+        "content_text": "Beim 2. von Coronamaßnahmen geprägten LA-Meeting in Dortmund, diesmal mit „Jump`run“  betitelt, liefen die U16-Athletinnen und Athleten des Trainerteams Sabine Kruse / Uschi Götz-Trogemann erneut zu guter Form auf.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20200816224949_MJU16_01.jpg",
+                "local": "news_assets/9925/zoom_20200816224949_MJU16_01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-59-9924",
+        "id": "9924",
+        "title": "ERFOLGREICHER #BACKONTRACK IN DORTMUND FüR DEN RLC",
+        "date": "12. Juli 2020",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20200712194907_Ilja_01.JPG\"/></div><p class=\"detailViewTop\"><b>Sportwart Ludger Zander und U16-Trainerin Sabine Kruse haben mit insgesamt 7 Athleten den ersten „richtigen“ Wettkampf unter Corona-Hygienebedingungen am 11.07.2020 im Dortmunder Rote-Erde-Stadion ausprobiert. Fazit: Topleistungen der jugendlichen Athleten und viel Aufwand für ein Sportfest.</b></p>",
+        "content_text": "Sportwart Ludger Zander und U16-Trainerin Sabine Kruse haben mit insgesamt 7 Athleten den ersten „richtigen“ Wettkampf unter Corona-Hygienebedingungen am 11.07.2020 im Dortmunder Rote-Erde-Stadion ausprobiert. Fazit: Topleistungen der jugendlichen Athleten und viel Aufwand für ein Sportfest.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20200712194907_Ilja_01.JPG",
+                "local": "news_assets/9924/zoom_20200712194907_Ilja_01.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-60-9889",
+        "id": "9889",
+        "title": "SPRINT IN DIE FERIEN",
+        "date": "27. Juni 2020",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20200628185853_800mU14_02.JPG\"/></div><p class=\"detailViewTop\"><b> Beim heutigen \"Sprint in die Ferien\", einem Wettkampf für die Athleten und Athletinnen der Startgemeinschaft Recklinghausen-Hamm, gingen 45 Aktive der Altersklassen U14 bis Männer und Frauen zum ersten Mal in dieser Saison über verschiedene Strecken (75m bis 800m) an den Start.</b></p>",
+        "content_text": "Beim heutigen \"Sprint in die Ferien\", einem Wettkampf für die Athleten und Athletinnen der Startgemeinschaft Recklinghausen-Hamm, gingen 45 Aktive der Altersklassen U14 bis Männer und Frauen zum ersten Mal in dieser Saison über verschiedene Strecken (75m bis 800m) an den Start.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20200628185853_800mU14_02.JPG",
+                "local": "news_assets/9889/zoom_20200628185853_800mU14_02.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-60-9888",
+        "id": "9888",
+        "title": "SPORTABZEICHEN STATT WETTKAMPF",
+        "date": "16. Juni 2020",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20200616084935_Sportabzeichebn_U12_02.JPG\"/></div><p class=\"detailViewTop\"><b>Wenn derzeit schon coronabedingt keine Wettkämpfe möglich sind: Sportabzeichenabnahme ist möglich und erlaubt.</b></p>",
+        "content_text": "Wenn derzeit schon coronabedingt keine Wettkämpfe möglich sind: Sportabzeichenabnahme ist möglich und erlaubt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20200616084935_Sportabzeichebn_U12_02.JPG",
+                "local": "news_assets/9888/zoom_20200616084935_Sportabzeichebn_U12_02.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-60-9887",
+        "id": "9887",
+        "title": "AUCH DIE U6-TRAININGSGRUPPE VOR WIEDERAUFNAHME DES TRAININGS",
+        "date": "04. Juni 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Nachdem es weitere Lockerungen für die Abläufe beim Stadiontraining gegeben hat, werden auch die Kinder der <strong>Jahrgänge 2015/2016 </strong>wieder am Training teilnehmen können.</b></p>",
+        "content_text": "Nachdem es weitere Lockerungen für die Abläufe beim Stadiontraining gegeben hat, werden auch die Kinder der\nJahrgänge 2015/2016\nwieder am Training teilnehmen können.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-61-9886",
+        "id": "9886",
+        "title": "WIR SIND EINGESCHRäNKT WIEDER IM TRAININGSBETRIEB",
+        "date": "31. Mai 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Seit dem 12.05.2020 haben die ersten Trainingsgruppen des RLC ihr Training wieder aufgenommen: nach Hygienevorgaben der Stadt Recklinghausen und in Anlehnung an die Trainingskonzeptionvon FLVW/DLV.</b></p>",
+        "content_text": "Seit dem 12.05.2020 haben die ersten Trainingsgruppen des RLC ihr Training wieder aufgenommen: nach Hygienevorgaben der Stadt Recklinghausen und in Anlehnung an die Trainingskonzeptionvon FLVW/DLV.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-61-9885",
+        "id": "9885",
+        "title": "ALLE TRAININGSEINHEITEN EINGESTELLT",
+        "date": "16. März 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Liebe Athleten/Athletinnen, Eltern, Mitglieder und Freunde des Recklinghäuser LC: mit dem neuesten Erlass des Ministerpräsidenten Armin Laschet vom 15.03.2020 muss der gesamte Trainingsbetrieb des RLC mindestens bis zum 19.04.2020 eingefroren werden.</b></p>",
+        "content_text": "Liebe Athleten/Athletinnen, Eltern, Mitglieder und Freunde des Recklinghäuser LC: mit dem neuesten Erlass des Ministerpräsidenten Armin Laschet vom 15.03.2020 muss der gesamte Trainingsbetrieb des RLC mindestens bis zum 19.04.2020 eingefroren werden.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-61-9884",
+        "id": "9884",
+        "title": "UMGANG DES RLC MIT COVID-19",
+        "date": "14. März 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Liebe Mitglieder, Eltern und Freunde des RLC: aufgrund der Entwicklung der COVID-19-Pandemie hat der Recklinghäuser LC <strong>Stand heute,</strong> <strong>14.03.2020,</strong> folgende Maßnahmen beschlossen:</b></p>",
+        "content_text": "Liebe Mitglieder, Eltern und Freunde des RLC: aufgrund der Entwicklung der COVID-19-Pandemie hat der Recklinghäuser LC\nStand heute,\n14.03.2020,\nfolgende Maßnahmen beschlossen:",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-62-9882",
+        "id": "9882",
+        "title": "DR. ANTJE MAAS SIEGT BEI DM DER ZAHNäRZTE",
+        "date": "08. März 2020",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20200309113256_Antje.jpg\"/></div><p class=\"detailViewTop\"><b>Zum 14. Mal fanden die Deutschen Meisterschaften der Zahnärzte über 10km im Rahmen des Mathaise-Marktlaufes in Schriesheim statt. Diesmal, am Samstag, den 07.03.2020, waren wettertechnisch gute Laufvoraussetzungen gegeben, die RLC-Athletin Dr. Antje Maas zu nutzen wusste.</b></p>",
+        "content_text": "Zum 14. Mal fanden die Deutschen Meisterschaften der Zahnärzte über 10km im Rahmen des Mathaise-Marktlaufes in Schriesheim statt. Diesmal, am Samstag, den 07.03.2020, waren wettertechnisch gute Laufvoraussetzungen gegeben, die RLC-Athletin Dr. Antje Maas zu nutzen wusste.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20200309113256_Antje.jpg",
+                "local": "news_assets/9882/zoom_20200309113256_Antje.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-63-9877",
+        "id": "9877",
+        "title": "DM-ERFOLGE FüR SVENJA PRANG",
+        "date": "01. März 2020",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20200301205032_Svenja.JPG\"/></div><p class=\"detailViewTop\"><b>Bei den Deutschen Hallenmeisterschaften der Senioren in Erfurth stellte RLC-Athletin Svenja Prang in ihrer Altersklasse W35 erneut ihre Fähigkeiten unter Beweis. Über 800m erlief sie sich in 2:27,94min die Vizemeisterschaft, lediglich um 2 Zehntel geschlagen und über 400m in 65,35sec den 4. Rang, auch hier fehlten nur 2 Zehntel an Platz 3. Dabei blieb sie beide Male nur knapp über ihrer jeweiligen persönlichen Bestleistung.</b></p>",
+        "content_text": "Bei den Deutschen Hallenmeisterschaften der Senioren in Erfurth stellte RLC-Athletin Svenja Prang in ihrer Altersklasse W35 erneut ihre Fähigkeiten unter Beweis. Über 800m erlief sie sich in 2:27,94min die Vizemeisterschaft, lediglich um 2 Zehntel geschlagen und über 400m in 65,35sec den 4. Rang, auch hier fehlten nur 2 Zehntel an Platz 3. Dabei blieb sie beide Male nur knapp über ihrer jeweiligen persönlichen Bestleistung.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20200301205032_Svenja.JPG",
+                "local": "news_assets/9877/zoom_20200301205032_Svenja.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-62-9876",
+        "id": "9876",
+        "title": "2 VIZEMEISTERTITEL FüR RLC-U16-ATHLETEN",
+        "date": "01. März 2020",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20200301204501_Linda.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den U16-Westfalenmeisterschaften am heutigen 01.03.2020 im Paderborner Ahornpark lagen für die Athleten des Recklinghäuser LC Licht und Schatten dicht beieinander. Licht: zwei Vizemeistertitel durch Linda Beerhorst und Ilja Leibnitz sowie drei weitere Podestplätze sowie 7 persönliche Bestleistungen. Schatten: die krankheitsbedingten Ausfälle von 5 der 11 gemeldeten Athleten.</b></p>",
+        "content_text": "Bei den U16-Westfalenmeisterschaften am heutigen 01.03.2020 im Paderborner Ahornpark lagen für die Athleten des Recklinghäuser LC Licht und Schatten dicht beieinander. Licht: zwei Vizemeistertitel durch Linda Beerhorst und Ilja Leibnitz sowie drei weitere Podestplätze sowie 7 persönliche Bestleistungen. Schatten: die krankheitsbedingten Ausfälle von 5 der 11 gemeldeten Athleten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20200301204501_Linda.jpg",
+                "local": "news_assets/9876/zoom_20200301204501_Linda.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-63-9875",
+        "id": "9875",
+        "title": "TOPLEISTUNGEN DER U16-AKTIVEN",
+        "date": "23. Februar 2020",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20200223170106_Finja.jpg\"/></div><p class=\"detailViewTop\"><b>Zur Vorbereitung auf die am 01.03.2020 in Paderborn anstehenden U16-Westfalenmeisterschaften hatten die Trainerinnen Sabine Kruse und Uschi Götz-Trogemann noch einmal 10 Athletinnen und Athleten zum Hallensportfest am 16.02.2020 in Dortmund gemeldet.</b></p>",
+        "content_text": "Zur Vorbereitung auf die am 01.03.2020 in Paderborn anstehenden U16-Westfalenmeisterschaften hatten die Trainerinnen Sabine Kruse und Uschi Götz-Trogemann noch einmal 10 Athletinnen und Athleten zum Hallensportfest am 16.02.2020 in Dortmund gemeldet.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20200223170106_Finja.jpg",
+                "local": "news_assets/9875/zoom_20200223170106_Finja.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-63-9874",
+        "id": "9874",
+        "title": "FRAUENSTAFFEL AUF DEM TREPPCHEN",
+        "date": "02. Februar 2020",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20200202194124_4x400mU23.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den NRW-Meisterschaften der Frauen und Männer am heutigen Sonntag in der Dortmunder Helmut-Körnig-Halle konnte Trainer Ludger Zander meldetechnisch endlich mal wieder aus dem Vollen schöpfen: für die StG RE-Hamm konnten gleich zwei 4x200m-Frauenstaffeln an den Start gehen.</b></p>",
+        "content_text": "Bei den NRW-Meisterschaften der Frauen und Männer am heutigen Sonntag in der Dortmunder Helmut-Körnig-Halle konnte Trainer Ludger Zander meldetechnisch endlich mal wieder aus dem Vollen schöpfen: für die StG RE-Hamm konnten gleich zwei 4x200m-Frauenstaffeln an den Start gehen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20200202194124_4x400mU23.jpg",
+                "local": "news_assets/9874/zoom_20200202194124_4x400mU23.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-64-9873",
+        "id": "9873",
+        "title": "RLC-HOCHSPRINGER IM AUFWIND",
+        "date": "26. Januar 2020",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20200126195309_Ulf_Daya_Linda.jpg\"/></div><p class=\"detailViewTop\"><b>Drei jugendliche Hochspringer hatte Trainerin Uschi Götz-Trogemann zum Hallen-Hochsprungmeeting am 26.01.2020 in Unna gemeldet -  alle Drei erreichten Top-Platzierungen mit neuen persönlichen Bestleistungen.</b></p>",
+        "content_text": "Drei jugendliche Hochspringer hatte Trainerin Uschi Götz-Trogemann zum Hallen-Hochsprungmeeting am 26.01.2020 in Unna gemeldet -  alle Drei erreichten Top-Platzierungen mit neuen persönlichen Bestleistungen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20200126195309_Ulf_Daya_Linda.jpg",
+                "local": "news_assets/9873/zoom_20200126195309_Ulf_Daya_Linda.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-64-9872",
+        "id": "9872",
+        "title": "NRW-TITEL FüR NILS, MAXIMILIAN, MORITZ UND LASSE! QUALI FüR DM!",
+        "date": "25. Januar 2020",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20200126160230_U18_Staffel_01.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den NRW-Hallenmeisterschaften U18 gelang es den Jungen der Startgemeinschaft Recklinghausen-Hamm über 4x200m, in einem packenden Rennen gegen das Quartett der LG Olympia Dortmund, die Nase um 5 Hundertstel vorne zu haben.</b></p>",
+        "content_text": "Bei den NRW-Hallenmeisterschaften U18 gelang es den Jungen der Startgemeinschaft Recklinghausen-Hamm über 4x200m, in einem packenden Rennen gegen das Quartett der LG Olympia Dortmund, die Nase um 5 Hundertstel vorne zu haben.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20200126160230_U18_Staffel_01.jpg",
+                "local": "news_assets/9872/zoom_20200126160230_U18_Staffel_01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-64-9861",
+        "id": "9861",
+        "title": "ERFOLGREICHER AUFTRITT DER U16-TRAININGSGRUPPE",
+        "date": "21. Januar 2020",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20200121105252_Ilja_bearb_01.JPG\"/></div><p class=\"detailViewTop\"><b>Am vergangenen Wochenende war auch die U16-Trainingsgruppe von Sabine Kruse und Uschi Götz-Trogemann im Einsatz, je 5 Mädels und Jungen hatten die Möglichkeit, in der Dortmunder Helmut-Körnig-Halle eine Standortbestimmung im Hinblick auf die Westf. U16-Meisterschaften vorzunehmen.</b></p>",
+        "content_text": "Am vergangenen Wochenende war auch die U16-Trainingsgruppe von Sabine Kruse und Uschi Götz-Trogemann im Einsatz, je 5 Mädels und Jungen hatten die Möglichkeit, in der Dortmunder Helmut-Körnig-Halle eine Standortbestimmung im Hinblick auf die Westf. U16-Meisterschaften vorzunehmen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20200121105252_Ilja_bearb_01.JPG",
+                "local": "news_assets/9861/zoom_20200121105252_Ilja_bearb_01.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-65-9860",
+        "id": "9860",
+        "title": "RLC-MANNSCHAFT DOMINIERT VOLKSLAUF „RUND UM DEN HALTERNER SEE“",
+        "date": "19. Januar 2020",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20200119164321_Mannschaftsurkunde.jpg\"/></div><p class=\"detailViewTop\"><b>Die Langlauftruppe um Trainer Thomas Vogl hatte einige Athleten zum Volkslauf „ Rund um den Halterner See“ am 18.01.2020 gemeldet, wo Matthias Amoneit, Jürgen Neuhausen und Philipp Bobowski gleich die erste Mannschaftswertung in diesem Jahr für sich entscheiden konnten.</b></p>",
+        "content_text": "Die Langlauftruppe um Trainer Thomas Vogl hatte einige Athleten zum Volkslauf „ Rund um den Halterner See“ am 18.01.2020 gemeldet, wo Matthias Amoneit, Jürgen Neuhausen und Philipp Bobowski gleich die erste Mannschaftswertung in diesem Jahr für sich entscheiden konnten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20200119164321_Mannschaftsurkunde.jpg",
+                "local": "news_assets/9860/zoom_20200119164321_Mannschaftsurkunde.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-65-9859",
+        "id": "9859",
+        "title": "KLASSE: 4 PODESTPLäTZE FüR RLC-AKTIVE BEI WESTF. MEISTERSCHAFTEN",
+        "date": "19. Januar 2020",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20200119162011_StG_Frauen.JPG\"/></div><p class=\"detailViewTop\"><b>Bei den Westf. Meisterschaften der Frauen, Männer und U18-Athlet/innen am 18.01.2020 in der frisch renovierten Helmut-Körnig-Halle konnten sich die gemeldeten RLC-Athletinnen und -Athleten so richtig in Szene setzen.</b></p>",
+        "content_text": "Bei den Westf. Meisterschaften der Frauen, Männer und U18-Athlet/innen am 18.01.2020 in der frisch renovierten Helmut-Körnig-Halle konnten sich die gemeldeten RLC-Athletinnen und -Athleten so richtig in Szene setzen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20200119162011_StG_Frauen.JPG",
+                "local": "news_assets/9859/zoom_20200119162011_StG_Frauen.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-65-9858",
+        "id": "9858",
+        "title": "RLC-ERFOLGE BEI NRW-SENIORENMEISTERSCHAFTEN",
+        "date": "14. Januar 2020",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20200114180712_Svenja.JPG\"/></div><p class=\"detailViewTop\"><b>Bei den diesjährigen NRW-Seniorenhallenmeisterschaften am 12.01.2020 in Düsseldorf toppten die beiden derzeitigen Top-Läufer aus Bianca Brodas Trainingsgruppe ihre Ergebnisse aus dem Jahr 2019 noch einmal.</b></p>",
+        "content_text": "Bei den diesjährigen NRW-Seniorenhallenmeisterschaften am 12.01.2020 in Düsseldorf toppten die beiden derzeitigen Top-Läufer aus Bianca Brodas Trainingsgruppe ihre Ergebnisse aus dem Jahr 2019 noch einmal.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20200114180712_Svenja.JPG",
+                "local": "news_assets/9858/zoom_20200114180712_Svenja.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-66-9855",
+        "id": "9855",
+        "title": "RLC-KIDS GEWINNEN DEN KINDERLEICHTATHLETIK-CUP 2019",
+        "date": "16. Dezember 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20191216151930_Siegerehrung_KiLaCup19.JPG\"/></div><p class=\"detailViewTop\"><b>Nach 5 Mannschaftswettkämpfen der Altersklasse U8 im Gebiet des FLVW-Kreises Recklinghausen konnte Kreisleichtathletik-Obmann Ludger Zander im Rahmen der jährlichen Kreisarbeitstagung am 13.12.2019 die siegreichen Vereine ehren.</b></p>",
+        "content_text": "Nach 5 Mannschaftswettkämpfen der Altersklasse U8 im Gebiet des FLVW-Kreises Recklinghausen konnte Kreisleichtathletik-Obmann Ludger Zander im Rahmen der jährlichen Kreisarbeitstagung am 13.12.2019 die siegreichen Vereine ehren.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20191216151930_Siegerehrung_KiLaCup19.JPG",
+                "local": "news_assets/9855/zoom_20191216151930_Siegerehrung_KiLaCup19.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-66-9854",
+        "id": "9854",
+        "title": "NIKOLAUSSPORTFEST = DIE JüNGSTEN KOMMEN GROß RAUS",
+        "date": "11. Dezember 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20191211151429_News.JPG\"/></div><p class=\"detailViewTop\"><b>Am 09.12. haben wir wieder unser traditionelles Nikolaussportfest für alle RLC-Kinder der Jahrgänge 2007 – 2014 durchführen können; 86 Kids stellten dabei ihr Können im Hoch-Weit-Sprung, Hürden- und Flachstreckenlauf, Medizinballstossen und Zielwurf unter Beweis, um zum Abschluß bei einer Rundenstaffel die Gegnermannschaft möglichst zu besiegen und die Alfons-Schütt-Arena zum Beben zu bringen.</b></p>",
+        "content_text": "Am 09.12. haben wir wieder unser traditionelles Nikolaussportfest für alle RLC-Kinder der Jahrgänge 2007 – 2014 durchführen können; 86 Kids stellten dabei ihr Können im Hoch-Weit-Sprung, Hürden- und Flachstreckenlauf, Medizinballstossen und Zielwurf unter Beweis, um zum Abschluß bei einer Rundenstaffel die Gegnermannschaft möglichst zu besiegen und die Alfons-Schütt-Arena zum Beben zu bringen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20191211151429_News.JPG",
+                "local": "news_assets/9854/zoom_20191211151429_News.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-66-9853",
+        "id": "9853",
+        "title": "LUDGER ZANDER ERHIELT DLV-EHRENNADEL",
+        "date": "10. Dezember 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20191210191827_IMG_1237.jpg\"/></div><p class=\"detailViewTop\"><b>Auf der Herbsttagung der VKLA‘s Westfalens in der Sportschule Kaiserau wurde der Vorsitzende des Kreisleichtathletik-Ausschusses, Cheftrainer, Sport- und Kampfrichterwart des RLC, Ludger Zander auf eine besondere Weise geehrt: <br> </br></b></p>",
+        "content_text": "Auf der Herbsttagung der VKLA‘s Westfalens in der Sportschule Kaiserau wurde der Vorsitzende des Kreisleichtathletik-Ausschusses, Cheftrainer, Sport- und Kampfrichterwart des RLC, Ludger Zander auf eine besondere Weise geehrt:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20191210191827_IMG_1237.jpg",
+                "local": "news_assets/9853/zoom_20191210191827_IMG_1237.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-67-9852",
+        "id": "9852",
+        "title": "KREISMEISTERSCHAFTEN IM HALBMARATHON: 3 RLC - STARTER = 3 KREISMEISTERTITEL",
+        "date": "05. Dezember 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20191205110709_IMG-20191204-WA0006.jpg\"/></div><p class=\"detailViewTop\"><b>Beim letzten Kreismeisterwettkampf des Jahres 2019, tradionell dem Halbmarathon in Herten-Bertlich, gingen diesmal nur 3 RLC-Langstreckler an den Start:<br>Matthias Amoneit, Jürgen Neuhausen und Martin Godde. Und die Drei sahnten so richtig ab:</br></b></p>",
+        "content_text": "Beim letzten Kreismeisterwettkampf des Jahres 2019, tradionell dem Halbmarathon in Herten-Bertlich, gingen diesmal nur 3 RLC-Langstreckler an den Start:\nMatthias Amoneit, Jürgen Neuhausen und Martin Godde. Und die Drei sahnten so richtig ab:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20191205110709_IMG-20191204-WA0006.jpg",
+                "local": "news_assets/9852/zoom_20191205110709_IMG-20191204-WA0006.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-67-9851",
+        "id": "9851",
+        "title": "FLVW-CROSS: DREI RLC-STARTER/INNEN, DREI PODESTPLäTZE",
+        "date": "17. November 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20191117144532_Finja_01.jpg\"/></div><p class=\"detailViewTop\"><b>Für die Westf. Meisterschaft im Crosslauf am 16.11.2019 in Hamm, in Form eines Stadioncrosses mit eingestreuten Hinternissen und „Schikanen“ durchgeführt, hatten mit Finja Tober (W14), Noah Stöcker (M14) und Jürgen Neuhausen (M55) drei RLCler gemeldet, die sich bestens präsentieren konnten.</b></p>",
+        "content_text": "Für die Westf. Meisterschaft im Crosslauf am 16.11.2019 in Hamm, in Form eines Stadioncrosses mit eingestreuten Hinternissen und „Schikanen“ durchgeführt, hatten mit Finja Tober (W14), Noah Stöcker (M14) und Jürgen Neuhausen (M55) drei RLCler gemeldet, die sich bestens präsentieren konnten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20191117144532_Finja_01.jpg",
+                "local": "news_assets/9851/zoom_20191117144532_Finja_01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-67-9850",
+        "id": "9850",
+        "title": "RLC-NACHWUCHS SIEGT IM KILA-CUP 2019",
+        "date": "31. Oktober 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20191031155000_Kiddys.JPG\"/></div><p class=\"detailViewTop\"><b>Der jüngste Wettkampfnachwuchs des RLC, die U8-Kids von Elena Hütter und Sophia Hesse, siegten nicht nur im Tandem-Biathlon-Crosslauf in Herten, sondern entschieden auch die Gesamtwertung für sich.</b></p>",
+        "content_text": "Der jüngste Wettkampfnachwuchs des RLC, die U8-Kids von Elena Hütter und Sophia Hesse, siegten nicht nur im Tandem-Biathlon-Crosslauf in Herten, sondern entschieden auch die Gesamtwertung für sich.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20191031155000_Kiddys.JPG",
+                "local": "news_assets/9850/zoom_20191031155000_Kiddys.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-68-9798",
+        "id": "9798",
+        "title": "KREISMEISTERSCHAFTEN IM CROSSLAUF = VIELE NEUE KREISMEISTER IM RLC-TRIKOT",
+        "date": "27. Oktober 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20191027185149_WKU10-Mannschaft_cross.JPG\"/></div><p class=\"detailViewTop\"><b>Die Kreismeisterschaften im Crosslauf am 27.10.2019, wie so oft im Hertener Bakumertal, konnten dem Wetterbericht zum Trotz bei trockenem, wenn auch kühlen Herbstwetter  durchgeführt werden.</b></p>",
+        "content_text": "Die Kreismeisterschaften im Crosslauf am 27.10.2019, wie so oft im Hertener Bakumertal, konnten dem Wetterbericht zum Trotz bei trockenem, wenn auch kühlen Herbstwetter  durchgeführt werden.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20191027185149_WKU10-Mannschaft_cross.JPG",
+                "local": "news_assets/9798/zoom_20191027185149_WKU10-Mannschaft_cross.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-68-9796",
+        "id": "9796",
+        "title": "3 TITEL UND 3 VIZEMEISTER BEI 10KM-KREISMEISTERSCHAFT",
+        "date": "30. September 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190930110447_Bernhard_Dei.jpg\"/></div><p class=\"detailViewTop\"><b>Für die 10km-Kreismeisterschaft, im Rahmen der Bertlicher Strassenläufe am 29.09.2019 durchgeführt, hatten diesmal nur 5 RLC-Athleten gemeldet. Trotz kühl-windigem Schauerwetter liefen Bernhard Deiß, Jürgen Neuhausen, Martin Godde, Phillip Bobowski und Mohamed Mo Mussa drei Titel und 3 Vizemeister heraus.</b></p>",
+        "content_text": "Für die 10km-Kreismeisterschaft, im Rahmen der Bertlicher Strassenläufe am 29.09.2019 durchgeführt, hatten diesmal nur 5 RLC-Athleten gemeldet. Trotz kühl-windigem Schauerwetter liefen Bernhard Deiß, Jürgen Neuhausen, Martin Godde, Phillip Bobowski und Mohamed Mo Mussa drei Titel und 3 Vizemeister heraus.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190930110447_Bernhard_Dei.jpg",
+                "local": "news_assets/9796/zoom_20190930110447_Bernhard_Dei.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-69-9795",
+        "id": "9795",
+        "title": "62 KREISMEISTERPFERDCHEN AN RLC-ATHLETEN VERTEILT",
+        "date": "22. September 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190922193316_WKU10_02.JPG\"/></div><p class=\"detailViewTop\"><b>Bei den zurückliegenden beiden Meisterschaften: Kreiseinzel bis U14 und Kreismehrkampf konnte der neue KLO Ludger Zander insgesamt 62 Kreismeisterpferdchen an RLC-Aktive  überreichen.</b></p>",
+        "content_text": "Bei den zurückliegenden beiden Meisterschaften: Kreiseinzel bis U14 und Kreismehrkampf konnte der neue KLO Ludger Zander insgesamt 62 Kreismeisterpferdchen an RLC-Aktive  überreichen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190922193316_WKU10_02.JPG",
+                "local": "news_assets/9795/zoom_20190922193316_WKU10_02.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-69-9790",
+        "id": "9790",
+        "title": "ERFOLGREICHE LANGSTRECKLER",
+        "date": "08. September 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190908200141_tetraeder-treppenlauf-01.jpg\"/></div><p class=\"detailViewTop\"><b>An diesem Wochenende waren auch zwei Langstreckler aus der Trainingsgruppe von Thomas Vogl erfolgreich unterwegs: Bernhard Deiss konnte den 11km langen Tetraeder-Treppenlauf in Bottrop für sich entscheiden, während Jürgen Neuhausen den Vizemeistertitel bei den 10km-NRW-Straßenlaufmeisterschaften in Essen erlief.</b></p>",
+        "content_text": "An diesem Wochenende waren auch zwei Langstreckler aus der Trainingsgruppe von Thomas Vogl erfolgreich unterwegs: Bernhard Deiss konnte den 11km langen Tetraeder-Treppenlauf in Bottrop für sich entscheiden, während Jürgen Neuhausen den Vizemeistertitel bei den 10km-NRW-Straßenlaufmeisterschaften in Essen erlief.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190908200141_tetraeder-treppenlauf-01.jpg",
+                "local": "news_assets/9790/zoom_20190908200141_tetraeder-treppenlauf-01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-69-9789",
+        "id": "9789",
+        "title": "U8-MANNSCHAFT SIEGT IN HERTEN",
+        "date": "07. September 2019",
+        "content_html": "<p class=\"detailViewTop\"><b>Bei den heutigen Stadtmeisterschaften des LA SV Herten konnte sich die U8-Mannschaft von Sophia Hesse und Elena Hütter den ersten Platz sichern. Der Wettkampf wird auch für den Kinderleichtathletik-Cup des Kreises Recklinghausen gewertet, sodass der RLC dort seinen Vorsprung ausbauen konnte.</b></p>",
+        "content_text": "Bei den heutigen Stadtmeisterschaften des LA SV Herten konnte sich die U8-Mannschaft von Sophia Hesse und Elena Hütter den ersten Platz sichern. Der Wettkampf wird auch für den Kinderleichtathletik-Cup des Kreises Recklinghausen gewertet, sodass der RLC dort seinen Vorsprung ausbauen konnte.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-70-9721",
+        "id": "9721",
+        "title": "TOLLER SAISONABSCHLUß FüR 4X400M-STAFFEL",
+        "date": "21. Juli 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190730183942_IMG_08121.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Deutschen U23-Meisterschaften über 4x400m, die im Rahmen des Internationalen Leichtathletik-Meeting in Rhede am 20.07.2019 stattfanden, konnte die Startgemeinschaft (StG) Recklinghausen-Hamm einen richtig tollen Saisonabschluß hinlegen.</b></p>",
+        "content_text": "Bei den Deutschen U23-Meisterschaften über 4x400m, die im Rahmen des Internationalen Leichtathletik-Meeting in Rhede am 20.07.2019 stattfanden, konnte die Startgemeinschaft (StG) Recklinghausen-Hamm einen richtig tollen Saisonabschluß hinlegen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190730183942_IMG_08121.jpg",
+                "local": "news_assets/9721/zoom_20190730183942_IMG_08121.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-70-9720",
+        "id": "9720",
+        "title": "SENIOREN-DM TAG 3",
+        "date": "15. Juli 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190715153900_Arne.JPG\"/></div><p class=\"detailViewTop\"><b>Am 3. Tag der Seniorenmeisterschaften lief Arne Wendler (M45) leider um eine Hundertstel am 3. Treppchenplatz vorbei: über 200m belegte er nach einem Sturzflug ins Ziel in 25,31sec den undankbaren 4. Rang.</b></p>",
+        "content_text": "Am 3. Tag der Seniorenmeisterschaften lief Arne Wendler (M45) leider um eine Hundertstel am 3. Treppchenplatz vorbei: über 200m belegte er nach einem Sturzflug ins Ziel in 25,31sec den undankbaren 4. Rang.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190715153900_Arne.JPG",
+                "local": "news_assets/9720/zoom_20190715153900_Arne.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-70-9719",
+        "id": "9719",
+        "title": "SENIOREN-DM TAG 2",
+        "date": "13. Juli 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190713184207_SenTr.JPG\"/></div><p class=\"detailViewTop\"><b>Und es geht weiter mit den tollen Ergebnissen: beginnend bei Platz 3 über 1500m für Mark Peters (4:36,84min) über den Bronzerang von Svenja Prang über die Stadionrunde in 65,33sec, einem äußerst knappen Rennen, bis hin zum Vizemeistertitel für Arne Wendler, der am 2. Tag ebenfalls die 400m in Angriff nahm und sie in 55,15sec absolvierte.</b></p>",
+        "content_text": "Und es geht weiter mit den tollen Ergebnissen: beginnend bei Platz 3 über 1500m für Mark Peters (4:36,84min) über den Bronzerang von Svenja Prang über die Stadionrunde in 65,33sec, einem äußerst knappen Rennen, bis hin zum Vizemeistertitel für Arne Wendler, der am 2. Tag ebenfalls die 400m in Angriff nahm und sie in 55,15sec absolvierte.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190713184207_SenTr.JPG",
+                "local": "news_assets/9719/zoom_20190713184207_SenTr.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-71-9718",
+        "id": "9718",
+        "title": "SENIOREN-DM IN LEINEFELDE / TAG 1",
+        "date": "12.  -  13. Juli2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190713163530_Arne_Svenja.JPG\"/></div><p class=\"detailViewTop\"><b>Am ersten Tag der Senioren-DM in Leinefelde-Worbis konnte die kleine, aber feine Delegation des Recklinghäuser LC schon mal ihre Qualität unter Beweis stellen:<br>Arne Wendler = Deutscher Meister M45 über 800m, Svenja Prang = Dritte W35 über zwei Stadionrunden.</br></b></p>",
+        "content_text": "Am ersten Tag der Senioren-DM in Leinefelde-Worbis konnte die kleine, aber feine Delegation des Recklinghäuser LC schon mal ihre Qualität unter Beweis stellen:\nArne Wendler = Deutscher Meister M45 über 800m, Svenja Prang = Dritte W35 über zwei Stadionrunden.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190713163530_Arne_Svenja.JPG",
+                "local": "news_assets/9718/zoom_20190713163530_Arne_Svenja.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-71-9717",
+        "id": "9717",
+        "title": "LEONIE KRUSE UND NILS HARTLEIF FüR LäNDERKAMPF NOMINIERT",
+        "date": "11. Juli 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190711224450_Leonie_Nils.jpg\"/></div><p class=\"detailViewTop\"><b>Durch ihre herausragenden Leistungen bei den NRW-Meisterschaften und der DM U16 in Bremen haben sich Leonie Kruse (W15) und Nils Hartleif (M15) für den traditionellen U16-Länderkampf NRW vs. Niederlande qualifizieren können. Nils`Länderkampfstrecke werden die 300m sein, die derzeitige Paradedisziplin von Leonie ist die 10mal zu lange Strecke = 3000m.</b></p>",
+        "content_text": "Durch ihre herausragenden Leistungen bei den NRW-Meisterschaften und der DM U16 in Bremen haben sich Leonie Kruse (W15) und Nils Hartleif (M15) für den traditionellen U16-Länderkampf NRW vs. Niederlande qualifizieren können. Nils`Länderkampfstrecke werden die 300m sein, die derzeitige Paradedisziplin von Leonie ist die 10mal zu lange Strecke = 3000m.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190711224450_Leonie_Nils.jpg",
+                "local": "news_assets/9717/zoom_20190711224450_Leonie_Nils.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-71-9716",
+        "id": "9716",
+        "title": "EIN KREISREKORD UND 11 TITEL",
+        "date": "11. Juli 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190711222347_MKU12.JPG\"/></div><p class=\"detailViewTop\"><b>Alle Kinder und Jugendlichen des RLC, die zu den Kreisstaffelmeisterschaften in Erkenschwick angetreten sind, kamen mindestens mit einer Urkunde nach Hause, 36 Athletinnen und Athleten sogar mit dem begehrten Pferdchen. Insgesamt gab es 11 Titel und einen neuen Kreisrekord zu beklatschen.</b></p>",
+        "content_text": "Alle Kinder und Jugendlichen des RLC, die zu den Kreisstaffelmeisterschaften in Erkenschwick angetreten sind, kamen mindestens mit einer Urkunde nach Hause, 36 Athletinnen und Athleten sogar mit dem begehrten Pferdchen. Insgesamt gab es 11 Titel und einen neuen Kreisrekord zu beklatschen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190711222347_MKU12.JPG",
+                "local": "news_assets/9716/zoom_20190711222347_MKU12.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-72-9633",
+        "id": "9633",
+        "title": "DIE ERFOLGE GEHEN WEITER!",
+        "date": "07. Juli 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190707160530_Franziska.JPG\"/></div><p class=\"detailViewTop\"><b>Auch am 2.Tag der Westfälischen U18/U20-Meisterschaften lieferten die RLC-Athletinnen gute Leistungen ab. Die 4x100m-WJU18 der StG Recklinghausen-Hamm…</b></p>",
+        "content_text": "Auch am 2.Tag der Westfälischen U18/U20-Meisterschaften lieferten die RLC-Athletinnen gute Leistungen ab. Die 4x100m-WJU18 der StG Recklinghausen-Hamm…",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190707160530_Franziska.JPG",
+                "local": "news_assets/9633/zoom_20190707160530_Franziska.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-72-9632",
+        "id": "9632",
+        "title": "RLC-YOUNGSTERS IM TOPFORM",
+        "date": "06. Juli 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190706183642_ulf.JPG\"/></div><p class=\"detailViewTop\"><b>Sowohl am 1. Tag der Deutschen Meisterschaften der U16-Athleten in Bremen als auch bei den Westfälischen Meisterschaften der U18/U20-Aktiven in Wattenscheid stellten Leistungsportler im RLC-Trikot ihre Fähigkeiten unter Beweis.</b></p>",
+        "content_text": "Sowohl am 1. Tag der Deutschen Meisterschaften der U16-Athleten in Bremen als auch bei den Westfälischen Meisterschaften der U18/U20-Aktiven in Wattenscheid stellten Leistungsportler im RLC-Trikot ihre Fähigkeiten unter Beweis.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190706183642_ulf.JPG",
+                "local": "news_assets/9632/zoom_20190706183642_ulf.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-72-9631",
+        "id": "9631",
+        "title": "U8-KIDS-CUP EIN VOLLER ERFOLG",
+        "date": "05. Juli 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190705174218_Helfer.JPG\"/></div><p class=\"detailViewTop\"><b>Auch die 8. Wiederholung des U8-Kids-Cups setzte die Erfolgsgeschichte dieser Veranstaltung für die jüngsten Leichtathleten fort.</b></p>",
+        "content_text": "Auch die 8. Wiederholung des U8-Kids-Cups setzte die Erfolgsgeschichte dieser Veranstaltung für die jüngsten Leichtathleten fort.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190705174218_Helfer.JPG",
+                "local": "news_assets/9631/zoom_20190705174218_Helfer.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-73-9537",
+        "id": "9537",
+        "title": "DR. ANTJE MAAS = EINE ERFOLGSGESCHICHTE BEI DEN MEDIGAMES",
+        "date": "02. Juli 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190702155449_20190701_184615.jpg\"/></div><p class=\"detailViewTop\"><b>Wie auch in 2018 gelang es Dr. Antje Maas bei den Medigames 2019, diesmal in Budva, leistungsmäßig voll aufzutrumpfen: 4 Weltmeistertitel, 2 Vizemeistertitel und zwei neue Bestleistungen: was will der (Sport)mensch mehr!</b></p>",
+        "content_text": "Wie auch in 2018 gelang es Dr. Antje Maas bei den Medigames 2019, diesmal in Budva, leistungsmäßig voll aufzutrumpfen: 4 Weltmeistertitel, 2 Vizemeistertitel und zwei neue Bestleistungen: was will der (Sport)mensch mehr!",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190702155449_20190701_184615.jpg",
+                "local": "news_assets/9537/zoom_20190702155449_20190701_184615.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-73-9536",
+        "id": "9536",
+        "title": "EIN EREIGNISREICHES WOCHENENDE",
+        "date": "02. Juli 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190702154046_Pia.JPG\"/></div><p class=\"detailViewTop\"><b>RLC-Aktive nahmen trotz des enorm heißen Wetters an diese Wochenende an diversen Sportveranstaltungen teil und können richtig gute Ergebnisse vorweisen: Pia Opitz, Sabine Niedanowski, Mark Peter, Svenja Prang, Gabi Ott, Bernhard Deiß und Jürgen Neuhausen sind die Namen der offenbar hitzeresistenten Läufer des Recklinghäuser LC.</b></p>",
+        "content_text": "RLC-Aktive nahmen trotz des enorm heißen Wetters an diese Wochenende an diversen Sportveranstaltungen teil und können richtig gute Ergebnisse vorweisen: Pia Opitz, Sabine Niedanowski, Mark Peter, Svenja Prang, Gabi Ott, Bernhard Deiß und Jürgen Neuhausen sind die Namen der offenbar hitzeresistenten Läufer des Recklinghäuser LC.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190702154046_Pia.JPG",
+                "local": "news_assets/9536/zoom_20190702154046_Pia.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-73-9535",
+        "id": "9535",
+        "title": "ERFOLGREICHE NRW-MEISTERSCHAFTEN",
+        "date": "23. Juni 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190623175354_Noah_Nils-_Finja.jpg\"/></div><p class=\"detailViewTop\"><b>Die vier für die NRW-Meisterschaften am 22./23.06.2019 in Duisburg qualfizierten Jugendlichen haben ihre Bewährungsprobe an diesem heißen Wochenende gut bestanden.</b></p>",
+        "content_text": "Die vier für die NRW-Meisterschaften am 22./23.06.2019 in Duisburg qualfizierten Jugendlichen haben ihre Bewährungsprobe an diesem heißen Wochenende gut bestanden.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190623175354_Noah_Nils-_Finja.jpg",
+                "local": "news_assets/9535/zoom_20190623175354_Noah_Nils-_Finja.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-74-9534",
+        "id": "9534",
+        "title": "2 VIZEMEISTER BEI WESTF.MEISTERSCHAFTEN U16",
+        "date": "16. Juni 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190616184134_Nils_Kurve.JPG\"/></div><p class=\"detailViewTop\"><b>Am 16.06.2019 fanden in Paderborn die diesjährigen U16-Westfalenmeisterschaften bei sonnigem Wetter statt. Der RLC hatte diesmal eine richtig umfangreiche Athleten-Truppe melden können, allen voran die bereits vor einer Woche ausgezeichneten Finja Tober und Nils Hartleif, unterstützt durch...</b></p>",
+        "content_text": "Am 16.06.2019 fanden in Paderborn die diesjährigen U16-Westfalenmeisterschaften bei sonnigem Wetter statt. Der RLC hatte diesmal eine richtig umfangreiche Athleten-Truppe melden können, allen voran die bereits vor einer Woche ausgezeichneten Finja Tober und Nils Hartleif, unterstützt durch...",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190616184134_Nils_Kurve.JPG",
+                "local": "news_assets/9534/zoom_20190616184134_Nils_Kurve.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-74-9533",
+        "id": "9533",
+        "title": "DIE JüNGSTEN LEICHTATHLETEN IM EINSATZ",
+        "date": "16. Juni 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190616181849_Mannschaften.JPG\"/></div><p class=\"detailViewTop\"><b>An diesem Sonntag waren in Oer-Erkenschwick die jüngsten Wettkämpfen des Kreises Recklinghausen im Einsatz, zum Auftakt des KiLa-Cups des FLVW-Recklinghausen.</b></p>",
+        "content_text": "An diesem Sonntag waren in Oer-Erkenschwick die jüngsten Wettkämpfen des Kreises Recklinghausen im Einsatz, zum Auftakt des KiLa-Cups des FLVW-Recklinghausen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190616181849_Mannschaften.JPG",
+                "local": "news_assets/9533/zoom_20190616181849_Mannschaften.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-74-9532",
+        "id": "9532",
+        "title": "EIN KREISREKORD, EINE JAHRESBESTLEISTUNG UND VIELE QUALIS = HOHENHORST-MEETING 2019",
+        "date": "15. Juni 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190615185258_Ilja_bearb.JPG\"/></div><p class=\"detailViewTop\"><b>Zum Glück für alle Beteiligten fand das 42. Hohenhorst-Meeting am Pfingstmontag bei bestem LA-Wetter statt, die angekündigten Gewitter und Regenschauen blieben aus und so konnten die angereisten insgesamt 511 Athleten ihre 1100 Starts zeitplangerecht angehen, wobei gleichzeitig die Bezirks- und Kreismeisterschaften der AKs U16 – Senioren ausgefochten wurden.</b></p>",
+        "content_text": "Zum Glück für alle Beteiligten fand das 42. Hohenhorst-Meeting am Pfingstmontag bei bestem LA-Wetter statt, die angekündigten Gewitter und Regenschauen blieben aus und so konnten die angereisten insgesamt 511 Athleten ihre 1100 Starts zeitplangerecht angehen, wobei gleichzeitig die Bezirks- und Kreismeisterschaften der AKs U16 – Senioren ausgefochten wurden.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190615185258_Ilja_bearb.JPG",
+                "local": "news_assets/9532/zoom_20190615185258_Ilja_bearb.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-75-9453",
+        "id": "9453",
+        "title": "42. HOHENHORST-MEETING: ERGEBNISLISTE",
+        "date": "10. Juni 2019",
+        "content_html": "<p class=\"detailViewTop\"><b><a href=\"../assets/pdf/hoho19-ergebnisliste.pdf\" target=\"_blank\">Ergebnisliste (PDF)</a></b></p>",
+        "content_text": "Ergebnisliste (PDF)",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-75-9451",
+        "id": "9451",
+        "title": "BERNHARD DEIß NRW  /WESTFALENMEISTER IM HALBMARATHON",
+        "date": "02. Juni 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190602194324_IMG-20190602-WA0036.jpg\"/></div><p class=\"detailViewTop\"><b>Im Rahmen des Rhein-Ruhr-Marathons am 02.06.2019 in Duisburg fanden auch die NRW- und Westf. Meisterschaften im Halbmarathon statt. Gesamtsieger wurde Bernhard Deiß trotz der heißen Temperaturen in der tollen Zeit von 1:15,26h.</b></p>",
+        "content_text": "Im Rahmen des Rhein-Ruhr-Marathons am 02.06.2019 in Duisburg fanden auch die NRW- und Westf. Meisterschaften im Halbmarathon statt. Gesamtsieger wurde Bernhard Deiß trotz der heißen Temperaturen in der tollen Zeit von 1:15,26h.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190602194324_IMG-20190602-WA0036.jpg",
+                "local": "news_assets/9451/zoom_20190602194324_IMG-20190602-WA0036.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-75-9450",
+        "id": "9450",
+        "title": "NILS HARTLEF WESTFALENMEISTER IM BLOCKWETTKAMPF LAUF / DM-QUALI BESTäTIGT",
+        "date": "02. Juni 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190602192750_IMG_2593.jpg\"/></div><p class=\"detailViewTop\"><b>Bei denkbar heißem LA-Wetter hat Nils Hartleif (M15) in Hagener Ischelandstadion so richtig zugeschlagen. Im Blockwettkampf Lauf mit 100m, 80mHürden, Weitsprung, Ballwurf und 2000m-Lauf siegte er mit 2548 Punkten mit 89 Punkten Vorsprung vor Michael Gümbel vom CVJM Siegen.</b></p>",
+        "content_text": "Bei denkbar heißem LA-Wetter hat Nils Hartleif (M15) in Hagener Ischelandstadion so richtig zugeschlagen. Im Blockwettkampf Lauf mit 100m, 80mHürden, Weitsprung, Ballwurf und 2000m-Lauf siegte er mit 2548 Punkten mit 89 Punkten Vorsprung vor Michael Gümbel vom CVJM Siegen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190602192750_IMG_2593.jpg",
+                "local": "news_assets/9450/zoom_20190602192750_IMG_2593.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-76-9449",
+        "id": "9449",
+        "title": "SPORTLICHE SENIOREN IM AUFWIND",
+        "date": "30. Mai 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190530180259_Sabine_Gabi.jpg\"/></div><p class=\"detailViewTop\"><b>Das vergangene Wochenende stellte nicht nur für den sportlichen Nachwuchs den Auftakt in eine sicher erfolgreiche Wettkampfsaison dar, sondern auch unsere trainingsfleissigen Senioren tummelten sich auf verschiedenen Wettkämpfen. Bei den Off. Westf. Meisterschaften der Senioren…</b></p>",
+        "content_text": "Das vergangene Wochenende stellte nicht nur für den sportlichen Nachwuchs den Auftakt in eine sicher erfolgreiche Wettkampfsaison dar, sondern auch unsere trainingsfleissigen Senioren tummelten sich auf verschiedenen Wettkämpfen. Bei den Off. Westf. Meisterschaften der Senioren…",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190530180259_Sabine_Gabi.jpg",
+                "local": "news_assets/9449/zoom_20190530180259_Sabine_Gabi.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-76-9377",
+        "id": "9377",
+        "title": "REKORDE BEIM KIA-ENGBERT-SPORTFEST",
+        "date": "26. Mai 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190526185443_U10U12_bearb.JPG\"/></div><p class=\"detailViewTop\"><b>Mit 1408 Meldungen, 500 Athletinnen und Athleten aus 29 Vereinen hat das KIA-ENGBERT-Sportfest erneut eine Schallmauer durchbrochen. Bei bestem Leichtathletikwetter – nicht zu heiß und nicht zu kalt, ohne Regen, dafür mit viel Sonne zeigten die 8 – 17jährigen, wieviel Spaß ihnen die Leichtathletik macht und wieviel Leistung der Nachwuchs G8 und Ganztagsschule zum Trotz zu bringen imstande ist.</b></p>",
+        "content_text": "Mit 1408 Meldungen, 500 Athletinnen und Athleten aus 29 Vereinen hat das KIA-ENGBERT-Sportfest erneut eine Schallmauer durchbrochen. Bei bestem Leichtathletikwetter – nicht zu heiß und nicht zu kalt, ohne Regen, dafür mit viel Sonne zeigten die 8 – 17jährigen, wieviel Spaß ihnen die Leichtathletik macht und wieviel Leistung der Nachwuchs G8 und Ganztagsschule zum Trotz zu bringen imstande ist.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190526185443_U10U12_bearb.JPG",
+                "local": "news_assets/9377/zoom_20190526185443_U10U12_bearb.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-76-9376",
+        "id": "9376",
+        "title": "KIA-SPORTFEST: ERGEBNISLISTE UND URKUNDENDRUCK",
+        "date": "25. Mai 2019",
+        "content_html": "<p class=\"detailViewTop\"><b>Die <a href=\"../assets/pdf/kia19-ergebnisliste.pdf\" target=\"_blank\">Ergebnisliste</a> des heutigen KIA-ENGBERT-Sportfestes ist nun online.</b></p>",
+        "content_text": "Die\nErgebnisliste\ndes heutigen KIA-ENGBERT-Sportfestes ist nun online.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-77-9374",
+        "id": "9374",
+        "title": "RLC-STAFFELN HOLEN WESTFALENTITEL UND VIZEMEISTERSCHAFT",
+        "date": "20. Mai 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190523104616_Staffel_02.jpg\"/></div><p class=\"detailViewTop\"><b>Parallel zu den NRW-Langstaffelmeisterschaften wurden auch die Westfalenmeisterschaften der Langstaffeln durchgeführt, mit dem tollen Ergebnis: der Westfalentitel für die 3x800m-WJU16-Staffel ging auch hier an die StG RE-Hamm, </b></p>",
+        "content_text": "Parallel zu den NRW-Langstaffelmeisterschaften wurden auch die Westfalenmeisterschaften der Langstaffeln durchgeführt, mit dem tollen Ergebnis: der Westfalentitel für die 3x800m-WJU16-Staffel ging auch hier an die StG RE-Hamm,",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190523104616_Staffel_02.jpg",
+                "local": "news_assets/9374/zoom_20190523104616_Staffel_02.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-77-9372",
+        "id": "9372",
+        "title": "3X800M-WJU16-STAFFEL HOLT NRW-MEISTERSCHAFT",
+        "date": "11. Mai 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190512185405_Leonie_Emma_Finja.jpeg\"/></div><p class=\"detailViewTop\"><b>Bei den NRW-Langstaffelmeisterschaften trumpfte die neuformierte WJU16-Staffel der Startgemeinschaft Recklinghausen-Hamm (StG RE-Hamm) am 11.05.2019 in Iserlohn so richtig auf.</b></p>",
+        "content_text": "Bei den NRW-Langstaffelmeisterschaften trumpfte die neuformierte WJU16-Staffel der Startgemeinschaft Recklinghausen-Hamm (StG RE-Hamm) am 11.05.2019 in Iserlohn so richtig auf.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190512185405_Leonie_Emma_Finja.jpeg",
+                "local": "news_assets/9372/zoom_20190512185405_Leonie_Emma_Finja.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-77-9371",
+        "id": "9371",
+        "title": "JüRGEN NEUHAUSEN NRW-MEISTER üBER 10.000M",
+        "date": "05. Mai 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190505105632_Leonie-Finja.jpeg\"/></div><p class=\"detailViewTop\"><b>Vier Athletinnen und Athleten des RLC hatten zum Bahnauftakt für die NRW-Langstreckenmeisterschaften am 04.05.2019 in Neuss gemeldet – und alle lieferten Topzeiten und -platzierungen ab.</b></p>",
+        "content_text": "Vier Athletinnen und Athleten des RLC hatten zum Bahnauftakt für die NRW-Langstreckenmeisterschaften am 04.05.2019 in Neuss gemeldet – und alle lieferten Topzeiten und -platzierungen ab.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190505105632_Leonie-Finja.jpeg",
+                "local": "news_assets/9371/zoom_20190505105632_Leonie-Finja.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-78-9370",
+        "id": "9370",
+        "title": "MARATHON-DM IN DüSSELDORF",
+        "date": "28. April 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190428192542_BerhardMatthias.jpg\"/></div><p class=\"detailViewTop\"><b>Zu den diesjährigen Deutschen Meisterschaften im Marathon am 28.04.2019 in Düsseldorf hatten 3 RLC-Athleten gemeldet: Bernhard Deiß, Matthias Amoneit und Christian Heimbrock (alle in der Hauptklasse Männer startend):</b></p>",
+        "content_text": "Zu den diesjährigen Deutschen Meisterschaften im Marathon am 28.04.2019 in Düsseldorf hatten 3 RLC-Athleten gemeldet: Bernhard Deiß, Matthias Amoneit und Christian Heimbrock (alle in der Hauptklasse Männer startend):",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190428192542_BerhardMatthias.jpg",
+                "local": "news_assets/9370/zoom_20190428192542_BerhardMatthias.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-78-9369",
+        "id": "9369",
+        "title": "HERZLICHEN GLüCKWUNSCH, LUDGER ZANDER!",
+        "date": "16. April 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190416181240_WP_20190415_20_29_22_Rich_LI.jpg\"/></div><p class=\"detailViewTop\"><b>Beim Kreistag des Fußball- und Leichtathletik-Kreistag am 15.04.2019 in Recklinghausen wurde erwartungsgemäß der Trainer, Sportwart- und Kampfrichterwart des Recklinghäuser LC, Ludger Zander, zum Vorsitzenden des Kreisleichtathletik-Ausschusses gewählt.</b></p>",
+        "content_text": "Beim Kreistag des Fußball- und Leichtathletik-Kreistag am 15.04.2019 in Recklinghausen wurde erwartungsgemäß der Trainer, Sportwart- und Kampfrichterwart des Recklinghäuser LC, Ludger Zander, zum Vorsitzenden des Kreisleichtathletik-Ausschusses gewählt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190416181240_WP_20190415_20_29_22_Rich_LI.jpg",
+                "local": "news_assets/9369/zoom_20190416181240_WP_20190415_20_29_22_Rich_LI.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-78-9368",
+        "id": "9368",
+        "title": "U12-MANNSCHAFT NEU AUSGESTATTET",
+        "date": "09. April 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190409105241_Goldgasanzug.JPG\"/></div><p class=\"detailViewTop\"><b>Nach der erfolgreichen Teilnahme am Goldgas-Gewinnspiel im Oktober 2018 hat die U12-Wettkampfmannschaft 15 Goldgas-Adidas-Trainingsanzüge samt Laufsocken und Rucksäcken gewonnen.</b></p>",
+        "content_text": "Nach der erfolgreichen Teilnahme am Goldgas-Gewinnspiel im Oktober 2018 hat die U12-Wettkampfmannschaft 15 Goldgas-Adidas-Trainingsanzüge samt Laufsocken und Rucksäcken gewonnen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190409105241_Goldgasanzug.JPG",
+                "local": "news_assets/9368/zoom_20190409105241_Goldgasanzug.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-79-9367",
+        "id": "9367",
+        "title": "KREISMEISTERSCHAFTEN CROSSLAUF FALLEN AUS!",
+        "date": "16. März 2019",
+        "content_html": "<p class=\"detailViewTop\"><b><strong>An alle gemeldeten Athleten</strong>: die für morgen, den 17.03.2019, geplanten Kreismeisterschaften im Crosslauf fallen den derzeitigen und für morgen vorhergesagten Witterungsbedingungen zum Opfer.</b></p>",
+        "content_text": "An alle gemeldeten Athleten\n: die für morgen, den 17.03.2019, geplanten Kreismeisterschaften im Crosslauf fallen den derzeitigen und für morgen vorhergesagten Witterungsbedingungen zum Opfer.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-79-9366",
+        "id": "9366",
+        "title": "FINJA TOBER AUF DEM TREPPCHEN",
+        "date": "04. März 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190304092048_Siegerehrung_Finja.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Westf. U16-Hallen-Meisterschaften am 03.03.2019 in Paderborn verbesserte Finja Tober (W14) ihre Bestleistung über 800m um über 5 Sekunden auf jetzt 2:27,13min und erkämpfte sich damit den 3. Platz auf dem Siegertreppchen, gleich bei ihrem ersten Auftritt in der U16-Wettkampfklasse.</b></p>",
+        "content_text": "Bei den Westf. U16-Hallen-Meisterschaften am 03.03.2019 in Paderborn verbesserte Finja Tober (W14) ihre Bestleistung über 800m um über 5 Sekunden auf jetzt 2:27,13min und erkämpfte sich damit den 3. Platz auf dem Siegertreppchen, gleich bei ihrem ersten Auftritt in der U16-Wettkampfklasse.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190304092048_Siegerehrung_Finja.jpg",
+                "local": "news_assets/9366/zoom_20190304092048_Siegerehrung_Finja.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-79-9365",
+        "id": "9365",
+        "title": "ERFOLGREICHER AUFTRITT DES RLC-NACHWUCHSES",
+        "date": "03. März 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190303170055_Staffeln.jpg\"/></div><p class=\"detailViewTop\"><b>Bei einem Hallensportfest in der Dortmunder Helmut-Körnig-Halle durften die U12- und U14-Athleten noch mal so richtig zeigen, was sie können.<br>Viele persönliche Bestleistungen und gute Platzierungen geben den 9 – 13jährigen Nachwuchsportlern sicherlich so richtig Auftrieb für die kommende Sommersaison.</br></b></p>",
+        "content_text": "Bei einem Hallensportfest in der Dortmunder Helmut-Körnig-Halle durften die U12- und U14-Athleten noch mal so richtig zeigen, was sie können.\nViele persönliche Bestleistungen und gute Platzierungen geben den 9 – 13jährigen Nachwuchsportlern sicherlich so richtig Auftrieb für die kommende Sommersaison.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190303170055_Staffeln.jpg",
+                "local": "news_assets/9365/zoom_20190303170055_Staffeln.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-80-9364",
+        "id": "9364",
+        "title": "ARNE WENDLER DEUTSCHER MEISTER - SENIOREN SAHNEN AB",
+        "date": "03. März 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190303153207_Arne_DM.JPG\"/></div><p class=\"detailViewTop\"><b>Bei den Deutschen Seniorenmeisterschaften 01. - 03.03.2019 in Halle /Saale haben die RLC-Senioren mal so richtig abgesahnt: ein Titel, zwei Vizemeister, eine Bronzemedaille, ein vierter, zwei sechste, in siebter und ein neunter Platz sind die „Beute“ der Trainingsgruppen von Bianca Broda und Thomas Vogl.</b></p>",
+        "content_text": "Bei den Deutschen Seniorenmeisterschaften 01. - 03.03.2019 in Halle /Saale haben die RLC-Senioren mal so richtig abgesahnt: ein Titel, zwei Vizemeister, eine Bronzemedaille, ein vierter, zwei sechste, in siebter und ein neunter Platz sind die „Beute“ der Trainingsgruppen von Bianca Broda und Thomas Vogl.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190303153207_Arne_DM.JPG",
+                "local": "news_assets/9364/zoom_20190303153207_Arne_DM.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-80-9354",
+        "id": "9354",
+        "title": "ERFOLGE AUF GANZER LINIE",
+        "date": "06. Februar 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190206111959_Ilja.JPG\"/></div><p class=\"detailViewTop\"><b>Das vergangene Wochenende hatte es in sich: von der U18-Jugend bei den NRW-Meisterschaften über die U14-Athleten in der Halle bis hin zu den Senioren gab es überall Top-Platzierungen und persönliche Bestleistungen zu bewundern.</b></p>",
+        "content_text": "Das vergangene Wochenende hatte es in sich: von der U18-Jugend bei den NRW-Meisterschaften über die U14-Athleten in der Halle bis hin zu den Senioren gab es überall Top-Platzierungen und persönliche Bestleistungen zu bewundern.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190206111959_Ilja.JPG",
+                "local": "news_assets/9354/zoom_20190206111959_Ilja.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-80-9353",
+        "id": "9353",
+        "title": "EIN SENIOREN-WOCHENENDE ....PLUS",
+        "date": "28. Januar 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190128153511_Jrgen.JPG\"/></div><p class=\"detailViewTop\"><b>Jürgen Neuhausen (M55) kann sich derzeit vor Ehrungen für seine sportlichen Leistungen nicht retten: am 21.01.2019 beim Bürgermeisterempfang mit der 3 x 1000m-Staffel, am 25.01.2019 Platz Zwei bei der Wahl zum Sportler des Jahres. Mehr geht fast nicht.</b></p>",
+        "content_text": "Jürgen Neuhausen (M55) kann sich derzeit vor Ehrungen für seine sportlichen Leistungen nicht retten: am 21.01.2019 beim Bürgermeisterempfang mit der 3 x 1000m-Staffel, am 25.01.2019 Platz Zwei bei der Wahl zum Sportler des Jahres. Mehr geht fast nicht.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190128153511_Jrgen.JPG",
+                "local": "news_assets/9353/zoom_20190128153511_Jrgen.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-81-9352",
+        "id": "9352",
+        "title": "MAL GANZ OHNE SHORTIGHT…",
+        "date": "22. Januar 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190122151636_3x1000m_01.JPG\"/></div><p class=\"detailViewTop\"><b>Zur jährlichen Sportlerehrung bei Bürgermeister Tesche erschienen die nominierten RLC-Sportlerinnen und -sportler mal ganz ohne Sportbekleidung. Und siehe da: auch aktive und erfolgreiche Läufer können richtig elegant.</b></p>",
+        "content_text": "Zur jährlichen Sportlerehrung bei Bürgermeister Tesche erschienen die nominierten RLC-Sportlerinnen und -sportler mal ganz ohne Sportbekleidung. Und siehe da: auch aktive und erfolgreiche Läufer können richtig elegant.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190122151636_3x1000m_01.JPG",
+                "local": "news_assets/9352/zoom_20190122151636_3x1000m_01.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-81-9351",
+        "id": "9351",
+        "title": "LEISTUNGSKURVE ZEIGT DEUTLICH NACH OBEN",
+        "date": "21. Januar 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190121100548_Nils.JPG\"/></div><p class=\"detailViewTop\"><b>Nicht nur die „Großen“ waren am Wochenende im Einsatz, auch die U16-Jugendlichen stellten sich in Vorbereitung auf die Westf. U16-Meisterschaften am 03.03.2019 in Paderborn einem erstem Leistungstest. Folge: jede Menge persönliche Bestleistungen und Qualis für Paderborn.</b></p>",
+        "content_text": "Nicht nur die „Großen“ waren am Wochenende im Einsatz, auch die U16-Jugendlichen stellten sich in Vorbereitung auf die Westf. U16-Meisterschaften am 03.03.2019 in Paderborn einem erstem Leistungstest. Folge: jede Menge persönliche Bestleistungen und Qualis für Paderborn.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190121100548_Nils.JPG",
+                "local": "news_assets/9351/zoom_20190121100548_Nils.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-82-9350",
+        "id": "9350",
+        "title": "MILAGROS SIEVERS WESTFäLISCHE VIZEMEISTERIN üBER 400M",
+        "date": "19. Januar 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190119190428_Milli.JPG\"/></div><p class=\"detailViewTop\"><b>Bei den Westfälischen Hallen-Meisterschaften der Frauen, Männer und Jugend U18 am 19.01.2019 in Dortmund erlief sich Sprinterin Milagros Sievers (WJU18) im Trikot des Recklinghäuser LC über die Zweirundenstrecke in 62,94sec den Vizemeistertitel.</b></p>",
+        "content_text": "Bei den Westfälischen Hallen-Meisterschaften der Frauen, Männer und Jugend U18 am 19.01.2019 in Dortmund erlief sich Sprinterin Milagros Sievers (WJU18) im Trikot des Recklinghäuser LC über die Zweirundenstrecke in 62,94sec den Vizemeistertitel.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190119190428_Milli.JPG",
+                "local": "news_assets/9350/zoom_20190119190428_Milli.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-82-9349",
+        "id": "9349",
+        "title": "ZWEI TITEL + DREI VIZEMEISTER BEI SENIOREN-NRW",
+        "date": "13. Januar 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190113105633_Sen_01.JPG\"/></div><p class=\"detailViewTop\"><b>Bei den Offenen NRW-Seniorenmeisterschaften am 12.01.2019 in der Düsseldorfer LA-Halle im Arena-Park bewiesen die von Bianca Broda und Thomas Vogl trainierten Senioren erneut ihre Klasse:</b></p>",
+        "content_text": "Bei den Offenen NRW-Seniorenmeisterschaften am 12.01.2019 in der Düsseldorfer LA-Halle im Arena-Park bewiesen die von Bianca Broda und Thomas Vogl trainierten Senioren erneut ihre Klasse:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190113105633_Sen_01.JPG",
+                "local": "news_assets/9349/zoom_20190113105633_Sen_01.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-81-9346",
+        "id": "9346",
+        "title": "WETTKAMPFBEKLEIDUNG JETZT BESTELLEN!",
+        "date": "22. Januar -  02. Februar 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190112111219_Flyer-Foto.jpg\"/></div><p class=\"detailViewTop\"><b>Ab sofort kann die neue miteam-Wettkampfbekleidung des RLC nicht nur per Flyer eingesehen werden, sondern auch bestellt werden. Beides ab sofort bei den Trainerinnen und Trainern erhältlich, oder unter: </b></p>",
+        "content_text": "Ab sofort kann die neue miteam-Wettkampfbekleidung des RLC nicht nur per Flyer eingesehen werden, sondern auch bestellt werden. Beides ab sofort bei den Trainerinnen und Trainern erhältlich, oder unter:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190112111219_Flyer-Foto.jpg",
+                "local": "news_assets/9346/zoom_20190112111219_Flyer-Foto.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-82-9342",
+        "id": "9342",
+        "title": "SPORT DER ÄLTEREN SUCHT NACHWUCHS",
+        "date": "08. Januar 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190108185020_Seniorengruppe_01.jpeg\"/></div><p class=\"detailViewTop\"><b>Nach fast 15 jährigem Bestehen der Gruppe \" Fit sein - Fit bleiben = Sport der Älteren\" ist diese so weit geschrumpft, dass wir eine neue Gruppe bilden möchten.</b></p>",
+        "content_text": "Nach fast 15 jährigem Bestehen der Gruppe \" Fit sein - Fit bleiben = Sport der Älteren\" ist diese so weit geschrumpft, dass wir eine neue Gruppe bilden möchten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190108185020_Seniorengruppe_01.jpeg",
+                "local": "news_assets/9342/zoom_20190108185020_Seniorengruppe_01.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-83-9341",
+        "id": "9341",
+        "title": "DAS NEUE JAHR BEGINNT GUT!",
+        "date": "07. Januar 2019",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190107111635_Dortmund_06.01.19_01.JPG\"/></div><p class=\"detailViewTop\"><b>Der Auftakt der Hallensaison 2019 ist gelungen: in Troisdorf und Dortmund sorgten RLC-Athleten für prima Ergebnisse:</b></p>",
+        "content_text": "Der Auftakt der Hallensaison 2019 ist gelungen: in Troisdorf und Dortmund sorgten RLC-Athleten für prima Ergebnisse:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190107111635_Dortmund_06.01.19_01.JPG",
+                "local": "news_assets/9341/zoom_20190107111635_Dortmund_06.01.19_01.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-83-9174",
+        "id": "9174",
+        "title": "SILVESTERLAUF: ERGEBNISLISTE + URKUNDENDRUCK",
+        "date": "31. Dezember 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20190101165244_Start_5km01.JPG\"/></div><p class=\"detailViewTop\"><b>Beim 32. Recklinghäuser Silvesterlauf haben insgesamt 634 Läuferinnen und Läufer, Walkerinnen und Walker das Jahr 2018 erfolgreich ausklingen lassen. Die Ergebnisse der heutigen Läufe finden sie auf der <a href=\"https://my.raceresult.com/108179/results\" target=\"_blank\">Veranstaltungsseite</a> bei race|result. Dort kann sich jeder Teilnehmer auch seine persönliche Einzel- und Mannschaftsurkunde ausdrucken. Dazu einfach in der Ergebnisliste den eigenen Namen anklicken.</b></p>",
+        "content_text": "Beim 32. Recklinghäuser Silvesterlauf haben insgesamt 634 Läuferinnen und Läufer, Walkerinnen und Walker das Jahr 2018 erfolgreich ausklingen lassen. Die Ergebnisse der heutigen Läufe finden sie auf der\nVeranstaltungsseite\nbei race|result. Dort kann sich jeder Teilnehmer auch seine persönliche Einzel- und Mannschaftsurkunde ausdrucken. Dazu einfach in der Ergebnisliste den eigenen Namen anklicken.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20190101165244_Start_5km01.JPG",
+                "local": "news_assets/9174/zoom_20190101165244_Start_5km01.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-84-9173",
+        "id": "9173",
+        "title": "ZWEI NEUE GEPRüFTE DLV - TRAINERINNEN FüR DEN RLC",
+        "date": "12. Dezember 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20181213183806_Bianca.JPG\"/></div><p class=\"detailViewTop\"><b>In den letzten beiden Wochen haben zwei aktive RLC-Trainerinnen ihre Trainer-Lizenz erworben.Bianca Broda erarbeitete sich die B-Trainer-Lizenz Leichtathletik Leistungssport im Block Lauf mit Bravour und ... </b></p>",
+        "content_text": "In den letzten beiden Wochen haben zwei aktive RLC-Trainerinnen ihre Trainer-Lizenz erworben.Bianca Broda erarbeitete sich die B-Trainer-Lizenz Leichtathletik Leistungssport im Block Lauf mit Bravour und ...",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20181213183806_Bianca.JPG",
+                "local": "news_assets/9173/zoom_20181213183806_Bianca.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-83-9172",
+        "id": "9172",
+        "title": "VIEL ACTION IN DER HALLE",
+        "date": "12. Dezember 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20181212092313_WKU12_bearb.JPG\"/></div><p class=\"detailViewTop\"><b>Das traditionelle Nikolaussportfest des Recklinghäuser LC ging diesmal am 10.12 in der 5Fachhalle des Doppeberufskollegs über die Bühne.<br>100 Kinder hatte sich angemeldet, 91 maßen sich letztendlich im 30m-Flachsprint, 30m-Hürdensprint, Hoch-Weit-Sprung, Medizinballstossen und Zielwurf, um sich am Ende gebührend von Nikolaus und Eltern feiern zu lassen.</br></b></p>",
+        "content_text": "Das traditionelle Nikolaussportfest des Recklinghäuser LC ging diesmal am 10.12 in der 5Fachhalle des Doppeberufskollegs über die Bühne.\n100 Kinder hatte sich angemeldet, 91 maßen sich letztendlich im 30m-Flachsprint, 30m-Hürdensprint, Hoch-Weit-Sprung, Medizinballstossen und Zielwurf, um sich am Ende gebührend von Nikolaus und Eltern feiern zu lassen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20181212092313_WKU12_bearb.JPG",
+                "local": "news_assets/9172/zoom_20181212092313_WKU12_bearb.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-84-9083",
+        "id": "9083",
+        "title": "TOP-ERGEBNISSE AUS DER HALLE",
+        "date": "09. Dezember 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20181209154249_Arne_Christopher_bearb.JPG\"/></div><p class=\"detailViewTop\"><b>Beim ersten Hallenwettkampf der Saison 2018/2019 am 09.12.2018 in Paderborn warteten einige Athleten der Trainingsgruppe von Bianca Broda mit richtg guten Ergebnissen auf:</b></p>",
+        "content_text": "Beim ersten Hallenwettkampf der Saison 2018/2019 am 09.12.2018 in Paderborn warteten einige Athleten der Trainingsgruppe von Bianca Broda mit richtg guten Ergebnissen auf:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20181209154249_Arne_Christopher_bearb.JPG",
+                "local": "news_assets/9083/zoom_20181209154249_Arne_Christopher_bearb.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-84-9082",
+        "id": "9082",
+        "title": "EHRUNGEN DES FLVW-KREISES RECKLINGHAUSEN",
+        "date": "08. Dezember 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20181208185700_Ehrung.jpg\"/></div><p class=\"detailViewTop\"><b>Bei der jährlichen FLVW-Abeitstagung des Kreises Recklinghausen, bei der neben der Festlegung der Termine des kommenden Jahres auch die Teilnehmermannschaften des Kids Cups und einige besonders aktive Kampfrichter geehrt werden, erhalten auch die neuen Kampfrichter des vergangenen Jahres ihre Kampfrichterpässe.</b></p>",
+        "content_text": "Bei der jährlichen FLVW-Abeitstagung des Kreises Recklinghausen, bei der neben der Festlegung der Termine des kommenden Jahres auch die Teilnehmermannschaften des Kids Cups und einige besonders aktive Kampfrichter geehrt werden, erhalten auch die neuen Kampfrichter des vergangenen Jahres ihre Kampfrichterpässe.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20181208185700_Ehrung.jpg",
+                "local": "news_assets/9082/zoom_20181208185700_Ehrung.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-85-9081",
+        "id": "9081",
+        "title": "DREIFACHSIEG IM HALBMARATHON DURCH RLC-LäUFER",
+        "date": "02. Dezember 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20181203110816_BerhardMatthiasJrgen.jpg\"/></div><p class=\"detailViewTop\"><b>Bei regnerischem, kalten Herbstwetter konnte Bernhard Deiß, M,  seinen Kreismeistertitel über die Halbmarathonstrecke bereits zum dritten Mal in Folge verteidigen. In 1:21,39h lief der schnelle RLCler ins Ziel vor Matthias Amoneit, M 30, der nach 1:23,46h das Ziel erreichte. Jürgen Neuhausen, M55, komplettierte das schnelle Trio auf dem 3. Rang in 1:25,51h,</b></p>",
+        "content_text": "Bei regnerischem, kalten Herbstwetter konnte Bernhard Deiß, M,  seinen Kreismeistertitel über die Halbmarathonstrecke bereits zum dritten Mal in Folge verteidigen. In 1:21,39h lief der schnelle RLCler ins Ziel vor Matthias Amoneit, M 30, der nach 1:23,46h das Ziel erreichte. Jürgen Neuhausen, M55, komplettierte das schnelle Trio auf dem 3. Rang in 1:25,51h,",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20181203110816_BerhardMatthiasJrgen.jpg",
+                "local": "news_assets/9081/zoom_20181203110816_BerhardMatthiasJrgen.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-85-9080",
+        "id": "9080",
+        "title": "TOLLE NEUIGKEITEN VON DEN HALBMARATHONFRONT",
+        "date": "25. November 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20181125190754_Luisa_Gabi_bearb.JPG\"/></div><p class=\"detailViewTop\"><b>Beim winterlichen Blumensaatlauf in Essen am 25.11.2018 gingen mit Luisa Merten und Gabi Ott eine U20-Läuferin und eine W50-Seniorin für den RLC über die Halbmarathonstrecke an den Start.</b></p>",
+        "content_text": "Beim winterlichen Blumensaatlauf in Essen am 25.11.2018 gingen mit Luisa Merten und Gabi Ott eine U20-Läuferin und eine W50-Seniorin für den RLC über die Halbmarathonstrecke an den Start.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20181125190754_Luisa_Gabi_bearb.JPG",
+                "local": "news_assets/9080/zoom_20181125190754_Luisa_Gabi_bearb.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-85-9079",
+        "id": "9079",
+        "title": "RLC-CROSSLäUFER IN GUTER FORM",
+        "date": "14. November 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20181114160824_Jrgen_Neuhausen.JPG\"/></div><p class=\"detailViewTop\"><b>Zum Auftakt der Crosslauf-Saison stellten sich 5 RLCler einem Formtest in Form der Westf. Crosslaufmeisterschaften am 11.11.2018 in Paderborn. Auf den anspruchsvollen Strecken erliefen sich Jürgen Neuhausen (M55) die Vizemeisterschaft, Rüdiger Kruse (M60) den 6. Platz, Martin Godde (M50) und U14-Läufer Ilja Leibnitz den 7. Rang und die einzige Läuferin im RLC-Trikot, Leonie Kruse (W14) wurde 9.</b></p>",
+        "content_text": "Zum Auftakt der Crosslauf-Saison stellten sich 5 RLCler einem Formtest in Form der Westf. Crosslaufmeisterschaften am 11.11.2018 in Paderborn. Auf den anspruchsvollen Strecken erliefen sich Jürgen Neuhausen (M55) die Vizemeisterschaft, Rüdiger Kruse (M60) den 6. Platz, Martin Godde (M50) und U14-Läufer Ilja Leibnitz den 7. Rang und die einzige Läuferin im RLC-Trikot, Leonie Kruse (W14) wurde 9.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20181114160824_Jrgen_Neuhausen.JPG",
+                "local": "news_assets/9079/zoom_20181114160824_Jrgen_Neuhausen.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-86-9077",
+        "id": "9077",
+        "title": "RLC-LANGSTRECKLER IN TOP-FORM",
+        "date": "01. Oktober 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20181001095419_Bernhard_Dei.jpg\"/></div><p class=\"detailViewTop\"><b>Für die 10km-Kreismeisterschaften hatten insgesamt 11 RLCler gemeldet, die einige Titel aus Bertlich mit nach Hause brachten. Gesamtsieger wurde zum 3. Mal Bernhard Deiß, der gemeinsam mit Mark Peters und Jürgen Neuhausen auch gleich noch den Mannschaftstitel vor der Dorstener Mannschaft absahnte.</b></p>",
+        "content_text": "Für die 10km-Kreismeisterschaften hatten insgesamt 11 RLCler gemeldet, die einige Titel aus Bertlich mit nach Hause brachten. Gesamtsieger wurde zum 3. Mal Bernhard Deiß, der gemeinsam mit Mark Peters und Jürgen Neuhausen auch gleich noch den Mannschaftstitel vor der Dorstener Mannschaft absahnte.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20181001095419_Bernhard_Dei.jpg",
+                "local": "news_assets/9077/zoom_20181001095419_Bernhard_Dei.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-86-8984",
+        "id": "8984",
+        "title": "VERMöGENSBERATER MARKUS HORN WIRD NEUER RLC-SPONSOR",
+        "date": "18. September 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180918100146_WhatsApp_Image_2018-09-16_at_1.jpeg\"/></div><p class=\"detailViewTop\"><b>Tolle Neuigkeiten für unsere U8-Mannschaft: bei Wettkämpfen des Kids-Cup können unsere U8-Kids ab sofort in einheitlichen Trikots auftreten. Wir freuen uns riesig, den Recklinghäuser Vermögensberater Markus Horn als neuen Sponsor unseres Vereins vorstellen zu können.</b></p>",
+        "content_text": "Tolle Neuigkeiten für unsere U8-Mannschaft: bei Wettkämpfen des Kids-Cup können unsere U8-Kids ab sofort in einheitlichen Trikots auftreten. Wir freuen uns riesig, den Recklinghäuser Vermögensberater Markus Horn als neuen Sponsor unseres Vereins vorstellen zu können.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180918100146_WhatsApp_Image_2018-09-16_at_1.jpeg",
+                "local": "news_assets/8984/zoom_20180918100146_WhatsApp_Image_2018-09-16_at_1.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-86-8983",
+        "id": "8983",
+        "title": "VIELE GUTE PLATZIERUNGEN AM 2. MEHRKAMPFTAG",
+        "date": "16. September 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180916181058_Lasse_KM.JPG\"/></div><p class=\"detailViewTop\"><b>Auch am 2. Tag der Kreismehrkampfmeisterschaften stellten viele Aktive des RLC ihre Leistungsfähigkeit unter Beweis: in der AK M10 Vierkampf siegten Leo Schwakenberg vor Lasse Buschmeier und Robin Fischer, im Dreikampf tauschten Leo und Lasse die Plätze, so dass beide mit  Kreisbestenmedaillen nach Hause gehen durften. Lotte Bröker (W11) siegte sowohl im Drei- als auch im Vierkampf.</b></p>",
+        "content_text": "Auch am 2. Tag der Kreismehrkampfmeisterschaften stellten viele Aktive des RLC ihre Leistungsfähigkeit unter Beweis: in der AK M10 Vierkampf siegten Leo Schwakenberg vor Lasse Buschmeier und Robin Fischer, im Dreikampf tauschten Leo und Lasse die Plätze, so dass beide mit  Kreisbestenmedaillen nach Hause gehen durften. Lotte Bröker (W11) siegte sowohl im Drei- als auch im Vierkampf.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180916181058_Lasse_KM.JPG",
+                "local": "news_assets/8983/zoom_20180916181058_Lasse_KM.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-87-8982",
+        "id": "8982",
+        "title": "KREISMEHRKAMPFMEISTERSCHAFTEN: ERGEBNISSE",
+        "date": "16. September 2018",
+        "content_html": "<p class=\"detailViewTop\"><b> Die Ergebnisse der Kreismehrkampfmeisterschaften gibt es im LA.portal <a href=\"https://laportal.net/Competitions/Details/1128\" target=\"_blank\">https://laportal.net/Competitions/Details/1128</a> und als PDF im Anhang dieser News.</b></p>",
+        "content_text": "Die Ergebnisse der Kreismehrkampfmeisterschaften gibt es im LA.portal\nhttps://laportal.net/Competitions/Details/1128\nund als PDF im Anhang dieser News.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-87-8981",
+        "id": "8981",
+        "title": "ERFOLGREICHER 1. MEHRKAMPF-WETTKAMPFTAG",
+        "date": "15. September 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180915164736_Mannschaft_MKU10_bearb.JPG\"/></div><p class=\"detailViewTop\"><b>Gleich die erste Mannschaftssiegerehrung am 1. Tag der Kreismehrkampfmeisterschaften brachte einen Titel für den Recklinghäuser LC: Avan Nourshahi, Len Wickert, Ben Rusch, Ioannis Ermidis und Maximilian Aigensberger siegten in der Alterklasse MKU10 mit 3646 Punkten vor den Kids von Teutonia Waltrop und Tus 09 Erkenschwick und wurden mit Medaillen geehrt.</b></p>",
+        "content_text": "Gleich die erste Mannschaftssiegerehrung am 1. Tag der Kreismehrkampfmeisterschaften brachte einen Titel für den Recklinghäuser LC: Avan Nourshahi, Len Wickert, Ben Rusch, Ioannis Ermidis und Maximilian Aigensberger siegten in der Alterklasse MKU10 mit 3646 Punkten vor den Kids von Teutonia Waltrop und Tus 09 Erkenschwick und wurden mit Medaillen geehrt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180915164736_Mannschaft_MKU10_bearb.JPG",
+                "local": "news_assets/8981/zoom_20180915164736_Mannschaft_MKU10_bearb.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-87-8883",
+        "id": "8883",
+        "title": "ERFOLGREICHE PREMIERE",
+        "date": "01. September 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180901111237_Siegerehrung_w_02.JPG\"/></div><p class=\"detailViewTop\"><b>Der 1. Sparkassen-Abendlauf, in mehrerer Hinsicht ein Pilotprojekt, kann mit Fug und Recht als ein erfolgreicher Auftakt für kommende Langstreckenläufe bezeichnet werden. Die Ergebnisse gibt es auf der Veranstaltungsseite bei race|result: <a href=\"https://my5.raceresult.com/101572/results#1_DA643B\" target=\"_blank\">Ergebnisse</a></b></p>",
+        "content_text": "Der 1. Sparkassen-Abendlauf, in mehrerer Hinsicht ein Pilotprojekt, kann mit Fug und Recht als ein erfolgreicher Auftakt für kommende Langstreckenläufe bezeichnet werden. Die Ergebnisse gibt es auf der Veranstaltungsseite bei race|result:\nErgebnisse",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180901111237_Siegerehrung_w_02.JPG",
+                "local": "news_assets/8883/zoom_20180901111237_Siegerehrung_w_02.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-88-8873",
+        "id": "8873",
+        "title": "LOUISA HASSEL = DEUTSCHE VIZEMEISTERIN!!!",
+        "date": "19. August 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180819193546_Louisa_Endspurt.jpeg\"/></div><p class=\"detailViewTop\"><b>Louisa Hassel und ihre Trainerin Sabine Kruse haben offensichtlich genau die richtige Entscheidung getroffen: über 800m hat Louisa sich die Silbermedaille bei den Deutschen U16-Meisterschaften in Wattenscheid erlaufen.</b></p>",
+        "content_text": "Louisa Hassel und ihre Trainerin Sabine Kruse haben offensichtlich genau die richtige Entscheidung getroffen: über 800m hat Louisa sich die Silbermedaille bei den Deutschen U16-Meisterschaften in Wattenscheid erlaufen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180819193546_Louisa_Endspurt.jpeg",
+                "local": "news_assets/8873/zoom_20180819193546_Louisa_Endspurt.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-88-8872",
+        "id": "8872",
+        "title": "LOUISA RENNT INS FINALE",
+        "date": "18. August 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180818175202_Louisa_02.jpeg\"/></div><p class=\"detailViewTop\"><b>Bei ihrem ersten 800m-Einzelstart bei einer Deutschen Meisterschaft ist Louisa Hassel, W15, als Siegerin des ersten Vorlaufes in 2:19,44min direkt ins Finale durchgelaufen.</b></p>",
+        "content_text": "Bei ihrem ersten 800m-Einzelstart bei einer Deutschen Meisterschaft ist Louisa Hassel, W15, als Siegerin des ersten Vorlaufes in 2:19,44min direkt ins Finale durchgelaufen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180818175202_Louisa_02.jpeg",
+                "local": "news_assets/8872/zoom_20180818175202_Louisa_02.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-88-8871",
+        "id": "8871",
+        "title": "SENIOREN HOLEN BEI DM-VIZEMEISTERTITEL",
+        "date": "05. August 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180805093706_Staffel_01bearb.JPG\"/></div><p class=\"detailViewTop\"><b>Bei den Deutschen Seniorenmeisterschaften für Langstaffeln am 04.08.2018 in Zella-Mehlis hat die 3x1000m-Staffel der Altersklasse M40 in souveräner Manier den Vizemeistertitel geholt.</b></p>",
+        "content_text": "Bei den Deutschen Seniorenmeisterschaften für Langstaffeln am 04.08.2018 in Zella-Mehlis hat die 3x1000m-Staffel der Altersklasse M40 in souveräner Manier den Vizemeistertitel geholt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180805093706_Staffel_01bearb.JPG",
+                "local": "news_assets/8871/zoom_20180805093706_Staffel_01bearb.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-89-8870",
+        "id": "8870",
+        "title": "4X400M-STAFFEL üBERZEUGT BEI DM",
+        "date": "22. Juli 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180724211509_Staffel_Trainer.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den im Rahmen der Deutschen Meisterschaften der Frauen und Männern in Nürnberg durchgeführten DM-Jugendmeisterschaften der Langstaffeln hat die Staffel der StG Recklinghausen-Hamm einen überragenden 6. Platz erreicht.</b></p>",
+        "content_text": "Bei den im Rahmen der Deutschen Meisterschaften der Frauen und Männern in Nürnberg durchgeführten DM-Jugendmeisterschaften der Langstaffeln hat die Staffel der StG Recklinghausen-Hamm einen überragenden 6. Platz erreicht.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180724211509_Staffel_Trainer.jpg",
+                "local": "news_assets/8870/zoom_20180724211509_Staffel_Trainer.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-89-8869",
+        "id": "8869",
+        "title": "LOUISA HASSEL FüR LäNDERKAMPF NOMINIERT",
+        "date": "17. Juli 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180717153441_Louisa_NRWtitel.jpeg\"/></div><p class=\"detailViewTop\"><b>Für den am 01.09.2018 in Münster stattfindenden Länderkampf U16 NRW - Niederlande wurde Louisa Hassel aufgrund ihrer konstant guten Leistungen der letzten Monate sowie ihrer Titel über 800m ( Westfalen- und NRW-Titel ) für die 800m-Strecke nominiert. </b></p>",
+        "content_text": "Für den am 01.09.2018 in Münster stattfindenden Länderkampf U16 NRW - Niederlande wurde Louisa Hassel aufgrund ihrer konstant guten Leistungen der letzten Monate sowie ihrer Titel über 800m ( Westfalen- und NRW-Titel ) für die 800m-Strecke nominiert.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180717153441_Louisa_NRWtitel.jpeg",
+                "local": "news_assets/8869/zoom_20180717153441_Louisa_NRWtitel.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-89-8868",
+        "id": "8868",
+        "title": "TAG 2 DER NRW-JUGENDMEISTERSCHAFTEN",
+        "date": "15. Juli 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180715173141_Wechsel_Anna-Milli.JPG\"/></div><p class=\"detailViewTop\"><b>Auch am 2. Tag der NRW-Meisterschaften für Jugendliche U16 – U20 in Duisburg können wir Erfolge für RLC-AthletInnen vermelden: Nach ihrem NRW-Titel über 800m ließ Louisa Hassel über 300mHürden in ihrem erst zweiten Langhürdenrennen überhaupt einen 4. Platz in 46,11sec folgen: fast 1,5 Sekunden schneller als bei ihrem Quali-Rennen vor zwei Wochen in Berlin.</b></p>",
+        "content_text": "Auch am 2. Tag der NRW-Meisterschaften für Jugendliche U16 – U20 in Duisburg können wir Erfolge für RLC-AthletInnen vermelden: Nach ihrem NRW-Titel über 800m ließ Louisa Hassel über 300mHürden in ihrem erst zweiten Langhürdenrennen überhaupt einen 4. Platz in 46,11sec folgen: fast 1,5 Sekunden schneller als bei ihrem Quali-Rennen vor zwei Wochen in Berlin.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180715173141_Wechsel_Anna-Milli.JPG",
+                "local": "news_assets/8868/zoom_20180715173141_Wechsel_Anna-Milli.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-90-8867",
+        "id": "8867",
+        "title": "DETLEV NIEDANOWSKI HOLTE DIE BRONZEMEDAILLE",
+        "date": "14. Juli 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180714215306_Detlev_03.jpg\"/></div><p class=\"detailViewTop\"><b>Eines unserer Senioren-Asse, Detlev Niedanowski, M60, ging bei den Deutschen Mehrkampfseniorenmeisterschaften erstmals im Fünfkampf an den Start, um sich wegen der Summe der tollen Einzelleistungen mit der Bronzemedaille zu belohnen.</b></p>",
+        "content_text": "Eines unserer Senioren-Asse, Detlev Niedanowski, M60, ging bei den Deutschen Mehrkampfseniorenmeisterschaften erstmals im Fünfkampf an den Start, um sich wegen der Summe der tollen Einzelleistungen mit der Bronzemedaille zu belohnen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180714215306_Detlev_03.jpg",
+                "local": "news_assets/8867/zoom_20180714215306_Detlev_03.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-90-8866",
+        "id": "8866",
+        "title": "ERSTER NRW-TITEL FüR LOUISA HASSEL",
+        "date": "14. Juli 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180714213512_Louisa_NRWtitel.jpeg\"/></div><p class=\"detailViewTop\"><b>Am ersten Tag der Jugend-NRW-Meisterschaften im Duisburger Wedaustadion holte sich Louisa Hassel, W15, über 800m ihren ersten NRW-Titel. Nach einem taktisch geprägten Rennen, in dem Louisa sich immer dicht hinter der Spitze aufhalten konnte, begann sie ca. 150m vor dem Ziel einen furiosen Endspurt, der ihr in 2:21,43min den Titel einbrachte.</b></p>",
+        "content_text": "Am ersten Tag der Jugend-NRW-Meisterschaften im Duisburger Wedaustadion holte sich Louisa Hassel, W15, über 800m ihren ersten NRW-Titel. Nach einem taktisch geprägten Rennen, in dem Louisa sich immer dicht hinter der Spitze aufhalten konnte, begann sie ca. 150m vor dem Ziel einen furiosen Endspurt, der ihr in 2:21,43min den Titel einbrachte.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180714213512_Louisa_NRWtitel.jpeg",
+                "local": "news_assets/8866/zoom_20180714213512_Louisa_NRWtitel.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-90-8810",
+        "id": "8810",
+        "title": "TROTZ SCHAUERWETTER – DM-QUALI FüR 4X100M WJU20",
+        "date": "12. Juli 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180712111839_U10-WEchsel.JPG\"/></div><p class=\"detailViewTop\"><b>Bei den Kreisstaffelmeisterschaften und – bestenkämpfen am gestrigen Mittwoch in Waltrop, dem einzigen Tag seit langem mit teilweise heftigen Schauern, war sozusagen der gesamte Laufbereich des RLC auf den Beinen:..</b></p>",
+        "content_text": "Bei den Kreisstaffelmeisterschaften und – bestenkämpfen am gestrigen Mittwoch in Waltrop, dem einzigen Tag seit langem mit teilweise heftigen Schauern, war sozusagen der gesamte Laufbereich des RLC auf den Beinen:..",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180712111839_U10-WEchsel.JPG",
+                "local": "news_assets/8810/zoom_20180712111839_U10-WEchsel.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-91-8748",
+        "id": "8748",
+        "title": "7. U8-KIDS-CUP = EIN VOLLER ERFOLG",
+        "date": "06. Juli 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180706205503_Mathilda_Srgit_bearb.JPG\"/></div><p class=\"detailViewTop\"><b>Die 7. Wiederholung des U8-Kids-Cup, diesmal für Kinder der Jahrgänge 2011/2012, ein paar sind auch erst 2013 geboren, sprengte alle bisherigen Größenordnungen.<br>96 gemeldete Kids, aufgeteilt in 11 Mannschaften ( 3 x RLC, 3 x LA SV Herten, 2 x TUS 09 Erkenschwick, je 1 x DJK Waltrop, TSV Raesfeld und LC Adler Bottrop ) mit einer großen Anzahl an Eltern, Großeltern und Geschwisterkindern, gab es bisher noch nie.</br></b></p>",
+        "content_text": "Die 7. Wiederholung des U8-Kids-Cup, diesmal für Kinder der Jahrgänge 2011/2012, ein paar sind auch erst 2013 geboren, sprengte alle bisherigen Größenordnungen.\n96 gemeldete Kids, aufgeteilt in 11 Mannschaften ( 3 x RLC, 3 x LA SV Herten, 2 x TUS 09 Erkenschwick, je 1 x DJK Waltrop, TSV Raesfeld und LC Adler Bottrop ) mit einer großen Anzahl an Eltern, Großeltern und Geschwisterkindern, gab es bisher noch nie.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180706205503_Mathilda_Srgit_bearb.JPG",
+                "local": "news_assets/8748/zoom_20180706205503_Mathilda_Srgit_bearb.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-91-8747",
+        "id": "8747",
+        "title": "VIER DM-STARTER BEI DEN SENIOREN = VIER URKUNDEN",
+        "date": "01. Juli 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180701180538_Mark_Peters.JPG\"/></div><p class=\"detailViewTop\"><b>Für die Deutschen Senioren Meisterschaften am 29.06.-01.07.2018 in Mönchengladbach hatten sich drei RLC - Herren angemeldet: Mark Peters (M45), Jürgen Neuhausen (M55) und Detlev Niedanowski (M60) gleich für 2 Disziplinen.</b></p>",
+        "content_text": "Für die Deutschen Senioren Meisterschaften am 29.06.-01.07.2018 in Mönchengladbach hatten sich drei RLC - Herren angemeldet: Mark Peters (M45), Jürgen Neuhausen (M55) und Detlev Niedanowski (M60) gleich für 2 Disziplinen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180701180538_Mark_Peters.JPG",
+                "local": "news_assets/8747/zoom_20180701180538_Mark_Peters.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-91-8746",
+        "id": "8746",
+        "title": "4X400M-DAMEN IN TOPFORM",
+        "date": "01. Juli 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180704100148_Staffel_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Trainer Ludger Zander hatte ein ereignisreiches Wochenende zu verkraften: Westf.U18/U20-Meisterschaften in Rheine zeitgleich mit den Deutschen U23-Meisterschaften in Heilbronn!</b></p>",
+        "content_text": "Trainer Ludger Zander hatte ein ereignisreiches Wochenende zu verkraften: Westf.U18/U20-Meisterschaften in Rheine zeitgleich mit den Deutschen U23-Meisterschaften in Heilbronn!",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180704100148_Staffel_bearb.jpg",
+                "local": "news_assets/8746/zoom_20180704100148_Staffel_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-92-8745",
+        "id": "8745",
+        "title": "KLEINE MANNSCHAFT MIT GROßEN ERFOLGEN",
+        "date": "01. Juli 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180701172847_Anna_Jung.JPG\"/></div><p class=\"detailViewTop\"><b>Bei den Westfälischen U18/U20-Meisterschaften am 30.06./01.07.2018 in Rheine trumpften die wenigen von Trainer Ludger Zander gemeldeten Athletinnen groß auf: <strong>erster Westfalentitel für Anna Jung</strong> (WJU20) über 200m in 26,44sec!</b></p>",
+        "content_text": "Bei den Westfälischen U18/U20-Meisterschaften am 30.06./01.07.2018 in Rheine trumpften die wenigen von Trainer Ludger Zander gemeldeten Athletinnen groß auf:\nerster Westfalentitel für Anna Jung\n(WJU20) über 200m in 26,44sec!",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180701172847_Anna_Jung.JPG",
+                "local": "news_assets/8745/zoom_20180701172847_Anna_Jung.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-92-8744",
+        "id": "8744",
+        "title": "KOMPLETTER MEDAILLENSATZ FüR DR. ANTJE MAAS",
+        "date": "25. Juni 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180625105512_Antje_03bearb.JPG\"/></div><p class=\"detailViewTop\"><b>Zum Abschluß der Medigames auf Malta gelang es Dr. Antje Maas, ihren Medaillensatz zu komplettieren: nach Gold im Hochsprung und Bronze mit Kugel ließ sie Rang 2 über 800m in neuer persönlicher Bestleistung von 3:05,40min folgen.</b></p>",
+        "content_text": "Zum Abschluß der Medigames auf Malta gelang es Dr. Antje Maas, ihren Medaillensatz zu komplettieren: nach Gold im Hochsprung und Bronze mit Kugel ließ sie Rang 2 über 800m in neuer persönlicher Bestleistung von 3:05,40min folgen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180625105512_Antje_03bearb.JPG",
+                "local": "news_assets/8744/zoom_20180625105512_Antje_03bearb.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-92-8743",
+        "id": "8743",
+        "title": "DRITTE DM-NORM FüR LOUISA HASSEL",
+        "date": "25. Juni 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180625104409_Louisa.jpeg\"/></div><p class=\"detailViewTop\"><b>Bei den Westfälischen U16-Meisterschaften am 24.06.2018 in Paderborn erlief sich Louisa Hassel (W15) ihre dritte DM-Norm: diesmal über 800m in 2:18,91min, gleichbedeutend mit Rang 2 (nur 8 Hundertstel hinter der Siegerin Amelie Klug ) und einer Verbesserung der bisherigen Bestleistung um 5 Sekunden.</b></p>",
+        "content_text": "Bei den Westfälischen U16-Meisterschaften am 24.06.2018 in Paderborn erlief sich Louisa Hassel (W15) ihre dritte DM-Norm: diesmal über 800m in 2:18,91min, gleichbedeutend mit Rang 2 (nur 8 Hundertstel hinter der Siegerin Amelie Klug ) und einer Verbesserung der bisherigen Bestleistung um 5 Sekunden.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180625104409_Louisa.jpeg",
+                "local": "news_assets/8743/zoom_20180625104409_Louisa.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-93-8639",
+        "id": "8639",
+        "title": "RLC-NACHWUCHS IN TOLLER FORM",
+        "date": "23. Juni 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180623205004_Alexa_bearb.JPG\"/></div><p class=\"detailViewTop\"><b>Bei kühlem Sonne-Wolken-Mix und böigem Wind, aber ohne Regen, absolvierten die Schüler der AK 8 bis AK 13 am 23.06.2018 ihre diesjährigen Kreiseinzelmeisterschaften in Haltern-Sythen. Für den RLC gingen 33 Kinder an den Start (durch schulische und private Verpflichtungen waren leider mehrere Nachwuchsathleten verhindert) und stellten mit 11 Kreismeistertiteln und diversen „Treppchenplätzen“ unter Beweis, wie gut sie in den vergangenen Monaten trainiert hatten.</b></p>",
+        "content_text": "Bei kühlem Sonne-Wolken-Mix und böigem Wind, aber ohne Regen, absolvierten die Schüler der AK 8 bis AK 13 am 23.06.2018 ihre diesjährigen Kreiseinzelmeisterschaften in Haltern-Sythen. Für den RLC gingen 33 Kinder an den Start (durch schulische und private Verpflichtungen waren leider mehrere Nachwuchsathleten verhindert) und stellten mit 11 Kreismeistertiteln und diversen „Treppchenplätzen“ unter Beweis, wie gut sie in den vergangenen Monaten trainiert hatten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180623205004_Alexa_bearb.JPG",
+                "local": "news_assets/8639/zoom_20180623205004_Alexa_bearb.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-93-8638",
+        "id": "8638",
+        "title": "ERFOLGREICHE DM-PREMIERE IM NORDIC-WALKING",
+        "date": "22. Juni 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180622152508_NordicWalking_02.jpg\"/></div><p class=\"detailViewTop\"><b>Dr. Antje Maas und Marie Cegla erfolgreich bei den 4. Internationalen Deutschen Nordic Walking Mesterschaften Roding / Oberbayern.</b></p>",
+        "content_text": "Dr. Antje Maas und Marie Cegla erfolgreich bei den 4. Internationalen Deutschen Nordic Walking Mesterschaften Roding / Oberbayern.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180622152508_NordicWalking_02.jpg",
+                "local": "news_assets/8638/zoom_20180622152508_NordicWalking_02.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-93-8636",
+        "id": "8636",
+        "title": "WELTMEISTERTITEL FüR DR. ANTJE MAAS",
+        "date": "20. Juni 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180620151620_Antje_02.JPG\"/></div><p class=\"detailViewTop\"><b>Die 39. World Medical &amp; Health Games = Weltmeisterschaften für Ärzte, Zahnärzte, Apotheker und weiter Angehörige von Gesundheitsberufen in diversen Sportarten, u.a. in der Leichtathletik, finden z.Zt. auf Malta statt.</b></p>",
+        "content_text": "Die 39. World Medical & Health Games = Weltmeisterschaften für Ärzte, Zahnärzte, Apotheker und weiter Angehörige von Gesundheitsberufen in diversen Sportarten, u.a. in der Leichtathletik, finden z.Zt. auf Malta statt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180620151620_Antje_02.JPG",
+                "local": "news_assets/8636/zoom_20180620151620_Antje_02.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-94-8634",
+        "id": "8634",
+        "title": "NäCHSTE DM-QUALI FüR LOUISA HASSEL",
+        "date": "16. Juni 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180616182023_Louisa_bearb.JPG\"/></div><p class=\"detailViewTop\"><b>Bei den Offenen Berliner Meisterschaften am 16./17.06.2018 hat Louisa Hassel (W15) bei ihrem Premierenstart über 300mHürden in 47,52sec nicht nur bereits die zweite Quali für die M/W15-DM am 18./19.08.2018 in Bochum-Wattenscheid geknackt, sondern auch gleich die Berliner Meisterschaften gewonnen.</b></p>",
+        "content_text": "Bei den Offenen Berliner Meisterschaften am 16./17.06.2018 hat Louisa Hassel (W15) bei ihrem Premierenstart über 300mHürden in 47,52sec nicht nur bereits die zweite Quali für die M/W15-DM am 18./19.08.2018 in Bochum-Wattenscheid geknackt, sondern auch gleich die Berliner Meisterschaften gewonnen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180616182023_Louisa_bearb.JPG",
+                "local": "news_assets/8634/zoom_20180616182023_Louisa_bearb.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-94-8633",
+        "id": "8633",
+        "title": "DREI WESTFALENTITEL FüR RLC-SENIOREN",
+        "date": "11. Juni 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180611095753_MarkPeters.JPG\"/></div><p class=\"detailViewTop\"><b>Bei den Offenen Westfälischen Seniorenmeisterschaften am 10.06.2018 in Gladbeck haben die RLC-Senioren so richtig zugeschlagen:<br>3 Titel, ein Vizemeister, zwei Dritte Plätze, dazu jede Menge PBs und SBs: ein erfolgreicher Tag für die Athletinnen und Athleten der Trainingsgruppe.</br></b></p>",
+        "content_text": "Bei den Offenen Westfälischen Seniorenmeisterschaften am 10.06.2018 in Gladbeck haben die RLC-Senioren so richtig zugeschlagen:\n3 Titel, ein Vizemeister, zwei Dritte Plätze, dazu jede Menge PBs und SBs: ein erfolgreicher Tag für die Athletinnen und Athleten der Trainingsgruppe.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180611095753_MarkPeters.JPG",
+                "local": "news_assets/8633/zoom_20180611095753_MarkPeters.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-94-8632",
+        "id": "8632",
+        "title": "RLC-MINIS HOLEN MEDAILLEN UND URKUNDEN",
+        "date": "10. Juni 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180610191115_SE_U10_bearb.JPG\"/></div><p class=\"detailViewTop\"><b>Bei der im Rahmen des Allianzcups in Oer-Erkenschwick erstmals durchgeführten KinderLeichtAthletik (KiLa)-Veranstaltung nahmen insgesamt 35 RLC-Kids der Jahrgänge 2012 – 2009 teil, aufgeteilt in 2 U8- und eine U10-Mannschaft.</b></p>",
+        "content_text": "Bei der im Rahmen des Allianzcups in Oer-Erkenschwick erstmals durchgeführten KinderLeichtAthletik (KiLa)-Veranstaltung nahmen insgesamt 35 RLC-Kids der Jahrgänge 2012 – 2009 teil, aufgeteilt in 2 U8- und eine U10-Mannschaft.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180610191115_SE_U10_bearb.JPG",
+                "local": "news_assets/8632/zoom_20180610191115_SE_U10_bearb.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-95-8631",
+        "id": "8631",
+        "title": "RLC-SENIOREN IN TOPFORM",
+        "date": "05. Juni 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180605220546_Karsten_Antje_Detlef_bear.jpg\"/></div><p class=\"detailViewTop\"><b>Die Off. LVN-Seniorenmeisterschaften am 31.05.2018 in Mönchengladbach endeten für alle drei gemeldeten RLCler mit echten Erfolgen.</b></p>",
+        "content_text": "Die Off. LVN-Seniorenmeisterschaften am 31.05.2018 in Mönchengladbach endeten für alle drei gemeldeten RLCler mit echten Erfolgen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180605220546_Karsten_Antje_Detlef_bear.jpg",
+                "local": "news_assets/8631/zoom_20180605220546_Karsten_Antje_Detlef_bear.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-95-8628",
+        "id": "8628",
+        "title": "LOUISA HASSEL ERNEUT WESTFALENMEISTERIN",
+        "date": "04. Juni 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180604101238_Nike_Louisa_Edda.jpeg\"/></div><p class=\"detailViewTop\"><b>Bei den Westfälischen Blockmeisterschaften U16 am 03.06.2018 konnte Louisa Hassel (W15) ihren im Vorjahr errungenen Titel im Block Lauf souverän verteidigen. Sie gewann nach fünf persönlichen Bestleistungen (80mHürden, 100m, Ballwurf, 2000m und Gesamtpunktzahl 2561) mit 118 Punkten Vorsprung vor Louisa Legge (SuS Olfen).</b></p>",
+        "content_text": "Bei den Westfälischen Blockmeisterschaften U16 am 03.06.2018 konnte Louisa Hassel (W15) ihren im Vorjahr errungenen Titel im Block Lauf souverän verteidigen. Sie gewann nach fünf persönlichen Bestleistungen (80mHürden, 100m, Ballwurf, 2000m und Gesamtpunktzahl 2561) mit 118 Punkten Vorsprung vor Louisa Legge (SuS Olfen).",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180604101238_Nike_Louisa_Edda.jpeg",
+                "local": "news_assets/8628/zoom_20180604101238_Nike_Louisa_Edda.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-95-8618",
+        "id": "8618",
+        "title": "41. HOHENHORST-MEETING IST GESCHICHTE",
+        "date": "21. Mai 2018",
+        "content_html": "<p class=\"detailViewTop\"><b>Die 41. Wiederholung des Hohenhorst-Meetings hat bei bestem Leichtathletikwetter, strahlender Sonne und leider teilweise heftigen Windböen einen wohl ferienbedingten Teilnehmerminusrekord eingefahren.</b></p>",
+        "content_text": "Die 41. Wiederholung des Hohenhorst-Meetings hat bei bestem Leichtathletikwetter, strahlender Sonne und leider teilweise heftigen Windböen einen wohl ferienbedingten Teilnehmerminusrekord eingefahren.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-96-8560",
+        "id": "8560",
+        "title": "BEZIRKSMEISTERSCHAFTEN -  NICHT INS WASSER GEFALLEN!",
+        "date": "14. Mai 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180515153310_Edda.JPG\"/></div><p class=\"detailViewTop\"><b>Im Vorfeld sagten die Wetterberichte nicht viel Gutes über den Muttertagssonntag = Bezirksmeisterschaften aus. Regen, Gewitter, Hagel – alles war im Angebot.<br>Zu unser aller Glück blieb es bei einem heftigen Regenschauer gegen 15.00Uhr, was die Veranstaltung zu einer 20minütigen Zwangspause verdonnerte.</br></b></p>",
+        "content_text": "Im Vorfeld sagten die Wetterberichte nicht viel Gutes über den Muttertagssonntag = Bezirksmeisterschaften aus. Regen, Gewitter, Hagel – alles war im Angebot.\nZu unser aller Glück blieb es bei einem heftigen Regenschauer gegen 15.00Uhr, was die Veranstaltung zu einer 20minütigen Zwangspause verdonnerte.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180515153310_Edda.JPG",
+                "local": "news_assets/8560/zoom_20180515153310_Edda.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-96-8559",
+        "id": "8559",
+        "title": "RLC – FARBEN BEI DEN DEUTSCHEN HOCHSCHULMEISTERSCHAFTEN",
+        "date": "14. Mai 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180514152448_Marius_01.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">RLC - Neuzugang Marius Papenfuß, noch Student der TU Dortmund, hat bei den Deutschen Hochschulmeisterschaften am 10.05.2018 in Schwäbisch-Gmünd als Sprinter im RLC-Trikot ein positives Bild abgegeben.</font></b></p>",
+        "content_text": "RLC - Neuzugang Marius Papenfuß, noch Student der TU Dortmund, hat bei den Deutschen Hochschulmeisterschaften am 10.05.2018 in Schwäbisch-Gmünd als Sprinter im RLC-Trikot ein positives Bild abgegeben.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180514152448_Marius_01.jpg",
+                "local": "news_assets/8559/zoom_20180514152448_Marius_01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-97-8506",
+        "id": "8506",
+        "title": "ERNEUT PLATZ 5 FüR 4X400M-STAFFEL",
+        "date": "06. Mai 2018",
+        "content_html": "<p class=\"detailViewTop\"><b>Bei den offenen NRW-Langstaffelmeisterschaften belegte die 4x400m-Frauenstaffel der StgG Recklinghausen-Hamm den 5. Rang in 3:59,64min. </b></p>",
+        "content_text": "Bei den offenen NRW-Langstaffelmeisterschaften belegte die 4x400m-Frauenstaffel der StgG Recklinghausen-Hamm den 5. Rang in 3:59,64min.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-96-8505",
+        "id": "8505",
+        "title": "GELUNGENER SAISONAUFTAKT IM HOHENHORST-STADION - URKUNDENDRUCK AB SOFORT MöGLICH",
+        "date": "06. Mai 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180506162625_U10_bearb.JPG\"/></div><p class=\"detailViewTop\"><b>Eines positves Fazit kann die Crew des Veranstalters nach dem letzten Startschuss des 12. KIA-ENBGERT-Sportfestes ziehen: 1311 Meldungen verteilt auch 472 Athletinnen und Athleten und der Zeitplan konnte trotz der großen Meldefelder weitgehend eingehalten werden.</b></p>",
+        "content_text": "Eines positves Fazit kann die Crew des Veranstalters nach dem letzten Startschuss des 12. KIA-ENBGERT-Sportfestes ziehen: 1311 Meldungen verteilt auch 472 Athletinnen und Athleten und der Zeitplan konnte trotz der großen Meldefelder weitgehend eingehalten werden.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180506162625_U10_bearb.JPG",
+                "local": "news_assets/8505/zoom_20180506162625_U10_bearb.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-97-8504",
+        "id": "8504",
+        "title": "REKORDMELDEZAHLEN BEIM 12. KIA-ENGBERT-SPORTFEST",
+        "date": "03. Mai 2018",
+        "content_html": "<p class=\"detailViewTop\"><b>Nach Meldeschluß können wir für Samstag Rekordmeldezahlen vermelden: Fast 500 Athleten aus 31 Vereinen werden am Samstag knapp 1300 Starts absolvieren.</b></p>",
+        "content_text": "Nach Meldeschluß können wir für Samstag Rekordmeldezahlen vermelden: Fast 500 Athleten aus 31 Vereinen werden am Samstag knapp 1300 Starts absolvieren.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-97-8502",
+        "id": "8502",
+        "title": "4X400M-STAFFEL FüR DM QUALIFIZIERT",
+        "date": "01. Mai 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180501153321_Franzi.JPG\"/></div><p class=\"detailViewTop\"><b>Beim Bottroper Saisonstart am 27.04.2018 gelang es der 4x400m-Staffel WJU20 der Startgemeinschaft Recklinghausen-Hamm (StG Recklinghausen-Hamm), sich für die Deutschen Meisterschaften am 21./22.07.2018 in Nürnberg zu qualifizieren.</b></p>",
+        "content_text": "Beim Bottroper Saisonstart am 27.04.2018 gelang es der 4x400m-Staffel WJU20 der Startgemeinschaft Recklinghausen-Hamm (StG Recklinghausen-Hamm), sich für die Deutschen Meisterschaften am 21./22.07.2018 in Nürnberg zu qualifizieren.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180501153321_Franzi.JPG",
+                "local": "news_assets/8502/zoom_20180501153321_Franzi.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-98-8496",
+        "id": "8496",
+        "title": "6 STARTS – 5 „TREPPCHENPLäTZE“ BEI HITZESCHLACHT",
+        "date": "22. April 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180422161741_Gabi_Ott_21.04.2018_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Dass die NRW-Langstreckenmeisterschaften am 21.April in Menden zu einer Hitzeschlacht ausarten würde, konnte nun wirklich niemand ahnen. Erfolg: kaum ein Athlet/eine Athletin konnte seine/ihre Meldezeit toppen. Umso höher zu bewerten sind die Leistungen der 6 RLCler, die ihre Leistungs- und Leidesfähigkeit in Menden unter Beweise stellten:…</b></p>",
+        "content_text": "Dass die NRW-Langstreckenmeisterschaften am 21.April in Menden zu einer Hitzeschlacht ausarten würde, konnte nun wirklich niemand ahnen. Erfolg: kaum ein Athlet/eine Athletin konnte seine/ihre Meldezeit toppen. Umso höher zu bewerten sind die Leistungen der 6 RLCler, die ihre Leistungs- und Leidesfähigkeit in Menden unter Beweise stellten:…",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180422161741_Gabi_Ott_21.04.2018_bearb.jpg",
+                "local": "news_assets/8496/zoom_20180422161741_Gabi_Ott_21.04.2018_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-98-8494",
+        "id": "8494",
+        "title": "GRIPPEWELLE DEZIMIERT CROSSLäUFER",
+        "date": "18. März 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180318174407_W11-Siegereh.bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Die Kreismeisterschaften im Crosslauf am 18.03.2018 in Herten kamen für viele RLC-Aktive zu einer Unzeit. Nicht nur, das der eisige Ostwind in Verbindung mit Minustemperaturen weder Aktive noch Zuschauer wirklich warm werden ließen,…</b></p>",
+        "content_text": "Die Kreismeisterschaften im Crosslauf am 18.03.2018 in Herten kamen für viele RLC-Aktive zu einer Unzeit. Nicht nur, das der eisige Ostwind in Verbindung mit Minustemperaturen weder Aktive noch Zuschauer wirklich warm werden ließen,…",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180318174407_W11-Siegereh.bearb.jpg",
+                "local": "news_assets/8494/zoom_20180318174407_W11-Siegereh.bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-98-8493",
+        "id": "8493",
+        "title": "LUDGER ZANDER VOM FLVW AUSGEZEICHNET",
+        "date": "15. März 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180315182604_csm_Gruppenfoto_ji_90829111e6.jpg\"/></div><p class=\"detailViewTop\"><b>15 verdiente ehrenamtlich-tätige Leichtathletinnen und -athleten wurden vom Fußball-und-Leichtathletik-Verband-Westfalen (FLVW) erstmals im Sportzentrum Kaiserau durch eine Urkunde ausgezeichnet.</b></p>",
+        "content_text": "15 verdiente ehrenamtlich-tätige Leichtathletinnen und -athleten wurden vom Fußball-und-Leichtathletik-Verband-Westfalen (FLVW) erstmals im Sportzentrum Kaiserau durch eine Urkunde ausgezeichnet.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180315182604_csm_Gruppenfoto_ji_90829111e6.jpg",
+                "local": "news_assets/8493/zoom_20180315182604_csm_Gruppenfoto_ji_90829111e6.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-99-8492",
+        "id": "8492",
+        "title": "BESTLEISTUNGEN PURZELN",
+        "date": "12. März 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180312145516_Louisa.jpeg\"/></div><p class=\"detailViewTop\"><b>Beim letzten Hallensportfest für diese Wintersaison haben einige U14-Jugendliche sowie Louisa Hassel noch einmal aufgetrumpft.<br>Eine Woche nach ihrem Sieg mit Westfalentitel über 800m hat Louisa Hassel einen reinen „Techniktag“ eingelegt und ihre Mehrkampftauglichkeit einmal mehr unter Beweis gestellt.</br></b></p>",
+        "content_text": "Beim letzten Hallensportfest für diese Wintersaison haben einige U14-Jugendliche sowie Louisa Hassel noch einmal aufgetrumpft.\nEine Woche nach ihrem Sieg mit Westfalentitel über 800m hat Louisa Hassel einen reinen „Techniktag“ eingelegt und ihre Mehrkampftauglichkeit einmal mehr unter Beweis gestellt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180312145516_Louisa.jpeg",
+                "local": "news_assets/8492/zoom_20180312145516_Louisa.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-99-8491",
+        "id": "8491",
+        "title": "RLC-NACHWUCHS SCHON GUT DRAUF",
+        "date": "05. März 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180305091836_Siegerehrung_800m.jpg\"/></div><p class=\"detailViewTop\"><b>Beim Hallensportfest am 04.03.2018 Dortmund hatte die U12-Trainingsgruppe ihren ersten Start in die neue Saison, wobei die Mädels und Jungs mit einigen neuen Bestmarken aufwarten konnten.</b></p>",
+        "content_text": "Beim Hallensportfest am 04.03.2018 Dortmund hatte die U12-Trainingsgruppe ihren ersten Start in die neue Saison, wobei die Mädels und Jungs mit einigen neuen Bestmarken aufwarten konnten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180305091836_Siegerehrung_800m.jpg",
+                "local": "news_assets/8491/zoom_20180305091836_Siegerehrung_800m.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-99-8490",
+        "id": "8490",
+        "title": "DR. ANTJE MAAS IN DER ERFOLGSSPUR",
+        "date": "05. März 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180305091652_Antje.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den am 03.03.2018 im Rahmen des 24. Mathaise-Marktlaufes durchgeführten Deutschen Zahnärztemeisterschaften wurde <strong>Dr. Antje Mass</strong> über 10km <strong>Deutsche Vizemeisterin</strong> in 51:58,1min.</b></p>",
+        "content_text": "Bei den am 03.03.2018 im Rahmen des 24. Mathaise-Marktlaufes durchgeführten Deutschen Zahnärztemeisterschaften wurde\nDr. Antje Mass\nüber 10km\nDeutsche Vizemeisterin\nin 51:58,1min.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180305091652_Antje.jpg",
+                "local": "news_assets/8490/zoom_20180305091652_Antje.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-100-8489",
+        "id": "8489",
+        "title": "HALLEN-DM DER SENIOREN",
+        "date": "04. März 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180305081846_Arne-Mark.jpg\"/></div><p class=\"detailViewTop\"><b>Zwei Athleten des RLC hatten sich für die Deutschen Hallenmeisterschaften der Senioren vom 02.03. - 04.03.2018 in Erfurt angemeldet: Mark Peters und Arne Wendler, beide in der M45 unterwegs.</b></p>",
+        "content_text": "Zwei Athleten des RLC hatten sich für die Deutschen Hallenmeisterschaften der Senioren vom 02.03. - 04.03.2018 in Erfurt angemeldet: Mark Peters und Arne Wendler, beide in der M45 unterwegs.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180305081846_Arne-Mark.jpg",
+                "local": "news_assets/8489/zoom_20180305081846_Arne-Mark.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-100-8488",
+        "id": "8488",
+        "title": "U16-TRUPPE IN TOPFORM – LOUISA HASSEL HOLT WESTFALENTITEL",
+        "date": "04. März 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180304200155_4_Mdels_bearb.jpeg\"/></div><p class=\"detailViewTop\"><b>Bei den westfälischen U16-Hallenmeisterschaften am 04.03.2018 in Paderborn stellten die Schützlinge von Sabine Kruse und Uschi Götz-Trogemann ihre Fähigkeiten unter Beweis.<br>Allen voran Louisa Hassel (W15). Sie wurde nach einem beherzten, taktisch richtig gutgelaufenen  800-Rennen Westfalenmeisterin in 2:23,08min mit einer Verbesserung ihrer persönlichen Bestleistung um mehr als drei Sekunden.</br></b></p>",
+        "content_text": "Bei den westfälischen U16-Hallenmeisterschaften am 04.03.2018 in Paderborn stellten die Schützlinge von Sabine Kruse und Uschi Götz-Trogemann ihre Fähigkeiten unter Beweis.\nAllen voran Louisa Hassel (W15). Sie wurde nach einem beherzten, taktisch richtig gutgelaufenen  800-Rennen Westfalenmeisterin in 2:23,08min mit einer Verbesserung ihrer persönlichen Bestleistung um mehr als drei Sekunden.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180304200155_4_Mdels_bearb.jpeg",
+                "local": "news_assets/8488/zoom_20180304200155_4_Mdels_bearb.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-100-8487",
+        "id": "8487",
+        "title": "DR. RüDIGER KRUSE VERTEIDIGT DM-TITEL",
+        "date": "05. Februar 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180205094747_Rdiger_01.JPG\"/></div><p class=\"detailViewTop\"><b>Bei den Deutschen Ärztemeisterschaften über 10km Crosslauf, die im Rahmen des 32. Kraichtaler Crosslaufes am 28.01.2018 durchgeführt wurden, gelang es Dr. Rüdiger Kruse erneut, seinen Deutschen Meister-Titel zu verteidigen.</b></p>",
+        "content_text": "Bei den Deutschen Ärztemeisterschaften über 10km Crosslauf, die im Rahmen des 32. Kraichtaler Crosslaufes am 28.01.2018 durchgeführt wurden, gelang es Dr. Rüdiger Kruse erneut, seinen Deutschen Meister-Titel zu verteidigen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180205094747_Rdiger_01.JPG",
+                "local": "news_assets/8487/zoom_20180205094747_Rdiger_01.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-101-8486",
+        "id": "8486",
+        "title": "STAFFELTEAM LäUFT AUF PLATZ 6",
+        "date": "04. Februar 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180204162701_Siegerehrung_03.jpg\"/></div><p class=\"detailViewTop\"><b>Die junge 4x200m-WJU18-Staffel der Startgemeinschaft Recklinghausen-Hamm zeigte sich bei den NRW-Meisterschaften in der Dortmunder Helmut-Körnig-Halle erneut verbessert und belegte in 1:49,98min einen tollen 6. Rang.</b></p>",
+        "content_text": "Die junge 4x200m-WJU18-Staffel der Startgemeinschaft Recklinghausen-Hamm zeigte sich bei den NRW-Meisterschaften in der Dortmunder Helmut-Körnig-Halle erneut verbessert und belegte in 1:49,98min einen tollen 6. Rang.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180204162701_Siegerehrung_03.jpg",
+                "local": "news_assets/8486/zoom_20180204162701_Siegerehrung_03.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-101-8485",
+        "id": "8485",
+        "title": "ERFOLGREICHER EINSTIEG IN DIE HALLENSAISON",
+        "date": "30. Januar 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180130100155_Leonie_03.JPG\"/></div><p class=\"detailViewTop\"><b>gleich reihenweise neue persönliche Bestleistungen erzielten die U-16-Athleten des Recklinghäuser LC bei einem Wettkampf am Sonntag in Dortmund. Dazu erfüllten gleich sechs Aktive die Qualifikationsnormen für die westfälischen U16-Hallenmeisterschaften, die Anfang März in Paderborn ausgetragen werden.</b></p>",
+        "content_text": "gleich reihenweise neue persönliche Bestleistungen erzielten die U-16-Athleten des Recklinghäuser LC bei einem Wettkampf am Sonntag in Dortmund. Dazu erfüllten gleich sechs Aktive die Qualifikationsnormen für die westfälischen U16-Hallenmeisterschaften, die Anfang März in Paderborn ausgetragen werden.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180130100155_Leonie_03.JPG",
+                "local": "news_assets/8485/zoom_20180130100155_Leonie_03.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-102-8449",
+        "id": "8449",
+        "title": "EINLADUNG ZUR JAHRESHAUPTVERSAMMLUNG 2018",
+        "date": "20. Januar 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180120202906_Vorstand_02bearb.jpg\"/></div><p class=\"detailViewTop\"><b><strong>Für Dienstag, den 28.02.2018, ab 19.30Uhr laden wir herzlich alle Vereinsmitglieder bzw. Erziehungsberechtigte zur diesjährigen Jahreshauptversammlung ins Kolpinghaus ein. </strong></b></p>",
+        "content_text": "Für Dienstag, den 28.02.2018, ab 19.30Uhr laden wir herzlich alle Vereinsmitglieder bzw. Erziehungsberechtigte zur diesjährigen Jahreshauptversammlung ins Kolpinghaus ein.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180120202906_Vorstand_02bearb.jpg",
+                "local": "news_assets/8449/zoom_20180120202906_Vorstand_02bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-101-8448",
+        "id": "8448",
+        "title": "4X200M-STAFFEL IM AUFWIND",
+        "date": "20. Januar 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180121154510_Siegerehrung_02.jpg\"/></div><p class=\"detailViewTop\"><b>Die ganz junge 4x200m-WJU18-Staffel der Startgemeinschaft Recklinghausen-Hamm (StG RE-Hamm) lief bei den Westf. U18-Meisterschaften in Dortmund auf einen tollen 5. Rang: Milagros Sievers (2002), Miriam Doligkeit (2003), Sinja Köhne (2001) und Sharleen Nattkemper (2001)...</b></p>",
+        "content_text": "Die ganz junge 4x200m-WJU18-Staffel der Startgemeinschaft Recklinghausen-Hamm (StG RE-Hamm) lief bei den Westf. U18-Meisterschaften in Dortmund auf einen tollen 5. Rang: Milagros Sievers (2002), Miriam Doligkeit (2003), Sinja Köhne (2001) und Sharleen Nattkemper (2001)...",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180121154510_Siegerehrung_02.jpg",
+                "local": "news_assets/8448/zoom_20180121154510_Siegerehrung_02.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-102-8447",
+        "id": "8447",
+        "title": "ZWEI RLC-ATHLETEN GEEHRT",
+        "date": "17. Januar 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180117105241_Rdiger_Antje_bearb.JPG\"/></div><p class=\"detailViewTop\"><b>Bei der jährlichen Sportlerehrung durch Bürgermeister Christoph Tesche am 15.01.2018 standen diesmal gleich 2 RLC-Mitglieder ganz oben: Dr. Rüdiger Kruse und Dr. Antje Maas.</b></p>",
+        "content_text": "Bei der jährlichen Sportlerehrung durch Bürgermeister Christoph Tesche am 15.01.2018 standen diesmal gleich 2 RLC-Mitglieder ganz oben: Dr. Rüdiger Kruse und Dr. Antje Maas.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180117105241_Rdiger_Antje_bearb.JPG",
+                "local": "news_assets/8447/zoom_20180117105241_Rdiger_Antje_bearb.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-102-8446",
+        "id": "8446",
+        "title": "EIN NRW-TITEL, 4 WEITERE „TREPPCHENPLäTZE“, 5 DM-QUALIS = NRW-SENIORENMEISTERSCHAFTEN",
+        "date": "14. Januar 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180114190700_Detlev.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den NRW-Senioren-Hallenmeisterschaften am 14.01.2018 in Düsseldorf haben die drei gemeldeten RLC-Athleten so richtig zugeschlagen: Detlef Niedanowski, M60, siegte im Weitsprung  und belegte im Hochsprung mit 1,42m Rang zwei. In beiden Disziplinen hatte er bereits die Qualis für die Deutschen Seniorenmeisterschaften in Erfurt.</b></p>",
+        "content_text": "Bei den NRW-Senioren-Hallenmeisterschaften am 14.01.2018 in Düsseldorf haben die drei gemeldeten RLC-Athleten so richtig zugeschlagen: Detlef Niedanowski, M60, siegte im Weitsprung  und belegte im Hochsprung mit 1,42m Rang zwei. In beiden Disziplinen hatte er bereits die Qualis für die Deutschen Seniorenmeisterschaften in Erfurt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180114190700_Detlev.jpg",
+                "local": "news_assets/8446/zoom_20180114190700_Detlev.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-103-8445",
+        "id": "8445",
+        "title": "AUCH RLC-NACHWUCHS GUT IN FORM",
+        "date": "11. Januar 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180111181730_Nils.JPG\"/></div><p class=\"detailViewTop\"><b>am 07.01.2018 starteten in der Dortmunder Körnighalle neben den Senioren auch zwei Nachwuchssportler des RLC erfolgreich in das neue Wettkampfjahr: Nils Hartleif und Philip Peters.</b></p>",
+        "content_text": "am 07.01.2018 starteten in der Dortmunder Körnighalle neben den Senioren auch zwei Nachwuchssportler des RLC erfolgreich in das neue Wettkampfjahr: Nils Hartleif und Philip Peters.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180111181730_Nils.JPG",
+                "local": "news_assets/8445/zoom_20180111181730_Nils.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-103-8444",
+        "id": "8444",
+        "title": "RLC-SENIOREN SCHON GUT IN FORM",
+        "date": "08. Januar 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180108101925_Arne-Bianca.jpg\"/></div><p class=\"detailViewTop\"><b> In Vorbereitung auf die NRW-Seniorenmeisterschaften am kommenden Wochenende in Düsseldorf haben die drei dafür gemeldeten Herren am 07.01. in der Dortmunder Körnighalle getestet – mit richtig ansprechenden Leistungen.</b></p>",
+        "content_text": "In Vorbereitung auf die NRW-Seniorenmeisterschaften am kommenden Wochenende in Düsseldorf haben die drei dafür gemeldeten Herren am 07.01. in der Dortmunder Körnighalle getestet – mit richtig ansprechenden Leistungen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180108101925_Arne-Bianca.jpg",
+                "local": "news_assets/8444/zoom_20180108101925_Arne-Bianca.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-103-8337",
+        "id": "8337",
+        "title": "SILVESTERLAUF UNTER GUTEM (WETTER)STERN",
+        "date": "01. Januar 2018",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20180101174626_Start5km_bearb.JPG\"/></div><p class=\"detailViewTop\"><b>Ohne Schnee und Eis und weitestgehend ohne Regen, aber bei fast frühlingshaften Temperaturen konnte der 31. Recklinghäuser Silvesterlauf zum Jahresende über die Bühne gehen. Über 600 Teilnehmer haben uns erneut ihr Vertrauen geschenkt und für die fünf verschiedenen Disziplinen im Stadion Hohenhorst gemeldet.</b></p>",
+        "content_text": "Ohne Schnee und Eis und weitestgehend ohne Regen, aber bei fast frühlingshaften Temperaturen konnte der 31. Recklinghäuser Silvesterlauf zum Jahresende über die Bühne gehen. Über 600 Teilnehmer haben uns erneut ihr Vertrauen geschenkt und für die fünf verschiedenen Disziplinen im Stadion Hohenhorst gemeldet.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20180101174626_Start5km_bearb.JPG",
+                "local": "news_assets/8337/zoom_20180101174626_Start5km_bearb.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-104-8336",
+        "id": "8336",
+        "title": "RLC ZWEIMAL AUF DEM PODIUM",
+        "date": "17. Dezember 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20171217190325_Pokale_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Im Rahmen der jährlichen Arbeitstagung aller Leichtathletikvereine und -abteilungen des Kreises Recklinghausen am 08.12.2017 in Herten wurden auch die Siegerehrungen des Kinderleichtathletik-Cups und überraschend auch der Jugendliga durchgeführt.</b></p>",
+        "content_text": "Im Rahmen der jährlichen Arbeitstagung aller Leichtathletikvereine und -abteilungen des Kreises Recklinghausen am 08.12.2017 in Herten wurden auch die Siegerehrungen des Kinderleichtathletik-Cups und überraschend auch der Jugendliga durchgeführt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20171217190325_Pokale_bearb.jpg",
+                "local": "news_assets/8336/zoom_20171217190325_Pokale_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-104-8273",
+        "id": "8273",
+        "title": "FüNFFACH-TRIUMPF BEIM HALBMARATHON",
+        "date": "05. Dezember 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20171205155606_Jrgen_Neuhausen.JPG\"/></div><p class=\"detailViewTop\"><b>Bei der letzten Kreismeisterschaft des Jahres 2017 gelang den Langstrecklern des Recklinghäuser LC ein fünffacher Triumpf. Es liefen nacheinander ins Ziel: Bernhard Deiß, Christian Heimbrock, Jürgen Neuhausen, Matthias Amoneit und Benjamin Kiesow, gefolgt von Martin Godde als Achtem,...</b></p>",
+        "content_text": "Bei der letzten Kreismeisterschaft des Jahres 2017 gelang den Langstrecklern des Recklinghäuser LC ein fünffacher Triumpf. Es liefen nacheinander ins Ziel: Bernhard Deiß, Christian Heimbrock, Jürgen Neuhausen, Matthias Amoneit und Benjamin Kiesow, gefolgt von Martin Godde als Achtem,...",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20171205155606_Jrgen_Neuhausen.JPG",
+                "local": "news_assets/8273/zoom_20171205155606_Jrgen_Neuhausen.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-104-8236",
+        "id": "8236",
+        "title": "LUDGER ZANDER GEEHRT!",
+        "date": "27. November 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20171127094421_Ludgers_Ehrung_03.jpg\"/></div><p class=\"detailViewTop\"><b>Für sein bereits Jahrzehnte währendes ehrenamtliches Engagement als Trainer, Sport- und Wettkampfwart des Recklinghäuser LC sowie seine diversen Aktivitäten im FLVW, Kreis Recklinghausen wurde Ludger Zander</b></p>",
+        "content_text": "Für sein bereits Jahrzehnte währendes ehrenamtliches Engagement als Trainer, Sport- und Wettkampfwart des Recklinghäuser LC sowie seine diversen Aktivitäten im FLVW, Kreis Recklinghausen wurde Ludger Zander",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20171127094421_Ludgers_Ehrung_03.jpg",
+                "local": "news_assets/8236/zoom_20171127094421_Ludgers_Ehrung_03.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-105-8235",
+        "id": "8235",
+        "title": "ELTERN-KIND-GRUPPEN WIEDER AUFNAHMEFäHIG!",
+        "date": "26. November 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20171126184746_17Mu-Va-KI_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Durch Umstrukturierung innerhalb der Mutter-Vater-Kind-Gruppe, die Mittwochs in der Hohenzollernhalle stattfindet, sind ab sofort wieder Kinder mit ihren Eltern zum Probetraining herzlich eingeladen.</b></p>",
+        "content_text": "Durch Umstrukturierung innerhalb der Mutter-Vater-Kind-Gruppe, die Mittwochs in der Hohenzollernhalle stattfindet, sind ab sofort wieder Kinder mit ihren Eltern zum Probetraining herzlich eingeladen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20171126184746_17Mu-Va-KI_bearb.jpg",
+                "local": "news_assets/8235/zoom_20171126184746_17Mu-Va-KI_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-105-8234",
+        "id": "8234",
+        "title": "RLC-CROSSLäUFER IN TOPFORM",
+        "date": "25. November 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20171126153729_LouisaLeonie.JPG\"/></div><p class=\"detailViewTop\"><b>Bei den Westf. Meisterschaften im Crosslauf am 25.11.2017 in Herten konnten die gemeldeten 7 Athletinnen und Athleten<br>des RLC so richtig auftrumpfen: zwei Altersklassentitel und 5 weitere Treppchenplätze stellten das tolle Ergebnis bei sehr kühlem, aber trockenem Wetter dar.</br></b></p>",
+        "content_text": "Bei den Westf. Meisterschaften im Crosslauf am 25.11.2017 in Herten konnten die gemeldeten 7 Athletinnen und Athleten\ndes RLC so richtig auftrumpfen: zwei Altersklassentitel und 5 weitere Treppchenplätze stellten das tolle Ergebnis bei sehr kühlem, aber trockenem Wetter dar.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20171126153729_LouisaLeonie.JPG",
+                "local": "news_assets/8234/zoom_20171126153729_LouisaLeonie.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-105-8233",
+        "id": "8233",
+        "title": "SILVESTERLAUF-AUSSCHREIBUNG ONLINE",
+        "date": "13. November 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20171113111633_B35A1406.JPG\"/></div><p class=\"detailViewTop\"><b>Liebe Lauffreunde, bereits einige Male nachgefragt ist die Ausschreibung für den 31. Recklinghäuser Silvesterlauf inzwischen online.</b></p>",
+        "content_text": "Liebe Lauffreunde, bereits einige Male nachgefragt ist die Ausschreibung für den 31. Recklinghäuser Silvesterlauf inzwischen online.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20171113111633_B35A1406.JPG",
+                "local": "news_assets/8233/zoom_20171113111633_B35A1406.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-106-8232",
+        "id": "8232",
+        "title": "RLCLERINNEN IN DLV-BESTENLISTE 2017 VERTRETEN",
+        "date": "13. November 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20171113085422_Louisa_bearb..jpg\"/></div><p class=\"detailViewTop\"><b>In der jetzt veröffentlichten Jahres-Bestenliste der 30 besten deutschen Leichtathletinnen der Altersgruppe W14 ist Louisa Hassel vom Recklinghäuser LC gleich drei Mal platziert.</b></p>",
+        "content_text": "In der jetzt veröffentlichten Jahres-Bestenliste der 30 besten deutschen Leichtathletinnen der Altersgruppe W14 ist Louisa Hassel vom Recklinghäuser LC gleich drei Mal platziert.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20171113085422_Louisa_bearb..jpg",
+                "local": "news_assets/8232/zoom_20171113085422_Louisa_bearb..jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-106-8231",
+        "id": "8231",
+        "title": "CROSSLAUFSAISON GESTARTET",
+        "date": "07. November 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20171107153349_IMG_1450_02.jpg\"/></div><p class=\"detailViewTop\"><b>Mit dem Dorstener Crosslauf am 05.11.2017 starteten einige RLC-Athletinnen und -Athleten aus der neu formierten U16-Trainingsgruppe höchst erfolgreich in die Wintersaison.</b></p>",
+        "content_text": "Mit dem Dorstener Crosslauf am 05.11.2017 starteten einige RLC-Athletinnen und -Athleten aus der neu formierten U16-Trainingsgruppe höchst erfolgreich in die Wintersaison.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20171107153349_IMG_1450_02.jpg",
+                "local": "news_assets/8231/zoom_20171107153349_IMG_1450_02.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-106-8230",
+        "id": "8230",
+        "title": "ERFOLGREICHER MARATHONSTART",
+        "date": "29. Oktober 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20171029155503_IMG-20171028-WA0003.jpg\"/></div><p class=\"detailViewTop\"><b>Am 28.10.2017 haben drei RLC-Langstreckler aus der Trainingsgruppe um Thomas Vogl die Deutschen Marathonmeisterschaften, die im Rahmen des Frankfurt-Marathons durchgeführt wurden, in Angriff genommen.<br>Bernhard Deiß, Mathias Amoneit und Christian Heimbrock hatten sich penibel nach Trainingsplan vorbereitet und konnten die 42,195km erfolgreich beenden.</br></b></p>",
+        "content_text": "Am 28.10.2017 haben drei RLC-Langstreckler aus der Trainingsgruppe um Thomas Vogl die Deutschen Marathonmeisterschaften, die im Rahmen des Frankfurt-Marathons durchgeführt wurden, in Angriff genommen.\nBernhard Deiß, Mathias Amoneit und Christian Heimbrock hatten sich penibel nach Trainingsplan vorbereitet und konnten die 42,195km erfolgreich beenden.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20171029155503_IMG-20171028-WA0003.jpg",
+                "local": "news_assets/8230/zoom_20171029155503_IMG-20171028-WA0003.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-107-8228",
+        "id": "8228",
+        "title": "VORLäUFIGER AUFNAHMESTOPP FüR DIE ALLERJüNGSTEN",
+        "date": "15. Oktober 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20171015160431_17Mu-Va-KI_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Nach intensivem Zulauf von Mütter und Vätern mit ihren Kindern in den letzten Wochen ist die von Bianca Broda und Arne Wendler betreute Gruppe so groß geworden, dass bis auf Weiteres weder Probetraining noch Neuaufnahmen möglich sind.</b></p>",
+        "content_text": "Nach intensivem Zulauf von Mütter und Vätern mit ihren Kindern in den letzten Wochen ist die von Bianca Broda und Arne Wendler betreute Gruppe so groß geworden, dass bis auf Weiteres weder Probetraining noch Neuaufnahmen möglich sind.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20171015160431_17Mu-Va-KI_bearb.jpg",
+                "local": "news_assets/8228/zoom_20171015160431_17Mu-Va-KI_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-107-8227",
+        "id": "8227",
+        "title": "ENDLICH EIN SONNIGER WETTKAMPFTAG",
+        "date": "15. Oktober 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20171015155209_Team-Biathlon_17bearb.JPG\"/></div><p class=\"detailViewTop\"><b>Bei letzten Stadionwettkampf des Jahres 2017 hatten die U8-Kids endlich mal Glück mit dem Wetter: nach zwei verregneten Wettkämpfen konnten Lias, Dan, Paulina, Leana, Nuria, Marit, Leni und Romy mit T-Shirts und guter Laune an den Start gehen.</b></p>",
+        "content_text": "Bei letzten Stadionwettkampf des Jahres 2017 hatten die U8-Kids endlich mal Glück mit dem Wetter: nach zwei verregneten Wettkämpfen konnten Lias, Dan, Paulina, Leana, Nuria, Marit, Leni und Romy mit T-Shirts und guter Laune an den Start gehen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20171015155209_Team-Biathlon_17bearb.JPG",
+                "local": "news_assets/8227/zoom_20171015155209_Team-Biathlon_17bearb.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-107-8224",
+        "id": "8224",
+        "title": "BERNHARD DEIß NICHT ZU SCHLAGEN",
+        "date": "07. Oktober 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20171007151155_Bernhard_Dei.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Straßenläufen der vergangenen Wochen kam u.a. an RLC- Langstreckler Bernhard Deiß niemand vorbei.</b></p>",
+        "content_text": "Bei den Straßenläufen der vergangenen Wochen kam u.a. an RLC- Langstreckler Bernhard Deiß niemand vorbei.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20171007151155_Bernhard_Dei.jpg",
+                "local": "news_assets/8224/zoom_20171007151155_Bernhard_Dei.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-108-8171",
+        "id": "8171",
+        "title": "„ UNSER“ GüNTER WIRD 80!!!",
+        "date": "03. Oktober 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20171003174154_Gnter_2.jpg\"/></div><p class=\"detailViewTop\"><b> <font face=\"Arial, sans-serif\">Am heutigen Tag der Deutschen Einheit feiert der langjährige Geschäftsführer und immer noch rührige und in Sachen Recklinghäuser LC aktive derzeitige 2. Vorsitzender Günter Kefenbaum seinen 80. Geburtstag!</font></b></p>",
+        "content_text": "Am heutigen Tag der Deutschen Einheit feiert der langjährige Geschäftsführer und immer noch rührige und in Sachen Recklinghäuser LC aktive derzeitige 2. Vorsitzender Günter Kefenbaum seinen 80. Geburtstag!",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20171003174154_Gnter_2.jpg",
+                "local": "news_assets/8171/zoom_20171003174154_Gnter_2.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-108-8170",
+        "id": "8170",
+        "title": "RLC-NACHWUCHS TRUMPFT AUF",
+        "date": "03. Oktober 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20171003172959_4x50mMKU12.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den im Hohenhorster Stadion durchgeführten Ersatz-Staffelmeisterschaften am 30.09.2017 hatte der Recklinghäuser LC ausschließlich Kinder- und Jugendstaffeln U8 – U16 gemeldet und trotz diverser kankheits- und terminbedingter Ausfälle gelang es den jungen Athletinnen und Athleten, dem andauernden Regen zu trotzen und gleich 5 Titel sowie 15 „Treppchenplätze“ einzuheimsen.</b></p>",
+        "content_text": "Bei den im Hohenhorster Stadion durchgeführten Ersatz-Staffelmeisterschaften am 30.09.2017 hatte der Recklinghäuser LC ausschließlich Kinder- und Jugendstaffeln U8 – U16 gemeldet und trotz diverser kankheits- und terminbedingter Ausfälle gelang es den jungen Athletinnen und Athleten, dem andauernden Regen zu trotzen und gleich 5 Titel sowie 15 „Treppchenplätze“ einzuheimsen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20171003172959_4x50mMKU12.jpg",
+                "local": "news_assets/8170/zoom_20171003172959_4x50mMKU12.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-108-8114",
+        "id": "8114",
+        "title": "TOP-LEISTUNGEN BEI TOP-WETTER",
+        "date": "17. September 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170917181343_Lotte_stm_02.JPG\"/></div><p class=\"detailViewTop\"><b>Die 34. Recklinghäuser Stadtmeisterschaften vom 16.09.2017 sind Geschichte; bei richtig gutem LA-Wetter konnten sich 300 vorwiegend jugendliche Athleten bei 800 Starts in vielen Disziplinen austoben.</b></p>",
+        "content_text": "Die 34. Recklinghäuser Stadtmeisterschaften vom 16.09.2017 sind Geschichte; bei richtig gutem LA-Wetter konnten sich 300 vorwiegend jugendliche Athleten bei 800 Starts in vielen Disziplinen austoben.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170917181343_Lotte_stm_02.JPG",
+                "local": "news_assets/8114/zoom_20170917181343_Lotte_stm_02.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-109-8113",
+        "id": "8113",
+        "title": "RLC-KIDS GROß IN FORM",
+        "date": "15. September 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170915151114_U8-Cup_Herten_bear.jpg\"/></div><p class=\"detailViewTop\"><b>Ein Teil der U8-Trainingsgruppe unter Leitung von Elena Hütter und Sophia Hesse hat erfolgreich den Kinder-LA-Wettkampf am 09.09.2017 in Herten absolviert.</b></p>",
+        "content_text": "Ein Teil der U8-Trainingsgruppe unter Leitung von Elena Hütter und Sophia Hesse hat erfolgreich den Kinder-LA-Wettkampf am 09.09.2017 in Herten absolviert.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170915151114_U8-Cup_Herten_bear.jpg",
+                "local": "news_assets/8113/zoom_20170915151114_U8-Cup_Herten_bear.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-109-8112",
+        "id": "8112",
+        "title": "ERSTE ERFOLGE NACH DEN SOMMERFERIEN",
+        "date": "11. September 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170911111839_WJU13_bearb..JPG\"/></div><p class=\"detailViewTop\"><b>Einige Athletinnen und Athleten aus den U14- und U16-Trainingsgruppen konnten beim Fritz-Grenz-Sportfest am 10.09.2017 in Gladbeck nachweisen, wie gut sie auch in den Ferien trainiert hatten.</b></p>",
+        "content_text": "Einige Athletinnen und Athleten aus den U14- und U16-Trainingsgruppen konnten beim Fritz-Grenz-Sportfest am 10.09.2017 in Gladbeck nachweisen, wie gut sie auch in den Ferien trainiert hatten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170911111839_WJU13_bearb..JPG",
+                "local": "news_assets/8112/zoom_20170911111839_WJU13_bearb..JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-109-8110",
+        "id": "8110",
+        "title": "FRANZISKA KNACKT DIE 26 SEKUNDEN",
+        "date": "16. Juli 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170716143736_Franziska.JPG\"/></div><p class=\"detailViewTop\"><b>Bei den erstmals durchgeführten NRW-Jugendmeisterschaften für die Jugendklassen U16, U18 und U20 in Wattenscheid hat Franziska Köller (WJU20) über 200m die Schallmauer von 26 Sekunden durchbrochen:</b></p>",
+        "content_text": "Bei den erstmals durchgeführten NRW-Jugendmeisterschaften für die Jugendklassen U16, U18 und U20 in Wattenscheid hat Franziska Köller (WJU20) über 200m die Schallmauer von 26 Sekunden durchbrochen:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170716143736_Franziska.JPG",
+                "local": "news_assets/8110/zoom_20170716143736_Franziska.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-110-8109",
+        "id": "8109",
+        "title": "MILLI SIEVERS – AUF DEM WEG ZUR DM?",
+        "date": "11. Juli 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170711093555_Milli_Klara.JPG\"/></div><p class=\"detailViewTop\"><b>Bei einem Vorbereitungswettkampf zu den NRW-Jugendmeisterschaften am kommenden Wochenende zeigten sich die beiden 15jährigen Milagros Sievers und Klara Engler über 300m richtig gut aufgelegt:</b></p>",
+        "content_text": "Bei einem Vorbereitungswettkampf zu den NRW-Jugendmeisterschaften am kommenden Wochenende zeigten sich die beiden 15jährigen Milagros Sievers und Klara Engler über 300m richtig gut aufgelegt:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170711093555_Milli_Klara.JPG",
+                "local": "news_assets/8109/zoom_20170711093555_Milli_Klara.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-110-8047",
+        "id": "8047",
+        "title": "6. U8-KIDS-CUP = 66 KIDS MIT FEUEREIFER AKTIV",
+        "date": "07. Juli 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170707105813_U6-Kids_01.JPG\"/></div><p class=\"detailViewTop\"><b>Am 05.07.2017 konnten wir bei bestem Leichtathletikwetter den inzwischen 6. U8-Kids-Cup des Recklinghäuser LC durchführen; diesmal mit der Rekordteilnehmerzahl von 9 Mannschaften und 66 Kindern der Jahrgänge 2010 – 2012, die in der überwiegenden Anzahl das erste Mal einen LA-Wettkampf erleben durften.</b></p>",
+        "content_text": "Am 05.07.2017 konnten wir bei bestem Leichtathletikwetter den inzwischen 6. U8-Kids-Cup des Recklinghäuser LC durchführen; diesmal mit der Rekordteilnehmerzahl von 9 Mannschaften und 66 Kindern der Jahrgänge 2010 – 2012, die in der überwiegenden Anzahl das erste Mal einen LA-Wettkampf erleben durften.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170707105813_U6-Kids_01.JPG",
+                "local": "news_assets/8047/zoom_20170707105813_U6-Kids_01.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-111-8046",
+        "id": "8046",
+        "title": "RLC-SPRINTERINNEN WEITER IN GUTER FORM",
+        "date": "02. Juli 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170702201812_Maxi.jpg\"/></div><p class=\"detailViewTop\"><b>Bei Aufbauwettkämpfen in Vorbereitung auf die Deutschen Jugendmeisterschaften konnten einige Athletinnen des RLC wieder für Furore sorgen:<br>in Hamm und Gladbeck warteten vor allem Maxi Jorgs bei ihrem Saisonauftakt nach längerer Verletzungspause über 100m und 200m und Elena Hütter nach über zweijähriger Wettkampfpause mit neuen Bestleistungen auf.</br></b></p>",
+        "content_text": "Bei Aufbauwettkämpfen in Vorbereitung auf die Deutschen Jugendmeisterschaften konnten einige Athletinnen des RLC wieder für Furore sorgen:\nin Hamm und Gladbeck warteten vor allem Maxi Jorgs bei ihrem Saisonauftakt nach längerer Verletzungspause über 100m und 200m und Elena Hütter nach über zweijähriger Wettkampfpause mit neuen Bestleistungen auf.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170702201812_Maxi.jpg",
+                "local": "news_assets/8046/zoom_20170702201812_Maxi.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-110-8045",
+        "id": "8045",
+        "title": "AUSGEZEICHNETE LEISTUNGEN BEI SENIOREN-DM",
+        "date": "02. Juli 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170702194727_Detlev.jpg\"/></div><p class=\"detailViewTop\"><b>Trotz gerade überstandener Zahn-OP mit damit verbundenem Trainingsausfall hat es Detlev Niedanowski (M60) geschafft, sich bei der gerade laufenden Senioren-DM in Zittau gleich zweimal auf dem Siegerpodest zu platzieren.</b></p>",
+        "content_text": "Trotz gerade überstandener Zahn-OP mit damit verbundenem Trainingsausfall hat es Detlev Niedanowski (M60) geschafft, sich bei der gerade laufenden Senioren-DM in Zittau gleich zweimal auf dem Siegerpodest zu platzieren.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170702194727_Detlev.jpg",
+                "local": "news_assets/8045/zoom_20170702194727_Detlev.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-111-8044",
+        "id": "8044",
+        "title": "9. PLATZ BEI DM FüR LOUISA HASSEL",
+        "date": "01. Juli 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170701190822_Louisas_Hassel_02.JPG\"/></div><p class=\"detailViewTop\"><b>Bei den Deutschen U16-Blockwettkampfmeisterschaften am 01.07.2017 in Lage ging Louisa Hassel (W14) das erste Mal in ihrem Leben bei einer Deutschen Meisterschaft an den Start….</b></p>",
+        "content_text": "Bei den Deutschen U16-Blockwettkampfmeisterschaften am 01.07.2017 in Lage ging Louisa Hassel (W14) das erste Mal in ihrem Leben bei einer Deutschen Meisterschaft an den Start….",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170701190822_Louisas_Hassel_02.JPG",
+                "local": "news_assets/8044/zoom_20170701190822_Louisas_Hassel_02.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-111-7944",
+        "id": "7944",
+        "title": "KREISMEHRKAMPF: DIE RLC-ERFOLGSWOCHEN GEHEN WEITER",
+        "date": "25. Juni 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170625194613_Lotte_bearb.JPG\"/></div><p class=\"detailViewTop\"><b>Bei den Kreismehrkampfmeisterschaften am 24./25.06.2017 konnten wir erneut in viele strahlende Gesichter blicken: 14 Titel und 42 „Treppchenplätze“ errangen die Nachwuchsathleten des RLC in den Altersklassen U10 – U16.</b></p>",
+        "content_text": "Bei den Kreismehrkampfmeisterschaften am 24./25.06.2017 konnten wir erneut in viele strahlende Gesichter blicken: 14 Titel und 42 „Treppchenplätze“ errangen die Nachwuchsathleten des RLC in den Altersklassen U10 – U16.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170625194613_Lotte_bearb.JPG",
+                "local": "news_assets/7944/zoom_20170625194613_Lotte_bearb.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-112-7861",
+        "id": "7861",
+        "title": "15 TITEL BEI KREISEINZELMEISTERSCHAFTEN",
+        "date": "17. Juni 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170618103526_Sophia_50m_bearb.JPG\"/></div><p class=\"detailViewTop\"><b>Bei den Kreismeisterschaften U12/U14 und den Kreisbestenkämpfen U10 am 17.06. in Haltern-am-See sorgten die jüngsten RLCler für eine wahre Titelflut. <strong>Lotte Bröker (W10)</strong> und <strong>Edda Koch (W13)</strong> trugen sich gleich dreimal in die Siegerliste ein,….</b></p>",
+        "content_text": "Bei den Kreismeisterschaften U12/U14 und den Kreisbestenkämpfen U10 am 17.06. in Haltern-am-See sorgten die jüngsten RLCler für eine wahre Titelflut.\nLotte Bröker (W10)\nund\nEdda Koch (W13)\ntrugen sich gleich dreimal in die Siegerliste ein,….",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170618103526_Sophia_50m_bearb.JPG",
+                "local": "news_assets/7861/zoom_20170618103526_Sophia_50m_bearb.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-112-7824",
+        "id": "7824",
+        "title": "JAN KIRSTEIN FäHRT ZUR DM",
+        "date": "04. Juni 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170604150906_Jan_02.JPG\"/></div><p class=\"detailViewTop\"><b><strong>Beim Borsigmeeting am gestrigen Pfingstsamstag hat Jan Kirstein die starke Konkurrenz über 200m und das gute LA-Wetter genutzt: er lief mit starken 22,14sec die Quali für die Deutschen-U23-Meisterschaften am 17./18.06.2017 in Leverkusen!!!</strong></b></p>",
+        "content_text": "Beim Borsigmeeting am gestrigen Pfingstsamstag hat Jan Kirstein die starke Konkurrenz über 200m und das gute LA-Wetter genutzt: er lief mit starken 22,14sec die Quali für die Deutschen-U23-Meisterschaften am 17./18.06.2017 in Leverkusen!!!",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170604150906_Jan_02.JPG",
+                "local": "news_assets/7824/zoom_20170604150906_Jan_02.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-112-7823",
+        "id": "7823",
+        "title": "FüNF TITEL BEI SIEBEN STARTS -  DIE SENIOREN STARTEN MAL WIEDER DURCH",
+        "date": "26. Mai 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170526090847_Monika_Sagurna.jpg\"/></div><p class=\"detailViewTop\"><b>Von den Offenen Westfälischen Seniorenmeisterschaften am 25.05.2017 in Paderborn kehrten die fünf gemeldeten RLC-Aktiven mit fünf Titeln und 2 Vizemeistertitel zurück.</b></p>",
+        "content_text": "Von den Offenen Westfälischen Seniorenmeisterschaften am 25.05.2017 in Paderborn kehrten die fünf gemeldeten RLC-Aktiven mit fünf Titeln und 2 Vizemeistertitel zurück.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170526090847_Monika_Sagurna.jpg",
+                "local": "news_assets/7823/zoom_20170526090847_Monika_Sagurna.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-113-7746",
+        "id": "7746",
+        "title": "FüNF BEZIRKSMEISTERTITEL FüR DEN RLC",
+        "date": "22. Mai 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170522084430_Thomas_Truppe_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Bezirksmeisterschaften am 21.05.2017 in Gladbeck standen wieder einmal die Langstreckler von Thomas Vogl ganz oben auf dem Siegerpodest: vier der fünf Titel gingen an die 5000m-Läufer, den fünften heimste Hannah Mrongowius (W15) im Hochsprung ein.</b></p>",
+        "content_text": "Bei den Bezirksmeisterschaften am 21.05.2017 in Gladbeck standen wieder einmal die Langstreckler von Thomas Vogl ganz oben auf dem Siegerpodest: vier der fünf Titel gingen an die 5000m-Läufer, den fünften heimste Hannah Mrongowius (W15) im Hochsprung ein.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170522084430_Thomas_Truppe_bearb.jpg",
+                "local": "news_assets/7746/zoom_20170522084430_Thomas_Truppe_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-113-7745",
+        "id": "7745",
+        "title": "BAHNERöFFNUNG IM HOHENHORST",
+        "date": "21. Mai 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170522082804_U10_01bwarb.JPG\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\"><font size=\"2\">Beim bereits traditionellen <strong>11. KIA-ENGBERT-Sportfest</strong> am 20.05.2017 konnten die Schüler- und unteren Jugendklassen bei bestem Leichtathletikwetter unter Beweis stellen, wie gut sie im Winterhalbjahr trainiert hatten. Richtig gute und viele persönliche Bestleistungen waren die Folge. Aus RLC-Sicht besonders erfolgreich und auf dem Siegerpodest ganz oben waren dabei: </font></font></b></p>",
+        "content_text": "Beim bereits traditionellen\n11. KIA-ENGBERT-Sportfest\nam 20.05.2017 konnten die Schüler- und unteren Jugendklassen bei bestem Leichtathletikwetter unter Beweis stellen, wie gut sie im Winterhalbjahr trainiert hatten. Richtig gute und viele persönliche Bestleistungen waren die Folge. Aus RLC-Sicht besonders erfolgreich und auf dem Siegerpodest ganz oben waren dabei:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170522082804_U10_01bwarb.JPG",
+                "local": "news_assets/7745/zoom_20170522082804_U10_01bwarb.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-114-7744",
+        "id": "7744",
+        "title": "STAFFEL-QUALI UND WEITERE BESTLEISTUNGEN",
+        "date": "14. Mai 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170516113745_Jan.JPG\"/></div><p class=\"detailViewTop\"><b>Dieser Tag war für den RLC ein richtig Erfolgreicher: auch die 4x100m-Staffel der StG Recklinghausen-Hamm erlief sich in 49,10sek die Quali für die U20-DM.Zusätzlich lieferten Jan Kirstein (M) und Hannah Peters (WJU20) über 100m neue persönliche Bestleistungen ab. Jan schaffte 11,13sec, Hannah 12,84sec.</b></p>",
+        "content_text": "Dieser Tag war für den RLC ein richtig Erfolgreicher: auch die 4x100m-Staffel der StG Recklinghausen-Hamm erlief sich in 49,10sek die Quali für die U20-DM.Zusätzlich lieferten Jan Kirstein (M) und Hannah Peters (WJU20) über 100m neue persönliche Bestleistungen ab. Jan schaffte 11,13sec, Hannah 12,84sec.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170516113745_Jan.JPG",
+                "local": "news_assets/7744/zoom_20170516113745_Jan.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-114-7743",
+        "id": "7743",
+        "title": "LOUISA HASSEL HOLT 1. WESTFALENTITEL",
+        "date": "14. Mai 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170514175938_Louisa_bearb..jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\"><font size=\"2\">Bei den Westfälischen Meisterschaften im Blockwettkampf der U16-Athletinnen und -Athleten am 14.05.2017 in Paderborn setzte Mehrkampftalent Louisa Hassel (W14) zum großen Wurf an: sie siegte im Block Lauf (100m, 80mHürden, Weitsprung, Ballwurf und 2000m) mit 2398 Punkten und sicherte sich gleichzeitig die Qualifikation zu den Deutschen Blockmeisterschaften am 01./02.07.2017 in Lage.</font></font></b></p>",
+        "content_text": "Bei den Westfälischen Meisterschaften im Blockwettkampf der U16-Athletinnen und -Athleten am 14.05.2017 in Paderborn setzte Mehrkampftalent Louisa Hassel (W14) zum großen Wurf an: sie siegte im Block Lauf (100m, 80mHürden, Weitsprung, Ballwurf und 2000m) mit 2398 Punkten und sicherte sich gleichzeitig die Qualifikation zu den Deutschen Blockmeisterschaften am 01./02.07.2017 in Lage.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170514175938_Louisa_bearb..jpg",
+                "local": "news_assets/7743/zoom_20170514175938_Louisa_bearb..jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-113-7742",
+        "id": "7742",
+        "title": "ANREISEHINWEIS KIA-ENGBERT-SPORTFEST / ZEITPLANäNDERUNGEN",
+        "date": "19.  -  21. Mai2017",
+        "content_html": "<p class=\"detailViewTop\"><b>Auf Grund von Bauarbeiten ist zur Zeit bei Anreise zum Stadion Hohenhorst über die A43 mit Verzögerungen zu rechnen. Es wird stattdessen empfohlen, das Stadion über die <strong>A2, Abfahrt RE-Süd,</strong> anzufahren. Zusätzlich wurde an diesem Wochenende die A43 zwischen AS Recklinghausen-Hochlar und ABK Recklinghausen komplett gesperrt.</b></p>",
+        "content_text": "Auf Grund von Bauarbeiten ist zur Zeit bei Anreise zum Stadion Hohenhorst über die A43 mit Verzögerungen zu rechnen. Es wird stattdessen empfohlen, das Stadion über die\nA2, Abfahrt RE-Süd,\nanzufahren. Zusätzlich wurde an diesem Wochenende die A43 zwischen AS Recklinghausen-Hochlar und ABK Recklinghausen komplett gesperrt.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-114-7741",
+        "id": "7741",
+        "title": "GUTE ERGEBNISSE BEI DEN NRW-LANGSTAFFELMEISTERSCHAFTEN",
+        "date": "09. Mai 2017",
+        "content_html": "<p class=\"detailViewTop\"><b>Trotz krankheits- und verletzungsbedingter Schwächungen kamen sowohl die 3x800m-Staffel der weiblichen U16 als auch die 4x400m-Staffel der WJU20 mit guten Ergebnissen von den NRW-Langstaffelmeisterschaften am Sonntag, 7. Mai, in Witten zurück.</b></p>",
+        "content_text": "Trotz krankheits- und verletzungsbedingter Schwächungen kamen sowohl die 3x800m-Staffel der weiblichen U16 als auch die 4x400m-Staffel der WJU20 mit guten Ergebnissen von den NRW-Langstaffelmeisterschaften am Sonntag, 7. Mai, in Witten zurück.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-115-7740",
+        "id": "7740",
+        "title": "ERFOLGREICHER SAISONEINSTIEG FüR U16-ATHLETEN",
+        "date": "09. Mai 2017",
+        "content_html": "<p class=\"detailViewTop\"><b>Bei den Offenen Stadtmeisterschaften in Waltrop am 06. Mai gab es für die U16-Athleten aus der Trainingsgruppe von Sabine Kruse und Uschi Götz-Trogemann mehrere persönliche Bestleistungen. Außerdem diente der Wettkampf als Vorbereitung auf die Westfälischen Blockmehrkampfmeisterschaften am kommenden Sonntag in Paderborn.</b></p>",
+        "content_text": "Bei den Offenen Stadtmeisterschaften in Waltrop am 06. Mai gab es für die U16-Athleten aus der Trainingsgruppe von Sabine Kruse und Uschi Götz-Trogemann mehrere persönliche Bestleistungen. Außerdem diente der Wettkampf als Vorbereitung auf die Westfälischen Blockmehrkampfmeisterschaften am kommenden Sonntag in Paderborn.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-115-7739",
+        "id": "7739",
+        "title": "UND NOCH MEHR LANGSTRECKLER-ERFOLGE SAMT VEREINSREKORD",
+        "date": "01. Mai 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170501110548_Bernhard_Dei_bearb..jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Zeitgleich mit den NRW-Meisterschaften fand die Bahneröffnung in Dülmen statt, wo <strong>Julia Kotte</strong> (F) und <strong>Mark Peters</strong> (M45) jeweils über 5000m in ihrer Altersklasse siegreich waren.</font></b></p>",
+        "content_text": "Zeitgleich mit den NRW-Meisterschaften fand die Bahneröffnung in Dülmen statt, wo\nJulia Kotte\n(F) und\nMark Peters\n(M45) jeweils über 5000m in ihrer Altersklasse siegreich waren.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170501110548_Bernhard_Dei_bearb..jpg",
+                "local": "news_assets/7739/zoom_20170501110548_Bernhard_Dei_bearb..jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-115-7738",
+        "id": "7738",
+        "title": "TOLLER AUFTRITT DER RLC-LANGSTRECKLER",
+        "date": "29. April 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170429192329_Louisa_Nils.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Bei den NRW - Langstrecken - Meisterschaften am 29.04.2017 in Neuss hat der RLC-Nachwuchs seine Fähigkeiten eindrucksvoll unter Beweis gestellt: <strong>Louisa Hassel (W14)</strong> und <strong>Nils Guntermann (M15)</strong> fanden sich strahlend auf dem Siegerpodest wieder.</font></b></p>",
+        "content_text": "Bei den NRW - Langstrecken - Meisterschaften am 29.04.2017 in Neuss hat der RLC-Nachwuchs seine Fähigkeiten eindrucksvoll unter Beweis gestellt:\nLouisa Hassel (W14)\nund\nNils Guntermann (M15)\nfanden sich strahlend auf dem Siegerpodest wieder.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170429192329_Louisa_Nils.jpg",
+                "local": "news_assets/7738/zoom_20170429192329_Louisa_Nils.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-116-7737",
+        "id": "7737",
+        "title": "MARK PETERS LäUFT NEUE BESTZEIT",
+        "date": "10. April 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170410161546_Mark_Peters.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Deutschen Meisterschaften im Halbmarathon am 09.04.2017 in Hannover verbesserte Mark Peters seinen bisher bestehenden Rekord um 50 Sekunden auf jetzt 1:19,07h und belegte in der AK M45 einen grandiosen 13. Rang,...</b></p>",
+        "content_text": "Bei den Deutschen Meisterschaften im Halbmarathon am 09.04.2017 in Hannover verbesserte Mark Peters seinen bisher bestehenden Rekord um 50 Sekunden auf jetzt 1:19,07h und belegte in der AK M45 einen grandiosen 13. Rang,...",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170410161546_Mark_Peters.jpg",
+                "local": "news_assets/7737/zoom_20170410161546_Mark_Peters.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-116-7736",
+        "id": "7736",
+        "title": "WIR MACHEN OSTERFERIEN!",
+        "date": "10. April 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170410160415_17Mu-Va-KI_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Mit einem fröhlichen Pausenfoto verabschiedet sich die <strong>Mutter-Vater-Kind-Gruppe</strong> in die Osterferien, um mit frischen Kräften und auch gerne mit neuen Aktiven am 26.04.2017 um 16.00Uhr in der Sporthalle der Hohenzollernhalle wieder \"anzugreifen\".</b></p>",
+        "content_text": "Mit einem fröhlichen Pausenfoto verabschiedet sich die\nMutter-Vater-Kind-Gruppe\nin die Osterferien, um mit frischen Kräften und auch gerne mit neuen Aktiven am 26.04.2017 um 16.00Uhr in der Sporthalle der Hohenzollernhalle wieder \"anzugreifen\".",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170410160415_17Mu-Va-KI_bearb.jpg",
+                "local": "news_assets/7736/zoom_20170410160415_17Mu-Va-KI_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-116-7735",
+        "id": "7735",
+        "title": "MARK PETERS SIEGT IN AOK-WINTERLAUFSERIE",
+        "date": "01. April 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170401190927_Mark_Peters.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Mit einem 3. Platz im abschließendem Halbmarathon der AOK-Winterlaufserie am 25.03.2017 – erneut in persönlicher Bestleistung absolviert -  stellte RLC-Langstreckler Mark Peters in der AK45 den Gesamtsieg der Serie sicher. Nach Siegen über 10000m am 28.01.2017 und 15000m am 04.03.2017 war ihm der Sieg im Winterevent des ASV Duisburg nicht mehr zu nehmen.</font></b></p>",
+        "content_text": "Mit einem 3. Platz im abschließendem Halbmarathon der AOK-Winterlaufserie am 25.03.2017 – erneut in persönlicher Bestleistung absolviert -  stellte RLC-Langstreckler Mark Peters in der AK45 den Gesamtsieg der Serie sicher. Nach Siegen über 10000m am 28.01.2017 und 15000m am 04.03.2017 war ihm der Sieg im Winterevent des ASV Duisburg nicht mehr zu nehmen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170401190927_Mark_Peters.jpg",
+                "local": "news_assets/7735/zoom_20170401190927_Mark_Peters.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-117-7734",
+        "id": "7734",
+        "title": "KREISCROSS = BESTES LEICHTATHLETIKWETTER",
+        "date": "27. März 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170327092827_WKU10_bearb.JPG\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Die diesjährigen Kreismeisterschaften im Crosslauf am 26.03.2017 in Herten standen unter einem guten Wetterstern: 16° Grad, Sonne und eine trockene Strecke = besser ging es nicht.</font></b></p>",
+        "content_text": "Die diesjährigen Kreismeisterschaften im Crosslauf am 26.03.2017 in Herten standen unter einem guten Wetterstern: 16° Grad, Sonne und eine trockene Strecke = besser ging es nicht.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170327092827_WKU10_bearb.JPG",
+                "local": "news_assets/7734/zoom_20170327092827_WKU10_bearb.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-117-7733",
+        "id": "7733",
+        "title": "NEUE KAMPFRICHTER IM RLC",
+        "date": "22. März 2017",
+        "content_html": "<p class=\"detailViewTop\"><b>Der Recklinghäuser LC freut sich, mit Abschluss der theoretischen Grundausbildung für Kampfrichter in der Leichtathletik 6 neue Kampfrichteranwärter begrüßen zu dürfen,...</b></p>",
+        "content_text": "Der Recklinghäuser LC freut sich, mit Abschluss der theoretischen Grundausbildung für Kampfrichter in der Leichtathletik 6 neue Kampfrichteranwärter begrüßen zu dürfen,...",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-117-7732",
+        "id": "7732",
+        "title": "LANGSTRECKLER ERFOLGREICH UNTERWEGS",
+        "date": "19. März 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170319182925_Mark_Peters.jpg\"/></div><p class=\"detailViewTop\"><b>Von den Westf. 10km-Meisterschaften am 18.03.2017 in Münster kehrten die Läufer des RLC mit diversen guten Platzierungen zurück.</b></p>",
+        "content_text": "Von den Westf. 10km-Meisterschaften am 18.03.2017 in Münster kehrten die Läufer des RLC mit diversen guten Platzierungen zurück.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170319182925_Mark_Peters.jpg",
+                "local": "news_assets/7732/zoom_20170319182925_Mark_Peters.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-118-7731",
+        "id": "7731",
+        "title": "DLV-EHRENNADELN VERLIEHEN",
+        "date": "12. März 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170312175430_DLV-Nadel_U16.jpg\"/></div><p class=\"detailViewTop\"><b>Bei strahlendem Sonnenschein am vergangenen Samstag im Stadion Hohenhorst konnte Sportwart Ludger Zander die DLV-Bestennadel in Bronze an die drei U16-Läuferinnen Klara Engler (02), Milagros Sievers (02) und Maxi Jorgs (01) verleihen.</b></p>",
+        "content_text": "Bei strahlendem Sonnenschein am vergangenen Samstag im Stadion Hohenhorst konnte Sportwart Ludger Zander die DLV-Bestennadel in Bronze an die drei U16-Läuferinnen Klara Engler (02), Milagros Sievers (02) und Maxi Jorgs (01) verleihen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170312175430_DLV-Nadel_U16.jpg",
+                "local": "news_assets/7731/zoom_20170312175430_DLV-Nadel_U16.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-118-7729",
+        "id": "7729",
+        "title": "RLC AUF WESTF. U16-MEISTERSCHAFTEN GUT VERTRETEN",
+        "date": "05. März 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170305193946_Louisa_Hassel.JPG\"/></div><p class=\"detailViewTop\"><b>Bei den Westfälischen U16-Meisterschaften am 05.03.2017 in Paderborn konnten sich die 10 qualifizierten RLC-Athletinnen und -Athleten gut verkaufen: gleich 6 mal durften sich die RLClerInnen auf dem Siegertreppchen einfinden: allen voran W14-Athletin Louisa Hassel,</b></p>",
+        "content_text": "Bei den Westfälischen U16-Meisterschaften am 05.03.2017 in Paderborn konnten sich die 10 qualifizierten RLC-Athletinnen und -Athleten gut verkaufen: gleich 6 mal durften sich die RLClerInnen auf dem Siegertreppchen einfinden: allen voran W14-Athletin Louisa Hassel,",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170305193946_Louisa_Hassel.JPG",
+                "local": "news_assets/7729/zoom_20170305193946_Louisa_Hassel.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-118-7728",
+        "id": "7728",
+        "title": "SENIOREN-DM: ERFOLGREICHER JAHRESAUFTAKT",
+        "date": "05. März 2017",
+        "content_html": "<p class=\"detailViewTop\"><b>Bei den Deutschen Seniorenmeisterschaften am 04./05.03.2017 in Erfurt konnte Detlev Niedanowski (M60) bei beiden Starts über 400m und 800m trotz gesundheitlicher Probleme im Vorfeld eine wirklich gute Leistung abliefern.</b></p>",
+        "content_text": "Bei den Deutschen Seniorenmeisterschaften am 04./05.03.2017 in Erfurt konnte Detlev Niedanowski (M60) bei beiden Starts über 400m und 800m trotz gesundheitlicher Probleme im Vorfeld eine wirklich gute Leistung abliefern.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-119-7727",
+        "id": "7727",
+        "title": "4X200M-STAFFEL SAMMELT DM-ERFAHRUNGEN",
+        "date": "28. Februar 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170228150936_U20_Staffel.jpg\"/></div><p class=\"detailViewTop\"><b>Unter dem Aspekt: Erfahrungen beim DM-Start mit Callroom und Nervosität sammeln stand der Start der 4x200m-Staffel der StG Recklinghausen-Hamm mit Franziska Köller, Anna Jung, Julia Tscharnik, Hannah Peter, Jana Röseler und Maxi Jorgs bei den Deutschen U20-Meisterschaften im Glaspalast von Sindelfingen.</b></p>",
+        "content_text": "Unter dem Aspekt: Erfahrungen beim DM-Start mit Callroom und Nervosität sammeln stand der Start der 4x200m-Staffel der StG Recklinghausen-Hamm mit Franziska Köller, Anna Jung, Julia Tscharnik, Hannah Peter, Jana Röseler und Maxi Jorgs bei den Deutschen U20-Meisterschaften im Glaspalast von Sindelfingen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170228150936_U20_Staffel.jpg",
+                "local": "news_assets/7727/zoom_20170228150936_U20_Staffel.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-119-7726",
+        "id": "7726",
+        "title": "RLC-NACHWUCHS SAHNT IN DER HALLE AB",
+        "date": "21. Februar 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170221113427_Alina_02.JPG\"/></div><p class=\"detailViewTop\"><b>Beim Hallensportfest des TV Einigkeit Barop am 19.02.2017 in der Dortmunder Helmut-Körnig-Halle waren Kinder und Jugendliche des RLC im Einsatz und konnten die Ergebnisse ihres zielgerichteten Wintertraining präsentieren.</b></p>",
+        "content_text": "Beim Hallensportfest des TV Einigkeit Barop am 19.02.2017 in der Dortmunder Helmut-Körnig-Halle waren Kinder und Jugendliche des RLC im Einsatz und konnten die Ergebnisse ihres zielgerichteten Wintertraining präsentieren.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170221113427_Alina_02.JPG",
+                "local": "news_assets/7726/zoom_20170221113427_Alina_02.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-119-7724",
+        "id": "7724",
+        "title": "MäDELSSTAFFEL WEITER AUF DEM VORMARSCH",
+        "date": "11. Februar 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170211170652_U20_Staffel.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Westf. U20-Meisterschaften am 11.02.2017 in Dortmund stellten die jungen Damen der <strong>Startgemeinschaft Recklinghausen-Hamm</strong> erneut ihre Leistungsfähigkeit unter Beweis: <strong>Platz 2</strong> und <strong>Platz 8</strong> sind das tolle Ergebnis der Teams, beide mit Saisonbestleistung.</b></p>",
+        "content_text": "Bei den Westf. U20-Meisterschaften am 11.02.2017 in Dortmund stellten die jungen Damen der\nStartgemeinschaft Recklinghausen-Hamm\nerneut ihre Leistungsfähigkeit unter Beweis:\nPlatz 2\nund\nPlatz 8\nsind das tolle Ergebnis der Teams, beide mit Saisonbestleistung.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170211170652_U20_Staffel.jpg",
+                "local": "news_assets/7724/zoom_20170211170652_U20_Staffel.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-120-7723",
+        "id": "7723",
+        "title": "U20-STAFFEL WIRD NRW-VIZEMEISTER!",
+        "date": "05. Februar 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170205173911_U18_Staffel.jpg\"/></div><p class=\"detailViewTop\"><b>Die weibliche 4x200m-U20-Staffel der StG Recklinghausen-Hamm wurde in neuer Saisonbestleistung von 1:44,27min bei den NRW-Meisterschaften in Leverkusen am 05.02.2017 <strong>NRW-Vizemeister!!!</strong></b></p>",
+        "content_text": "Die weibliche 4x200m-U20-Staffel der StG Recklinghausen-Hamm wurde in neuer Saisonbestleistung von 1:44,27min bei den NRW-Meisterschaften in Leverkusen am 05.02.2017\nNRW-Vizemeister!!!",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170205173911_U18_Staffel.jpg",
+                "local": "news_assets/7723/zoom_20170205173911_U18_Staffel.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-120-7722",
+        "id": "7722",
+        "title": "KLASSEAUFTRITT DER U16-JUGEND!",
+        "date": "31. Januar 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170131095649_Meret_Louisa_bear.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Beim Hallenwettkampf am 29.01.2017 in Dortmund zur Vorbereitung der Westf. U16-Meisterschaften am 25.02.2017 in Paderborn schnitten die von Sabine Kruse und Uschi Götz-Trogemann trainierten Jugendlichen der Jahrgänge 2002 und 2003 mal wieder so richtig gut ab.</font></b></p>",
+        "content_text": "Beim Hallenwettkampf am 29.01.2017 in Dortmund zur Vorbereitung der Westf. U16-Meisterschaften am 25.02.2017 in Paderborn schnitten die von Sabine Kruse und Uschi Götz-Trogemann trainierten Jugendlichen der Jahrgänge 2002 und 2003 mal wieder so richtig gut ab.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170131095649_Meret_Louisa_bear.jpg",
+                "local": "news_assets/7722/zoom_20170131095649_Meret_Louisa_bear.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-120-7721",
+        "id": "7721",
+        "title": "DR. RüDIGER KRUSE HOLT ERNEUT DM-TITEL",
+        "date": "31. Januar 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170131092701_Rdiger_01.JPG\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Bei den Deutschen Ärzte- und Apothekermeisterschaften im Crosslauf (29.01.2017) in Kraichtal stellte Dr. Rüdiger Kruse bereits sehr früh im Jahr seinen guten Trainingszustand unter Beweis: er siegte souverän über 10km in 49:07min in der AK M60,... </font></b></p>",
+        "content_text": "Bei den Deutschen Ärzte- und Apothekermeisterschaften im Crosslauf (29.01.2017) in Kraichtal stellte Dr. Rüdiger Kruse bereits sehr früh im Jahr seinen guten Trainingszustand unter Beweis: er siegte souverän über 10km in 49:07min in der AK M60,...",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170131092701_Rdiger_01.JPG",
+                "local": "news_assets/7721/zoom_20170131092701_Rdiger_01.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-121-7720",
+        "id": "7720",
+        "title": "GUTER ERSTER AUFTRITT DER STG RECKLINGHAUSEN-HAMM",
+        "date": "22. Januar 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170124103542_U20_Staffel.jpg\"/></div><p class=\"detailViewTop\"><b>Die neugegründete Startgemeinschaft (StG) Recklinghausen-Hamm, deren Aufgabe es sein wird, mit Staffeln von 4x100m über 4x200m bis hin zu 4x400m der weiblichen U18/20, die Farben des Recklinghäuser LC und der Eintracht Hamm positiv zu vertreten, hatte bei den Westfälischen Meisterschaften am 21.01.2017 ihre ersten erfolgreichen Auftritte.</b></p>",
+        "content_text": "Die neugegründete Startgemeinschaft (StG) Recklinghausen-Hamm, deren Aufgabe es sein wird, mit Staffeln von 4x100m über 4x200m bis hin zu 4x400m der weiblichen U18/20, die Farben des Recklinghäuser LC und der Eintracht Hamm positiv zu vertreten, hatte bei den Westfälischen Meisterschaften am 21.01.2017 ihre ersten erfolgreichen Auftritte.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170124103542_U20_Staffel.jpg",
+                "local": "news_assets/7720/zoom_20170124103542_U20_Staffel.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-121-7713",
+        "id": "7713",
+        "title": "SPORTLEREHRUNG FüR DR. RüDIGER KRUSE",
+        "date": "18. Januar 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170118091622_Ehrung_Rdiger.JPG\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Im Rahmen einer kleinen Feierstunde am 16.01.2017 im Willy-Brandt-Haus wurde Dr. Rüdiger Kruse für seine Klasseleistung mit Vizemeistertitel über 10km in der Altersklasse M55 bei den Deutschen Ärztemeisterschaften in Bad Schmiedeberg geehrt.</font></b></p>",
+        "content_text": "Im Rahmen einer kleinen Feierstunde am 16.01.2017 im Willy-Brandt-Haus wurde Dr. Rüdiger Kruse für seine Klasseleistung mit Vizemeistertitel über 10km in der Altersklasse M55 bei den Deutschen Ärztemeisterschaften in Bad Schmiedeberg geehrt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170118091622_Ehrung_Rdiger.JPG",
+                "local": "news_assets/7713/zoom_20170118091622_Ehrung_Rdiger.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-121-7712",
+        "id": "7712",
+        "title": "MARK PETERS = ERSTER WESTDEUTSCHER MEISTER 2017",
+        "date": "16. Januar 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170116081603_Mark.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Westdeutschen Senioren-Hallenmeisterschaften am 15.01.2017 in Düsseldorf erlief Mark Peters, M45, sich den ersten Meistertitel des Jahres 2017 im RLC-Trikot:</b></p>",
+        "content_text": "Bei den Westdeutschen Senioren-Hallenmeisterschaften am 15.01.2017 in Düsseldorf erlief Mark Peters, M45, sich den ersten Meistertitel des Jahres 2017 im RLC-Trikot:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170116081603_Mark.jpg",
+                "local": "news_assets/7712/zoom_20170116081603_Mark.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-122-7711",
+        "id": "7711",
+        "title": "RLCLER GUT IN DIE NEUE SAISON GESTARTET",
+        "date": "08. Januar 2017",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20170108172531_Hannah_bearb.JPG\"/></div><p class=\"detailViewTop\"><b>Beim Hallensportfest der Teutonia Lanstrop am 08.01.2017 in Dortmund begann für einige Aktive des RLC die kurze Hallensaision 2017 mit richtig guten Leistungen: Maxi Jorgs, Theresa Madry, Hannah Peters, Franziska Köller und Jan Kirstein gingen über die 200m-Strecke an den Start.</b></p>",
+        "content_text": "Beim Hallensportfest der Teutonia Lanstrop am 08.01.2017 in Dortmund begann für einige Aktive des RLC die kurze Hallensaision 2017 mit richtig guten Leistungen: Maxi Jorgs, Theresa Madry, Hannah Peters, Franziska Köller und Jan Kirstein gingen über die 200m-Strecke an den Start.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20170108172531_Hannah_bearb.JPG",
+                "local": "news_assets/7711/zoom_20170108172531_Hannah_bearb.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-123-7636",
+        "id": "7636",
+        "title": "LUDWIG GöTZ ALS KAMPFRICHTER AUSGEZEICHNET",
+        "date": "13. Dezember 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20161213205207_Lutz_bearb.JPG\"/></div><p class=\"detailViewTop\"><b>Im Rahmen der jährlichen Arbeitstagung der Kreisleichtathletikvereine am Freitag, den 09.12.2016 in Herten wurde <strong>Ludwig (Lutz) Götz</strong> mit der Kampfrichterehrenmedaille 2016 in Silber für seine Pionierarbeit und langjährige Tätigkeit als Zielbildauswerter bei einer Unzahl von Wettkämpfen, Westfalen- und Westdeutschen sowie Deutschen Meisterschaften ausgzeichnet.</b></p>",
+        "content_text": "Im Rahmen der jährlichen Arbeitstagung der Kreisleichtathletikvereine am Freitag, den 09.12.2016 in Herten wurde\nLudwig (Lutz) Götz\nmit der Kampfrichterehrenmedaille 2016 in Silber für seine Pionierarbeit und langjährige Tätigkeit als Zielbildauswerter bei einer Unzahl von Wettkämpfen, Westfalen- und Westdeutschen sowie Deutschen Meisterschaften ausgzeichnet.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20161213205207_Lutz_bearb.JPG",
+                "local": "news_assets/7636/zoom_20161213205207_Lutz_bearb.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-123-7575",
+        "id": "7575",
+        "title": "GANZ JUNGE RLCLER BEIM NIKOLAUSSPORTFEST AKTIV",
+        "date": "06. Dezember 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20161206152134_Ron_bearb.JPG\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Beim traditionellen Nikolaussportfest, diesmal am 05.12.2016 in der großen 5Fachhalle abgehalten, waren wie immer die ganz jungen RLCler aktiv: die Jüngsten vom Jahrgang 2011, die Ältesten von 2004, insgesamt hatten sich mehr als 100 Kinder zu diesem alternativen Sportfest mit Disziplinen aus der Kinderleichtathletik angemeldet.</font></b></p>",
+        "content_text": "Beim traditionellen Nikolaussportfest, diesmal am 05.12.2016 in der großen 5Fachhalle abgehalten, waren wie immer die ganz jungen RLCler aktiv: die Jüngsten vom Jahrgang 2011, die Ältesten von 2004, insgesamt hatten sich mehr als 100 Kinder zu diesem alternativen Sportfest mit Disziplinen aus der Kinderleichtathletik angemeldet.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20161206152134_Ron_bearb.JPG",
+                "local": "news_assets/7575/zoom_20161206152134_Ron_bearb.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-123-7574",
+        "id": "7574",
+        "title": "ZUM JAHRESABSCHLUSS: 6 KREISMEISTERTITEL",
+        "date": "28. November 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20161128151336_1.Mannschaft_bearb.JPG\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Bei der das Jahr 2016 abschließenden Kreismeisterschaft im Halbmarathon am 27.11.2016 in Herten-Bertlich bescherten die Langstreckler des RLC uns erneut viele Titel, darunter einen Doppel- und sogar einen Dreifachkreismeister = Jürgen Neuhausen.<br/></font></b></p>",
+        "content_text": "Bei der das Jahr 2016 abschließenden Kreismeisterschaft im Halbmarathon am 27.11.2016 in Herten-Bertlich bescherten die Langstreckler des RLC uns erneut viele Titel, darunter einen Doppel- und sogar einen Dreifachkreismeister = Jürgen Neuhausen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20161128151336_1.Mannschaft_bearb.JPG",
+                "local": "news_assets/7574/zoom_20161128151336_1.Mannschaft_bearb.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-124-7573",
+        "id": "7573",
+        "title": "RLCLER üBERZEUGEN BEI WESTF. CROSSLAUFMEISTERSCHAFTEN",
+        "date": "20. November 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20161120172444_U14_U16.JPG\"/></div><p class=\"detailViewTop\"><b>Bei den Westfälischen Meisterschaften im Crosslauf am 19.11.2016 in Schloss Neuhaus konnten die gemeldeten Nachwuchsläufer ebenso überzeugen wie der einzige Senior, Jürgen Neuhausen.</b></p>",
+        "content_text": "Bei den Westfälischen Meisterschaften im Crosslauf am 19.11.2016 in Schloss Neuhaus konnten die gemeldeten Nachwuchsläufer ebenso überzeugen wie der einzige Senior, Jürgen Neuhausen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20161120172444_U14_U16.JPG",
+                "local": "news_assets/7573/zoom_20161120172444_U14_U16.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-124-7572",
+        "id": "7572",
+        "title": "EINLADUNG ZUR AUßERORDENTLICHEN MITGLIEDERVERSAMMLUNG",
+        "date": "19. November 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20161119172048_RLC-Logo_900x300.png\"/></div><p class=\"detailViewTop\"><b>Liebe Vereinsmitglieder bzw. Erziehungsberechtigte,</b></p>",
+        "content_text": "Liebe Vereinsmitglieder bzw. Erziehungsberechtigte,",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20161119172048_RLC-Logo_900x300.png",
+                "local": "news_assets/7572/zoom_20161119172048_RLC-Logo_900x300.png"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-124-7571",
+        "id": "7571",
+        "title": "PRIMA ERGEBNISSE BEIM ABSCHLIEßENDEN KREISCROSSLAUF",
+        "date": "30. Oktober 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20161030174319_WKU9_bear.JPG\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Bei den Kreismeisterschaften im Crosslauf am 30.10.2016 in Bakumer Tal schlugen die RLCler noch einmal so richtig zu: diverse Kreismeistertitel in allen Altersklassen sowie Mannschaftstitel und viele weitere Urkunden waren der Erfolg.</font></b></p>",
+        "content_text": "Bei den Kreismeisterschaften im Crosslauf am 30.10.2016 in Bakumer Tal schlugen die RLCler noch einmal so richtig zu: diverse Kreismeistertitel in allen Altersklassen sowie Mannschaftstitel und viele weitere Urkunden waren der Erfolg.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20161030174319_WKU9_bear.JPG",
+                "local": "news_assets/7571/zoom_20161030174319_WKU9_bear.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-125-7569",
+        "id": "7569",
+        "title": "ENDLICH WIEDER MUTTER-VATER-KIND-SPORT IM ANGEBOT",
+        "date": "11. Oktober 2016",
+        "content_html": "<p class=\"detailViewTop\"><b>Nach mehr als 2 Jahren dürfen wir uns glücklich schätzen, mit <strong>Bianca Broda</strong>, einer langjährigen erfolgreichen Athletin des Recklinghäuser LC, eine neue Trainerin für den Bereich <strong>Mutter-Vater-Kind-Sport</strong> gefunden zu haben!</b></p>",
+        "content_text": "Nach mehr als 2 Jahren dürfen wir uns glücklich schätzen, mit\nBianca Broda\n, einer langjährigen erfolgreichen Athletin des Recklinghäuser LC, eine neue Trainerin für den Bereich\nMutter-Vater-Kind-Sport\ngefunden zu haben!",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-125-7568",
+        "id": "7568",
+        "title": "NEUE TRAINER IM RLC-TRIKOT",
+        "date": "11. Oktober 2016",
+        "content_html": "<p class=\"detailViewTop\"><b>Nach Absolvierung des Leichtathletik-C-Trainer Lehrgangs kann der Recklinghäuser Leichtathletik Club 1952 e.V. sich über drei ausgebildete neue Trainerkolleginnen freuen: Sophia Hesse, Elena Hütter und Christina Raasch sind bereits in den neuen Trainingsplan Winter 2016/2017 voll eingebunden.</b></p>",
+        "content_text": "Nach Absolvierung des Leichtathletik-C-Trainer Lehrgangs kann der Recklinghäuser Leichtathletik Club 1952 e.V. sich über drei ausgebildete neue Trainerkolleginnen freuen: Sophia Hesse, Elena Hütter und Christina Raasch sind bereits in den neuen Trainingsplan Winter 2016/2017 voll eingebunden.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-125-7546",
+        "id": "7546",
+        "title": "MATTHIAS AMONEIT = ERFOLGREICHER MARATHONI",
+        "date": "29. September 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160929213230_Matthias.jpg\"/></div><p class=\"detailViewTop\"><b>Beim diesjährigen Berlinmarathon gelang dem RLC-Langstreckler Matthias Amoneit das Kunststück, seine eigenen Bestzeit um mehr als 15 min zu verbessern.</b></p>",
+        "content_text": "Beim diesjährigen Berlinmarathon gelang dem RLC-Langstreckler Matthias Amoneit das Kunststück, seine eigenen Bestzeit um mehr als 15 min zu verbessern.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160929213230_Matthias.jpg",
+                "local": "news_assets/7546/zoom_20160929213230_Matthias.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-126-7545",
+        "id": "7545",
+        "title": "NACH DEM NACHWUCHS NUN DIE GROßEN....",
+        "date": "25. September 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160928083928_Mannschaft_bear.jpg\"/></div><p class=\"detailViewTop\"><b>Nachdem der RLC-Nachwuchs an den vergangenen Wochenenden seinen großen Autritt hatte, hielten sich nun am 25.09.2016 die Großen in Bertlich schadlos: </b></p>",
+        "content_text": "Nachdem der RLC-Nachwuchs an den vergangenen Wochenenden seinen großen Autritt hatte, hielten sich nun am 25.09.2016 die Großen in Bertlich schadlos:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160928083928_Mannschaft_bear.jpg",
+                "local": "news_assets/7545/zoom_20160928083928_Mannschaft_bear.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-126-7544",
+        "id": "7544",
+        "title": "BEIDE U14-RLC-TEAMS üBERZEUGEN BEIM FINALE",
+        "date": "24. September 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160929211800_Team_MJU14_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Beim Westfalenfinale der Deutschen-Mannschafts-Meisterschaften am 24.09. in Rheine boten sowohl die weibliche als auch die männliche U14-Mannschaft einen perfekten Abschluss: die Jungs belegten mit einem Punkt Vorsprung Rang 3, die Mädels bestätigten ihren 4. Rang aus dem Vorkampf.</b></p>",
+        "content_text": "Beim Westfalenfinale der Deutschen-Mannschafts-Meisterschaften am 24.09. in Rheine boten sowohl die weibliche als auch die männliche U14-Mannschaft einen perfekten Abschluss: die Jungs belegten mit einem Punkt Vorsprung Rang 3, die Mädels bestätigten ihren 4. Rang aus dem Vorkampf.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160929211800_Team_MJU14_bearb.jpg",
+                "local": "news_assets/7544/zoom_20160929211800_Team_MJU14_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-127-7481",
+        "id": "7481",
+        "title": "SAISONABSCHLUSS IM HOHENHORST",
+        "date": "18. September 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160918183018_RLC_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Zum traditionellen Saisonabschluss des Recklinghäuser LC im Hohenhorst-Stadion am 17.09.2016 stellten vor allem die Nachwuchs-Athleten aus den Kinder- und unteren Jugendklassen ihre Steigerungsfähigkeit noch einmal eindrucksvoll unter Beweis:</b></p>",
+        "content_text": "Zum traditionellen Saisonabschluss des Recklinghäuser LC im Hohenhorst-Stadion am 17.09.2016 stellten vor allem die Nachwuchs-Athleten aus den Kinder- und unteren Jugendklassen ihre Steigerungsfähigkeit noch einmal eindrucksvoll unter Beweis:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160918183018_RLC_bearb.jpg",
+                "local": "news_assets/7481/zoom_20160918183018_RLC_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-126-7480",
+        "id": "7480",
+        "title": "TRIKOTS JETZT BESTELLEN!",
+        "date": "24.  -  30. September2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160916091012_Trikots.jpg\"/></div><p class=\"detailViewTop\"><b>Hallo RLCler, wer dringend ein neues Trikot,Trainingsanzug oder Shirt für die kommende Saison benötigt, sollte <strong>jetzt </strong>bestellen: bis zum 30.09.2016 werden die Bestellscheine entgegengenommen. Zu erhalten bei den Trainern oder <strong>unter:</strong> </b></p>",
+        "content_text": "Hallo RLCler, wer dringend ein neues Trikot,Trainingsanzug oder Shirt für die kommende Saison benötigt, sollte\njetzt\nbestellen: bis zum 30.09.2016 werden die Bestellscheine entgegengenommen. Zu erhalten bei den Trainern oder\nunter:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160916091012_Trikots.jpg",
+                "local": "news_assets/7480/zoom_20160916091012_Trikots.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-127-7477",
+        "id": "7477",
+        "title": "MAXI JORGS = WESTFäLISCHE VIZEMEISTERIN",
+        "date": "10. September 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160912094339_Maxi_Siegerehrung.jpg\"/></div><p class=\"detailViewTop\"><b>Die kleine, aber feine RLC-Delegation bei den Westfälischen U16-Meisterschaften, bestehend aus Maxi Jorgs (W15) und Milagros Sievers (W14), konnte die auf sie gerichteten Erwartungen vollends erfüllen.</b></p>",
+        "content_text": "Die kleine, aber feine RLC-Delegation bei den Westfälischen U16-Meisterschaften, bestehend aus Maxi Jorgs (W15) und Milagros Sievers (W14), konnte die auf sie gerichteten Erwartungen vollends erfüllen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160912094339_Maxi_Siegerehrung.jpg",
+                "local": "news_assets/7477/zoom_20160912094339_Maxi_Siegerehrung.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-127-7476",
+        "id": "7476",
+        "title": "RLC-TEAMS FüRS FINALE QUALIFIZIERT",
+        "date": "05. September 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160905145458_Sarah_Plapbert.jpg\"/></div><p class=\"detailViewTop\"><b>Beim DJMM-Vorkampf (<strong>DeutscheJugendMannschaftsMeisterschaft</strong>) am 03.09.2016 in Hagen gelang es den beiden U14-Teams des Recklinghäuser LC nicht nur, zwei Tagessiege davon zu tragen, sondern sich auch fürs Westfalenfinale am 24./25.09.2016 in Rheine zu qualifizieren.</b></p>",
+        "content_text": "Beim DJMM-Vorkampf (\nDeutscheJugendMannschaftsMeisterschaft\n) am 03.09.2016 in Hagen gelang es den beiden U14-Teams des Recklinghäuser LC nicht nur, zwei Tagessiege davon zu tragen, sondern sich auch fürs Westfalenfinale am 24./25.09.2016 in Rheine zu qualifizieren.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160905145458_Sarah_Plapbert.jpg",
+                "local": "news_assets/7476/zoom_20160905145458_Sarah_Plapbert.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-128-7475",
+        "id": "7475",
+        "title": "SOFIE FALTERMANN SIEGT MIT DER KUGEL",
+        "date": "04. September 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160904174042_Sofie.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den offenen Hertener Stadtmeisterschaften am 03.09.2016 siegt Sofie Faltermann, W15, beim Kugelstossen mit sehr guten 8,46m. So gestaltet sich ihr Wiedereinstieg in die Leichtathletik nach mehr als einem Jahr Pause richtig erfolgreich.</b></p>",
+        "content_text": "Bei den offenen Hertener Stadtmeisterschaften am 03.09.2016 siegt Sofie Faltermann, W15, beim Kugelstossen mit sehr guten 8,46m. So gestaltet sich ihr Wiedereinstieg in die Leichtathletik nach mehr als einem Jahr Pause richtig erfolgreich.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160904174042_Sofie.jpg",
+                "local": "news_assets/7475/zoom_20160904174042_Sofie.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-128-7474",
+        "id": "7474",
+        "title": "DREI RLC-LANGSTRECKLER MIT BESTLEISTUNG",
+        "date": "04. September 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160904173120_Trio_HM.jpg\"/></div><p class=\"detailViewTop\"><b>Der Ausflug zum Sparkassen-Halbmarathon Bochum am 04.09.2016 endet für Bernhard Deiß, Matthias Amoneit und Mark Peters ganz vorne mit persönlicher Bestleistung.</b></p>",
+        "content_text": "Der Ausflug zum Sparkassen-Halbmarathon Bochum am 04.09.2016 endet für Bernhard Deiß, Matthias Amoneit und Mark Peters ganz vorne mit persönlicher Bestleistung.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160904173120_Trio_HM.jpg",
+                "local": "news_assets/7474/zoom_20160904173120_Trio_HM.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-128-7473",
+        "id": "7473",
+        "title": "ZWEI TITEL FüR RLC-LäUFER",
+        "date": "27. August 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160827213901_Start_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den heutigen Kreis-Senioren-Meisterschaften in Herten bei brütender Hitze schlugen wieder einmal die Langstreckler des RLC zu: Mark Peters (M45) und Jürgen Neuhausen (M50) brachten bei 32° Grad im Schatten (gelaufen wurde selbstverständlich in der Sonne) die 3000m-Strecke in toller Manier hinter sich und siegten in ihren Altersklassen.</b></p>",
+        "content_text": "Bei den heutigen Kreis-Senioren-Meisterschaften in Herten bei brütender Hitze schlugen wieder einmal die Langstreckler des RLC zu: Mark Peters (M45) und Jürgen Neuhausen (M50) brachten bei 32° Grad im Schatten (gelaufen wurde selbstverständlich in der Sonne) die 3000m-Strecke in toller Manier hinter sich und siegten in ihren Altersklassen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160827213901_Start_bearb.jpg",
+                "local": "news_assets/7473/zoom_20160827213901_Start_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-129-7472",
+        "id": "7472",
+        "title": "CLAUDIA LOKAR SIEGT BEIM GLADBECKER SPARKASSENLAUF",
+        "date": "21. August 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160821183533_claudia_lokar.jpeg\"/></div><p class=\"detailViewTop\"><b>Auch in den Sommerferien sind RLCler aktiv: diesmal siegte <strong>Claudia Lokar</strong>, W50, am 07.08.2016 beim Gladbecker Sparkassenlauf rund um das Schloss Wittringen über 10km in 38:25,9min.</b></p>",
+        "content_text": "Auch in den Sommerferien sind RLCler aktiv: diesmal siegte\nClaudia Lokar\n, W50, am 07.08.2016 beim Gladbecker Sparkassenlauf rund um das Schloss Wittringen über 10km in 38:25,9min.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160821183533_claudia_lokar.jpeg",
+                "local": "news_assets/7472/zoom_20160821183533_claudia_lokar.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-129-7414",
+        "id": "7414",
+        "title": "FRANZISKA KöLLER MIT NEUER BESTLEISTUNG üBER 400M",
+        "date": "18. Juli 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160718190652_Franziska.jpg\"/></div><p class=\"detailViewTop\"><b>Freud und Leid liegen nirgends so nah beieinander, wie im Sport!  Aufgrund der neuen Bestleistung bei den Westf.U18-Meisterschaften in Güterloh, hatten Trainer Ludger Zander,  Franziska Köller und ihr Vater  beschlossen,am 15.07. in Deilinghofen noch einmal einen Versuch Richtung Quali 400m für DM U18 zu starten.</b></p>",
+        "content_text": "Freud und Leid liegen nirgends so nah beieinander, wie im Sport!  Aufgrund der neuen Bestleistung bei den Westf.U18-Meisterschaften in Güterloh, hatten Trainer Ludger Zander,  Franziska Köller und ihr Vater  beschlossen,am 15.07. in Deilinghofen noch einmal einen Versuch Richtung Quali 400m für DM U18 zu starten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160718190652_Franziska.jpg",
+                "local": "news_assets/7414/zoom_20160718190652_Franziska.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-129-7413",
+        "id": "7413",
+        "title": "FRANZISKA KöLLER WESTF. VIZEMEISTERIN üBER 200M",
+        "date": "10. Juli 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160710164246_Franziska.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Westfälischen U18/U20-Meisterschaften am 09./10.07.2016 bei heißem Leichtathletikwetter in Gütersloh hat die kleine Schar der RLC-Aktiven so richtig zugeschlagen: alle 6 Athletinnen und Athleten fanden sich auf dem Siegertreppchen wieder.</b></p>",
+        "content_text": "Bei den Westfälischen U18/U20-Meisterschaften am 09./10.07.2016 bei heißem Leichtathletikwetter in Gütersloh hat die kleine Schar der RLC-Aktiven so richtig zugeschlagen: alle 6 Athletinnen und Athleten fanden sich auf dem Siegertreppchen wieder.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160710164246_Franziska.jpg",
+                "local": "news_assets/7413/zoom_20160710164246_Franziska.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-130-7412",
+        "id": "7412",
+        "title": "RLC-SENIOREN ZUM SAISONHöHEPUNKT IN TOPFORM",
+        "date": "09. Juli 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160709093837_Thomas.jpg\"/></div><p class=\"detailViewTop\"><b>Pünktlich zu den <strong>Deutschen Meisterschaften der Senioren</strong> in Leinefelde an diesem Wochenende zeigen sich die Athleten von Langlauftrainer Thomas Vogl in bester Form. Am ersten Tag belegte Thomas selber über 5000m AK60 einen hervorragenden 4. Platz,</b></p>",
+        "content_text": "Pünktlich zu den\nDeutschen Meisterschaften der Senioren\nin Leinefelde an diesem Wochenende zeigen sich die Athleten von Langlauftrainer Thomas Vogl in bester Form. Am ersten Tag belegte Thomas selber über 5000m AK60 einen hervorragenden 4. Platz,",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160709093837_Thomas.jpg",
+                "local": "news_assets/7412/zoom_20160709093837_Thomas.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-130-7411",
+        "id": "7411",
+        "title": "RLCLER GANZ OBEN",
+        "date": "07. Juli 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160707095536_U10_01_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den <strong>Kreisstaffelmeisterschaften</strong> am 06.07.2016 in Oer-Erkenschwick waren die RLC-Athletinnen und -Athleten immer wieder ganz oben auf dem Siegertreppchen zu finden. Den Anfang machten die Mini-RLCler, die in der 6x50m-Staffel die Plätze 1 und 3 belegten,</b></p>",
+        "content_text": "Bei den\nKreisstaffelmeisterschaften\nam 06.07.2016 in Oer-Erkenschwick waren die RLC-Athletinnen und -Athleten immer wieder ganz oben auf dem Siegertreppchen zu finden. Den Anfang machten die Mini-RLCler, die in der 6x50m-Staffel die Plätze 1 und 3 belegten,",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160707095536_U10_01_bearb.jpg",
+                "local": "news_assets/7411/zoom_20160707095536_U10_01_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-130-7354",
+        "id": "7354",
+        "title": "5. AUFLAGE VOM U8-KIDS-CUP",
+        "date": "30. Juni 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160701181100_Pendelstaffel.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Bereits der 5. Durchgang des Recklinghäuser U8-Kids-Cup ging am Mittwoch, den 29.06.2016 im Stadion Hohenhorst mit 36 Kindern aus 4 Mannschaften über die Bühne.</font></b></p>",
+        "content_text": "Bereits der 5. Durchgang des Recklinghäuser U8-Kids-Cup ging am Mittwoch, den 29.06.2016 im Stadion Hohenhorst mit 36 Kindern aus 4 Mannschaften über die Bühne.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160701181100_Pendelstaffel.jpg",
+                "local": "news_assets/7354/zoom_20160701181100_Pendelstaffel.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-131-7221",
+        "id": "7221",
+        "title": "KREISMEHRKAMPF, TAG 2",
+        "date": "12. Juni 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160612180305_WKU12_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Am 2. Wettkampftag sorgten vor allem die U12-Kinder und U14-Jugendlichen für eine Flut an Titeln und guten Platzierungen: drei Einzeltitel, sechs Mannschaftstitel, neun 2. Plätze und vierzehn 3. Plätze waren hier neben kaum zu zählenden neuen Bestleistungen die Ausbeute aus RLC-Sicht.</b></p>",
+        "content_text": "Am 2. Wettkampftag sorgten vor allem die U12-Kinder und U14-Jugendlichen für eine Flut an Titeln und guten Platzierungen: drei Einzeltitel, sechs Mannschaftstitel, neun 2. Plätze und vierzehn 3. Plätze waren hier neben kaum zu zählenden neuen Bestleistungen die Ausbeute aus RLC-Sicht.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160612180305_WKU12_bearb.jpg",
+                "local": "news_assets/7221/zoom_20160612180305_WKU12_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-131-7220",
+        "id": "7220",
+        "title": "KREISMEHRKAMPF 2016, TAG 1",
+        "date": "11. Juni 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160611194834_WKU10_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Am Ende des 1. Wettkampftages der Kreismehrkampfmeisterschaften standen für den Recklinghäuser LC: ein Einzeltitel, vier Mannschaftstitel, sieben 2. und drei 3. Plätze als Bilanz auf der Habenseite.</b></p>",
+        "content_text": "Am Ende des 1. Wettkampftages der Kreismehrkampfmeisterschaften standen für den Recklinghäuser LC: ein Einzeltitel, vier Mannschaftstitel, sieben 2. und drei 3. Plätze als Bilanz auf der Habenseite.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160611194834_WKU10_bearb.jpg",
+                "local": "news_assets/7220/zoom_20160611194834_WKU10_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-131-7219",
+        "id": "7219",
+        "title": "WICHTIGE INFORMATION!!!",
+        "date": "10. Juni 2016",
+        "content_html": "<p class=\"detailViewTop\"><b><strong>Wir bitten Besucher der Kreismehrkampfmeisterschaften im Stadion Hohenhorst, bei der Parkplatzsuche Rücksicht auf Einfahrten und private Stellplätze der anliegenden Gewerbetreibenden zu nehmen, da diese bis Samstagnachmittag ihre Geschäfte geöffnet halten.</strong></b></p>",
+        "content_text": "Wir bitten Besucher der Kreismehrkampfmeisterschaften im Stadion Hohenhorst, bei der Parkplatzsuche Rücksicht auf Einfahrten und private Stellplätze der anliegenden Gewerbetreibenden zu nehmen, da diese bis Samstagnachmittag ihre Geschäfte geöffnet halten.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-132-7218",
+        "id": "7218",
+        "title": "UND NOCH MEHR ERFOLGE ZU VERBUCHEN!",
+        "date": "08. Juni 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160608114604_Urkunde_Detlev.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Off. Nordrheinmeisterschaften der Senioren am 04.06.2016 in Essen siegte Detlev Niedanowski, M60, in neuer Bestzeit von 62,25sec über 400m. Eine gute Vorbereitung auf die Deutschen Meisterschaften der Senioren.</b></p>",
+        "content_text": "Bei den Off. Nordrheinmeisterschaften der Senioren am 04.06.2016 in Essen siegte Detlev Niedanowski, M60, in neuer Bestzeit von 62,25sec über 400m. Eine gute Vorbereitung auf die Deutschen Meisterschaften der Senioren.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160608114604_Urkunde_Detlev.jpg",
+                "local": "news_assets/7218/zoom_20160608114604_Urkunde_Detlev.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-132-7176",
+        "id": "7176",
+        "title": "RüDIGER KRUSE DEUTSCHER VIZEMEISTER üBER 10KM",
+        "date": "05. Juni 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160605230503_Rdiger_02bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Bad Schmiedeberg und Umgebung scheinen ein gutes Laufpflaster für den RLC-Langstreckler Dr. Rüdiger Kruse zu sein. Bei den Deutschen Ärztemeisterschaften über 10km Strassenlauf konnte er...</b></p>",
+        "content_text": "Bad Schmiedeberg und Umgebung scheinen ein gutes Laufpflaster für den RLC-Langstreckler Dr. Rüdiger Kruse zu sein. Bei den Deutschen Ärztemeisterschaften über 10km Strassenlauf konnte er...",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160605230503_Rdiger_02bearb.jpg",
+                "local": "news_assets/7176/zoom_20160605230503_Rdiger_02bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-132-7175",
+        "id": "7175",
+        "title": "RLCLER BEI BEZIRKSMEISTERSCHAFTEN IN TOPFORM",
+        "date": "05. Juni 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160605224446_Langstreckler.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Bezirksmeisterschaften am 05.06.2016 in Gladbeck stellten die zahlreichen Aktiven des Recklinghäuser LC, angefangen bei W/M14 bis hin zu den Senioren, ihre Klasseform unter Beweis.</b></p>",
+        "content_text": "Bei den Bezirksmeisterschaften am 05.06.2016 in Gladbeck stellten die zahlreichen Aktiven des Recklinghäuser LC, angefangen bei W/M14 bis hin zu den Senioren, ihre Klasseform unter Beweis.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160605224446_Langstreckler.jpg",
+                "local": "news_assets/7175/zoom_20160605224446_Langstreckler.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-133-7174",
+        "id": "7174",
+        "title": "RLC-NACHWUCHS GROß IN FORM, TEIL 2",
+        "date": "29. Mai 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160529214017_Nils_G.jpg\"/></div><p class=\"detailViewTop\"><b>Auch die U16-Jugendlichen waren an diesem Wochenende bei den Westf. Meisterschaften im Block- und Mehrkampf am Start. Hier mussten die RLCler jeweils in 5 Disziplinen ihr Können unter Beweis stellen und wurden als Mehrkämpfer einzeln und als Mannschaft sozusagen auf Herz und Nieren geprüft.</b></p>",
+        "content_text": "Auch die U16-Jugendlichen waren an diesem Wochenende bei den Westf. Meisterschaften im Block- und Mehrkampf am Start. Hier mussten die RLCler jeweils in 5 Disziplinen ihr Können unter Beweis stellen und wurden als Mehrkämpfer einzeln und als Mannschaft sozusagen auf Herz und Nieren geprüft.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160529214017_Nils_G.jpg",
+                "local": "news_assets/7174/zoom_20160529214017_Nils_G.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-133-7173",
+        "id": "7173",
+        "title": "RLC-NACHWUCHS GROß IN FORM, TEIL 1",
+        "date": "29. Mai 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160529213636_Riko.jpg\"/></div><p class=\"detailViewTop\"><b>Dieses Wochenende gehörte ganz und gar dem RLC-Nachwuchs. Bei den Kreiseinzelmeisterschaften am sonnig-warmen Samstag, den 28.05.2016 in Sythen gingen die allerjüngsten RLCler der Jahrgänge 2008 – 2003 an den Start. Die angetretenen 38 Kinder ergatterten 16 Kreiseinzeltitel, weitere 63 Treppchenplätze und 85 persönliche Bestleistungen, wobei ausnahmslos alle zumindest einmal im Endlauf bzw. Endkampf waren, ein Beleg für die gute Vorbereitung unserer jungen Athleten.</b></p>",
+        "content_text": "Dieses Wochenende gehörte ganz und gar dem RLC-Nachwuchs. Bei den Kreiseinzelmeisterschaften am sonnig-warmen Samstag, den 28.05.2016 in Sythen gingen die allerjüngsten RLCler der Jahrgänge 2008 – 2003 an den Start. Die angetretenen 38 Kinder ergatterten 16 Kreiseinzeltitel, weitere 63 Treppchenplätze und 85 persönliche Bestleistungen, wobei ausnahmslos alle zumindest einmal im Endlauf bzw. Endkampf waren, ein Beleg für die gute Vorbereitung unserer jungen Athleten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160529213636_Riko.jpg",
+                "local": "news_assets/7173/zoom_20160529213636_Riko.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-133-7172",
+        "id": "7172",
+        "title": "PRIMA RLC-WOCHENENDE",
+        "date": "22. Mai 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160522223641_Mark_Peters.jpg\"/></div><p class=\"detailViewTop\"><b>Dieses Wochenende war das mit Abstand erfolgreichste im Jahr 2016. Während sich die RLC-Senioren zu den Offenen Westfälischen Meisterschaften in Gladbeck trafen, kämpften die jugendlichen Mehrkämpfer in Wesel um Leistung und Punkte, stellten die Sprinter in Waltrop ihre weiterhin aufstrebende Form unter Beweis und auch die Marathonis trotzten dem schwülen Wetter beim Vivawestmarathon.</b></p>",
+        "content_text": "Dieses Wochenende war das mit Abstand erfolgreichste im Jahr 2016. Während sich die RLC-Senioren zu den Offenen Westfälischen Meisterschaften in Gladbeck trafen, kämpften die jugendlichen Mehrkämpfer in Wesel um Leistung und Punkte, stellten die Sprinter in Waltrop ihre weiterhin aufstrebende Form unter Beweis und auch die Marathonis trotzten dem schwülen Wetter beim Vivawestmarathon.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160522223641_Mark_Peters.jpg",
+                "local": "news_assets/7172/zoom_20160522223641_Mark_Peters.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-134-7122",
+        "id": "7122",
+        "title": "3 X 800M WJU16 = EINE ERFOLGSGESCHICHTE",
+        "date": "08. Mai 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160508185804_Langstaffel.jpg\"/></div><p class=\"detailViewTop\"><b>Die neuformierte WJU16-Langstaffel über 3 x 800m in der Besetzung Klara Engler, Milagros Sievers und Schlussläufering Maxi Jorgs stellte bei den NRW - Langstaffelmeisterschaften am Muttertag in Hamm mit einem Paukenschlag ihr Laufvermögen unter Beweis: </b></p>",
+        "content_text": "Die neuformierte WJU16-Langstaffel über 3 x 800m in der Besetzung Klara Engler, Milagros Sievers und Schlussläufering Maxi Jorgs stellte bei den NRW - Langstaffelmeisterschaften am Muttertag in Hamm mit einem Paukenschlag ihr Laufvermögen unter Beweis:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160508185804_Langstaffel.jpg",
+                "local": "news_assets/7122/zoom_20160508185804_Langstaffel.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-134-7120",
+        "id": "7120",
+        "title": "ERFOLGREICHER TEST FüR U16-MEHRKäMPFER",
+        "date": "05. Mai 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160505215406_Florian_01_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font size=\"3\"><font face=\"Liberation Sans, sans-serif\">Beim traditionellen Schülermehrkampftag an Christi Himmelfahrt in Coesfeld konnten 6 Athletinnen und Athleten der U16-Trainingsgruppe von Uschi Götz-Trogemann und Sabine Kruse erstmals in diesem Jahr Mehrkampfluft schnuppern.</font></font></b></p>",
+        "content_text": "Beim traditionellen Schülermehrkampftag an Christi Himmelfahrt in Coesfeld konnten 6 Athletinnen und Athleten der U16-Trainingsgruppe von Uschi Götz-Trogemann und Sabine Kruse erstmals in diesem Jahr Mehrkampfluft schnuppern.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160505215406_Florian_01_bearb.jpg",
+                "local": "news_assets/7120/zoom_20160505215406_Florian_01_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-135-7031",
+        "id": "7031",
+        "title": "RLC-LANGSTRECKLER WIEDER ERFOLGREICH UNTERWEGS",
+        "date": "27. April 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160427171152_Julian.jpg\"/></div><p class=\"detailViewTop\"><b>Beim 33. Volks-und Strassenlauf rund um den Allwetterzoo Münster am 17.04.2016 bereiteten sich drei RLCler auf die noch anstehenden Wettkämpfe vor. Monika Sagurna, Bejamin Kiesow und Julian Neuhausen kehrten mit ersten Plätzen und guten Zeiten nach Recklinghausen zurück.</b></p>",
+        "content_text": "Beim 33. Volks-und Strassenlauf rund um den Allwetterzoo Münster am 17.04.2016 bereiteten sich drei RLCler auf die noch anstehenden Wettkämpfe vor. Monika Sagurna, Bejamin Kiesow und Julian Neuhausen kehrten mit ersten Plätzen und guten Zeiten nach Recklinghausen zurück.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160427171152_Julian.jpg",
+                "local": "news_assets/7031/zoom_20160427171152_Julian.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-135-7030",
+        "id": "7030",
+        "title": "USCHI GöTZ-TROGEMANN GEEHRT",
+        "date": "27. April 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160427160344_Uschi.jpg\"/></div><p class=\"detailViewTop\"><b>Beim Kreistag des FLVW-Kreises Recklinghausen am 18.04.2016 im Bürgerhaus Süd wurde <strong>Uschi Götz-Trogemann</strong>, seit vielen Jahren Mitglied und Trainerin des Recklinghäuser LC, für ihre 20jährige vielseitige ehrenamtliche Tätigkeit für den Fussball- und Leichtathletik Verband Westfalen mit der Verdienstnadel des FLVW in Silber ausgestattet.</b></p>",
+        "content_text": "Beim Kreistag des FLVW-Kreises Recklinghausen am 18.04.2016 im Bürgerhaus Süd wurde\nUschi Götz-Trogemann\n, seit vielen Jahren Mitglied und Trainerin des Recklinghäuser LC, für ihre 20jährige vielseitige ehrenamtliche Tätigkeit für den Fussball- und Leichtathletik Verband Westfalen mit der Verdienstnadel des FLVW in Silber ausgestattet.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160427160344_Uschi.jpg",
+                "local": "news_assets/7030/zoom_20160427160344_Uschi.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-135-7029",
+        "id": "7029",
+        "title": "RLC-LANGSTRECKLER SCHWIMMEN AUF ERFOLGSWELLE",
+        "date": "23. April 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160423210447_Urkunde_Mark_Jrgen.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Und weiter geht es mit den Top-Ergebnissen der Trainingsgruppe um Thomas Vogl: bei den NRW-Langstreckenmeisterschaften am heutigen Samstag in Arnsberg siegten <strong>Thomas Vogl (M60)</strong> und <strong>Mark Peters (M45)</strong> in ihren Altersklassen über 10000m. </font></b></p>",
+        "content_text": "Und weiter geht es mit den Top-Ergebnissen der Trainingsgruppe um Thomas Vogl: bei den NRW-Langstreckenmeisterschaften am heutigen Samstag in Arnsberg siegten\nThomas Vogl (M60)\nund\nMark Peters (M45)\nin ihren Altersklassen über 10000m.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160423210447_Urkunde_Mark_Jrgen.jpg",
+                "local": "news_assets/7029/zoom_20160423210447_Urkunde_Mark_Jrgen.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-136-7028",
+        "id": "7028",
+        "title": "GRUPPEN AUSGEBUCHT",
+        "date": "16. April 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160416151242_Bananenkartonstaffel_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Wegen zu starkem Andrang sind die U8-Gruppe (Jhg. 2009) und die  U10-Gruppe (Jhg. 2007/2008 <strong>montags</strong>) derzeit überfüllt.</b></p>",
+        "content_text": "Wegen zu starkem Andrang sind die U8-Gruppe (Jhg. 2009) und die  U10-Gruppe (Jhg. 2007/2008\nmontags\n) derzeit überfüllt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160416151242_Bananenkartonstaffel_bearb.jpg",
+                "local": "news_assets/7028/zoom_20160416151242_Bananenkartonstaffel_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-136-7027",
+        "id": "7027",
+        "title": "MARK PETERS SIEGT BEIM CITYLAUF",
+        "date": "11. April 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160411154952_Mark_Peters.jpg\"/></div><p class=\"detailViewTop\"><b>Langstreckler Mark Peters war am 10.04.2016 beim Dinslakener City-Lauf über 10km am Start und das höchst erfolgreich. Er siegte in neuer persönlicher Bestleistung für die AK45 von 35:49min, gleichbedeutend mit der Qualifikation zu den Deutschen Langstreckenmeisterschaften am 07.05.2016 in Celle.</b></p>",
+        "content_text": "Langstreckler Mark Peters war am 10.04.2016 beim Dinslakener City-Lauf über 10km am Start und das höchst erfolgreich. Er siegte in neuer persönlicher Bestleistung für die AK45 von 35:49min, gleichbedeutend mit der Qualifikation zu den Deutschen Langstreckenmeisterschaften am 07.05.2016 in Celle.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160411154952_Mark_Peters.jpg",
+                "local": "news_assets/7027/zoom_20160411154952_Mark_Peters.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-136-7024",
+        "id": "7024",
+        "title": "EHRUNG LANGJäHRIGER MITGLIEDER",
+        "date": "16. März 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160316153605_Ehrung_2016_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Im Rahmen der Jahreshauptversammlung am 15.03.2016 wurden traditionell langjährige Mitglieder für ihre Vereinstreue geehrte.</b></p>",
+        "content_text": "Im Rahmen der Jahreshauptversammlung am 15.03.2016 wurden traditionell langjährige Mitglieder für ihre Vereinstreue geehrte.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160316153605_Ehrung_2016_bearb.jpg",
+                "local": "news_assets/7024/zoom_20160316153605_Ehrung_2016_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-137-7023",
+        "id": "7023",
+        "title": "NEUER = ALTER VORSTAND GEWäHLT",
+        "date": "16. März 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160316152635_Vorstand_02bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Im Rahmen der Jahreshauptversammlung des Recklinghäuser LC am 15.03.2016 im Kolpinghaus wurde neben einer Berichterstattung über die letzten beiden Jahren und einer Mitgliederehrung der neue = alte Vorstand gewählt, s. Foto.</b></p>",
+        "content_text": "Im Rahmen der Jahreshauptversammlung des Recklinghäuser LC am 15.03.2016 im Kolpinghaus wurde neben einer Berichterstattung über die letzten beiden Jahren und einer Mitgliederehrung der neue = alte Vorstand gewählt, s. Foto.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160316152635_Vorstand_02bearb.jpg",
+                "local": "news_assets/7023/zoom_20160316152635_Vorstand_02bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-137-6949",
+        "id": "6949",
+        "title": "RLC-NACHWUCHS EBENFALLS ERFOLGREICH!",
+        "date": "07. März 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160308103902_U12-Mannschaft_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>An diesem ereignisreichen Wochenende mit Cross-DM und Westf. U16-Meisterschaft waren auch noch die jüngsten RLCler in Aktion: die Mädels und Jungen der Jahrgänge 2006 – 2003 gingen beim Dortmunder Hallensportfest an den Start und stellten dort ihre Fähigkeiten unter Beweis.</b></p>",
+        "content_text": "An diesem ereignisreichen Wochenende mit Cross-DM und Westf. U16-Meisterschaft waren auch noch die jüngsten RLCler in Aktion: die Mädels und Jungen der Jahrgänge 2006 – 2003 gingen beim Dortmunder Hallensportfest an den Start und stellten dort ihre Fähigkeiten unter Beweis.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160308103902_U12-Mannschaft_bearb.jpg",
+                "local": "news_assets/6949/zoom_20160308103902_U12-Mannschaft_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-137-6948",
+        "id": "6948",
+        "title": "ERSTER WESTFALENTITEL FüR FLORIAN KORDMANN!",
+        "date": "06. März 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160306221845_Florian_01.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Westfälischen U16-Meisterschaften am 06.03.2016 in Paderborn wurde Florian Kordmann (M14) bei seinen ersten „großen“ Meisterschaften Westfalenmeister über 60m. Bereits im Vorfeld Schnellster der Meldeliste, bestätigte er diese Leistung als Vorlaufschnellster in 7,69sec. Nach Traumstart im Finale siegte er souverän in neuer persönlicher Bestleistung von 7,63sec,….</b></p>",
+        "content_text": "Bei den Westfälischen U16-Meisterschaften am 06.03.2016 in Paderborn wurde Florian Kordmann (M14) bei seinen ersten „großen“ Meisterschaften Westfalenmeister über 60m. Bereits im Vorfeld Schnellster der Meldeliste, bestätigte er diese Leistung als Vorlaufschnellster in 7,69sec. Nach Traumstart im Finale siegte er souverän in neuer persönlicher Bestleistung von 7,63sec,….",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160306221845_Florian_01.jpg",
+                "local": "news_assets/6948/zoom_20160306221845_Florian_01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-138-6947",
+        "id": "6947",
+        "title": "THOMAS VOGL IN TOPFORM",
+        "date": "05. März 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160308101754_Thomas_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Deutschen Meisterschaften im Crosslauf (05.03.2016, Herten) bewiesen die Langstreckler des RLC erneut ihre gute Form, allen voran <strong>Trainer Thomas Vogl (AK 60)</strong>. Er belegte über 5900m in seiner Altersklasse unter 37 Startern einen hervorragenden 4. Platz in 24:33min, das Ganze bei nasskaltem Wetter, extrem tiefen Geläuf und am Ende mit nur einem Laufschuh, der zweite steckte im Schlammloch.</b></p>",
+        "content_text": "Bei den Deutschen Meisterschaften im Crosslauf (05.03.2016, Herten) bewiesen die Langstreckler des RLC erneut ihre gute Form, allen voran\nTrainer Thomas Vogl (AK 60)\n. Er belegte über 5900m in seiner Altersklasse unter 37 Startern einen hervorragenden 4. Platz in 24:33min, das Ganze bei nasskaltem Wetter, extrem tiefen Geläuf und am Ende mit nur einem Laufschuh, der zweite steckte im Schlammloch.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160308101754_Thomas_bearb.jpg",
+                "local": "news_assets/6947/zoom_20160308101754_Thomas_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-138-6938",
+        "id": "6938",
+        "title": "RLC-LANGSTRECKLER IN MANNSCHAFTSSTäRKE UNTERWEGS",
+        "date": "14. Februar 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160214231043_Bernhard_Dei_03.jpg\"/></div><p class=\"detailViewTop\"><b>F<font face=\"Arial, sans-serif\">ür die 98. Bertlicher Strassenläufe am 14.02.2016 hatte Trainer Thomas Vogl fast seine gesamte Trainingsgruppe als Test für die Cross-DM gemeldet und alle bewiesen zu Beginn des Jahres gleich mal, wie gut sie bereits in Form sind. </font></b></p>",
+        "content_text": "F\nür die 98. Bertlicher Strassenläufe am 14.02.2016 hatte Trainer Thomas Vogl fast seine gesamte Trainingsgruppe als Test für die Cross-DM gemeldet und alle bewiesen zu Beginn des Jahres gleich mal, wie gut sie bereits in Form sind.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160214231043_Bernhard_Dei_03.jpg",
+                "local": "news_assets/6938/zoom_20160214231043_Bernhard_Dei_03.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-138-6937",
+        "id": "6937",
+        "title": "U14-JUGEND üBERZEUGT IN DER HALLE",
+        "date": "14. Februar 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160214225739_Meret_Louisa.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Insgesamt 20 Jugendliche der Jahrgänge 2003/2004 meldete Trainer Sebastian Stephani für ein Hallensportfest am 14.02.2016 in Dortmund, um einen kleinen Hinweis auf Trainingsfortschritte zu erhalten. Besonders die HochspringerInnen zeigten sich dabei erneut in Bestform: Edda Koch (W12), Louisa Hassel (W13) und Riko Hachmann (M13) siegten jeweils in ihrer Altersklasse souverän.</font></b></p>",
+        "content_text": "Insgesamt 20 Jugendliche der Jahrgänge 2003/2004 meldete Trainer Sebastian Stephani für ein Hallensportfest am 14.02.2016 in Dortmund, um einen kleinen Hinweis auf Trainingsfortschritte zu erhalten. Besonders die HochspringerInnen zeigten sich dabei erneut in Bestform: Edda Koch (W12), Louisa Hassel (W13) und Riko Hachmann (M13) siegten jeweils in ihrer Altersklasse souverän.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160214225739_Meret_Louisa.jpg",
+                "local": "news_assets/6937/zoom_20160214225739_Meret_Louisa.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-139-6936",
+        "id": "6936",
+        "title": "SENIORENGRUPPE SUCHT NEUE MITSTREITER",
+        "date": "09. Februar 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160209154020_Alte_Herren_bearb_02.jpg\"/></div><p class=\"detailViewTop\"><b>D<font face=\"Arial, sans-serif\">ie Seniorengruppe „Ältere Herren“, seit neuestem unter der Leitung von Ulrich Moschner, der die Nachfolge von Herbert Mank angetreten hat, würde sich sehr über neue Mitsportler Ü65 freuen.</font></b></p>",
+        "content_text": "D\nie Seniorengruppe „Ältere Herren“, seit neuestem unter der Leitung von Ulrich Moschner, der die Nachfolge von Herbert Mank angetreten hat, würde sich sehr über neue Mitsportler Ü65 freuen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160209154020_Alte_Herren_bearb_02.jpg",
+                "local": "news_assets/6936/zoom_20160209154020_Alte_Herren_bearb_02.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-139-6935",
+        "id": "6935",
+        "title": "RLC-JUGEND TRUMPFT IN DER HALLE AUF",
+        "date": "01. Februar 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160201150614_Florian.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Bei Hallensportfest des LC Rapid Dortmund in der Helmut-Körnig-Halle am gestrigen Sonntag trumpften einige Aktive der neugebildeten U16/U18-Trainingsgruppe richtig groß auf: allen voran Florian Kordmann, M14, bewies im Weitsprung und über die 60m-Strecke sein Talent….</font></b></p>",
+        "content_text": "Bei Hallensportfest des LC Rapid Dortmund in der Helmut-Körnig-Halle am gestrigen Sonntag trumpften einige Aktive der neugebildeten U16/U18-Trainingsgruppe richtig groß auf: allen voran Florian Kordmann, M14, bewies im Weitsprung und über die 60m-Strecke sein Talent….",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160201150614_Florian.jpg",
+                "local": "news_assets/6935/zoom_20160201150614_Florian.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-139-6934",
+        "id": "6934",
+        "title": "SPORTLERWAHL: RLC-TRIO AUF DEM TREPPCHEN",
+        "date": "30. Januar 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160130161632_Trio_01_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Bei der tradionell  jedes Jahr Anfang Januar von der Recklinghäuser Zeitung durchgeführten Wahl zum Sportler / zur Sportlerin / zur Mannschaft des Jahres in der Stadt  Recklinghausen und dem Kreis Recklinghausen war das Podest in der Kategorie: <strong>Sportler des Jahres in Recklinghausen</strong> fest in der Hand von RLC-Athleten.</font></b></p>",
+        "content_text": "Bei der tradionell  jedes Jahr Anfang Januar von der Recklinghäuser Zeitung durchgeführten Wahl zum Sportler / zur Sportlerin / zur Mannschaft des Jahres in der Stadt  Recklinghausen und dem Kreis Recklinghausen war das Podest in der Kategorie:\nSportler des Jahres in Recklinghausen\nfest in der Hand von RLC-Athleten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160130161632_Trio_01_bearb.jpg",
+                "local": "news_assets/6934/zoom_20160130161632_Trio_01_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-140-6933",
+        "id": "6933",
+        "title": "HOCHSPRINGERINNEN IN TOLLER FRüHFORM",
+        "date": "25. Januar 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160125150616_Mdels_mit_Trainerbearb.jpg\"/></div><p class=\"detailViewTop\"><b>Beim Hochsprungmeeting des TV Unna am 24.01.2016 stellten die drei von Trainer Sebastian Stephani gemeldeten Mädels des Jahrgangs 2003 eine tolle Frühform unter Beweis:….</b></p>",
+        "content_text": "Beim Hochsprungmeeting des TV Unna am 24.01.2016 stellten die drei von Trainer Sebastian Stephani gemeldeten Mädels des Jahrgangs 2003 eine tolle Frühform unter Beweis:….",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160125150616_Mdels_mit_Trainerbearb.jpg",
+                "local": "news_assets/6933/zoom_20160125150616_Mdels_mit_Trainerbearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-140-6932",
+        "id": "6932",
+        "title": "JAN KIRSTEIN AUF RANG 5",
+        "date": "17. Januar 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160117163242_100m_Jan_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Westfälischen Meisterschaften der Männer, Frauen, U20 und U18 am 16.01.2016 belegte Jan Kirstein über 200m in der Männerklasse den 5. Rang in 22,66sec, starke Bestleistung für die Halle! Herzlichen Glückwunsch, Jan!</b></p>",
+        "content_text": "Bei den Westfälischen Meisterschaften der Männer, Frauen, U20 und U18 am 16.01.2016 belegte Jan Kirstein über 200m in der Männerklasse den 5. Rang in 22,66sec, starke Bestleistung für die Halle! Herzlichen Glückwunsch, Jan!",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160117163242_100m_Jan_bearb.jpg",
+                "local": "news_assets/6932/zoom_20160117163242_100m_Jan_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-140-6931",
+        "id": "6931",
+        "title": "EINSTIEG NACH MAß: MARK PETERS WESTDEUTSCHER MEISTER",
+        "date": "12. Januar 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160112084207_Mark_Peters.jpg\"/></div><p class=\"detailViewTop\"><b>Für zwei Neu-RLCler begann das Wettkampfjahr 2016 so richtig nach Maß: Mark Peters und Detlef Niedanowski standen bei ihren Siegerehrungen weit oben: Mark Peters wurde Westdeutscher Meister in der AK 45 in 9:50,53min mit 8 Sekunden Vorsprung vor dem Zweitplatzierten,</b></p>",
+        "content_text": "Für zwei Neu-RLCler begann das Wettkampfjahr 2016 so richtig nach Maß: Mark Peters und Detlef Niedanowski standen bei ihren Siegerehrungen weit oben: Mark Peters wurde Westdeutscher Meister in der AK 45 in 9:50,53min mit 8 Sekunden Vorsprung vor dem Zweitplatzierten,",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160112084207_Mark_Peters.jpg",
+                "local": "news_assets/6931/zoom_20160112084207_Mark_Peters.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-141-6930",
+        "id": "6930",
+        "title": "NACHRUF HERBERT MANK",
+        "date": "10. Januar 2016",
+        "content_html": "<p class=\"detailViewTop\"><b>Am Montag, den 04.01.2016, verstarb unser langjähriger Trainer-, Kampfrichter- und Vorstandskollege Herbert Mank im Alter von 84 Jahren. Bis vor 2 Monaten betreute er seine Seniorengruppen mit großer Begeisterung und unterstützte uns bis zuletzt bei der Vorstandsarbeit in allen Belangen, die seine Funktion als Sozialwart berührten.</b></p>",
+        "content_text": "Am Montag, den 04.01.2016, verstarb unser langjähriger Trainer-, Kampfrichter- und Vorstandskollege Herbert Mank im Alter von 84 Jahren. Bis vor 2 Monaten betreute er seine Seniorengruppen mit großer Begeisterung und unterstützte uns bis zuletzt bei der Vorstandsarbeit in allen Belangen, die seine Funktion als Sozialwart berührten.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-141-6929",
+        "id": "6929",
+        "title": "ERSTE STANDORTBESTIMMUNG",
+        "date": "04. Januar 2016",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160104105840_Lukas_Hesse.jpg\"/></div><p class=\"detailViewTop\"><b>Beim Hallensportfest am 03.01.2016 in Dortmund ging es für einige Athleten des Recklinghäuser LC um eine Standortbestimmung nach 3 Monaten zielgerichteten Trainings. Lukas Hesse, MJU20, Jan Kirstein, M, Erik Franke, MJU18 und Neuzugang Hannah Peters, WJU18 stellten gleich beim ersten Start ihre Fähigkeiten unter Beweis und lieferten alle miteinander persönliche Bestleistungen ab.</b></p>",
+        "content_text": "Beim Hallensportfest am 03.01.2016 in Dortmund ging es für einige Athleten des Recklinghäuser LC um eine Standortbestimmung nach 3 Monaten zielgerichteten Trainings. Lukas Hesse, MJU20, Jan Kirstein, M, Erik Franke, MJU18 und Neuzugang Hannah Peters, WJU18 stellten gleich beim ersten Start ihre Fähigkeiten unter Beweis und lieferten alle miteinander persönliche Bestleistungen ab.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160104105840_Lukas_Hesse.jpg",
+                "local": "news_assets/6929/zoom_20160104105840_Lukas_Hesse.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-141-6848",
+        "id": "6848",
+        "title": "29. RECKLINGHäUSER SILVESTERLAUF: ERGEBNISLISTE UND URKUNDEN",
+        "date": "31. Dezember 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20160102173605_Bambini_1Runde.jpg\"/></div><p class=\"detailViewTop\"><b>Wir möchten den rund 550 Finishern des diesjährigen Recklinghäuser Silvesterlaufs recht herzlich gratulieren und wünschen einen guten Rutsch ins Neue Jahr!</b></p>",
+        "content_text": "Wir möchten den rund 550 Finishern des diesjährigen Recklinghäuser Silvesterlaufs recht herzlich gratulieren und wünschen einen guten Rutsch ins Neue Jahr!",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20160102173605_Bambini_1Runde.jpg",
+                "local": "news_assets/6848/zoom_20160102173605_Bambini_1Runde.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-142-6840",
+        "id": "6840",
+        "title": "NEUE RLC-KAMPFRICHTER AUSGEZEICHNET",
+        "date": "19. Dezember 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20151219111646_Kampfrichter_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Bei der Arbeitstagung der im Kreis ansässigen Leichtathletikvereine und -abteilungen am 15.12.2015 in Herten gab es neben diverser Terminabsprachen auch einige Ehrungen zu beklatschen.</b></p>",
+        "content_text": "Bei der Arbeitstagung der im Kreis ansässigen Leichtathletikvereine und -abteilungen am 15.12.2015 in Herten gab es neben diverser Terminabsprachen auch einige Ehrungen zu beklatschen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20151219111646_Kampfrichter_bearb.jpg",
+                "local": "news_assets/6840/zoom_20151219111646_Kampfrichter_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-142-6754",
+        "id": "6754",
+        "title": "RLC-LANGSTRECKLER BESTENS IN FORM - 4 TITEL BEIM HALBMARATHON",
+        "date": "29. November 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20151129222446_Christian.jpg\"/></div><p class=\"detailViewTop\"><b>Bei der letzten Kreismeisterschaft des Jahres 2015, traditionell über die Halbmarathonstrecke in Herten-Bertlich, am heutigen 1. Adventsonntag, erwiesen sich die Athletinnen und Athleten aus der Trainingsgruppe Langstrecke ale bestens in Form.</b></p>",
+        "content_text": "Bei der letzten Kreismeisterschaft des Jahres 2015, traditionell über die Halbmarathonstrecke in Herten-Bertlich, am heutigen 1. Adventsonntag, erwiesen sich die Athletinnen und Athleten aus der Trainingsgruppe Langstrecke ale bestens in Form.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20151129222446_Christian.jpg",
+                "local": "news_assets/6754/zoom_20151129222446_Christian.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-142-6753",
+        "id": "6753",
+        "title": "DER 29. RECKLINGHäUSER SILVESTERLAUF NAHT.....",
+        "date": "29. November 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20151129162516_Start_5km.jpg\"/></div><p class=\"detailViewTop\"><b>Ab Dienstag, den 01.12.2015, 0.01Uhr wird das <strong>Meldesystem des RLC</strong> für den Silvesterlauf <strong>freigeschaltet.</strong></b></p>",
+        "content_text": "Ab Dienstag, den 01.12.2015, 0.01Uhr wird das\nMeldesystem des RLC\nfür den Silvesterlauf\nfreigeschaltet.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20151129162516_Start_5km.jpg",
+                "local": "news_assets/6753/zoom_20151129162516_Start_5km.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-143-6752",
+        "id": "6752",
+        "title": "LEICHTATHLETIK HäLT FIT!",
+        "date": "25. November 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20151125162056_Fritz_bearbeitet.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Deutlich zu erkennen am Jubilar <strong>Fritz Morgenroth</strong>, der am 24.11. <strong>90 Jahre alt</strong> wurde und als erfolgreicher Leichtathlet noch immer so fit ist, dass er seinen Enkel zum Sportabzeichen im Trainingsanzug ins Stadion begleiten kann.</font></b></p>",
+        "content_text": "Deutlich zu erkennen am Jubilar\nFritz Morgenroth\n, der am 24.11.\n90 Jahre alt\nwurde und als erfolgreicher Leichtathlet noch immer so fit ist, dass er seinen Enkel zum Sportabzeichen im Trainingsanzug ins Stadion begleiten kann.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20151125162056_Fritz_bearbeitet.jpg",
+                "local": "news_assets/6752/zoom_20151125162056_Fritz_bearbeitet.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-143-6710",
+        "id": "6710",
+        "title": "THOMAS VOGL WESTFALENMEISTER IM CROSSLAUF!",
+        "date": "14. November 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20151118084511_Thomas_03bear.jpg\"/></div><p class=\"detailViewTop\"><b>Am heutigen Samstag, 14.11.2015, hat unser langjähriger Langstreckentrainer Thomas Vogl seinen Schützlingen gezeigt, wie das Siegen geht. Er gewann in der AK 60 die Westfälischen Crosslaufmeisterschaften im Bakumer Tal in 20:39min über 5300m.</b></p>",
+        "content_text": "Am heutigen Samstag, 14.11.2015, hat unser langjähriger Langstreckentrainer Thomas Vogl seinen Schützlingen gezeigt, wie das Siegen geht. Er gewann in der AK 60 die Westfälischen Crosslaufmeisterschaften im Bakumer Tal in 20:39min über 5300m.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20151118084511_Thomas_03bear.jpg",
+                "local": "news_assets/6710/zoom_20151118084511_Thomas_03bear.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-143-6686",
+        "id": "6686",
+        "title": "WINTERTRAININGSPLAN 2015/2016 ONLINE",
+        "date": "06. Oktober 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20151006111952_RLC-Logo_1800x600.png\"/></div><p class=\"detailViewTop\"><b>Der ab dem 19.10.2015 gültige Trainingsplan für die Wintersaison 2015/2016 kann auf der RLC-Site unter: training – trainingsplan – Wintertrainingsplan 2015/2016 ab sofort eingesehen werden.</b></p>",
+        "content_text": "Der ab dem 19.10.2015 gültige Trainingsplan für die Wintersaison 2015/2016 kann auf der RLC-Site unter: training – trainingsplan – Wintertrainingsplan 2015/2016 ab sofort eingesehen werden.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20151006111952_RLC-Logo_1800x600.png",
+                "local": "news_assets/6686/zoom_20151006111952_RLC-Logo_1800x600.png"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-144-6684",
+        "id": "6684",
+        "title": "CHRISTIAN HEIMBROCK LäUFT UNTER 2:45H / RLC-LANGSTRECKLER SCHNELL UNTERWEGS / WERFER IN GUTER FORM",
+        "date": "27. September 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150927204836_Christian.jpg\"/></div><p class=\"detailViewTop\"><b>Vier Tage nach seiner Hochzeit im Rathaus von Recklinghausen verbesserte Christian Heimbrock, M30, beim Berlinmarathon am heutigen 27.09.2015 seine bisherige Bestzeit um mehr als 6 Minuten auf jetzt 2:44,40h.</b></p>",
+        "content_text": "Vier Tage nach seiner Hochzeit im Rathaus von Recklinghausen verbesserte Christian Heimbrock, M30, beim Berlinmarathon am heutigen 27.09.2015 seine bisherige Bestzeit um mehr als 6 Minuten auf jetzt 2:44,40h.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150927204836_Christian.jpg",
+                "local": "news_assets/6684/zoom_20150927204836_Christian.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-144-6683",
+        "id": "6683",
+        "title": "MARKUS WIENKER IM NRW-SPRINT-KADER",
+        "date": "26. September 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150926154539_Markus.jpg\"/></div><p class=\"detailViewTop\"><b>Nach einer trotz Verletzungen überaus erfolgreichen Saison wurde RLC-Langsprinter Markus Wienker (MJU18) in den vorläufigen NRW-Sprintkader berufen.</b></p>",
+        "content_text": "Nach einer trotz Verletzungen überaus erfolgreichen Saison wurde RLC-Langsprinter Markus Wienker (MJU18) in den vorläufigen NRW-Sprintkader berufen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150926154539_Markus.jpg",
+                "local": "news_assets/6683/zoom_20150926154539_Markus.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-144-6682",
+        "id": "6682",
+        "title": "VOM STANDESAMT ZUM BERLIN-MARATHON",
+        "date": "24. September 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150924145453_Hochzeit_01.jpg\"/></div><p class=\"detailViewTop\"><b>Am gestrigen Mittwoch gab es mal wieder Hochzeit mit „RLC-Beteiligung“:<font face=\"Times New Roman, serif\" size=\"3\"> </font>das langjährige Vereinsmitglied Christian Heimbrock, von Jugend an vor allem als Läufer aktiv, ehelichte seine Friederike (Pieper) ...</b></p>",
+        "content_text": "Am gestrigen Mittwoch gab es mal wieder Hochzeit mit „RLC-Beteiligung“:\ndas langjährige Vereinsmitglied Christian Heimbrock, von Jugend an vor allem als Läufer aktiv, ehelichte seine Friederike (Pieper) ...",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150924145453_Hochzeit_01.jpg",
+                "local": "news_assets/6682/zoom_20150924145453_Hochzeit_01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-145-6478",
+        "id": "6478",
+        "title": "WIE DIE JüNGEREN SO DIE ÄLTEREN....",
+        "date": "20. September 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150920203717_Siegerehrung_WKU12_01_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Der zweite Wettkampftag der Kreismehrkampfmeisterschaften im heimischen Hohenhorst-Stadion knüpfte an die tollen Erfolge des Vortages nahtlos an: die Kinder der weiblichen und männlichen  U12-Wettkampfklasse nahmen alle Mannschaftstitel im Drei- und Vierkampf für sich in Anspruch, dazu zwei Einzeltitel für Edda Koch, W11 im Vierkampf und Nick Hagemann, M11 im Dreikampf.</font></b></p>",
+        "content_text": "Der zweite Wettkampftag der Kreismehrkampfmeisterschaften im heimischen Hohenhorst-Stadion knüpfte an die tollen Erfolge des Vortages nahtlos an: die Kinder der weiblichen und männlichen  U12-Wettkampfklasse nahmen alle Mannschaftstitel im Drei- und Vierkampf für sich in Anspruch, dazu zwei Einzeltitel für Edda Koch, W11 im Vierkampf und Nick Hagemann, M11 im Dreikampf.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150920203717_Siegerehrung_WKU12_01_bearb.jpg",
+                "local": "news_assets/6478/zoom_20150920203717_Siegerehrung_WKU12_01_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-145-6477",
+        "id": "6477",
+        "title": "KLEINE RLCLER – GANZ GROß IN FORM",
+        "date": "19. September 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150919202144_Lotte_bearb_02.jpg\"/></div><p class=\"detailViewTop\"><b> <font face=\"Arial, sans-serif\">Der erste Wettkampftag der Kreismehr- kampfmeisterschaften 2015 stand traditionell im  Zeichen der ganz jungen Sportler: gleich 4 Titel blieben bei den von Kerstin Mucha und Carsten Praßni trainierten U10-Kids.</font></b></p>",
+        "content_text": "Der erste Wettkampftag der Kreismehr- kampfmeisterschaften 2015 stand traditionell im  Zeichen der ganz jungen Sportler: gleich 4 Titel blieben bei den von Kerstin Mucha und Carsten Praßni trainierten U10-Kids.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150919202144_Lotte_bearb_02.jpg",
+                "local": "news_assets/6477/zoom_20150919202144_Lotte_bearb_02.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-145-6476",
+        "id": "6476",
+        "title": "BESTELLPHASE FüR RLC-MITEAM-AUSRüSTUNG LäUFT AB JETZT",
+        "date": "17. September 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150917144704_Louisa-Meret_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Aufgrund häufiger Nachfragen werden wir die Bestellung von RLC-Miteam-Bekleidung ab sofort wieder in Angriff nehmen. Bestellzeitraum: 17.09. - 05.10.2015.</b></p>",
+        "content_text": "Aufgrund häufiger Nachfragen werden wir die Bestellung von RLC-Miteam-Bekleidung ab sofort wieder in Angriff nehmen. Bestellzeitraum: 17.09. - 05.10.2015.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150917144704_Louisa-Meret_bearb.jpg",
+                "local": "news_assets/6476/zoom_20150917144704_Louisa-Meret_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-146-6475",
+        "id": "6475",
+        "title": "RLC-LANGSTRECKLER WIEDER BESTENS UNTERWEGS",
+        "date": "08. September 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150908210215_Thomas_Vogl.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">In den vergangenen Wochen schlug wieder die Stunde der Langstreckler im RLC. Bereits am 22.08. gingen <strong>Jürgen Neuhausen</strong> und <strong>Dr. Rüdiger Kruse</strong> bei den Kreisseniorenmeisterschaften in Herten an den Start: beide siegten in ihrer Alterklasse über die 3000m-Strecke.</font></b></p>",
+        "content_text": "In den vergangenen Wochen schlug wieder die Stunde der Langstreckler im RLC. Bereits am 22.08. gingen\nJürgen Neuhausen\nund\nDr. Rüdiger Kruse\nbei den Kreisseniorenmeisterschaften in Herten an den Start: beide siegten in ihrer Alterklasse über die 3000m-Strecke.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150908210215_Thomas_Vogl.jpg",
+                "local": "news_assets/6475/zoom_20150908210215_Thomas_Vogl.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-146-6474",
+        "id": "6474",
+        "title": "WESTFALENMEISTER ARNE NEUMANN",
+        "date": "31. August 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150831112002_zoom_20150621230535_Arne_bearb.jpg\"/></div><p class=\"detailViewTop\"><b> Bei den westfälischen U16-Jugendmeisterschaften am 30. August im Hagener Ischelandstadion konnte der junge RLC-Athlet (M15) Arne Neumann seinen ersten Titel im Speerwurf feiern.</b></p>",
+        "content_text": "Bei den westfälischen U16-Jugendmeisterschaften am 30. August im Hagener Ischelandstadion konnte der junge RLC-Athlet (M15) Arne Neumann seinen ersten Titel im Speerwurf feiern.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150831112002_zoom_20150621230535_Arne_bearb.jpg",
+                "local": "news_assets/6474/zoom_20150831112002_zoom_20150621230535_Arne_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-146-6473",
+        "id": "6473",
+        "title": "RüDIGER KRUSE – AUCH IM SOMMER TOPFIT",
+        "date": "10. August 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150810094016_Rdiger_04.jpg\"/></div><p class=\"detailViewTop\"><b>RLC-Langstreckler Rüdiger Kruse, AK 55, bewies beim 31. Josel-Kaderhardt-Waldlauf am 08.08.2015 in Menden, dass er auch im Hochsommer seine Leistungen abrufen kann.</b></p>",
+        "content_text": "RLC-Langstreckler Rüdiger Kruse, AK 55, bewies beim 31. Josel-Kaderhardt-Waldlauf am 08.08.2015 in Menden, dass er auch im Hochsommer seine Leistungen abrufen kann.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150810094016_Rdiger_04.jpg",
+                "local": "news_assets/6473/zoom_20150810094016_Rdiger_04.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-147-6472",
+        "id": "6472",
+        "title": "TOPERGEBNISSE FüR RLC-SPRINTER",
+        "date": "02. Juli 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150702205658_Jan_Hoho_2015.jpg\"/></div><p class=\"detailViewTop\"><b>Erstmalig in diesem Jahr konnten die Sprinter des Recklinghäuser LC bei echtem  \" Sprinterwetter\" mit 32°Grad und fast Windstille an den Start gehen: Jan Kirstein (M) und Markus Wienker (MJU18) nutzten das Abendsportfest am 01.07.2015 in Kamen für eine aktuelle Leistungsüberprüfung vor den anstehenden \"großen\" Meisterschaften:......</b></p>",
+        "content_text": "Erstmalig in diesem Jahr konnten die Sprinter des Recklinghäuser LC bei echtem  \" Sprinterwetter\" mit 32°Grad und fast Windstille an den Start gehen: Jan Kirstein (M) und Markus Wienker (MJU18) nutzten das Abendsportfest am 01.07.2015 in Kamen für eine aktuelle Leistungsüberprüfung vor den anstehenden \"großen\" Meisterschaften:......",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150702205658_Jan_Hoho_2015.jpg",
+                "local": "news_assets/6472/zoom_20150702205658_Jan_Hoho_2015.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-147-6471",
+        "id": "6471",
+        "title": "JANA RöSELER UND ARNE NEUMANN BESTäTIGEN IHRE GUTE FORM",
+        "date": "30. Juni 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150630183217_Jana_Rseler_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Zu den Westdeutschen M/W 15-Meisterschaften in Hamm/Sieg wurden aufgrund des unpassenden Termins am ersten Ferienwochenende nur zwei junge RLC-Athleten gemeldet, die gemeinsam mit Trainer Jürgen Albers am 28.06.2015 ihre erste große Meisterschaft erlebten.</b></p>",
+        "content_text": "Zu den Westdeutschen M/W 15-Meisterschaften in Hamm/Sieg wurden aufgrund des unpassenden Termins am ersten Ferienwochenende nur zwei junge RLC-Athleten gemeldet, die gemeinsam mit Trainer Jürgen Albers am 28.06.2015 ihre erste große Meisterschaft erlebten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150630183217_Jana_Rseler_bearb.jpg",
+                "local": "news_assets/6471/zoom_20150630183217_Jana_Rseler_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-147-6401",
+        "id": "6401",
+        "title": "PETRUS HATTE EIN EINSEHEN",
+        "date": "24. Juni 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150626113953_Hoch-Weit_01.jpg\"/></div><p class=\"detailViewTop\"><b>Der „Wettergott“ scheint die kleinen Leichtathleten zu mögen: nach zwei nasskalten und windigen Tagen riss der Himmel pünktlich zum Beginn des 4. Recklinghäuser U8-Kids-Cup auf und über 90 Minuten erwärmte die Sonne das Stadion Hohenhorst...</b></p>",
+        "content_text": "Der „Wettergott“ scheint die kleinen Leichtathleten zu mögen: nach zwei nasskalten und windigen Tagen riss der Himmel pünktlich zum Beginn des 4. Recklinghäuser U8-Kids-Cup auf und über 90 Minuten erwärmte die Sonne das Stadion Hohenhorst...",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150626113953_Hoch-Weit_01.jpg",
+                "local": "news_assets/6401/zoom_20150626113953_Hoch-Weit_01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-148-6400",
+        "id": "6400",
+        "title": "ARNE NEUMANN STöSST QUALI FüR WESTDEUTSCHE U16",
+        "date": "21. Juni 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150621230535_Arne_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Eine kleine, aber feine Truppe aus der U16-Trainingsgruppe von Jürgen Albers und Sabine Kruse startete als Vorbereitung auf die Westdeutschen U16-Meisterschaften am 21.06.2015 in Viersen-Süchteln beim Süchtelner Bergfest. Vor allem Arne Neumann, M15, nutzte diesen Start, ....</b></p>",
+        "content_text": "Eine kleine, aber feine Truppe aus der U16-Trainingsgruppe von Jürgen Albers und Sabine Kruse startete als Vorbereitung auf die Westdeutschen U16-Meisterschaften am 21.06.2015 in Viersen-Süchteln beim Süchtelner Bergfest. Vor allem Arne Neumann, M15, nutzte diesen Start, ....",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150621230535_Arne_bearb.jpg",
+                "local": "news_assets/6400/zoom_20150621230535_Arne_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-148-6399",
+        "id": "6399",
+        "title": "ERSTER WESTFALENTITEL FüR LUKAS HESSE",
+        "date": "21. Juni 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150621191125_Markus_Lukas.jpg\"/></div><p class=\"detailViewTop\"><b>Am zweiten Tag der Westfälischen U18/U20-Meisterschaften (20./21.06.2015) in Dortmund und erneut nicht leistungsförderndem nasskalten und windigen Wetter bei 15°Grad ließen die RLC-Sprinter Lukas Hesse und Markus Wienker es krachen: <strong>Doppelsieg über 200m in der AK U18!</strong> In 23,09sec bzw. 23,17sec. Einziger Wermuttropfen:.......</b></p>",
+        "content_text": "Am zweiten Tag der Westfälischen U18/U20-Meisterschaften (20./21.06.2015) in Dortmund und erneut nicht leistungsförderndem nasskalten und windigen Wetter bei 15°Grad ließen die RLC-Sprinter Lukas Hesse und Markus Wienker es krachen:\nDoppelsieg über 200m in der AK U18!\nIn 23,09sec bzw. 23,17sec. Einziger Wermuttropfen:.......",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150621191125_Markus_Lukas.jpg",
+                "local": "news_assets/6399/zoom_20150621191125_Markus_Lukas.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-148-6398",
+        "id": "6398",
+        "title": "TOP-PLATZIERUNGEN BEI DEN LANGSTRECKLERN",
+        "date": "20.  -  21. Juni2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150621225925_Julian_Jrgen.jpg\"/></div><p class=\"detailViewTop\"><b>Gleich bei mehreren Veranstaltungen haben Athletinnen und Athleten der Langstreckler-Trainingsgruppe von Thomas Vogl richtig gute Ergebnisse eingefahren: beim Stever-Stausee-Abendlauf gelang es Julian Neuhausen (MJU18) erstmals, über die 5km-Strecke im Wettkampf unter der magischen 20-Minuten-Grenze zu bleiben: .....</b></p>",
+        "content_text": "Gleich bei mehreren Veranstaltungen haben Athletinnen und Athleten der Langstreckler-Trainingsgruppe von Thomas Vogl richtig gute Ergebnisse eingefahren: beim Stever-Stausee-Abendlauf gelang es Julian Neuhausen (MJU18) erstmals, über die 5km-Strecke im Wettkampf unter der magischen 20-Minuten-Grenze zu bleiben: .....",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150621225925_Julian_Jrgen.jpg",
+                "local": "news_assets/6398/zoom_20150621225925_Julian_Jrgen.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-149-6331",
+        "id": "6331",
+        "title": "RLC-NACHWUCHS üBERZEUGT BEI KREISEINZELMEISTERSCHAFTEN",
+        "date": "14. Juni 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150614171705_David_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Kreiseinzelmeisterschaften U12 / U14 und den Kreisbestenkämpfen U10 am 13.06.2015 in Haltern-Sythen stellte der Recklinghäuser LC mit 46 Startern nicht nur das größte Starterfeld, er brachte auch mit 21 Titeln die meisten Kreismeister wieder mit nach Hause. Dabei gingen z.B. von 12 erlaufbaren Titeln über die 800m-Strecke 9 an den RLC.</b></p>",
+        "content_text": "Bei den Kreiseinzelmeisterschaften U12 / U14 und den Kreisbestenkämpfen U10 am 13.06.2015 in Haltern-Sythen stellte der Recklinghäuser LC mit 46 Startern nicht nur das größte Starterfeld, er brachte auch mit 21 Titeln die meisten Kreismeister wieder mit nach Hause. Dabei gingen z.B. von 12 erlaufbaren Titeln über die 800m-Strecke 9 an den RLC.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150614171705_David_bearb.jpg",
+                "local": "news_assets/6331/zoom_20150614171705_David_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-149-6330",
+        "id": "6330",
+        "title": "ARNE NEUMANN DRITTER IM SPEERWURF DER RUHR GAMES",
+        "date": "06. Juni 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150606160257_Arne_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Seinen ersten Auftritt bei einer großen Veranstaltung, den Ruhr Games 2015, absolvierte RLC-Athlet Arne Neumann, M15, mit guten Nerven und belegte mit ausgezeichneten 43.03m den 3. Platz.</b></p>",
+        "content_text": "Seinen ersten Auftritt bei einer großen Veranstaltung, den Ruhr Games 2015, absolvierte RLC-Athlet Arne Neumann, M15, mit guten Nerven und belegte mit ausgezeichneten 43.03m den 3. Platz.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150606160257_Arne_bearb.jpg",
+                "local": "news_assets/6330/zoom_20150606160257_Arne_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-150-6259",
+        "id": "6259",
+        "title": "KREISSTAFFELMEISTERSCHAFTEN - ERNEUTE TITELFLUT FüR DEN RLC",
+        "date": "04. Juni 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150604165758_WKU12__01.jpg\"/></div><p class=\"detailViewTop\"><b>Am gestrigen Mittwoch ( 03.06.2015 ) fanden die jährlichen Kreisstaffelmeisterschaften diesmal auf der Sportanlage Maybacher Heide in Recklinghausen statt. Und einmal mehr gelang es dem RLC-Nachwuchs auf breiter Front seine Fähigkeiten bei Meisterschaften abzurufen, ging der Recklinghäuser LC doch erneut als erfolgreichster Verein aus der Summe aller Wettkämpfe hervor.</b></p>",
+        "content_text": "Am gestrigen Mittwoch ( 03.06.2015 ) fanden die jährlichen Kreisstaffelmeisterschaften diesmal auf der Sportanlage Maybacher Heide in Recklinghausen statt. Und einmal mehr gelang es dem RLC-Nachwuchs auf breiter Front seine Fähigkeiten bei Meisterschaften abzurufen, ging der Recklinghäuser LC doch erneut als erfolgreichster Verein aus der Summe aller Wettkämpfe hervor.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150604165758_WKU12__01.jpg",
+                "local": "news_assets/6259/zoom_20150604165758_WKU12__01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-150-6181",
+        "id": "6181",
+        "title": "38. HOHENHORST-MEETING: MELDELISTE",
+        "date": "23. Mai 2015",
+        "content_html": "<p class=\"detailViewTop\"><b> Für das am Montag stattfindende Hohenhorst-Meeting sind bis zum Meldeschluß insgesamt 938 Meldungen von 87 Vereinen bei uns eingegangen. Die Meldeliste und eine nach Vereinen sortierte Meldeübersicht finden sie hier:</b></p>",
+        "content_text": "Für das am Montag stattfindende Hohenhorst-Meeting sind bis zum Meldeschluß insgesamt 938 Meldungen von 87 Vereinen bei uns eingegangen. Die Meldeliste und eine nach Vereinen sortierte Meldeübersicht finden sie hier:",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-150-6180",
+        "id": "6180",
+        "title": "RLC-STAFFELN IN TOP-FORM",
+        "date": "14. Mai 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150514173403_3x800m_01_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Beim traditionellen Bahnstaffeltag am 14.05.2015 in Witten stellten die drei gestarteten RLC-Staffeln ihre Top-Form unter Beweis:<br>den Auftakt machte die WKU12 / 4x50m-Staffel in der Besetzung: Carla Körkemeyer, Annika Baschek, Edda Koch und Leonie Kruse. Sie verbesserten ihre Zeit auf 29,95sec und belegten damit Rang vier hinter zwei Wattenscheider und einer Bochumer Staffel.</br></b></p>",
+        "content_text": "Beim traditionellen Bahnstaffeltag am 14.05.2015 in Witten stellten die drei gestarteten RLC-Staffeln ihre Top-Form unter Beweis:\nden Auftakt machte die WKU12 / 4x50m-Staffel in der Besetzung: Carla Körkemeyer, Annika Baschek, Edda Koch und Leonie Kruse. Sie verbesserten ihre Zeit auf 29,95sec und belegten damit Rang vier hinter zwei Wattenscheider und einer Bochumer Staffel.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150514173403_3x800m_01_bearb.jpg",
+                "local": "news_assets/6180/zoom_20150514173403_3x800m_01_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-151-6111",
+        "id": "6111",
+        "title": "ARNE NEUMANN: QUALIFIKATIONEN IN SERIE GEKNACKT.",
+        "date": "10. Mai 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150510210748_Arne-Christian_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Neben dem KIA-ENGBERT-Sportfest wurde an diesem Wochenende auch in einem anderen Stadion eine Ausnahmeleistung durch einen RLC -Athleten erzielt. <strong>Arne Neumann, M15,</strong> startetet mit seinem RLC-Teamkollegen Christian Coenen...</b></p>",
+        "content_text": "Neben dem KIA-ENGBERT-Sportfest wurde an diesem Wochenende auch in einem anderen Stadion eine Ausnahmeleistung durch einen RLC -Athleten erzielt.\nArne Neumann, M15,\nstartetet mit seinem RLC-Teamkollegen Christian Coenen...",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150510210748_Arne-Christian_bearb.jpg",
+                "local": "news_assets/6111/zoom_20150510210748_Arne-Christian_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-151-6110",
+        "id": "6110",
+        "title": "KIA-ENGBERT-SPORTFEST – BAHNAUFTAKT NACH MASS",
+        "date": "10. Mai 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150510204609_U10_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Die 9. Ausgabe des KIA-ENGBERT-Sportfestes am 09.05.2015 im Hohenhorst-Stadion kann mit Fug und Recht als ein Saisonauftakt nach Mass bezeichnet. Nicht nur konnte drei Tage vor der Veranstaltung ein neuer Melderekord mit 1229 Meldungen und 447 Athleten verkündet werden,...</b></p>",
+        "content_text": "Die 9. Ausgabe des KIA-ENGBERT-Sportfestes am 09.05.2015 im Hohenhorst-Stadion kann mit Fug und Recht als ein Saisonauftakt nach Mass bezeichnet. Nicht nur konnte drei Tage vor der Veranstaltung ein neuer Melderekord mit 1229 Meldungen und 447 Athleten verkündet werden,...",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150510204609_U10_bearb.jpg",
+                "local": "news_assets/6110/zoom_20150510204609_U10_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-151-6109",
+        "id": "6109",
+        "title": "9. KIA-ENGBERT-SPORTFEST: ERGEBNISLISTE",
+        "date": "09. Mai 2015",
+        "content_html": "<p class=\"detailViewTop\"><b>Die Ergebnisliste des heutigen 9. KIA-ENGBERT-Sportfestes ist jetzt online:</b></p>",
+        "content_text": "Die Ergebnisliste des heutigen 9. KIA-ENGBERT-Sportfestes ist jetzt online:",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-152-6108",
+        "id": "6108",
+        "title": "9. KIA-ENGBERT-SPORTFEST: MELDELISTE",
+        "date": "07. Mai 2015",
+        "content_html": "<p class=\"detailViewTop\"><b>Nach Meldeschluß können wir für das anstehende KIA-ENGBERT-Sportfest knapp über 1200 Meldungen aus 27 Vereinen verbuchen, darunter auch 22 Staffelmeldungen.</b></p>",
+        "content_text": "Nach Meldeschluß können wir für das anstehende KIA-ENGBERT-Sportfest knapp über 1200 Meldungen aus 27 Vereinen verbuchen, darunter auch 22 Staffelmeldungen.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-152-6088",
+        "id": "6088",
+        "title": "GUTER SAISONAUFTAKT FüR RLC-JUGEND IN WALTROP",
+        "date": "02. Mai 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150503100519_erfolgreich_RLCler_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Bei bestem Leichtathletikwetter legten die jugendlichen Leistungssportler des Recklinghäuser am 02.05.2015 in Waltrop einen richtig guten Saisonstart mit diversen persönlichen Bestleistungen hin.</font></b></p>",
+        "content_text": "Bei bestem Leichtathletikwetter legten die jugendlichen Leistungssportler des Recklinghäuser am 02.05.2015 in Waltrop einen richtig guten Saisonstart mit diversen persönlichen Bestleistungen hin.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150503100519_erfolgreich_RLCler_bearb.jpg",
+                "local": "news_assets/6088/zoom_20150503100519_erfolgreich_RLCler_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-152-6087",
+        "id": "6087",
+        "title": "SOPHIA SALZWEDEL -  DAS MAß ALLER (MARATHON)DINGE",
+        "date": "26. April 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150426152330_Sophia_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Mit einer fantastischen Leistung wartete die RLC-Langstrecklerin Sophia Salzwedel beim Düsseldorf-Marathon am heutigen 26.04.2015 auf: sie belegte Platz 3 in der Gesamtergebnisliste Frauen, siegte in der Altersklasse W20 (Hauptklasse) und so ganz nebenbei war sie wieder einmal die schnellste <strong>deutsche</strong> Frau in <strong>3:00,52h</strong>....</b></p>",
+        "content_text": "Mit einer fantastischen Leistung wartete die RLC-Langstrecklerin Sophia Salzwedel beim Düsseldorf-Marathon am heutigen 26.04.2015 auf: sie belegte Platz 3 in der Gesamtergebnisliste Frauen, siegte in der Altersklasse W20 (Hauptklasse) und so ganz nebenbei war sie wieder einmal die schnellste\ndeutsche\nFrau in\n3:00,52h\n....",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150426152330_Sophia_bearb.jpg",
+                "local": "news_assets/6087/zoom_20150426152330_Sophia_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-153-6014",
+        "id": "6014",
+        "title": "UNTERNEHMEN DM-START HALBMARATHON ERFOLGREICH ABGESCHLOSSEN",
+        "date": "12. April 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150412222045_DM_Start_05bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Bei den Deutschen Meisterschaften im Halbmarathon-Strassenlauf am 12.04.2015 in Husum wartete das RLC-Sextett bei sonnigem Wetter, aber heftig wehendem Wind, eben echtem Nordseeklima, mit richtig guten Ergebnissen auf.</font></b></p>",
+        "content_text": "Bei den Deutschen Meisterschaften im Halbmarathon-Strassenlauf am 12.04.2015 in Husum wartete das RLC-Sextett bei sonnigem Wetter, aber heftig wehendem Wind, eben echtem Nordseeklima, mit richtig guten Ergebnissen auf.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150412222045_DM_Start_05bearb.jpg",
+                "local": "news_assets/6014/zoom_20150412222045_DM_Start_05bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-153-6010",
+        "id": "6010",
+        "title": "KREISCROSSMEISTERSCHAFTEN",
+        "date": "16. März 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150316111257_kreisscross-bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Beim diesjährigen Start in die Freiluftsaison, den Kreiscrossmeisterschaften in Borken am 15. März, erliefen sich unsere Athleten bei kühlem aber trockenem Wetter insgesamt 15 Titel und zahlreiche Urkundenplätze.</b></p>",
+        "content_text": "Beim diesjährigen Start in die Freiluftsaison, den Kreiscrossmeisterschaften in Borken am 15. März, erliefen sich unsere Athleten bei kühlem aber trockenem Wetter insgesamt 15 Titel und zahlreiche Urkundenplätze.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150316111257_kreisscross-bearb.jpg",
+                "local": "news_assets/6010/zoom_20150316111257_kreisscross-bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-153-6009",
+        "id": "6009",
+        "title": "NACHRUF WOLFGANG PETER",
+        "date": "05. März 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150305160454_Lauftreff_Jubilaeum008_-_Kopie.JPG\"/></div><p class=\"detailViewTop\"><b><font face=\"Liberation Sans, sans-serif\"><font size=\"3\">Unser langjähriger Mittelstreckentrainer Wolfgang Peter ist am Samstag, den 28. Februar 2015 im Alter von 77 Jahren nach langer, schwerer Krankheit gestorben. Es ist sicher eine Erlösung für ihn, diesen letzten schweren Abschnitt seines Lebens verlassen zu können.</font></font></b></p>",
+        "content_text": "Unser langjähriger Mittelstreckentrainer Wolfgang Peter ist am Samstag, den 28. Februar 2015 im Alter von 77 Jahren nach langer, schwerer Krankheit gestorben. Es ist sicher eine Erlösung für ihn, diesen letzten schweren Abschnitt seines Lebens verlassen zu können.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150305160454_Lauftreff_Jubilaeum008_-_Kopie.JPG",
+                "local": "news_assets/6009/zoom_20150305160454_Lauftreff_Jubilaeum008_-_Kopie.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-154-6008",
+        "id": "6008",
+        "title": "GUTE LEISTUNGEN TROTZ ANHALTENDER KRANKHEITSWELLE",
+        "date": "02. März 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150302141002_Florian.jpg\"/></div><p class=\"detailViewTop\"><b>Die U14-Traingingsgruppe von Sebastian Stephani hatte für den letzten Hallenwettkampf in diesem Jahr einen richtig großen Auftritt geplant; bedingt durch viele grippebedingte Ausfälle konnten am 01.03.2015 in der Helmut-Körnig-Halle nur 13 Mädels und Jungen ihr Können in der Halle demonstrieren, aber die dafür umso besser:....</b></p>",
+        "content_text": "Die U14-Traingingsgruppe von Sebastian Stephani hatte für den letzten Hallenwettkampf in diesem Jahr einen richtig großen Auftritt geplant; bedingt durch viele grippebedingte Ausfälle konnten am 01.03.2015 in der Helmut-Körnig-Halle nur 13 Mädels und Jungen ihr Können in der Halle demonstrieren, aber die dafür umso besser:....",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150302141002_Florian.jpg",
+                "local": "news_assets/6008/zoom_20150302141002_Florian.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-154-6007",
+        "id": "6007",
+        "title": "MAXI JORGS – EINE LäUFERIN STARTET DURCH",
+        "date": "01. März 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150301190441_800m_Maxi_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Bei ihren ersten Westfalenmeisterschaften bewies die 14jährige Maxi Jorgs, wie weit man mit Ehrgeiz, Trainingsfleiss und Talent kommen kann: die 800m-Siegerehrung W14 in der Halle im Paderborner Ahornpark sah am heutigen Sonntag die junge RLC-Läuferin auf dem Bronzeplatz:</b></p>",
+        "content_text": "Bei ihren ersten Westfalenmeisterschaften bewies die 14jährige Maxi Jorgs, wie weit man mit Ehrgeiz, Trainingsfleiss und Talent kommen kann: die 800m-Siegerehrung W14 in der Halle im Paderborner Ahornpark sah am heutigen Sonntag die junge RLC-Läuferin auf dem Bronzeplatz:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150301190441_800m_Maxi_bearb.jpg",
+                "local": "news_assets/6007/zoom_20150301190441_800m_Maxi_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-154-5813",
+        "id": "5813",
+        "title": "ERFOLGREICHER HALLENAUFTRITT FüR U12-KIDS",
+        "date": "22. Februar 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150222195026_Carla_Edda_Leonie_Urkunden_bea.jpg\"/></div><p class=\"detailViewTop\"><b>Beim Hallensportfest des PTSV  Dortmund am 22.02.2015 in der Helmut-Körnig-Halle stellten 8 Kids der U12-Trainingsgruppe unter Beweis, wie gut sie in den vergangenen Wochen trainiert hatten. Krankheitsbedingt fehlten leider 5 Kinder, die sicher die gute Gesamtbilanz noch weiter aufgepeppt hätten.</b></p>",
+        "content_text": "Beim Hallensportfest des PTSV  Dortmund am 22.02.2015 in der Helmut-Körnig-Halle stellten 8 Kids der U12-Trainingsgruppe unter Beweis, wie gut sie in den vergangenen Wochen trainiert hatten. Krankheitsbedingt fehlten leider 5 Kinder, die sicher die gute Gesamtbilanz noch weiter aufgepeppt hätten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150222195026_Carla_Edda_Leonie_Urkunden_bea.jpg",
+                "local": "news_assets/5813/zoom_20150222195026_Carla_Edda_Leonie_Urkunden_bea.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-155-5812",
+        "id": "5812",
+        "title": "KöRNIGHALLE IN DORTMUND: EIN GUTES PFLASTER FüR RLC-NACHWUCHS",
+        "date": "08. Februar 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150208213122_Hoch_Fionabearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Zum Hallensportfest vom TV Einigkeit Dortmund Barop am 08.02.2015 in der Dortmunder Helmut-Körnig-Halle hatten die Trainer Sebastian Stephani und Jürgen Albers insgesamt 24 Athleten gemeldet und mit vielen persönlichen Bestleistungen kehrten die jungen RLCler nach Hause zurück.</font></b></p>",
+        "content_text": "Zum Hallensportfest vom TV Einigkeit Dortmund Barop am 08.02.2015 in der Dortmunder Helmut-Körnig-Halle hatten die Trainer Sebastian Stephani und Jürgen Albers insgesamt 24 Athleten gemeldet und mit vielen persönlichen Bestleistungen kehrten die jungen RLCler nach Hause zurück.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150208213122_Hoch_Fionabearb.jpg",
+                "local": "news_assets/5812/zoom_20150208213122_Hoch_Fionabearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-155-5811",
+        "id": "5811",
+        "title": "RLC-NACHWUCHS IN GUTER CROSSLAUF-FORM",
+        "date": "08. Februar 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150208194158_Leonie_Amalia_Rosa.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Beim 31. Sythener Crosslauf am 07.02.2015 zeigten sich insbesondere einige RLC-Kids in Lauflaune:Rosa Butzert (W8), Amalia Butzert (W11) und Leonie Kruse (W11) fanden sich ebenso auf dem Siegerpodest wieder wie die dazugehörigen Väter sowie Andreas Hachmann.</font></b></p>",
+        "content_text": "Beim 31. Sythener Crosslauf am 07.02.2015 zeigten sich insbesondere einige RLC-Kids in Lauflaune:Rosa Butzert (W8), Amalia Butzert (W11) und Leonie Kruse (W11) fanden sich ebenso auf dem Siegerpodest wieder wie die dazugehörigen Väter sowie Andreas Hachmann.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150208194158_Leonie_Amalia_Rosa.jpg",
+                "local": "news_assets/5811/zoom_20150208194158_Leonie_Amalia_Rosa.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-155-5804",
+        "id": "5804",
+        "title": "MARKUS WIENKER ERNEUT ZWEIMAL AUF DEM PODEST",
+        "date": "01. Februar 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150202153450_Markus_400m_bearb02.jpg\"/></div><p class=\"detailViewTop\"><b> Bei den Westdeutschen U18-Meisterschaften am 01.02.2015 in der Dortmunder Helmut-Körnig-Halle gelang es Markus Wienker erneut, seine persönlichen Bestleistungen zu verbessern und sich damit die Teilnahme an den Siegerehrungen zu sichern.</b></p>",
+        "content_text": "Bei den Westdeutschen U18-Meisterschaften am 01.02.2015 in der Dortmunder Helmut-Körnig-Halle gelang es Markus Wienker erneut, seine persönlichen Bestleistungen zu verbessern und sich damit die Teilnahme an den Siegerehrungen zu sichern.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150202153450_Markus_400m_bearb02.jpg",
+                "local": "news_assets/5804/zoom_20150202153450_Markus_400m_bearb02.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-156-5803",
+        "id": "5803",
+        "title": "CHRISTIAN HEIMBROCK UND MARITA SCHULTE BEI SPORTLERWAHL AUF DEM PODEST",
+        "date": "31. Januar 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150131213608_Christian_02bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Die Ergebnisse der alljährlichen Sportlerwahl des Zeitungshauses Bauer wurden wie in jedem Jahr im feierlichem Rahmen des Festspielhauses verkündet.</b></p>",
+        "content_text": "Die Ergebnisse der alljährlichen Sportlerwahl des Zeitungshauses Bauer wurden wie in jedem Jahr im feierlichem Rahmen des Festspielhauses verkündet.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150131213608_Christian_02bearb.jpg",
+                "local": "news_assets/5803/zoom_20150131213608_Christian_02bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-156-5802",
+        "id": "5802",
+        "title": "GUTE ERGEBNISSE FüR U16-ATHLETINNEN",
+        "date": "27. Januar 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150127161012_800m_Maxi_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Beim Hallensportfest des LC Rapid Dortmund am 25.01.2015 in der Helmut-Körnig-Halle liefertern die U16-Athletinnen von Trainer Jürgen Albers einige beachtenswerte Ergebnisse ab.</font></b></p>",
+        "content_text": "Beim Hallensportfest des LC Rapid Dortmund am 25.01.2015 in der Helmut-Körnig-Halle liefertern die U16-Athletinnen von Trainer Jürgen Albers einige beachtenswerte Ergebnisse ab.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150127161012_800m_Maxi_bearb.jpg",
+                "local": "news_assets/5802/zoom_20150127161012_800m_Maxi_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-156-5801",
+        "id": "5801",
+        "title": "GUTER JAHRESAUFTAKT FüR RLC-LANGSTRECKLER",
+        "date": "20. Januar 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150120160825_Sophia_Salzwedel.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Kaum liegt der Silvesterlauf mit richtig guten Ergebnissen durch die Langstreckler-Truppe des Recklinghäuser LC hinter uns, da folgt ein ebenso guter Jahresauftakt durch die gleichen Akteure: Sophia Salzwedel, Christian Heimbrock und Jürgen Neuhausen ----</font></b></p>",
+        "content_text": "Kaum liegt der Silvesterlauf mit richtig guten Ergebnissen durch die Langstreckler-Truppe des Recklinghäuser LC hinter uns, da folgt ein ebenso guter Jahresauftakt durch die gleichen Akteure: Sophia Salzwedel, Christian Heimbrock und Jürgen Neuhausen ----",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150120160825_Sophia_Salzwedel.jpg",
+                "local": "news_assets/5801/zoom_20150120160825_Sophia_Salzwedel.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-157-5800",
+        "id": "5800",
+        "title": "WESTFäLISCHE HALLENMEISTERSCHAFTEN: VIZEMEISTERTITEL FüR MARKUS WIENKER",
+        "date": "18. Januar 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150118180213_Markus_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Das Jahr 2015 begann für den U18-Athleten Markus Wienker wie gemalt: ein Vizemeistertitel über die 200m-Sprintstrecke und ein dritter Platz über die doppelt so lange Distanz bei den Westfälischen U18-Meisterschaften am 17.01.2015 in Dortmund,...</font></b></p>",
+        "content_text": "Das Jahr 2015 begann für den U18-Athleten Markus Wienker wie gemalt: ein Vizemeistertitel über die 200m-Sprintstrecke und ein dritter Platz über die doppelt so lange Distanz bei den Westfälischen U18-Meisterschaften am 17.01.2015 in Dortmund,...",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150118180213_Markus_bearb.jpg",
+                "local": "news_assets/5800/zoom_20150118180213_Markus_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-157-5799",
+        "id": "5799",
+        "title": "DR. RüDIGER KRUSE DURCH BüRGERMEISTER TESCHE GEEHRT",
+        "date": "13. Januar 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150113153647_Sportlerehrung_Rdiger_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Für seinen Deutschen Meistertitel über 10.000m, errungen im Rahmen der Deutschen Ärzte- und Apothekermeisterschaften am 05.04.2014 in Bad Schmiedeberg, wurde mit Dr. Rüdiger Kruse am 12.01.2015 wieder ein RLC-Langstreckler durch den neuen Bürgermeister Recklinghausens, Christoph Tesche geehrt.</b></p>",
+        "content_text": "Für seinen Deutschen Meistertitel über 10.000m, errungen im Rahmen der Deutschen Ärzte- und Apothekermeisterschaften am 05.04.2014 in Bad Schmiedeberg, wurde mit Dr. Rüdiger Kruse am 12.01.2015 wieder ein RLC-Langstreckler durch den neuen Bürgermeister Recklinghausens, Christoph Tesche geehrt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150113153647_Sportlerehrung_Rdiger_bearb.jpg",
+                "local": "news_assets/5799/zoom_20150113153647_Sportlerehrung_Rdiger_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-157-5734",
+        "id": "5734",
+        "title": "28. SILVESTERLAUF IST GESCHICHTE",
+        "date": "01. Januar 2015",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20150102143259_Start_5km_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Inzwischen ist auch die 28. Auflage des Recklinghäuser Silvesterlaufs Geschichte: <a href=\"../assets/pdf/silvesterlauf2014-ergebnislist.htm\">Ergebnisliste</a> und <a href=\"../Meldesystem/#certificates/silvesterlauf14\">Urkunden</a><br>sind online, ebenso eine kurze <a href=\"../assets/pdf/Nachlese_Silvesterlauf_2014_02.pdf\">Nachlese</a> und <a href=\"../rlc.php?id=0-000700-0\">Presseartikel</a>.</br></b></p>",
+        "content_text": "Inzwischen ist auch die 28. Auflage des Recklinghäuser Silvesterlaufs Geschichte:\nErgebnisliste\nund\nUrkunden\nsind online, ebenso eine kurze\nNachlese\nund\nPresseartikel\n.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20150102143259_Start_5km_bearb.jpg",
+                "local": "news_assets/5734/zoom_20150102143259_Start_5km_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-158-5732",
+        "id": "5732",
+        "title": "SAME PROCEDERE AS.........",
+        "date": "18. Dezember 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20141218210516_Jugendligafoto_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Die Jugendligawertung des Fussball- und Leichtathletik-Verbands Westfalen, Kreis Recklinghausen, im abgelaufenen Wettkampfjahr 2014 haben wieder einmal die Athletinnen und Athleten des Recklinghäuser LC für sich entscheiden können, diesmal mit 1278 Punkten vor der LA SV Herten mit 1133 und der DJK Teutonia Waltrop mit 535 Punkten, der gleichen Reihenfolge wie im Jahr 2013.</b></p>",
+        "content_text": "Die Jugendligawertung des Fussball- und Leichtathletik-Verbands Westfalen, Kreis Recklinghausen, im abgelaufenen Wettkampfjahr 2014 haben wieder einmal die Athletinnen und Athleten des Recklinghäuser LC für sich entscheiden können, diesmal mit 1278 Punkten vor der LA SV Herten mit 1133 und der DJK Teutonia Waltrop mit 535 Punkten, der gleichen Reihenfolge wie im Jahr 2013.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20141218210516_Jugendligafoto_bearb.jpg",
+                "local": "news_assets/5732/zoom_20141218210516_Jugendligafoto_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-158-5627",
+        "id": "5627",
+        "title": "ZWEI TITEL UND EIN VIZEMEISTER – TOLLE RLC-AUSBEUTE BEI KM HALBMARATHON",
+        "date": "30. November 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20141130192954_Siegerehrung.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Beim Jahresabschluss der Kreismeisterschaften am 30.11.2014, traditionell ist dies der Halbmarathon in Herten-Bertlich, haben drei Athleten des Recklinghäuser LC noch einmal<br>so richtig zugeschlagen: Christian Heimbrock, M30, siegte in tollen 1:18,52min,<br/></br></font></b></p>",
+        "content_text": "Beim Jahresabschluss der Kreismeisterschaften am 30.11.2014, traditionell ist dies der Halbmarathon in Herten-Bertlich, haben drei Athleten des Recklinghäuser LC noch einmal\nso richtig zugeschlagen: Christian Heimbrock, M30, siegte in tollen 1:18,52min,",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20141130192954_Siegerehrung.jpg",
+                "local": "news_assets/5627/zoom_20141130192954_Siegerehrung.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-159-5626",
+        "id": "5626",
+        "title": "TINA WESSINGHAGE WESTFALENMEISTERIN",
+        "date": "15. November 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20141115215745_Tina_und_Christian.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Bei den letzten Westfalenmeisterschaften des Jahres 2014 haben die Langstreckler des<br>RLC noch einmal zuschlagen können: eine Westfalenmeisterin und ein Vizemeister sind<br/>die gute Ausbeute der Wettkampfes am 15.11.2014 im Bakumertal von Herten.<br/></br></font></b></p>",
+        "content_text": "Bei den letzten Westfalenmeisterschaften des Jahres 2014 haben die Langstreckler des\nRLC noch einmal zuschlagen können: eine Westfalenmeisterin und ein Vizemeister sind\ndie gute Ausbeute der Wettkampfes am 15.11.2014 im Bakumertal von Herten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20141115215745_Tina_und_Christian.jpg",
+                "local": "news_assets/5626/zoom_20141115215745_Tina_und_Christian.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-159-5625",
+        "id": "5625",
+        "title": "U12-MäDELS SIEGEN BEI LEMBECKER MARATHONSTAFFEL",
+        "date": "19. Oktober 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20141019174137_Siegersstaffel.jpg\"/></div><p class=\"detailViewTop\"><b><strong><font face=\"Arial, sans-serif\">Unsere laufbegeisterten U12-Mädels können es auch in den Ferien nicht lassen:</font></strong></b></p>",
+        "content_text": "Unsere laufbegeisterten U12-Mädels können es auch in den Ferien nicht lassen:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20141019174137_Siegersstaffel.jpg",
+                "local": "news_assets/5625/zoom_20141019174137_Siegersstaffel.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-159-5623",
+        "id": "5623",
+        "title": "4 KREISMEISTERTITEL GEHEN AN DEN RLC",
+        "date": "01. Oktober 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20141001101253_Sabine_Kruse_02.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den 10km-Kreismeisterschaften, die im Rahmen der Bertlicher Strassenläufe am 28.09.2014 in Herten ausgetragen wurden, konnten die angetretenen 6 Athletinnen und Athleten 4 Titel auf sich vereinen.</b></p>",
+        "content_text": "Bei den 10km-Kreismeisterschaften, die im Rahmen der Bertlicher Strassenläufe am 28.09.2014 in Herten ausgetragen wurden, konnten die angetretenen 6 Athletinnen und Athleten 4 Titel auf sich vereinen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20141001101253_Sabine_Kruse_02.jpg",
+                "local": "news_assets/5623/zoom_20141001101253_Sabine_Kruse_02.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-160-5495",
+        "id": "5495",
+        "title": "JUGENDLIGA GEWONNEN - U16/U18 üBERZEUGEN",
+        "date": "24. September 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140924210141_Sarah-Franzi_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>In einem letzten Kraftakt bei den diesjährigen Kreismehrkampfmeisterschaften haben es die U16 / U18 - Nachwuchsathleten des Recklinghäuser LC geschafft, die Jugendliga erneut für sich zu entscheiden. Glückwunsch an alle Beteiligten, Aktive wie Betreuer!</b></p>",
+        "content_text": "In einem letzten Kraftakt bei den diesjährigen Kreismehrkampfmeisterschaften haben es die U16 / U18 - Nachwuchsathleten des Recklinghäuser LC geschafft, die Jugendliga erneut für sich zu entscheiden. Glückwunsch an alle Beteiligten, Aktive wie Betreuer!",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140924210141_Sarah-Franzi_bearb.jpg",
+                "local": "news_assets/5495/zoom_20140924210141_Sarah-Franzi_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-160-5494",
+        "id": "5494",
+        "title": "RLC VERBUCHT 18 WEITERE KREISMEISTER-TITEL",
+        "date": "22. September 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140922113318_MKU10_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Aus den Kreismehrkampfmeisterschaften am vergangenen Wochenende gingen die RLC-Nachwuchs-Athleten mit 18 Titeln (11 Mannschaftstitel, 7 Einzeltitel) sowie mit 53 Platzierungen auf dem Treppchen hervor.Trotz teilweise schau(d)erhaftem Wetter konnten zudem viele Bestleistungen verbucht werden.</font></b></p>",
+        "content_text": "Aus den Kreismehrkampfmeisterschaften am vergangenen Wochenende gingen die RLC-Nachwuchs-Athleten mit 18 Titeln (11 Mannschaftstitel, 7 Einzeltitel) sowie mit 53 Platzierungen auf dem Treppchen hervor.Trotz teilweise schau(d)erhaftem Wetter konnten zudem viele Bestleistungen verbucht werden.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140922113318_MKU10_bearb.jpg",
+                "local": "news_assets/5494/zoom_20140922113318_MKU10_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-160-5452",
+        "id": "5452",
+        "title": "STADTMEISTERSCHAFTEN UNTER EINEM GUTEN STERN - URKUNDENDRUCK FREIGEGEBEN",
+        "date": "14. September 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140914181233_U10-U12_01bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Die 31. Offenen Stadtmeisterschaften vom 13.09.12014 liegen hinter uns und die Verantwortlichen des Vereins können aufatmen: durch den zupackenden Einsatz vieler Eltern und Athleten aus den eigenen Reihen, die den „Laden“ im Wettkampfbüro, bei der Zeitmessung, an den Wettkampforten und beim Catering auf dem Laufen gehalten haben, konnten wir bei allerbestem Leichtathletikwetter den vorrangig jüngeren Leichtathleten einen guten und erfolgreichen Wettkampf bieten.</font></b></p>",
+        "content_text": "Die 31. Offenen Stadtmeisterschaften vom 13.09.12014 liegen hinter uns und die Verantwortlichen des Vereins können aufatmen: durch den zupackenden Einsatz vieler Eltern und Athleten aus den eigenen Reihen, die den „Laden“ im Wettkampfbüro, bei der Zeitmessung, an den Wettkampforten und beim Catering auf dem Laufen gehalten haben, konnten wir bei allerbestem Leichtathletikwetter den vorrangig jüngeren Leichtathleten einen guten und erfolgreichen Wettkampf bieten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140914181233_U10-U12_01bearb.jpg",
+                "local": "news_assets/5452/zoom_20140914181233_U10-U12_01bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-161-5451",
+        "id": "5451",
+        "title": "KEIN STABHOCH BEI STADTMEISTERSCHAFTEN",
+        "date": "10. September 2014",
+        "content_html": "<p class=\"detailViewTop\"><b>Aufgrund bis heute ausbleibender Stabhoch-Meldungen sowie akutem Kampfrichtermangel bei den offenen Stadtmeisterschaften am 13.09.2014 sehen wir uns gezwungen, die Disziplin \"Stabhochsprung\" für alle Altersklassen aus dem Angebot zu streichen.</b></p>",
+        "content_text": "Aufgrund bis heute ausbleibender Stabhoch-Meldungen sowie akutem Kampfrichtermangel bei den offenen Stadtmeisterschaften am 13.09.2014 sehen wir uns gezwungen, die Disziplin \"Stabhochsprung\" für alle Altersklassen aus dem Angebot zu streichen.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-161-5450",
+        "id": "5450",
+        "title": "STADTSPORTVEST RECKLINGHAUSEN",
+        "date": "27. August 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140827172642_Zonenweitsprung_03_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Am kommenden Sonntag, den 31.08.2014, lädt der Stadtsportverband ( SSV ) Recklinghausen zum zweiten Male zum StadtSportVest für die ganze Familie ein. Der Recklinghäuser LC wird selbstverständlich wieder mit an Bord sein und bietet ab 11.00Uhr eine Sportabzeichenabnahme für alle ab dem 6. Lebensjahr an und vermittelt u.a. Werfen mit Wurfheulern und Kinderspeeren, Laufen über Hindernisse, u.v.m.</b></p>",
+        "content_text": "Am kommenden Sonntag, den 31.08.2014, lädt der Stadtsportverband ( SSV ) Recklinghausen zum zweiten Male zum StadtSportVest für die ganze Familie ein. Der Recklinghäuser LC wird selbstverständlich wieder mit an Bord sein und bietet ab 11.00Uhr eine Sportabzeichenabnahme für alle ab dem 6. Lebensjahr an und vermittelt u.a. Werfen mit Wurfheulern und Kinderspeeren, Laufen über Hindernisse, u.v.m.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140827172642_Zonenweitsprung_03_bearb.jpg",
+                "local": "news_assets/5450/zoom_20140827172642_Zonenweitsprung_03_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-161-5449",
+        "id": "5449",
+        "title": "DAS NEUESTE SEIT FERIENENDE",
+        "date": "27. August 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140827171718_Rdiger_02bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Richtig gut geschlagen haben sich die beiden RLC-Vertreter bei den Westdeutschen Berglaufmeisterschaften am 23.08.2014 in Bad Berleburg. Für die 6700m lange Strecke mit 370 Höhenmetern benötigten Dr.Rüdiger Kruse 36:10min und Martin Godde 36:26min.</b></p>",
+        "content_text": "Richtig gut geschlagen haben sich die beiden RLC-Vertreter bei den Westdeutschen Berglaufmeisterschaften am 23.08.2014 in Bad Berleburg. Für die 6700m lange Strecke mit 370 Höhenmetern benötigten Dr.Rüdiger Kruse 36:10min und Martin Godde 36:26min.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140827171718_Rdiger_02bearb.jpg",
+                "local": "news_assets/5449/zoom_20140827171718_Rdiger_02bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-162-5448",
+        "id": "5448",
+        "title": "NACHLESE DEUTSCHE JUGENDMEISTERSCHAFTEN WATTENSCHEID UND KöLN",
+        "date": "16. August 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140816192118_Marita_03bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Am 08./09.08. fanden in Wattenscheid die Deutschen U18/U20-Meisterschaften statt, am 16./17.08. in Köln erstmals die Deutschen U16-Meisterschaften, beide Veranstaltungen unter Beteiligung von RLC-Athletinnen und Athleten: Marita Schulte im Stabhochsprung, Jan Kirstein über 200m sowie den beiden 4x100m-Staffeln WJU20 und WJU16.</b></p>",
+        "content_text": "Am 08./09.08. fanden in Wattenscheid die Deutschen U18/U20-Meisterschaften statt, am 16./17.08. in Köln erstmals die Deutschen U16-Meisterschaften, beide Veranstaltungen unter Beteiligung von RLC-Athletinnen und Athleten: Marita Schulte im Stabhochsprung, Jan Kirstein über 200m sowie den beiden 4x100m-Staffeln WJU20 und WJU16.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140816192118_Marita_03bearb.jpg",
+                "local": "news_assets/5448/zoom_20140816192118_Marita_03bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-162-5397",
+        "id": "5397",
+        "title": "MARITA SCHULTE HEBT WIEDER AB!",
+        "date": "04. Juli 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140704163713_Marita_02_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Kaum hat sie das Abitur erfolgreich in der Tasche, da klappts auch wieder mit dem Fliegen, sprich Stabhochspringen. Beim Läufer- und Springerabend am 02.07.2014 in Dortmund stellte Marita Schulte (WJU20) ihre aus dem Juni 2013 stammende Bestleistung von 3,80m ein.</b></p>",
+        "content_text": "Kaum hat sie das Abitur erfolgreich in der Tasche, da klappts auch wieder mit dem Fliegen, sprich Stabhochspringen. Beim Läufer- und Springerabend am 02.07.2014 in Dortmund stellte Marita Schulte (WJU20) ihre aus dem Juni 2013 stammende Bestleistung von 3,80m ein.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140704163713_Marita_02_bearb.jpg",
+                "local": "news_assets/5397/zoom_20140704163713_Marita_02_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-162-5396",
+        "id": "5396",
+        "title": "U8-KIDS-CUP BEGEISTERT KINDER UND ELTERN",
+        "date": "03. Juli 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140703212335_Charlotte_hochweit_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Die traditionell letzte Veranstaltung des Recklinghäuser LC vor Beginn der großen Ferien war am vergangenen Mittwoch wieder einmal der U8-Kids-Cup, der nach den neuen DLV-Richtlinien für Kinderleichtathletik bereits zum dritten Mal im Hohenhorst-Stadion stattfand.</font></b></p>",
+        "content_text": "Die traditionell letzte Veranstaltung des Recklinghäuser LC vor Beginn der großen Ferien war am vergangenen Mittwoch wieder einmal der U8-Kids-Cup, der nach den neuen DLV-Richtlinien für Kinderleichtathletik bereits zum dritten Mal im Hohenhorst-Stadion stattfand.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140703212335_Charlotte_hochweit_bearb.jpg",
+                "local": "news_assets/5396/zoom_20140703212335_Charlotte_hochweit_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-163-5395",
+        "id": "5395",
+        "title": "LISA NIKOLAY PUNKTET BEI WESTDEUTSCHEN MEISTERSCHAFTEN",
+        "date": "29. Juni 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140629203403_Lisa.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Bei den Westdeutschen W/M15-Meisterschaften, ausgetragen am 29.06.2014 in Essen, war es erneut Lisa Nikolay, die im Trikot des Recklinghäuser LC zu überzeugen wusste. Sowohl im Weitsprung, hier sogar mit persönlicher Bestleistung, als auch über 80mHürden belegte sie in der Endabrechnung Platz 6,.....</font></b></p>",
+        "content_text": "Bei den Westdeutschen W/M15-Meisterschaften, ausgetragen am 29.06.2014 in Essen, war es erneut Lisa Nikolay, die im Trikot des Recklinghäuser LC zu überzeugen wusste. Sowohl im Weitsprung, hier sogar mit persönlicher Bestleistung, als auch über 80mHürden belegte sie in der Endabrechnung Platz 6,.....",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140629203403_Lisa.jpg",
+                "local": "news_assets/5395/zoom_20140629203403_Lisa.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-163-5394",
+        "id": "5394",
+        "title": "GUTE ERGEBNISSE BEI SCHLECHTEM WETTER FüR JU14",
+        "date": "29. Juni 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140629192418_Wechsel_Klara-Maxibearb.jpg\"/></div><p class=\"detailViewTop\"><b>Die Trainingsgruppe von U14-Trainer Sebastian Stephani hatte für ihren letzten Wettkampfausflug vor den großen Ferien einen denkbar schlechten Tag erwischt: kühle, windiges und regnischeriches Wetter. Und trotzdem boten die Mädels und Jungs ansprechende Leistungen im fernen Menden:</b></p>",
+        "content_text": "Die Trainingsgruppe von U14-Trainer Sebastian Stephani hatte für ihren letzten Wettkampfausflug vor den großen Ferien einen denkbar schlechten Tag erwischt: kühle, windiges und regnischeriches Wetter. Und trotzdem boten die Mädels und Jungs ansprechende Leistungen im fernen Menden:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140629192418_Wechsel_Klara-Maxibearb.jpg",
+                "local": "news_assets/5394/zoom_20140629192418_Wechsel_Klara-Maxibearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-163-5393",
+        "id": "5393",
+        "title": "WESTFäLISCHE U18/U20, TAG 2: STAFFEL WIRD VIZEMEISTER, WEITERE GUTE PLATZIERUNGEN",
+        "date": "22. Juni 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140622202710_Markus_Hrden_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Am 2. Wettkampftag der Westfälischen U18/U20-Meisterschaften in Kreuztal gingen vor allem die Hürdenspinter und Staffelläufer an den Start. Die 4x100m-WJU20-Staffel in der Besetzung: Ida Hartwig / Elena Hütter / Maren Albers / Isabell Oenning wurde in 49,04sec Vizemeisterinnen und verbesserten sich gegenüber dem letzten Wettkampf in Witten erneut um fast eine halbe Sekunde.</font></b></p>",
+        "content_text": "Am 2. Wettkampftag der Westfälischen U18/U20-Meisterschaften in Kreuztal gingen vor allem die Hürdenspinter und Staffelläufer an den Start. Die 4x100m-WJU20-Staffel in der Besetzung: Ida Hartwig / Elena Hütter / Maren Albers / Isabell Oenning wurde in 49,04sec Vizemeisterinnen und verbesserten sich gegenüber dem letzten Wettkampf in Witten erneut um fast eine halbe Sekunde.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140622202710_Markus_Hrden_bearb.jpg",
+                "local": "news_assets/5393/zoom_20140622202710_Markus_Hrden_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-164-5392",
+        "id": "5392",
+        "title": "WESTF. U18/U20-MEISTERSCHAFTEN, TAG 1: EIN TITEL, ZWEI VIERTE PLäTZE FüR DEN RLC",
+        "date": "21. Juni 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140621220731_Marita_04bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Am ersten Tag der Westfälischen U18/U20-Meisterschaften am heutigen 21.06.2014 in Kreuztal gingen im RLC-Trikot Marita Schulte im Stabhochsprung und die Kurzsprinter Ida Hartwig, Jan Kirstein, Lukas Hesse und Pia Opitz an den Start.</b></p>",
+        "content_text": "Am ersten Tag der Westfälischen U18/U20-Meisterschaften am heutigen 21.06.2014 in Kreuztal gingen im RLC-Trikot Marita Schulte im Stabhochsprung und die Kurzsprinter Ida Hartwig, Jan Kirstein, Lukas Hesse und Pia Opitz an den Start.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140621220731_Marita_04bearb.jpg",
+                "local": "news_assets/5392/zoom_20140621220731_Marita_04bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-164-5298",
+        "id": "5298",
+        "title": "KREISSTAFFELMEISTERSCHAFTEN: RLC DOMINIERT KINDER- UND JUGENDKLASSEN - FüHRUNGSWECHSEL IN JUGENDLIGA",
+        "date": "19. Juni 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140619160338_Startluferinnen_3x800m_WKU12.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Bei den Kreisstaffelmeisterschaften am 18.06.2014 in Waltrop gelang es dem RLC-Nachwuchs einmal mehr, in breiter Front seine Fähigkeiten unter Beweis zu stellen: 8 Titel und 6 Vizetitel, dazu weitere 12 „Treppchenplätze“ sind die Ausbeute eines problematischen Wettkampfes bei immerhin gutem Wettkampfwetter.<br/></font></b></p>",
+        "content_text": "Bei den Kreisstaffelmeisterschaften am 18.06.2014 in Waltrop gelang es dem RLC-Nachwuchs einmal mehr, in breiter Front seine Fähigkeiten unter Beweis zu stellen: 8 Titel und 6 Vizetitel, dazu weitere 12 „Treppchenplätze“ sind die Ausbeute eines problematischen Wettkampfes bei immerhin gutem Wettkampfwetter.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140619160338_Startluferinnen_3x800m_WKU12.jpg",
+                "local": "news_assets/5298/zoom_20140619160338_Startluferinnen_3x800m_WKU12.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-164-5297",
+        "id": "5297",
+        "title": "SOPHIA SALZWEDEL SIEGT BEI „ NACHT VON BORGHOLZHAUSEN“",
+        "date": "17. Juni 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140617113443_Sophia_Salzwedel.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">RLC-Neuzugang in der Trainingsgruppe von Thomas Vogl, Sophia Salzwedel, eilt weiter von Erfolg zu Erfolg. Bei der 39. Auflage der „ Nacht von Borgholzhausen“, einem anspruchsvollen 10km-3-Rundenkurs im Teutoburger Wald, <strong>siegte Sophia als erste deutsche Frau seit 2002.......</strong></font></b></p>",
+        "content_text": "RLC-Neuzugang in der Trainingsgruppe von Thomas Vogl, Sophia Salzwedel, eilt weiter von Erfolg zu Erfolg. Bei der 39. Auflage der „ Nacht von Borgholzhausen“, einem anspruchsvollen 10km-3-Rundenkurs im Teutoburger Wald,\nsiegte Sophia als erste deutsche Frau seit 2002.......",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140617113443_Sophia_Salzwedel.jpg",
+                "local": "news_assets/5297/zoom_20140617113443_Sophia_Salzwedel.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-165-5296",
+        "id": "5296",
+        "title": "U16-WESTFALENMEISTERSCHAFTEN – FRAUENPOWER IM RLC-TRIKOT",
+        "date": "15. Juni 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140615215947_Lisa_Hrden_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Mit nur sechs Mädels der Jahrgänge 1999/2000 musste Trainer Jürgen Albers die diesjährige Expedition zu den U16-Westfalenmeisterschaften am 15.06.2014 in Paderborn antreten; mit einem Vizemeisterinnentitel, zwei dritten und einem fünften Platz sowie diversen persönlichen Bestleistungen kehrte das kleine, aber feine Team nach Recklinghausen zurück.</font></b></p>",
+        "content_text": "Mit nur sechs Mädels der Jahrgänge 1999/2000 musste Trainer Jürgen Albers die diesjährige Expedition zu den U16-Westfalenmeisterschaften am 15.06.2014 in Paderborn antreten; mit einem Vizemeisterinnentitel, zwei dritten und einem fünften Platz sowie diversen persönlichen Bestleistungen kehrte das kleine, aber feine Team nach Recklinghausen zurück.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140615215947_Lisa_Hrden_bearb.jpg",
+                "local": "news_assets/5296/zoom_20140615215947_Lisa_Hrden_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-165-5295",
+        "id": "5295",
+        "title": "WAS LANGE WäHRT, WIRD ENDLICH........KLASSE!",
+        "date": "07. Juni 2014 -  07. Juni 2020",
+        "content_html": "<p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Die 4x100m-Staffeln der weiblichen Jugendklassen des Recklinghäuser LC nutzten das Gladbecker Borsig-Meeting am heutigen Pfingstsamstag dazu, sich in Wettkampfform zu bringen.</font></b></p>",
+        "content_text": "Die 4x100m-Staffeln der weiblichen Jugendklassen des Recklinghäuser LC nutzten das Gladbecker Borsig-Meeting am heutigen Pfingstsamstag dazu, sich in Wettkampfform zu bringen.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-165-5294",
+        "id": "5294",
+        "title": "ZEITPLANÄNDERUNG HOHENHORST-MEETING",
+        "date": "07. Juni 2014",
+        "content_html": "<p class=\"detailViewTop\"><b> Auf Grund der relativ großen Meldefelder im Weitsprung der W12/W13 wurde der Zeitplan angepasst:</b></p>",
+        "content_text": "Auf Grund der relativ großen Meldefelder im Weitsprung der W12/W13 wurde der Zeitplan angepasst:",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-166-5293",
+        "id": "5293",
+        "title": "RLC-LANGSTRECKLER MACHEN DUISBURG ERFOLGREICH UNSICHER",
+        "date": "03. Juni 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140603115928_RLC-Truppe_01_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Beim Rhein-Ruhr-Marathon am 01.06.2014 gingen einige Athleten der Langstrecklergruppe um Trainer Thomas Vogl gut vorbereitet an den Start, um zurück im heimischen Hohenhorst-Stadion gleich drei Pokale präsentieren zu können,...</font></b></p>",
+        "content_text": "Beim Rhein-Ruhr-Marathon am 01.06.2014 gingen einige Athleten der Langstrecklergruppe um Trainer Thomas Vogl gut vorbereitet an den Start, um zurück im heimischen Hohenhorst-Stadion gleich drei Pokale präsentieren zu können,...",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140603115928_RLC-Truppe_01_bearb.jpg",
+                "local": "news_assets/5293/zoom_20140603115928_RLC-Truppe_01_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-166-5256",
+        "id": "5256",
+        "title": "AUCH DER REGEN KONNTE SIE NICHT AUFHALTEN!",
+        "date": "30. Mai 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140602135617_Siegerehrung_3x800m_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Trotz des anhaltenden Land- und Nieselregens an Christi Himmelfahrt (29.05.2014) gelang es einigen der zum 61. Wittener Bahnstaffeltag angetretenen RLC-Staffeln, sich so richtig in Szene zu setzen.</font></b></p>",
+        "content_text": "Trotz des anhaltenden Land- und Nieselregens an Christi Himmelfahrt (29.05.2014) gelang es einigen der zum 61. Wittener Bahnstaffeltag angetretenen RLC-Staffeln, sich so richtig in Szene zu setzen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140602135617_Siegerehrung_3x800m_bearb.jpg",
+                "local": "news_assets/5256/zoom_20140602135617_Siegerehrung_3x800m_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-166-5255",
+        "id": "5255",
+        "title": "EIN ERFOLGREICHES RLC-WOCHENENDE",
+        "date": "26. Mai 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140526151406_Louisa_Hassel_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Mit den Bezirksmeisterschaften am 24.05. im „eigenen“ Stadion und den Kreiseinzelmeisterschaften und Kreisbestenkämpfen U10 – U14 am 25.05. in Halten-Sythen hat der Recklinghäuser LC ein ebenso anstrengendes wie erfolgreiches Wochenende bei bestem Leichtathletikwetter hinter sich gebracht.</font></b></p>",
+        "content_text": "Mit den Bezirksmeisterschaften am 24.05. im „eigenen“ Stadion und den Kreiseinzelmeisterschaften und Kreisbestenkämpfen U10 – U14 am 25.05. in Halten-Sythen hat der Recklinghäuser LC ein ebenso anstrengendes wie erfolgreiches Wochenende bei bestem Leichtathletikwetter hinter sich gebracht.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140526151406_Louisa_Hassel_bearb.jpg",
+                "local": "news_assets/5255/zoom_20140526151406_Louisa_Hassel_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-167-5254",
+        "id": "5254",
+        "title": "SAISONERöFFNUNG IM HOHENHORST-STADION – WIEDER EIN VOLLER ERFOLG",
+        "date": "19. Mai 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140519105621_Edda_01_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Bei anfangs kühlem, im späteren Verlauf bestem Leichtathletikwetter konnte der Recklinghäuser LC am 17.05.2014 sein 8. KIA-ENGBERT-Sportfest durchführen. Nachdem erst am Vortag die letzten Begleiterscheinungen der Blindgängersuche erledigt werden konnten,</b></p>",
+        "content_text": "Bei anfangs kühlem, im späteren Verlauf bestem Leichtathletikwetter konnte der Recklinghäuser LC am 17.05.2014 sein 8. KIA-ENGBERT-Sportfest durchführen. Nachdem erst am Vortag die letzten Begleiterscheinungen der Blindgängersuche erledigt werden konnten,",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140519105621_Edda_01_bearb.jpg",
+                "local": "news_assets/5254/zoom_20140519105621_Edda_01_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-167-5128",
+        "id": "5128",
+        "title": "ZEITPLANäNDERUNG BEIM KIA-ENGBERT-SPORTFEST",
+        "date": "15. Mai 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140515223847_Annika-Luisa_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Aufgrund hoher Meldezahlen insbesondere bei den 800m-Läufen des 8. KIA-ENGBERT-Sporfestes musste der Zeitplan für die abschließenden 400m- und 800m-Läufe ab 16.45 Uhr leicht entzerrt werden.</b></p>",
+        "content_text": "Aufgrund hoher Meldezahlen insbesondere bei den 800m-Läufen des 8. KIA-ENGBERT-Sporfestes musste der Zeitplan für die abschließenden 400m- und 800m-Läufe ab 16.45 Uhr leicht entzerrt werden.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140515223847_Annika-Luisa_bearb.jpg",
+                "local": "news_assets/5128/zoom_20140515223847_Annika-Luisa_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-167-5127",
+        "id": "5127",
+        "title": "RAHMENWETTKAMPFPLAN JU16 ONLINE",
+        "date": "11. Mai 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140511200223_Hrden_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>U16-Trainer Jürgen Albers hat für seine Athletinnen und Athleten für die Monate bis zum Wechsel in die Halle einen Rahmenwettkampfplan erarbeitet, der ab sofort hier abrufbar ....</b></p>",
+        "content_text": "U16-Trainer Jürgen Albers hat für seine Athletinnen und Athleten für die Monate bis zum Wechsel in die Halle einen Rahmenwettkampfplan erarbeitet, der ab sofort hier abrufbar ....",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140511200223_Hrden_bearb.jpg",
+                "local": "news_assets/5127/zoom_20140511200223_Hrden_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-168-5126",
+        "id": "5126",
+        "title": "ERSTER FREILUFT-TEST FüR WJU16-ATHLETINNEN",
+        "date": "10. Mai 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140510220852_Lea_300mbearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Als Saisonauftakt für Sprints und Staffeln hatte die U16-Trainingsgruppe von Jürgen Albers sich das Jens-Heinrichs-Gedächtnissportfest am 10.05.2014 in Olfen ausgeguckt. Nicht unbedingt die glücklichste Wahl angesichts von strömenden Regen und Gegenwind von 2,5m/sec und mehr. Egal: die 9 angetretennen Mädels stellten deutlich unter Beweis, wie erfolgreich ihr Ostertrainingslager auf Norderney gewesen ist.</font></b></p>",
+        "content_text": "Als Saisonauftakt für Sprints und Staffeln hatte die U16-Trainingsgruppe von Jürgen Albers sich das Jens-Heinrichs-Gedächtnissportfest am 10.05.2014 in Olfen ausgeguckt. Nicht unbedingt die glücklichste Wahl angesichts von strömenden Regen und Gegenwind von 2,5m/sec und mehr. Egal: die 9 angetretennen Mädels stellten deutlich unter Beweis, wie erfolgreich ihr Ostertrainingslager auf Norderney gewesen ist.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140510220852_Lea_300mbearb.jpg",
+                "local": "news_assets/5126/zoom_20140510220852_Lea_300mbearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-168-5125",
+        "id": "5125",
+        "title": "FRANZISKA KOCH SPRINGT BESTLEISTUNG",
+        "date": "03. Mai 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140503182108_Franziska_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Beim traditionellen Werfer- und Stabhochsprungtag des USC Bochum am 01.05.2014 auf dem Universitätssportplatz stellte Franziska Koch, W14, mit 2,72m wieder einmal ihr Stabhochsprungtalent unter Beweis.</font></b></p>",
+        "content_text": "Beim traditionellen Werfer- und Stabhochsprungtag des USC Bochum am 01.05.2014 auf dem Universitätssportplatz stellte Franziska Koch, W14, mit 2,72m wieder einmal ihr Stabhochsprungtalent unter Beweis.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140503182108_Franziska_bearb.jpg",
+                "local": "news_assets/5125/zoom_20140503182108_Franziska_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-168-5122",
+        "id": "5122",
+        "title": "TRAININGSPLAN SOMMERSAISON 2014",
+        "date": "11. April 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140411211122_Bohrlcher_01bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Nachdem das Stadion Hohenhorst bereits seit einer Woche zumindest eingeschränkt durch die Leichtathleten wieder genutzt werden darf (s.Foto einiger Bohrlöcher), wird ab dem 28.04.2014 der Sommertrainingsplan 2014 in Kraft gesetzt.</b></p>",
+        "content_text": "Nachdem das Stadion Hohenhorst bereits seit einer Woche zumindest eingeschränkt durch die Leichtathleten wieder genutzt werden darf (s.Foto einiger Bohrlöcher), wird ab dem 28.04.2014 der Sommertrainingsplan 2014 in Kraft gesetzt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140411211122_Bohrlcher_01bearb.jpg",
+                "local": "news_assets/5122/zoom_20140411211122_Bohrlcher_01bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-169-5119",
+        "id": "5119",
+        "title": "NEUER RLC-VORSTAND",
+        "date": "11. April 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140411204454_Vorstand_2014_01bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Seit der letzten Jahreshauptversammlung am 18.03.2014 hat der Recklinghäuser LC eine neue Vorstandscrew. Nach der Entlastung des bisherigen Vorstandes stellte der Erste Vorsitzende, Friedrich Gerke, erwartungsgemäß seine Funktion zur Disposition. </b></p>",
+        "content_text": "Seit der letzten Jahreshauptversammlung am 18.03.2014 hat der Recklinghäuser LC eine neue Vorstandscrew. Nach der Entlastung des bisherigen Vorstandes stellte der Erste Vorsitzende, Friedrich Gerke, erwartungsgemäß seine Funktion zur Disposition.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140411204454_Vorstand_2014_01bearb.jpg",
+                "local": "news_assets/5119/zoom_20140411204454_Vorstand_2014_01bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-169-5116",
+        "id": "5116",
+        "title": "DR. RüDIGER KRUSE – DEUTSCHER ÄRZTEMEISTER 2014",
+        "date": "06. April 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140406160721_Rdiger_04.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Bei den Deutschen Meisterschaften der Ärzte und Apotheker im 10km-Strassenlauf, ausgetragen im Rahmen des 14. Bad Schmiedeberger Brunnenlaufes am 05.04.2014, siegte der langjährig erfolgreiche RLC-Läufer Dr. Rüdiger Kruse in der Altersklasse M55 mit </font>über einer Minute</b></p>",
+        "content_text": "Bei den Deutschen Meisterschaften der Ärzte und Apotheker im 10km-Strassenlauf, ausgetragen im Rahmen des 14. Bad Schmiedeberger Brunnenlaufes am 05.04.2014, siegte der langjährig erfolgreiche RLC-Läufer Dr. Rüdiger Kruse in der Altersklasse M55 mit\nüber einer Minute",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140406160721_Rdiger_04.jpg",
+                "local": "news_assets/5116/zoom_20140406160721_Rdiger_04.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-169-5115",
+        "id": "5115",
+        "title": "KREISMEISTERSCHAFTEN CROSSLAUF: ALLE TITEL FEST IN RLC-U12-HAND",
+        "date": "23. März 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140323174415_MKU12_Siegerehrung_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Bei den Kreismeisterschaften im Crosslauf, ausgetragen am 23.03.2014 in Oer-Erkenschwick rund um den Dachsberg, konnten die RLC-Athleten gleich mehrfach auftrumpfen. Insbesondere die Mädels und Jungen der AK U12 zeigten dem Rest des Kreises Recklinghausen die Fersen:</font></b></p>",
+        "content_text": "Bei den Kreismeisterschaften im Crosslauf, ausgetragen am 23.03.2014 in Oer-Erkenschwick rund um den Dachsberg, konnten die RLC-Athleten gleich mehrfach auftrumpfen. Insbesondere die Mädels und Jungen der AK U12 zeigten dem Rest des Kreises Recklinghausen die Fersen:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140323174415_MKU12_Siegerehrung_bearb.jpg",
+                "local": "news_assets/5115/zoom_20140323174415_MKU12_Siegerehrung_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-170-5113",
+        "id": "5113",
+        "title": "U12-KIDS LIEFERN PRIMA ERGEBNISSE IN DER HALLE",
+        "date": "09. März 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140309195206_KU12_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Mit insgesamt 13 Mitgliedern der U12-Wettkampfmannschaft war der Recklinghäuser LC beim Hallensportfest des Kreises Dortmund am 09.03.2014 in der Dortmunder Helmut-Körnig-Halle vertreten. Die neun- bis elfjährigen Mädels und Jungen trafen dabei auf stärkste Konkurrenz insbesondere aus den Niederlanden, Belgien und Ungarn und stellten fest, dass so eine Veranstaltung mit einer Kreismeisterschaft nicht zu vergleichen ist. 40 bzw. 44 Starterinnen in den Klassen W10 und W11 sind schon eine Menge.</font></b></p>",
+        "content_text": "Mit insgesamt 13 Mitgliedern der U12-Wettkampfmannschaft war der Recklinghäuser LC beim Hallensportfest des Kreises Dortmund am 09.03.2014 in der Dortmunder Helmut-Körnig-Halle vertreten. Die neun- bis elfjährigen Mädels und Jungen trafen dabei auf stärkste Konkurrenz insbesondere aus den Niederlanden, Belgien und Ungarn und stellten fest, dass so eine Veranstaltung mit einer Kreismeisterschaft nicht zu vergleichen ist. 40 bzw. 44 Starterinnen in den Klassen W10 und W11 sind schon eine Menge.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140309195206_KU12_bearb.jpg",
+                "local": "news_assets/5113/zoom_20140309195206_KU12_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-170-5112",
+        "id": "5112",
+        "title": "ERSTER WESTFALENTITEL FüR LEA KURDELBAUM",
+        "date": "02. März 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140302204131_Leas_Pferdchen_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Westfälischen U16-Meisterschaften am 02.03.2014 in Paderborn gelang es der erst 14- jährigen RLC-Läuferin Lea Kurdelbaum ihren ersten Platz aus der Meldeliste über 300m W15 auch im Ziel zu verteidigen: mit der neuen deutschen Jahresbestzeit von 41,24sec verbesserte sie ihre Meldeleistung um 43 Hundertstel und durfte damit das ersehnte erste Westfalenpferdchen in Empfang nehmen.</b></p>",
+        "content_text": "Bei den Westfälischen U16-Meisterschaften am 02.03.2014 in Paderborn gelang es der erst 14- jährigen RLC-Läuferin Lea Kurdelbaum ihren ersten Platz aus der Meldeliste über 300m W15 auch im Ziel zu verteidigen: mit der neuen deutschen Jahresbestzeit von 41,24sec verbesserte sie ihre Meldeleistung um 43 Hundertstel und durfte damit das ersehnte erste Westfalenpferdchen in Empfang nehmen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140302204131_Leas_Pferdchen_bearb.jpg",
+                "local": "news_assets/5112/zoom_20140302204131_Leas_Pferdchen_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-170-5111",
+        "id": "5111",
+        "title": "U14 - JUGEND ROCKT DIE KöRNIG-HALLE",
+        "date": "23. Februar 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140223224228_Louisa_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Zum  Abschluss der Wintersaison bewiesen insgesamt zwölf U14-Athletinnen und -Athleten am 23.02.2014 in der Dortmunder Helmut-Körnig-Halle, dass sie trotz monatelangem Verzicht auf die guten Trainingsbedingungen im Stadion Hohenhorst ihre  Leistungsfähigkeit weiter ausbauen konnten. Gleich 14 neue Bestleistungen und drei Siege konnten die jungen Recklinghäuser auf ihrer Habenseite verbuchen.</font></b></p>",
+        "content_text": "Zum  Abschluss der Wintersaison bewiesen insgesamt zwölf U14-Athletinnen und -Athleten am 23.02.2014 in der Dortmunder Helmut-Körnig-Halle, dass sie trotz monatelangem Verzicht auf die guten Trainingsbedingungen im Stadion Hohenhorst ihre  Leistungsfähigkeit weiter ausbauen konnten. Gleich 14 neue Bestleistungen und drei Siege konnten die jungen Recklinghäuser auf ihrer Habenseite verbuchen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140223224228_Louisa_bearb.jpg",
+                "local": "news_assets/5111/zoom_20140223224228_Louisa_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-171-5110",
+        "id": "5110",
+        "title": "GELUNGENE GENERALPROBE FüR U16-JUGEND IN MüNSTER",
+        "date": "16. Februar 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140216222739_Siegerehrung_Sarah_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Beim Hallensportfest am 16.02.2014 in Münster stellten die Mädels und Jungs aus der Trainingsgruppe von Jürgen Albers abschließend unter Beweis, wie gut sie auf die Westfälischen U16-Meisterschaften am 02.03.2014 in Paderborn vorbereitet sind: Top-Plazierungen, persönliche Bestleistungen und Qualis fielen wie am Schnürchen.</font></b></p>",
+        "content_text": "Beim Hallensportfest am 16.02.2014 in Münster stellten die Mädels und Jungs aus der Trainingsgruppe von Jürgen Albers abschließend unter Beweis, wie gut sie auf die Westfälischen U16-Meisterschaften am 02.03.2014 in Paderborn vorbereitet sind: Top-Plazierungen, persönliche Bestleistungen und Qualis fielen wie am Schnürchen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140216222739_Siegerehrung_Sarah_bearb.jpg",
+                "local": "news_assets/5110/zoom_20140216222739_Siegerehrung_Sarah_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-171-5109",
+        "id": "5109",
+        "title": "DJM IN SINDELFINGEN – MARITA SCHULTE SPRINGT TROTZ SCHLECHTESTER VORAUSSETZUNGEN 3,70M",
+        "date": "15. Februar 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140215183314_Marita_01.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Die diesjährigen Deutschen U20-Hallenmeisterschaften am 15.02.2014 in Sindelfingen wird Marita Schulte so schnell nicht vergessen. Im Vorfeld durch Erkrankungen gehandicapt, reiste sie bereits am Freitag an, um ausgeruht an den Start gehen zu können. Trainer Wolfgang Mohr und ihre Stäbe sollten von Mutter Andrea Schulte im Laufe des Samstags nachgebracht werden. Sollten.....</font></b></p>",
+        "content_text": "Die diesjährigen Deutschen U20-Hallenmeisterschaften am 15.02.2014 in Sindelfingen wird Marita Schulte so schnell nicht vergessen. Im Vorfeld durch Erkrankungen gehandicapt, reiste sie bereits am Freitag an, um ausgeruht an den Start gehen zu können. Trainer Wolfgang Mohr und ihre Stäbe sollten von Mutter Andrea Schulte im Laufe des Samstags nachgebracht werden. Sollten.....",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140215183314_Marita_01.jpg",
+                "local": "news_assets/5109/zoom_20140215183314_Marita_01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-171-5108",
+        "id": "5108",
+        "title": "MARITA SCHULTE WIEDER AUF DEM WEG NACH OBEN",
+        "date": "03. Februar 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140203145459_Jan_200m_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Zwei Athleten des Recklinghäuser LC durften sich im Rahmen der Westdeutschen Meisterschaften der Frauen, Männer und JU20 am 02.02.2014 in Leverkusen auf dem Siegerpodest einfinden: Marita Schulte zeigte sich nach Erkrankung wieder erstarkt und belegte höhengleich mit der Zweitplatzierten Luisa Schaar den 3. Platz im Stabhochsprung WJU20, während Jan Kirstein über 200m MJU20 in 23,75sec auf dem 8. Rang landete.</font></b></p>",
+        "content_text": "Zwei Athleten des Recklinghäuser LC durften sich im Rahmen der Westdeutschen Meisterschaften der Frauen, Männer und JU20 am 02.02.2014 in Leverkusen auf dem Siegerpodest einfinden: Marita Schulte zeigte sich nach Erkrankung wieder erstarkt und belegte höhengleich mit der Zweitplatzierten Luisa Schaar den 3. Platz im Stabhochsprung WJU20, während Jan Kirstein über 200m MJU20 in 23,75sec auf dem 8. Rang landete.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140203145459_Jan_200m_bearb.jpg",
+                "local": "news_assets/5108/zoom_20140203145459_Jan_200m_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-172-5107",
+        "id": "5107",
+        "title": "VIELE WIRKLICH GUTE ERGEBNISSE BEI HALLENSPORTFEST",
+        "date": "02. Februar 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140202232220_Tim_hoch_02bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Vom Hallensportfest des PTSV-Dortmund am 02.02.2014 in der Helmut-Körnig-Halle kehrte eine Vielzahl der RLC-Nachwuchs-Athleten mit richtig guten Ergebnissen nach Hause zu zurück.</font></b></p>",
+        "content_text": "Vom Hallensportfest des PTSV-Dortmund am 02.02.2014 in der Helmut-Körnig-Halle kehrte eine Vielzahl der RLC-Nachwuchs-Athleten mit richtig guten Ergebnissen nach Hause zu zurück.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140202232220_Tim_hoch_02bearb.jpg",
+                "local": "news_assets/5107/zoom_20140202232220_Tim_hoch_02bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-172-5090",
+        "id": "5090",
+        "title": "LICHT UND SCHATTEN BEI WESTFäLISCHEN U20-MEISTERSCHAFTEN",
+        "date": "26. Januar 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140126211930_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Die U20-Meisterschaften am 26.01.2014 in der Bielefelder Seidenstickerhalle brachten dem Recklinghäuser LC positive und negative Erfahrungen:</font></b></p>",
+        "content_text": "Die U20-Meisterschaften am 26.01.2014 in der Bielefelder Seidenstickerhalle brachten dem Recklinghäuser LC positive und negative Erfahrungen:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140126211930_bearb.jpg",
+                "local": "news_assets/5090/zoom_20140126211930_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-172-5062",
+        "id": "5062",
+        "title": "RLC-STAFFELN BEI WESTFALENMEISTERSCHAFTEN TOP",
+        "date": "18. Januar 2014 -  18. Januar 2020",
+        "content_html": "<p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Bei den Westfälischen Hallenmeisterschaften der Frauen, Männer und U18-Jugend am 18.01.2014 in der Dortmunder Helmut-Körnig-Halle haben die 4x200m-Jugend-Staffeln des Recklinghäuser LC an die jahrelange Tradition laufstarker Staffeln im RLC-Trikot angeknüpft:</font></b></p>",
+        "content_text": "Bei den Westfälischen Hallenmeisterschaften der Frauen, Männer und U18-Jugend am 18.01.2014 in der Dortmunder Helmut-Körnig-Halle haben die 4x200m-Jugend-Staffeln des Recklinghäuser LC an die jahrelange Tradition laufstarker Staffeln im RLC-Trikot angeknüpft:",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-173-5061",
+        "id": "5061",
+        "title": "RLC-JUGEND STARTET MIT BESTLEISTUNGEN IN HALLENSAISON",
+        "date": "13. Januar 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140113113149_Lea_Kurdelbaum_Portrt.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Beim Hallensportfest am 12.01.2014 in der Dortmunder Helmut-Körnig-Halle stellte eine Reihe Jugendlicher aus den Trainingsgruppen von Jürgen Albers und Ludger Zander ihre Sprintqualitäten unter Beweis.</font></b></p>",
+        "content_text": "Beim Hallensportfest am 12.01.2014 in der Dortmunder Helmut-Körnig-Halle stellte eine Reihe Jugendlicher aus den Trainingsgruppen von Jürgen Albers und Ludger Zander ihre Sprintqualitäten unter Beweis.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140113113149_Lea_Kurdelbaum_Portrt.jpg",
+                "local": "news_assets/5061/zoom_20140113113149_Lea_Kurdelbaum_Portrt.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-173-5060",
+        "id": "5060",
+        "title": "TRAININGSZEITENäNDERUNG U10 / U12",
+        "date": "11. Januar 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140111201408_Mannschaft_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Da das Freilufttraininng der U10 / U12-Kinder (Jahrgänge 2003 - 2006), in der Wintersaison bisher Dienstags, 18.00 - 19.30 Uhr unter Flutlicht, wegen des Blindgängerverdachtes im Stadion Hohenhorst derzeit nicht im Stadion stattfinden kann,.....</b></p>",
+        "content_text": "Da das Freilufttraininng der U10 / U12-Kinder (Jahrgänge 2003 - 2006), in der Wintersaison bisher Dienstags, 18.00 - 19.30 Uhr unter Flutlicht, wegen des Blindgängerverdachtes im Stadion Hohenhorst derzeit nicht im Stadion stattfinden kann,.....",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140111201408_Mannschaft_bearb.jpg",
+                "local": "news_assets/5060/zoom_20140111201408_Mannschaft_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-173-5003",
+        "id": "5003",
+        "title": "SILVESTERLAUF: ERGEBNISLISTE UND URKUNDENDRUCK",
+        "date": "31. Dezember 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20140102150630_Laufen_macht_Spa_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Die <a href=\"../silvesterlauf13/ergebnisliste\">Ergebnisliste</a> des Silvesterlaufs und der <a href=\"../silvesterlauf13/urkunden\">Urkundendruck</a> sind nun online. Ebenso die aktuellen Fotos auf der Fotoseite....</b></p>",
+        "content_text": "Die\nErgebnisliste\ndes Silvesterlaufs und der\nUrkundendruck\nsind nun online. Ebenso die aktuellen Fotos auf der Fotoseite....",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20140102150630_Laufen_macht_Spa_bearb.jpg",
+                "local": "news_assets/5003/zoom_20140102150630_Laufen_macht_Spa_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-174-4597",
+        "id": "4597",
+        "title": "27. RECKLINGHäUSER SILVESTERLAUF: GEäNDERTER STRECKENVERLAUF",
+        "date": "18. Dezember 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20131218103311_Start_5km_02_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Aufgrund der Stadionsperrung wegen Blindgängerverdacht muss der Recklinghäuser Silvesterlauf in diesem Jahr mit leicht geänderten Streckenverläufen durchgeführt werden: Start und Ziel werden nicht<strong> im</strong> Stadion, sondern <strong>vor</strong> dem Stadion plaziert.</font></b></p>",
+        "content_text": "Aufgrund der Stadionsperrung wegen Blindgängerverdacht muss der Recklinghäuser Silvesterlauf in diesem Jahr mit leicht geänderten Streckenverläufen durchgeführt werden: Start und Ziel werden nicht\nim\nStadion, sondern\nvor\ndem Stadion plaziert.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20131218103311_Start_5km_02_bearb.jpg",
+                "local": "news_assets/4597/zoom_20131218103311_Start_5km_02_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-174-4596",
+        "id": "4596",
+        "title": "SAME PROCEDERE AS.....",
+        "date": "13. Dezember 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20131213211807_Siegerehrung_02_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Die Jugendligawertung des Fussball- und Leichtathletik-Verbands Westfalen, Kreis Recklinghausen, im abgelaufenen Wettkampfjahr 2013 haben wieder einmal die Athletinnen und Athleten des Recklinghäuser LC für sich entscheiden können, diesmal mit 1273 Punkten vor der LA SV Herten mit 607 und DJK Teutonia Waltrop mit 606 Punkten.</font></b></p>",
+        "content_text": "Die Jugendligawertung des Fussball- und Leichtathletik-Verbands Westfalen, Kreis Recklinghausen, im abgelaufenen Wettkampfjahr 2013 haben wieder einmal die Athletinnen und Athleten des Recklinghäuser LC für sich entscheiden können, diesmal mit 1273 Punkten vor der LA SV Herten mit 607 und DJK Teutonia Waltrop mit 606 Punkten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20131213211807_Siegerehrung_02_bearb.jpg",
+                "local": "news_assets/4596/zoom_20131213211807_Siegerehrung_02_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-174-4556",
+        "id": "4556",
+        "title": "NIKOLAUSSPORTFEST -  WIE IMMER EIN VOLLES HAUS!",
+        "date": "10. Dezember 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20131210144904_Timo_Mediball_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Das traditionelle Nikolaussportfest des Recklinghäuser LC fand am 09.12.2013 unter großer Resonanz der Nachwuchsleichtathleten des RLC in der Vestischen Arena Alfons Schütt statt.</b></p>",
+        "content_text": "Das traditionelle Nikolaussportfest des Recklinghäuser LC fand am 09.12.2013 unter großer Resonanz der Nachwuchsleichtathleten des RLC in der Vestischen Arena Alfons Schütt statt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20131210144904_Timo_Mediball_bearb.jpg",
+                "local": "news_assets/4556/zoom_20131210144904_Timo_Mediball_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-175-4555",
+        "id": "4555",
+        "title": "UND SIE LAUFEN NOCH IMMER....  ERFOLGREICH",
+        "date": "05. Dezember 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20131205212533_Christian-Thomas.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\"><font size=\"2\">Für die letzte Kreismeisterschaft des Jahres 2013, traditionell der Halbmarathon in Herten-Bertlich diesmal am 01.12.2013, hatten mit Christian Heimbrock, Thomas Woiczech, Martin Hartwig, Markus Sterna und Julia Kotte fünf laufstarke RLC-LäuferInnen gemeldet, die ihren Vorschusslorbeeren auch gerecht werden konnten.</font></font></b></p>",
+        "content_text": "Für die letzte Kreismeisterschaft des Jahres 2013, traditionell der Halbmarathon in Herten-Bertlich diesmal am 01.12.2013, hatten mit Christian Heimbrock, Thomas Woiczech, Martin Hartwig, Markus Sterna und Julia Kotte fünf laufstarke RLC-LäuferInnen gemeldet, die ihren Vorschusslorbeeren auch gerecht werden konnten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20131205212533_Christian-Thomas.jpg",
+                "local": "news_assets/4555/zoom_20131205212533_Christian-Thomas.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-175-4554",
+        "id": "4554",
+        "title": "WESTFäLISCHE MEISTERSCHAFTEN IM CROSSLAUF – RLC-ERFOLGE AUF GANZER LINIE",
+        "date": "17. November 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20131117115738_Cross-Mannschaft_01_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Acht Starter hatte der Recklinghäuser LC für die unterschiedlichen Strecken und Altersklassen bei den Westfälischen Crosslaufmeisterschaften am 16.11.2013 in Oelde gemeldet – sieben fanden sich auf dem Siegertreppchen wieder.</b></p>",
+        "content_text": "Acht Starter hatte der Recklinghäuser LC für die unterschiedlichen Strecken und Altersklassen bei den Westfälischen Crosslaufmeisterschaften am 16.11.2013 in Oelde gemeldet – sieben fanden sich auf dem Siegertreppchen wieder.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20131117115738_Cross-Mannschaft_01_bearb.jpg",
+                "local": "news_assets/4554/zoom_20131117115738_Cross-Mannschaft_01_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-175-4553",
+        "id": "4553",
+        "title": "LEIDER WIEDER AUFNAHMESPERRE!",
+        "date": "12. November 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20131112153632_Newsfoto_Kids.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Bedingt durch das hohe Interesse, dass den Kindergruppen des RLC in der letzten Woche zuteil wurde, besteht ab sofort wieder eine Aufnahmesperre für Kinder der Altersklasse U10 = Jahrgang 2005/2006, die gerne am Montag in der Vestischen Arena Alfons Schütt trainieren würden. </font></b></p>",
+        "content_text": "Bedingt durch das hohe Interesse, dass den Kindergruppen des RLC in der letzten Woche zuteil wurde, besteht ab sofort wieder eine Aufnahmesperre für Kinder der Altersklasse U10 = Jahrgang 2005/2006, die gerne am Montag in der Vestischen Arena Alfons Schütt trainieren würden.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20131112153632_Newsfoto_Kids.jpg",
+                "local": "news_assets/4553/zoom_20131112153632_Newsfoto_Kids.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-176-4552",
+        "id": "4552",
+        "title": "FAMILIE KRUSE LAUFEND UNTERWEGS",
+        "date": "01.  -  03. November2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20131103201626_Leonie.jpg\"/></div><p class=\"detailViewTop\"><b>Für den Dorstener Sparkassenlauf am 02.11.2013 hatten von den RLClern die Familie Kruse mit Sabine, Leonie und Rüdiger Kruse sowie Nils Hartleif gemeldet = ein richtiger Erfolg für alle vier.</b></p>",
+        "content_text": "Für den Dorstener Sparkassenlauf am 02.11.2013 hatten von den RLClern die Familie Kruse mit Sabine, Leonie und Rüdiger Kruse sowie Nils Hartleif gemeldet = ein richtiger Erfolg für alle vier.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20131103201626_Leonie.jpg",
+                "local": "news_assets/4552/zoom_20131103201626_Leonie.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-176-4551",
+        "id": "4551",
+        "title": "ÜBUNGSLEITER GESUCHT!",
+        "date": "02. November 2013",
+        "content_html": "<p class=\"detailViewTop\"><b>Wir brauchen dringend Verstärkung und suchen dafür je eine/n Übungsleiter/-in: <ul><li>für zwei Mutter-Vater-Kind-Gruppen (immer mittwochs, 16.00 – 17.00 Uhr bzw. 17.00 – 18.00 Uhr, Hohenzollernschule)</li></ul><ul><li>für unsere Ü40 – Aerobic-Gruppe (ab Januar 2014 immer mittwochs, 20.00 – 21.30 Uhr, Hohenzollernschule)</li></ul><p>Interessenten wenden sich bitte an: Barbara Ziesmer-Praßni, Email: geschaeftsfuehrung@rlc1952.de, Tel. 02361/9049300 </p></b></p>",
+        "content_text": "Wir brauchen dringend Verstärkung und suchen dafür je eine/n Übungsleiter/-in:\nfür zwei Mutter-Vater-Kind-Gruppen (immer mittwochs, 16.00 – 17.00 Uhr bzw. 17.00 – 18.00 Uhr, Hohenzollernschule)\nfür unsere Ü40 – Aerobic-Gruppe (ab Januar 2014 immer mittwochs, 20.00 – 21.30 Uhr, Hohenzollernschule)\nInteressenten wenden sich bitte an: Barbara Ziesmer-Praßni, Email: geschaeftsfuehrung@rlc1952.de, Tel. 02361/9049300",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-176-4550",
+        "id": "4550",
+        "title": "CHRISTIAN HEIMBROCK: 3H-MARATHONI",
+        "date": "22. Oktober 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20131022213614_Christian_Heimbrock_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>RLC-Rückkehrer Christian Heimbrock, der sich schon im Juli mit einer 5000m Bahnbestzeit in den Kreis der Trainingsgruppe der Langstreckler um Thomas Vogel zurückgemeldet hatte, absolvierte nun seinen zweiten Marathonstart. Bei der 51. Auflage des Marathon \"Rund um den Baldeneysee\" am 13.10. schaffte er bei besten Witterungsverhältnissen in einem taktisch guten Rennen eine neue Bestzeit von <strong>2:51:34 h</strong>.</b></p>",
+        "content_text": "RLC-Rückkehrer Christian Heimbrock, der sich schon im Juli mit einer 5000m Bahnbestzeit in den Kreis der Trainingsgruppe der Langstreckler um Thomas Vogel zurückgemeldet hatte, absolvierte nun seinen zweiten Marathonstart. Bei der 51. Auflage des Marathon \"Rund um den Baldeneysee\" am 13.10. schaffte er bei besten Witterungsverhältnissen in einem taktisch guten Rennen eine neue Bestzeit von\n2:51:34 h\n.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20131022213614_Christian_Heimbrock_bearb.jpg",
+                "local": "news_assets/4550/zoom_20131022213614_Christian_Heimbrock_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-177-4543",
+        "id": "4543",
+        "title": "NICHT NUR U12-KIDS BEIM CROSSLAUF ERFOLGREICH",
+        "date": "13. Oktober 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20131016175403_Staffel_01_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Einige U12-Kids hatten nach Abschluss der Sommerwettkampfsaison Lust, mal wieder im Crosslauf an den Start zu gehen und taten dies beim 14. Hertener Crosslauf der LA Spvgg Herten am 13.10.2013 im Bakumer Tal.</font></b></p>",
+        "content_text": "Einige U12-Kids hatten nach Abschluss der Sommerwettkampfsaison Lust, mal wieder im Crosslauf an den Start zu gehen und taten dies beim 14. Hertener Crosslauf der LA Spvgg Herten am 13.10.2013 im Bakumer Tal.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20131016175403_Staffel_01_bearb.jpg",
+                "local": "news_assets/4543/zoom_20131016175403_Staffel_01_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-177-4542",
+        "id": "4542",
+        "title": "ERFOLGREICH VOM SPRINT ZUM MARATHON",
+        "date": "12. Oktober 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20131015145820_Katja_02.jpg\"/></div><p class=\"detailViewTop\"><b>Vom Berlin-Marathon am 28./29.09.2013 kehrte die strahlende RLC-Läuferin Katja Nau ( F )  mit einer persönlichen Bestleistung von 4:23,47h nach Recklinghausen zurück.</b></p>",
+        "content_text": "Vom Berlin-Marathon am 28./29.09.2013 kehrte die strahlende RLC-Läuferin Katja Nau ( F )  mit einer persönlichen Bestleistung von 4:23,47h nach Recklinghausen zurück.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20131015145820_Katja_02.jpg",
+                "local": "news_assets/4542/zoom_20131015145820_Katja_02.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-177-4540",
+        "id": "4540",
+        "title": "OLYMPISCHE RLC-STAFFEL SIEGT BEI LäUFERTAG",
+        "date": "05. Oktober 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20131005214600_Luise_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Beim traditionellen Kehraus-Läufertag am 03.10.2013 im LA-Stadion des VFL Bochum siegte die olympische Frauenstaffel des RLC in der Besetzung: Nina Jörden/400m, Carolin Oenning/200m, Luise Möllhoff/200m und Kerstin Hlinski/800m überlegen in 4:42,33min vor der Staffel des VFL Bochum, die 70 Sekunden mehr benötigte.</b></p>",
+        "content_text": "Beim traditionellen Kehraus-Läufertag am 03.10.2013 im LA-Stadion des VFL Bochum siegte die olympische Frauenstaffel des RLC in der Besetzung: Nina Jörden/400m, Carolin Oenning/200m, Luise Möllhoff/200m und Kerstin Hlinski/800m überlegen in 4:42,33min vor der Staffel des VFL Bochum, die 70 Sekunden mehr benötigte.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20131005214600_Luise_bearb.jpg",
+                "local": "news_assets/4540/zoom_20131005214600_Luise_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-178-4488",
+        "id": "4488",
+        "title": "ERFOLGREICHER SAISONABSCHLUSS IM STADION HOHENHORST",
+        "date": "29. September 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130929161005_Tim_hoch_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Traditionell drei Wochen nach den Sommerferien richtet der Recklinghäuser LC in Form der Offenen Stadtmeisterschaften, diesmal in der 30. Wiederholung am 28.09. 2013, den Saisonabschluss der Leichtathleten im Stadion Hohenhorst aus.</font></b></p>",
+        "content_text": "Traditionell drei Wochen nach den Sommerferien richtet der Recklinghäuser LC in Form der Offenen Stadtmeisterschaften, diesmal in der 30. Wiederholung am 28.09. 2013, den Saisonabschluss der Leichtathleten im Stadion Hohenhorst aus.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130929161005_Tim_hoch_bearb.jpg",
+                "local": "news_assets/4488/zoom_20130929161005_Tim_hoch_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-178-4487",
+        "id": "4487",
+        "title": "RLC-TEAM BEI WESTFALENFINALE AUF PLATZ 5",
+        "date": "21. September 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130922141622_Gruppenfoto_3_DJMM_2013_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Das weibliche U14-DJMM-Team von Trainer Sebastian Stephani bestätigte beim Westfalenfinale am 21.09.2013 in Gütersloh in der Gruppe 3 mit guten Leistungen seinen 5. Rang, den es sich im Qualifikationswettkampf am 17.07.2013 erkämpft hatte.</font></b></p>",
+        "content_text": "Das weibliche U14-DJMM-Team von Trainer Sebastian Stephani bestätigte beim Westfalenfinale am 21.09.2013 in Gütersloh in der Gruppe 3 mit guten Leistungen seinen 5. Rang, den es sich im Qualifikationswettkampf am 17.07.2013 erkämpft hatte.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130922141622_Gruppenfoto_3_DJMM_2013_bearb.jpg",
+                "local": "news_assets/4487/zoom_20130922141622_Gruppenfoto_3_DJMM_2013_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-178-4486",
+        "id": "4486",
+        "title": "BIANCA BRODA BEI DM AUF PLATZ 8",
+        "date": "25. August 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130825181024_Bianca_hoch_quer_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Deutschen Mehrkampfmeisterschaften in Lage an diesem Wochenende hat Bianca Broda sich einen Platz unter den besten Acht erkämpft.</b></p>",
+        "content_text": "Bei den Deutschen Mehrkampfmeisterschaften in Lage an diesem Wochenende hat Bianca Broda sich einen Platz unter den besten Acht erkämpft.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130825181024_Bianca_hoch_quer_bearb.jpg",
+                "local": "news_assets/4486/zoom_20130825181024_Bianca_hoch_quer_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-179-4484",
+        "id": "4484",
+        "title": "RLC-ATHLETINNEN ERHALTEN EINLADUNG ZUM LäNDERKAMPF",
+        "date": "20. August 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130820185115_Joline_02_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Mit Annique Busch ( W15 ) und Joline Koenig ( W15, Foto ), erhielten dieser Tage gleich zwei Athletinnen im RLC-Trikot eine Einladung des FLVW zum Länderkampf gegen die Niederlande am 07.09.2013 in Almelo.</b></p>",
+        "content_text": "Mit Annique Busch ( W15 ) und Joline Koenig ( W15, Foto ), erhielten dieser Tage gleich zwei Athletinnen im RLC-Trikot eine Einladung des FLVW zum Länderkampf gegen die Niederlande am 07.09.2013 in Almelo.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130820185115_Joline_02_bearb.jpg",
+                "local": "news_assets/4484/zoom_20130820185115_Joline_02_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-179-4473",
+        "id": "4473",
+        "title": "RLC-STAFFEL SPRINTET INS FINALE",
+        "date": "28. Juli 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130728153352_Staffel_03_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Bei den Deutschen Jugendmeisterschaften in Rostock ist es dem RLC-Quartett Jacqueline Duda, Elena Hütter, Maren Albers und Isabell Oenning allen Widrigkeiten zum Trotz gelungen, über 4 x 100m WJU20 ins B-Finale zu stürmen.</font></b></p>",
+        "content_text": "Bei den Deutschen Jugendmeisterschaften in Rostock ist es dem RLC-Quartett Jacqueline Duda, Elena Hütter, Maren Albers und Isabell Oenning allen Widrigkeiten zum Trotz gelungen, über 4 x 100m WJU20 ins B-Finale zu stürmen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130728153352_Staffel_03_bearb.jpg",
+                "local": "news_assets/4473/zoom_20130728153352_Staffel_03_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-179-4472",
+        "id": "4472",
+        "title": "ISABELL OENNING ERREICHT üBER 100M HALBFINALE",
+        "date": "26. Juli 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130726185840_Isabell__02bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Ihren ersten Einzelauftritt bei den Deutschen Jugendmeisterschaften in Rostock krönte Isabell Oenning am heutigen Freitag über 100m der WJU20 mit dem Erreichen der Zwischenläufe. </font></b></p>",
+        "content_text": "Ihren ersten Einzelauftritt bei den Deutschen Jugendmeisterschaften in Rostock krönte Isabell Oenning am heutigen Freitag über 100m der WJU20 mit dem Erreichen der Zwischenläufe.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130726185840_Isabell__02bearb.jpg",
+                "local": "news_assets/4472/zoom_20130726185840_Isabell__02bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-180-4452",
+        "id": "4452",
+        "title": "JAN KIRSTEIN BESTäTIGT GUTE FORM",
+        "date": "19. Juli 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130719210655_Jan_200m_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Beim Testwettkampf zur DJM Rostock am 16.07.2013 in Kreuztal ging der derzeit einzig gute MJU20-Sprinter Jan Kirstein über 100m und 200m an den Start. Über 100m verfehlte er seine bisherige Bestleistung vom Hohenhorst-Meeting von 11,65sec um gerade mal eine Hunderstel, über 200m fehlten ihm 17 Hunderstel an der Einstellung seiner bisherigen PB.</b></p>",
+        "content_text": "Beim Testwettkampf zur DJM Rostock am 16.07.2013 in Kreuztal ging der derzeit einzig gute MJU20-Sprinter Jan Kirstein über 100m und 200m an den Start. Über 100m verfehlte er seine bisherige Bestleistung vom Hohenhorst-Meeting von 11,65sec um gerade mal eine Hunderstel, über 200m fehlten ihm 17 Hunderstel an der Einstellung seiner bisherigen PB.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130719210655_Jan_200m_bearb.jpg",
+                "local": "news_assets/4452/zoom_20130719210655_Jan_200m_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-180-4451",
+        "id": "4451",
+        "title": "RLC-SENIOREN WIE IMMER BESTENS UNTERWEGS",
+        "date": "19. Juli 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130719203647_Lufer_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Fünf lauffreudige Senioren, verstärkt durch den U16-Läufer Tim und Julia, die einzige Frau in RLC-Farben, sind am 17.07.2013 beim Abendsportfest „Am Hallo“ in Essen an den Start gegangen, um ihre 800m- bzw. 5000m-Fähigkeiten auf den Prüfstand zu stellen.</font></b></p>",
+        "content_text": "Fünf lauffreudige Senioren, verstärkt durch den U16-Läufer Tim und Julia, die einzige Frau in RLC-Farben, sind am 17.07.2013 beim Abendsportfest „Am Hallo“ in Essen an den Start gegangen, um ihre 800m- bzw. 5000m-Fähigkeiten auf den Prüfstand zu stellen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130719203647_Lufer_bearb.jpg",
+                "local": "news_assets/4451/zoom_20130719203647_Lufer_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-180-4416",
+        "id": "4416",
+        "title": "KINDERLEICHTATHLETIK-WETTKAMPF ERFREUT SICH STEIGENDES INTERESSES",
+        "date": "17. Juli 2013 -  17. Juli 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Zum 2. Recklinghäuser U8-Kids-Cup am 17.07. 2013 durfte der Recklinghäuser LC bereits doppelt so viele Vereine und Kinder begrüßen wie im Vorjahr. 44 Kinder verteilt auf 6 Mannschaften kämpften dabei gemeinsam um Punkte in der Hindernis-Sprint-Pendelstaffel, dem Hoch-Weit-Sprung, dem Mini-Heuler-Schlagwurf und dem 30m-Lauf aus unterschiedlichen Startpositionen.</b></p>",
+        "content_text": "Zum 2. Recklinghäuser U8-Kids-Cup am 17.07. 2013 durfte der Recklinghäuser LC bereits doppelt so viele Vereine und Kinder begrüßen wie im Vorjahr. 44 Kinder verteilt auf 6 Mannschaften kämpften dabei gemeinsam um Punkte in der Hindernis-Sprint-Pendelstaffel, dem Hoch-Weit-Sprung, dem Mini-Heuler-Schlagwurf und dem 30m-Lauf aus unterschiedlichen Startpositionen.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-181-4415",
+        "id": "4415",
+        "title": "U10-ATHLETINNEN UND -ATHLETEN ERFOLGREICH UNTERWEGS",
+        "date": "15. Juli 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130719071738_Jana_ganz_oben_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Sechs U10-RLClern reichten die zahlreichen Wettkämpfe der vergangenen Wochen noch nicht: sie fuhren zu den Offenen Hertener Stadtmeisterschaften im Schülermehrkampf am 14.07.2013 in Herten-Bertlich und unterstrichen dort ihre guten Leistungen von den Kreismehrkampfmeisterschaften:</font></b></p>",
+        "content_text": "Sechs U10-RLClern reichten die zahlreichen Wettkämpfe der vergangenen Wochen noch nicht: sie fuhren zu den Offenen Hertener Stadtmeisterschaften im Schülermehrkampf am 14.07.2013 in Herten-Bertlich und unterstrichen dort ihre guten Leistungen von den Kreismehrkampfmeisterschaften:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130719071738_Jana_ganz_oben_bearb.jpg",
+                "local": "news_assets/4415/zoom_20130719071738_Jana_ganz_oben_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-181-4414",
+        "id": "4414",
+        "title": "WESTDEUTSCHE U16-MEISTERSCHAFTEN -  LICHT UND SCHATTEN IM RLC-TEAM",
+        "date": "14. Juli 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130714212227_Lukas_Thomaka.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Bei den Westdeutschen Meisterschaften der U16-Athleten, für die eine große Anzahl von RLC-Talenten sich qualifiziert hatte, stand unter keinem wirklich guten Stern.Bereits im Vorfeld hatten gesundheitliche Probleme zu Startabsagen geführt, daher schafften es diesmal lediglich Annique Busch, Markus Wienker sowie die 4x100m-Staffel in der Besetzung Lukas Thomaka / Jannik Reglinski / Lukas Hesse / Markus Wienker, sich einen der begehrten Treppchenplätze zu ergattern.</font></b></p>",
+        "content_text": "Bei den Westdeutschen Meisterschaften der U16-Athleten, für die eine große Anzahl von RLC-Talenten sich qualifiziert hatte, stand unter keinem wirklich guten Stern.Bereits im Vorfeld hatten gesundheitliche Probleme zu Startabsagen geführt, daher schafften es diesmal lediglich Annique Busch, Markus Wienker sowie die 4x100m-Staffel in der Besetzung Lukas Thomaka / Jannik Reglinski / Lukas Hesse / Markus Wienker, sich einen der begehrten Treppchenplätze zu ergattern.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130714212227_Lukas_Thomaka.jpg",
+                "local": "news_assets/4414/zoom_20130714212227_Lukas_Thomaka.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-181-4413",
+        "id": "4413",
+        "title": "PILOTVERANSTALTUNG STADTSPORTVEST NUR VON MäßIGEM INTERESSE",
+        "date": "13. Juli 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130713183505_Zonenweitsprung_02_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Die auf den heutigen Samstag terminierte Pilotveranstaltung \" 1. StadtSportVest\" im und um das Stadion Hohenhorst, bei den teilnehmenden Vereine die Chance geboten werden wollte, sich einer breiten Öffentlichkeit zu präsentieren, erfreute sich eines nur mäßigen Besucherandrangs.</b></p>",
+        "content_text": "Die auf den heutigen Samstag terminierte Pilotveranstaltung \" 1. StadtSportVest\" im und um das Stadion Hohenhorst, bei den teilnehmenden Vereine die Chance geboten werden wollte, sich einer breiten Öffentlichkeit zu präsentieren, erfreute sich eines nur mäßigen Besucherandrangs.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130713183505_Zonenweitsprung_02_bearb.jpg",
+                "local": "news_assets/4413/zoom_20130713183505_Zonenweitsprung_02_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-182-4412",
+        "id": "4412",
+        "title": "RLC SIEGT SOUVERäN IN DER JUGENDLIGA",
+        "date": "12. Juli 2013 -  12. Juli 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Die Kreismehrkampfmeisterschaften am vergangenen Wochenende stellten den Abschluss der Jugendliga-Wertungen dar und es siegte zum vierten Mal in Folge: der RLC mit 1273 Punkten vor der LA SV Herten mit 607 Punkten und Teutonia Waltrop mit 606 Punkten.</b></p>",
+        "content_text": "Die Kreismehrkampfmeisterschaften am vergangenen Wochenende stellten den Abschluss der Jugendliga-Wertungen dar und es siegte zum vierten Mal in Folge: der RLC mit 1273 Punkten vor der LA SV Herten mit 607 Punkten und Teutonia Waltrop mit 606 Punkten.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-182-4411",
+        "id": "4411",
+        "title": "U14- RLC-MäDELS SIEGEN BEIM DJMM-QUALIFIKATIONSKAMPF IN DORTMUND",
+        "date": "12. Juli 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130712091931_WJU14_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Am 11.07.2013 fand der am 20.06. buchstäblich ins Wasser gefallene Qualifikationsdurchgang Gruppe 3 weiblich der DJMM (Deutsche-Jugend-Mannschafts-Meisterschaften) im Rote-Erde-Stadion Dortmund nun endlich statt und die RLC-Mädels von Trainer Sebastian Stephani siegten souverän mit 3681 Punkten vor Witten-Annen, USC Bochum, Siegen und Iserlohn.</font></b></p>",
+        "content_text": "Am 11.07.2013 fand der am 20.06. buchstäblich ins Wasser gefallene Qualifikationsdurchgang Gruppe 3 weiblich der DJMM (Deutsche-Jugend-Mannschafts-Meisterschaften) im Rote-Erde-Stadion Dortmund nun endlich statt und die RLC-Mädels von Trainer Sebastian Stephani siegten souverän mit 3681 Punkten vor Witten-Annen, USC Bochum, Siegen und Iserlohn.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130712091931_WJU14_bearb.jpg",
+                "local": "news_assets/4411/zoom_20130712091931_WJU14_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-182-4410",
+        "id": "4410",
+        "title": "RECKLINGHäUSER LC PRäSENTIERT SICH BEIM STADTSPORTVEST",
+        "date": "09. Juli 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130709213625_Hrden_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>D<font face=\"Arial, sans-serif\">er Recklinghäuser LC nimmt an der Veranstaltung „ 1. Recklinghäuser <strong>S</strong>tadt<strong>S</strong>port<strong>V</strong>est“ organisiert vom Stadtsportamt im und um das Stadion Hohenhorst am kommenden Samstag, den 13.07.2013 teil. </font></b></p>",
+        "content_text": "D\ner Recklinghäuser LC nimmt an der Veranstaltung „ 1. Recklinghäuser\nS\ntadt\nS\nport\nV\nest“ organisiert vom Stadtsportamt im und um das Stadion Hohenhorst am kommenden Samstag, den 13.07.2013 teil.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130709213625_Hrden_bearb.jpg",
+                "local": "news_assets/4410/zoom_20130709213625_Hrden_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-183-4279",
+        "id": "4279",
+        "title": "2. TAG KREISMEHRKAMPF: DREI KREISREKORDE FüR RLC-ATHLETEN",
+        "date": "07. Juli 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130707195900_Siebenkampf_WJU16_Siegerbearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">War der 1.Wettkampftag beim Kreismehrkampf 2013 bereits super erfolgreich, toppten diverse Klasse-Ergebnisse aus RLC-Sicht am 2.Tag den Vortag, insbesondere drei neue Kreisrekorde der Siebenkämpferinnen stellten das qualifizierte Mehrkampftraining des Recklinghäuser LC unter Beweis.</font></b></p>",
+        "content_text": "War der 1.Wettkampftag beim Kreismehrkampf 2013 bereits super erfolgreich, toppten diverse Klasse-Ergebnisse aus RLC-Sicht am 2.Tag den Vortag, insbesondere drei neue Kreisrekorde der Siebenkämpferinnen stellten das qualifizierte Mehrkampftraining des Recklinghäuser LC unter Beweis.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130707195900_Siebenkampf_WJU16_Siegerbearb.jpg",
+                "local": "news_assets/4279/zoom_20130707195900_Siebenkampf_WJU16_Siegerbearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-183-4278",
+        "id": "4278",
+        "title": "TAG 1 KREISMEHRKAMPFMEISTERSCHAFTEN: RLC-MANNSCHAFTEN RäUMEN AB",
+        "date": "06. Juli 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130706211726_WKU10-Siegerbearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Am 1. Tag der Kreismehrkampfmeisterschaften 2013 im Stadion Hohenhorst bewiesen die kleinen und großen RLCler ihren Mannschaftsgeist und holten sich die maximale Ausbeute an Titeln.</font></b></p>",
+        "content_text": "Am 1. Tag der Kreismehrkampfmeisterschaften 2013 im Stadion Hohenhorst bewiesen die kleinen und großen RLCler ihren Mannschaftsgeist und holten sich die maximale Ausbeute an Titeln.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130706211726_WKU10-Siegerbearb.jpg",
+                "local": "news_assets/4278/zoom_20130706211726_WKU10-Siegerbearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-183-4277",
+        "id": "4277",
+        "title": "KREISMEHRKAMPF-MEISTERSCHAFTEN: ZEITPLANAENDERUNG",
+        "date": "02. Juli 2013",
+        "content_html": "<p class=\"detailViewTop\"><b>Aufgrund der Teilnehmerzahlen nach Meldeschluss ergeben sich für die Kreismeisterschaften im Mehrkampf am kommenden Wochenende ein paar Änderungen im Zeitplan.</b></p>",
+        "content_text": "Aufgrund der Teilnehmerzahlen nach Meldeschluss ergeben sich für die Kreismeisterschaften im Mehrkampf am kommenden Wochenende ein paar Änderungen im Zeitplan.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-184-4276",
+        "id": "4276",
+        "title": "NEUER KREISREKORD DURCH WJU16-BLOCKMEHRKAMPFMANNSCHAFT",
+        "date": "01. Juli 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130701205606_JolineHannahLea_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Im Rahmen der Westfälischen U16-Mehrkampfmeisterschaften gelang es der WJU16-Mannschaft des RLC mit Joline Koenig, Laura Faltermann, Hannah Folger, Patrica Kutter und Lea Kurdelbaum den bestehende Kreisrekord aus dem Jahre 2010 von 11783 Punkten auf jetzt 11834 Punkte zu verbessern. Der alte Rekord wurde gehalten von Elena Hütter, Jacqueline Duda, Christina Raasch, Maren Albers und Sophia Hesse.</b></p>",
+        "content_text": "Im Rahmen der Westfälischen U16-Mehrkampfmeisterschaften gelang es der WJU16-Mannschaft des RLC mit Joline Koenig, Laura Faltermann, Hannah Folger, Patrica Kutter und Lea Kurdelbaum den bestehende Kreisrekord aus dem Jahre 2010 von 11783 Punkten auf jetzt 11834 Punkte zu verbessern. Der alte Rekord wurde gehalten von Elena Hütter, Jacqueline Duda, Christina Raasch, Maren Albers und Sophia Hesse.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130701205606_JolineHannahLea_bearb.jpg",
+                "local": "news_assets/4276/zoom_20130701205606_JolineHannahLea_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-184-4275",
+        "id": "4275",
+        "title": "WESTF. U16-MEHRKAMPFMEISTERSCHAFTEN: RLC-FARBEN 5MAL AUF DEM TREPPCHEN",
+        "date": "30. Juni 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130630191949_hohenhorst-13-js-18bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Mit richtig guten Leistungen präsentierten sich die U16-Block-Mehrkämpfer von Jürgen Albers am 29./30.06.2013 in Rheine. In den Einzelwertungen fanden sich Philip Preilowski (Neunkampf M14), Jannik Reglinski (Block Sprint/Sprung M15), Markus Wienker (Block Sprint/Sprung M15) und Joline Koenig (Block Sprint/Sprung W15) sowie in der Mannschaftswertung Block die WJU16 mit Joline Koenig, Laura Faltermann, Hannah Folger, Patrica Kutter und Lea Kurdelbaum auf dem Siegerpodest wieder.</font></b></p>",
+        "content_text": "Mit richtig guten Leistungen präsentierten sich die U16-Block-Mehrkämpfer von Jürgen Albers am 29./30.06.2013 in Rheine. In den Einzelwertungen fanden sich Philip Preilowski (Neunkampf M14), Jannik Reglinski (Block Sprint/Sprung M15), Markus Wienker (Block Sprint/Sprung M15) und Joline Koenig (Block Sprint/Sprung W15) sowie in der Mannschaftswertung Block die WJU16 mit Joline Koenig, Laura Faltermann, Hannah Folger, Patrica Kutter und Lea Kurdelbaum auf dem Siegerpodest wieder.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130630191949_hohenhorst-13-js-18bearb.jpg",
+                "local": "news_assets/4275/zoom_20130630191949_hohenhorst-13-js-18bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-184-4274",
+        "id": "4274",
+        "title": "SENIOREN VERMELDEN GUTE ERGEBNISSE",
+        "date": "29. Juni 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130630144852_Telgte_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Beim Seniorensportfest des TV Friesen Telgte am 28.06.2013 stellten einige unserer laufenden Senioren ihren guten Trainingszustand unter Beweis.</font></b></p>",
+        "content_text": "Beim Seniorensportfest des TV Friesen Telgte am 28.06.2013 stellten einige unserer laufenden Senioren ihren guten Trainingszustand unter Beweis.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130630144852_Telgte_bearb.jpg",
+                "local": "news_assets/4274/zoom_20130630144852_Telgte_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-185-4273",
+        "id": "4273",
+        "title": "DREI VIZEMEISTERTITEL AN EINEM WOCHENENDE -  ISABELL OENNING UND BIANCA BRODA ZEIGEN IHRE KöNNEN",
+        "date": "23. Juni 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130623201613_Isabell_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Mit gleich 2 Vizemeistertiteln bei den Westf. U18/U20-Meisterschaften am 22./23.06.2013 in Recklinghausen stellte Isabell Oenning ( WJU20 ) erneut ihr Können unter Beweis. Bei vom Winde verwehten Rennen wurde sie über 100m um 3 Hundertstel von Saskia Lutschak geschlagen, über 200m etwas deutlicher um 6 Zehntel von Mona Middeldorf. </font></b></p>",
+        "content_text": "Mit gleich 2 Vizemeistertiteln bei den Westf. U18/U20-Meisterschaften am 22./23.06.2013 in Recklinghausen stellte Isabell Oenning ( WJU20 ) erneut ihr Können unter Beweis. Bei vom Winde verwehten Rennen wurde sie über 100m um 3 Hundertstel von Saskia Lutschak geschlagen, über 200m etwas deutlicher um 6 Zehntel von Mona Middeldorf.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130623201613_Isabell_bearb.jpg",
+                "local": "news_assets/4273/zoom_20130623201613_Isabell_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-185-4218",
+        "id": "4218",
+        "title": "ERFOLGREICHER RLC- LEICHTATHLETIK - ABEND IN SYTHEN = 12 KREISMEISTERTITEL",
+        "date": "19. Juni 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130619230114_WKU12_06bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Kreisstaffelmeisterschaften am 19.06. in Haltern-Sythen feierten fast alle Nachwuchsklassen des Recklinghäuser LC mindestens einen Sieg; in den Klassen MKU12 , WJU14 und MJU14 gingen sogar alle Siege auf das Konto der RLC-Athletinnen und -Athleten.</b></p>",
+        "content_text": "Bei den Kreisstaffelmeisterschaften am 19.06. in Haltern-Sythen feierten fast alle Nachwuchsklassen des Recklinghäuser LC mindestens einen Sieg; in den Klassen MKU12 , WJU14 und MJU14 gingen sogar alle Siege auf das Konto der RLC-Athletinnen und -Athleten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130619230114_WKU12_06bearb.jpg",
+                "local": "news_assets/4218/zoom_20130619230114_WKU12_06bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-185-4216",
+        "id": "4216",
+        "title": "JOLINE KOENIG UND LAURA FALTERMANN  - NEUE WESTFäLISCHE VIZEMEISTERINNEN",
+        "date": "16. Juni 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130616222213_Joline_100mbearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Die U16-Trainingsgruppe von Jürgen Albers hat sich trotz diverser gesundheitlicher Probleme bei den Westfälischen U16-Meisterschaften am 16.06.2013 in Kreuztal richtig gut verkauft. Zwei Vizemeistertitel, zwei dritte und ein vierter Platz sowie diverse persönliche Bestleistungen sind erneut der Beleg für das ausgezeichnete Training, dass in dieser Trainingsgruppe geleistet wird.</font></b></p>",
+        "content_text": "Die U16-Trainingsgruppe von Jürgen Albers hat sich trotz diverser gesundheitlicher Probleme bei den Westfälischen U16-Meisterschaften am 16.06.2013 in Kreuztal richtig gut verkauft. Zwei Vizemeistertitel, zwei dritte und ein vierter Platz sowie diverse persönliche Bestleistungen sind erneut der Beleg für das ausgezeichnete Training, dass in dieser Trainingsgruppe geleistet wird.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130616222213_Joline_100mbearb.jpg",
+                "local": "news_assets/4216/zoom_20130616222213_Joline_100mbearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-186-4215",
+        "id": "4215",
+        "title": "BIANCA BRODA WIEDERHOLT TITELGEWINN IM SIEBENKAMPF",
+        "date": "09. Juni 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130609193925_Bianca_weitbearb.jpg\"/></div><p class=\"detailViewTop\"><b><p><font face=\"Arial, sans-serif\">Die RLC-Mehrkämpferin Bianca Broda (F) konnte trotz eine Chaos-Anreise ihren Titelgewinn bei den Westfalenmeisterschaften im Siebenkampf in Bad Oeynhausen aus dem Jahre 2012 wiederholen und dabei ein paar richtig gute Einzelleistungen aufstellen. In ihrer Gesamtpunktzahl (4960 Pkt) blieb sie diesmal leicht unter der 5000-Punkte-Marke, war trotz allem glücklich und zufrieden, ihren Titel verteidigt zu haben.</font></p></b></p>",
+        "content_text": "Die RLC-Mehrkämpferin Bianca Broda (F) konnte trotz eine Chaos-Anreise ihren Titelgewinn bei den Westfalenmeisterschaften im Siebenkampf in Bad Oeynhausen aus dem Jahre 2012 wiederholen und dabei ein paar richtig gute Einzelleistungen aufstellen. In ihrer Gesamtpunktzahl (4960 Pkt) blieb sie diesmal leicht unter der 5000-Punkte-Marke, war trotz allem glücklich und zufrieden, ihren Titel verteidigt zu haben.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130609193925_Bianca_weitbearb.jpg",
+                "local": "news_assets/4215/zoom_20130609193925_Bianca_weitbearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-186-4214",
+        "id": "4214",
+        "title": "SENIOREN MIT TOPLEISTUNGEN BEI WESTFALENMEISTERSCHAFTEN",
+        "date": "08. Juni 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130609191833_Arne.jpg\"/></div><p class=\"detailViewTop\"><b><font size=\"-1\"><font face=\"Arial\"><font size=\"-1\">mit Top-Leistungen kehrten die Senioren des           Recklinghäuser LC Martin Spies, Arne Wendler und Wilfried           Morgen<font size=\"-1\">roth am 09.06.2013 von den Offenen             Westfälischen Senioren Meisterschaften aus Gladbeck nach             Recklinghausen zurück.<br> </br></font></font></font></font></b></p>",
+        "content_text": "mit Top-Leistungen kehrten die Senioren des           Recklinghäuser LC Martin Spies, Arne Wendler und Wilfried           Morgen\nroth am 09.06.2013 von den Offenen             Westfälischen Senioren Meisterschaften aus Gladbeck nach             Recklinghausen zurück.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130609191833_Arne.jpg",
+                "local": "news_assets/4214/zoom_20130609191833_Arne.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-186-4213",
+        "id": "4213",
+        "title": "16 TITEL FüR RLC-NACHWUCHS BEI KREISEINZELMEISTERSCHAFTEN",
+        "date": "09. Juni 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130609190527_Tim_hoch_02bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Bei den Kreiseinzelmeisterschaften der Kinder U10 und U12 sowie der Jugend U14 am 08.06.2013 in Waltrop errangen die jungen Nachwuchsathleten des RLC 16 Titel, gleich viermal gab es Doppelsiege zu bejubeln. Leonie Kruse (W9), Tim Oppoli (M11), Sofie Faltermann (W12) und Sarah Kotnik (W13) heißen die erfolgreichesten RLCler.</font></b></p>",
+        "content_text": "Bei den Kreiseinzelmeisterschaften der Kinder U10 und U12 sowie der Jugend U14 am 08.06.2013 in Waltrop errangen die jungen Nachwuchsathleten des RLC 16 Titel, gleich viermal gab es Doppelsiege zu bejubeln. Leonie Kruse (W9), Tim Oppoli (M11), Sofie Faltermann (W12) und Sarah Kotnik (W13) heißen die erfolgreichesten RLCler.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130609190527_Tim_hoch_02bearb.jpg",
+                "local": "news_assets/4213/zoom_20130609190527_Tim_hoch_02bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-187-4165",
+        "id": "4165",
+        "title": "KEINE NEUAUFNAHMEN IM KINDERBEREICH MEHR MöGLICH!",
+        "date": "08. Juni 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130606210415_Spielfest_2010bearb.jpg\"/></div><p class=\"detailViewTop\"><b>In den Kindertrainingsgruppen U6 (Donnerstags), U8 (Dienstags), U10 (Montags <strong>und</strong> Donnerstags) sowie U12 an allen Trainingstagen sind derzeit aufgrund großer Gruppenstärken keine Neuaufnahmen mehr möglich. Auch fürs Probetraining können mindestens bis September keine Termine mehr vergeben werden.</b></p>",
+        "content_text": "In den Kindertrainingsgruppen U6 (Donnerstags), U8 (Dienstags), U10 (Montags\nund\nDonnerstags) sowie U12 an allen Trainingstagen sind derzeit aufgrund großer Gruppenstärken keine Neuaufnahmen mehr möglich. Auch fürs Probetraining können mindestens bis September keine Termine mehr vergeben werden.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130606210415_Spielfest_2010bearb.jpg",
+                "local": "news_assets/4165/zoom_20130606210415_Spielfest_2010bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-187-4159",
+        "id": "4159",
+        "title": "U12-KINDERN GELINGT GENERALPROBE FüR KREISEINZELMEISTERSCHAFTEN",
+        "date": "02. Juni 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130602140318_Siegerehrung_800m_W10bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Das Allianz-Hillebrand-Meeting am 01.06. in Oer-Erkenschwick nutzten 21 U12-Kinder des RLC, um sich in ihren Spezialdisziplinen auf die Kreiseinzelmeisterschaften am kommenden Samstag vorzubereiten. Ergebnis: viele Topplazierungen und Bestleistungen, allen voran durch Louisa Hassel (W10, 800m, Weit), Leandra Busch (W11, Schlagball),Timo Hachmann (M8, 800m), Riko Hachmann (50m, 800m), Tim Oppoli (M11, 50m Weit) und Nils Guntermann (M11, 800m).</font></b></p>",
+        "content_text": "Das Allianz-Hillebrand-Meeting am 01.06. in Oer-Erkenschwick nutzten 21 U12-Kinder des RLC, um sich in ihren Spezialdisziplinen auf die Kreiseinzelmeisterschaften am kommenden Samstag vorzubereiten. Ergebnis: viele Topplazierungen und Bestleistungen, allen voran durch Louisa Hassel (W10, 800m, Weit), Leandra Busch (W11, Schlagball),Timo Hachmann (M8, 800m), Riko Hachmann (50m, 800m), Tim Oppoli (M11, 50m Weit) und Nils Guntermann (M11, 800m).",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130602140318_Siegerehrung_800m_W10bearb.jpg",
+                "local": "news_assets/4159/zoom_20130602140318_Siegerehrung_800m_W10bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-187-4115",
+        "id": "4115",
+        "title": "BRODA UND SCHULTE MIT BESTLEISTUNGEN BEI WESTDEUTSCHEN MEISTERSCHAFTEN!",
+        "date": "02. Juni 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130602134129_Bianca_02bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Ein Paukenschlag gelang Bianca Broda (F ) bei den Westdeutschen Meisterschaften der Frauen und Männer am heutigen Sonntag in Duisburg: sie lief im Endlauf über 100mHürden erstmals unter 14 Sekunden, genauer: 13,89sec, wurde damit <strong>Westdeutsche Meisterin</strong> und lief die A-Quali für die Deutschen Meisterschaften  am 06./07.07.2013 in Ulm.</b></p>",
+        "content_text": "Ein Paukenschlag gelang Bianca Broda (F ) bei den Westdeutschen Meisterschaften der Frauen und Männer am heutigen Sonntag in Duisburg: sie lief im Endlauf über 100mHürden erstmals unter 14 Sekunden, genauer: 13,89sec, wurde damit\nWestdeutsche Meisterin\nund lief die A-Quali für die Deutschen Meisterschaften  am 06./07.07.2013 in Ulm.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130602134129_Bianca_02bearb.jpg",
+                "local": "news_assets/4115/zoom_20130602134129_Bianca_02bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-188-4114",
+        "id": "4114",
+        "title": "RLC BAUT VORSPRUNG IN JUGENDLIGA DEUTLICH AUS",
+        "date": "01. Juni 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130601222821_Jannik_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Nach inzwischen 2 Wertungswettkämpfen im Bereich der Jugendliga ( Kreiscrosslauf sowie Bezirksmeisterschaften bzw. ausgelagerten Kurzhürden im Rahmen des Hohenhorst-Meetings ) gelang den U16 und U18-Jugendlichen des Recklinghäuser LC, </b></p>",
+        "content_text": "Nach inzwischen 2 Wertungswettkämpfen im Bereich der Jugendliga ( Kreiscrosslauf sowie Bezirksmeisterschaften bzw. ausgelagerten Kurzhürden im Rahmen des Hohenhorst-Meetings ) gelang den U16 und U18-Jugendlichen des Recklinghäuser LC,",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130601222821_Jannik_bearb.jpg",
+                "local": "news_assets/4114/zoom_20130601222821_Jannik_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-188-4113",
+        "id": "4113",
+        "title": "„BETRIEBSAUSFLUG“ DER VOGL`SCHEN LANGSTRECKLERTRUPPE",
+        "date": "31. Mai 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130531174759_Mannschaftsfoto_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Den Himmelfahrtstag nutzte die Trainingsgruppe von Thomas Vogl zu einer Formüberprüfung. Insgesamt 7 Läuferinnen und Läufer gingen beim 2. Steverauenlauf in Olfen über 5km an den Start und alle durften mit Pokalen und Urkunden im Gepäck die Heimfahrt antreten.</font></b></p>",
+        "content_text": "Den Himmelfahrtstag nutzte die Trainingsgruppe von Thomas Vogl zu einer Formüberprüfung. Insgesamt 7 Läuferinnen und Läufer gingen beim 2. Steverauenlauf in Olfen über 5km an den Start und alle durften mit Pokalen und Urkunden im Gepäck die Heimfahrt antreten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130531174759_Mannschaftsfoto_bearb.jpg",
+                "local": "news_assets/4113/zoom_20130531174759_Mannschaftsfoto_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-189-4044",
+        "id": "4044",
+        "title": "4 X 100M – WJU20 – STAFFEL LäUFT DM-QUALI",
+        "date": "18. Mai 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130518215849_Staffel_02_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Im Rahmen des Borsigmeetings am heutigen 18.05.2013 ging die 4 x 100m-Staffel von Trainer Ludger Zander an den Start. Trotz einiger gesundheitlicher Probleme schafften es Jacqueline Duda, Elena Hütter, Maren Albers und Schlussläuferin Isabell Oenning als Siegerinnen der Klasse WJU20 mit einer Zeit von 48,44sec sich deutlich für die Deutschen JU18/JU20-Meisterschaften vom 26. -28.07.2013 in Rostock zu qualifizieren.</font></b></p>",
+        "content_text": "Im Rahmen des Borsigmeetings am heutigen 18.05.2013 ging die 4 x 100m-Staffel von Trainer Ludger Zander an den Start. Trotz einiger gesundheitlicher Probleme schafften es Jacqueline Duda, Elena Hütter, Maren Albers und Schlussläuferin Isabell Oenning als Siegerinnen der Klasse WJU20 mit einer Zeit von 48,44sec sich deutlich für die Deutschen JU18/JU20-Meisterschaften vom 26. -28.07.2013 in Rostock zu qualifizieren.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130518215849_Staffel_02_bearb.jpg",
+                "local": "news_assets/4044/zoom_20130518215849_Staffel_02_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-189-4043",
+        "id": "4043",
+        "title": "MARITA SCHULTE üBERSPRINGT 3,65M",
+        "date": "17.  -  18. Mai2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130518212109_hohenhorst-02.jpg\"/></div><p class=\"detailViewTop\"><b>Bei einem Stabhochsprungwettkampf des USC Bochum am 18.05.2013 gelang unserem Stabhochsprungaushängeschild endlich mal wieder eine Verbesserung ihrer bisherigen Freiluft - Höchstleistung: Marita übersprang die 3,65m und löste damit das Ticket für die Deutschen U20-Meisterschaften vom 26.-28.07.2013 in Rostock.</b></p>",
+        "content_text": "Bei einem Stabhochsprungwettkampf des USC Bochum am 18.05.2013 gelang unserem Stabhochsprungaushängeschild endlich mal wieder eine Verbesserung ihrer bisherigen Freiluft - Höchstleistung: Marita übersprang die 3,65m und löste damit das Ticket für die Deutschen U20-Meisterschaften vom 26.-28.07.2013 in Rostock.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130518212109_hohenhorst-02.jpg",
+                "local": "news_assets/4043/zoom_20130518212109_hohenhorst-02.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-188-4042",
+        "id": "4042",
+        "title": "36. HOHENHORST-MEETING",
+        "date": "20. Mai 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130518162813_hohenhorst-13.jpg\"/></div><p class=\"detailViewTop\"><b>Auch die 36. Auflage des Recklinghäuser Hohenhorst-Meetings am Pfingstmontag verspricht wieder volle Ränge und spannende Wettkämpfe. Bis zum Meldeschluss sind über 1000 Einzelmeldungen für 530 Athleten aus 80 Vereinen eingegangen.<br><br/><strong>Update: </strong>Die Ergebnisliste ist <a href=\"../hohenhorst13\">online</a>. Erste <a href=\"../rlc.php?id=0-00060000-0\">Fotos</a> vom Wettkampf. </br></b></p>",
+        "content_text": "Auch die 36. Auflage des Recklinghäuser Hohenhorst-Meetings am Pfingstmontag verspricht wieder volle Ränge und spannende Wettkämpfe. Bis zum Meldeschluss sind über 1000 Einzelmeldungen für 530 Athleten aus 80 Vereinen eingegangen.\nUpdate:\nDie Ergebnisliste ist\nonline\n. Erste\nFotos\nvom Wettkampf.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130518162813_hohenhorst-13.jpg",
+                "local": "news_assets/4042/zoom_20130518162813_hohenhorst-13.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-189-4008",
+        "id": "4008",
+        "title": "KLASSE: 12 BEZIRKSTITEL FüR RLC – AKTIVE",
+        "date": "12. Mai 2013 -  12. Mai 2020",
+        "content_html": "<p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Von den Bezirksmeisterschaften der Kreise Recklinghausen, Herne, Bochum, Gelsenkirchen und Gladbeck  am 12.05.2013 in Herne-Wanne brachten die angetretenen RLC-Aktiven 12 Titel mit nach Recklinghausen zurück, und das ohne die Disziplinen Kurz- und Langhürden sowie Stabhochsprung, die erst am kommenden Pfingstmontag im Rahmen des Hohenhorst-Meeting ausgetragen werden.</font></b></p>",
+        "content_text": "Von den Bezirksmeisterschaften der Kreise Recklinghausen, Herne, Bochum, Gelsenkirchen und Gladbeck  am 12.05.2013 in Herne-Wanne brachten die angetretenen RLC-Aktiven 12 Titel mit nach Recklinghausen zurück, und das ohne die Disziplinen Kurz- und Langhürden sowie Stabhochsprung, die erst am kommenden Pfingstmontag im Rahmen des Hohenhorst-Meeting ausgetragen werden.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-190-4003",
+        "id": "4003",
+        "title": "RLC-MEHRKäMPFER GUT IN FORM",
+        "date": "09. Mai 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130509200453_Laura_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Beim 50. Schülermehrkampftag in Coesfeld am 09.05.2013 stellten einige U16-Athletinnen und -Athleten aus dem Team um Trainer Jürgen Albers ihr Können unter Beweis. Laura Faltermann, Joline Koenig ( beide Block Sprint/Sprung W15 ), Lea Kurdelbaum ( Blick Sprint/ Sprung W14 ), Markus Wienker, Jannik Reglinski und Tobias Hofebauer ( alle M15 Block Sprint/Sprung ) sowie Philip Preilowski ( M14 Block Sprint/Sprung ) standen nach einem langen Wettkampftag auf dem Treppchen.</b></p>",
+        "content_text": "Beim 50. Schülermehrkampftag in Coesfeld am 09.05.2013 stellten einige U16-Athletinnen und -Athleten aus dem Team um Trainer Jürgen Albers ihr Können unter Beweis. Laura Faltermann, Joline Koenig ( beide Block Sprint/Sprung W15 ), Lea Kurdelbaum ( Blick Sprint/ Sprung W14 ), Markus Wienker, Jannik Reglinski und Tobias Hofebauer ( alle M15 Block Sprint/Sprung ) sowie Philip Preilowski ( M14 Block Sprint/Sprung ) standen nach einem langen Wettkampftag auf dem Treppchen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130509200453_Laura_bearb.jpg",
+                "local": "news_assets/4003/zoom_20130509200453_Laura_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-190-4002",
+        "id": "4002",
+        "title": "3X800M-STAFFEL SIEGT BEI BAHNSTAFFELTAG",
+        "date": "09. Mai 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130509195037_Staffel_04bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Für den 60. Bahnstaffeltag am Himmelfahrtstag in Witten-Annen hatte der RLC drei Staffeln gemeldet; leider konnten die beiden Mädels-Staffeln krankheitsbedingt nicht an den Start gehen, dafür hielt die 3x800m – MUK12-Staffel die RLC-Farben hoch. Nils Guntermann (M11), Nils Hartleif (M9) und Riko Hachmann (M10) siegten in der Zeit von 8:42,63min vor den Staffeln aus Wattenscheid und Langendreer.</font></b></p>",
+        "content_text": "Für den 60. Bahnstaffeltag am Himmelfahrtstag in Witten-Annen hatte der RLC drei Staffeln gemeldet; leider konnten die beiden Mädels-Staffeln krankheitsbedingt nicht an den Start gehen, dafür hielt die 3x800m – MUK12-Staffel die RLC-Farben hoch. Nils Guntermann (M11), Nils Hartleif (M9) und Riko Hachmann (M10) siegten in der Zeit von 8:42,63min vor den Staffeln aus Wattenscheid und Langendreer.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130509195037_Staffel_04bearb.jpg",
+                "local": "news_assets/4002/zoom_20130509195037_Staffel_04bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-190-3861",
+        "id": "3861",
+        "title": "BAHNERöFFNUNG NACH MAß!",
+        "date": "04. Mai 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130504212451_U10bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Bei idealem Leichtathletikwetter durfte der RLC zum Saisonauftakt im Hohenhorst-Stadion 365 Athletinnen und Athleten  im Alter zwischen 8 und 16 Jahren zu insgesamt 1000 Starts begrüßen. Für viele der ganz jungen Athletinnen und Athleten war dies der erste Start ihres Lebens, entsprechend die Nervosität bei Kids, Eltern und Trainern.</b></p>",
+        "content_text": "Bei idealem Leichtathletikwetter durfte der RLC zum Saisonauftakt im Hohenhorst-Stadion 365 Athletinnen und Athleten  im Alter zwischen 8 und 16 Jahren zu insgesamt 1000 Starts begrüßen. Für viele der ganz jungen Athletinnen und Athleten war dies der erste Start ihres Lebens, entsprechend die Nervosität bei Kids, Eltern und Trainern.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130504212451_U10bearb.jpg",
+                "local": "news_assets/3861/zoom_20130504212451_U10bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-191-3860",
+        "id": "3860",
+        "title": "LANGSTRECKLERINNEN KOMMEN IN FORM",
+        "date": "01. Mai 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130501205623_Ickern.jpeg\"/></div><p class=\"detailViewTop\"><b>Im Rahmen des Ickerner Volkslaufes am 28.04.2013 in Castrop-Rauxel haben einige Langstrecklerinnen und Langstreckler im RLC-Trikot eine deutlich aufsteigende Frühform an den Tag gelegt.</b></p>",
+        "content_text": "Im Rahmen des Ickerner Volkslaufes am 28.04.2013 in Castrop-Rauxel haben einige Langstrecklerinnen und Langstreckler im RLC-Trikot eine deutlich aufsteigende Frühform an den Tag gelegt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130501205623_Ickern.jpeg",
+                "local": "news_assets/3860/zoom_20130501205623_Ickern.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-191-3859",
+        "id": "3859",
+        "title": "GUTE LANGSTRECKENERGEBNISSE FüR DEN RLC",
+        "date": "23. April 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130423145837_Julia-Tinabearb.jpg\"/></div><p class=\"detailViewTop\"><b>Für die Westdeutschen Langstrecken-Meisterschaften am 21.04.2013 in Essen-Überruhr hatten 4 RLCler gemeldet: drei von ihnen gingen auch an den Start, Trainer Thomas Vogl musste wegen einer Erkältung leider passen.</b></p>",
+        "content_text": "Für die Westdeutschen Langstrecken-Meisterschaften am 21.04.2013 in Essen-Überruhr hatten 4 RLCler gemeldet: drei von ihnen gingen auch an den Start, Trainer Thomas Vogl musste wegen einer Erkältung leider passen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130423145837_Julia-Tinabearb.jpg",
+                "local": "news_assets/3859/zoom_20130423145837_Julia-Tinabearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-191-3823",
+        "id": "3823",
+        "title": "STADT RECKLINGHAUSEN EHRT RLC-NACHWUCHS-TRAINER",
+        "date": "19. April 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130419213418_Jugend_02bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Für Freitag, den 19.04.2013 hatte Bürgermeister Wolfgang Pantförder zu einer „ Ehrung freiwillig engagierter Jugendlicher, junger Erwachsener und Jugendgruppen“ geladen. Mit unter den Vorgeschlagenen waren die 10 jungen RLCler, die sich als Trainer- / Trainingshelferinnen seit einigen Jahren ins Leichtathletiktraining der Kinder und Schüler aller Altersklassen bis zum 14. Lebensjahr einbringen.</b></p>",
+        "content_text": "Für Freitag, den 19.04.2013 hatte Bürgermeister Wolfgang Pantförder zu einer „ Ehrung freiwillig engagierter Jugendlicher, junger Erwachsener und Jugendgruppen“ geladen. Mit unter den Vorgeschlagenen waren die 10 jungen RLCler, die sich als Trainer- / Trainingshelferinnen seit einigen Jahren ins Leichtathletiktraining der Kinder und Schüler aller Altersklassen bis zum 14. Lebensjahr einbringen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130419213418_Jugend_02bearb.jpg",
+                "local": "news_assets/3823/zoom_20130419213418_Jugend_02bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-192-3821",
+        "id": "3821",
+        "title": "DER RAHMENWETTKAMPFPLAN FüR DEN SOMMER 2013 ALTERSKLASSE U16 STEHT!",
+        "date": "12. April 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130412175930_Hannah_Folger_Hrden_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Die U16-Trainer Jürgen Albers, Lars Czekalla und Uschi Götz-Trogemann haben den Rahmen-Wettkampfplan für die kommenden Monate erarbeitet und</b></p>",
+        "content_text": "Die U16-Trainer Jürgen Albers, Lars Czekalla und Uschi Götz-Trogemann haben den Rahmen-Wettkampfplan für die kommenden Monate erarbeitet und",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130412175930_Hannah_Folger_Hrden_bearb.jpg",
+                "local": "news_assets/3821/zoom_20130412175930_Hannah_Folger_Hrden_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-192-3820",
+        "id": "3820",
+        "title": "RLC-ATHLETEN FüHREN IN DER JUGENDLIGA",
+        "date": "23. März 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130323171135_Jugendliga_01.jpg\"/></div><p class=\"detailViewTop\"><b>Im Wettbewerb der Jugendliga, bei dem Platzierungen von Jugendlichen U16 und U18 bei Kreismeisterschaften in den wichtigsten Disziplinen punktemäßig berechnet werden, führt der Recklinghäuser LC nach dem ersten Wettbewerb, den Kreismeisterschaften im Crosslauf mit 257 Punkten vor der LA SV Herten ( 132 Punkte ) und dem VFL Hüls ( 109 Punkte ).</b></p>",
+        "content_text": "Im Wettbewerb der Jugendliga, bei dem Platzierungen von Jugendlichen U16 und U18 bei Kreismeisterschaften in den wichtigsten Disziplinen punktemäßig berechnet werden, führt der Recklinghäuser LC nach dem ersten Wettbewerb, den Kreismeisterschaften im Crosslauf mit 257 Punkten vor der LA SV Herten ( 132 Punkte ) und dem VFL Hüls ( 109 Punkte ).",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130323171135_Jugendliga_01.jpg",
+                "local": "news_assets/3820/zoom_20130323171135_Jugendliga_01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-192-3819",
+        "id": "3819",
+        "title": "RLC-LANGSTRECKLERINNEN LAUFEN QUALI",
+        "date": "19. März 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130319143340_Julia-Tinabearb.jpg\"/></div><p class=\"detailViewTop\"><b>Am 16.03.2013 haben Julia Kotte (F) und Tina Wessinghage (W30) den Aaseelauf in Münster genutzt, um sich Qualifikationszeiten für die Westdeutschen Langstreckenmeisterschaften am 21.04.2013 in Essen zu sichern.</b></p>",
+        "content_text": "Am 16.03.2013 haben Julia Kotte (F) und Tina Wessinghage (W30) den Aaseelauf in Münster genutzt, um sich Qualifikationszeiten für die Westdeutschen Langstreckenmeisterschaften am 21.04.2013 in Essen zu sichern.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130319143340_Julia-Tinabearb.jpg",
+                "local": "news_assets/3819/zoom_20130319143340_Julia-Tinabearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-193-3759",
+        "id": "3759",
+        "title": "DEM MISERABLEN WETTER ZUM TROTZ VIELE RLC-ERFOLGE!",
+        "date": "10. März 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130310184005_MKU_10.jpg\"/></div><p class=\"detailViewTop\"><b>Im andauernden Schneefall bei 2 – 0° Grad bemühten sich die Leichtathleten aller Altersklassen um erfolgreiches Abschneiden bei den Kreismeisterschaften im Crosslauf, diesmal durchgeführt in Hertener Bakumertal. Dank des regnerischen Wetters in den letzten beiden Tagen ähnelten die Rennen teilweise einer Schlammschlacht.</b></p>",
+        "content_text": "Im andauernden Schneefall bei 2 – 0° Grad bemühten sich die Leichtathleten aller Altersklassen um erfolgreiches Abschneiden bei den Kreismeisterschaften im Crosslauf, diesmal durchgeführt in Hertener Bakumertal. Dank des regnerischen Wetters in den letzten beiden Tagen ähnelten die Rennen teilweise einer Schlammschlacht.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130310184005_MKU_10.jpg",
+                "local": "news_assets/3759/zoom_20130310184005_MKU_10.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-193-3758",
+        "id": "3758",
+        "title": "ZWEI NEUE WESTFALENMEISTER IM RLC-TRIKOT!",
+        "date": "03. März 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130303202803_Markus_JannikTobiasbearb.jpg\"/></div><p class=\"detailViewTop\"><b>Von den Westfälischen U16-Meisterschaften am 03.03.2013 in Paderborn kehrte die Trainingsgruppe von Jürgen Albers, Lars Czekalla und Uschi Götz-Trogemann mit zwei Wesfalentiteln und weiteren 9 Top-Platzierungen im Gepäck nach Recklinghausen zurück.</b></p>",
+        "content_text": "Von den Westfälischen U16-Meisterschaften am 03.03.2013 in Paderborn kehrte die Trainingsgruppe von Jürgen Albers, Lars Czekalla und Uschi Götz-Trogemann mit zwei Wesfalentiteln und weiteren 9 Top-Platzierungen im Gepäck nach Recklinghausen zurück.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130303202803_Markus_JannikTobiasbearb.jpg",
+                "local": "news_assets/3758/zoom_20130303202803_Markus_JannikTobiasbearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-193-3757",
+        "id": "3757",
+        "title": "DR. ANTJE MAAS HOLT DEN ERSTEN MEISTERTITEL!",
+        "date": "02. März 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130306082912_Antje_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Bei der Deutschen Zahnärztemeisterschaft im 10km-Strassenlauf, die im Rahmen des 19. Schriesheimer Matheisemarktlaufes am 02.03.2013 stattfand, toppte Dr. Antje Maas ihren Vorjahreserfolg ( Vizemeisterschaft ): sie siegte in der neuen persönlichen Bestleistung von 48:55,17min vor Christiane Hedrich und Brigitte Knebel.</b></p>",
+        "content_text": "Bei der Deutschen Zahnärztemeisterschaft im 10km-Strassenlauf, die im Rahmen des 19. Schriesheimer Matheisemarktlaufes am 02.03.2013 stattfand, toppte Dr. Antje Maas ihren Vorjahreserfolg ( Vizemeisterschaft ): sie siegte in der neuen persönlichen Bestleistung von 48:55,17min vor Christiane Hedrich und Brigitte Knebel.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130306082912_Antje_bearb.jpg",
+                "local": "news_assets/3757/zoom_20130306082912_Antje_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-194-3756",
+        "id": "3756",
+        "title": "SAISON DER STRASSEN-, WALD- UND CROSSLäUFE HAT BEGONNEN",
+        "date": "17. Februar 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130217222147_Louisa_02bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Einige Aktive haben das vergangene Wochenende zur Formüberprüfung genutzt und sind beim Crosslauf beim TuS Sythen am Samstag bzw. bei den Bertlicher Strassenläufen am Sonntag gestartet mit der Erkenntnis: wir sind gut in Form!</b></p>",
+        "content_text": "Einige Aktive haben das vergangene Wochenende zur Formüberprüfung genutzt und sind beim Crosslauf beim TuS Sythen am Samstag bzw. bei den Bertlicher Strassenläufen am Sonntag gestartet mit der Erkenntnis: wir sind gut in Form!",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130217222147_Louisa_02bearb.jpg",
+                "local": "news_assets/3756/zoom_20130217222147_Louisa_02bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-194-3755",
+        "id": "3755",
+        "title": "PLATZ 3 IM B-ENDLAUF FüR 4 X 200M-STAFFEL!",
+        "date": "17. Februar 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130217163257_Staffel_01_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Können und Glück gingen bei dem Staffellauf von Isabell Oenning, Maren Albers, Elena Hütter und Jacqueline Duda eine Verbindung ein: die vier liefen als 3. des B-Endlaufes auf den 7. Platz der Gesamtwertung, nach der Vorlaufzeit landeten sie sogar auf dem 6. Rang.</b></p>",
+        "content_text": "Können und Glück gingen bei dem Staffellauf von Isabell Oenning, Maren Albers, Elena Hütter und Jacqueline Duda eine Verbindung ein: die vier liefen als 3. des B-Endlaufes auf den 7. Platz der Gesamtwertung, nach der Vorlaufzeit landeten sie sogar auf dem 6. Rang.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130217163257_Staffel_01_bearb.jpg",
+                "local": "news_assets/3755/zoom_20130217163257_Staffel_01_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-194-3753",
+        "id": "3753",
+        "title": "4X200M-STAFFEL BEI DJM MIT VEREINSREKORD IM ENDLAUF!",
+        "date": "16. Februar 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130216122614_Staffel_02_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Die 4x200m-U20-Staffel des Recklinghäuser LC hat ihr erklärtes Ziel erreicht: im Endlauf bei den Deutschen U20-Meisterschaften in Halle/Saale zu stehen.</b></p>",
+        "content_text": "Die 4x200m-U20-Staffel des Recklinghäuser LC hat ihr erklärtes Ziel erreicht: im Endlauf bei den Deutschen U20-Meisterschaften in Halle/Saale zu stehen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130216122614_Staffel_02_bearb.jpg",
+                "local": "news_assets/3753/zoom_20130216122614_Staffel_02_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-195-3752",
+        "id": "3752",
+        "title": "VORFREUDE AUF U20-DM FüR 4X200M-STAFFEL",
+        "date": "13. Februar 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130213102240_Staffel_01_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Die 4x200m-Staffel der weiblichen U20-Jugend unter Trainer Ludger Zander freut sich auf die anstehenden Deutschen Jugendmeisterschaften in Halle/Saale am kommenden Wochenende.</b></p>",
+        "content_text": "Die 4x200m-Staffel der weiblichen U20-Jugend unter Trainer Ludger Zander freut sich auf die anstehenden Deutschen Jugendmeisterschaften in Halle/Saale am kommenden Wochenende.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130213102240_Staffel_01_bearb.jpg",
+                "local": "news_assets/3752/zoom_20130213102240_Staffel_01_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-195-3751",
+        "id": "3751",
+        "title": "U16-TRAININGSGUPPE MIT TOP-ERGEBNISSEN IN DORTMUND",
+        "date": "10. Februar 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130210231022_Laura.jpg\"/></div><p class=\"detailViewTop\"><b>Vom Hallenwettkampf am 10.02.2013 in der Dortmunder Helmut-Körnig-Halle, von den U16-Aktiven von Jürgen Albers und Lars Czekalla als Qualifikationswettkampf genutzt, kehrten die 14- und 15jährigen RLCler mit prima Ergebnissen nach Recklinghausen zurück.</b></p>",
+        "content_text": "Vom Hallenwettkampf am 10.02.2013 in der Dortmunder Helmut-Körnig-Halle, von den U16-Aktiven von Jürgen Albers und Lars Czekalla als Qualifikationswettkampf genutzt, kehrten die 14- und 15jährigen RLCler mit prima Ergebnissen nach Recklinghausen zurück.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130210231022_Laura.jpg",
+                "local": "news_assets/3751/zoom_20130210231022_Laura.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-195-3712",
+        "id": "3712",
+        "title": "WESTDEUTSCHE MEISTERSCHAFTEN IN DORTMUND: RLC-ATHLETINNEN AUF DEM SIEGERPODEST",
+        "date": "03. Februar 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130203180544_Elena_04bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\"><font size=\"2\">Elena Hütter und Maren Albers konnten auch in der höheren Altersklasse und bei stärkerer Konkurrenz über 400m punkten und belegten Platz 5 und 6, während Isabell Oenning dank der großen Konkurrenz aus dem Rheinland ihren Sieg zwar nicht wiederholen konnte, aber mit erneut verbesserter Zeit immer noch Platz 8 erreichte.</font></font></b></p>",
+        "content_text": "Elena Hütter und Maren Albers konnten auch in der höheren Altersklasse und bei stärkerer Konkurrenz über 400m punkten und belegten Platz 5 und 6, während Isabell Oenning dank der großen Konkurrenz aus dem Rheinland ihren Sieg zwar nicht wiederholen konnte, aber mit erneut verbesserter Zeit immer noch Platz 8 erreichte.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130203180544_Elena_04bearb.jpg",
+                "local": "news_assets/3712/zoom_20130203180544_Elena_04bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-196-3686",
+        "id": "3686",
+        "title": "PRIMA-ERGEBNISSE FüR U14 – TRAININGSGRUPPE IN DORTMUND",
+        "date": "27. Januar 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130127211500_Franzi_Hoch_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">U14-Trainer Sebastian Stephani und Lars Czekalla meldeten zur Formüberprüfung 15 Mädels und Jungs der U14-Trainingsgruppe zum Hallenwettkampf am 27.01.2013 in Dortmund an, mit 25 Treppchenplatzierungen und 3 ersten Plätzen kehrte die Gruppe hochzufrieden nach Recklinghausen zurück.</font></b></p>",
+        "content_text": "U14-Trainer Sebastian Stephani und Lars Czekalla meldeten zur Formüberprüfung 15 Mädels und Jungs der U14-Trainingsgruppe zum Hallenwettkampf am 27.01.2013 in Dortmund an, mit 25 Treppchenplatzierungen und 3 ersten Plätzen kehrte die Gruppe hochzufrieden nach Recklinghausen zurück.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130127211500_Franzi_Hoch_bearb.jpg",
+                "local": "news_assets/3686/zoom_20130127211500_Franzi_Hoch_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-196-3685",
+        "id": "3685",
+        "title": "NäCHSTER WESTFALENTITEL FüR MARITA SCHULTE!",
+        "date": "26. Januar 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130126180407_Marita_Halle_01bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Westfalenmeisterschaften der Frauen und Männer am 26.01.2013 in Bielefeld gelang U20 - Stabhochspringerin Marita Schulte das, was sie bei den U20 - Westfalenmeisterschaften vor einer Woche in Dortmund nicht geschafft hatte: Sie gewann den Westfalentitel mit der Höhe von 3,50m.</b></p>",
+        "content_text": "Bei den Westfalenmeisterschaften der Frauen und Männer am 26.01.2013 in Bielefeld gelang U20 - Stabhochspringerin Marita Schulte das, was sie bei den U20 - Westfalenmeisterschaften vor einer Woche in Dortmund nicht geschafft hatte: Sie gewann den Westfalentitel mit der Höhe von 3,50m.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130126180407_Marita_Halle_01bearb.jpg",
+                "local": "news_assets/3685/zoom_20130126180407_Marita_Halle_01bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-196-3684",
+        "id": "3684",
+        "title": "SPORTLERWAHL DES JAHRES 2012: RLC-SPORTLERINNEN AUF DEM TREPPCHEN",
+        "date": "26. Januar 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130126155552_BiancaMarita_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Bei der vom Zeitungshaus Bauer im Vorfeld zum Sportlerball am 25.01.2013 durchgeführten Wahl zur Sportlerin / zum Sportler / zur Mannschaft des Jahres 2012 der Stadt Recklinghausen und des Kreises Recklinghausen durften wir gleich zwei RLC-Damen und zwei RLC-Staffeln auf der Bühne beklatschen.</font></b></p>",
+        "content_text": "Bei der vom Zeitungshaus Bauer im Vorfeld zum Sportlerball am 25.01.2013 durchgeführten Wahl zur Sportlerin / zum Sportler / zur Mannschaft des Jahres 2012 der Stadt Recklinghausen und des Kreises Recklinghausen durften wir gleich zwei RLC-Damen und zwei RLC-Staffeln auf der Bühne beklatschen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130126155552_BiancaMarita_bearb.jpg",
+                "local": "news_assets/3684/zoom_20130126155552_BiancaMarita_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-197-3683",
+        "id": "3683",
+        "title": "ISABELL OENNING WESTFALENMEISTERIN!",
+        "date": "20. Januar 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130121112947_IsabellMarita_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den in der Dortmunder Helmut-Körnig-Halle am 20.01.2013 durchgeführten Westfälischen Hallenmeisterschaften JU18 / JU20 gelang der RLC-Athletin Isabell Oenning (JU20) der von ihrem Trainer Ludger Zander vorhergesagte Triumph: Sie gewann das Rennen über die 200m Hallenrunde in 25,93sec, um sich anschließend gemeinsam mit ihren Staffelkolleginnen Maren Albers, Elena Hütter und Jacqueline Duda den 3. Platz über 4x200m in 1:43,57min zu sichern.</b></p>",
+        "content_text": "Bei den in der Dortmunder Helmut-Körnig-Halle am 20.01.2013 durchgeführten Westfälischen Hallenmeisterschaften JU18 / JU20 gelang der RLC-Athletin Isabell Oenning (JU20) der von ihrem Trainer Ludger Zander vorhergesagte Triumph: Sie gewann das Rennen über die 200m Hallenrunde in 25,93sec, um sich anschließend gemeinsam mit ihren Staffelkolleginnen Maren Albers, Elena Hütter und Jacqueline Duda den 3. Platz über 4x200m in 1:43,57min zu sichern.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130121112947_IsabellMarita_bearb.jpg",
+                "local": "news_assets/3683/zoom_20130121112947_IsabellMarita_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-197-3682",
+        "id": "3682",
+        "title": "U16-ATHLETEN GLäNZEN TROTZ CHAOS-WETTKAMPF IN DER HALLE",
+        "date": "19. Januar 2013 -  20. Januar 2014",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130120154616_M14_00m.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Mit 13 U16-Athletinnen und -Athleten fuhren Jürgen Albers und Lars Czekalla zum Hallenwettkampf am 19.01.2013 in Dortmund. Ausfall der elektronischen Zeitmessung, unkalkulierbare Zeitplanverschiebungen und ein Teilnehmerrekord sorgten für Chaos bei Veranstalter und Athleten. Davon unbeeindruckt bewiesen die jugendlichen Aktiven des Recklinghäuser LC gute Nerven und noch bessere Leistung.</font></b></p>",
+        "content_text": "Mit 13 U16-Athletinnen und -Athleten fuhren Jürgen Albers und Lars Czekalla zum Hallenwettkampf am 19.01.2013 in Dortmund. Ausfall der elektronischen Zeitmessung, unkalkulierbare Zeitplanverschiebungen und ein Teilnehmerrekord sorgten für Chaos bei Veranstalter und Athleten. Davon unbeeindruckt bewiesen die jugendlichen Aktiven des Recklinghäuser LC gute Nerven und noch bessere Leistung.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130120154616_M14_00m.jpg",
+                "local": "news_assets/3682/zoom_20130120154616_M14_00m.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-197-3681",
+        "id": "3681",
+        "title": "SCHULTE UND PREILOWSKI SPRINGEN QUALI",
+        "date": "06. Januar 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130106205850_hohenhorst-02.jpg\"/></div><p class=\"detailViewTop\"><b>Beim ersten Hallensportfest des Jahres in Dortmund bestätigte Marita Schulte (WJU20) in ihrer Paradedisziplin, dem Stabhochsprung, mit übersprungenen 3,50m zum wiederholten Male die Qualifikationshöhe zu den Deutschen Jugendhallenmeisterschaften in Halle an der Saale.</b></p>",
+        "content_text": "Beim ersten Hallensportfest des Jahres in Dortmund bestätigte Marita Schulte (WJU20) in ihrer Paradedisziplin, dem Stabhochsprung, mit übersprungenen 3,50m zum wiederholten Male die Qualifikationshöhe zu den Deutschen Jugendhallenmeisterschaften in Halle an der Saale.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130106205850_hohenhorst-02.jpg",
+                "local": "news_assets/3681/zoom_20130106205850_hohenhorst-02.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-198-3680",
+        "id": "3680",
+        "title": "ERSTER LäUFERAUFTRITT IM NEUEN JAHR",
+        "date": "05. Januar 2013",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20130105200649_Lauf_um_den_Stausee_02bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Beim Lauf um den Halterner Stausee versuchten einiger RLC-Läuferinnen und -Läufer, den faulen Tagen um das Weihnachtsfest Paroli zu bieten, indem sie sich für den 10km-Lauf am 05.01.2013 anmeldeten. Während es Dr. Antje Maas (W45) gelang, ihr Vorhaben, endlich unter 50min zu laufen, in die Tat umzusetzen,...</b></p>",
+        "content_text": "Beim Lauf um den Halterner Stausee versuchten einiger RLC-Läuferinnen und -Läufer, den faulen Tagen um das Weihnachtsfest Paroli zu bieten, indem sie sich für den 10km-Lauf am 05.01.2013 anmeldeten. Während es Dr. Antje Maas (W45) gelang, ihr Vorhaben, endlich unter 50min zu laufen, in die Tat umzusetzen,...",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20130105200649_Lauf_um_den_Stausee_02bearb.jpg",
+                "local": "news_assets/3680/zoom_20130105200649_Lauf_um_den_Stausee_02bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-198-3610",
+        "id": "3610",
+        "title": "STABHOCHSPRINGER IN AKTION",
+        "date": "20. Dezember 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20121220101525_Laura_Stabbearb.jpg\"/></div><p class=\"detailViewTop\"><b>Bei einem Einladungswettkampf Stabhochsprung am 19.12.2012 in der Walter-Lohmar-Halle (RE) gingen auch drei RLC-Stabspringer an den Start. Während Laura Faltermann (W14) krankheitsbedingt mit 2,72m unter ihrer bisherigen Bestleistung von 3,00m leicht zurückblieb,</b></p>",
+        "content_text": "Bei einem Einladungswettkampf Stabhochsprung am 19.12.2012 in der Walter-Lohmar-Halle (RE) gingen auch drei RLC-Stabspringer an den Start. Während Laura Faltermann (W14) krankheitsbedingt mit 2,72m unter ihrer bisherigen Bestleistung von 3,00m leicht zurückblieb,",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20121220101525_Laura_Stabbearb.jpg",
+                "local": "news_assets/3610/zoom_20121220101525_Laura_Stabbearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-199-3609",
+        "id": "3609",
+        "title": "BüRGERMEISTER EHRT ERFOLGREICHE RLC-LäUFERINNEN",
+        "date": "19. Dezember 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20121219201614_Ehrung_01.jpg\"/></div><p class=\"detailViewTop\"><b>Im Rahmen der jährlich in der Vorweihnachtszeit durch Bürgermeister Wolfgang Pantförder vorgenommenen Ehrung erfolgreicher Sportlerinnen und Sportler der Stadt Recklinghausen wurden mit Hermi Staubermann und Dr. Antje Maas auch zwei Langstreckenläuferinnen des Recklinghäuser LC  geehrt.</b></p>",
+        "content_text": "Im Rahmen der jährlich in der Vorweihnachtszeit durch Bürgermeister Wolfgang Pantförder vorgenommenen Ehrung erfolgreicher Sportlerinnen und Sportler der Stadt Recklinghausen wurden mit Hermi Staubermann und Dr. Antje Maas auch zwei Langstreckenläuferinnen des Recklinghäuser LC  geehrt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20121219201614_Ehrung_01.jpg",
+                "local": "news_assets/3609/zoom_20121219201614_Ehrung_01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-199-3608",
+        "id": "3608",
+        "title": "GUTE LEISTUNGEN BEI HALLENSPORTFEST IN PADERBORN",
+        "date": "17. Dezember 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20121217154611_75m_Annabearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Zum 1. Hallensportfest der Wintersaison 2012/2013 in Paderborn hatten die U16-Trainer Jürgen Albers und Lars Czekalla zwölf Athletinnen und Athleten der Jahrgänge 1998/1999 gemeldet, als Test- und Qualifikationswettkampf für die Westfälischen U16-Meisterschaften der kommenden Saison; durchweg gute bis sehr gute Leistungen waren das Ergebnis.</font></b></p>",
+        "content_text": "Zum 1. Hallensportfest der Wintersaison 2012/2013 in Paderborn hatten die U16-Trainer Jürgen Albers und Lars Czekalla zwölf Athletinnen und Athleten der Jahrgänge 1998/1999 gemeldet, als Test- und Qualifikationswettkampf für die Westfälischen U16-Meisterschaften der kommenden Saison; durchweg gute bis sehr gute Leistungen waren das Ergebnis.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20121217154611_75m_Annabearb.jpg",
+                "local": "news_assets/3608/zoom_20121217154611_75m_Annabearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-199-3569",
+        "id": "3569",
+        "title": "RLC ZUM 7. MAL SIEGER IN DER JUGENDLIGA",
+        "date": "08. Dezember 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20121208175042_Ehrung_01bearb.jpg\"/></div><p class=\"detailViewTop\"><b>I<font face=\"Arial, sans-serif\">m Rahmen der Arbeitstagung der Leichtathletikvereine des Kreises Recklinghausen am 07.12.2012 wurden auch die diesjährigen Sieger des Jugendliga-Wettbewerbs geehrt, und wieder einmal stand der RLC ganz oben auf dem Treppchen.</font></b></p>",
+        "content_text": "I\nm Rahmen der Arbeitstagung der Leichtathletikvereine des Kreises Recklinghausen am 07.12.2012 wurden auch die diesjährigen Sieger des Jugendliga-Wettbewerbs geehrt, und wieder einmal stand der RLC ganz oben auf dem Treppchen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20121208175042_Ehrung_01bearb.jpg",
+                "local": "news_assets/3569/zoom_20121208175042_Ehrung_01bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-200-3568",
+        "id": "3568",
+        "title": "KREISMEISTERSCHAFTEN HALBMARATHON - RLCLER GANZ OBEN",
+        "date": "06. Dezember 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20121206200530_image35.jpeg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Bei den letzten Meisterschaften des Jahres 2012 -  traditionell sind dies die Kreismeisterschaften im Halbmarathon -  am 02.12.2012 in Herten-Bertlich fanden sich wieder einmal viele RLC-Athletinnen und Athleten ganz oben auf dem Siegertreppchen wieder.</font></b></p>",
+        "content_text": "Bei den letzten Meisterschaften des Jahres 2012 -  traditionell sind dies die Kreismeisterschaften im Halbmarathon -  am 02.12.2012 in Herten-Bertlich fanden sich wieder einmal viele RLC-Athletinnen und Athleten ganz oben auf dem Siegertreppchen wieder.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20121206200530_image35.jpeg",
+                "local": "news_assets/3568/zoom_20121206200530_image35.jpeg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-200-3567",
+        "id": "3567",
+        "title": "ERFOLGREICHER FORMTEST FüR RLC-LäUFER IN ESSEN",
+        "date": "25. November 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20121125193424_Foto_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Den traditionell stark besetzten Blumensaatlauf am 24.11.2012 um den Essener Baldeneysee nutzten einige RLCler zur Formüberprüfung mit Blick auf die anstehenden Halbmarathon-Kreismeisterschaften am kommenden Sonntag.</b></p>",
+        "content_text": "Den traditionell stark besetzten Blumensaatlauf am 24.11.2012 um den Essener Baldeneysee nutzten einige RLCler zur Formüberprüfung mit Blick auf die anstehenden Halbmarathon-Kreismeisterschaften am kommenden Sonntag.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20121125193424_Foto_bearb.jpg",
+                "local": "news_assets/3567/zoom_20121125193424_Foto_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-200-3566",
+        "id": "3566",
+        "title": "WESTFäLISCHE CROSSMEISTERSCHAFTEN MIT RLC-BETEILIGUNG",
+        "date": "18. November 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20121118153615_Westf.jpg\"/></div><p class=\"detailViewTop\"><b>Zu den Westfälischen Meisterschaften im Crosslauf, in diesem Jahr ausgetragen am 17.11.2012 im sauerländischen Halver, hatte eine kleine, aber feine Mannschaft gemeldet: Cedric Busch (MJU20) ging über 4300m an den Start, Tina Wessinghage (W30) und Rüdiger Kruse (M55) über 5300m sowie Christian Gederski (M35) trotz kurzfristig erlittener Fußverletzung über die Langstrecke von 10.500m.</b></p>",
+        "content_text": "Zu den Westfälischen Meisterschaften im Crosslauf, in diesem Jahr ausgetragen am 17.11.2012 im sauerländischen Halver, hatte eine kleine, aber feine Mannschaft gemeldet: Cedric Busch (MJU20) ging über 4300m an den Start, Tina Wessinghage (W30) und Rüdiger Kruse (M55) über 5300m sowie Christian Gederski (M35) trotz kurzfristig erlittener Fußverletzung über die Langstrecke von 10.500m.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20121118153615_Westf.jpg",
+                "local": "news_assets/3566/zoom_20121118153615_Westf.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-201-3564",
+        "id": "3564",
+        "title": "RLC-LANGSTRECKLER WEITERHIN GUT UNTERWEGS",
+        "date": "15. Oktober 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20121015143429_Thomas_und_Cobearb.jpg\"/></div><p class=\"detailViewTop\"><b>Beim 19. Coesfelder Citylauf am 13.10.2012 trumpften einige Athleten aus der Trainingsgruppe von Thomas Vogl wieder einmal richtig auf. Diesmal gingen alle über die 5km-Strecke an den Start und kamen mit 3 Pokalen sowie weiteren vorderen Platzierungen nach Recklinghausen zurück.</b></p>",
+        "content_text": "Beim 19. Coesfelder Citylauf am 13.10.2012 trumpften einige Athleten aus der Trainingsgruppe von Thomas Vogl wieder einmal richtig auf. Diesmal gingen alle über die 5km-Strecke an den Start und kamen mit 3 Pokalen sowie weiteren vorderen Platzierungen nach Recklinghausen zurück.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20121015143429_Thomas_und_Cobearb.jpg",
+                "local": "news_assets/3564/zoom_20121015143429_Thomas_und_Cobearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-201-3560",
+        "id": "3560",
+        "title": "10 KM - KREISMEISTERSCHAFTEN: AUCH AUF DER STRASSE IST DER RLC VORNE",
+        "date": "02. Oktober 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20121002115344_09-Max.jpg\"/></div><p class=\"detailViewTop\"><b>Einen Tag nach den Staffelmeisterschaften ging es für einige RLC-Athleten auch auf der Straße um die begehrten Kreismeistertitel. Von den 10km - Kreismeisterschaften im Rahmen der 87. Bertlicher Straßenläufe nahmen die RLC-ler sechs Titel mit nach Hause.</b></p>",
+        "content_text": "Einen Tag nach den Staffelmeisterschaften ging es für einige RLC-Athleten auch auf der Straße um die begehrten Kreismeistertitel. Von den 10km - Kreismeisterschaften im Rahmen der 87. Bertlicher Straßenläufe nahmen die RLC-ler sechs Titel mit nach Hause.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20121002115344_09-Max.jpg",
+                "local": "news_assets/3560/zoom_20121002115344_09-Max.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-201-3489",
+        "id": "3489",
+        "title": "KREISSTAFFELMEISTERSCHAFTEN: KROENENDER SAISONABSCHLUSS FüR DEN RLC",
+        "date": "30. September 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120930183636_MKU12_4x50_W2_01.jpg\"/></div><p class=\"detailViewTop\"><b>Fast alle Altersklassen, von den U10-Mädchen bis zu den Männern und Frauen, trugen zu einem erfolgreichen Saisonabschluss bei den diesjährigen Kreisstaffelmeisterschaften bei. Auf dem Sportplatz der ETG auf der Maybacher Heide konnten die RLC-Athleten insgesamt acht Kreismeistertitel und weitere zwölf Platzierungen auf den Urkundenrängen für sich verbuchen.</b></p>",
+        "content_text": "Fast alle Altersklassen, von den U10-Mädchen bis zu den Männern und Frauen, trugen zu einem erfolgreichen Saisonabschluss bei den diesjährigen Kreisstaffelmeisterschaften bei. Auf dem Sportplatz der ETG auf der Maybacher Heide konnten die RLC-Athleten insgesamt acht Kreismeistertitel und weitere zwölf Platzierungen auf den Urkundenrängen für sich verbuchen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120930183636_MKU12_4x50_W2_01.jpg",
+                "local": "news_assets/3489/zoom_20120930183636_MKU12_4x50_W2_01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-202-3361",
+        "id": "3361",
+        "title": "KREISMEHRKAMPF TAG 2: RLCLER SAMMELN WEITER TITEL",
+        "date": "23. September 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120923213140_WKU12_01.jpg\"/></div><p class=\"detailViewTop\"><b>Auch am 2. Wettkampftag der Kreismehrkampfmeisterschaften können wir von einem erfolgreichen Wettkampf sprechen: weitere 7 Mannschafts- und 5 Einzeltitel landeten auf dem Konto der RLC-Athleten, zusätzlich viele weitere Platzierungen und persönliche Bestleistungen.</b></p>",
+        "content_text": "Auch am 2. Wettkampftag der Kreismehrkampfmeisterschaften können wir von einem erfolgreichen Wettkampf sprechen: weitere 7 Mannschafts- und 5 Einzeltitel landeten auf dem Konto der RLC-Athleten, zusätzlich viele weitere Platzierungen und persönliche Bestleistungen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120923213140_WKU12_01.jpg",
+                "local": "news_assets/3361/zoom_20120923213140_WKU12_01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-202-3360",
+        "id": "3360",
+        "title": "WJU14 üBERLEGENE SIEGER BEI WESTFäLISCHEN DJMM-ENDKäMPFEN",
+        "date": "23. September 2012 -  23. September 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Bei den Westfalenmeisterschaften der Mannschaften wurde für die Mädels-Truppe von Sebastian Stephani und Lars Czekalla der Traum wahr:</b></p>",
+        "content_text": "Bei den Westfalenmeisterschaften der Mannschaften wurde für die Mädels-Truppe von Sebastian Stephani und Lars Czekalla der Traum wahr:",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-202-3359",
+        "id": "3359",
+        "title": "KREISMEHRKAMPFMEISTERSCHAFTEN: TITELFLUT FüR DEN RLC BEREITS AM 1. WETTKAMPFTAG",
+        "date": "22. September 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120922195721_WKU10_02.jpg\"/></div><p class=\"detailViewTop\"><b>Bei bestem Leichtathletikwetter begannen die Kreismehrkampfmeisterschaften im Hohenhorst-Stadion und die RLC-Athletinnen und -Athleten fühlten sich sichtlich beflügelt. 3 Mannschaftstitel und 4 Einzeltitel im Mehrkampf gab es bereits am ersten Wettkampftag durch die jungen RLCler.</b></p>",
+        "content_text": "Bei bestem Leichtathletikwetter begannen die Kreismehrkampfmeisterschaften im Hohenhorst-Stadion und die RLC-Athletinnen und -Athleten fühlten sich sichtlich beflügelt. 3 Mannschaftstitel und 4 Einzeltitel im Mehrkampf gab es bereits am ersten Wettkampftag durch die jungen RLCler.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120922195721_WKU10_02.jpg",
+                "local": "news_assets/3359/zoom_20120922195721_WKU10_02.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-203-3311",
+        "id": "3311",
+        "title": "RLC-NACHWUCHS DEMONSTRIERT LEISTUNGSBEREITSCHAFT",
+        "date": "15. September 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120915205341_Mannschaft_01.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Bei den traditionellen Offenen Recklinghäuser Stadtmeisterschaften am 15.09.2012, dem ersten Sportfest nach den langen Sommerferien, bewies der Nachwuchs des RLC namentlich in den unteren Schüler-Klassen, wie leistungsfähig und leistungsbereit die größtenteils noch sehr jungen Mädels und Jungen sind.</font></b></p>",
+        "content_text": "Bei den traditionellen Offenen Recklinghäuser Stadtmeisterschaften am 15.09.2012, dem ersten Sportfest nach den langen Sommerferien, bewies der Nachwuchs des RLC namentlich in den unteren Schüler-Klassen, wie leistungsfähig und leistungsbereit die größtenteils noch sehr jungen Mädels und Jungen sind.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120915205341_Mannschaft_01.jpg",
+                "local": "news_assets/3311/zoom_20120915205341_Mannschaft_01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-203-3309",
+        "id": "3309",
+        "title": "WJU14: 4 X 75M-EINLAGELAUF IM RAHMEN DER OFFENEN STADTMEISTERSCHAFTEN",
+        "date": "06. September 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120906143850_KIA_013bearb.jpg\"/></div><p class=\"detailViewTop\"><b>A<font face=\"Arial, sans-serif\">ls Vorbereitung auf die am 29.09.2012 stattfindenden Kreisstaffelmeisterschaften bietet der RLC im Rahmen der Offenen Recklinghäuser Stadtmeisterschaften am 15.09.2012 ein Einlagerennen für die Altersklasse WJU14 über 4 x 75m an.</font></b></p>",
+        "content_text": "A\nls Vorbereitung auf die am 29.09.2012 stattfindenden Kreisstaffelmeisterschaften bietet der RLC im Rahmen der Offenen Recklinghäuser Stadtmeisterschaften am 15.09.2012 ein Einlagerennen für die Altersklasse WJU14 über 4 x 75m an.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120906143850_KIA_013bearb.jpg",
+                "local": "news_assets/3309/zoom_20120906143850_KIA_013bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-204-3299",
+        "id": "3299",
+        "title": "RLCLER GUT BEIM GALGENBERGLAUF UNTERWEGS!",
+        "date": "02. September 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120902220729_Teilnehmer_Galgenberglauf_02.jpg\"/></div><p class=\"detailViewTop\"><b>Zwölf RLC-Läufer fast aller Altersklassen haben sich am 02.09.2012 in Lembeck getroffen, um Spaß beim traditionellen Galgenberglauf zu haben. 10 Siege auf verschiedenen Strecken und in unterschiedlichen Klassen bei bestem Laufwetter sowie weitere gute Platzierungen sorgten zusätzlich für beste Laune.</b></p>",
+        "content_text": "Zwölf RLC-Läufer fast aller Altersklassen haben sich am 02.09.2012 in Lembeck getroffen, um Spaß beim traditionellen Galgenberglauf zu haben. 10 Siege auf verschiedenen Strecken und in unterschiedlichen Klassen bei bestem Laufwetter sowie weitere gute Platzierungen sorgten zusätzlich für beste Laune.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120902220729_Teilnehmer_Galgenberglauf_02.jpg",
+                "local": "news_assets/3299/zoom_20120902220729_Teilnehmer_Galgenberglauf_02.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-204-3296",
+        "id": "3296",
+        "title": "UND SIE LäUFT UND LäUFT UND....",
+        "date": "27. August 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120827104158_Hermi_alleine.JPG\"/></div><p class=\"detailViewTop\"><b>Hermi Staubermanns Ausbeute bei den Europäischen Seniorenmeisterschaften in Zittau / Alterklasse W70 lautet:<br>drei Europameisterinnen-Titel, eine Vizemeisterschaft, ein 4. Platz und ein Weltrekord!</br></b></p>",
+        "content_text": "Hermi Staubermanns Ausbeute bei den Europäischen Seniorenmeisterschaften in Zittau / Alterklasse W70 lautet:\ndrei Europameisterinnen-Titel, eine Vizemeisterschaft, ein 4. Platz und ein Weltrekord!",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120827104158_Hermi_alleine.JPG",
+                "local": "news_assets/3296/zoom_20120827104158_Hermi_alleine.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-205-3295",
+        "id": "3295",
+        "title": "WINDBöEN DURCHKREUZEN BIANCAS PUNKTEHOFFNUNGEN",
+        "date": "26. August 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120826174439_Bianca_02bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Lag RLC-Athletin Bianca Broda bei den Deutschen Mehrkampfmeisterschaften in Hannover am 1. Wettkampftag durchaus auf Kurs Bestleistung, wurden ihre Ambitionen am 2. Wettkampftag durch drehende Wind zunicht gemacht.</b></p>",
+        "content_text": "Lag RLC-Athletin Bianca Broda bei den Deutschen Mehrkampfmeisterschaften in Hannover am 1. Wettkampftag durchaus auf Kurs Bestleistung, wurden ihre Ambitionen am 2. Wettkampftag durch drehende Wind zunicht gemacht.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120826174439_Bianca_02bearb.jpg",
+                "local": "news_assets/3295/zoom_20120826174439_Bianca_02bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-204-3294",
+        "id": "3294",
+        "title": "ERFOLGREICHE KREISMEISTERSCHAFTEN FüR RLC-SENIOREN",
+        "date": "26. August 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120902180839_Fritz_01bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Kreismeisterschaften der Senioren am 25.08.2012 in Herten haben alle angetretenen Senioren im Trikot des RLC auf dem Siegertreppchen Platz nehmen dürfen.</b></p>",
+        "content_text": "Bei den Kreismeisterschaften der Senioren am 25.08.2012 in Herten haben alle angetretenen Senioren im Trikot des RLC auf dem Siegertreppchen Platz nehmen dürfen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120902180839_Fritz_01bearb.jpg",
+                "local": "news_assets/3294/zoom_20120902180839_Fritz_01bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-205-3293",
+        "id": "3293",
+        "title": "BIANCA BRODA ERNEUT AUF 5000-PUNKTE-KURS!",
+        "date": "25. August 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120825171502_Bianca_02bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Deutschen Mehrkampfmeisterschaften an diesem Wochenende in Hannover vertritt Bianca Broda die Farben des Recklinghäuser LC im Siebenkampf.</b></p>",
+        "content_text": "Bei den Deutschen Mehrkampfmeisterschaften an diesem Wochenende in Hannover vertritt Bianca Broda die Farben des Recklinghäuser LC im Siebenkampf.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120825171502_Bianca_02bearb.jpg",
+                "local": "news_assets/3293/zoom_20120825171502_Bianca_02bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-205-3292",
+        "id": "3292",
+        "title": "GEGEN SIE HAT AUCH EIN UNWETTER KEINE CHANCE...",
+        "date": "28. Juli 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120728115711_Laufen_im_Unwetter.jpg\"/></div><p class=\"detailViewTop\"><b>Offene Bochumer Stadtmeisterschaften Teil 2: pünktlich mit Beginn der 1000m-Läufe begann am 27.07.2012 um 18.00Uhr die Unwetterfront ihr Unwesen, was die Mittel- und Langstreckler im RLC-Trikot nicht davon abhielt, ihre guten Trainingsleistungen in Wettkampfzeiten umzusetzen.</b></p>",
+        "content_text": "Offene Bochumer Stadtmeisterschaften Teil 2: pünktlich mit Beginn der 1000m-Läufe begann am 27.07.2012 um 18.00Uhr die Unwetterfront ihr Unwesen, was die Mittel- und Langstreckler im RLC-Trikot nicht davon abhielt, ihre guten Trainingsleistungen in Wettkampfzeiten umzusetzen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120728115711_Laufen_im_Unwetter.jpg",
+                "local": "news_assets/3292/zoom_20120728115711_Laufen_im_Unwetter.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-206-3291",
+        "id": "3291",
+        "title": "UNSERE LAUFFREAKS SCHLAGEN ERNEUT ZU .....",
+        "date": "26. Juli 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120726212329_Hermi-Antje-Arne_02bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Zu den Offenen Stadtmeisterschaften Bochum am 23.07.2012  hatten 5 Mittel- und Langstreckler des RLC auch für ungewohnte Strecken gemeldet. Alle schlugen sich trotz des heißen Wetters mit vielen persönlichen Bestleistungen hervorragend.</b></p>",
+        "content_text": "Zu den Offenen Stadtmeisterschaften Bochum am 23.07.2012  hatten 5 Mittel- und Langstreckler des RLC auch für ungewohnte Strecken gemeldet. Alle schlugen sich trotz des heißen Wetters mit vielen persönlichen Bestleistungen hervorragend.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120726212329_Hermi-Antje-Arne_02bearb.jpg",
+                "local": "news_assets/3291/zoom_20120726212329_Hermi-Antje-Arne_02bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-206-3285",
+        "id": "3285",
+        "title": "PIA ZAJONZ BEI DJM U20 AUF DEM TREPPCHEN",
+        "date": "22. Juli 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120722150524_Pia_Zajonz_Siegerehrung_Westde.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Deutschen U20-Meisterschaften am 22.07.2012 in Mönchengladbach belegte die RLC-Langstrecklerin Pia Zajonz einen hervorragenden 7. Platz über 3000m.</b></p>",
+        "content_text": "Bei den Deutschen U20-Meisterschaften am 22.07.2012 in Mönchengladbach belegte die RLC-Langstrecklerin Pia Zajonz einen hervorragenden 7. Platz über 3000m.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120722150524_Pia_Zajonz_Siegerehrung_Westde.jpg",
+                "local": "news_assets/3285/zoom_20120722150524_Pia_Zajonz_Siegerehrung_Westde.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-206-3276",
+        "id": "3276",
+        "title": "U18-STAFFEL RENNT MIT KREISREKORD INS FINALE [VIDEO]",
+        "date": "21. Juli 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120721161309_Staffel_03bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Ein Paukenschlag bereits im dritten 4x100m-Vorlauf der WJU18 am 20.07.2012 bei den Deutschen U18-Meisterschaften in Mönchengladbach: Janine Gamrath, Elena Hütter, Maren Albers und Isabell Oenning verbessern den eigenen Kreisrekord aus dem Vorjahr um 0,82sec auf 47,52sec und erreichen damit als drittschnellste Staffel den A-Endlauf.</b></p>",
+        "content_text": "Ein Paukenschlag bereits im dritten 4x100m-Vorlauf der WJU18 am 20.07.2012 bei den Deutschen U18-Meisterschaften in Mönchengladbach: Janine Gamrath, Elena Hütter, Maren Albers und Isabell Oenning verbessern den eigenen Kreisrekord aus dem Vorjahr um 0,82sec auf 47,52sec und erreichen damit als drittschnellste Staffel den A-Endlauf.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120721161309_Staffel_03bearb.jpg",
+                "local": "news_assets/3276/zoom_20120721161309_Staffel_03bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-207-3272",
+        "id": "3272",
+        "title": "HERMI STAUBERMANN WIEDER SCHNELL UNTERWEGS",
+        "date": "14. Juli 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120714114213_Hermi_alleine.JPG\"/></div><p class=\"detailViewTop\"><b>Bereits am ersten Wettkampftag der Deutschen Seniorenmeisterschaften I und II am 13.07.2012 in Erfurt stellte unsere Vorzeigeseniorin Hermi Staubermann (W70) ihre derzeitige Stärke unter Beweis.</b></p>",
+        "content_text": "Bereits am ersten Wettkampftag der Deutschen Seniorenmeisterschaften I und II am 13.07.2012 in Erfurt stellte unsere Vorzeigeseniorin Hermi Staubermann (W70) ihre derzeitige Stärke unter Beweis.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120714114213_Hermi_alleine.JPG",
+                "local": "news_assets/3272/zoom_20120714114213_Hermi_alleine.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-207-3230",
+        "id": "3230",
+        "title": "BIANCA BRODA WESTDEUTSCHE DOPPELMEISTERIN",
+        "date": "09. Juli 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120709095246_Bianca_weit_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Westdeutschen Meisterschaften der Frauen, Männer und U23-Athletinnen und -Athleten am 08.07.2012 im heimischen Hohenhorst-Stadion hat Bianca Broda gleich doppelt zugeschlagen:</b></p>",
+        "content_text": "Bei den Westdeutschen Meisterschaften der Frauen, Männer und U23-Athletinnen und -Athleten am 08.07.2012 im heimischen Hohenhorst-Stadion hat Bianca Broda gleich doppelt zugeschlagen:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120709095246_Bianca_weit_bearb.jpg",
+                "local": "news_assets/3230/zoom_20120709095246_Bianca_weit_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-207-3187",
+        "id": "3187",
+        "title": "4 X 75M - WJU14 - STAFFEL LäUFT KREISREKORD! VIELE PERSöNLICHE BESTLEISTUNGEN!",
+        "date": "04. Juli 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120705074302_Kreisrekordstaffel_01bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Beim Läuferabend des TV Gladbeck gelang der von Sebastian Stephani, Lars Czekalla und Mike Pokrop trainierten Mädchenstaffel endlich der ersehnte Traumlauf.</b></p>",
+        "content_text": "Beim Läuferabend des TV Gladbeck gelang der von Sebastian Stephani, Lars Czekalla und Mike Pokrop trainierten Mädchenstaffel endlich der ersehnte Traumlauf.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120705074302_Kreisrekordstaffel_01bearb.jpg",
+                "local": "news_assets/3187/zoom_20120705074302_Kreisrekordstaffel_01bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-208-3186",
+        "id": "3186",
+        "title": "JUNGE RLC-MEHRKäMPFER IN AKTION",
+        "date": "01. Juli 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120701203759_WJU10_02bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den offenen Hertener Schülermehrkampfmeisterschaften am 01.07.2012  in Bertlich konnten 19 junge und ganz ganz junge RLClerInnen auf sich aufmerksam machen. Drei Einzeltitel und drei Mannschaftstitel waren eine tolle Ausbeute der Acht – Elfjährigen.</b></p>",
+        "content_text": "Bei den offenen Hertener Schülermehrkampfmeisterschaften am 01.07.2012  in Bertlich konnten 19 junge und ganz ganz junge RLClerInnen auf sich aufmerksam machen. Drei Einzeltitel und drei Mannschaftstitel waren eine tolle Ausbeute der Acht – Elfjährigen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120701203759_WJU10_02bearb.jpg",
+                "local": "news_assets/3186/zoom_20120701203759_WJU10_02bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-208-3185",
+        "id": "3185",
+        "title": "BIANCA BRODA ERSTMALS WESTFALENMEISTERIN IM SIEBENKAMPF: 5046 PUNKTE",
+        "date": "30. Juni -  01. Juli 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120701201415_Bianca_Siegerehrungbearb.jpg\"/></div><p class=\"detailViewTop\"><b>Nach Rang 2 am Ende des ersten Wettkampftages ließ Bianca die neuen Bestleistungen am 2. Wettkampftag förmlich nur so krachen: </b></p>",
+        "content_text": "Nach Rang 2 am Ende des ersten Wettkampftages ließ Bianca die neuen Bestleistungen am 2. Wettkampftag förmlich nur so krachen:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120701201415_Bianca_Siegerehrungbearb.jpg",
+                "local": "news_assets/3185/zoom_20120701201415_Bianca_Siegerehrungbearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-208-3184",
+        "id": "3184",
+        "title": "BIANCA BRODA AUF MEDAILLEN-KURS",
+        "date": "30. Juni 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120630221358_Bianca_02.jpg\"/></div><p class=\"detailViewTop\"><b>Halbzeit bei den Westfälischen Mehrkampfmeisterschaften in Bad Oeynhausen für Bianca Broda (F) im Siebenkampf. Sie liegt nach 4 Disziplinen mit 2923 Punkten gerade mal 95 Punkte hinter der Führenden Maike Holtkamp von der LG Olympia Dortmund.</b></p>",
+        "content_text": "Halbzeit bei den Westfälischen Mehrkampfmeisterschaften in Bad Oeynhausen für Bianca Broda (F) im Siebenkampf. Sie liegt nach 4 Disziplinen mit 2923 Punkten gerade mal 95 Punkte hinter der Führenden Maike Holtkamp von der LG Olympia Dortmund.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120630221358_Bianca_02.jpg",
+                "local": "news_assets/3184/zoom_20120630221358_Bianca_02.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-209-3153",
+        "id": "3153",
+        "title": "ERFOLGREICHE KILA - PILOTVERANSTALTUNG",
+        "date": "28. Juni 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120628101957_Janina_Hoch-Weitbearb.jpg\"/></div><p class=\"detailViewTop\"><b>Der Recklinghäuser LC veranstaltete am 27.06.2012 einen Kinderleichtathletik-Wettkampf nach der neuen DLO: den 1. Recklinghäuser Kids-Cup für U8-Kinder, einen Mannschaftswettkampf für unter achtjährige Kids der Jahrgänge 2005/2006.</b></p>",
+        "content_text": "Der Recklinghäuser LC veranstaltete am 27.06.2012 einen Kinderleichtathletik-Wettkampf nach der neuen DLO: den 1. Recklinghäuser Kids-Cup für U8-Kinder, einen Mannschaftswettkampf für unter achtjährige Kids der Jahrgänge 2005/2006.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120628101957_Janina_Hoch-Weitbearb.jpg",
+                "local": "news_assets/3153/zoom_20120628101957_Janina_Hoch-Weitbearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-209-3152",
+        "id": "3152",
+        "title": "TROTZ SCH...WETTER PRIMA ERGEBNISSE IN PADERBORN",
+        "date": "24. Juni 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120624221344_WJU14_01bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Von den Westfälischen JU16-Meisterschaften in Paderborn kehrten einige Athleten von Trainer Jürgen Albers mit richtig guten Ergebnissen nach Recklinghausen zurück.</b></p>",
+        "content_text": "Von den Westfälischen JU16-Meisterschaften in Paderborn kehrten einige Athleten von Trainer Jürgen Albers mit richtig guten Ergebnissen nach Recklinghausen zurück.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120624221344_WJU14_01bearb.jpg",
+                "local": "news_assets/3152/zoom_20120624221344_WJU14_01bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-209-3151",
+        "id": "3151",
+        "title": "PERSöNLICHE BESTLEISTUNGEN AM FLIEßBAND",
+        "date": "23. Juni 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120623212515_Ida_hoch_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Vor Beginn der Sommerpause gingen die U14-Athleten von Sebastian Stephani und Lars Czekalla noch einmal in Menden an den Start, mit dem Ziel, mit Blick aufs DSMM-Finale noch ein paar persönliche Bestleistungen einzufahren.</b></p>",
+        "content_text": "Vor Beginn der Sommerpause gingen die U14-Athleten von Sebastian Stephani und Lars Czekalla noch einmal in Menden an den Start, mit dem Ziel, mit Blick aufs DSMM-Finale noch ein paar persönliche Bestleistungen einzufahren.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120623212515_Ida_hoch_bearb.jpg",
+                "local": "news_assets/3151/zoom_20120623212515_Ida_hoch_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-210-3119",
+        "id": "3119",
+        "title": "SIEG FüR DSMM-WJU14-MANNSCHAFT",
+        "date": "16. Juni 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120617210458_U14-Schlerinnenbear.jpg\"/></div><p class=\"detailViewTop\"><b>Beim DSMM-Qualifikationswettkampf am 16.06. in Olfen siegte die Mädels-Mannschaft von Sebastian Stephani, Lars Czekalla und Mike Pokrop mit 3888 Punkten und weitem Abstand vor der TSG Dülmen (2323) und der Startgemeinschaft Lüdinghausen/Brambauer.</b></p>",
+        "content_text": "Beim DSMM-Qualifikationswettkampf am 16.06. in Olfen siegte die Mädels-Mannschaft von Sebastian Stephani, Lars Czekalla und Mike Pokrop mit 3888 Punkten und weitem Abstand vor der TSG Dülmen (2323) und der Startgemeinschaft Lüdinghausen/Brambauer.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120617210458_U14-Schlerinnenbear.jpg",
+                "local": "news_assets/3119/zoom_20120617210458_U14-Schlerinnenbear.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-210-3118",
+        "id": "3118",
+        "title": "4X400M-STAFFEL DM-SIEBTE!",
+        "date": "17. Juni 2012 -  17. Juni 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Ein traumhaftes Wochenende in Wattenscheid für die U20-Mädels aus Ludger Zanders Trainingsgruppe: Samstag der Einzug ins Finale der Deutschen Meisterschaften als achtschnellste 4x400m-Staffel, heute Platz 7 mit Bestätigung der Top-Zeit vom Vortag.</b></p>",
+        "content_text": "Ein traumhaftes Wochenende in Wattenscheid für die U20-Mädels aus Ludger Zanders Trainingsgruppe: Samstag der Einzug ins Finale der Deutschen Meisterschaften als achtschnellste 4x400m-Staffel, heute Platz 7 mit Bestätigung der Top-Zeit vom Vortag.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-211-3117",
+        "id": "3117",
+        "title": "SENIOREN WEITER IM AUFWIND",
+        "date": "15. Juni 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120616195401_Hermi-Antje-Arne_02bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Von den Offenen Münsterlandmeisterschaften der Senioren am 15.06.2012 in Telgte kommen mal wieder positive Nachrichten unserer Seniorentruppe: Dr. Antje Maas, Hermine Staubermann und Arne Wendler kehrten mit 4 Titeln und 2 Vizetiteln nach Recklinghausen zurück.</b></p>",
+        "content_text": "Von den Offenen Münsterlandmeisterschaften der Senioren am 15.06.2012 in Telgte kommen mal wieder positive Nachrichten unserer Seniorentruppe: Dr. Antje Maas, Hermine Staubermann und Arne Wendler kehrten mit 4 Titeln und 2 Vizetiteln nach Recklinghausen zurück.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120616195401_Hermi-Antje-Arne_02bearb.jpg",
+                "local": "news_assets/3117/zoom_20120616195401_Hermi-Antje-Arne_02bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-210-3116",
+        "id": "3116",
+        "title": "4X400M-STAFFEL BEI DM IM FINALE",
+        "date": "16. Juni 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120616163339_4x400m_bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font size=\"-1\"><font face=\"Arial\">mit einer Meldezeit 4:03,19 min wurde die 4x400m WJU20-Staffel des         Recklinghäuser LC auf Bahn 5 im ersten von zwei Vorläufen bei         den Deutschen Leichtathletik-Meisterschaften in Wattenscheid         gesetzt. Die Athletinnen Kerstin Hlinski, Maren Albers Luise         Möllhoff und Elena Hütter liefen bei schwierigen äußeren         Bedingungen mit Wind und Regen </font></font><font size=\"-1\"><font face=\"Arial\">auf Platz 3 in der neuen Saisonbestleistung         3:59,81 min. Die jungen Athletinnen von Trainer Ludger Zander         stehen damit am Sonntag um 13:55 Uhr </font></font><font size=\"-1\"><font face=\"Arial\">im Endlauf.</font></font></b></p>",
+        "content_text": "mit einer Meldezeit 4:03,19 min wurde die 4x400m WJU20-Staffel des         Recklinghäuser LC auf Bahn 5 im ersten von zwei Vorläufen bei         den Deutschen Leichtathletik-Meisterschaften in Wattenscheid         gesetzt. Die Athletinnen Kerstin Hlinski, Maren Albers Luise         Möllhoff und Elena Hütter liefen bei schwierigen äußeren         Bedingungen mit Wind und Regen\nauf Platz 3 in der neuen Saisonbestleistung         3:59,81 min. Die jungen Athletinnen von Trainer Ludger Zander         stehen damit am Sonntag um 13:55 Uhr\nim Endlauf.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120616163339_4x400m_bearb.jpg",
+                "local": "news_assets/3116/zoom_20120616163339_4x400m_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-211-3115",
+        "id": "3115",
+        "title": "WESTFALENTITEL FüR PIA ZAJONZ UND MARITA SCHULTE - 4X100M-STAFFEL VIZEMEISTER",
+        "date": "09. Juni 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120609210305_Pia_Zajonz_02_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Am ersten Wettkampftag der Westfälischen U18/U20-Meisterschaften im Dortmunder Rote-Erde-Stadion setzte die vielseitige Langstrecklerin Pia Zajonz (WJU20) aus RLC-Sicht den ersten Glanzpunkt: Sie ging zum ersten Mal über 3000m an den Start und gewann in souveräner Manier in 10:17,08 min vor Doreen Lagemann vom TV Wattenscheid, die 11:21,51 min benötigte.</b></p>",
+        "content_text": "Am ersten Wettkampftag der Westfälischen U18/U20-Meisterschaften im Dortmunder Rote-Erde-Stadion setzte die vielseitige Langstrecklerin Pia Zajonz (WJU20) aus RLC-Sicht den ersten Glanzpunkt: Sie ging zum ersten Mal über 3000m an den Start und gewann in souveräner Manier in 10:17,08 min vor Doreen Lagemann vom TV Wattenscheid, die 11:21,51 min benötigte.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120609210305_Pia_Zajonz_02_bearb.jpg",
+                "local": "news_assets/3115/zoom_20120609210305_Pia_Zajonz_02_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-211-3114",
+        "id": "3114",
+        "title": "RLC-SENIOREN IM ERFOLGSRAUSCH",
+        "date": "08. Juni 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120609184018_Hermi_Staubermann__07.06.2012.JPG\"/></div><p class=\"detailViewTop\"><b>Von den Offenen Nordrheinmeisterschaften der Senioren am 07.06.2012 in Möchengladbach kehrten die drei RLC-Senioren Hermi Staubermann (W70), Fritz Morgenroth (M85) und Wilfried Morgenroth (M55) mit je drei Titeln und drei Vizetiteln nach Recklinghausen zurück.</b></p>",
+        "content_text": "Von den Offenen Nordrheinmeisterschaften der Senioren am 07.06.2012 in Möchengladbach kehrten die drei RLC-Senioren Hermi Staubermann (W70), Fritz Morgenroth (M85) und Wilfried Morgenroth (M55) mit je drei Titeln und drei Vizetiteln nach Recklinghausen zurück.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120609184018_Hermi_Staubermann__07.06.2012.JPG",
+                "local": "news_assets/3114/zoom_20120609184018_Hermi_Staubermann__07.06.2012.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-212-3113",
+        "id": "3113",
+        "title": "RLC-LAUFFREAKS UNERMüDLICH IM EINSATZ",
+        "date": "03. Juni 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120603192137_laufendes_Kleeblatt_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Die Läufertruppe um Arne Wendler hat in einer Woche zum 3. Mal zugeschlagen: nach einem \"Kurzeinsatz\" durch Bianca Broda, Christian Gederski und Arne Wendler über 800m im Rahmen des 35. Hohenhorst-Meetings,....</b></p>",
+        "content_text": "Die Läufertruppe um Arne Wendler hat in einer Woche zum 3. Mal zugeschlagen: nach einem \"Kurzeinsatz\" durch Bianca Broda, Christian Gederski und Arne Wendler über 800m im Rahmen des 35. Hohenhorst-Meetings,....",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120603192137_laufendes_Kleeblatt_bearb.jpg",
+                "local": "news_assets/3113/zoom_20120603192137_laufendes_Kleeblatt_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-212-3112",
+        "id": "3112",
+        "title": "RLC-STAFFELN WEITER TOP IN FORM",
+        "date": "02. Juni 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120602182024_Start_4x75m_Idabearb.jpg\"/></div><p class=\"detailViewTop\"><b>Beim Allianz-Hillebrand-Meeting am 02.06.2012 im Erkenschwicker Stimmbergstadion traten gleich 4 Staffeln des Recklinghäuser LC an, um einen Test für die DSMM-Qualifikationsrunde bzw. die Westfalenmeisterschaften zu absolvieren.</b></p>",
+        "content_text": "Beim Allianz-Hillebrand-Meeting am 02.06.2012 im Erkenschwicker Stimmbergstadion traten gleich 4 Staffeln des Recklinghäuser LC an, um einen Test für die DSMM-Qualifikationsrunde bzw. die Westfalenmeisterschaften zu absolvieren.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120602182024_Start_4x75m_Idabearb.jpg",
+                "local": "news_assets/3112/zoom_20120602182024_Start_4x75m_Idabearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-213-3054",
+        "id": "3054",
+        "title": "GRüNE BEINE SCHLAGEN ERNEUT ZU - TOP-EINSTAND DER 4X100M-STAFFELN",
+        "date": "26. Mai 2012 -  26. Mai 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Der erste Auftritt der 4x100m-Staffeln der WU18, WU16 sowie MU16 beim Borsigmeeting am 26.05. in Gladbeck geriet zu einer Demonstration der Stärke:</b></p>",
+        "content_text": "Der erste Auftritt der 4x100m-Staffeln der WU18, WU16 sowie MU16 beim Borsigmeeting am 26.05. in Gladbeck geriet zu einer Demonstration der Stärke:",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-212-3053",
+        "id": "3053",
+        "title": "35. HOHENHORST-MEETING: ERGEBNISLISTE",
+        "date": "28. Mai 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120529151554_Lukas_100mbearb.jpg\"/></div><p class=\"detailViewTop\"><b>Rund 500 Teilnehmer aus 80 Vereinen haben bei der 35. Auflage des Recklinghäuser Pfingstmeetings mit fast 1000 Einzelstarts für ein volles Haus im Stadion Hohenhorst gesorgt. Nicht zuletzt das hervorragende Leichtathletik-Wetter hat zahlreiche Spitzenleistungen beschert. Wir danken allen Kampfrichtern und Helfern, die diese gelungene Veranstaltung erst möglich gemacht haben, recht herzlich für ihren Einsatz.<strong><br><br/>Ergebnisliste</br></strong>:   <a href=\"../assets/pdf/hoho2012-Ergebnisliste.htm\">HTML</a>   <a href=\"../assets/pdf/hoho2012-Ergebnisliste.pdf\">PDF </a></b></p>",
+        "content_text": "Rund 500 Teilnehmer aus 80 Vereinen haben bei der 35. Auflage des Recklinghäuser Pfingstmeetings mit fast 1000 Einzelstarts für ein volles Haus im Stadion Hohenhorst gesorgt. Nicht zuletzt das hervorragende Leichtathletik-Wetter hat zahlreiche Spitzenleistungen beschert. Wir danken allen Kampfrichtern und Helfern, die diese gelungene Veranstaltung erst möglich gemacht haben, recht herzlich für ihren Einsatz.\nErgebnisliste\n:\nHTML\nPDF",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120529151554_Lukas_100mbearb.jpg",
+                "local": "news_assets/3053/zoom_20120529151554_Lukas_100mbearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-213-3052",
+        "id": "3052",
+        "title": "RLC FüHRT IN DER JUGENDLIGA",
+        "date": "25. Mai 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120525173738_Yannik_Weitbearb.jpg\"/></div><p class=\"detailViewTop\"><b>Auch nach dem zweiten Wettkampf der Jugendligawertung, den Bezirks-Meisterschaften am 20.05.2012 in Bochum, führen die RLC-Jugendlichen den kreisweiten Vergleich der U16/U18 mit inzwischen 779 Punkten vor der LA SV Herten an.</b></p>",
+        "content_text": "Auch nach dem zweiten Wettkampf der Jugendligawertung, den Bezirks-Meisterschaften am 20.05.2012 in Bochum, führen die RLC-Jugendlichen den kreisweiten Vergleich der U16/U18 mit inzwischen 779 Punkten vor der LA SV Herten an.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120525173738_Yannik_Weitbearb.jpg",
+                "local": "news_assets/3052/zoom_20120525173738_Yannik_Weitbearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-213-3050",
+        "id": "3050",
+        "title": "9 TITEL AN DEN RLC BEI BEZIRKSMEISTERSCHAFTEN",
+        "date": "21. Mai 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120521154622_Bianca_02.jpg\"/></div><p class=\"detailViewTop\"><b>Bei bestem Leichtathletikwetter fanden die diesjährigen Bezirksmeisterschaften für Athletinnen und Athleten ab U16 im Wattenscheider Lohrheidestadion statt: 9 Bezirkstitel und 21 Kreismeistertitel gingen an die RLC-Aktiven.</b></p>",
+        "content_text": "Bei bestem Leichtathletikwetter fanden die diesjährigen Bezirksmeisterschaften für Athletinnen und Athleten ab U16 im Wattenscheider Lohrheidestadion statt: 9 Bezirkstitel und 21 Kreismeistertitel gingen an die RLC-Aktiven.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120521154622_Bianca_02.jpg",
+                "local": "news_assets/3050/zoom_20120521154622_Bianca_02.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-214-3049",
+        "id": "3049",
+        "title": "DEUTSCHE MEISTERSCHAFT KANN KOMMEN!",
+        "date": "17. Mai 2012 -  17. Mai 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Genau 4 Wochen vor Beginn der Deutschen Leichtathletik Meisterschaften hat die 4x400m-Staffel der weiblichen U20-Jugend heute die Qualifikation in souveräner Manier gemeistert.</b></p>",
+        "content_text": "Genau 4 Wochen vor Beginn der Deutschen Leichtathletik Meisterschaften hat die 4x400m-Staffel der weiblichen U20-Jugend heute die Qualifikation in souveräner Manier gemeistert.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-214-3004",
+        "id": "3004",
+        "title": "RLC-NACHWUCHS STARTET DURCH",
+        "date": "14. Mai 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120514110248_50m_Timbearb.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den am 12.05.2012 in Erkenschwick durchgeführten Kreiseinzelmeisterschaften der Kinder U10 – U12 und Jugend U14 bewiesen die RLC-Nachwuchsathleten, wie gut sie in der Wintersaison trainiert haben: 17 Titel und weitere 49 Treppchenplätze heimsten die 8 – 13-jährigen RLCler ein.</b></p>",
+        "content_text": "Bei den am 12.05.2012 in Erkenschwick durchgeführten Kreiseinzelmeisterschaften der Kinder U10 – U12 und Jugend U14 bewiesen die RLC-Nachwuchsathleten, wie gut sie in der Wintersaison trainiert haben: 17 Titel und weitere 49 Treppchenplätze heimsten die 8 – 13-jährigen RLCler ein.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120514110248_50m_Timbearb.jpg",
+                "local": "news_assets/3004/zoom_20120514110248_50m_Timbearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-214-3003",
+        "id": "3003",
+        "title": "ERFOLGREICHE MIXED-STAFFEL AUF SCHALKE",
+        "date": "09. Mai 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120509074543_RP-Staffel_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Beim am 06.05.2012 \"Auf Schalke\" stattfindenden Runners Point-Staffellauf ging aus der Trainingsgruppe von Thomas Vogl eine Mixed-Staffel an den Start.</b></p>",
+        "content_text": "Beim am 06.05.2012 \"Auf Schalke\" stattfindenden Runners Point-Staffellauf ging aus der Trainingsgruppe von Thomas Vogl eine Mixed-Staffel an den Start.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120509074543_RP-Staffel_bearb.jpg",
+                "local": "news_assets/3003/zoom_20120509074543_RP-Staffel_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-215-2962",
+        "id": "2962",
+        "title": "PIA ZAJONZ WESTDEUTSCHE U20-MEISTERIN",
+        "date": "30. April 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120430141656_Pia_Zajonz_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Westdeutschen Langstreckenmeisterschaften am 28.04.2012 in Lüdenscheid siegte Pia Zajonz über 5000m in der AK U20 in 18:12,22min,</b></p>",
+        "content_text": "Bei den Westdeutschen Langstreckenmeisterschaften am 28.04.2012 in Lüdenscheid siegte Pia Zajonz über 5000m in der AK U20 in 18:12,22min,",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120430141656_Pia_Zajonz_bearb.jpg",
+                "local": "news_assets/2962/zoom_20120430141656_Pia_Zajonz_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-215-2867",
+        "id": "2867",
+        "title": "HERMI STAUBERMANN DOPPEL-WELTMEISTERIN",
+        "date": "09. April 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120412170310_Hermi_WM_2012_02bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Von den Senioren-Hallen-Weltmeisterschaften, die vom 03.04. bis zum 08.04.2012 in  Jyväskyl / Finnland stattfanden, ist unsere Vorzeige-Seniorin Hermi Staubermann (W70) gleich mit 2 Titeln, einer Silber- und einer Bronzemedaille nach Recklinghausen heimgekehrt.</b></p>",
+        "content_text": "Von den Senioren-Hallen-Weltmeisterschaften, die vom 03.04. bis zum 08.04.2012 in  Jyväskyl / Finnland stattfanden, ist unsere Vorzeige-Seniorin Hermi Staubermann (W70) gleich mit 2 Titeln, einer Silber- und einer Bronzemedaille nach Recklinghausen heimgekehrt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120412170310_Hermi_WM_2012_02bearb.jpg",
+                "local": "news_assets/2867/zoom_20120412170310_Hermi_WM_2012_02bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-216-2822",
+        "id": "2822",
+        "title": "TRAUMEINLAUF BEI CROSSLAUFMEISTERSCHAFTEN",
+        "date": "25. März 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120325182116_U10_001bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Im Rahmen der Kreiscrosslaufmeisterschaften am 25.03.2012 in Herten gelang den U10-Mädels des Recklinghäuser LC ein Traumeinlauf: Platz 1 bis Platz 3: alles RLClerinnen.</b></p>",
+        "content_text": "Im Rahmen der Kreiscrosslaufmeisterschaften am 25.03.2012 in Herten gelang den U10-Mädels des Recklinghäuser LC ein Traumeinlauf: Platz 1 bis Platz 3: alles RLClerinnen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120325182116_U10_001bearb.jpg",
+                "local": "news_assets/2822/zoom_20120325182116_U10_001bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-216-2820",
+        "id": "2820",
+        "title": "U14-JUGEND IN TOPFORM – ANNA-MARIA SCHAEFER LäUFT 9,99SEC üBER 75M",
+        "date": "11. März 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120311221109_Anna_03bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Beim letzten Formtest in der Hallensaison purzelten die Bestleistungen der U14-Jugendlichen unter Sebastian Stephani, Lars Czeakalla und Mike Pokrop erneut gleich reihenweise.</b></p>",
+        "content_text": "Beim letzten Formtest in der Hallensaison purzelten die Bestleistungen der U14-Jugendlichen unter Sebastian Stephani, Lars Czeakalla und Mike Pokrop erneut gleich reihenweise.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120311221109_Anna_03bearb.jpg",
+                "local": "news_assets/2820/zoom_20120311221109_Anna_03bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-217-2819",
+        "id": "2819",
+        "title": "HERMI STAUBERMANN DEUTSCHE DOPPELMEISTERIN",
+        "date": "05. März 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120305112131_Hermi_02bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Zwei Starts - zwei Deutsche Meisterstitel - zwei persönliche Bestleistungen für die RLC-Seniorin Hermi Staubermann!</b></p>",
+        "content_text": "Zwei Starts - zwei Deutsche Meisterstitel - zwei persönliche Bestleistungen für die RLC-Seniorin Hermi Staubermann!",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120305112131_Hermi_02bearb.jpg",
+                "local": "news_assets/2819/zoom_20120305112131_Hermi_02bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-216-2818",
+        "id": "2818",
+        "title": "DR. ANTJE MAAS VIZEMEISTERIN üBER 10KM",
+        "date": "05. März 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120305110148_Antje_Maasbearb.jpg\"/></div><p class=\"detailViewTop\"><b>Von der Deutschen Zahnärztemeisterschaft über 10km Strassenlauf am 04.03.2012 in Schriesheim ist die RLC-Athletin Dr. Antje Maas als Vizemeisterin nach Recklinghausen zurückgekehrt.</b></p>",
+        "content_text": "Von der Deutschen Zahnärztemeisterschaft über 10km Strassenlauf am 04.03.2012 in Schriesheim ist die RLC-Athletin Dr. Antje Maas als Vizemeisterin nach Recklinghausen zurückgekehrt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120305110148_Antje_Maasbearb.jpg",
+                "local": "news_assets/2818/zoom_20120305110148_Antje_Maasbearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-217-2817",
+        "id": "2817",
+        "title": "ERSTER WESTFALENMEISTERTITEL FüR LAURA FALTERMANN",
+        "date": "04. März 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120304192731_Laura_01.jpg\"/></div><p class=\"detailViewTop\"><b>Von den Westfalenmeisterschaften der U16-Jugend am 04.03.2012 in Paderborn ist Laura Faltermann, W14, als Westfalenmeisterin im Stabhochsprung nach Hause zurückgekehrt.</b></p>",
+        "content_text": "Von den Westfalenmeisterschaften der U16-Jugend am 04.03.2012 in Paderborn ist Laura Faltermann, W14, als Westfalenmeisterin im Stabhochsprung nach Hause zurückgekehrt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120304192731_Laura_01.jpg",
+                "local": "news_assets/2817/zoom_20120304192731_Laura_01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-218-2816",
+        "id": "2816",
+        "title": "PRIMA GENERALPROBE FüR U16-JUGEND",
+        "date": "26. Februar 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120226221344_Jannik_Markusbearb.jpg\"/></div><p class=\"detailViewTop\"><b>Der als Aufbauwettkampf für die Westfälischen U16-Meisterschaften gedachte Start beim Schülerhallensportfest am 26.02.2012 in Dortmund war für die engagierten Mädels und Jungen um Trainer Jürgen Albers ein voller Erfolg.</b></p>",
+        "content_text": "Der als Aufbauwettkampf für die Westfälischen U16-Meisterschaften gedachte Start beim Schülerhallensportfest am 26.02.2012 in Dortmund war für die engagierten Mädels und Jungen um Trainer Jürgen Albers ein voller Erfolg.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120226221344_Jannik_Markusbearb.jpg",
+                "local": "news_assets/2816/zoom_20120226221344_Jannik_Markusbearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-217-2815",
+        "id": "2815",
+        "title": "JAHRESHAUPTVERSAMMLUNG 2012",
+        "date": "28. Februar 2012",
+        "content_html": "<p class=\"detailViewTop\"><b>Am heutigen Dienstag, den 28.02.2012 findet um 19:30 Uhr im Kolpinghaus  unsere diesjährige Jahreshauptversammlung statt, zu der alle  Vereinsmitglieder herzlich eingeladen sind.</b></p>",
+        "content_text": "Am heutigen Dienstag, den 28.02.2012 findet um 19:30 Uhr im Kolpinghaus  unsere diesjährige Jahreshauptversammlung statt, zu der alle  Vereinsmitglieder herzlich eingeladen sind.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-218-2812",
+        "id": "2812",
+        "title": "4X200M-STAFFEL PLATZ 9 BEI DJM",
+        "date": "18. Februar 2012 -  18. Februar 2020",
+        "content_html": "<p class=\"detailViewTop\"><b><font size=\"-1\"><font face=\"Arial\">die 4x200m Staffel konnte die hohen Erwartungen bei den         Deutschen Jugendmeisterschaften (U20) in Sindelfingen voll erfüllen.         Mit 1:42,71min schafften Isabell Oenning, Elena Hütter, Maren         Albers und Ida Hartwig wieder eine neue Bestzeit.</font></font></b></p>",
+        "content_text": "die 4x200m Staffel konnte die hohen Erwartungen bei den         Deutschen Jugendmeisterschaften (U20) in Sindelfingen voll erfüllen.         Mit 1:42,71min schafften Isabell Oenning, Elena Hütter, Maren         Albers und Ida Hartwig wieder eine neue Bestzeit.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-218-2811",
+        "id": "2811",
+        "title": "RLC-LANGSTRECKLER TROTZ KäLTE GUT IM RENNEN",
+        "date": "14. Februar 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120214111433_Pia_01bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Am 12.02.2012 gingen einige Athleten der Langstreckler-Trainingsgruppe von Thomas Vogl bei den Bertlicher Strassenläufen an den Start. Und wieder einmal überragten die Leistungen von Pia Zajonz (Foto), Thomas Vogl, Julia Kotte, Tim Woiczech, Leandra Busch und Hermi Staubermann alle anderen.</b></p>",
+        "content_text": "Am 12.02.2012 gingen einige Athleten der Langstreckler-Trainingsgruppe von Thomas Vogl bei den Bertlicher Strassenläufen an den Start. Und wieder einmal überragten die Leistungen von Pia Zajonz (Foto), Thomas Vogl, Julia Kotte, Tim Woiczech, Leandra Busch und Hermi Staubermann alle anderen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120214111433_Pia_01bearb.jpg",
+                "local": "news_assets/2811/zoom_20120214111433_Pia_01bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-219-2810",
+        "id": "2810",
+        "title": "PRIMA HALLENAUFTRITT DER RLC-SCHüLER UND SCHüLERINNEN",
+        "date": "12. Februar 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120212224101_Anna_01bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Bei einem Schülerhallensportfest am 12.02.2012 stellten die U14-Schülerinnen der Trainer Sebastian Stephani und Mike Pokrop sowie 2 M14-Schüler unter Beweis, wie konzentriert und erfolgsorientiert sie in der Wintersaison trainiert haben.</b></p>",
+        "content_text": "Bei einem Schülerhallensportfest am 12.02.2012 stellten die U14-Schülerinnen der Trainer Sebastian Stephani und Mike Pokrop sowie 2 M14-Schüler unter Beweis, wie konzentriert und erfolgsorientiert sie in der Wintersaison trainiert haben.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120212224101_Anna_01bearb.jpg",
+                "local": "news_assets/2810/zoom_20120212224101_Anna_01bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-219-2809",
+        "id": "2809",
+        "title": "GUTER EINSTAND FüR U16-JUGEND",
+        "date": "06. Februar 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120206150816_Thore-Lukasbearb.jpg\"/></div><p class=\"detailViewTop\"><b>Während seine ehemaligen Athletinnen bei den Westdeutschen Meisterschaften um Titel kämpften, fuhr A-Schülertrainer Jürgen Albers mit seinen neuen Mädels und Jungs nach Dortmund, um in der Helmut-Körnig-Halle einen Testwettkampf für die anstehenden Westfälischen U16-Meisterschaften zu absolvieren.</b></p>",
+        "content_text": "Während seine ehemaligen Athletinnen bei den Westdeutschen Meisterschaften um Titel kämpften, fuhr A-Schülertrainer Jürgen Albers mit seinen neuen Mädels und Jungs nach Dortmund, um in der Helmut-Körnig-Halle einen Testwettkampf für die anstehenden Westfälischen U16-Meisterschaften zu absolvieren.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120206150816_Thore-Lukasbearb.jpg",
+                "local": "news_assets/2809/zoom_20120206150816_Thore-Lukasbearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-219-2808",
+        "id": "2808",
+        "title": "4 X 200M-STAFFEL WESTDEUTSCHER VIZEMEISTER!",
+        "date": "05. Februar 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120206143100__MG_5369A.JPG\"/></div><p class=\"detailViewTop\"><b>Von den Westdeutschen Hallenmeisterschaften der Frauen, Männer sowie weiblichen und männlichen U20 Athleten am 05.02.2012 in Leverkusen kehrte die bereits in den letzten Wochen so erfolgreiche 4x200m- U18-Staffel des Recklinghäuser LC mit der Vizemeisterschaft nach Recklinghausen zurück.</b></p>",
+        "content_text": "Von den Westdeutschen Hallenmeisterschaften der Frauen, Männer sowie weiblichen und männlichen U20 Athleten am 05.02.2012 in Leverkusen kehrte die bereits in den letzten Wochen so erfolgreiche 4x200m- U18-Staffel des Recklinghäuser LC mit der Vizemeisterschaft nach Recklinghausen zurück.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120206143100__MG_5369A.JPG",
+                "local": "news_assets/2808/zoom_20120206143100__MG_5369A.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-220-2724",
+        "id": "2724",
+        "title": "RLC-ATHLETINNEN ERFOLGREICH BEI SPORTLERWAHL",
+        "date": "28. Januar 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120128182433_geehrte_RLC-Sportler_minimiert.jpg\"/></div><p class=\"detailViewTop\"><b>Am gestrigen Abend fand die traditionelle Party des Sports in Verbindung  mit der Wahl zum Sportler des Jahres in Stadt und Kreis Recklinghausen satt, unter der Federführung der Recklinghäuser Zeitung.<br>Und wieder einmal waren Athletinnen des Recklinghäuser LC in den verschiedenen Kategorien auf dem Treppchen zu finden.</br></b></p>",
+        "content_text": "Am gestrigen Abend fand die traditionelle Party des Sports in Verbindung  mit der Wahl zum Sportler des Jahres in Stadt und Kreis Recklinghausen satt, unter der Federführung der Recklinghäuser Zeitung.\nUnd wieder einmal waren Athletinnen des Recklinghäuser LC in den verschiedenen Kategorien auf dem Treppchen zu finden.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120128182433_geehrte_RLC-Sportler_minimiert.jpg",
+                "local": "news_assets/2724/zoom_20120128182433_geehrte_RLC-Sportler_minimiert.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-220-2722",
+        "id": "2722",
+        "title": "NäCHSTER WESTFALENTITEL FüR RLC-STAFFEL – NEUE BESTLEISTUNG DURCH MARITA SCHULTE",
+        "date": "22. Januar 2012",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20120122203724_Staffel_03.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Westfälischen Hallenmeisterschaften der U20 am 22.01.2012 in der Bielefelder Seidensticker Halle bewiesen die Staffelläuferinnen des Recklinghäuser LC erneut ihre Klasse, indem sie auch in der höheren Altersklasse den Rest der (älteren Konkurrzen) in Grund und Boden liefen.</b></p>",
+        "content_text": "Bei den Westfälischen Hallenmeisterschaften der U20 am 22.01.2012 in der Bielefelder Seidensticker Halle bewiesen die Staffelläuferinnen des Recklinghäuser LC erneut ihre Klasse, indem sie auch in der höheren Altersklasse den Rest der (älteren Konkurrzen) in Grund und Boden liefen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20120122203724_Staffel_03.jpg",
+                "local": "news_assets/2722/zoom_20120122203724_Staffel_03.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-221-2721",
+        "id": "2721",
+        "title": "ZWEI WESTFALENTITEL FüR RLC-ATHLETINNEN",
+        "date": "14. Januar 2012 -  14. Januar 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Von den Westfälischen Meisterschaften der U18-Jugend am 14.01.2012 in der Dortmunder Helmut-Körnig-Halle kehrten die jungen Athletinnen des Recklinghäuser LC mit gleich zwei Titeln sowie 4 weiteren Plätzen auf dem Siegerpodest nach Recklinghausen zurück.</b></p>",
+        "content_text": "Von den Westfälischen Meisterschaften der U18-Jugend am 14.01.2012 in der Dortmunder Helmut-Körnig-Halle kehrten die jungen Athletinnen des Recklinghäuser LC mit gleich zwei Titeln sowie 4 weiteren Plätzen auf dem Siegerpodest nach Recklinghausen zurück.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-221-2695",
+        "id": "2695",
+        "title": "WEITERE ERFOLGE DER STABSPRINGER",
+        "date": "19. Dezember 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20111219112147_Hendrik_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Von einem Schülermeeting in der Leichtathletikhalle des Düsseldorfer Arena-Parks kehrten mit Hendrik von Eichstedt, M15, und Laura Faltermann, W13, zwei weitere Stabhochspringer aus der Nachwuchsgruppe von Trainer Lars Czekalla mit Erfolgsmeldungen zurück:</b></p>",
+        "content_text": "Von einem Schülermeeting in der Leichtathletikhalle des Düsseldorfer Arena-Parks kehrten mit Hendrik von Eichstedt, M15, und Laura Faltermann, W13, zwei weitere Stabhochspringer aus der Nachwuchsgruppe von Trainer Lars Czekalla mit Erfolgsmeldungen zurück:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20111219112147_Hendrik_bearb.jpg",
+                "local": "news_assets/2695/zoom_20111219112147_Hendrik_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-222-2688",
+        "id": "2688",
+        "title": "HERMI STAUBERMANN UND SABINE KRUSE GEEHRT",
+        "date": "16. Dezember 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20111216153921_Ehrung_01bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Zur jährlichen Sportlerehrung von Bürgermeister Pantförder (am 15.12.2011 im großen Saal des Recklinghäuser Rathauses) waren zum wiederholten Male unsere Seniorensportlerinnen Hermi Staubermann und Sabine Kruse eingeladen worden.</b></p>",
+        "content_text": "Zur jährlichen Sportlerehrung von Bürgermeister Pantförder (am 15.12.2011 im großen Saal des Recklinghäuser Rathauses) waren zum wiederholten Male unsere Seniorensportlerinnen Hermi Staubermann und Sabine Kruse eingeladen worden.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20111216153921_Ehrung_01bearb.jpg",
+                "local": "news_assets/2688/zoom_20111216153921_Ehrung_01bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-222-2687",
+        "id": "2687",
+        "title": "JUGENDLIGA-POKAL üBERREICHT",
+        "date": "14. Dezember 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20111214173626_Jugendliga_02.jpg\"/></div><p class=\"detailViewTop\"><b>Anlässlich einer Arbeitstagung aller Leichtathletikvereine des Kreises Recklinghausen am 13.12.2011 wurde auch die Siegerehrung im Jugendligawettbewerb 2011 vorgenommen.</b></p>",
+        "content_text": "Anlässlich einer Arbeitstagung aller Leichtathletikvereine des Kreises Recklinghausen am 13.12.2011 wurde auch die Siegerehrung im Jugendligawettbewerb 2011 vorgenommen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20111214173626_Jugendliga_02.jpg",
+                "local": "news_assets/2687/zoom_20111214173626_Jugendliga_02.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-222-2686",
+        "id": "2686",
+        "title": "WEITERE VERBESSERUNG DES KREISREKORDS DURCH MARITA SCHULTE",
+        "date": "11. Dezember 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20111211215556_Marita-Lars-Urkundebearb.jpg\"/></div><p class=\"detailViewTop\"><b>Beim Hallensportfest am 11.12.2011 in der Leichtathletikhalle des Paderborner Ahorn-Parks gelang RLC-Vorzeige-Stabhochspringerin Marita Schulte, wJB, zum wiederholten Male eine Verbesserung der besten im Kreis Recklinghausen je gesprungenen Höhe auf jetzt 3,60m.</b></p>",
+        "content_text": "Beim Hallensportfest am 11.12.2011 in der Leichtathletikhalle des Paderborner Ahorn-Parks gelang RLC-Vorzeige-Stabhochspringerin Marita Schulte, wJB, zum wiederholten Male eine Verbesserung der besten im Kreis Recklinghausen je gesprungenen Höhe auf jetzt 3,60m.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20111211215556_Marita-Lars-Urkundebearb.jpg",
+                "local": "news_assets/2686/zoom_20111211215556_Marita-Lars-Urkundebearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-223-2684",
+        "id": "2684",
+        "title": "NIKOLAUS-SPORTFEST – EIN EVERGREEN FüR RLC-KIDS",
+        "date": "06. Dezember 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20111206220438_Sarah.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Das Nikolaus-Sportfest des Recklinghäuser LC ist eine feste Größe im Terminkalender der jüngsten RLCler. Von sechs bis zwölf Jahren: alle Kinder messen sich in alternativen Disziplinangeboten, um anschließend aus den Händen des Nikolaus ihre Urkunden samt Spekulatius-Nikolaus in Empfang zu nehmen.</font></b></p>",
+        "content_text": "Das Nikolaus-Sportfest des Recklinghäuser LC ist eine feste Größe im Terminkalender der jüngsten RLCler. Von sechs bis zwölf Jahren: alle Kinder messen sich in alternativen Disziplinangeboten, um anschließend aus den Händen des Nikolaus ihre Urkunden samt Spekulatius-Nikolaus in Empfang zu nehmen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20111206220438_Sarah.jpg",
+                "local": "news_assets/2684/zoom_20111206220438_Sarah.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-221-2648",
+        "id": "2648",
+        "title": "25. RECKLINGHäUSER SILVESTERLAUF",
+        "date": "31. Dezember 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20111204141240_silvesterlauf09.jpg\"/></div><p class=\"detailViewTop\"><b>Wer den Rutsch ins neue Jahr mit sportlicher Betätigung einleiten möchte, ist beim <strong>25. Jubiläum</strong> des Recklinghäuser Silvesterlaufs genau richtig: Neben 5km- und 10km-Läufen bietet der Recklinghäuser LC in Kooperation mit der Firma Runners Point auch Walking und Nordic Walking über 5km sowie einen Bambini-Lauf für die Kleinsten an. Familien sind ebenso willkommen wie ambitionierte Hobbyläufer und Leistungssportler.</b></p>",
+        "content_text": "Wer den Rutsch ins neue Jahr mit sportlicher Betätigung einleiten möchte, ist beim\n25. Jubiläum\ndes Recklinghäuser Silvesterlaufs genau richtig: Neben 5km- und 10km-Läufen bietet der Recklinghäuser LC in Kooperation mit der Firma Runners Point auch Walking und Nordic Walking über 5km sowie einen Bambini-Lauf für die Kleinsten an. Familien sind ebenso willkommen wie ambitionierte Hobbyläufer und Leistungssportler.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20111204141240_silvesterlauf09.jpg",
+                "local": "news_assets/2648/zoom_20111204141240_silvesterlauf09.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-223-2647",
+        "id": "2647",
+        "title": "ZWEI WESTFALENTITEL FüR DEN RLC – ERFOLGREICHER AUFTRITT DER LANGSTRECKLER",
+        "date": "28. November 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20111128120925_Pia_01.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Westfälischen Meisterschaften im Crosslauf am 27.11.2011 in Herten schnitten die Athleten von Langstreckentrainer Thomas Vogl richtig gut ab:</b></p>",
+        "content_text": "Bei den Westfälischen Meisterschaften im Crosslauf am 27.11.2011 in Herten schnitten die Athleten von Langstreckentrainer Thomas Vogl richtig gut ab:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20111128120925_Pia_01.jpg",
+                "local": "news_assets/2647/zoom_20111128120925_Pia_01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-223-2645",
+        "id": "2645",
+        "title": "NEUER KREISREKORD üBER 10KM DURCH PIA ZAJONZ",
+        "date": "09. Oktober 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20111009152138_Coesfeld-Citylauf_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Beim Coesfelder Citylauf am 08.10.2011 starteten gleich 5 Aktive aus der Trainingsgruppe von Langstreckentrainer Thomas Vogl, Bozena Busch wurde zusätzlich von Tochter Leandra begleitet.</b></p>",
+        "content_text": "Beim Coesfelder Citylauf am 08.10.2011 starteten gleich 5 Aktive aus der Trainingsgruppe von Langstreckentrainer Thomas Vogl, Bozena Busch wurde zusätzlich von Tochter Leandra begleitet.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20111009152138_Coesfeld-Citylauf_bearb.jpg",
+                "local": "news_assets/2645/zoom_20111009152138_Coesfeld-Citylauf_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-224-2643",
+        "id": "2643",
+        "title": "RLC-TRAINER GEHT UNTER DIE SCHRIFTSTELLER",
+        "date": "06. Oktober 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20111006205426_DSC_4697.JPG\"/></div><p class=\"detailViewTop\"><b>Lars Czekalla, seit vielen Jahren erfolgreich als Trainer der B-Schüler und Stabhochspringer und -innen im RLC aktiv, hat ein weiteres zeitraubendes Hobby gefunden:</b></p>",
+        "content_text": "Lars Czekalla, seit vielen Jahren erfolgreich als Trainer der B-Schüler und Stabhochspringer und -innen im RLC aktiv, hat ein weiteres zeitraubendes Hobby gefunden:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20111006205426_DSC_4697.JPG",
+                "local": "news_assets/2643/zoom_20111006205426_DSC_4697.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-224-2587",
+        "id": "2587",
+        "title": "ERNEUTER SIEG IN DER JUGENDLIGA FüR DEN RLC",
+        "date": "28. September 2011 -  28. September 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Einen Start-Ziel-Sieg konnten die 14 – 17 Athletinnen und Athleten des Recklinghäuser LC mit  ihren Trainer/innen Jürgen Albers, Uschi Götz-Togemann, Thomas Vogl und Ludger Zander in der Jugendliga des Leichtathletik-Kreises Recklinghausen verbuchen.</b></p>",
+        "content_text": "Einen Start-Ziel-Sieg konnten die 14 – 17 Athletinnen und Athleten des Recklinghäuser LC mit  ihren Trainer/innen Jürgen Albers, Uschi Götz-Togemann, Thomas Vogl und Ludger Zander in der Jugendliga des Leichtathletik-Kreises Recklinghausen verbuchen.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-225-2586",
+        "id": "2586",
+        "title": "B-SCHüLERINNEN ERREICHEN PLATZ 6 BEIM DSMM-FINALE",
+        "date": "26. September 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110926221651_Mannschaftsfotobearb.jpg\"/></div><p class=\"detailViewTop\"><b>Beim Westfalenfinale der <strong>D</strong>eutsche-<strong>S</strong>chüler-<strong>M</strong>annschafts-<strong>M</strong>eisterschaften am 24.09.2011 in Kreuztal erreicheten die B-Schülerinnen einen sehr guten 6. Platz.</b></p>",
+        "content_text": "Beim Westfalenfinale der\nD\neutsche-\nS\nchüler-\nM\nannschafts-\nM\neisterschaften am 24.09.2011 in Kreuztal erreicheten die B-Schülerinnen einen sehr guten 6. Platz.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110926221651_Mannschaftsfotobearb.jpg",
+                "local": "news_assets/2586/zoom_20110926221651_Mannschaftsfotobearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-224-2585",
+        "id": "2585",
+        "title": "4 WEITERE KREISMEISTER IM RLC-TRIKOT",
+        "date": "26. September 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110926142252_Max_Cegla_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Kreismeisterschaften über 10km im Rahmen der Bertlicher Strassenläufe am 25.09.2011 gab es für den Recklinghäuser LC gleich vier Kreismeistertitel zu feiern:</b></p>",
+        "content_text": "Bei den Kreismeisterschaften über 10km im Rahmen der Bertlicher Strassenläufe am 25.09.2011 gab es für den Recklinghäuser LC gleich vier Kreismeistertitel zu feiern:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110926142252_Max_Cegla_bearb.jpg",
+                "local": "news_assets/2585/zoom_20110926142252_Max_Cegla_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-225-2584",
+        "id": "2584",
+        "title": "ZEHN KREISMEISTERTITEL FüR DEN RLC - THOMAS VOGL WESTDEUTSCHER BERGLAUFMEISTER",
+        "date": "24. September 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110924195057_SchC1000_01bearb.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Bei den Kreisstaffelmeisterschaften am 24.09.2011 in Haltern-Sythen stellte der Nachwuchs des Recklinghäuser LC wieder einmal seine Stärke unter Beweis: in 12 Disziplinen an des Start gegangen sahnten die RLCler 10 Titel, zwei 2. Plätze sowie 5 weitere „Treppchenplätze“ ab.</font></b></p>",
+        "content_text": "Bei den Kreisstaffelmeisterschaften am 24.09.2011 in Haltern-Sythen stellte der Nachwuchs des Recklinghäuser LC wieder einmal seine Stärke unter Beweis: in 12 Disziplinen an des Start gegangen sahnten die RLCler 10 Titel, zwei 2. Plätze sowie 5 weitere „Treppchenplätze“ ab.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110924195057_SchC1000_01bearb.jpg",
+                "local": "news_assets/2584/zoom_20110924195057_SchC1000_01bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-225-2583",
+        "id": "2583",
+        "title": "SABINE KRUSE GESAMTSIEGERIN DES SCHWARZWäLDER BERGLAUF-POKALS",
+        "date": "22. September 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110922151907_Sabine_Kruse_Belchenberglauf_2.jpg\"/></div><p class=\"detailViewTop\"><b>Sabine hat es geschafft: nach 3 Siegen (Schauinslauf-Berglauf, Tote-Mann-Berglauf, Belchen-Berglauf) und einem 4. Rang beim Kandel-Berglauf ist ihr der Gesamtsieg in der Frauenklasse der Schwarzwald-Berglaufserie nicht mehr zu nehmen.</b></p>",
+        "content_text": "Sabine hat es geschafft: nach 3 Siegen (Schauinslauf-Berglauf, Tote-Mann-Berglauf, Belchen-Berglauf) und einem 4. Rang beim Kandel-Berglauf ist ihr der Gesamtsieg in der Frauenklasse der Schwarzwald-Berglaufserie nicht mehr zu nehmen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110922151907_Sabine_Kruse_Belchenberglauf_2.jpg",
+                "local": "news_assets/2583/zoom_20110922151907_Sabine_Kruse_Belchenberglauf_2.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-226-2577",
+        "id": "2577",
+        "title": "SIEG FüR MAREN ALBERS BEI LäNDERKAMPF",
+        "date": "04. September 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110904202920_yannik-maren-hengelo.jpg\"/></div><p class=\"detailViewTop\"><b>Beim diesjährigen Schüler-Ländervergleichskampf zwischen Westfalen und den Niederlanden im niederländischen Hengelo war der Recklinghäuser LC gleich zweifach vertreten: Während Maren Albers die Farben des FLVW über 300m vertrat, ging Yannik Blaszczyk in der 4x100m-Staffel an den Start.</b></p>",
+        "content_text": "Beim diesjährigen Schüler-Ländervergleichskampf zwischen Westfalen und den Niederlanden im niederländischen Hengelo war der Recklinghäuser LC gleich zweifach vertreten: Während Maren Albers die Farben des FLVW über 300m vertrat, ging Yannik Blaszczyk in der 4x100m-Staffel an den Start.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110904202920_yannik-maren-hengelo.jpg",
+                "local": "news_assets/2577/zoom_20110904202920_yannik-maren-hengelo.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-226-2576",
+        "id": "2576",
+        "title": "ELENA HüTTER MIT KREISREKORD BEI MEHRKAMPF-DM",
+        "date": "22. August 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110822220644_elena-bezirk10.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Deutschen Schülermehrkampfmeisterschaften in Cottbus am vergangenen Samstag errang Elena Hütter vom Recklinghäuser LC nach einem sehr guten Wettkampf mit 2647 Punkten einen neuen Kreisrekord im Blockwettkampf Sprint/Sprung (100m Sprint, 80m Hürden, Weitsprung, Hochsprung und Speerwurf) und belegte damit Platz 20 in einem starken Feld.</b></p>",
+        "content_text": "Bei den Deutschen Schülermehrkampfmeisterschaften in Cottbus am vergangenen Samstag errang Elena Hütter vom Recklinghäuser LC nach einem sehr guten Wettkampf mit 2647 Punkten einen neuen Kreisrekord im Blockwettkampf Sprint/Sprung (100m Sprint, 80m Hürden, Weitsprung, Hochsprung und Speerwurf) und belegte damit Platz 20 in einem starken Feld.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110822220644_elena-bezirk10.jpg",
+                "local": "news_assets/2576/zoom_20110822220644_elena-bezirk10.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-226-2574",
+        "id": "2574",
+        "title": "4X400M-STAFFEL NOMINIERT FüR WAZ-SPORTLERWAHL",
+        "date": "10. August 2011 -  10. August 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Die Westdeutsche Allgemeine Zeitung stellt seit einiger Zeit erfolgreiche Sportler vor, die durch Leser und Internetnutzer zum Sportler des Monats gewählt werden können. Für den Monat Juli 2011 wurde die 4x400m-Staffel des Recklinghäuser LC nominiert, mit den Läuferinnen Kerstin Hlinski, Franziska Engbert, Carolin Oenning und Anna Albers.</b></p>",
+        "content_text": "Die Westdeutsche Allgemeine Zeitung stellt seit einiger Zeit erfolgreiche Sportler vor, die durch Leser und Internetnutzer zum Sportler des Monats gewählt werden können. Für den Monat Juli 2011 wurde die 4x400m-Staffel des Recklinghäuser LC nominiert, mit den Läuferinnen Kerstin Hlinski, Franziska Engbert, Carolin Oenning und Anna Albers.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-227-2518",
+        "id": "2518",
+        "title": "DM JENA: UND HIER DIE NäCHSTE ERFOLGSMELDUNG",
+        "date": "06. August 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110808205912_Anna_Siegerehrungbear.jpg\"/></div><p class=\"detailViewTop\"><b>Anna Albers erreicht bei den Deutschen A-Jugendmeisterschaften in  Jena über 400m in 58,00sec den Endlauf und belegte im Endlauf in 57,89sec den 7. Platz.</b></p>",
+        "content_text": "Anna Albers erreicht bei den Deutschen A-Jugendmeisterschaften in  Jena über 400m in 58,00sec den Endlauf und belegte im Endlauf in 57,89sec den 7. Platz.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110808205912_Anna_Siegerehrungbear.jpg",
+                "local": "news_assets/2518/zoom_20110808205912_Anna_Siegerehrungbear.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-227-2517",
+        "id": "2517",
+        "title": "DM JENA: PLATZ 8 FüR DIE JüNGSTE STAFFEL / PLATZ 5 FüR MARITA SCHULTE",
+        "date": "05. August 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110808205609_Siegerehrung01bear.jpg\"/></div><p class=\"detailViewTop\"><b>Mit einer erneut phantastischen Laufzeit von 48,64sec belegte die 4x100m-Staffel (wJB) des Recklinghäuser LC bei den Deutschen Jugendmeisterschaften in Jena den 8. Platz im A-Endlauf und erreichte damit das, was alle Beteiligten nur zu hoffen gewagt hatten.</b></p>",
+        "content_text": "Mit einer erneut phantastischen Laufzeit von 48,64sec belegte die 4x100m-Staffel (wJB) des Recklinghäuser LC bei den Deutschen Jugendmeisterschaften in Jena den 8. Platz im A-Endlauf und erreichte damit das, was alle Beteiligten nur zu hoffen gewagt hatten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110808205609_Siegerehrung01bear.jpg",
+                "local": "news_assets/2517/zoom_20110808205609_Siegerehrung01bear.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-227-2516",
+        "id": "2516",
+        "title": "STAFFEL-SENSATION IN JENA: ENDLAUF-TEILNAHME FüR 4X100M-STAFFEL",
+        "date": "04.  -  05. August2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110805150803_grne_Beine_01bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Deutschen B-Jugendmeisterschaften in Jena gelang der weiblichen 4x100m-Staffel des RLC in der Besetzung: Ida Hartwig, Elena Hütter, Maren Albers und Isabell Oenning am heutigen Freitag der Einzug ins A-Finale, das heute Abend um 18:45 Uhr ausgetragen wird.</b></p>",
+        "content_text": "Bei den Deutschen B-Jugendmeisterschaften in Jena gelang der weiblichen 4x100m-Staffel des RLC in der Besetzung: Ida Hartwig, Elena Hütter, Maren Albers und Isabell Oenning am heutigen Freitag der Einzug ins A-Finale, das heute Abend um 18:45 Uhr ausgetragen wird.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110805150803_grne_Beine_01bearb.jpg",
+                "local": "news_assets/2516/zoom_20110805150803_grne_Beine_01bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-228-2515",
+        "id": "2515",
+        "title": "SABINE KRUSE SIEGT BEIM TOTE-MANN-BERGLAUF",
+        "date": "01. August 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110801165157_Sabine_Kruse_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Am Samstag, den 30.07.2011, war unsere Bergläuferin Sabine Kruse (W40) mal wieder in Sachen Schwarzwald-Berglauf-Serie im Einsatz. Diesmal hatte der Lauf den passenden Namen „Tote-Mann-Berglauf“. Zu ihrer eigenen Überraschung war Sabine in 44:57min die schnellste der 44 gestarteten Frauen.</b></p>",
+        "content_text": "Am Samstag, den 30.07.2011, war unsere Bergläuferin Sabine Kruse (W40) mal wieder in Sachen Schwarzwald-Berglauf-Serie im Einsatz. Diesmal hatte der Lauf den passenden Namen „Tote-Mann-Berglauf“. Zu ihrer eigenen Überraschung war Sabine in 44:57min die schnellste der 44 gestarteten Frauen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110801165157_Sabine_Kruse_bearb.jpg",
+                "local": "news_assets/2515/zoom_20110801165157_Sabine_Kruse_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-228-2514",
+        "id": "2514",
+        "title": "HERMI STAUBERMANN HOLT ZWEI DM-TITEL",
+        "date": "31. Juli 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110731201820_Hermi_02bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Deutschen Senioren-II-Meisterschaften, die vom 29.-31.07.2011 im Mindener Weserstadion stattfanden, gelang es Hermi Staubermann erneut, zwei Titel sowie eine Silbermedaille mit nach Hause zu nehmen.</b></p>",
+        "content_text": "Bei den Deutschen Senioren-II-Meisterschaften, die vom 29.-31.07.2011 im Mindener Weserstadion stattfanden, gelang es Hermi Staubermann erneut, zwei Titel sowie eine Silbermedaille mit nach Hause zu nehmen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110731201820_Hermi_02bearb.jpg",
+                "local": "news_assets/2514/zoom_20110731201820_Hermi_02bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-228-2502",
+        "id": "2502",
+        "title": "WIEDER NEUER KREISREKORD FüR MARITA SCHULTE",
+        "date": "26. Juli 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110727100147_Marita_02.jpg\"/></div><p class=\"detailViewTop\"><b>Bei einem Stabhochsprung-Einladungswettkampf am 26.07.2011 im Stadion Hohenhorst verbesserte Marita Schulte (wJB) unter den Augen des Kader-Trainers Wolfgang Mohr gleich zweimal ihren eigenen Kreisrekord.</b></p>",
+        "content_text": "Bei einem Stabhochsprung-Einladungswettkampf am 26.07.2011 im Stadion Hohenhorst verbesserte Marita Schulte (wJB) unter den Augen des Kader-Trainers Wolfgang Mohr gleich zweimal ihren eigenen Kreisrekord.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110727100147_Marita_02.jpg",
+                "local": "news_assets/2502/zoom_20110727100147_Marita_02.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-229-2492",
+        "id": "2492",
+        "title": "STAFFELQUARTETT ERREICHT BEI DM PLATZ VIER!!!",
+        "date": "24. Juli 2011 -  24. Juli 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Bei den im Rahmen der Deutschen Leichtathletik-Meisterschaften in Kassel stattfindenden Deutschen Jugendmeisterschaften der Langstaffeln erreichte das RLC-Quartett mit Kerstin Hlinski, Franziska Engbert, Carolin Oenning und Anna Albers sensationell den vierten Platz in 3:58,18min.</b></p>",
+        "content_text": "Bei den im Rahmen der Deutschen Leichtathletik-Meisterschaften in Kassel stattfindenden Deutschen Jugendmeisterschaften der Langstaffeln erreichte das RLC-Quartett mit Kerstin Hlinski, Franziska Engbert, Carolin Oenning und Anna Albers sensationell den vierten Platz in 3:58,18min.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-229-2490",
+        "id": "2490",
+        "title": "4X400M-MäDELS STEHEN IM DM-ENDLAUF",
+        "date": "23. Juli 2011 -  23. Juli 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Nach einem furiosen Lauf von Kerstin Hlinski, Franziska Engbert, Carolin Oenning und Schlussläuferin Anna Albers steht die 4x400m-Staffel des Recklinghäuser LC bei den Deutschen Meisterschaften in Kassel mit der drittschnellsten gelaufenen Zeit im Endlauf, der am morgigen Sonntag um 14.45 Uhr stattfindet.</b></p>",
+        "content_text": "Nach einem furiosen Lauf von Kerstin Hlinski, Franziska Engbert, Carolin Oenning und Schlussläuferin Anna Albers steht die 4x400m-Staffel des Recklinghäuser LC bei den Deutschen Meisterschaften in Kassel mit der drittschnellsten gelaufenen Zeit im Endlauf, der am morgigen Sonntag um 14.45 Uhr stattfindet.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-229-2489",
+        "id": "2489",
+        "title": "AUCH MAREN ERHäLT EINLADUNG ZUM LäNDERKAMPF",
+        "date": "22. Juli 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110722161950_Maren_01bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Nach ihrer tollen Leistung bei den Westdeutschen Schülermeisterschaften am 17.07.2011 im Hohenhorst-Stadion über die 300m-Strecke erhielt Maren Albers als zweite Athletin des Recklinghäuser LC eine Einladung zum Länderkampf am 03.09.2011 in Almelo.</b></p>",
+        "content_text": "Nach ihrer tollen Leistung bei den Westdeutschen Schülermeisterschaften am 17.07.2011 im Hohenhorst-Stadion über die 300m-Strecke erhielt Maren Albers als zweite Athletin des Recklinghäuser LC eine Einladung zum Länderkampf am 03.09.2011 in Almelo.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110722161950_Maren_01bearb.jpg",
+                "local": "news_assets/2489/zoom_20110722161950_Maren_01bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-230-2451",
+        "id": "2451",
+        "title": "UND AUCH DER TRAINER STEHT AUF DEM TREPPCHEN",
+        "date": "18. Juli 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110718120633_Ludgers_Ehrung_001bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Im Rahmen der Westdeutschen Schülermeisterschaften standen nicht nur die Athleten des Recklinghäuser LC auf dem Treppchen; auch der langjährige Jugendtrainer Ludger Zander, der schon so viele RLC-Staffeln zu großen Meisterschaften geführt hat, wurde auf das Treppchen zitiert:</b></p>",
+        "content_text": "Im Rahmen der Westdeutschen Schülermeisterschaften standen nicht nur die Athleten des Recklinghäuser LC auf dem Treppchen; auch der langjährige Jugendtrainer Ludger Zander, der schon so viele RLC-Staffeln zu großen Meisterschaften geführt hat, wurde auf das Treppchen zitiert:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110718120633_Ludgers_Ehrung_001bearb.jpg",
+                "local": "news_assets/2451/zoom_20110718120633_Ludgers_Ehrung_001bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-230-2450",
+        "id": "2450",
+        "title": "SCHNELLSTE STAFFEL IN NRW -  ZWEITSCHNELLSTE DES DLV",
+        "date": "18. Juli 2011 -  18. Juli 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Bei den Westdeutschen Schülermeisterschaften am 17.07.2011 im heimischen Hohenhorst-Stadion haben Janine, Elena, Ida und Maren dem Druck standgehalten: Nach ihrem Rekordlauf bei den Westfälischen Schülermeisterschaften in Hagen als deutliche Favoritinnen über 4 x 100m ins Rennen gegangen, zeigten die vier Mädels auch diesmal drei blitz-saubere Wechsel und stürmten zu einer neuen Bestzeit: 48,80sec!</b></p>",
+        "content_text": "Bei den Westdeutschen Schülermeisterschaften am 17.07.2011 im heimischen Hohenhorst-Stadion haben Janine, Elena, Ida und Maren dem Druck standgehalten: Nach ihrem Rekordlauf bei den Westfälischen Schülermeisterschaften in Hagen als deutliche Favoritinnen über 4 x 100m ins Rennen gegangen, zeigten die vier Mädels auch diesmal drei blitz-saubere Wechsel und stürmten zu einer neuen Bestzeit: 48,80sec!",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-230-2449",
+        "id": "2449",
+        "title": "B-SCHüLER GLäNZEN BEIM BLOCKWETTKAMPF",
+        "date": "10. Juli 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110710180613_Blockwettkampf_004.jpg\"/></div><p class=\"detailViewTop\"><b>Großkampfwochenende für Sebastian Stephani und Lisa Borowczyk (W13): gestern DSMM-Qualifikationstunier, heute Auftritt bei den Lippstädter Mehrkampftagen. Neben Lisa, die im Block Wurf antrat, den Kreisrekord von 2217Punkten aus dem Jahre 2003 zu knacken, gingen Markus Wienker (M13)im Block Sprint-Sprung sowie Thore Neumann (M13)im Block Wurf an den Start.</b></p>",
+        "content_text": "Großkampfwochenende für Sebastian Stephani und Lisa Borowczyk (W13): gestern DSMM-Qualifikationstunier, heute Auftritt bei den Lippstädter Mehrkampftagen. Neben Lisa, die im Block Wurf antrat, den Kreisrekord von 2217Punkten aus dem Jahre 2003 zu knacken, gingen Markus Wienker (M13)im Block Sprint-Sprung sowie Thore Neumann (M13)im Block Wurf an den Start.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110710180613_Blockwettkampf_004.jpg",
+                "local": "news_assets/2449/zoom_20110710180613_Blockwettkampf_004.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-231-2448",
+        "id": "2448",
+        "title": "B-SCHüLERINNEN STARTEN DURCH",
+        "date": "09. Juli 2011 -  09. Juli 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Die Mannschaft der B-Schülerinnen war am Samstag, den 09.07.2011 bei einem DSMM-Qualiffkationswettkampf in Olfen angetreten, um sich zum einem für den am 24.09.2011 stattfindenden Endkampf in Kreuztal zu empfehlen, zum anderen aber auch den 4x75m-Staffel-Kreisrekord (gehalten von der Vorgängerstaffel mit Elena Hütter, Ida Hartwig, Jacqueline Duda und  Pia Jörden aus dem Jahre 2009) zu knacken.</b></p>",
+        "content_text": "Die Mannschaft der B-Schülerinnen war am Samstag, den 09.07.2011 bei einem DSMM-Qualiffkationswettkampf in Olfen angetreten, um sich zum einem für den am 24.09.2011 stattfindenden Endkampf in Kreuztal zu empfehlen, zum anderen aber auch den 4x75m-Staffel-Kreisrekord (gehalten von der Vorgängerstaffel mit Elena Hütter, Ida Hartwig, Jacqueline Duda und  Pia Jörden aus dem Jahre 2009) zu knacken.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-231-2447",
+        "id": "2447",
+        "title": "YANNIK BLASZCZYK VERTRITT WESTFALEN BEIM LäNDERKAMPF",
+        "date": "06. Juli 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110706180437_Yannik_Weitbearb.jpg\"/></div><p class=\"detailViewTop\"><b><p><font face=\"Arial, sans-serif\">Endlich mal wieder ein männliches Wesen, das Westfalen und damit auch den RLC auf internationalem Parkett vertritt. Leistungssportkoordinator Vonstein berief für den Länderkampf Westfalen / Niederlande am 03.09.2011 in Almelo den so lange verletzten Yannik Blaszczyk, M15, in den Kader für 100m und die 4 x 100m-Staffel. </font></p></b></p>",
+        "content_text": "Endlich mal wieder ein männliches Wesen, das Westfalen und damit auch den RLC auf internationalem Parkett vertritt. Leistungssportkoordinator Vonstein berief für den Länderkampf Westfalen / Niederlande am 03.09.2011 in Almelo den so lange verletzten Yannik Blaszczyk, M15, in den Kader für 100m und die 4 x 100m-Staffel.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110706180437_Yannik_Weitbearb.jpg",
+                "local": "news_assets/2447/zoom_20110706180437_Yannik_Weitbearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-231-2446",
+        "id": "2446",
+        "title": "SABINE KRUSE JAGT SCHWARZWALDPOKAL",
+        "date": "06. Juli 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110706173815_Sabine_Kruse_Schauinslandlauf_.jpg\"/></div><p class=\"detailViewTop\"><b><p><font face=\"Arial, sans-serif\">Am Sonntag, den 03.07.2011 bewies Sabine Kruse vom Recklinghäuser LC wieder einmal ihre Stärke am Berg. Als schnellste Frau kam sie beim 32.Schauinsland-Berglauf in der Nähe von Freiburg nach 13km und 1:14,58h ins Ziel, in der Gesamtwertung wurde sie 36gste.</font></p></b></p>",
+        "content_text": "Am Sonntag, den 03.07.2011 bewies Sabine Kruse vom Recklinghäuser LC wieder einmal ihre Stärke am Berg. Als schnellste Frau kam sie beim 32.Schauinsland-Berglauf in der Nähe von Freiburg nach 13km und 1:14,58h ins Ziel, in der Gesamtwertung wurde sie 36gste.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110706173815_Sabine_Kruse_Schauinslandlauf_.jpg",
+                "local": "news_assets/2446/zoom_20110706173815_Sabine_Kruse_Schauinslandlauf_.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-232-2445",
+        "id": "2445",
+        "title": "WESTFALENTITEL UND KREISREKORD FüR 4X100M-STAFFEL",
+        "date": "03. Juli 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110703212549_Staffel_003.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Westfälischen Schülermeisterschaften am 03.07.2011 im Hagener Ischeland-Stadion lief sich die seit einem Jahr erfolgreiche 4x100m-Staffel der Schülerinnen in der Besetzung Janine Gamrath, Elena Hütter, Ida Hartwig und Maren Albers in 49,05sec, gleichbedeutend mit neuem Kreisrekord und Platz 2 in Deutschland, aufs oberste Siegertreppchen.</b></p>",
+        "content_text": "Bei den Westfälischen Schülermeisterschaften am 03.07.2011 im Hagener Ischeland-Stadion lief sich die seit einem Jahr erfolgreiche 4x100m-Staffel der Schülerinnen in der Besetzung Janine Gamrath, Elena Hütter, Ida Hartwig und Maren Albers in 49,05sec, gleichbedeutend mit neuem Kreisrekord und Platz 2 in Deutschland, aufs oberste Siegertreppchen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110703212549_Staffel_003.jpg",
+                "local": "news_assets/2445/zoom_20110703212549_Staffel_003.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-232-2444",
+        "id": "2444",
+        "title": "DJM IN JENA MIT MARITA SCHULTE",
+        "date": "01. Juli 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110701221824_Marita_01bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Beim Abendsportfest am 01.07.2011 in Warstein gelang es Marita Schulte, wJB, nach längerer Verletzungspause ihre bisherige Bestleistung im Stabhochsprung zu toppen.</b></p>",
+        "content_text": "Beim Abendsportfest am 01.07.2011 in Warstein gelang es Marita Schulte, wJB, nach längerer Verletzungspause ihre bisherige Bestleistung im Stabhochsprung zu toppen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110701221824_Marita_01bearb.jpg",
+                "local": "news_assets/2444/zoom_20110701221824_Marita_01bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-232-2443",
+        "id": "2443",
+        "title": "RLC BAUT FüHRUNG IN JUGENDLIGA AUS",
+        "date": "30. Juni 2011 -  30. Juni 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Auch nach dem dritten Wettbewerb, der zur Berechnung der Jugendliga im Leichtathletikkreis Recklinghausen herangezogen wird - den Kreismehrkampfmeisterschaften vom 25./26.06.2011 - führen die Athletinnen und Athleten des Recklinghäuser LC die Liste mit 1141 Punkten vor der LA SV Herten mit 977 Punkten an.</b></p>",
+        "content_text": "Auch nach dem dritten Wettbewerb, der zur Berechnung der Jugendliga im Leichtathletikkreis Recklinghausen herangezogen wird - den Kreismehrkampfmeisterschaften vom 25./26.06.2011 - führen die Athletinnen und Athleten des Recklinghäuser LC die Liste mit 1141 Punkten vor der LA SV Herten mit 977 Punkten an.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-233-2420",
+        "id": "2420",
+        "title": "KREISMEHRKAMPF IM HOHENHORST  - 17 TITEL FüR DEN RLC",
+        "date": "26. Juni 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110626231333_D-Sch_02.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Kreismehrkampfmeisterschaften am 25./26.06.2011 im heimischen Stadion Hohenhorst weinte lediglich der Himmel. Die RLC-Athletinnen und -Athleten hatten dagegen viel Grund zur Freude: Gleich 17 Titel gingen an den Ausrichter der Veranstaltung.</b></p>",
+        "content_text": "Bei den Kreismehrkampfmeisterschaften am 25./26.06.2011 im heimischen Stadion Hohenhorst weinte lediglich der Himmel. Die RLC-Athletinnen und -Athleten hatten dagegen viel Grund zur Freude: Gleich 17 Titel gingen an den Ausrichter der Veranstaltung.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110626231333_D-Sch_02.jpg",
+                "local": "news_assets/2420/zoom_20110626231333_D-Sch_02.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-233-2379",
+        "id": "2379",
+        "title": "4 X 100M-STAFFEL HOLT WESTFALENTITEL, ANNA ALBERS ZWEI VIZETITEL",
+        "date": "19. Juni 2011 -  19. Juni 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Von strömendem Regen und orkanartigen Windböen ließen sich die Staffeln des Recklinghäuser LC an diesem \"Herbst\"-Sonntag nicht beirren. Die 4 x 100m-Staffel der weiblichen Jugend B wurde bei den Westfalenmeisterschaften der Jugend in Gütersloh auch bei widrigen Bedingungen ihrer Favoritenstellung gerecht: Ida Hartwig, Elena Hütter, Maren Albers (noch immer A-Schülerinnen) sowie Marita Schulte in ihrem ersten B-Jugendjahr liefen in 49,33sec zum Sieg, nur wenig über der eigenen Meldezeit von 49,09sec, moralisch unterstützt durch Ersatzläuferin Janine Gamrath.</b></p>",
+        "content_text": "Von strömendem Regen und orkanartigen Windböen ließen sich die Staffeln des Recklinghäuser LC an diesem \"Herbst\"-Sonntag nicht beirren. Die 4 x 100m-Staffel der weiblichen Jugend B wurde bei den Westfalenmeisterschaften der Jugend in Gütersloh auch bei widrigen Bedingungen ihrer Favoritenstellung gerecht: Ida Hartwig, Elena Hütter, Maren Albers (noch immer A-Schülerinnen) sowie Marita Schulte in ihrem ersten B-Jugendjahr liefen in 49,33sec zum Sieg, nur wenig über der eigenen Meldezeit von 49,09sec, moralisch unterstützt durch Ersatzläuferin Janine Gamrath.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-233-2378",
+        "id": "2378",
+        "title": "HOHENHORST-MEETING -  WIE IMMER VOLLES HAUS",
+        "date": "14. Juni 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110614220210_Start_Ida.jpg\"/></div><p class=\"detailViewTop\"><b>Das Hohenhorst-Meeting am Pfingstmontag ist nicht nur eine Traditionsveranstaltung sondern auch eine Erfolgsgeschichte. So auch die 34. Auflage im Jahr 2011: 86 Vereine hatten 565 Athleten für insgesamt 1035 Starts gemeldet; das Veranstaltungsteam hatte dementsprechend schon tagelang vorher alle Hände voll zu tun.</b></p>",
+        "content_text": "Das Hohenhorst-Meeting am Pfingstmontag ist nicht nur eine Traditionsveranstaltung sondern auch eine Erfolgsgeschichte. So auch die 34. Auflage im Jahr 2011: 86 Vereine hatten 565 Athleten für insgesamt 1035 Starts gemeldet; das Veranstaltungsteam hatte dementsprechend schon tagelang vorher alle Hände voll zu tun.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110614220210_Start_Ida.jpg",
+                "local": "news_assets/2378/zoom_20110614220210_Start_Ida.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-234-2377",
+        "id": "2377",
+        "title": "PAUKENSCHLAG BEIM BORSIG-MEETING: RLC-QUARTETT LäUFT DM-QUALI",
+        "date": "11. Juni 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110611211550_Borsig-Staffel_02bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Beim Borsig-Meeting am 11.06.2011 in Gladbeck bewahrheitete sich die Prognose unseres Schülertrainers Jürgen Albers: \"Die Mädels sind top drauf, da platzt bald der Knoten\". Die 4 x100m-Staffel der weiblichen Jugend B in der Besetzung Ida Hartwig, Elena Hütter, Maren Albers (alle drei noch der Schülerinnenklasse angehörend) und Marita Schulte erlief sich in grandiosen 49,09 sec den 1. Platz und die Qualifikation zu den Deutschen Jugendmeisterschaften in Jena.</b></p>",
+        "content_text": "Beim Borsig-Meeting am 11.06.2011 in Gladbeck bewahrheitete sich die Prognose unseres Schülertrainers Jürgen Albers: \"Die Mädels sind top drauf, da platzt bald der Knoten\". Die 4 x100m-Staffel der weiblichen Jugend B in der Besetzung Ida Hartwig, Elena Hütter, Maren Albers (alle drei noch der Schülerinnenklasse angehörend) und Marita Schulte erlief sich in grandiosen 49,09 sec den 1. Platz und die Qualifikation zu den Deutschen Jugendmeisterschaften in Jena.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110611211550_Borsig-Staffel_02bearb.jpg",
+                "local": "news_assets/2377/zoom_20110611211550_Borsig-Staffel_02bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-234-2375",
+        "id": "2375",
+        "title": "QUALIS FüR ELENA UND MAREN BEI BLOCKMEISTERSCHAFTEN",
+        "date": "05. Juni 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110605141521_Maren-Elenabearb.jpg\"/></div><p class=\"detailViewTop\"><b>Von den Westfälischen Meisterschaften der Schüler im Block- und Mehrkampf am 04./05.06.2011 in Rheine kehrten Elena Hütter und Maren Albers, beide W15, mit weiteren Qualifikationen für zukünftige Meisterschaften zurück.</b></p>",
+        "content_text": "Von den Westfälischen Meisterschaften der Schüler im Block- und Mehrkampf am 04./05.06.2011 in Rheine kehrten Elena Hütter und Maren Albers, beide W15, mit weiteren Qualifikationen für zukünftige Meisterschaften zurück.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110605141521_Maren-Elenabearb.jpg",
+                "local": "news_assets/2375/zoom_20110605141521_Maren-Elenabearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-235-2339",
+        "id": "2339",
+        "title": "STAFFELTEST FüR RLC-JUGEND ERFOLGREICH",
+        "date": "02. Juni 2011 -  02. Juni 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Mit zwei Staffeln waren Ludger Zander und Jürgen Albers zum Bahnstaffeltag am 02.06.2011 in Witten gefahren und kamen mit gemischten Gefühlen zurück.</b></p>",
+        "content_text": "Mit zwei Staffeln waren Ludger Zander und Jürgen Albers zum Bahnstaffeltag am 02.06.2011 in Witten gefahren und kamen mit gemischten Gefühlen zurück.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-235-2338",
+        "id": "2338",
+        "title": "13 KREISMEISTERTITEL FüR RLC-KIDS [FOTOS]",
+        "date": "03. Juni 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110603212307_Fiona_01.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Kreiseinzel-Meisterschaften der Schüler D-C-B am 02.06.2011 in Heiden gewann das durch Kommunionen und Kurzurlaube zahlenmäßig reduzierte Team des Recklinghäuser LC sagenhafte 13 Titel sowie ein Vielfaches an weiteren Urkunden.</b></p>",
+        "content_text": "Bei den Kreiseinzel-Meisterschaften der Schüler D-C-B am 02.06.2011 in Heiden gewann das durch Kommunionen und Kurzurlaube zahlenmäßig reduzierte Team des Recklinghäuser LC sagenhafte 13 Titel sowie ein Vielfaches an weiteren Urkunden.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110603212307_Fiona_01.jpg",
+                "local": "news_assets/2338/zoom_20110603212307_Fiona_01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-235-2281",
+        "id": "2281",
+        "title": "RLC-LANGSTRECKENSTAFFEL SIEGT BEI RUNNERS-POINT-STAFFELTAG AUF SCHALKE",
+        "date": "27. Mai 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110527145722_Siegerehrung_RP_Staffellauf_Fr.jpg\"/></div><p class=\"detailViewTop\"><b>Als Siegerinnen gingen die Langstreckenläuferinnen des Recklinghäuser LC aus dem Runners-Point-Staffellauf am 22.05.2011 auf Schalke hervor. In der Kategorie \"Frauen 5x5km\" gewannen Sabine Kruse, Pia Zajonz, Julia Kotte, Britta Szymczak und Tina Wessinghage in 1:44,43min und belegten in der Gesamtwertung aller Staffeln den 18. Rang.</b></p>",
+        "content_text": "Als Siegerinnen gingen die Langstreckenläuferinnen des Recklinghäuser LC aus dem Runners-Point-Staffellauf am 22.05.2011 auf Schalke hervor. In der Kategorie \"Frauen 5x5km\" gewannen Sabine Kruse, Pia Zajonz, Julia Kotte, Britta Szymczak und Tina Wessinghage in 1:44,43min und belegten in der Gesamtwertung aller Staffeln den 18. Rang.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110527145722_Siegerehrung_RP_Staffellauf_Fr.jpg",
+                "local": "news_assets/2281/zoom_20110527145722_Siegerehrung_RP_Staffellauf_Fr.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-236-2280",
+        "id": "2280",
+        "title": "ERFOLGREICHE BAHNERöFFNUNG IM HOHENHORST-STADION",
+        "date": "24. Mai 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110524145524_KIA_010vkl.jpg\"/></div><p class=\"detailViewTop\"><b>Mit 1123 Meldungen von 406 Athleten und 26 Vereinen hatte der RLC am vergangenen Sonntag volles Haus beim 5. KIA-Sportfest im Stadion Hohenhorst. Bei gutem Leichtathletikwetter, nur unterbrochen von einem 10-minütigen Starkregen, hatten die Kampfgerichte insbesondere bei den Schülerinnenklassen W10/W11 mit starken Meldefeldern alle Hände voll tun. 43 Mädels im Weitsprung W10 stellten ersichtlich die Grenze dar.</b></p>",
+        "content_text": "Mit 1123 Meldungen von 406 Athleten und 26 Vereinen hatte der RLC am vergangenen Sonntag volles Haus beim 5. KIA-Sportfest im Stadion Hohenhorst. Bei gutem Leichtathletikwetter, nur unterbrochen von einem 10-minütigen Starkregen, hatten die Kampfgerichte insbesondere bei den Schülerinnenklassen W10/W11 mit starken Meldefeldern alle Hände voll tun. 43 Mädels im Weitsprung W10 stellten ersichtlich die Grenze dar.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110524145524_KIA_010vkl.jpg",
+                "local": "news_assets/2280/zoom_20110524145524_KIA_010vkl.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-236-2258",
+        "id": "2258",
+        "title": "DREI GOLDMEDAILLEN FüR HERMI STAUBERMANN",
+        "date": "15. Mai 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110515154556_Hermi_02.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Freiluft-Senioreneuropameisterschaften in Frankreich gewann Hermi Staubermann in der Altersklasse W70 drei Goldmedaillen. Über 10km benötigte Hermi nur 50:49min und stand am Ende ganz oben auf dem Treppchen.</b></p>",
+        "content_text": "Bei den Freiluft-Senioreneuropameisterschaften in Frankreich gewann Hermi Staubermann in der Altersklasse W70 drei Goldmedaillen. Über 10km benötigte Hermi nur 50:49min und stand am Ende ganz oben auf dem Treppchen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110515154556_Hermi_02.jpg",
+                "local": "news_assets/2258/zoom_20110515154556_Hermi_02.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-236-2257",
+        "id": "2257",
+        "title": "SABINE KRUSE WIEDER DEUTSCHE BERGLAUFMEISTERIN!",
+        "date": "14. Mai 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110514212811_Familie_Kruse.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Bei den <strong>Deutschen Berglaufmeisterschaften der Senioren</strong> im Rahmen des 30. Internationalen Kandelberglaufs am 14.05.2011 in Waldkirch bei Freiburg siegte nach mehr als einjähriger Verletzungspause erneute die <strong>RLC-Athletin Sabine Kruse</strong> mit einer Zeit von <strong>1:03,17min</strong> in der <strong>Altersklasse W40</strong>.</font></b></p>",
+        "content_text": "Bei den\nDeutschen Berglaufmeisterschaften der Senioren\nim Rahmen des 30. Internationalen Kandelberglaufs am 14.05.2011 in Waldkirch bei Freiburg siegte nach mehr als einjähriger Verletzungspause erneute die\nRLC-Athletin Sabine Kruse\nmit einer Zeit von\n1:03,17min\nin der\nAltersklasse W40\n.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110514212811_Familie_Kruse.jpg",
+                "local": "news_assets/2257/zoom_20110514212811_Familie_Kruse.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-237-2204",
+        "id": "2204",
+        "title": "PERSöNLICHE BESTLEISTUNGEN WIE AM FLIEßBAND",
+        "date": "09. Mai 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110509073815_Lisa_bearb2.jpg\"/></div><p class=\"detailViewTop\"><b>RLC-Aktive waren am vergangenen Wochenende nicht nur in Kaarst bei den Westdeutschen Langstaffelmeisterschaften unterwegs, sondern auch in Lüdinghausen ( Blockwettkämpfe A-Schülerinnen ) und Bochum ( Werfertag mit Stabhochsprung ).</b></p>",
+        "content_text": "RLC-Aktive waren am vergangenen Wochenende nicht nur in Kaarst bei den Westdeutschen Langstaffelmeisterschaften unterwegs, sondern auch in Lüdinghausen ( Blockwettkämpfe A-Schülerinnen ) und Bochum ( Werfertag mit Stabhochsprung ).",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110509073815_Lisa_bearb2.jpg",
+                "local": "news_assets/2204/zoom_20110509073815_Lisa_bearb2.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-237-2203",
+        "id": "2203",
+        "title": "4X400M-STAFFEL ERNEUT WESTFALENMEISTERINNEN!",
+        "date": "07. Mai 2011 -  07. Mai 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Erster Freiluftwettkampf und wieder ein Westfalentitel: die Mädels der weiblichen Jugend machen da weiter, wo sie im Jahr 2010 aufgehört haben: bei den Westdeutschen Langstaffelmeisterschaften am 07.05.2011 in Kaarst liefen Kerstin Hlinski, Franziska Engbert, Carolin Oenning und Anna Albers in 3:59,44min auf den 4. Gesamtrang, gleichbedeutend mit Platz 1 in der Westfälischen Rangliste.</b></p>",
+        "content_text": "Erster Freiluftwettkampf und wieder ein Westfalentitel: die Mädels der weiblichen Jugend machen da weiter, wo sie im Jahr 2010 aufgehört haben: bei den Westdeutschen Langstaffelmeisterschaften am 07.05.2011 in Kaarst liefen Kerstin Hlinski, Franziska Engbert, Carolin Oenning und Anna Albers in 3:59,44min auf den 4. Gesamtrang, gleichbedeutend mit Platz 1 in der Westfälischen Rangliste.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-238-2202",
+        "id": "2202",
+        "title": "ERSTER FREILUFTEINSATZ FüR DIE WERFERINNEN UND WERFER DES RLC",
+        "date": "10. April 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110410175827_Hoho_Speerebearb.jpg\"/></div><p class=\"detailViewTop\"><b>Beim Halterner Werfertag am 10.04.2011 hatten auch die Mehrkämpfer von Trainer Jürgen Albers ihren ersten Einsatz beim bestem Frühlingswetter. Dabei konnte Maren Albers bei drei Einsätzen gleich zwei Siege und einen 3. Platz verbuchen: 7,55m (Kugel) und 19,79m (Diskus) sowie 18,13m im Speerwurf waren ihre Ergebnisse in der Altersklasse W15.</b></p>",
+        "content_text": "Beim Halterner Werfertag am 10.04.2011 hatten auch die Mehrkämpfer von Trainer Jürgen Albers ihren ersten Einsatz beim bestem Frühlingswetter. Dabei konnte Maren Albers bei drei Einsätzen gleich zwei Siege und einen 3. Platz verbuchen: 7,55m (Kugel) und 19,79m (Diskus) sowie 18,13m im Speerwurf waren ihre Ergebnisse in der Altersklasse W15.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110410175827_Hoho_Speerebearb.jpg",
+                "local": "news_assets/2202/zoom_20110410175827_Hoho_Speerebearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-237-2201",
+        "id": "2201",
+        "title": "RLC-ATHLETEN AUCH AUF DER LANGSTRECKE GUT UNTERWEGS",
+        "date": "10. April 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110410160947_Sabine_Kruse.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Westdeutschen Langstreckenmeisterschaften über 5000m am 09.04.2011 in Essen-Überruhr bewiesen die Athletinnen und Athleten von Trainer Thomas Vogl erneut, wie gut sie in den vergangenen Monaten ihre Substanz aufgebaut hatten.</b></p>",
+        "content_text": "Bei den Westdeutschen Langstreckenmeisterschaften über 5000m am 09.04.2011 in Essen-Überruhr bewiesen die Athletinnen und Athleten von Trainer Thomas Vogl erneut, wie gut sie in den vergangenen Monaten ihre Substanz aufgebaut hatten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110410160947_Sabine_Kruse.jpg",
+                "local": "news_assets/2201/zoom_20110410160947_Sabine_Kruse.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-238-2160",
+        "id": "2160",
+        "title": "KREISMEISTERSCHAFTEN IM CROSSLAUF  -  VIELE RLC-ERFOLGE",
+        "date": "30. März 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110330205536_Anna-Laura_01.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den diesjährigen Kreismeisterschaften im Crosslauf am 27.03.2011 wollten 66 RLC-Athleten: von der Seniorin Hermi Staubermann bis hin zu den beiden Jüngsten Leonie Kruse und Louisa Hassel in der W8 beweisen, wie sicher und schnell sie sich im Gelände des Bakumer Tals bewegen konnten.</b></p>",
+        "content_text": "Bei den diesjährigen Kreismeisterschaften im Crosslauf am 27.03.2011 wollten 66 RLC-Athleten: von der Seniorin Hermi Staubermann bis hin zu den beiden Jüngsten Leonie Kruse und Louisa Hassel in der W8 beweisen, wie sicher und schnell sie sich im Gelände des Bakumer Tals bewegen konnten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110330205536_Anna-Laura_01.jpg",
+                "local": "news_assets/2160/zoom_20110330205536_Anna-Laura_01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-238-2130",
+        "id": "2130",
+        "title": "UND AUCH NOCH 2 GOLDMEDAILLEN MIT DER MANNSCHAFT....",
+        "date": "23. März 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110323161637_31248_senioren4_gent11_foto_fl.jpg\"/></div><p class=\"detailViewTop\"><b>Nachdem der komplizierte Ausrechnungsmodus bei den Halleneuropameisterschaften der Senioren endlich durchlaufen war, stellte sich heraus, das Hermi Staubermann nicht nur dreimal auf dem Treppchen gelandet war (siehe News vom 22.03.2011), sondern mit der jeweiligen Mannschaft auch noch 2 Goldmedaillen samt einem neuen Weltrekord mit nach Hause brachte.</b></p>",
+        "content_text": "Nachdem der komplizierte Ausrechnungsmodus bei den Halleneuropameisterschaften der Senioren endlich durchlaufen war, stellte sich heraus, das Hermi Staubermann nicht nur dreimal auf dem Treppchen gelandet war (siehe News vom 22.03.2011), sondern mit der jeweiligen Mannschaft auch noch 2 Goldmedaillen samt einem neuen Weltrekord mit nach Hause brachte.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110323161637_31248_senioren4_gent11_foto_fl.jpg",
+                "local": "news_assets/2130/zoom_20110323161637_31248_senioren4_gent11_foto_fl.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-239-2129",
+        "id": "2129",
+        "title": "2 - 3 - 3 - 4 - 6 = HERMIS ZAHLEN",
+        "date": "22. März 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110322142828_31267_senioren6_gent11_foto_fl.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Europäischen Hallenmeisterschaften für Senioren in Gent ging die RLC-Athletin Hermi Staubermann fünfmal in der Altersklasse W70 an den Start: eine Silbermedaille, zwei Bronzemedaillen, ein 4. und ein 6. Platz stellten die überaus erfolgreiche Ausbeute dar.</b></p>",
+        "content_text": "Bei den Europäischen Hallenmeisterschaften für Senioren in Gent ging die RLC-Athletin Hermi Staubermann fünfmal in der Altersklasse W70 an den Start: eine Silbermedaille, zwei Bronzemedaillen, ein 4. und ein 6. Platz stellten die überaus erfolgreiche Ausbeute dar.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110322142828_31267_senioren6_gent11_foto_fl.jpg",
+                "local": "news_assets/2129/zoom_20110322142828_31267_senioren6_gent11_foto_fl.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-239-2128",
+        "id": "2128",
+        "title": "KLASSE AUFTRITT DER RLC-LANGSTRECKLER",
+        "date": "21. März 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110321142136_Sven_Kempe_und_Max_Ceglabea1.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Westfälischen Meisterschaften über 10km am 19.03.2011 in Salzkotten konnten die vier verbliebenen Starter im Trikot des RLC : Pia Zayonz, Sabine Kruse, Max Cegla und Sven Kempe (Julia Kotte fiel kurzfristig wegen eines Infekts aus und Trainer Thomas Vogl wegen einer Verletzung) sich so richtig in Szene setzen.</b></p>",
+        "content_text": "Bei den Westfälischen Meisterschaften über 10km am 19.03.2011 in Salzkotten konnten die vier verbliebenen Starter im Trikot des RLC : Pia Zayonz, Sabine Kruse, Max Cegla und Sven Kempe (Julia Kotte fiel kurzfristig wegen eines Infekts aus und Trainer Thomas Vogl wegen einer Verletzung) sich so richtig in Szene setzen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110321142136_Sven_Kempe_und_Max_Ceglabea1.jpg",
+                "local": "news_assets/2128/zoom_20110321142136_Sven_Kempe_und_Max_Ceglabea1.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-239-2127",
+        "id": "2127",
+        "title": "GUTE LEISTUNGEN BEI WESTFäLISCHEN SCHüLERMEISTERSCHAFTEN!",
+        "date": "06. März 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110306203334_Ida_02verkl.jpg\"/></div><p class=\"detailViewTop\"><b>Zu den Westfälischen Hallenmeisterschaften der Schüler am 06.03.2011 in Paderborn konnte Trainer Jürgen Albers aufgrund diverser Erkrankungen und Verletzungen seiner Athletinnen und Athleten schon nur ein Rumpfteam von 4 Mädels melden.</b></p>",
+        "content_text": "Zu den Westfälischen Hallenmeisterschaften der Schüler am 06.03.2011 in Paderborn konnte Trainer Jürgen Albers aufgrund diverser Erkrankungen und Verletzungen seiner Athletinnen und Athleten schon nur ein Rumpfteam von 4 Mädels melden.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110306203334_Ida_02verkl.jpg",
+                "local": "news_assets/2127/zoom_20110306203334_Ida_02verkl.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-240-2126",
+        "id": "2126",
+        "title": "TOP PLATZIERUNGEN - TOP LEISTUNGEN",
+        "date": "27. Februar 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110227214900_Anna_01.jpg\"/></div><p class=\"detailViewTop\"><b><font face=\"Arial, sans-serif\">Eine Standortbestimmung für die Schülerinnen und Schüler der Trainingsgruppe von Sebastian Stephani und Lars Czekalla sollte es werden, das Hallensportfest der DJK SuS Brambauer am 27.02.2011 in der Dortmunder Helmut-Körnig-Halle. Ein Feuerwerk an Bestleistungen und Treppchenplätzen ist es geworden.</font></b></p>",
+        "content_text": "Eine Standortbestimmung für die Schülerinnen und Schüler der Trainingsgruppe von Sebastian Stephani und Lars Czekalla sollte es werden, das Hallensportfest der DJK SuS Brambauer am 27.02.2011 in der Dortmunder Helmut-Körnig-Halle. Ein Feuerwerk an Bestleistungen und Treppchenplätzen ist es geworden.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110227214900_Anna_01.jpg",
+                "local": "news_assets/2126/zoom_20110227214900_Anna_01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-240-2125",
+        "id": "2125",
+        "title": "GUTER AUFTRITT DER RLC-STAFFEL BEI DJM",
+        "date": "20. Februar 2011 -  20. Februar 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Vom Pech bei der Startbahnauslosung ließen sich die vier Läuferinnen der 4 x 200m-Staffel des RLC bei den Deutschen Jugendhallenmeisterschaften am 19./20.02.2011 in Leverkusen nicht beeindrucken.</b></p>",
+        "content_text": "Vom Pech bei der Startbahnauslosung ließen sich die vier Läuferinnen der 4 x 200m-Staffel des RLC bei den Deutschen Jugendhallenmeisterschaften am 19./20.02.2011 in Leverkusen nicht beeindrucken.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-240-2117",
+        "id": "2117",
+        "title": "STARKES SCHüLERINNEN-QUARTETT",
+        "date": "15. Februar 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110215224623_Ida.jpg\"/></div><p class=\"detailViewTop\"><b>Die vier A-Schülerinnen, die Trainer Jürgen Albers für einen Hallenwettkampf am 13.02.2011 in der Dortmunder Helmut-Körnig-Halle gemeldet, bewiesen bei dieser als Aufbauwettkampf geplanten Veranstaltung wahrlich gute Nerven.</b></p>",
+        "content_text": "Die vier A-Schülerinnen, die Trainer Jürgen Albers für einen Hallenwettkampf am 13.02.2011 in der Dortmunder Helmut-Körnig-Halle gemeldet, bewiesen bei dieser als Aufbauwettkampf geplanten Veranstaltung wahrlich gute Nerven.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110215224623_Ida.jpg",
+                "local": "news_assets/2117/zoom_20110215224623_Ida.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-241-2116",
+        "id": "2116",
+        "title": "UND SIE GEWINNT UND GEWINNT UND...",
+        "date": "13. Februar 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110213213924_Hermi_vkl.jpg\"/></div><p class=\"detailViewTop\"><b>Wieder einmal hat unsere sportlichste Seniorin <strong>Hermi Staubermann</strong> ihrem Namen als Titelhamster alle Ehren gemacht: von den Deutschen Hallenmeisterschaften der Senioren am 11.02/13.02.2011 in Erfurt kehrte Hermi mit zwei weiteren Titeln nach Recklinghausen zurück.</b></p>",
+        "content_text": "Wieder einmal hat unsere sportlichste Seniorin\nHermi Staubermann\nihrem Namen als Titelhamster alle Ehren gemacht: von den Deutschen Hallenmeisterschaften der Senioren am 11.02/13.02.2011 in Erfurt kehrte Hermi mit zwei weiteren Titeln nach Recklinghausen zurück.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110213213924_Hermi_vkl.jpg",
+                "local": "news_assets/2116/zoom_20110213213924_Hermi_vkl.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-241-2115",
+        "id": "2115",
+        "title": "RLCLER AUF DER STRASSE GUT UNTERWEGS",
+        "date": "10. Februar 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110210162411_Julia_Kotte02.jpg\"/></div><p class=\"detailViewTop\"><b>Insgesamt 14 RLClerinnen und RLCler hatten für die Bertlicher Strassenläufe am 06.02.2011 gemeldet und kehrten mit richtig guten Ergebnissen nach Recklinghausen zurück.</b></p>",
+        "content_text": "Insgesamt 14 RLClerinnen und RLCler hatten für die Bertlicher Strassenläufe am 06.02.2011 gemeldet und kehrten mit richtig guten Ergebnissen nach Recklinghausen zurück.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110210162411_Julia_Kotte02.jpg",
+                "local": "news_assets/2115/zoom_20110210162411_Julia_Kotte02.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-241-2114",
+        "id": "2114",
+        "title": "4 X 200M-STAFFEL: DRITTER START - DRITTE BESTLEISTUNG",
+        "date": "06. Februar 2011 -  06. Februar 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Bei den Westdeutschen Hallenmeisterschaften am 06.02.2011 in der Körnig-Halle von Dortmund trat die 4 x 200m-Staffel der weiblichen Jugend des Recklinghäuser LC zum 3. Mal in diesem Winter an und landete wiederum in deutlich verbesserter Zeit von 1:44,08min auf dem Treppchen, Platz sieben war diesmal die Ausbeute.</b></p>",
+        "content_text": "Bei den Westdeutschen Hallenmeisterschaften am 06.02.2011 in der Körnig-Halle von Dortmund trat die 4 x 200m-Staffel der weiblichen Jugend des Recklinghäuser LC zum 3. Mal in diesem Winter an und landete wiederum in deutlich verbesserter Zeit von 1:44,08min auf dem Treppchen, Platz sieben war diesmal die Ausbeute.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-242-2113",
+        "id": "2113",
+        "title": "RLC-SPORTLERINNEN AUF DEM TREPPCHEN",
+        "date": "31. Januar 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110131080304_Staffel_nah3.jpg\"/></div><p class=\"detailViewTop\"><b>Bei der jährlichen Wahl zur Sportlerin / zum Sportler / zur Mannschaft des Jahres der Stadt Recklinghausen und des Kreises Recklinghausen standen diesmal Bianca Broda, die 4 x 100m-A-Schülerinnenstaffel sowie die 4 x 400m-Jugendstaffel des RLC auf der Siegerbühne.</b></p>",
+        "content_text": "Bei der jährlichen Wahl zur Sportlerin / zum Sportler / zur Mannschaft des Jahres der Stadt Recklinghausen und des Kreises Recklinghausen standen diesmal Bianca Broda, die 4 x 100m-A-Schülerinnenstaffel sowie die 4 x 400m-Jugendstaffel des RLC auf der Siegerbühne.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110131080304_Staffel_nah3.jpg",
+                "local": "news_assets/2113/zoom_20110131080304_Staffel_nah3.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-243-2111",
+        "id": "2111",
+        "title": "AKTION EICHHöRNCHEN - PERSöNLICHE BESTLEISTUNGEN SAMMELN",
+        "date": "22. Januar 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110123225905_Elena_01hoch.jpg\"/></div><p class=\"detailViewTop\"><b>Für die A-SchülerInnen und B-Jugendlichen des RLC sollte das Hallensportfest am 23.01.2011 in der Dortmunder Helmut-Körnig-Halle eine Standortbestimmung werden. Die meisten liefen das erste Mal in ihrem Sportlerleben 200m und waren entsprechend aufgeregt vor dem großen Auftritt.</b></p>",
+        "content_text": "Für die A-SchülerInnen und B-Jugendlichen des RLC sollte das Hallensportfest am 23.01.2011 in der Dortmunder Helmut-Körnig-Halle eine Standortbestimmung werden. Die meisten liefen das erste Mal in ihrem Sportlerleben 200m und waren entsprechend aufgeregt vor dem großen Auftritt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110123225905_Elena_01hoch.jpg",
+                "local": "news_assets/2111/zoom_20110123225905_Elena_01hoch.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-242-2108",
+        "id": "2108",
+        "title": "WESTFALENMEISTERINNEN-TITEL FüR ANNA ALBERS",
+        "date": "23. Januar 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110202074526_Siegerehrung_Anna_02red.jpg\"/></div><p class=\"detailViewTop\"><b>Für die Westfälischen A-Jugendmeisterschaften am 22.01.2011 in der Bielefelder Seidenstickerhalle hatte Trainer Ludger Zander ein kleines, aber erfolgversprechendes Team gemeldet. Allen voran Anna Albers, auf ihrer 400m-Paradestrecke unterwegs, bewies ihre Qualitäten.</b></p>",
+        "content_text": "Für die Westfälischen A-Jugendmeisterschaften am 22.01.2011 in der Bielefelder Seidenstickerhalle hatte Trainer Ludger Zander ein kleines, aber erfolgversprechendes Team gemeldet. Allen voran Anna Albers, auf ihrer 400m-Paradestrecke unterwegs, bewies ihre Qualitäten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110202074526_Siegerehrung_Anna_02red.jpg",
+                "local": "news_assets/2108/zoom_20110202074526_Siegerehrung_Anna_02red.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-243-2107",
+        "id": "2107",
+        "title": "GUTER HALLENSAISON-AUFTAKT FüR RLCLERINNEN",
+        "date": "15. Januar 2011 -  15. Januar 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Bei der ersten Meisterschaft des Jahres: den Westfälischen Meisterschaften der Frauen, Männer sowie weiblichen und männlichen Jugend B am 15.01. in der Dortmunder Helmut-Körnig-Halle gelang den Athletinnen des RLC ein prima Auftakt.</b></p>",
+        "content_text": "Bei der ersten Meisterschaft des Jahres: den Westfälischen Meisterschaften der Frauen, Männer sowie weiblichen und männlichen Jugend B am 15.01. in der Dortmunder Helmut-Körnig-Halle gelang den Athletinnen des RLC ein prima Auftakt.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-243-2106",
+        "id": "2106",
+        "title": "DAS LEICHTATHLETIK-JAHR 2011 IN HOHENHORST",
+        "date": "09. Januar 2011",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110109224304_hohenhorst09-stabhoch.jpg\"/></div><p class=\"detailViewTop\"><b>Der Veranstaltungskalender 2011 für das Stadion Hohenhorst hat es in sich: Neben dem KIA-Sportfest im Mai, unserem traditionellen Pfingstmeeting sowie den Stadtmeisterschaften zum Saisonabschluss stehen in diesem Jahr gleich drei Meisterschaften auf dem Programm. Einen Höhepunkt der Leichtathletik-Saison in Hohenhorst stellen zweifellos die Westdeutschen Schülermeisterschaften dar. Durch die witterungsbedingte Verschiebung des Silvesterlaufs 2010 werden dieses Jahr die Straßenläufer die Bahn eröffnen.<br><br/>Alle Veranstaltungen im Überblick (auch als <a href=\"assets/pdf/RLC-Flyer-2011.pdf\">Flyer</a>):</br></b></p>",
+        "content_text": "Der Veranstaltungskalender 2011 für das Stadion Hohenhorst hat es in sich: Neben dem KIA-Sportfest im Mai, unserem traditionellen Pfingstmeeting sowie den Stadtmeisterschaften zum Saisonabschluss stehen in diesem Jahr gleich drei Meisterschaften auf dem Programm. Einen Höhepunkt der Leichtathletik-Saison in Hohenhorst stellen zweifellos die Westdeutschen Schülermeisterschaften dar. Durch die witterungsbedingte Verschiebung des Silvesterlaufs 2010 werden dieses Jahr die Straßenläufer die Bahn eröffnen.\nAlle Veranstaltungen im Überblick (auch als\nFlyer\n):",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110109224304_hohenhorst09-stabhoch.jpg",
+                "local": "news_assets/2106/zoom_20110109224304_hohenhorst09-stabhoch.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-244-1921",
+        "id": "1921",
+        "title": "RECKLINGHäUSER SILVESTERLAUF VERSCHOBEN",
+        "date": "29. Dezember 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20110109233824_Silvesterlauf08.jpg\"/></div><p class=\"detailViewTop\"><b>Mit Bedauern mussten wir uns dazu  entschließen, den Recklinghäuser Silvesterlauf am 31.12.2010 abzusagen.  Bei einem Ortstermin heute Mittag konnte uns die Stadt nicht verbindlich  zusichern, dass das aufgrund der Schneedecke auf dem Tribühnendach  gesperrte Stadion Hohenhorst bis Freitag wieder freigegeben werden kann.  Wir hatten daraufhin überlegt, Start und Ziel auf den Vorplatz zu  verlegen. Ohne die Nutzung des Stadions können wir jedoch weder  geeignete Umkleide- und Duschmöglichkeiten noch Verpflegung  bereitstellen. Erschwerend hinzu kommt die angespannte  Parkplatz-Situation rund um das Stadion, weil ein großer Teil der  Parkflächen durch Schnee und Eis unbenutzbar ist. Da schlussendlich auch  noch eine mögliche Sperrung des Hohenhorster Walds durch die Stadt im  Raum stand, sah das Organisationsteam leider keine Möglichkeit, den  Silvesterlauf in diesem Jahr durchzuführen. Stattdessen haben wir uns entschlossen, den Lauf auf den 12.03.2011 zu  verlegen.</b></p>",
+        "content_text": "Mit Bedauern mussten wir uns dazu  entschließen, den Recklinghäuser Silvesterlauf am 31.12.2010 abzusagen.  Bei einem Ortstermin heute Mittag konnte uns die Stadt nicht verbindlich  zusichern, dass das aufgrund der Schneedecke auf dem Tribühnendach  gesperrte Stadion Hohenhorst bis Freitag wieder freigegeben werden kann.  Wir hatten daraufhin überlegt, Start und Ziel auf den Vorplatz zu  verlegen. Ohne die Nutzung des Stadions können wir jedoch weder  geeignete Umkleide- und Duschmöglichkeiten noch Verpflegung  bereitstellen. Erschwerend hinzu kommt die angespannte  Parkplatz-Situation rund um das Stadion, weil ein großer Teil der  Parkflächen durch Schnee und Eis unbenutzbar ist. Da schlussendlich auch  noch eine mögliche Sperrung des Hohenhorster Walds durch die Stadt im  Raum stand, sah das Organisationsteam leider keine Möglichkeit, den  Silvesterlauf in diesem Jahr durchzuführen. Stattdessen haben wir uns entschlossen, den Lauf auf den 12.03.2011 zu  verlegen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20110109233824_Silvesterlauf08.jpg",
+                "local": "news_assets/1921/zoom_20110109233824_Silvesterlauf08.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-244-1919",
+        "id": "1919",
+        "title": "SPORTLEREHRUNG FüR RLC-ATHLETEN",
+        "date": "23. Dezember 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20101223221735_Fritz_und_Hermi.jpg\"/></div><p class=\"detailViewTop\"><b>Auch in diesem Jahr fand die Ehrung verdienter Sportler durch den Recklinghäuser Bürgermeister Wolfgang Pantförder im Rathaus der Stadt unter Beteiligung von RLC-Athleten statt.</b></p>",
+        "content_text": "Auch in diesem Jahr fand die Ehrung verdienter Sportler durch den Recklinghäuser Bürgermeister Wolfgang Pantförder im Rathaus der Stadt unter Beteiligung von RLC-Athleten statt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20101223221735_Fritz_und_Hermi.jpg",
+                "local": "news_assets/1919/zoom_20101223221735_Fritz_und_Hermi.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-245-1918",
+        "id": "1918",
+        "title": "JUGENDLIGA-POKAL üBERGEBEN",
+        "date": "16. Dezember 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20101216164541_Jugendliga_01.jpg\"/></div><p class=\"detailViewTop\"><b>Im Rahmen der Jahrestagung aller Leichtathletikvereine des Kreises Recklinghausen wurde auch die Ehrung der Jugendliga vorgenommen. Mit neuer Rekordpunktzahl von 1490 Punkten gewannen die A-Schülerinnen und -Schüler sowie die Aktiven der weiblichen und männlichen Jugend B in diesem Jahr zum 5. Mal den großen Pokal der Jugendliga.</b></p>",
+        "content_text": "Im Rahmen der Jahrestagung aller Leichtathletikvereine des Kreises Recklinghausen wurde auch die Ehrung der Jugendliga vorgenommen. Mit neuer Rekordpunktzahl von 1490 Punkten gewannen die A-Schülerinnen und -Schüler sowie die Aktiven der weiblichen und männlichen Jugend B in diesem Jahr zum 5. Mal den großen Pokal der Jugendliga.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20101216164541_Jugendliga_01.jpg",
+                "local": "news_assets/1918/zoom_20101216164541_Jugendliga_01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-245-1886",
+        "id": "1886",
+        "title": "NIKOLAUSSPORTFEST MIT REKORDBETEILIGUNG",
+        "date": "07. Dezember 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20101207213114_Niko_017.jpg\"/></div><p class=\"detailViewTop\"><b>Am Nikolaustag fand in der Vestischen Arena Alfons Schütt das traditionelle Nikolaussportfest des Recklinghäuser LC statt. Tradition ist es dabei auch, dass nur die jüngsten RLCler, angefangen bei den 6jährigen bis hin zu den 13jährigen, an diesem Tag an den Start gehen. Diesmal können wir eine Rekordbeteiligung von 113 Kids vermelden.</b></p>",
+        "content_text": "Am Nikolaustag fand in der Vestischen Arena Alfons Schütt das traditionelle Nikolaussportfest des Recklinghäuser LC statt. Tradition ist es dabei auch, dass nur die jüngsten RLCler, angefangen bei den 6jährigen bis hin zu den 13jährigen, an diesem Tag an den Start gehen. Diesmal können wir eine Rekordbeteiligung von 113 Kids vermelden.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20101207213114_Niko_017.jpg",
+                "local": "news_assets/1886/zoom_20101207213114_Niko_017.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-245-1885",
+        "id": "1885",
+        "title": "24. RECKLINGHäUSER SILVESTERLAUF 2010",
+        "date": "02. Dezember 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20101202001729_Silvesterlauf08.jpg\"/></div><p class=\"detailViewTop\"><b>Wer den Rutsch ins neue Jahr mit sportlicher Betätigung einleiten möchte, ist beim traditionellen Silvesterlauf in Recklinghausen genau richtig: Neben 5km- und 10km-Läufen bietet der Recklinghäuser LC in Kooperation mit der Firma Runners Point auch Walking und Nordic Walking über 5km sowie einen Bambini-Lauf für die Kleinsten an. Familien sind ebenso willkommen wie ambitionierte Hobbyläufer und Leistungssportler.</b></p>",
+        "content_text": "Wer den Rutsch ins neue Jahr mit sportlicher Betätigung einleiten möchte, ist beim traditionellen Silvesterlauf in Recklinghausen genau richtig: Neben 5km- und 10km-Läufen bietet der Recklinghäuser LC in Kooperation mit der Firma Runners Point auch Walking und Nordic Walking über 5km sowie einen Bambini-Lauf für die Kleinsten an. Familien sind ebenso willkommen wie ambitionierte Hobbyläufer und Leistungssportler.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20101202001729_Silvesterlauf08.jpg",
+                "local": "news_assets/1885/zoom_20101202001729_Silvesterlauf08.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-246-1884",
+        "id": "1884",
+        "title": "NIKOLAUSSPORTFEST AM MONTAG, 06.12.",
+        "date": "13. November 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20101113215948_nikolaus09-16.jpg\"/></div><p class=\"detailViewTop\"><b>Der Recklinghäuser LC lädt ein zum traditionellen <strong>Nikolaussportfest</strong> am <strong>Mo, 06.12.2010</strong> in die <strong>Vestische Arena Alfons Schütt</strong>. Hier werden sich zwischen 17:00 und 20:00 Uhr die Kids der Jahrgänge 1998 bis 2004 in den Disziplinen 30m-Flachsprint, 30m-Hindernissprint, Hoch-Weit-Sprung, Medizinball-Stoß und Zielwurf miteinander messen sowie bei einer Rundenstaffel an den Start gehen.</b></p>",
+        "content_text": "Der Recklinghäuser LC lädt ein zum traditionellen\nNikolaussportfest\nam\nMo, 06.12.2010\nin die\nVestische Arena Alfons Schütt\n. Hier werden sich zwischen 17:00 und 20:00 Uhr die Kids der Jahrgänge 1998 bis 2004 in den Disziplinen 30m-Flachsprint, 30m-Hindernissprint, Hoch-Weit-Sprung, Medizinball-Stoß und Zielwurf miteinander messen sowie bei einer Rundenstaffel an den Start gehen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20101113215948_nikolaus09-16.jpg",
+                "local": "news_assets/1884/zoom_20101113215948_nikolaus09-16.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-246-1846",
+        "id": "1846",
+        "title": "LäUFER UND WERFER SCHLIEßEN DIE SAISON 2010 AB",
+        "date": "14. Oktober 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20101014200517_Hoho_003.jpg\"/></div><p class=\"detailViewTop\"><b>Am letzten Wochenende absolvierten die Läufer im Rahmen der Westfälischen 10km-Straßenlaufmeisterschaften und die Werfer beim Halterner Werfertag die letzten Starts der Saison 2010.</b></p>",
+        "content_text": "Am letzten Wochenende absolvierten die Läufer im Rahmen der Westfälischen 10km-Straßenlaufmeisterschaften und die Werfer beim Halterner Werfertag die letzten Starts der Saison 2010.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20101014200517_Hoho_003.jpg",
+                "local": "news_assets/1846/zoom_20101014200517_Hoho_003.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-246-1844",
+        "id": "1844",
+        "title": "C-SCHüLERINNEN DSMM-VIZE-WESTFALENMEISTER [FOTOS]",
+        "date": "25. September 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20100926002248_800m-HP.jpg\"/></div><p class=\"detailViewTop\"><b>Beim Westfalenfinale der Deutschen Schüler-Mannschafts-Meisterschaften (DSMM), zu dem die acht punktbesten Mannschaften eingeladen worden waren, holten sich die neun- bis elfjährigen Mädels des Recklinghäuser LC sensationell den Vizetitel.</b></p>",
+        "content_text": "Beim Westfalenfinale der Deutschen Schüler-Mannschafts-Meisterschaften (DSMM), zu dem die acht punktbesten Mannschaften eingeladen worden waren, holten sich die neun- bis elfjährigen Mädels des Recklinghäuser LC sensationell den Vizetitel.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20100926002248_800m-HP.jpg",
+                "local": "news_assets/1844/zoom_20100926002248_800m-HP.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-247-1843",
+        "id": "1843",
+        "title": "33 STADTMEISTERTITEL, 32 VIZEMEISTER UND 75 WEITERE TREPPCHENPLäTZE",
+        "date": "20. September 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20100920074815_Start_W9.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Offenen Stadtmeisterschaften am 18.09.2010 sahnte der Recklinghäuser LC trotz starker Konkurrenz aus Wattenscheid und Schalke zum Abschluss der Stadionsaison im Hohenhorst noch einmal so richtig ab.</b></p>",
+        "content_text": "Bei den Offenen Stadtmeisterschaften am 18.09.2010 sahnte der Recklinghäuser LC trotz starker Konkurrenz aus Wattenscheid und Schalke zum Abschluss der Stadionsaison im Hohenhorst noch einmal so richtig ab.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20100920074815_Start_W9.jpg",
+                "local": "news_assets/1843/zoom_20100920074815_Start_W9.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-247-1842",
+        "id": "1842",
+        "title": "5 ATHLETEN – 6 TITEL",
+        "date": "20. September 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20100920074428_Max_Cegla_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Zu den Kreismeisterschaften im 10km-Strassenlauf in Sythen entsandte der Recklinghäuser LC fünf Athleten, die denn gleich mit sechs Kreismeistertiteln nach Hause zurückkehrten. Wie das wohl geht?</b></p>",
+        "content_text": "Zu den Kreismeisterschaften im 10km-Strassenlauf in Sythen entsandte der Recklinghäuser LC fünf Athleten, die denn gleich mit sechs Kreismeistertiteln nach Hause zurückkehrten. Wie das wohl geht?",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20100920074428_Max_Cegla_bearb.jpg",
+                "local": "news_assets/1842/zoom_20100920074428_Max_Cegla_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-247-1841",
+        "id": "1841",
+        "title": "RECKLINGHäUSER LC SIEGT IN JUGENDLIGA 2010!",
+        "date": "15. September 2010 -  15. September 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Nach den Kreisstaffelmeisterschaften ist es jetzt klar: Der RLC siegt nach 2000, 2001, 2002 und 2003 das 5. Mal in der <a href=\"http://www.flvwre-la.de/jl10.htm\">Jugendliga</a>, einem Wettbewerb für alle Vereine des LA-Kreises Recklinghausen, in den die Ergebnisse der Kreismeisterschaften Mehrkampf, Einzelmeisterschaft, Crosslauf und Staffelmeisterschaft der SchülerInnen A sowie weiblichen und männlichen Jugend bei festgelegten Disziplinen eingehen.</b></p>",
+        "content_text": "Nach den Kreisstaffelmeisterschaften ist es jetzt klar: Der RLC siegt nach 2000, 2001, 2002 und 2003 das 5. Mal in der\nJugendliga\n, einem Wettbewerb für alle Vereine des LA-Kreises Recklinghausen, in den die Ergebnisse der Kreismeisterschaften Mehrkampf, Einzelmeisterschaft, Crosslauf und Staffelmeisterschaft der SchülerInnen A sowie weiblichen und männlichen Jugend bei festgelegten Disziplinen eingehen.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-248-1837",
+        "id": "1837",
+        "title": "SIEBEN KREISMEISTERTITEL FüR DEN RECKLINGHäUSER LC",
+        "date": "13. September 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20100913212045_Aschi_002.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Kreisstaffelmeisterschaften am 11.09.2010 in Recklinghausen heimsten die Athletinnen und Athleten des RLC die meisten Titel ein, nämlich 7 von 26. Nimmt man noch die weiteren Plätze auf dem Treppchen hinzu, so sieht die Bilanz noch besser aus: 5 x Platz 2, 4 x Platz 3, 2 x Platz 4 und je einmal Platz 5 und 6.</b></p>",
+        "content_text": "Bei den Kreisstaffelmeisterschaften am 11.09.2010 in Recklinghausen heimsten die Athletinnen und Athleten des RLC die meisten Titel ein, nämlich 7 von 26. Nimmt man noch die weiteren Plätze auf dem Treppchen hinzu, so sieht die Bilanz noch besser aus: 5 x Platz 2, 4 x Platz 3, 2 x Platz 4 und je einmal Platz 5 und 6.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20100913212045_Aschi_002.jpg",
+                "local": "news_assets/1837/zoom_20100913212045_Aschi_002.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-248-1836",
+        "id": "1836",
+        "title": "ZWEI WESTDEUTSCHE MEISTERTITEL FüR RLC-ATHLETINNEN",
+        "date": "12. September 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20100912220506_IMG_2048.jpg\"/></div><p class=\"detailViewTop\"><b>Vom traditionsgemäßen Saisonhöhepunkt für Schülerinnen und Schüler, den Westdeutschen Meisterschaften am 12.09.2010 in Essen kehrten die Athletinnen und Athleten des Recklinghäuser LC mit 2 Titeln, einem 5. und einem 13. Rang zurück.</b></p>",
+        "content_text": "Vom traditionsgemäßen Saisonhöhepunkt für Schülerinnen und Schüler, den Westdeutschen Meisterschaften am 12.09.2010 in Essen kehrten die Athletinnen und Athleten des Recklinghäuser LC mit 2 Titeln, einem 5. und einem 13. Rang zurück.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20100912220506_IMG_2048.jpg",
+                "local": "news_assets/1836/zoom_20100912220506_IMG_2048.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-248-1835",
+        "id": "1835",
+        "title": "UND SIE LäUFT UND LäUFT UND SIEGT..",
+        "date": "12. September 2010",
+        "content_html": "<p class=\"detailViewTop\"><b>Ein weiterer Deutscher-Meisterinnnen-Titel für Hermi Staubermann!</b></p>",
+        "content_text": "Ein weiterer Deutscher-Meisterinnnen-Titel für Hermi Staubermann!",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-249-1833",
+        "id": "1833",
+        "title": "LäNDERKAMPF UND SENIOREN-KREISMEISTERSCHAFTEN",
+        "date": "06. September 2010",
+        "content_html": "<p class=\"detailViewTop\"><b> Athleten des RLCs waren am Samstag, den 04.09., sowohl beim Ländervergleichskampf Westfalen-Niederlande in Lemgo als auch bei den Kreismeisterschaften der Senioren in Herten im Einsatz.</b></p>",
+        "content_text": "Athleten des RLCs waren am Samstag, den 04.09., sowohl beim Ländervergleichskampf Westfalen-Niederlande in Lemgo als auch bei den Kreismeisterschaften der Senioren in Herten im Einsatz.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-249-1832",
+        "id": "1832",
+        "title": "GUTE LEISTUNGEN IN LEMGO",
+        "date": "02. September 2010",
+        "content_html": "<p class=\"detailViewTop\"><b> Zur Formüberprüfung vor den abschließenden Großereignisen nahmen am vergangenen Sonntag acht Schülerinnen des RLC am Sommersportfest der LG Lemgo teil.</b></p>",
+        "content_text": "Zur Formüberprüfung vor den abschließenden Großereignisen nahmen am vergangenen Sonntag acht Schülerinnen des RLC am Sommersportfest der LG Lemgo teil.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-249-1830",
+        "id": "1830",
+        "title": "RLC ERHäLT DOSB-QUALITäTSSIEGEL",
+        "date": "24. August 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20100824204201_dosb-siegel.png\"/></div><p class=\"detailViewTop\"><b>Für die Gesundheitsförderung durch Wassergymnastik für Erwachsene durch unsere Trainerin <strong>Manuela Kaluzny</strong> wurde dem Recklinghäuser Leichtathletik Club vom Deutschen Olympischen Sportbund<strong> </strong>(DOSB) das Qualitätssiegel \"Sport Pro Gesundheit\" verliehen.</b></p>",
+        "content_text": "Für die Gesundheitsförderung durch Wassergymnastik für Erwachsene durch unsere Trainerin\nManuela Kaluzny\nwurde dem Recklinghäuser Leichtathletik Club vom Deutschen Olympischen Sportbund\n(DOSB) das Qualitätssiegel \"Sport Pro Gesundheit\" verliehen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20100824204201_dosb-siegel.png",
+                "local": "news_assets/1830/zoom_20100824204201_dosb-siegel.png"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-250-1828",
+        "id": "1828",
+        "title": "MAX CEGLA LäUFT DER KONKURRENZ DAVON",
+        "date": "17. August 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20100817205535_Max_Cegla_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Gleich drei RLC-Aktive bewiesen beim Gladbecker Sparkassenlauf ihr Stehvermögen. Über 5000m dominierte Max Cegla (MJB) mit 18:15min nicht nur seine Altersklasse, sondern wurde auch Gesamtsieger.</b></p>",
+        "content_text": "Gleich drei RLC-Aktive bewiesen beim Gladbecker Sparkassenlauf ihr Stehvermögen. Über 5000m dominierte Max Cegla (MJB) mit 18:15min nicht nur seine Altersklasse, sondern wurde auch Gesamtsieger.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20100817205535_Max_Cegla_bearb.jpg",
+                "local": "news_assets/1828/zoom_20100817205535_Max_Cegla_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-250-1827",
+        "id": "1827",
+        "title": "ELENA HüTTERS ERSTE TEILNAHME AN DM",
+        "date": "15. August 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20100815193940_Elena_01.jpg\"/></div><p class=\"detailViewTop\"><b>Am 14./15.08.2010 fanden die Deutschen Schülermeisterschaften im Block- und Mehrkampf in Hannover statt. Mit dabei war Elena Hütter vom RLC in der Altersklasse W14, Disziplin Sprint/Sprung.</b></p>",
+        "content_text": "Am 14./15.08.2010 fanden die Deutschen Schülermeisterschaften im Block- und Mehrkampf in Hannover statt. Mit dabei war Elena Hütter vom RLC in der Altersklasse W14, Disziplin Sprint/Sprung.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20100815193940_Elena_01.jpg",
+                "local": "news_assets/1827/zoom_20100815193940_Elena_01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-250-1824",
+        "id": "1824",
+        "title": "DEUTSCHE JUGENDMEISTERSCHAFTEN IN ULM",
+        "date": "07. August 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20100807115907_Stab_03_03.jpg\"/></div><p class=\"detailViewTop\"><b>- standen für Marita Schulte und Anna Albers vom Recklinghäuser LC unter dem Motto: Erfahrungen sammeln! Für beide war es der erste Einzelstart bei einer Deutschen Jugendmeisterschaft mit allen ihren Regularien und vorbestimmten Abläufen.</b></p>",
+        "content_text": "- standen für Marita Schulte und Anna Albers vom Recklinghäuser LC unter dem Motto: Erfahrungen sammeln! Für beide war es der erste Einzelstart bei einer Deutschen Jugendmeisterschaft mit allen ihren Regularien und vorbestimmten Abläufen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20100807115907_Stab_03_03.jpg",
+                "local": "news_assets/1824/zoom_20100807115907_Stab_03_03.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-251-1818",
+        "id": "1818",
+        "title": "GUTER STAFFELAUFTRITT BEI DM",
+        "date": "19. Juli 2010 -  19. Juli 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Luise Möllhoff, Nina Jörden, Franziska Engbert und Anna Albers haben bei ihrem zweiten Start über 4 x 400m einen guten Auftritt hingelegt. In 4:00,79min blieb die junge Staffel, drei der Mädchen sind noch B-Jugendliche, bei den Deutschen Meisterschaften in Braunschweig nur knapp über ihrer eigenen Bestmarke vom Mai.</b></p>",
+        "content_text": "Luise Möllhoff, Nina Jörden, Franziska Engbert und Anna Albers haben bei ihrem zweiten Start über 4 x 400m einen guten Auftritt hingelegt. In 4:00,79min blieb die junge Staffel, drei der Mädchen sind noch B-Jugendliche, bei den Deutschen Meisterschaften in Braunschweig nur knapp über ihrer eigenen Bestmarke vom Mai.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-251-1817",
+        "id": "1817",
+        "title": "WESTFALENTITEL FüR ELENA HüTTER UND ZWEI NEUE KREISREKORDE",
+        "date": "11. Juli 2010 -  11. Juli 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Von den Westfälischen Blockwettkämpfen und Mehrkämpfen der Schüler an diesem glutheißen Wochenende kehrten die Schülerinnen des Trainerteams Uschi Götz-Trogemann und Jürgen Albers bereits nach dem ersten Wettkampftag mit einem Titel und je einem dritten, fünften, siebten und neunten Rang sowie zwei neuen Kreisrekorden im Gepäck aus Dortmund zurück.</b></p>",
+        "content_text": "Von den Westfälischen Blockwettkämpfen und Mehrkämpfen der Schüler an diesem glutheißen Wochenende kehrten die Schülerinnen des Trainerteams Uschi Götz-Trogemann und Jürgen Albers bereits nach dem ersten Wettkampftag mit einem Titel und je einem dritten, fünften, siebten und neunten Rang sowie zwei neuen Kreisrekorden im Gepäck aus Dortmund zurück.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-252-1792",
+        "id": "1792",
+        "title": "FRITZ MORGENROTH ZWEIFACHER DEUTSCHER MEISTER",
+        "date": "04. Juli 2010",
+        "content_html": "<p class=\"detailViewTop\"><b>Von den Deutschen Seniorenmeisterschaften II in Kevelaer (02.07. - 04.07.2010) kehrte unser RLC-Senior - Jahrgang 1925 geboren - mit zwei Siegen in der Altersklasse M85 zurück.<br/></b></p>",
+        "content_text": "Von den Deutschen Seniorenmeisterschaften II in Kevelaer (02.07. - 04.07.2010) kehrte unser RLC-Senior - Jahrgang 1925 geboren - mit zwei Siegen in der Altersklasse M85 zurück.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-251-1791",
+        "id": "1791",
+        "title": "WEITERE TOPLEISTUNG DURCH ANNA ALBERS",
+        "date": "04. Juli 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20100704193321_Bezirk_004_04.jpg\"/></div><p class=\"detailViewTop\"><b>Beim 40. Internationalen Leichtathletik-Sportfest am 04.07.2010 in Rhede siegte Anna Albers, wJA, über die Stadionrunde in ihrer Altersklasse und stellte mit 58,27 eine persönliche Bestleistung auf.</b></p>",
+        "content_text": "Beim 40. Internationalen Leichtathletik-Sportfest am 04.07.2010 in Rhede siegte Anna Albers, wJA, über die Stadionrunde in ihrer Altersklasse und stellte mit 58,27 eine persönliche Bestleistung auf.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20100704193321_Bezirk_004_04.jpg",
+                "local": "news_assets/1791/zoom_20100704193321_Bezirk_004_04.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-252-1790",
+        "id": "1790",
+        "title": "WIEDER EIN PODESTPLATZ FüR BIANCA BRODA",
+        "date": "29. Juni 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20100630204926_bianca-huerden_02.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Westdeutschen Meisterschaften am 27.06.2010 in Duisburg gelang es Bianca Broda erneut, sich auf das Treppchen zu laufen. In 14,65sec absolvierte Bianca ihre 100m-Hürden-Strecke und fand sich am Ende auf dem 3. Platz wieder.</b></p>",
+        "content_text": "Bei den Westdeutschen Meisterschaften am 27.06.2010 in Duisburg gelang es Bianca Broda erneut, sich auf das Treppchen zu laufen. In 14,65sec absolvierte Bianca ihre 100m-Hürden-Strecke und fand sich am Ende auf dem 3. Platz wieder.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20100630204926_bianca-huerden_02.jpg",
+                "local": "news_assets/1790/zoom_20100630204926_bianca-huerden_02.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-252-1789",
+        "id": "1789",
+        "title": "LäNDERKAMPF-EINLADUNG FüR ELENA HüTTER, MARITA SCHULTE UND NICO KOTTLER",
+        "date": "30. Juni 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20100630203833_Elena_01_01.jpg\"/></div><p class=\"detailViewTop\"><b>Internationale Wettkampfluft dürfen drei A-Schüler und -Schülerinnen am 04.09.2010 in Lemgo schnuppern. Im Weitsprung werden Elena Hütter, W14, im Stabhochsprung Marita Schulte, W15 und über 300m Hürden Nico Kottler, M15, für den Landesverband Westfalen gegen die gleichaltrigen Schüler der Niederlande zum traditionellen Schülerländerkampf antreten.</b></p>",
+        "content_text": "Internationale Wettkampfluft dürfen drei A-Schüler und -Schülerinnen am 04.09.2010 in Lemgo schnuppern. Im Weitsprung werden Elena Hütter, W14, im Stabhochsprung Marita Schulte, W15 und über 300m Hürden Nico Kottler, M15, für den Landesverband Westfalen gegen die gleichaltrigen Schüler der Niederlande zum traditionellen Schülerländerkampf antreten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20100630203833_Elena_01_01.jpg",
+                "local": "news_assets/1789/zoom_20100630203833_Elena_01_01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-253-1787",
+        "id": "1787",
+        "title": "ERFOLGREICHE MäDCHEN BEI WESTFäLISCHEN JUGENDMEISTERSCHAFTEN",
+        "date": "20. Juni 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20100620205441_Bezirk_009_02.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Westfälischen Jugendmeisterschaften am 19./20.06 in Gladbeck hatten wieder einmal unsere leistungstarken Mädchen ihren Auftritt: Marita Schulte, Anna Albers, Franziska Engbert, Luise Möllhoff und die Läuferinnen der 4 x 100m-Staffel in der Besetzung Franziska Engbert, Anna Albers, Greta Ontrup und Luise Möllhoff bestätigten ihre guten Vorleistungen in dieser Saison und fanden sich auf dem Treppchen wieder.</b></p>",
+        "content_text": "Bei den Westfälischen Jugendmeisterschaften am 19./20.06 in Gladbeck hatten wieder einmal unsere leistungstarken Mädchen ihren Auftritt: Marita Schulte, Anna Albers, Franziska Engbert, Luise Möllhoff und die Läuferinnen der 4 x 100m-Staffel in der Besetzung Franziska Engbert, Anna Albers, Greta Ontrup und Luise Möllhoff bestätigten ihre guten Vorleistungen in dieser Saison und fanden sich auf dem Treppchen wieder.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20100620205441_Bezirk_009_02.jpg",
+                "local": "news_assets/1787/zoom_20100620205441_Bezirk_009_02.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-253-1786",
+        "id": "1786",
+        "title": "KIDS DAY: DRITTER PLATZ FüR \"RLC-STARS\"",
+        "date": "20. Juni 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20100620181943_Mannschaftsfoto_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Mit einem tollen 3. Platz kehrten fünf lauffreudige RLCler im Alter von 9 bis 12 Jahren vom Runners Point - Staffelrennen im Rahmen des \"Kids Day\" auf Schalke zurück. Christian Coenen, Laura Faltermann, Sarah Kotnik, Anna-Maria Schaefer und Tim Woiczech nannten sich \"RLC-Stars\" und benötigten in der Klasse \"Mixed-Staffel\" 25:14min (5,03min/km) für 5 x 1000m.</b></p>",
+        "content_text": "Mit einem tollen 3. Platz kehrten fünf lauffreudige RLCler im Alter von 9 bis 12 Jahren vom Runners Point - Staffelrennen im Rahmen des \"Kids Day\" auf Schalke zurück. Christian Coenen, Laura Faltermann, Sarah Kotnik, Anna-Maria Schaefer und Tim Woiczech nannten sich \"RLC-Stars\" und benötigten in der Klasse \"Mixed-Staffel\" 25:14min (5,03min/km) für 5 x 1000m.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20100620181943_Mannschaftsfoto_bearb.jpg",
+                "local": "news_assets/1786/zoom_20100620181943_Mannschaftsfoto_bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-253-1783",
+        "id": "1783",
+        "title": "MARITA SCHULTE, ELENA HüTTER, NICO KOTTLER – DIE ERFOLGSGARANTEN",
+        "date": "14. Juni 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20100614122754_Staffel_01.jpg\"/></div><p class=\"detailViewTop\"><b>Die Westfälischen Schülermeisterschaften am 13.06. im heimischen Hohenhorst-Stadion liegen hinter uns – ein Erfolg auf ganzer Linie. Gleich drei neue Westfalenmeister finden sich in den Reihen des Recklinghäuser Leichtathletik Clubs:</b></p>",
+        "content_text": "Die Westfälischen Schülermeisterschaften am 13.06. im heimischen Hohenhorst-Stadion liegen hinter uns – ein Erfolg auf ganzer Linie. Gleich drei neue Westfalenmeister finden sich in den Reihen des Recklinghäuser Leichtathletik Clubs:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20100614122754_Staffel_01.jpg",
+                "local": "news_assets/1783/zoom_20100614122754_Staffel_01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-254-1758",
+        "id": "1758",
+        "title": "BIANCA BRODA WESTFALENMEISTERIN",
+        "date": "07. Juni 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20100607095708_bianca-huerden_02.jpg\"/></div><p class=\"detailViewTop\"><b>Der Lohn ihres intensiven Trainingsprogramms ist da: Bianca Broda wurde am Sonntag, den 06.06.2010, in Duisburg Westfalenmeisterin über 100m Hürden in 14,48 sec, nachdem sie bereits im Vorlauf eine Zeit von 14,42 sec vorgelegt hatte.</b></p>",
+        "content_text": "Der Lohn ihres intensiven Trainingsprogramms ist da: Bianca Broda wurde am Sonntag, den 06.06.2010, in Duisburg Westfalenmeisterin über 100m Hürden in 14,48 sec, nachdem sie bereits im Vorlauf eine Zeit von 14,42 sec vorgelegt hatte.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20100607095708_bianca-huerden_02.jpg",
+                "local": "news_assets/1758/zoom_20100607095708_bianca-huerden_02.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-254-1756",
+        "id": "1756",
+        "title": "RLC-MINIS BEI KREISEINZELMEISTERSCHAFTEN ERFOLGREICH [FOTOS]",
+        "date": "06. Juni 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20100606162421_KE_002.jpg\"/></div><p class=\"detailViewTop\"><b>Am 05.06.2010 fanden in Herten die diesjährigen Kreiseinzelmeisterschaften der D-C-B-Schüler statt, also der wichtigste Wettkampf für 7 - 13-jährige. Die RLC-Kinder konnten 6 Titel für sich verbuchen, davon sogar einen Doppeltitel durch Fiona Damm in der Altersklasse W9 im Weitsprung und über 50m.</b></p>",
+        "content_text": "Am 05.06.2010 fanden in Herten die diesjährigen Kreiseinzelmeisterschaften der D-C-B-Schüler statt, also der wichtigste Wettkampf für 7 - 13-jährige. Die RLC-Kinder konnten 6 Titel für sich verbuchen, davon sogar einen Doppeltitel durch Fiona Damm in der Altersklasse W9 im Weitsprung und über 50m.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20100606162421_KE_002.jpg",
+                "local": "news_assets/1756/zoom_20100606162421_KE_002.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-254-1755",
+        "id": "1755",
+        "title": "JUGENDLIGA: VORSPRUNG WEITER AUSGEBAUT",
+        "date": "03. Juni 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20100603180010_KMK_014.jpg\"/></div><p class=\"detailViewTop\"><b>Nach dem dritten von vier Wertungsdurchgängen haben die jugendlichen Athleten des Recklinghäuser LC ihren Vorsprung in der <a href=\"http://www.flvwre-la.de/jl10.htm\">Jugendliga</a> weiter ausgebaut.</b></p>",
+        "content_text": "Nach dem dritten von vier Wertungsdurchgängen haben die jugendlichen Athleten des Recklinghäuser LC ihren Vorsprung in der\nJugendliga\nweiter ausgebaut.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20100603180010_KMK_014.jpg",
+                "local": "news_assets/1755/zoom_20100603180010_KMK_014.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-255-1748",
+        "id": "1748",
+        "title": "16 TITEL UND 25 KREISMEISTER FüR DEN RLC",
+        "date": "31. Mai 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20100531105638_KMK_020.jpg\"/></div><p class=\"detailViewTop\"><b>Samstag Hui - Sonntag Pfui: Diese Beschreibung der Mehrkampf-Kreismeisterschaften trifft nur auf das Wetter, nicht jedoch auf die Ergebnisse aus RLC Sicht zu. Mit 16 Titeln und 25 Kreismeistern, auf alle Altersklassen verteilt, konnten die RLCler einmal mehr eindrucksvoll zeigen, wie gut sie in den vergangenen Monaten trainiert hatten.<br><br/><strong>Ergebnisse</strong>:   <a href=\"assets/pdf/Kreismehrkampf10_Ergebnisliste.html\">HTML</a>   <a href=\"assets/pdf/Kreismehrkampf10_Ergebnisliste.pdf\">PDF</a>   <a href=\"rlc.php?id=0-00060001-0\">FOTOS</a>         </br></b></p>",
+        "content_text": "Samstag Hui - Sonntag Pfui: Diese Beschreibung der Mehrkampf-Kreismeisterschaften trifft nur auf das Wetter, nicht jedoch auf die Ergebnisse aus RLC Sicht zu. Mit 16 Titeln und 25 Kreismeistern, auf alle Altersklassen verteilt, konnten die RLCler einmal mehr eindrucksvoll zeigen, wie gut sie in den vergangenen Monaten trainiert hatten.\nErgebnisse\n:\nHTML\nPDF\nFOTOS",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20100531105638_KMK_020.jpg",
+                "local": "news_assets/1748/zoom_20100531105638_KMK_020.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-255-1747",
+        "id": "1747",
+        "title": "THOMAS VOGL WESTDEUTSCHER VIZE-HALBMARATHONMEISTER",
+        "date": "31. Mai 2010",
+        "content_html": "<p class=\"detailViewTop\"><b>Von den Westdeutschen Halbmarathonmeisterschaften im Rahmen des Rhein-Ruhr-Marathons am 30.05.2010 in Duisburg kehrte unser Langstreckentrainer Thomas Vogl mit einem Vize-Titel zurück nach Recklinghausen.</b></p>",
+        "content_text": "Von den Westdeutschen Halbmarathonmeisterschaften im Rahmen des Rhein-Ruhr-Marathons am 30.05.2010 in Duisburg kehrte unser Langstreckentrainer Thomas Vogl mit einem Vize-Titel zurück nach Recklinghausen.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-255-1686",
+        "id": "1686",
+        "title": "UND WIEDER EIN STAFFEL-KREISREKORD",
+        "date": "25. Mai 2010 -  25. Mai 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Bei ihrem ersten Auftritt gelang der 4x100m-Staffel der Schülerinnen A in der Besetzung: Ida Hartwig, Elena Hütter, Jacqueline Duda und Marita Schulte eine Verbesserung des Uralt-Kreisrekordes aus dem Jahr 1983, ebenfalls gelaufen durch Athletinnen des RLC, um fast eine halbe Sekunde auf 50,87sec.</b></p>",
+        "content_text": "Bei ihrem ersten Auftritt gelang der 4x100m-Staffel der Schülerinnen A in der Besetzung: Ida Hartwig, Elena Hütter, Jacqueline Duda und Marita Schulte eine Verbesserung des Uralt-Kreisrekordes aus dem Jahr 1983, ebenfalls gelaufen durch Athletinnen des RLC, um fast eine halbe Sekunde auf 50,87sec.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-256-1684",
+        "id": "1684",
+        "title": "RLC-LANGSTRECKLER ERFOLGREICH UNTERWEGS",
+        "date": "19. Mai 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20100520154526_Max_Cegla.JPG\"/></div><p class=\"detailViewTop\"><b>Der 26.Campuslauf der TU-Dortmund war ein überaus erfolgreiches Pflaster für die RLC-Langstreckler von Trainer Thomas Vogl. Im Einsatz waren Medizinstudent Andreas Thimm, der im Rahmen des Ruhr-Uni-Laufcup (je drei 5km-Läufe in Witten, Dortmund und Bochum) dabei war und in der Männerklasse mit persönlicher Bestleistung von 17:33min auf Platz 2 lief.</b></p>",
+        "content_text": "Der 26.Campuslauf der TU-Dortmund war ein überaus erfolgreiches Pflaster für die RLC-Langstreckler von Trainer Thomas Vogl. Im Einsatz waren Medizinstudent Andreas Thimm, der im Rahmen des Ruhr-Uni-Laufcup (je drei 5km-Läufe in Witten, Dortmund und Bochum) dabei war und in der Männerklasse mit persönlicher Bestleistung von 17:33min auf Platz 2 lief.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20100520154526_Max_Cegla.JPG",
+                "local": "news_assets/1684/zoom_20100520154526_Max_Cegla.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-256-1683",
+        "id": "1683",
+        "title": "JUGENDLIGA: RLC HAT WEITERHIN DIE NASE VORN",
+        "date": "20. Mai 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20100520114103_Bezirk_010.jpg\"/></div><p class=\"detailViewTop\"><b>Auch nach der zweiten Wertungsveranstaltung für die Jugendlíga, den Bezirksmeisterschaften am 16.05.2010 in Herne, führt der RLC weiterhin vor der LA SV Herten und der ETG Recklinghausen die Rangliste an.</b></p>",
+        "content_text": "Auch nach der zweiten Wertungsveranstaltung für die Jugendlíga, den Bezirksmeisterschaften am 16.05.2010 in Herne, führt der RLC weiterhin vor der LA SV Herten und der ETG Recklinghausen die Rangliste an.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20100520114103_Bezirk_010.jpg",
+                "local": "news_assets/1683/zoom_20100520114103_Bezirk_010.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-257-1682",
+        "id": "1682",
+        "title": "BEZIRKSMEISTERSCHAFTEN IN HERNE - EIN GUTES RLC-PFLASTER",
+        "date": "16. Mai 2010 -  16. Mai 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Mit gleich 6 Bezirksmeistertiteln und 28 Platzierungen auf dem Treppchen setzten die 14 - 24 jährigen Athletinnen und Athleten des RLC am heutigen Sonntag bei den Bezirksmeisterschaften in Herne ein Ausrufezeichen!</b></p>",
+        "content_text": "Mit gleich 6 Bezirksmeistertiteln und 28 Platzierungen auf dem Treppchen setzten die 14 - 24 jährigen Athletinnen und Athleten des RLC am heutigen Sonntag bei den Bezirksmeisterschaften in Herne ein Ausrufezeichen!",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-257-1681",
+        "id": "1681",
+        "title": "VIER WESTFALENTITEL FüR RLC-SENIOREN",
+        "date": "14. Mai 2010",
+        "content_html": "<p class=\"detailViewTop\"><b>Bei den Westfälischen Seniorenmeisterschaften am 13.05. in Minden holten Hermi Staubermann und Fritz Morgenroth je zwei Titel nach Recklinghausen.</b></p>",
+        "content_text": "Bei den Westfälischen Seniorenmeisterschaften am 13.05. in Minden holten Hermi Staubermann und Fritz Morgenroth je zwei Titel nach Recklinghausen.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-257-1680",
+        "id": "1680",
+        "title": "ELENA HüTTER HOLT QUALI FüR DEUTSCHE MEISTERSCHAFT",
+        "date": "13. Mai 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20100516200213_Bezirk_002.jpg\"/></div><p class=\"detailViewTop\"><b>Im Rahmen des Schülersportfestes am 13.05. in Coesfeld gelang es Elena Hütter, W14, mit 5 persönlichen Bestleistungen die Disziplin: Blockwettkampf Sprint/Sprung in ihrer Altersklasse zu gewinnen.</b></p>",
+        "content_text": "Im Rahmen des Schülersportfestes am 13.05. in Coesfeld gelang es Elena Hütter, W14, mit 5 persönlichen Bestleistungen die Disziplin: Blockwettkampf Sprint/Sprung in ihrer Altersklasse zu gewinnen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20100516200213_Bezirk_002.jpg",
+                "local": "news_assets/1680/zoom_20100516200213_Bezirk_002.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-258-1679",
+        "id": "1679",
+        "title": "RAHMENWETTKAMPFPLAN FüR A-SCHüLERINNEN ONLINE",
+        "date": "09. Mai 2010",
+        "content_html": "<p class=\"detailViewTop\"><b>Für alle A-Schülerinnen und -Schüler, deren Eltern und alle am RLC interessierten Leichtathletikfreunde hat unser Schülertrainer Jürgen Albers den Rahmentrainingsplan für die Freiluftsaison 2010 zusammengestellt. So sollten Planungen von Ferien und Freizeiten unter Berücksichtigung der anstehenden Wettkämpfe leichter möglich sein.</b></p>",
+        "content_text": "Für alle A-Schülerinnen und -Schüler, deren Eltern und alle am RLC interessierten Leichtathletikfreunde hat unser Schülertrainer Jürgen Albers den Rahmentrainingsplan für die Freiluftsaison 2010 zusammengestellt. So sollten Planungen von Ferien und Freizeiten unter Berücksichtigung der anstehenden Wettkämpfe leichter möglich sein.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-258-1634",
+        "id": "1634",
+        "title": "DA WAR WAS LOS IN HOHENHORST [FOTOS]",
+        "date": "03. Mai 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20100503190339_staffel-closeup-02.jpg\"/></div><p class=\"detailViewTop\"><b>Beim 4. KIA-Sportfest am 02.05.2010 im Stadion Hohenhorst wurden wieder mal einige Rekorde gebrochen: mit 1100 Meldungen und 451 Athleten wurde die letztjährige Bestmarke um mehr als 170 Meldungen überschritten. Auch die Steigerung der Anzahl der teilnehmenden Vereine auf 42 unterstrich die Bedeutung des Recklinghäuser Schülersportfestes in der Region.</b></p>",
+        "content_text": "Beim 4. KIA-Sportfest am 02.05.2010 im Stadion Hohenhorst wurden wieder mal einige Rekorde gebrochen: mit 1100 Meldungen und 451 Athleten wurde die letztjährige Bestmarke um mehr als 170 Meldungen überschritten. Auch die Steigerung der Anzahl der teilnehmenden Vereine auf 42 unterstrich die Bedeutung des Recklinghäuser Schülersportfestes in der Region.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20100503190339_staffel-closeup-02.jpg",
+                "local": "news_assets/1634/zoom_20100503190339_staffel-closeup-02.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-258-1633",
+        "id": "1633",
+        "title": "4X400M-STAFFEL DES RLC HOLT WESTFALENTITEL",
+        "date": "03. Mai 2010 -  03. Mai 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Völlig überraschend holte sich die 4x400m-Staffel der weiblichen Jugend A im Rahmen der Westdeutschen und Westfälischen Langstaffelmeisterschaften in Kreuztal in 4:00,45 min den Titel.</b></p>",
+        "content_text": "Völlig überraschend holte sich die 4x400m-Staffel der weiblichen Jugend A im Rahmen der Westdeutschen und Westfälischen Langstaffelmeisterschaften in Kreuztal in 4:00,45 min den Titel.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-259-1632",
+        "id": "1632",
+        "title": "ERFOLGREICHE RLCLER BEIM WERFERTAG IN HALTERN",
+        "date": "26. April 2010",
+        "content_html": "<p class=\"detailViewTop\"><b>Am Sonntag, den 25.04.2010, sind drei A-SchülerInnen des RLC mit ihrem Trainer Jürgen Albers nach Haltern-Sythen gefahren, um zu Beginn der Freiluftsaison ihre Wettkampfhärte unter Beweis zu stellen.</b></p>",
+        "content_text": "Am Sonntag, den 25.04.2010, sind drei A-SchülerInnen des RLC mit ihrem Trainer Jürgen Albers nach Haltern-Sythen gefahren, um zu Beginn der Freiluftsaison ihre Wettkampfhärte unter Beweis zu stellen.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-259-1629",
+        "id": "1629",
+        "title": "WERFERTAG IN HALTERN -  EIN GUTES RLC-PFLASTER",
+        "date": "21. März 2010",
+        "content_html": "<p class=\"detailViewTop\"><b>Beim ersten Freiluftwettkampf der Saison 2010, dem Werfertag in Haltern am 21.03.2010, haben die sechs gestarteten RLC-Athletinnen und Athleten eine gute Frühform unter Beweis gestellt.</b></p>",
+        "content_text": "Beim ersten Freiluftwettkampf der Saison 2010, dem Werfertag in Haltern am 21.03.2010, haben die sechs gestarteten RLC-Athletinnen und Athleten eine gute Frühform unter Beweis gestellt.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-260-1628",
+        "id": "1628",
+        "title": "GUTE ERGEBNISSE BEI DEN KREISMEISTERSCHAFTEN IM CROSSLAUF",
+        "date": "20. März 2010 -  20. März 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Von den Crosslaufmeisterschaften am 20.03.2010 in Herten kehrten die RLC-Athletinnen und Athleten mit prima Erfolgen nach Recklinghausen zurück. Es siegten: Hermi Staubermann in der Altersklasse W60 und älter (in ihrer Altersklasse W70 gab es für Hermi keine Konkurrenz), Laura Faltermann in der Schülerinnenklasse W12 sowie die Mannschaft der weiblichen Jugend B mit Franziska Engbert, Julia Kotte und Nina Jörden.</b></p>",
+        "content_text": "Von den Crosslaufmeisterschaften am 20.03.2010 in Herten kehrten die RLC-Athletinnen und Athleten mit prima Erfolgen nach Recklinghausen zurück. Es siegten: Hermi Staubermann in der Altersklasse W60 und älter (in ihrer Altersklasse W70 gab es für Hermi keine Konkurrenz), Laura Faltermann in der Schülerinnenklasse W12 sowie die Mannschaft der weiblichen Jugend B mit Franziska Engbert, Julia Kotte und Nina Jörden.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-260-1625",
+        "id": "1625",
+        "title": "DRITTER WESTFALENTITEL FüR MARITA SCHULTE",
+        "date": "08. März 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20100308144809_Marita_09.jpg\"/></div><p class=\"detailViewTop\"><b>Von den Westfälischen Hallenschülermeisterschaften am 07.03.2010 in Paderborn kehrte die Gruppe um Uschi Götz-Trogemann, Jürgen Albers und Lars Czekalla mit vielen größeren und kleineren Erfolgen nach Recklinghausen zurück.</b></p>",
+        "content_text": "Von den Westfälischen Hallenschülermeisterschaften am 07.03.2010 in Paderborn kehrte die Gruppe um Uschi Götz-Trogemann, Jürgen Albers und Lars Czekalla mit vielen größeren und kleineren Erfolgen nach Recklinghausen zurück.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20100308144809_Marita_09.jpg",
+                "local": "news_assets/1625/zoom_20100308144809_Marita_09.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-261-1624",
+        "id": "1624",
+        "title": "ÄNDERUNG DER MITGLIEDSBEITRäGE",
+        "date": "03. März 2010",
+        "content_html": "<p class=\"detailViewTop\"><b>Gemäß Beschluss der Jahreshauptversammlung des Recklinghäuser LC am 23.02.2010 werden folgende Mitgliedsbeiträge erhoben: </b></p>",
+        "content_text": "Gemäß Beschluss der Jahreshauptversammlung des Recklinghäuser LC am 23.02.2010 werden folgende Mitgliedsbeiträge erhoben:",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-261-1623",
+        "id": "1623",
+        "title": "TOP-ERGEBNISSE BEI DORTMUNDER HALLENSPORTFEST",
+        "date": "21. Februar 2010",
+        "content_html": "<p class=\"detailViewTop\"><b>Von einem Hallenportfest in der Dortmunder Helmut-Körnig-Halle am 21.02.2010 sind die Schützlinge von Jürgen Albers und Uschi Götz-Trogemann sowie Sebastian Stephani und Lars Czekalla mit tollen Ergebnissen nach Recklinghausen zurückgekehrt.</b></p>",
+        "content_text": "Von einem Hallenportfest in der Dortmunder Helmut-Körnig-Halle am 21.02.2010 sind die Schützlinge von Jürgen Albers und Uschi Götz-Trogemann sowie Sebastian Stephani und Lars Czekalla mit tollen Ergebnissen nach Recklinghausen zurückgekehrt.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-262-1615",
+        "id": "1615",
+        "title": "FRAUENPOWER BEIM RLC",
+        "date": "08. Februar 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20100208142440_hohenhorst09-website-04.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Westdeutschen Meisterschaften am 07.02.2010 in der Leverkusener Manforthalle ging der Recklinghäuser LC mit einem kleinen, aber feinen Team an den Start.</b></p>",
+        "content_text": "Bei den Westdeutschen Meisterschaften am 07.02.2010 in der Leverkusener Manforthalle ging der Recklinghäuser LC mit einem kleinen, aber feinen Team an den Start.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20100208142440_hohenhorst09-website-04.jpg",
+                "local": "news_assets/1615/zoom_20100208142440_hohenhorst09-website-04.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-262-1614",
+        "id": "1614",
+        "title": "VIZEMEISTERTITEL FüR ANNA ALBERS",
+        "date": "24. Januar 2010",
+        "content_html": "<p class=\"detailViewTop\"><b>Bei den Westfälischen A-Jugendmeisterschaften am 23.01.2010 in der Bielefelder Seidenstickerhalle trumpfte Anna Albers bei ihrem ersten 400m-Lauf im Trikot des Recklinghäuser LC auf: mit 59,11sec verbesserte sie ihre Vorjahreszeit um 2,84sec und belegte damit einen hervorragenden 2. Platz.</b></p>",
+        "content_text": "Bei den Westfälischen A-Jugendmeisterschaften am 23.01.2010 in der Bielefelder Seidenstickerhalle trumpfte Anna Albers bei ihrem ersten 400m-Lauf im Trikot des Recklinghäuser LC auf: mit 59,11sec verbesserte sie ihre Vorjahreszeit um 2,84sec und belegte damit einen hervorragenden 2. Platz.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-262-1613",
+        "id": "1613",
+        "title": "SCHNELLE A-SCHüLERINNEN UNTERWEGS",
+        "date": "18. Januar 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20100118144648_Schlerinnen_A_RLC17.01.2010.JPG\"/></div><p class=\"detailViewTop\"><b>Mit sechs A-Schülerinnen sind die Trainer Uschi Götz-Trogemann und Jürgen Albers bei einem Hallensportfest am 17.01.2010 in Dortmund angetreten, um den Mädchen die Möglichkeit zu geben, Qualifikationsnormen für die Westfälischen Meisterschaften in Paderborn zu erringen.</b></p>",
+        "content_text": "Mit sechs A-Schülerinnen sind die Trainer Uschi Götz-Trogemann und Jürgen Albers bei einem Hallensportfest am 17.01.2010 in Dortmund angetreten, um den Mädchen die Möglichkeit zu geben, Qualifikationsnormen für die Westfälischen Meisterschaften in Paderborn zu erringen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20100118144648_Schlerinnen_A_RLC17.01.2010.JPG",
+                "local": "news_assets/1613/zoom_20100118144648_Schlerinnen_A_RLC17.01.2010.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-263-1612",
+        "id": "1612",
+        "title": "DAS WETTKAMPFJAHR 2010 HAT ERFOLGREICH BEGONNEN",
+        "date": "17. Januar 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20100118142714_stadtmeisterschaften09-rlc-17.jpg\"/></div><p class=\"detailViewTop\"><b>Mit den Westfälischen Hallenmeisterschaften der Frauen und Männer am 16.01.2010 in der Dortmunder Helmut-Körnig-Halle hat die neue Wettkampfsaison begonnen.</b></p>",
+        "content_text": "Mit den Westfälischen Hallenmeisterschaften der Frauen und Männer am 16.01.2010 in der Dortmunder Helmut-Körnig-Halle hat die neue Wettkampfsaison begonnen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20100118142714_stadtmeisterschaften09-rlc-17.jpg",
+                "local": "news_assets/1612/zoom_20100118142714_stadtmeisterschaften09-rlc-17.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-263-1575",
+        "id": "1575",
+        "title": "SILVESTERLAUF-ERGEBNISSE",
+        "date": "03. Januar 2010",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20100106113223_silvesterlauf09-01.jpg\"/></div><p class=\"detailViewTop\"><b>Die <a href=\"../assets/pdf/Silvesterlauf09-Ergebnisliste.html\">Ergebnisliste</a> und <a href=\"../rlc.php?id=0-00060000-0\">Fotos</a> des Silvesterlaufs sind jetzt verfügbar. Die Urkunden liegen in der Recklinghäuser Runners Point-Filiale in der Kunibertistraße 10 zur Abholung bereit.</b></p>",
+        "content_text": "Die\nErgebnisliste\nund\nFotos\ndes Silvesterlaufs sind jetzt verfügbar. Die Urkunden liegen in der Recklinghäuser Runners Point-Filiale in der Kunibertistraße 10 zur Abholung bereit.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20100106113223_silvesterlauf09-01.jpg",
+                "local": "news_assets/1575/zoom_20100106113223_silvesterlauf09-01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-264-1571",
+        "id": "1571",
+        "title": "FOTOS UND NACHLESE NIKOLAUSSPORTFEST",
+        "date": "13. Dezember 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20091221143653_Zielwurf02.jpg\"/></div><p class=\"detailViewTop\"><b>Traditionell findet um den 06.12. herum das Nikolaussportfest des Recklinghäuser LC statt, das seit vielen Jahren den jüngsten aktiven Sportlern unseres Vereins gewidmet ist. Die insgesamt 120 fünf- bis zwölfjährigen Mädchen und Jungen traten in Disziplinen wie Hoch-Weit-Sprung, Hindernissprint und Flachsprint über je 30m, Zielwerfen und Medizinball/Basketball-Stoßen an und liefen zum Abschluss in einer Rundenstaffel die schnellste Mannschaft aus, angefeuert von den Eltern auf der gut gefüllten Tribüne.</b></p>",
+        "content_text": "Traditionell findet um den 06.12. herum das Nikolaussportfest des Recklinghäuser LC statt, das seit vielen Jahren den jüngsten aktiven Sportlern unseres Vereins gewidmet ist. Die insgesamt 120 fünf- bis zwölfjährigen Mädchen und Jungen traten in Disziplinen wie Hoch-Weit-Sprung, Hindernissprint und Flachsprint über je 30m, Zielwerfen und Medizinball/Basketball-Stoßen an und liefen zum Abschluss in einer Rundenstaffel die schnellste Mannschaft aus, angefeuert von den Eltern auf der gut gefüllten Tribüne.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20091221143653_Zielwurf02.jpg",
+                "local": "news_assets/1571/zoom_20091221143653_Zielwurf02.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-263-1529",
+        "id": "1529",
+        "title": "23. RECKLINGHäUSER SILVESTERLAUF 2009",
+        "date": "20. Dezember 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20091126095701_Silvesterlauf08.jpg\"/></div><p class=\"detailViewTop\"><b>Wer den Rutsch ins neue Jahr mit sportlicher Betätigung einleiten möchte, ist beim Silvesterlauf in Recklinghausen genau richtig: Neben 5km- und 10km-Läufen bietet der Recklinghäuser LC in Kooperation mit der Firma Runners Point rund ums Stadion Hohenhorst Walking und Nordic Walking über 5km sowie einen Bambini-Lauf für die Kleinsten an. In diesem Jahr erstmalig wird eine Altersklassenwertung durchgeführt.</b></p>",
+        "content_text": "Wer den Rutsch ins neue Jahr mit sportlicher Betätigung einleiten möchte, ist beim Silvesterlauf in Recklinghausen genau richtig: Neben 5km- und 10km-Läufen bietet der Recklinghäuser LC in Kooperation mit der Firma Runners Point rund ums Stadion Hohenhorst Walking und Nordic Walking über 5km sowie einen Bambini-Lauf für die Kleinsten an. In diesem Jahr erstmalig wird eine Altersklassenwertung durchgeführt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20091126095701_Silvesterlauf08.jpg",
+                "local": "news_assets/1529/zoom_20091126095701_Silvesterlauf08.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-264-1528",
+        "id": "1528",
+        "title": "BüRGERMEISTER PANTFöRDER EHRT SABINE KRUSE",
+        "date": "01. November 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20091101152359_Sabine_Kruse_01.jpg\"/></div><p class=\"detailViewTop\"><b>Am Donnerstag, den 29.10.09 wurde Sabine Kruse durch den Recklinghäuser Bürgermeister Wolfgang Pantförder für ihre herausragende Leistung bei den Weltmeisterschaften der Senioren im Berglauf geehrt.</b></p>",
+        "content_text": "Am Donnerstag, den 29.10.09 wurde Sabine Kruse durch den Recklinghäuser Bürgermeister Wolfgang Pantförder für ihre herausragende Leistung bei den Weltmeisterschaften der Senioren im Berglauf geehrt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20091101152359_Sabine_Kruse_01.jpg",
+                "local": "news_assets/1528/zoom_20091101152359_Sabine_Kruse_01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-265-1485",
+        "id": "1485",
+        "title": "SABINE KRUSE SIEBTE DER DEUTSCHEN BERGLAUFMEISTERSCHAFTEN",
+        "date": "27. September 2009",
+        "content_html": "<p class=\"detailViewTop\"><b>Und wieder Erfolgsnachrichten von der Weltmeisterin im Berglauf W40: Sabine Kruse. Am 27.09. startete sie erfolgreich bei den Deutschen Berglaufmeisterschaften, die in Deutschlands ältesten, bedeutendsten und bestbesetzten Berglauf, den Hochfelln-Berglauf integriert waren.</b></p>",
+        "content_text": "Und wieder Erfolgsnachrichten von der Weltmeisterin im Berglauf W40: Sabine Kruse. Am 27.09. startete sie erfolgreich bei den Deutschen Berglaufmeisterschaften, die in Deutschlands ältesten, bedeutendsten und bestbesetzten Berglauf, den Hochfelln-Berglauf integriert waren.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-265-1484",
+        "id": "1484",
+        "title": "PRIMA ERGEBNISSE BEI DSMM-WESTFALENFINALE",
+        "date": "28. September 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20090927153810_DSMM_07.jpg\"/></div><p class=\"detailViewTop\"><b>Gleich drei Mannschaften des Recklinghäuser LC hatten sich bei Qualifikationswettkämpfen gegen die starke Konkurrenz von teilweise mehr als 30 Vereinen aus ganz Westfalen durchgesetzt und sich für das diesjährige Westfalenfinale der jeweils acht besten Leichtathletik-Mannschaften qualifiziert, das am 26./27.09 in Gütersloh stattfand.</b></p>",
+        "content_text": "Gleich drei Mannschaften des Recklinghäuser LC hatten sich bei Qualifikationswettkämpfen gegen die starke Konkurrenz von teilweise mehr als 30 Vereinen aus ganz Westfalen durchgesetzt und sich für das diesjährige Westfalenfinale der jeweils acht besten Leichtathletik-Mannschaften qualifiziert, das am 26./27.09 in Gütersloh stattfand.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20090927153810_DSMM_07.jpg",
+                "local": "news_assets/1484/zoom_20090927153810_DSMM_07.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-265-1482",
+        "id": "1482",
+        "title": "ERFOLGREICHES DUO: BRODA UND KOTTE",
+        "date": "20. September 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20090920151716_RLC_020bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Kreismeisterschaften im 10km-Straßenlauf am 19.09. in Haltern-Sythen unterstrichen Birgit Broda, W45, und Julia Kotte, wJB, dass das weibliche Element im Recklinghäuser LC derzeit besonders gut in Form ist.</b></p>",
+        "content_text": "Bei den Kreismeisterschaften im 10km-Straßenlauf am 19.09. in Haltern-Sythen unterstrichen Birgit Broda, W45, und Julia Kotte, wJB, dass das weibliche Element im Recklinghäuser LC derzeit besonders gut in Form ist.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20090920151716_RLC_020bearb.jpg",
+                "local": "news_assets/1482/zoom_20090920151716_RLC_020bearb.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-266-1480",
+        "id": "1480",
+        "title": "SAISONABSCHLUSS IM STADION HOHENHORST",
+        "date": "13. September 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20090913223758_stadtmeisterschaften09-25.jpg\"/></div><p class=\"detailViewTop\"><b>Mit 1181 Meldungen und 435 Athletinnen und Athleten konnte der Recklinghäuser Leichtathletik Club mit Rekordmeldezahlen bei den <a href=\"../rlc.php?id=0-00020002-0\">26. Offenen Stadtmeisterschaften</a>, seinem traditionellen Saisonabschluss im Stadion Hohenhorst, aufwarten.</b></p>",
+        "content_text": "Mit 1181 Meldungen und 435 Athletinnen und Athleten konnte der Recklinghäuser Leichtathletik Club mit Rekordmeldezahlen bei den\n26. Offenen Stadtmeisterschaften\n, seinem traditionellen Saisonabschluss im Stadion Hohenhorst, aufwarten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20090913223758_stadtmeisterschaften09-25.jpg",
+                "local": "news_assets/1480/zoom_20090913223758_stadtmeisterschaften09-25.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-266-1479",
+        "id": "1479",
+        "title": "SABINE KRUSE HOLT VIZE-WELTMEISTERINNENTITEL",
+        "date": "12. September 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20090914131744_bild13.jpg\"/></div><p class=\"detailViewTop\"><b>Langstrecklerin Sabine Kruse, die für den Recklinghäuser LC in der Seniorinnenklasse W40 startet, brachte von den Weltmeisterschaften der Senioren im Berglauf bei Zagreb gleich zwei Titel mit nach Hause.</b></p>",
+        "content_text": "Langstrecklerin Sabine Kruse, die für den Recklinghäuser LC in der Seniorinnenklasse W40 startet, brachte von den Weltmeisterschaften der Senioren im Berglauf bei Zagreb gleich zwei Titel mit nach Hause.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20090914131744_bild13.jpg",
+                "local": "news_assets/1479/zoom_20090914131744_bild13.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-267-1411",
+        "id": "1411",
+        "title": "NEUER KREISREKORD IM STABHOCHSPRUNG",
+        "date": "06. September 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20090906191226_Marita02.jpg\"/></div><p class=\"detailViewTop\"><b>Die 14jährige A-Schülerin Marita Schulte, Westfalenmeisterin im Stabhochsprung, verbesserte bei einem Ländervergleichskampf Westfalen gegen die Niederlande ihren eigenen Kreisrekord mit dem Stab von 3,20m auf 3,30m.</b></p>",
+        "content_text": "Die 14jährige A-Schülerin Marita Schulte, Westfalenmeisterin im Stabhochsprung, verbesserte bei einem Ländervergleichskampf Westfalen gegen die Niederlande ihren eigenen Kreisrekord mit dem Stab von 3,20m auf 3,30m.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20090906191226_Marita02.jpg",
+                "local": "news_assets/1411/zoom_20090906191226_Marita02.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-266-1410",
+        "id": "1410",
+        "title": "TITELFLUT DES RLC BEI DEN KREISSTAFFELMEISTERSCHAFTEN",
+        "date": "06. September 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20090906151622_Kreisstaffel_003.jpg\"/></div><p class=\"detailViewTop\"><b>Einmal mehr stellte der Recklinghäuser LC den erfolgreichsten Verein bei den Kreisstaffelmeisterschaften am 05.09.09 in Waltrop. Bei schauerlichem Wetter liefen die RLC-Aktiven gleich 8 Titel nach Hause; mehr als ein Drittel aller Kreismeistertitel, die an diesem Tag vergeben wurden.</b></p>",
+        "content_text": "Einmal mehr stellte der Recklinghäuser LC den erfolgreichsten Verein bei den Kreisstaffelmeisterschaften am 05.09.09 in Waltrop. Bei schauerlichem Wetter liefen die RLC-Aktiven gleich 8 Titel nach Hause; mehr als ein Drittel aller Kreismeistertitel, die an diesem Tag vergeben wurden.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20090906151622_Kreisstaffel_003.jpg",
+                "local": "news_assets/1410/zoom_20090906151622_Kreisstaffel_003.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-267-1409",
+        "id": "1409",
+        "title": "ZWEITER WESTFALENTITEL FüR MARITA SCHULTE",
+        "date": "30. August 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20090830195450_Marita_10.jpg\"/></div><p class=\"detailViewTop\"><b>Bei den Westfälischen Schülermeisterschaften am 30.08.2009 in Hagen gewann das Stabhochsprung-Talent des Recklinghäuser LC, Marita Schulte, seinen zweiten Westfalentitel. Für die 14-jährige Schülerin reichten diesmal 3,10m zum Sieg.</b></p>",
+        "content_text": "Bei den Westfälischen Schülermeisterschaften am 30.08.2009 in Hagen gewann das Stabhochsprung-Talent des Recklinghäuser LC, Marita Schulte, seinen zweiten Westfalentitel. Für die 14-jährige Schülerin reichten diesmal 3,10m zum Sieg.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20090830195450_Marita_10.jpg",
+                "local": "news_assets/1409/zoom_20090830195450_Marita_10.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-267-1408",
+        "id": "1408",
+        "title": "SCHNELL UNTERWEGS",
+        "date": "23. August 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20090823204513_Sabine02.jpg\"/></div><p class=\"detailViewTop\"><b>Sabine Kruse (W40), Langstrecklerin des RLC, war beim 15. Ruhrauenlauf am 22.08. in Mülheim/Ruhr mal wieder richtig schnell unterwegs: Mit der Zeit von 19:04 min erlief sie den Sieg in der Frauenklasse.</b></p>",
+        "content_text": "Sabine Kruse (W40), Langstrecklerin des RLC, war beim 15. Ruhrauenlauf am 22.08. in Mülheim/Ruhr mal wieder richtig schnell unterwegs: Mit der Zeit von 19:04 min erlief sie den Sieg in der Frauenklasse.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20090823204513_Sabine02.jpg",
+                "local": "news_assets/1408/zoom_20090823204513_Sabine02.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-268-1407",
+        "id": "1407",
+        "title": "RLC-STRASSENLäUFER GUT IN FORM",
+        "date": "19. August 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20090824113334_Gladbeck.Julia01.jpg\"/></div><p class=\"detailViewTop\"><b>Bei bestem Leichtathletikwetter am 16.08.09 sind die RLC-Aktiven Julia Kotte (wJB, Foto), Martin Hartwig (M40) und Langstreckentrainer Thomas Vogl (M50) beim Gladbecker Straßenlauf rund um das Schloß Wittringen gestartet. Alle drei liefen erstmals über die kurze 5km-Distanz und bewiesen, dass sie trotz der langen Ferienwochen gut trainiert hatten.</b></p>",
+        "content_text": "Bei bestem Leichtathletikwetter am 16.08.09 sind die RLC-Aktiven Julia Kotte (wJB, Foto), Martin Hartwig (M40) und Langstreckentrainer Thomas Vogl (M50) beim Gladbecker Straßenlauf rund um das Schloß Wittringen gestartet. Alle drei liefen erstmals über die kurze 5km-Distanz und bewiesen, dass sie trotz der langen Ferienwochen gut trainiert hatten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20090824113334_Gladbeck.Julia01.jpg",
+                "local": "news_assets/1407/zoom_20090824113334_Gladbeck.Julia01.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-268-1406",
+        "id": "1406",
+        "title": "RHEDE – KEIN GUTES PFLASTER FüR RECKLINGHäUSER",
+        "date": "09. August 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20090809181407_Ulm_13neu.jpg\"/></div><p class=\"detailViewTop\"><b>Nach den Klasse-Ergebnissen bei den Deutschen Meisterschaften in Ulm mussten die RLC-Athleten bei den Deutschen Jugendmeisterschaften in Rhede einen kleinen Rückschlag hinnehmen: eine erhoffte Platzierung im A-Finale blieb ebenso aus wie neue Bestleistungen.</b></p>",
+        "content_text": "Nach den Klasse-Ergebnissen bei den Deutschen Meisterschaften in Ulm mussten die RLC-Athleten bei den Deutschen Jugendmeisterschaften in Rhede einen kleinen Rückschlag hinnehmen: eine erhoffte Platzierung im A-Finale blieb ebenso aus wie neue Bestleistungen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20090809181407_Ulm_13neu.jpg",
+                "local": "news_assets/1406/zoom_20090809181407_Ulm_13neu.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-268-1404",
+        "id": "1404",
+        "title": "SPORTKURSE FüR DIE KLEINSTEN",
+        "date": "15. August 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20090807201834_Logo-KSV-breit.jpg\"/></div><p class=\"detailViewTop\"><b>Die Kooperation des Recklinghäuser LC mit der Kindertagesstätte „Villa Kunterbunt“ an der Gartenstraße nimmt erste konkrete Formen an: Ab September 2009 werden vormittags in den Räumen des anerkannten Bewegungskindergartens Sportkurse für Kinder im Alter von 1 bis 3 Jahren angeboten – mit oder auch ohne Eltern.</b></p>",
+        "content_text": "Die Kooperation des Recklinghäuser LC mit der Kindertagesstätte „Villa Kunterbunt“ an der Gartenstraße nimmt erste konkrete Formen an: Ab September 2009 werden vormittags in den Räumen des anerkannten Bewegungskindergartens Sportkurse für Kinder im Alter von 1 bis 3 Jahren angeboten – mit oder auch ohne Eltern.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20090807201834_Logo-KSV-breit.jpg",
+                "local": "news_assets/1404/zoom_20090807201834_Logo-KSV-breit.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-269-1403",
+        "id": "1403",
+        "title": "AUF RLC-SENIORINNEN IST VERLASS!",
+        "date": "19. Juli 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20090719185759_Sabine.jpg\"/></div><p class=\"detailViewTop\"><b>Hermine Staubermann, W65, und Sabine Kruse, W40, sicherten sich bei den Deutschen Seniorenmeisterschaften in Vaterstetten und den Deutschen Senioren-Berglaufmeisterschaften in Furth im Wald bei insgesamt vier Starts die Maximalausbeute von vier Bronzemedaillen.</b></p>",
+        "content_text": "Hermine Staubermann, W65, und Sabine Kruse, W40, sicherten sich bei den Deutschen Seniorenmeisterschaften in Vaterstetten und den Deutschen Senioren-Berglaufmeisterschaften in Furth im Wald bei insgesamt vier Starts die Maximalausbeute von vier Bronzemedaillen.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20090719185759_Sabine.jpg",
+                "local": "news_assets/1403/zoom_20090719185759_Sabine.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-269-1373",
+        "id": "1373",
+        "title": "DEUTSCHE MEISTERSCHAFTEN IN ULM – NACHLESE",
+        "date": "05. Juli 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20090706101856_ULM-Staffeln_001.jpg\"/></div><p class=\"detailViewTop\"><b>Die bereits hohen Erwartungen hat das siebenköpfige Team des Recklinghäuser LC noch weit übertroffen: Mit zwei Kreisrekorden, einem siebten Platz im Endlauf und einem neunten Platz kehrten René Bastkowski, Mark Bastkowski, Philipp Wieners, Moritz Heitkamp, Cedric Hüsken, Jamil Stermer und Tobias Sobek samt Trainer Ludger Zander von den Deutschen Meisterschaften im Ulmer Donaustadion zurück.</b></p>",
+        "content_text": "Die bereits hohen Erwartungen hat das siebenköpfige Team des Recklinghäuser LC noch weit übertroffen: Mit zwei Kreisrekorden, einem siebten Platz im Endlauf und einem neunten Platz kehrten René Bastkowski, Mark Bastkowski, Philipp Wieners, Moritz Heitkamp, Cedric Hüsken, Jamil Stermer und Tobias Sobek samt Trainer Ludger Zander von den Deutschen Meisterschaften im Ulmer Donaustadion zurück.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20090706101856_ULM-Staffeln_001.jpg",
+                "local": "news_assets/1373/zoom_20090706101856_ULM-Staffeln_001.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-269-1370",
+        "id": "1370",
+        "title": "KREISREKORD NUMMER ZWEI BEI DER DM!",
+        "date": "04. Juli 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20090704184712_ULM-Staffeln_003.jpg\"/></div><p class=\"detailViewTop\"><b>Und hier ist der zweite Kreisrekord: die Männerstaffel des Recklinghäuser LC in der Besetzung: Moritz Heitkamp, René Bastkowski, Mark Bastkowski und Philipp Wieners lief im ersten Zeitendlauf bei den Deutschen Meisterschaften über 4x100m in 41,55sec auf den zweiten Platz und verbesserte damit den eigenen Kreisrekord aus 2007 (ebenfalls in Ulm) um 35 Hundertstel.</b></p>",
+        "content_text": "Und hier ist der zweite Kreisrekord: die Männerstaffel des Recklinghäuser LC in der Besetzung: Moritz Heitkamp, René Bastkowski, Mark Bastkowski und Philipp Wieners lief im ersten Zeitendlauf bei den Deutschen Meisterschaften über 4x100m in 41,55sec auf den zweiten Platz und verbesserte damit den eigenen Kreisrekord aus 2007 (ebenfalls in Ulm) um 35 Hundertstel.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20090704184712_ULM-Staffeln_003.jpg",
+                "local": "news_assets/1370/zoom_20090704184712_ULM-Staffeln_003.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-270-1369",
+        "id": "1369",
+        "title": "DER REKORD IST GEFALLEN!",
+        "date": "04. Juli 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20090704184412_ULM-Staffeln_002.jpg\"/></div><p class=\"detailViewTop\"><b>Aber noch nicht der Kreisrekord über 4x100m der Männer, sondern der Uraltrekord der Männlichen Jugend A über 4x400m gehalten von … Trainer Ludger Zander und seinen drei Freunden Jurczyk, Jordan und Plinke aus dem Jahr 1975, gelaufen für die Spielvereinigung Herten.</b></p>",
+        "content_text": "Aber noch nicht der Kreisrekord über 4x100m der Männer, sondern der Uraltrekord der Männlichen Jugend A über 4x400m gehalten von … Trainer Ludger Zander und seinen drei Freunden Jurczyk, Jordan und Plinke aus dem Jahr 1975, gelaufen für die Spielvereinigung Herten.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20090704184412_ULM-Staffeln_002.jpg",
+                "local": "news_assets/1369/zoom_20090704184412_ULM-Staffeln_002.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-270-1368",
+        "id": "1368",
+        "title": "DM - WIR KOMMEN!",
+        "date": "03. Juli 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20090703224654_ULM-Staffeln_001.jpg\"/></div><p class=\"detailViewTop\"><b>Voller Vorfreude und mit der Hoffnung im Gepäck, bei den Deutschen Meisterschaften in Ulm einen neuen Kreisrekord über 4x100m der Männer aufzustellen, sind die RLC-Athleten René und Mark Bastkowski, Philipp Wieners und Moritz Heitkamp, begleitet von den Kollegen der 4x400m-Staffel der männlichen Jugend: Tobias Sobek, Cedric Hüsken und Jamil Stermer aus RE abgereist.</b></p>",
+        "content_text": "Voller Vorfreude und mit der Hoffnung im Gepäck, bei den Deutschen Meisterschaften in Ulm einen neuen Kreisrekord über 4x100m der Männer aufzustellen, sind die RLC-Athleten René und Mark Bastkowski, Philipp Wieners und Moritz Heitkamp, begleitet von den Kollegen der 4x400m-Staffel der männlichen Jugend: Tobias Sobek, Cedric Hüsken und Jamil Stermer aus RE abgereist.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20090703224654_ULM-Staffeln_001.jpg",
+                "local": "news_assets/1368/zoom_20090703224654_ULM-Staffeln_001.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-270-1367",
+        "id": "1367",
+        "title": "NEUER 4X75M-KREISREKORD BEI DSMM-VORKAMPF",
+        "date": "30. Juni 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20090701092635_DSCN3592.jpg\"/></div><p class=\"detailViewTop\"><b>Mit einem Kreisrekord, vielen persönlichen Bestleistungen und aussichtsreichen Platzierungen in der derzeitigen Rangliste endete ein DSMM-Durchgang von C-Schülern, C-Schülerinnen und B-Schülerinnen am 30.06.09 im Stadion Hohenhorst.</b></p>",
+        "content_text": "Mit einem Kreisrekord, vielen persönlichen Bestleistungen und aussichtsreichen Platzierungen in der derzeitigen Rangliste endete ein DSMM-Durchgang von C-Schülern, C-Schülerinnen und B-Schülerinnen am 30.06.09 im Stadion Hohenhorst.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20090701092635_DSCN3592.jpg",
+                "local": "news_assets/1367/zoom_20090701092635_DSCN3592.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-271-1365",
+        "id": "1365",
+        "title": "FRANZISKA ENGBERT HOLT VIZEWESTFALENTITEL",
+        "date": "29. Juni 2009 -  29. Juni 2020",
+        "content_html": "<p class=\"detailViewTop\"><b>Franziska Engbert, W 15, brachte von den Westfälischen Blockmeisterschaften in Lüdinghausen am vergangenen Samstag eine Silbermedaille im Block Lauf mit nach Hause.</b></p>",
+        "content_text": "Franziska Engbert, W 15, brachte von den Westfälischen Blockmeisterschaften in Lüdinghausen am vergangenen Samstag eine Silbermedaille im Block Lauf mit nach Hause.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-271-1338",
+        "id": "1338",
+        "title": "RECKLINGHAUSEN BEWEGT SICH",
+        "date": "28. Juni 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20090628163537_Camp_007.jpg\"/></div><p class=\"detailViewTop\"><b>Am gestrigen Samstag machte das DLV-BewegungsCamp Station auf dem Recklinghäuser Rathausplatz. Natürlich unter aktiver Beteiligung des Recklinghäuser LC, seiner Aktiven, Eltern und Trainer.</b></p>",
+        "content_text": "Am gestrigen Samstag machte das DLV-BewegungsCamp Station auf dem Recklinghäuser Rathausplatz. Natürlich unter aktiver Beteiligung des Recklinghäuser LC, seiner Aktiven, Eltern und Trainer.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20090628163537_Camp_007.jpg",
+                "local": "news_assets/1338/zoom_20090628163537_Camp_007.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-272-1337",
+        "id": "1337",
+        "title": "KREISEINZELMEISTERSCHAFTEN: UND WEITER GEHT`S MIT DEN ERFOLGEN",
+        "date": "22. Juni 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20090622170138_KMS_Einzel__2009_14_klein.JPG\"/></div><p class=\"detailViewTop\"><b>Auch die Jüngsten RLCler waren an diesem Wochenende mal wieder eine Erfolgsbank. Bei den Kreiseinzelmeisterschaften der B-C-D-Schüler in Herten gewannen:\n<ul><li>Jonas Withake, M8, den Ballwurf mit 29,50m</li><li>Christian Coenen, M9, die 1000m in 3:49,06 min</li> <li>Fiona Damm, W8, den Weitsprung mit 3,53m</li> <li>Franziska Koch ,W9, den Ballwurf mit 29,00m</li> <li>Laura Faltermann, W11, den Ballwurf mit 37,00m</li> <li>Jacqueline Duda, W13, die 60m Hürden in 10,96 sec</li> <li>Pia Jörden, W13, die 800m in 2:42,80 min</li></ul></b></p>",
+        "content_text": "Auch die Jüngsten RLCler waren an diesem Wochenende mal wieder eine Erfolgsbank. Bei den Kreiseinzelmeisterschaften der B-C-D-Schüler in Herten gewannen:\nJonas Withake, M8, den Ballwurf mit 29,50m\nChristian Coenen, M9, die 1000m in 3:49,06 min\nFiona Damm, W8, den Weitsprung mit 3,53m\nFranziska Koch ,W9, den Ballwurf mit 29,00m\nLaura Faltermann, W11, den Ballwurf mit 37,00m\nJacqueline Duda, W13, die 60m Hürden in 10,96 sec\nPia Jörden, W13, die 800m in 2:42,80 min",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20090622170138_KMS_Einzel__2009_14_klein.JPG",
+                "local": "news_assets/1337/zoom_20090622170138_KMS_Einzel__2009_14_klein.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-271-1335",
+        "id": "1335",
+        "title": "DIESES WOCHENENDE HATTE ES IN SICH!",
+        "date": "22. Juni 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20090622165812_Heitkamp_03.JPG\"/></div><p class=\"detailViewTop\"><b>Erfolgreiche Wochen liegen hinter den Athletinnen und Athleten des Recklinghäuser LC. Nachdem am 13.6./14.6 die Kreismehrkampfmeisterschaften unter Regie des RLC unseren Aktiven 9 Mannschaftstitel (alle verfügbaren Titel bei den D- und C-Schülerinnen und -Schülern, 2 bei den B-Schülerinnen sowie ein Titel im Achtkampf der A-Schüler) und 9 Einzeltitel durch Bianca Broda, Tobias Sobek, Viktor Slawik, Niklas Langkau, Nico Kottler, Elena Hütter, Thore Neumann, Marcus Meyer und Christian Coenen einbrachten sowie 47 weitere Urkunden, setzen unsere Sportler am vergangenen Wochenende bei gleich drei hochrangigen Veranstaltungen noch eins drauf:</b></p>",
+        "content_text": "Erfolgreiche Wochen liegen hinter den Athletinnen und Athleten des Recklinghäuser LC. Nachdem am 13.6./14.6 die Kreismehrkampfmeisterschaften unter Regie des RLC unseren Aktiven 9 Mannschaftstitel (alle verfügbaren Titel bei den D- und C-Schülerinnen und -Schülern, 2 bei den B-Schülerinnen sowie ein Titel im Achtkampf der A-Schüler) und 9 Einzeltitel durch Bianca Broda, Tobias Sobek, Viktor Slawik, Niklas Langkau, Nico Kottler, Elena Hütter, Thore Neumann, Marcus Meyer und Christian Coenen einbrachten sowie 47 weitere Urkunden, setzen unsere Sportler am vergangenen Wochenende bei gleich drei hochrangigen Veranstaltungen noch eins drauf:",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20090622165812_Heitkamp_03.JPG",
+                "local": "news_assets/1335/zoom_20090622165812_Heitkamp_03.JPG"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-272-1334",
+        "id": "1334",
+        "title": "DM-QUALI GEKNACKT!",
+        "date": "18. Juni 2009",
+        "content_html": "<p class=\"detailViewTop\"><b>Die 4x100m-Männerstaffel des Recklinghäuser LC hat in der Besetzung Moritz Heitkamp, René Bastkowski, Mark Bastkowski und Philipp Wieners die Qualifikationsnorm zur Deutschen Meisterschaft in Ulm deutlich unterboten.</b></p>",
+        "content_text": "Die 4x100m-Männerstaffel des Recklinghäuser LC hat in der Besetzung Moritz Heitkamp, René Bastkowski, Mark Bastkowski und Philipp Wieners die Qualifikationsnorm zur Deutschen Meisterschaft in Ulm deutlich unterboten.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-273-1293",
+        "id": "1293",
+        "title": "ZWEI TITEL BEI DEN WESTDEUTSCHEN MEISTERSCHAFTEN",
+        "date": "12. Juni 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20090612151907_hohenhorst09-website-04.jpg\"/></div><p class=\"detailViewTop\"><b>Wieder einmal unter strömendem Regen erliefen sich bei den gestrigen Westdeutschen Meisterschaften in Duisburg sowohl Bianca Broda über 100 Meter Hürden in 14,61 Sekunden als auch die 4x100 Meter Staffel der Junioren (Moritz Heitkamp, René Bastkowski, Philipp Wieners, Mark Bastowski) in 42,38 Sekunden den ersten Platz.</b></p>",
+        "content_text": "Wieder einmal unter strömendem Regen erliefen sich bei den gestrigen Westdeutschen Meisterschaften in Duisburg sowohl Bianca Broda über 100 Meter Hürden in 14,61 Sekunden als auch die 4x100 Meter Staffel der Junioren (Moritz Heitkamp, René Bastkowski, Philipp Wieners, Mark Bastowski) in 42,38 Sekunden den ersten Platz.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20090612151907_hohenhorst09-website-04.jpg",
+                "local": "news_assets/1293/zoom_20090612151907_hohenhorst09-website-04.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-273-1285",
+        "id": "1285",
+        "title": "KREISREKORD 4X75M-STAFFEL SCHüLERINNEN B",
+        "date": "06. Juni 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20090607115015_allianzcup09-10.jpg\"/></div><p class=\"detailViewTop\"><b>Den erfolgreichen Auftritten der Erwachsenen in Dortmund wollte unsere 4x75m-Staffel der Schülerinnen B in nichts nachstehen: Beim heutigen Allianz-Cup in Oer-Erkenschwick unterbot das Quartett mit 39,47 Sekunden den bisherigen Kreisrekord um zwei hundertstel Sekunden.</b></p>",
+        "content_text": "Den erfolgreichen Auftritten der Erwachsenen in Dortmund wollte unsere 4x75m-Staffel der Schülerinnen B in nichts nachstehen: Beim heutigen Allianz-Cup in Oer-Erkenschwick unterbot das Quartett mit 39,47 Sekunden den bisherigen Kreisrekord um zwei hundertstel Sekunden.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20090607115015_allianzcup09-10.jpg",
+                "local": "news_assets/1285/zoom_20090607115015_allianzcup09-10.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-273-1277",
+        "id": "1277",
+        "title": "ZWEI WESTFALENMEISTERTITEL IN DORTMUND",
+        "date": "06. Juni 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20090606191404_hohenhorst09-website-30.jpg\"/></div><p class=\"detailViewTop\"><b>Bei nicht gerade leichtathletik-freundlichem Wetter während der heutigen Westfalen-Meisterschaften der Männer und Frauen im Dortmunder Rote-Erde-Stadion eroberte das überschaubar kleine RLC-Team gleich zwei Titel.</b></p>",
+        "content_text": "Bei nicht gerade leichtathletik-freundlichem Wetter während der heutigen Westfalen-Meisterschaften der Männer und Frauen im Dortmunder Rote-Erde-Stadion eroberte das überschaubar kleine RLC-Team gleich zwei Titel.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20090606191404_hohenhorst09-website-30.jpg",
+                "local": "news_assets/1277/zoom_20090606191404_hohenhorst09-website-30.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-274-1276",
+        "id": "1276",
+        "title": "RLC-ATHLETINNEN UND -ATHLETEN VON BüRGERMEISTER PANTFöRDER GEEHRT",
+        "date": "05. Juni 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20090605180001_ehrung_09_06_05.jpg\"/></div><p class=\"detailViewTop\"><b>Am 04.06.2009 wurden die RLC-Seniorenathletinnen Birgit Broda und Hermi Staubermann sowie der A-Jugendliche Moritz Heitkamp vom Recklinghäuser Bürgermeister Wolfgang Pantförder für ihre herausragenden Leistungen bei Meisterschaften der Wintersaison 2009 geehrt.</b></p>",
+        "content_text": "Am 04.06.2009 wurden die RLC-Seniorenathletinnen Birgit Broda und Hermi Staubermann sowie der A-Jugendliche Moritz Heitkamp vom Recklinghäuser Bürgermeister Wolfgang Pantförder für ihre herausragenden Leistungen bei Meisterschaften der Wintersaison 2009 geehrt.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20090605180001_ehrung_09_06_05.jpg",
+                "local": "news_assets/1276/zoom_20090605180001_ehrung_09_06_05.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-274-1219",
+        "id": "1219",
+        "title": "32. HOHENHORST-MEETING – EIN ERLEBNIS",
+        "date": "01. Juni 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20090603091150_hohenhorst09-stabhoch.jpg\"/></div><p class=\"detailViewTop\"><b>Ein spannender und unterhaltsamer Leichtathletik-Tag mit einer starken Konkurrenz ist soeben in Hohenhorst zuende gegangen. Nicht zuletzt die guten Wetterbedingungen bescherten dem 32. Hohenhorst-Meeting zahlreiche Nachmeldungen und sorgten am Ende mit 1147 Meldungen für das beste Ergebnis der letzten Jahre.</b></p>",
+        "content_text": "Ein spannender und unterhaltsamer Leichtathletik-Tag mit einer starken Konkurrenz ist soeben in Hohenhorst zuende gegangen. Nicht zuletzt die guten Wetterbedingungen bescherten dem 32. Hohenhorst-Meeting zahlreiche Nachmeldungen und sorgten am Ende mit 1147 Meldungen für das beste Ergebnis der letzten Jahre.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20090603091150_hohenhorst09-stabhoch.jpg",
+                "local": "news_assets/1219/zoom_20090603091150_hohenhorst09-stabhoch.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-274-1211",
+        "id": "1211",
+        "title": "KIA-SPORTFEST – EIN TOPAUFTAKT FüR DEN RLC",
+        "date": "24. Mai 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20090603091713_KIA-Topauftakt.jpg\"/></div><p class=\"detailViewTop\"><b>Die alljährliche Bahneröffnung im Hohenhorststadion stellt das KIA-Sportfest dar. Für das diesjährige 3. KIA-Sportfest allerdings ergab sich aus den Rücktritten des langjährigen Organisationsteams um Günter Kefenbaum und Familie Holtermann die Notwendigkeit, mit neuen ehrenamtlichen Aktiven eine Sportveranstaltung auf die Beine zu stellen, die zumindest nicht schlechter laufen sollte als in den Jahren zuvor.</b></p>",
+        "content_text": "Die alljährliche Bahneröffnung im Hohenhorststadion stellt das KIA-Sportfest dar. Für das diesjährige 3. KIA-Sportfest allerdings ergab sich aus den Rücktritten des langjährigen Organisationsteams um Günter Kefenbaum und Familie Holtermann die Notwendigkeit, mit neuen ehrenamtlichen Aktiven eine Sportveranstaltung auf die Beine zu stellen, die zumindest nicht schlechter laufen sollte als in den Jahren zuvor.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20090603091713_KIA-Topauftakt.jpg",
+                "local": "news_assets/1211/zoom_20090603091713_KIA-Topauftakt.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-275-1206",
+        "id": "1206",
+        "title": "RECKLINGHÄUSER LC AUSGEZEICHNET",
+        "date": "20. Mai 2009",
+        "content_html": "<p class=\"detailViewTop\"><b>Am 20.05.2009 wurde der Recklinghäuser Leichtathletik Club durch den Landessportbund als \"anerkannter kinderfreundlicher Sportverein\" ausgezeichnet.</b></p>",
+        "content_text": "Am 20.05.2009 wurde der Recklinghäuser Leichtathletik Club durch den Landessportbund als \"anerkannter kinderfreundlicher Sportverein\" ausgezeichnet.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-276-286",
+        "id": "286",
+        "title": "SABINE KRUSE SIEGERIN BEI ASV-WINTERLAUF",
+        "date": "04. April 2009",
+        "content_html": "<p class=\"detailViewTop\"><b>Die Langstreckenläuferin Sabine Kruse, seit Anfang des Jahres im Trikot des RLC unterwegs und in der AK W 40 startend, gewann den 10km-Lauf im Rahmen der ASV-Winterlaufserie am 28.03.09 in Duisburg.</b></p>",
+        "content_text": "Die Langstreckenläuferin Sabine Kruse, seit Anfang des Jahres im Trikot des RLC unterwegs und in der AK W 40 startend, gewann den 10km-Lauf im Rahmen der ASV-Winterlaufserie am 28.03.09 in Duisburg.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-277-283",
+        "id": "283",
+        "title": "BRONZEFESTIVAL FüR HERMI STAUBERMANNN",
+        "date": "29. März 2009",
+        "content_html": "<p class=\"detailViewTop\"><b>Die Europäischen Seniorenmeisterschaften in Ancona haben sich als Bronzefestival für Hermi Staubermann, W65, entpuppt.</b></p>",
+        "content_text": "Die Europäischen Seniorenmeisterschaften in Ancona haben sich als Bronzefestival für Hermi Staubermann, W65, entpuppt.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-277-282",
+        "id": "282",
+        "title": "ZWEI BRONZEMEDAILLEN FÜR HERMI STAUBERMANN!",
+        "date": "28. März 2009",
+        "content_html": "<p class=\"detailViewTop\"><b>Bei den europäischen Seniorenmeisterschaften in Ancona hat die RLC-Seniorin Hermi Staubermann bei bisher zwei Starts bereits 2 Bronzemadaillen eingeheimst.\nÜber 3000m lief Hermi 14:12,16 min, im Crosslauf über 5km 27:16 min.</b></p>",
+        "content_text": "Bei den europäischen Seniorenmeisterschaften in Ancona hat die RLC-Seniorin Hermi Staubermann bei bisher zwei Starts bereits 2 Bronzemadaillen eingeheimst.\nÜber 3000m lief Hermi 14:12,16 min, im Crosslauf über 5km 27:16 min.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-277-251",
+        "id": "251",
+        "title": "5 KREISMEISTERTITEL BEI DEN CROSSLAUFMEISTERSCHAFTEN",
+        "date": "15. März 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20090315213355_Crosshp.jpg\"/></div><p class=\"detailViewTop\"><b>Mit insgesamt 5 Kreismeistertiteln,17 Plätzen auf dem Siegertreppchen in den Einzelwertungen sowie 12 Mannschafts-Auszeichnungen kehrten die 58 RLC-Athletinnen und -Athleten von den Kreis-Crosslaufmeisterschaften in Erkenschwick nach Haus zurück</b></p>",
+        "content_text": "Mit insgesamt 5 Kreismeistertiteln,17 Plätzen auf dem Siegertreppchen in den Einzelwertungen sowie 12 Mannschafts-Auszeichnungen kehrten die 58 RLC-Athletinnen und -Athleten von den Kreis-Crosslaufmeisterschaften in Erkenschwick nach Haus zurück",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20090315213355_Crosshp.jpg",
+                "local": "news_assets/251/zoom_20090315213355_Crosshp.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-278-232",
+        "id": "232",
+        "title": "NEUER KREISREKORD IM STABHOCHSPRUNG FÜR SCHULTE",
+        "date": "07. März 2009",
+        "content_html": "<p class=\"detailViewTop\"><b>Beim Stabhochsprung-Meeting am 07.03.2009 im Arena-Park Düsseldorf sprang die vierzehnjährige A-Schülerin Marita Schulte mit 3,20 m erneut Kreisrekord und belegte damit den 2. Platz in der Gesamtwertung W14/W15.</b></p>",
+        "content_text": "Beim Stabhochsprung-Meeting am 07.03.2009 im Arena-Park Düsseldorf sprang die vierzehnjährige A-Schülerin Marita Schulte mit 3,20 m erneut Kreisrekord und belegte damit den 2. Platz in der Gesamtwertung W14/W15.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-278-231",
+        "id": "231",
+        "title": "ERSTER WESTFALENTITEL FÜR MARITA SCHULTE!",
+        "date": "01. März 2009",
+        "content_html": "<p class=\"detailViewTop\"><b>Die 14jährige A-Schülerin des Recklinghäuser LC, Marita Schulte, gewann bei ihrer ersten großen Meisterschaft, den Westfälischen A-Schüler-Meisterschaften am 01.03.09 in Paderborn gleich den Titel im Stabhochsprung.</b></p>",
+        "content_text": "Die 14jährige A-Schülerin des Recklinghäuser LC, Marita Schulte, gewann bei ihrer ersten großen Meisterschaft, den Westfälischen A-Schüler-Meisterschaften am 01.03.09 in Paderborn gleich den Titel im Stabhochsprung.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-278-230",
+        "id": "230",
+        "title": "HERMI STAUBERMANN 2X DEUTSCHE MEISTERIN",
+        "date": "01. März 2009",
+        "content_html": "<p class=\"detailViewTop\"><b>Bei den Deutschen Seniorenmeisterschaften am 28.2./01.03.2009 in Düsseldorf erlief sich die älteste aktive Seniorensportlerin des RLC gleich zwei Titel.</b></p>",
+        "content_text": "Bei den Deutschen Seniorenmeisterschaften am 28.2./01.03.2009 in Düsseldorf erlief sich die älteste aktive Seniorensportlerin des RLC gleich zwei Titel.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-279-226",
+        "id": "226",
+        "title": "DM-AUFTRITT DER RLC-MÄNNERSTAFFEL",
+        "date": "22. Februar 2009",
+        "content_html": "<p class=\"detailViewTop\"><b>Bei den Deutschen Hallenmeisterschaften am 21./22.02.09 in Leipzig belegte die 4x200m-Männerstaffel des RLC in 1:29,99 min den 11. Rang.\nDamit konnten die Jungs ihre selbstgestellten Erwartungen nicht ganz erfüllen,</b></p>",
+        "content_text": "Bei den Deutschen Hallenmeisterschaften am 21./22.02.09 in Leipzig belegte die 4x200m-Männerstaffel des RLC in 1:29,99 min den 11. Rang.\nDamit konnten die Jungs ihre selbstgestellten Erwartungen nicht ganz erfüllen,",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-279-221",
+        "id": "221",
+        "title": "WEITERE TOP-PLATZIERUNGEN FüR RLC-LER",
+        "date": "15. Februar 2009",
+        "content_html": "<p class=\"detailViewTop\"><b>Beim Hallensportfest für Schülerinnen und Schüler am 15.02.09 in Dortmund errangen die B-Schülerinnen und B-Schüler, trainiert und betreut von Katja Peiris und Sebastian Stephani , einige Spitzenplätze.</b></p>",
+        "content_text": "Beim Hallensportfest für Schülerinnen und Schüler am 15.02.09 in Dortmund errangen die B-Schülerinnen und B-Schüler, trainiert und betreut von Katja Peiris und Sebastian Stephani , einige Spitzenplätze.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-279-219",
+        "id": "219",
+        "title": "MORITZ HEITKAMP IM ENDLAUF BEI DJM",
+        "date": "15. Februar 2009",
+        "content_html": "<p class=\"detailViewTop\"><b>Bei den Deutschen Jugendhallenmeisterschaften am 14./15.02.2009 in Neubrandenburg belegte Moritz Heitkamp in 49,16 sec im B-Endlauf Rang vier, damit in der Gesamtrangliste den 8. Rang.</b></p>",
+        "content_text": "Bei den Deutschen Jugendhallenmeisterschaften am 14./15.02.2009 in Neubrandenburg belegte Moritz Heitkamp in 49,16 sec im B-Endlauf Rang vier, damit in der Gesamtrangliste den 8. Rang.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-280-193",
+        "id": "193",
+        "title": "MORITZ HEITKAMP WESTDEUTSCHER JUGENDMEISTER 400M",
+        "date": "01. Februar 2009",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20090524123636_westd09.jpg\"/></div><p class=\"detailViewTop\"><b>Am 01.02.2009 erlief sich Moritz Heitkamp nach kuriosem Rennverlauf seinen ersten Westdeutschen Meistertitel über 400m im Trikot des RLC. Er verwies mit 49,25 sec seine größten Konkurrenten Fröhlich und Eder auf die Plätze. Mit diesem Lauf zeigte Heitkamp eine weitere gelungene Vorbereitung auf die Deutschen Jugend-Hallenmeisterschaften in Neubrandenburg.</b></p>",
+        "content_text": "Am 01.02.2009 erlief sich Moritz Heitkamp nach kuriosem Rennverlauf seinen ersten Westdeutschen Meistertitel über 400m im Trikot des RLC. Er verwies mit 49,25 sec seine größten Konkurrenten Fröhlich und Eder auf die Plätze. Mit diesem Lauf zeigte Heitkamp eine weitere gelungene Vorbereitung auf die Deutschen Jugend-Hallenmeisterschaften in Neubrandenburg.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20090524123636_westd09.jpg",
+                "local": "news_assets/193/zoom_20090524123636_westd09.jpg"
+            }
+        ]
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-280-187",
+        "id": "187",
+        "title": "RLC-ATHLETEN: 3X SPORTLER DES JAHRES 2008",
+        "date": "31. Januar 2009",
+        "content_html": "<p class=\"detailViewTop\"><b>Bei der Wahl zur Sportlerin / zum Sportler / zur Mannschaft des Jahres 2008 am gestrigen Abend im Festspielhaus haben die Athleten des Recklinghäuser LC die Maximalausbeute errungen: Bianca Broda, Rene Bastkowski und die A-Jugendstaffel siegten.</b></p>",
+        "content_text": "Bei der Wahl zur Sportlerin / zum Sportler / zur Mannschaft des Jahres 2008 am gestrigen Abend im Festspielhaus haben die Athleten des Recklinghäuser LC die Maximalausbeute errungen: Bianca Broda, Rene Bastkowski und die A-Jugendstaffel siegten.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-280-184",
+        "id": "184",
+        "title": "MORITZ HEITKAMP WESTFALENMEISTER ÜBER 400M",
+        "date": "25. Januar 2009",
+        "content_html": "<p class=\"detailViewTop\"><b>Von den Westfälischen A-Jugendmeisterschaften in der Seidenstickerhalle von Bielefeld kehrten unsere RLC- Athletinnen und Athleten wieder mit Top-Platzierungen zurück: ein Titel, ein 2., ein 3. sowie zwei 5. Plätze sprangen heraus.</b></p>",
+        "content_text": "Von den Westfälischen A-Jugendmeisterschaften in der Seidenstickerhalle von Bielefeld kehrten unsere RLC- Athletinnen und Athleten wieder mit Top-Platzierungen zurück: ein Titel, ein 2., ein 3. sowie zwei 5. Plätze sprangen heraus.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-281-179",
+        "id": "179",
+        "title": "UND WEITER GEHT’S MIT DEN ERFOLGEN IN 2009",
+        "date": "17. Januar 2009",
+        "content_html": "<p class=\"detailViewTop\"><b>Bei den Westfälischen Meisterschaften der Frauen, Männer  sowie der Jugend B fielen insbesondere unsere 4x200m Männerstaffel mit Vereinsrekord sowie der B-Jugendliche Tobias Sobek mit einem 3. Platz über 200m auf.</b></p>",
+        "content_text": "Bei den Westfälischen Meisterschaften der Frauen, Männer  sowie der Jugend B fielen insbesondere unsere 4x200m Männerstaffel mit Vereinsrekord sowie der B-Jugendliche Tobias Sobek mit einem 3. Platz über 200m auf.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-281-177",
+        "id": "177",
+        "title": "TOLLER JAHRESAUFTAKT 2009",
+        "date": "14. Januar 2009",
+        "content_html": "<p class=\"detailViewTop\"><b>Das Wettkampfjahr 2009 begann für RLC-Athleten mit einem Paukenschlag:\n4 Titel, ein 4. und ein 7. Platz bei den Westdeutschen Seniorenmeisterschaften in der Halle am 11.01.2009 in Düsseldorf.</b></p>",
+        "content_text": "Das Wettkampfjahr 2009 begann für RLC-Athleten mit einem Paukenschlag:\n4 Titel, ein 4. und ein 7. Platz bei den Westdeutschen Seniorenmeisterschaften in der Halle am 11.01.2009 in Düsseldorf.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-281-176",
+        "id": "176",
+        "title": "NEUE RLC-SEITE GESTARTET",
+        "date": "12. Januar 2009",
+        "content_html": "<p class=\"detailViewTop\"><b>Nach einer mehrmonatigen Umstrukturierung ist heute unsere neue RLC-Webseite ans Netz gegangen. Neben der augenfälligen optischen Runderneuerung hat sich auch inhaltlich Einiges getan.</b></p>",
+        "content_text": "Nach einer mehrmonatigen Umstrukturierung ist heute unsere neue RLC-Webseite ans Netz gegangen. Neben der augenfälligen optischen Runderneuerung hat sich auch inhaltlich Einiges getan.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-282-164",
+        "id": "164",
+        "title": "ERGEBNISSE SILVESTERLAUF",
+        "date": "01. Januar 2009",
+        "content_html": "<p class=\"detailViewTop\"><b>Der 22. Recklinghäuser Silvesterlauf konnte einen Teilnehmerrekord verbuchen: Bei sonnigem Wetter, aber eisigen Temperaturen, gingen im Stadion Hohenhorst mehr als 550 Lauffreudige an den Start.</b></p>",
+        "content_text": "Der 22. Recklinghäuser Silvesterlauf konnte einen Teilnehmerrekord verbuchen: Bei sonnigem Wetter, aber eisigen Temperaturen, gingen im Stadion Hohenhorst mehr als 550 Lauffreudige an den Start.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-282-148",
+        "id": "148",
+        "title": "SILVESTERLAUF 2008",
+        "date": "15. Dezember 2008",
+        "content_html": "<p class=\"detailViewTop\"><b>Auch in diesem Jahr lädt der RLC wieder zum Silvesterlauf. Angeboten werden neben den 5 und 10 Km-Läufen auch ein 5 Km-Lauf für (Nordic-)Walker und ein Bambini-Lauf für die Kleinen.</b></p>",
+        "content_text": "Auch in diesem Jahr lädt der RLC wieder zum Silvesterlauf. Angeboten werden neben den 5 und 10 Km-Läufen auch ein 5 Km-Lauf für (Nordic-)Walker und ein Bambini-Lauf für die Kleinen.",
+        "images": []
+    },
+    {
+        "url": "https://www.rlc1952.de/rlc.php?id=0-0000-282-113",
+        "id": "113",
+        "title": "WIR HABEN DIE FEUERPROBE BESTANDEN",
+        "date": "28. Oktober 2008",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20090105165354_DJM08_News.jpg\"/></div><p class=\"detailViewTop\"><b>Für die Ausrichtung der Deutschen Junioren-Meisterschaften 2008 hat der Recklinghäuser Leichtathletik Club Lob von allen Seiten eingeheimst: Ob von den Athletinnen und Athleten, die ja schließlich im Mittelpunkt der ganzen Veranstaltung standen, den Trainern und Betreuern, den Offiziellen von DLV und FLVW oder einfach nur von den Besuchern dieser größten Leichtathletikveranstaltung des Kreises Recklinghausen seit 18 Jahren in unserem schmucken Stadion.</b></p>",
+        "content_text": "Für die Ausrichtung der Deutschen Junioren-Meisterschaften 2008 hat der Recklinghäuser Leichtathletik Club Lob von allen Seiten eingeheimst: Ob von den Athletinnen und Athleten, die ja schließlich im Mittelpunkt der ganzen Veranstaltung standen, den Trainern und Betreuern, den Offiziellen von DLV und FLVW oder einfach nur von den Besuchern dieser größten Leichtathletikveranstaltung des Kreises Recklinghausen seit 18 Jahren in unserem schmucken Stadion.",
+        "images": [
+            {
+                "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20090105165354_DJM08_News.jpg",
+                "local": "news_assets/113/zoom_20090105165354_DJM08_News.jpg"
+            }
+        ]
+    }
+];

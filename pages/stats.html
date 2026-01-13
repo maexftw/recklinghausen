@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+
+<html class="light" lang="de">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>RLC 1952 - Vereinsrekorde &amp; Bestenlisten</title>
+    <meta name="description"
+        content="Offizielle Vereinsrekorde und Bestenlisten des Recklinghäuser Leichtathletik Clubs 1952 e.V. Statistiken und Bestleistungen unserer Athleten seit 1952.">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Montserrat:wght@700;900&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <script src="../assets/js/components.js"></script>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark text-[#111817] dark:text-white min-h-screen">
+    <div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+        <div class="layout-container flex h-full grow flex-col">
+            <!-- Navigation -->
+            <header></header>
+            <main class="flex flex-1 justify-center py-5 lg:px-40">
+                <div class="layout-content-container flex flex-col w-full max-w-[1280px] flex-1">
+                    <!-- Breadcrumbs -->
+                    <div class="flex flex-wrap items-center gap-2 p-4">
+                        <a class="text-[#618986] text-sm font-medium leading-normal hover:text-primary"
+                            href="../index.html">Startseite</a>
+                        <span class="material-symbols-outlined text-sm text-[#618986]">chevron_right</span>
+                        <a class="text-[#618986] text-sm font-medium leading-normal hover:text-primary"
+                            href="#">Leichtathletik</a>
+                        <span class="material-symbols-outlined text-sm text-[#618986]">chevron_right</span>
+                        <span
+                            class="text-[#111817] dark:text-white text-sm font-medium leading-normal">Vereinsrekorde</span>
+                    </div>
+                    <!-- Page Heading -->
+                    <div class="flex flex-wrap justify-between items-end gap-3 p-4 mb-4">
+                        <div class="flex min-w-72 flex-col gap-2">
+                            <h1
+                                class="text-[#111817] dark:text-white text-4xl lg:text-5xl font-black leading-tight tracking-[-0.033em]">
+                                Vereinsrekorde &amp; Bestenlisten</h1>
+                            <p class="text-[#618986] text-base font-normal leading-normal max-w-2xl">Offizielle
+                                Vereinsrekorde und Bestenlisten des Recklinghäuser LC seit 1952. Die Statistiken werden
+                                während der Saison wöchentlich aktualisiert.</p>
+                            <div
+                                class="flex items-center gap-2 mt-2 text-xs font-medium text-primary uppercase tracking-wider">
+                                <span class="material-symbols-outlined text-sm">update</span>
+                                Stand: Okt 2023
+                            </div>
+                        </div>
+                        <div class="flex gap-3">
+                            <button
+                                class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-5 bg-background-light dark:bg-white/5 border border-[#dbe6e5] dark:border-white/10 text-[#111817] dark:text-white text-sm font-bold transition-all hover:bg-[#dbe6e5] dark:hover:bg-white/10">
+                                <span class="truncate">Export PDF</span>
+                            </button>
+                            <button
+                                class="flex min-w-[140px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-5 bg-primary text-[#102220] text-sm font-bold transition-all shadow-lg shadow-primary/20">
+                                <span class="truncate">Leistung melden</span>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Tabs -->
+                    <div class="px-4">
+                        <div
+                            class="flex border-b border-[#dbe6e5] dark:border-white/10 gap-8 overflow-x-auto scrollbar-hide">
+                            <a class="flex flex-col items-center justify-center border-b-[3px] border-b-primary text-primary pb-[13px] pt-4"
+                                href="#">
+                                <p class="text-sm font-bold leading-normal tracking-[0.015em] whitespace-nowrap">Outdoor
+                                    Records</p>
+                            </a>
+                            <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#618986] pb-[13px] pt-4 hover:text-[#111817] dark:hover:text-white transition-colors"
+                                href="#">
+                                <p class="text-sm font-bold leading-normal tracking-[0.015em] whitespace-nowrap">Indoor
+                                    Records</p>
+                            </a>
+                            <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#618986] pb-[13px] pt-4 hover:text-[#111817] dark:hover:text-white transition-colors"
+                                href="#">
+                                <p class="text-sm font-bold leading-normal tracking-[0.015em] whitespace-nowrap">
+                                    All-Time Rankings</p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Filter Bar -->
+                    <div
+                        class="p-4 flex flex-wrap gap-4 items-center bg-white dark:bg-white/5 mt-6 mx-4 rounded-xl border border-[#dbe6e5] dark:border-white/10 shadow-sm">
+                        <div class="flex flex-col gap-1.5 flex-1 min-w-[150px]">
+                            <label class="text-xs font-bold text-[#618986] uppercase tracking-wider"
+                                for="age-group-select">Age Group</label>
+                            <select id="age-group-select"
+                                class="form-select bg-background-light dark:bg-background-dark border-none rounded-lg text-sm font-medium focus:ring-primary h-10"
+                                aria-label="Altersgruppe auswählen">
+                                <option>Männer / Frauen</option>
+                                <option>U20 (M/W)</option>
+                                <option>U18 (M/W)</option>
+                                <option>U16 (M/W)</option>
+                                <option>U14 (M/W)</option>
+                                <option>Senioren (Masters)</option>
+                            </select>
+                        </div>
+                        <div class="flex flex-col gap-1.5 min-w-[120px]">
+                            <label class="text-xs font-bold text-[#618986] uppercase tracking-wider">Gender</label>
+                            <div class="flex bg-background-light dark:bg-background-dark p-1 rounded-lg h-10">
+                                <button
+                                    class="flex-1 px-3 text-xs font-bold bg-white dark:bg-primary shadow-sm rounded-md text-[#111817]">All</button>
+                                <button
+                                    class="flex-1 px-3 text-xs font-bold text-[#618986] hover:text-primary">Male</button>
+                                <button
+                                    class="flex-1 px-3 text-xs font-bold text-[#618986] hover:text-primary">Female</button>
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-1.5 min-w-[150px]">
+                            <label class="text-xs font-bold text-[#618986] uppercase tracking-wider"
+                                for="discipline-select">Discipline</label>
+                            <select id="discipline-select"
+                                class="form-select bg-background-light dark:bg-background-dark border-none rounded-lg text-sm font-medium focus:ring-primary h-10"
+                                aria-label="Disziplin auswählen">
+                                <option>All Disciplines</option>
+                                <option>Sprints</option>
+                                <option>Middle Distance</option>
+                                <option>Long Distance</option>
+                                <option>Jumps</option>
+                                <option>Throws</option>
+                            </select>
+                        </div>
+                        <div class="flex items-end h-10 self-end">
+                            <button
+                                class="bg-[#111817] dark:bg-white dark:text-[#111817] text-white px-4 h-10 rounded-lg text-sm font-bold flex items-center gap-2 hover:opacity-90">
+                                <span class="material-symbols-outlined text-sm">filter_list</span>
+                                Apply Filters
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Table Section -->
+                    <div class="p-4 mt-4">
+                        <div
+                            class="overflow-x-auto rounded-xl border border-[#dbe6e5] dark:border-white/10 bg-white dark:bg-background-dark shadow-sm">
+                            <table class="w-full text-left border-collapse">
+                                <thead>
+                                    <tr
+                                        class="bg-background-light dark:bg-white/5 border-b border-[#dbe6e5] dark:border-white/10">
+                                        <th
+                                            class="px-6 py-4 text-xs font-bold uppercase text-[#618986] tracking-widest">
+                                            Disziplin</th>
+                                        <th
+                                            class="px-6 py-4 text-xs font-bold uppercase text-[#618986] tracking-widest">
+                                            Leistung</th>
+                                        <th
+                                            class="px-6 py-4 text-xs font-bold uppercase text-[#618986] tracking-widest">
+                                            Athlet</th>
+                                        <th
+                                            class="px-6 py-4 text-xs font-bold uppercase text-[#618986] tracking-widest text-center">
+                                            Datum</th>
+                                        <th
+                                            class="px-6 py-4 text-xs font-bold uppercase text-[#618986] tracking-widest">
+                                            Ort</th>
+                                        <th
+                                            class="px-6 py-4 text-xs font-bold uppercase text-[#618986] tracking-widest text-right">
+                                            Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="divide-y divide-[#dbe6e5] dark:divide-white/5">
+                                    <!-- Row 1 (Highlight Gold) -->
+                                    <tr
+                                        class="group hover:bg-background-light dark:hover:bg-white/5 transition-colors bg-yellow-50/30 dark:bg-yellow-900/10">
+                                        <td class="px-6 py-5">
+                                            <div class="flex flex-col">
+                                                <span
+                                                    class="text-sm font-black text-[#111817] dark:text-white">100m</span>
+                                                <span
+                                                    class="text-[10px] text-primary font-bold uppercase">Sprints</span>
+                                            </div>
+                                        </td>
+                                        <td class="px-6 py-5">
+                                            <span
+                                                class="text-lg font-black text-[#111817] dark:text-white tabular-nums">10.45s</span>
+                                        </td>
+                                        <td class="px-6 py-5">
+                                            <div class="flex items-center gap-3">
+                                                <div
+                                                    class="size-8 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold text-xs">
+                                                    MK</div>
+                                                <span class="text-sm font-bold text-[#111817] dark:text-white">Max
+                                                    Krause</span>
+                                            </div>
+                                        </td>
+                                        <td class="px-6 py-5 text-center">
+                                            <span class="text-sm font-medium text-[#618986]">24.06.2021</span>
+                                        </td>
+                                        <td class="px-6 py-5">
+                                            <span
+                                                class="text-sm font-medium text-[#111817] dark:text-white">Recklinghausen,
+                                                DE</span>
+                                        </td>
+                                        <td class="px-6 py-5 text-right">
+                                            <span class="material-symbols-outlined text-[#FFD700] fill-1"
+                                                title="Club Legend">star</span>
+                                        </td>
+                                    </tr>
+                                    <!-- Row 2 -->
+                                    <tr class="group hover:bg-background-light dark:hover:bg-white/5 transition-colors">
+                                        <td class="px-6 py-5">
+                                            <div class="flex flex-col">
+                                                <span
+                                                    class="text-sm font-black text-[#111817] dark:text-white">400m</span>
+                                                <span
+                                                    class="text-[10px] text-primary font-bold uppercase">Sprints</span>
+                                            </div>
+                                        </td>
+                                        <td class="px-6 py-5">
+                                            <span
+                                                class="text-lg font-black text-[#111817] dark:text-white tabular-nums">48.21s</span>
+                                        </td>
+                                        <td class="px-6 py-5">
+                                            <div class="flex items-center gap-3">
+                                                <div
+                                                    class="size-8 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold text-xs">
+                                                    JS</div>
+                                                <span class="text-sm font-bold text-[#111817] dark:text-white">Julia
+                                                    Schmidt</span>
+                                            </div>
+                                        </td>
+                                        <td class="px-6 py-5 text-center">
+                                            <span class="text-sm font-medium text-[#618986]">15.08.2019</span>
+                                        </td>
+                                        <td class="px-6 py-5">
+                                            <span class="text-sm font-medium text-[#111817] dark:text-white">Dortmund,
+                                                DE</span>
+                                        </td>
+                                        <td class="px-6 py-5 text-right">
+                                            <span
+                                                class="text-[10px] font-bold py-1 px-2 rounded-full bg-background-light dark:bg-white/10 text-[#618986]">Active</span>
+                                        </td>
+                                    </tr>
+                                    <!-- Row 3 -->
+                                    <tr class="group hover:bg-background-light dark:hover:bg-white/5 transition-colors">
+                                        <td class="px-6 py-5">
+                                            <div class="flex flex-col">
+                                                <span class="text-sm font-black text-[#111817] dark:text-white">Long
+                                                    Jump</span>
+                                                <span class="text-[10px] text-primary font-bold uppercase">Jumps</span>
+                                            </div>
+                                        </td>
+                                        <td class="px-6 py-5">
+                                            <span
+                                                class="text-lg font-black text-[#111817] dark:text-white tabular-nums">7.82m</span>
+                                        </td>
+                                        <td class="px-6 py-5">
+                                            <div class="flex items-center gap-3">
+                                                <div
+                                                    class="size-8 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold text-xs">
+                                                    BW</div>
+                                                <span class="text-sm font-bold text-[#111817] dark:text-white">Bernd
+                                                    Wagner</span>
+                                            </div>
+                                        </td>
+                                        <td class="px-6 py-5 text-center">
+                                            <span class="text-sm font-medium text-[#618986]">03.07.1982</span>
+                                        </td>
+                                        <td class="px-6 py-5">
+                                            <span class="text-sm font-medium text-[#111817] dark:text-white">Berlin,
+                                                DE</span>
+                                        </td>
+                                        <td class="px-6 py-5 text-right">
+                                            <span class="material-symbols-outlined text-[#FFD700] fill-1"
+                                                title="Historic Record">verified</span>
+                                        </td>
+                                    </tr>
+                                    <!-- Row 4 -->
+                                    <tr class="group hover:bg-background-light dark:hover:bg-white/5 transition-colors">
+                                        <td class="px-6 py-5">
+                                            <div class="flex flex-col">
+                                                <span
+                                                    class="text-sm font-black text-[#111817] dark:text-white">Javelin</span>
+                                                <span class="text-[10px] text-primary font-bold uppercase">Throws</span>
+                                            </div>
+                                        </td>
+                                        <td class="px-6 py-5">
+                                            <span
+                                                class="text-lg font-black text-[#111817] dark:text-white tabular-nums">65.40m</span>
+                                        </td>
+                                        <td class="px-6 py-5">
+                                            <div class="flex items-center gap-3">
+                                                <div
+                                                    class="size-8 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold text-xs">
+                                                    LN</div>
+                                                <span class="text-sm font-bold text-[#111817] dark:text-white">Lukas
+                                                    Nowak</span>
+                                            </div>
+                                        </td>
+                                        <td class="px-6 py-5 text-center">
+                                            <span class="text-sm font-medium text-[#618986]">12.05.2023</span>
+                                        </td>
+                                        <td class="px-6 py-5">
+                                            <span class="text-sm font-medium text-[#111817] dark:text-white">Essen,
+                                                DE</span>
+                                        </td>
+                                        <td class="px-6 py-5 text-right">
+                                            <span
+                                                class="text-[10px] font-bold py-1 px-2 rounded-full bg-primary/10 text-primary uppercase">New
+                                                Record</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- Footer Content -->
+                    <div class="p-4 mt-8 bg-background-light dark:bg-white/5 rounded-2xl mx-4 mb-20">
+                        <div class="flex flex-col md:flex-row items-center justify-between gap-6 p-6">
+                            <div class="flex-1">
+                                <h3 class="text-xl font-bold text-[#111817] dark:text-white">Leistung nicht in der
+                                    Liste?</h3>
+                                <p class="text-[#618986] text-sm mt-1">Wenn du ein Ergebnis erzielt hast, das für unsere
+                                    Bestenlisten oder Rekorde in Frage kommt, sende uns bitte den Link zur offiziellen
+                                    Ergebnisliste zur Verifizierung.</p>
+                            </div>
+                            <button
+                                class="flex min-w-[180px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-[#111817] dark:bg-white text-white dark:text-[#111817] text-sm font-bold transition-transform active:scale-95 shadow-lg">
+                                Statistiker kontaktieren
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <!-- Bottom Sticky Mobile Nav (Optional visual element) -->
+            <footer></footer>
+        </div>
+    </div>
+</body>
+
+</html>

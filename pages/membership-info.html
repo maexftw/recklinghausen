@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html class="light" lang="de">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>RLC 1952 - Membership Application</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Montserrat:wght@700;900&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <script src="../assets/js/components.js"></script>
+    <style>
+        body {
+            font-family: 'Lexend', sans-serif;
+        }
+
+        .custom-radio:checked+label {
+            border-color: #00B29A;
+            background-color: rgba(0, 178, 154, 0.1);
+        }
+    </style>
+</head>
+
+<body
+    class="bg-background-light dark:bg-background-dark min-h-screen text-[#111817] dark:text-white transition-colors duration-200">
+    <!-- Top Navigation Bar -->
+    <header></header>
+    <main class="max-w-[800px] mx-auto px-4 py-8 md:py-12 pb-32">
+        <!-- Progress Bar -->
+        <div class="mb-10 flex flex-col gap-3">
+            <div class="flex justify-between items-end">
+                <div>
+                    <h2 class="text-3xl font-black tracking-tight dark:text-white">Mitgliedsantrag</h2>
+                    <p class="text-[#618986] mt-1">Werde Teil der RLC 1952 Leichtathletik-Gemeinschaft.</p>
+                </div>
+                <div class="text-right">
+                    <p class="text-sm font-bold text-primary uppercase tracking-widest">Fortschritt: 45%</p>
+                </div>
+            </div>
+            <div class="h-2 w-full bg-[#dbe6e5] dark:bg-white/10 rounded-full overflow-hidden">
+                <div class="h-full bg-primary" style="width: 45%;"></div>
+            </div>
+        </div>
+        <form class="space-y-8">
+            <!-- Section: Membership Type -->
+            <section
+                class="bg-white dark:bg-white/5 p-6 rounded-xl border border-[#dbe6e5] dark:border-white/10 shadow-sm">
+                <h3 class="text-lg font-bold mb-4 flex items-center gap-2">
+                    <span class="material-symbols-outlined text-primary">groups</span>
+                    Art der Mitgliedschaft
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="relative">
+                        <input checked="" class="hidden custom-radio" id="active" name="membership_type" type="radio" />
+                        <label
+                            class="flex flex-col p-4 border-2 border-transparent bg-background-light dark:bg-white/5 rounded-xl cursor-pointer hover:border-primary/50 transition-all"
+                            for="active">
+                            <span class="font-bold">Aktiv</span>
+                            <span class="text-xs text-[#618986]">Training &amp; Wettkampf</span>
+                        </label>
+                    </div>
+                    <div class="relative">
+                        <input class="hidden custom-radio" id="passive" name="membership_type" type="radio" />
+                        <label
+                            class="flex flex-col p-4 border-2 border-transparent bg-background-light dark:bg-white/5 rounded-xl cursor-pointer hover:border-primary/50 transition-all"
+                            for="passive">
+                            <span class="font-bold">Passiv</span>
+                            <span class="text-xs text-[#618986]">Förderung des Vereins</span>
+                        </label>
+                    </div>
+                    <div class="relative">
+                        <input class="hidden custom-radio" id="youth" name="membership_type" type="radio" />
+                        <label
+                            class="flex flex-col p-4 border-2 border-transparent bg-background-light dark:bg-white/5 rounded-xl cursor-pointer hover:border-primary/50 transition-all"
+                            for="youth">
+                            <span class="font-bold">Jugend</span>
+                            <span class="text-xs text-[#618986]">Bis 18 Jahre</span>
+                        </label>
+                    </div>
+                </div>
+            </section>
+            <!-- Section: Personal Data -->
+            <section
+                class="bg-white dark:bg-white/5 p-6 rounded-xl border border-[#dbe6e5] dark:border-white/10 shadow-sm">
+                <h3 class="text-lg font-bold mb-6 flex items-center gap-2">
+                    <span class="material-symbols-outlined text-primary">person</span>
+                    Persönliche Daten
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <label class="flex flex-col gap-2">
+                        <span class="text-sm font-semibold">Vorname</span>
+                        <input
+                            class="rounded-lg border-[#dbe6e5] dark:bg-background-dark dark:border-white/10 focus:border-primary focus:ring-primary/20 h-12"
+                            placeholder="z.B. Max" type="text" />
+                    </label>
+                    <label class="flex flex-col gap-2">
+                        <span class="text-sm font-semibold">Nachname</span>
+                        <input
+                            class="rounded-lg border-[#dbe6e5] dark:bg-background-dark dark:border-white/10 focus:border-primary focus:ring-primary/20 h-12"
+                            placeholder="z.B. Mustermann" type="text" />
+                    </label>
+                    <label class="flex flex-col gap-2">
+                        <span class="text-sm font-semibold">Geburtsdatum</span>
+                        <input
+                            class="rounded-lg border-[#dbe6e5] dark:bg-background-dark dark:border-white/10 focus:border-primary focus:ring-primary/20 h-12"
+                            type="date" />
+                    </label>
+                    <label class="flex flex-col gap-2">
+                        <span class="text-sm font-semibold">E-Mail</span>
+                        <input
+                            class="rounded-lg border-[#dbe6e5] dark:bg-background-dark dark:border-white/10 focus:border-primary focus:ring-primary/20 h-12"
+                            placeholder="max@beispiel.de" type="email" />
+                    </label>
+                    <div class="md:col-span-2">
+                        <label class="flex flex-col gap-2">
+                            <span class="text-sm font-semibold">Straße &amp; Hausnummer</span>
+                            <input
+                                class="rounded-lg border-[#dbe6e5] dark:bg-background-dark dark:border-white/10 focus:border-primary focus:ring-primary/20 h-12"
+                                placeholder="Beispielstraße 123" type="text" />
+                        </label>
+                    </div>
+                    <label class="flex flex-col gap-2">
+                        <span class="text-sm font-semibold">PLZ</span>
+                        <input
+                            class="rounded-lg border-[#dbe6e5] dark:bg-background-dark dark:border-white/10 focus:border-primary focus:ring-primary/20 h-12"
+                            placeholder="45657" type="text" />
+                    </label>
+                    <label class="flex flex-col gap-2">
+                        <span class="text-sm font-semibold">Ort</span>
+                        <input
+                            class="rounded-lg border-[#dbe6e5] dark:bg-background-dark dark:border-white/10 focus:border-primary focus:ring-primary/20 h-12"
+                            placeholder="Recklinghausen" type="text" />
+                    </label>
+                </div>
+            </section>
+            <!-- Section: Bank Details -->
+            <section
+                class="bg-white dark:bg-white/5 p-6 rounded-xl border border-[#dbe6e5] dark:border-white/10 shadow-sm">
+                <h3 class="text-lg font-bold mb-4 flex items-center gap-2">
+                    <span class="material-symbols-outlined text-primary">account_balance</span>
+                    Bankverbindung (SEPA)
+                </h3>
+                <p class="text-sm text-[#618986] mb-6">Der Mitgliedsbeitrag wird jährlich per Lastschrift eingezogen.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="md:col-span-2">
+                        <label class="flex flex-col gap-2">
+                            <span class="text-sm font-semibold">Kontoinhaber</span>
+                            <input
+                                class="rounded-lg border-[#dbe6e5] dark:bg-background-dark dark:border-white/10 focus:border-primary focus:ring-primary/20 h-12"
+                                placeholder="Name des Inhabers" type="text" />
+                        </label>
+                    </div>
+                    <div class="md:col-span-2">
+                        <label class="flex flex-col gap-2">
+                            <span class="text-sm font-semibold">IBAN</span>
+                            <input
+                                class="rounded-lg border-[#dbe6e5] dark:bg-background-dark dark:border-white/10 focus:border-primary focus:ring-primary/20 h-12"
+                                placeholder="DE00 0000 0000 0000 0000 00" type="text" />
+                        </label>
+                    </div>
+                </div>
+            </section>
+            <!-- Section: Consents -->
+            <section
+                class="bg-white dark:bg-white/5 p-6 rounded-xl border border-[#dbe6e5] dark:border-white/10 shadow-sm">
+                <h3 class="text-lg font-bold mb-6 flex items-center gap-2">
+                    <span class="material-symbols-outlined text-primary">gavel</span>
+                    Rechtliches &amp; Datenschutz
+                </h3>
+                <div class="space-y-4">
+                    <label class="flex gap-4 items-start cursor-pointer group">
+                        <div class="mt-1">
+                            <input
+                                class="size-5 rounded text-primary focus:ring-primary border-[#dbe6e5] dark:bg-background-dark dark:border-white/10"
+                                type="checkbox" />
+                        </div>
+                        <div class="flex flex-col">
+                            <span
+                                class="text-sm font-semibold group-hover:text-primary transition-colors">Datenschutzbestimmungen</span>
+                            <span class="text-xs text-[#618986]">Ich habe die Datenschutzerklärung gelesen und
+                                akzeptiere diese. Meine Daten werden nur für Vereinszwecke gespeichert.</span>
+                        </div>
+                    </label>
+                    <label class="flex gap-4 items-start cursor-pointer group">
+                        <div class="mt-1">
+                            <input
+                                class="size-5 rounded text-primary focus:ring-primary border-[#dbe6e5] dark:bg-background-dark dark:border-white/10"
+                                type="checkbox" />
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="text-sm font-semibold group-hover:text-primary transition-colors">Foto- &amp;
+                                Videoerlaubnis</span>
+                            <span class="text-xs text-[#618986]">Ich bin damit einverstanden, dass Fotos von sportlichen
+                                Ereignissen auf der Vereinswebseite veröffentlicht werden dürfen.</span>
+                        </div>
+                    </label>
+                    <label class="flex gap-4 items-start cursor-pointer group">
+                        <div class="mt-1">
+                            <input
+                                class="size-5 rounded text-primary focus:ring-primary border-[#dbe6e5] dark:bg-background-dark dark:border-white/10"
+                                type="checkbox" />
+                        </div>
+                        <div class="flex flex-col">
+                            <span
+                                class="text-sm font-semibold group-hover:text-primary transition-colors">Vereinssatzung</span>
+                            <span class="text-xs text-[#618986]">Ich erkenne die Satzung des RLC 1952 in ihrer aktuellen
+                                Fassung an.</span>
+                        </div>
+                    </label>
+                </div>
+            </section>
+        </form>
+    </main>
+    <!-- Sticky Bottom Action Bar -->
+    <footer></footer>
+</body>
+
+</html>

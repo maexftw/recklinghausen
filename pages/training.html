@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<html class="light" lang="de">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Trainingsplan | RLC 1952</title>
+    <meta name="description"
+        content="Der aktuelle Trainingsplan des Recklinghäuser Leichtathletik Clubs 1952 e.V. Finden Sie alle Trainingszeiten für U12, U14, U16, U18 und Erwachsene in Recklinghausen.">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Montserrat:wght@700;900&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <script src="../assets/js/components.js"></script>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark text-[#111817] dark:text-white min-h-screen">
+    <!-- Top Navigation Bar -->
+    <header></header>
+    <main class="max-w-[1200px] mx-auto px-4 md:px-10 lg:px-40 py-10">
+        <!-- Page Heading -->
+        <div class="mb-10">
+            <h1 class="text-4xl font-black leading-tight tracking-[-0.033em] mb-2">Trainingsplan</h1>
+            <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                <p class="text-[#618986] text-base font-normal">Aktueller Sommerplan 2024 für alle Altersklassen und
+                    Disziplinen</p>
+                <div class="flex items-center gap-2 text-sm font-medium text-[#618986]">
+                    <span class="material-symbols-outlined">calendar_today</span>
+                    Zuletzt aktualisiert: 15. Mai 2024
+                </div>
+            </div>
+        </div>
+        <!-- Filters Section -->
+        <div
+            class="bg-white dark:bg-[#1a2e2c] p-4 rounded-xl shadow-sm border border-[#e5eaea] dark:border-[#2a3c3a] mb-8">
+            <div class="flex flex-col gap-4">
+                <div class="flex flex-wrap items-center gap-3">
+                    <span
+                        class="text-xs font-bold uppercase tracking-wider text-[#618986] w-full lg:w-auto mb-1 lg:mb-0">Altersgruppen</span>
+                    <div class="flex gap-2 flex-wrap">
+                        <button
+                            class="flex h-9 items-center gap-2 rounded-lg bg-primary text-[#111817] px-4 text-sm font-semibold">Alle</button>
+                        <button
+                            class="flex h-9 items-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] text-[#111817] dark:text-white px-4 text-sm font-medium hover:bg-primary/20 transition-colors">U12</button>
+                        <button
+                            class="flex h-9 items-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] text-[#111817] dark:text-white px-4 text-sm font-medium hover:bg-primary/20 transition-colors">U14</button>
+                        <button
+                            class="flex h-9 items-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] text-[#111817] dark:text-white px-4 text-sm font-medium hover:bg-primary/20 transition-colors">U16</button>
+                        <button
+                            class="flex h-9 items-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] text-[#111817] dark:text-white px-4 text-sm font-medium hover:bg-primary/20 transition-colors">U18</button>
+                        <button
+                            class="flex h-9 items-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] text-[#111817] dark:text-white px-4 text-sm font-medium hover:bg-primary/20 transition-colors">Erwachsene</button>
+                    </div>
+                </div>
+                <div class="h-px bg-[#e5eaea] dark:bg-[#2a3c3a] w-full"></div>
+                <div class="flex flex-wrap items-center gap-3">
+                    <span
+                        class="text-xs font-bold uppercase tracking-wider text-[#618986] w-full lg:w-auto mb-1 lg:mb-0">Disziplinen</span>
+                    <div class="flex gap-2 flex-wrap">
+                        <button
+                            class="flex h-9 items-center gap-2 rounded-lg bg-primary text-[#111817] px-4 text-sm font-semibold">Alle</button>
+                        <button
+                            class="flex h-9 items-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] px-4 text-sm font-medium hover:bg-primary/20 transition-colors">Sprint</button>
+                        <button
+                            class="flex h-9 items-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] px-4 text-sm font-medium hover:bg-primary/20 transition-colors">Weitsprung</button>
+                        <button
+                            class="flex h-9 items-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] px-4 text-sm font-medium hover:bg-primary/20 transition-colors">Hürden</button>
+                        <button
+                            class="flex h-9 items-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] px-4 text-sm font-medium hover:bg-primary/20 transition-colors">Ausdauer</button>
+                        <button
+                            class="flex h-9 items-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] px-4 text-sm font-medium hover:bg-primary/20 transition-colors">Fitness</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Weekly Schedule Grid -->
+        <div
+            class="bg-white dark:bg-[#1a2e2c] rounded-xl shadow-sm border border-[#e5eaea] dark:border-[#2a3c3a] overflow-hidden">
+            <div class="grid grid-cols-1 md:grid-cols-7 border-b border-[#e5eaea] dark:border-[#2a3c3a]">
+                <!-- Day Header -->
+                <div class="px-4 py-3 text-center border-r border-[#e5eaea] dark:border-[#2a3c3a] bg-primary/5">
+                    <p class="text-xs font-bold uppercase text-[#618986]">Mon</p>
+                </div>
+                <div class="px-4 py-3 text-center border-r border-[#e5eaea] dark:border-[#2a3c3a]">
+                    <p class="text-xs font-bold uppercase text-[#618986]">Die</p>
+                </div>
+                <div class="px-4 py-3 text-center border-r border-[#e5eaea] dark:border-[#2a3c3a]">
+                    <p class="text-xs font-bold uppercase text-[#618986]">Mit</p>
+                </div>
+                <div class="px-4 py-3 text-center border-r border-[#e5eaea] dark:border-[#2a3c3a]">
+                    <p class="text-xs font-bold uppercase text-[#618986]">Don</p>
+                </div>
+                <div class="px-4 py-3 text-center border-r border-[#e5eaea] dark:border-[#2a3c3a]">
+                    <p class="text-xs font-bold uppercase text-[#618986]">Fre</p>
+                </div>
+                <div
+                    class="px-4 py-3 text-center border-r border-[#e5eaea] dark:border-[#2a3c3a] bg-gray-50 dark:bg-black/10">
+                    <p class="text-xs font-bold uppercase text-[#618986]">Sam</p>
+                </div>
+                <div class="px-4 py-3 text-center bg-gray-50 dark:bg-black/10">
+                    <p class="text-xs font-bold uppercase text-[#618986]">Son</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-7 min-h-[600px]">
+                <!-- Monday -->
+                <div class="p-2 border-r border-[#e5eaea] dark:border-[#2a3c3a] flex flex-col gap-3">
+                    <div class="p-3 bg-primary/10 border-l-4 border-primary rounded-lg">
+                        <p class="text-[10px] font-bold text-primary mb-1 uppercase tracking-tight">16:30 - 18:00</p>
+                        <p class="text-xs font-bold mb-1">U12 Fitness</p>
+                        <p class="text-[10px] text-[#618986] flex items-center gap-1 mb-1">
+                            <span class="material-symbols-outlined !text-[12px]">location_on</span> Stadion
+                        </p>
+                        <p class="text-[10px] font-medium text-[#111817] dark:text-white/70">Tr: Schmidt</p>
+                    </div>
+                    <div class="p-3 bg-primary/10 border-l-4 border-primary rounded-lg">
+                        <p class="text-[10px] font-bold text-primary mb-1 uppercase tracking-tight">18:00 - 19:30</p>
+                        <p class="text-xs font-bold mb-1">U16 Sprint</p>
+                        <p class="text-[10px] text-[#618986] flex items-center gap-1 mb-1">
+                            <span class="material-symbols-outlined !text-[12px]">location_on</span> Stadion
+                        </p>
+                        <p class="text-[10px] font-medium text-[#111817] dark:text-white/70">Tr: Müller</p>
+                    </div>
+                </div>
+                <!-- Tuesday -->
+                <div class="p-2 border-r border-[#e5eaea] dark:border-[#2a3c3a] flex flex-col gap-3">
+                    <div class="p-3 bg-[#f0f4f4] dark:bg-[#2a3c3a] border-l-4 border-[#618986] rounded-lg">
+                        <p class="text-[10px] font-bold text-[#618986] mb-1 uppercase tracking-tight">18:00 - 19:30</p>
+                        <p class="text-xs font-bold mb-1">Erw. Fitness</p>
+                        <p class="text-[10px] text-[#618986] flex items-center gap-1 mb-1">
+                            <span class="material-symbols-outlined !text-[12px]">home_work</span> Halle Süd
+                        </p>
+                        <p class="text-[10px] font-medium text-[#111817] dark:text-white/70">Tr: Wagner</p>
+                    </div>
+                    <div class="p-3 bg-primary/10 border-l-4 border-primary rounded-lg">
+                        <p class="text-[10px] font-bold text-primary mb-1 uppercase tracking-tight">17:00 - 18:30</p>
+                        <p class="text-xs font-bold mb-1">U18 Sprung</p>
+                        <p class="text-[10px] text-[#618986] flex items-center gap-1 mb-1">
+                            <span class="material-symbols-outlined !text-[12px]">location_on</span> Stadion
+                        </p>
+                        <p class="text-[10px] font-medium text-[#111817] dark:text-white/70">Tr: Klein</p>
+                    </div>
+                </div>
+                <!-- Wednesday -->
+                <div class="p-2 border-r border-[#e5eaea] dark:border-[#2a3c3a] flex flex-col gap-3">
+                    <div class="p-3 bg-primary/10 border-l-4 border-primary rounded-lg">
+                        <p class="text-[10px] font-bold text-primary mb-1 uppercase tracking-tight">16:30 - 18:00</p>
+                        <p class="text-xs font-bold mb-1">U14 Sprint</p>
+                        <p class="text-[10px] text-[#618986] flex items-center gap-1 mb-1">
+                            <span class="material-symbols-outlined !text-[12px]">location_on</span> Stadion
+                        </p>
+                        <p class="text-[10px] font-medium text-[#111817] dark:text-white/70">Tr: Weber</p>
+                    </div>
+                </div>
+                <!-- Thursday -->
+                <div class="p-2 border-r border-[#e5eaea] dark:border-[#2a3c3a] flex flex-col gap-3">
+                    <div class="p-3 bg-primary/10 border-l-4 border-primary rounded-lg">
+                        <p class="text-[10px] font-bold text-primary mb-1 uppercase tracking-tight">18:00 - 19:30</p>
+                        <p class="text-xs font-bold mb-1">U16 Hürden</p>
+                        <p class="text-[10px] text-[#618986] flex items-center gap-1 mb-1">
+                            <span class="material-symbols-outlined !text-[12px]">location_on</span> Stadion
+                        </p>
+                        <p class="text-[10px] font-medium text-[#111817] dark:text-white/70">Tr: Müller</p>
+                    </div>
+                    <div class="p-3 bg-[#f0f4f4] dark:bg-[#2a3c3a] border-l-4 border-[#618986] rounded-lg">
+                        <p class="text-[10px] font-bold text-[#618986] mb-1 uppercase tracking-tight">19:00 - 20:30</p>
+                        <p class="text-xs font-bold mb-1">Erw. Sprint</p>
+                        <p class="text-[10px] text-[#618986] flex items-center gap-1 mb-1">
+                            <span class="material-symbols-outlined !text-[12px]">location_on</span> Stadion
+                        </p>
+                        <p class="text-[10px] font-medium text-[#111817] dark:text-white/70">Tr: Müller</p>
+                    </div>
+                </div>
+                <!-- Friday -->
+                <div class="p-2 border-r border-[#e5eaea] dark:border-[#2a3c3a] flex flex-col gap-3">
+                    <div class="p-3 bg-primary/10 border-l-4 border-primary rounded-lg">
+                        <p class="text-[10px] font-bold text-primary mb-1 uppercase tracking-tight">16:30 - 18:00</p>
+                        <p class="text-xs font-bold mb-1">U12 Fitness</p>
+                        <p class="text-[10px] text-[#618986] flex items-center gap-1 mb-1">
+                            <span class="material-symbols-outlined !text-[12px]">location_on</span> Stadion
+                        </p>
+                        <p class="text-[10px] font-medium text-[#111817] dark:text-white/70">Tr: Schmidt</p>
+                    </div>
+                    <div class="p-3 bg-primary/10 border-l-4 border-primary rounded-lg">
+                        <p class="text-[10px] font-bold text-primary mb-1 uppercase tracking-tight">17:00 - 18:30</p>
+                        <p class="text-xs font-bold mb-1">U18/Erw.</p>
+                        <p class="text-[10px] text-[#618986] flex items-center gap-1 mb-1">
+                            <span class="material-symbols-outlined !text-[12px]">location_on</span> Stadion
+                        </p>
+                        <p class="text-[10px] font-medium text-[#111817] dark:text-white/70">Tr: Klein</p>
+                    </div>
+                </div>
+                <!-- Saturday -->
+                <div
+                    class="p-2 border-r border-[#e5eaea] dark:border-[#2a3c3a] bg-gray-50 dark:bg-black/10 flex flex-col gap-3">
+                    <div class="p-3 bg-primary/10 border-l-4 border-primary rounded-lg">
+                        <p class="text-[10px] font-bold text-primary mb-1 uppercase tracking-tight">10:00 - 11:30</p>
+                        <p class="text-xs font-bold mb-1">U14/16 Ausdauer</p>
+                        <p class="text-[10px] text-[#618986] flex items-center gap-1 mb-1">
+                            <span class="material-symbols-outlined !text-[12px]">park</span> Stadtwald
+                        </p>
+                        <p class="text-[10px] font-medium text-[#111817] dark:text-white/70">Tr: Becker</p>
+                    </div>
+                </div>
+                <!-- Sunday -->
+                <div class="p-2 bg-gray-50 dark:bg-black/10 flex flex-col items-center justify-center text-center">
+                    <p class="text-[#618986] text-xs font-medium italic">Kein reguläres Training</p>
+                </div>
+            </div>
+        </div>
+        <!-- Special Notices Section -->
+        <div class="mt-12">
+            <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
+                <span class="material-symbols-outlined text-amber-500">campaign</span>
+                Besondere Hinweise
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- Warning/Cancellation -->
+                <div
+                    class="flex items-start gap-4 p-5 bg-red-50 dark:bg-red-900/10 border border-red-100 dark:border-red-900/30 rounded-xl">
+                    <div class="bg-red-500 text-white rounded-full p-1 shrink-0">
+                        <span class="material-symbols-outlined !text-[18px]">close</span>
+                    </div>
+                    <div>
+                        <p class="text-sm font-bold text-red-900 dark:text-red-400 mb-1">Trainingsausfall: U12 Sprint
+                        </p>
+                        <p class="text-sm text-red-700 dark:text-red-300">Am Mittwoch, den 22.05., fällt das
+                            Sprint-Training der U12 aufgrund einer Fortbildung des Trainers aus.</p>
+                    </div>
+                </div>
+                <!-- General Info -->
+                <div
+                    class="flex items-start gap-4 p-5 bg-blue-50 dark:bg-blue-900/10 border border-blue-100 dark:border-blue-900/30 rounded-xl">
+                    <div class="bg-blue-500 text-white rounded-full p-1 shrink-0">
+                        <span class="material-symbols-outlined !text-[18px]">info</span>
+                    </div>
+                    <div>
+                        <p class="text-sm font-bold text-blue-900 dark:text-blue-400 mb-1">Pfingstferien 2024</p>
+                        <p class="text-sm text-blue-700 dark:text-blue-300">In der ersten Pfingstferienwoche findet kein
+                            Training für die U10 und U12 statt. Alle anderen Gruppen trainieren nach Plan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer></footer>
+</body>
+
+</html>

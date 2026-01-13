@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="de"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>RLC 1952 - Recklinghäuser Leichtathletik Club</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Montserrat:wght@700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#00B29A", // Modernized Teal from RLC Logo
+                        "background-light": "#F9FAFB",
+                        "background-dark": "#111827",
+                    },
+                    fontFamily: {
+                        display: ["Montserrat", "sans-serif"],
+                        sans: ["Inter", "sans-serif"],
+                    },
+                    borderRadius: {
+                        DEFAULT: "0.5rem",
+                    },
+                },
+            },
+        };
+    </script>
+<style>
+        .glass-nav {
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            background-color: rgba(255, 255, 255, 0.85);
+        }
+        .dark .glass-nav {
+            background-color: rgba(17, 24, 39, 0.85);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-sans transition-colors duration-300">
+<header class="fixed top-0 w-full z-50 glass-nav border-b border-slate-200 dark:border-slate-800">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center h-20">
+<div class="flex items-center space-x-3">
+<div class="flex items-center gap-2">
+<span class="material-icons-round text-primary text-4xl">directions_run</span>
+<div class="flex flex-col leading-tight">
+<span class="font-display font-black text-2xl tracking-tighter text-slate-900 dark:text-white">RLC<span class="text-primary">1952</span></span>
+<span class="text-[10px] uppercase tracking-widest font-semibold opacity-60">Recklinghausen</span>
+</div>
+</div>
+</div>
+<nav class="hidden lg:flex items-center space-x-8">
+<a class="text-primary font-bold hover:text-primary transition-colors" href="#">Home</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">News</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Events</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Training</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Verein</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Fotos</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Kontakt</a>
+</nav>
+<div class="flex items-center space-x-4">
+<button class="bg-primary hover:bg-opacity-90 text-white px-5 py-2.5 rounded-full font-bold text-sm transition-all transform hover:scale-105 shadow-lg shadow-primary/20">
+                        Mitmachen
+                    </button>
+<button class="lg:hidden p-2 text-slate-600 dark:text-slate-400">
+<span class="material-icons-round">menu</span>
+</button>
+</div>
+</div>
+</div>
+</header>
+<section class="relative pt-20 overflow-hidden bg-slate-900">
+<div class="absolute inset-0 opacity-40">
+<img alt="Athletes on a running track" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDwQwdd7uIAbyPk13ndW2rswSVdHtwl7m8KzZ09eGwWWcKKb8FCwiCrPvLTRc6NS0YC6XuRYqij7cLLhwryr1Q7qbKjOZOeWRrOomOJZ45XCi-XECu2cLYYEkMpQZP49_wHswINA-2IBggqdINZfVjENeHAvCfs8ZEVs7FMNFcKl1ab_nzj8VsQz6MP5Tf0NS6AjHlG-08FG5aBpOiZX49miIAXx6iTwyv2XGOZuftFStx_CU1ub_YLoIT2pIJz9Dq9BRZ1H7-l8bK"/>
+</div>
+<div class="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/60 to-transparent"></div>
+<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 flex flex-col items-start justify-center min-h-[600px]">
+<span class="bg-primary/20 border border-primary text-primary px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest mb-6">
+                Leidenschaft seit 1952
+            </span>
+<h1 class="font-display text-4xl md:text-6xl lg:text-7xl font-black text-white max-w-2xl leading-[1.1] mb-6">
+                Schneller, Höher, <span class="text-primary">Weiter.</span>
+</h1>
+<p class="text-slate-300 text-lg md:text-xl max-w-xl mb-10 leading-relaxed">
+                Der Recklinghäuser Leichtathletik Club bietet professionelles Training, Teamgeist und Spitzenförderung für alle Altersklassen.
+            </p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-primary text-white px-8 py-4 rounded-xl font-bold text-lg hover:shadow-xl hover:shadow-primary/30 transition-all">
+                    Probetraining vereinbaren
+                </button>
+<button class="bg-white/10 backdrop-blur-md text-white border border-white/20 px-8 py-4 rounded-xl font-bold text-lg hover:bg-white hover:text-slate-900 transition-all">
+                    Aktuelle Termine
+                </button>
+</div>
+</div>
+</section>
+<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<div class="lg:col-span-8 space-y-12">
+<div class="flex justify-between items-end border-b border-slate-200 dark:border-slate-800 pb-4">
+<div>
+<h2 class="font-display text-3xl font-black uppercase tracking-tight">Aktuelles</h2>
+<p class="text-slate-500 dark:text-slate-400 mt-1">Berichte und Ergebnisse aus dem Club</p>
+</div>
+<div class="flex space-x-2 pb-1">
+<button class="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 hover:text-primary transition-colors"><span class="material-icons-round">chevron_left</span></button>
+<button class="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 hover:text-primary transition-colors"><span class="material-icons-round">chevron_right</span></button>
+</div>
+</div>
+<article class="group grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
+<div class="md:col-span-5 overflow-hidden rounded-2xl shadow-lg">
+<img alt="News event 1" class="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQzPjTRVjhxDwFuhBmUbdGb8Nyy7LeELZVB11vx4Prty_8p1bmq1kXSy-fS4PoTNcI-ACu_X27qvgite238M6q3ApenPlPTWzo6hbhTY2P0bExOkOFtW5NVKMfXlM5ap0qFGki57EoJtV11vPKlodo2_RqhonSgieUivhnpRZEaILDWyz795GPLBTE_iX6snPFFgzQ5O9OZ5HIifz7vNFLUpD5_SCHU1pLUMUTEfXAJ00CwYRLKVUvyn4p4YapKvVas8syT6g10Le6"/>
+</div>
+<div class="md:col-span-7 space-y-3">
+<div class="flex items-center space-x-3 text-sm text-slate-500 font-semibold uppercase tracking-wider">
+<span class="text-primary">06. Januar 2026</span>
+<span>•</span>
+<span>Wettkämpfe</span>
+</div>
+<h3 class="text-2xl font-bold leading-tight group-hover:text-primary transition-colors">Neues Jahr - Neue Qualis Teil 2</h3>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed">
+                            Auch die Senioren starteten in die neue Wettkampfsaison mit einem Top-Ergebnis. Aus dem vollen Training heraus startete Arne Wendler am 04.01.2026 bei einem Hallenwettkampf in Luxemburg über die 60m...
+                        </p>
+<a class="inline-flex items-center font-bold text-primary group/link" href="#">
+                            Weiterlesen <span class="material-icons-round text-sm ml-1 group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</article>
+<article class="group grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
+<div class="md:col-span-5 overflow-hidden rounded-2xl shadow-lg">
+<img alt="News event 2" class="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCAf7HcS3FkbNXmvATC9zFWJekCuTPD3wuF1LCjgZcUWOYt9Bfgyqn6n1-ZiOGvmxwevU-KbPYJ3DXveVbqZAxQi2GD0QgHGpFjQ8slBhSVokFahPdOkxc1dA9jDU-1LiTnUWmaHhCrz7KnU83G2pJunJ_3_AlEUnOnsCKoHU59SwQWMQ5rpsa4EnDZ-QGe12UfxaHbP2pfb3FWeT_yITXYn4zVu96wFFuWBt6xc31dyutaszP6_B5rS99EDm1-cVUNqEe6DqOHjrFn"/>
+</div>
+<div class="md:col-span-7 space-y-3">
+<div class="flex items-center space-x-3 text-sm text-slate-500 font-semibold uppercase tracking-wider">
+<span class="text-primary">06. Januar 2026</span>
+<span>•</span>
+<span>Jugend</span>
+</div>
+<h3 class="text-2xl font-bold leading-tight group-hover:text-primary transition-colors">Neues Jahr - Neue Qualis Teil 1</h3>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed">
+                            Den ersten Wettkampf des neuen Jahres 2026 absolvierten die Athletinnen und Athleten der Wettkampfgruppe U18+ in Dortmund beim New Year Indoor in der Helmut-Körnig-Halle...
+                        </p>
+<a class="inline-flex items-center font-bold text-primary group/link" href="#">
+                            Weiterlesen <span class="material-icons-round text-sm ml-1 group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</article>
+<article class="group grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
+<div class="md:col-span-5 overflow-hidden rounded-2xl shadow-lg">
+<img alt="News event 3" class="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDFO5O8MifH_CfE-I7pApxiauvKqM-Z6riKp-S0om5IHjEkj5CuIxHJvooJptua4uvHmR5G_007_b1SQ0BjETHfAABST1HTc9iye6Xspe32AZG2Bb1YrfMX51zQCoNMt8MsyMNCQopw9P8ldaBrGczH1ZDKQR737pyEvrUXeFlOxgn7ziSDvuG09GHs4LEN5s_fwThIXc0RftZbzKPPu1_amr3FojY7Q1PeMHgvNtxIosgI8auKRMYSx3nW8kl9ALyuWwufQ4CRVueE"/>
+</div>
+<div class="md:col-span-7 space-y-3">
+<div class="flex items-center space-x-3 text-sm text-slate-500 font-semibold uppercase tracking-wider">
+<span class="text-primary">15. Dezember 2025</span>
+<span>•</span>
+<span>Adventscup</span>
+</div>
+<h3 class="text-2xl font-bold leading-tight group-hover:text-primary transition-colors">Recklinghäuser LC glänzt beim Junior-Adventscup</h3>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed">
+                            Beim Junior-Adventscup in der Helmut-Körnig-Halle am 13. Dezember 2025 präsentierte sich der Nachwuchs des Recklinghäuser LC in starker Form. Mit persönlichen Bestleistungen...
+                        </p>
+<a class="inline-flex items-center font-bold text-primary group/link" href="#">
+                            Weiterlesen <span class="material-icons-round text-sm ml-1 group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</article>
+</div>
+<aside class="lg:col-span-4 space-y-12">
+<div class="bg-slate-100 dark:bg-slate-900/50 p-8 rounded-3xl border border-slate-200 dark:border-slate-800">
+<h3 class="font-display font-bold text-xl mb-6 flex items-center">
+<span class="material-icons-round text-primary mr-2">event</span> Nächste Termine
+                    </h3>
+<div class="space-y-6">
+<div class="flex items-start space-x-4">
+<div class="bg-white dark:bg-slate-800 p-2 rounded-xl text-center min-w-[60px] shadow-sm">
+<span class="block text-xs uppercase font-bold text-slate-400">Feb</span>
+<span class="block text-xl font-black text-primary">12</span>
+</div>
+<div>
+<h4 class="font-bold text-sm">Hallen-Meeting Dortmund</h4>
+<p class="text-xs text-slate-500 mt-1">Helmut-Körnig-Halle, 10:00 Uhr</p>
+</div>
+</div>
+<div class="flex items-start space-x-4">
+<div class="bg-white dark:bg-slate-800 p-2 rounded-xl text-center min-w-[60px] shadow-sm">
+<span class="block text-xs uppercase font-bold text-slate-400">Mär</span>
+<span class="block text-xl font-black text-primary">05</span>
+</div>
+<div>
+<h4 class="font-bold text-sm">Jahreshauptversammlung</h4>
+<p class="text-xs text-slate-500 mt-1">Vereinsheim, 18:30 Uhr</p>
+</div>
+</div>
+</div>
+<button class="w-full mt-8 py-3 bg-slate-900 dark:bg-white dark:text-slate-900 text-white font-bold rounded-xl text-sm">Alle Termine</button>
+</div>
+<div>
+<h3 class="font-display font-bold text-sm uppercase tracking-widest text-slate-400 mb-8 border-b border-slate-200 dark:border-slate-800 pb-2">Unsere Partner</h3>
+<div class="space-y-6">
+<div class="bg-white dark:bg-slate-800 p-6 rounded-2xl flex flex-col items-center justify-center border border-slate-100 dark:border-slate-700 shadow-sm transition-transform hover:-translate-y-1">
+<span class="text-[10px] text-slate-400 uppercase font-bold mb-2">by Lückenotto</span>
+<div class="text-2xl font-black tracking-tighter text-[#1b4353]">
+<span class="text-primary">body</span>nostic
+                            </div>
+<p class="text-[9px] uppercase tracking-[0.2em] font-medium text-slate-500 mt-1">Das Bewegungslabor</p>
+</div>
+<div class="bg-white dark:bg-slate-800 p-6 rounded-2xl flex items-center space-x-4 border border-slate-100 dark:border-slate-700 shadow-sm transition-transform hover:-translate-y-1">
+<div class="bg-blue-600 w-12 h-12 rounded-full flex items-center justify-center shrink-0">
+<span class="material-icons-round text-white">public</span>
+</div>
+<div>
+<p class="text-[9px] uppercase font-bold text-slate-400">Gefördert durch den</p>
+<p class="font-display font-bold text-xs uppercase text-slate-700 dark:text-slate-300">Landessportbund</p>
+<p class="text-[10px] text-slate-500">Nordrhein-Westfalen</p>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-primary p-8 rounded-3xl text-white relative overflow-hidden group">
+<div class="absolute -right-10 -bottom-10 opacity-20 group-hover:scale-110 transition-transform">
+<span class="material-icons-round text-[150px]">emoji_events</span>
+</div>
+<div class="relative z-10">
+<h3 class="font-display font-bold text-2xl mb-4">Teil des Teams werden?</h3>
+<p class="text-white/80 text-sm mb-6 leading-relaxed">Entdecke die Vielfalt der Leichtathletik und trainiere mit Profis.</p>
+<button class="bg-white text-primary px-6 py-2.5 rounded-xl font-bold text-sm">Jetzt anmelden</button>
+</div>
+</div>
+</aside>
+</div>
+</main>
+<footer class="bg-slate-900 text-white pt-20 pb-10">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+<div class="space-y-6">
+<div class="flex items-center gap-2">
+<span class="material-icons-round text-primary text-4xl">directions_run</span>
+<span class="font-display font-black text-2xl tracking-tighter">RLC<span class="text-primary">1952</span></span>
+</div>
+<p class="text-slate-400 text-sm leading-relaxed">
+                        Seit über 70 Jahren die erste Adresse für Leichtathletik in Recklinghausen. Wir fördern Talente und lieben den Sport.
+                    </p>
+<div class="flex space-x-4">
+<a class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-primary transition-colors" href="#">
+<img alt="Instagram" class="w-5 h-5 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAcwXa-K8u4azlvAKc-sU1KGW1QG-c3BLwvQYwDHEgenqvpAP3tEuHrlIFvbvC2KtS1cTcQYekVtuWHFPZ5j4zE_DE5Ph07HUFNjCf3JONQxZ0wSfZvc7nncMqvGmg4rgH6hsRVvSPusj8_2GNrqcN90SVo3cJca0IkLjyXxsPhhri1NNeUF9a-wCU2eIlMrPBX2R--T0amxyQA41jSx4_5oxVrmbQ5yC2MAclVEfpGsk9f3Cgl8ypQ9BoqvbpMm8cpJjAidXyhvUNe"/>
+</a>
+<a class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-primary transition-colors" href="#">
+<img alt="Facebook" class="w-5 h-5 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDNP9CD7lPZ8fn1EgUSNe5IHc8EQQI6D9YLHk5k5c3Tw3ZyuXmOxGzL4ajTl3DPAJFiR3dQhxhcRMT4RuBmLX_6xB6GOwBpsao9GPFPsJPYV82h3tZXpyZVZxgD4CfkIogDTEkv3N-zkoC5vWagqF8ly6w2el_9yW5vHcjBDk9cFTLT5sU7Osp80f1XXBuzQj5IPkGdJTnpKije0FoDxh7p-ZXZeCLArtS4Voo_e5LLPRMhDStg2smiydssTRcxmt1HHY_ysPvDDeac"/>
+</a>
+</div>
+</div>
+<div>
+<h4 class="font-display font-bold text-lg mb-6">Navigation</h4>
+<ul class="space-y-4 text-slate-400 text-sm">
+<li><a class="hover:text-primary transition-colors" href="#">Home</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">News &amp; Berichte</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Trainingszeiten</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Sportstätten</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Fotogalerie</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-display font-bold text-lg mb-6">Kontakt</h4>
+<ul class="space-y-4 text-slate-400 text-sm">
+<li class="flex items-start space-x-3">
+<span class="material-icons-round text-primary text-sm mt-0.5">place</span>
+<span>Hohenzollernstraße 4<br/>45659 Recklinghausen</span>
+</li>
+<li class="flex items-center space-x-3">
+<span class="material-icons-round text-primary text-sm">mail</span>
+<a class="hover:text-primary" href="mailto:info@rlc1952.de">info@rlc1952.de</a>
+</li>
+</ul>
+</div>
+<div>
+<h4 class="font-display font-bold text-lg mb-6">Newsletter</h4>
+<p class="text-slate-400 text-sm mb-4">Bleiben Sie informiert über News und Termine.</p>
+<div class="relative">
+<input class="w-full bg-slate-800 border-none rounded-xl py-3 px-4 text-sm focus:ring-2 focus:ring-primary" placeholder="E-Mail Adresse" type="email"/>
+<button class="absolute right-2 top-2 bg-primary p-1.5 rounded-lg">
+<span class="material-icons-round text-white text-sm">send</span>
+</button>
+</div>
+</div>
+</div>
+<div class="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 text-slate-500 text-xs font-semibold uppercase tracking-widest">
+<p>© 2026 Recklinghäuser Leichtathletik Club e.V.</p>
+<div class="flex space-x-8">
+<a class="hover:text-white transition-colors" href="#">Impressum</a>
+<a class="hover:text-white transition-colors" href="#">Datenschutz</a>
+<a class="hover:text-white transition-colors" href="#">Intern</a>
+</div>
+</div>
+</div>
+</footer>
+<button class="fixed bottom-6 right-6 w-12 h-12 bg-white dark:bg-slate-800 rounded-full shadow-2xl flex items-center justify-center border border-slate-200 dark:border-slate-700 z-[100] hover:scale-110 transition-transform" onclick="document.documentElement.classList.toggle('dark')">
+<span class="material-icons-round text-slate-800 dark:text-white">dark_mode</span>
+</button>
+
+</body></html>
