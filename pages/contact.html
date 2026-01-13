@@ -23,12 +23,12 @@
         <!-- Hero Section -->
         <section class="relative pt-32 pb-20 overflow-hidden bg-slate-900">
             <div class="absolute inset-0 opacity-20">
-                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDwQwdd7uIAbyPk13ndW2rswSVdHtwl7m8KzZ09eGwWWcKKb8FCwiCrPvLTRc6NS0YC6XuRYqij7cLLhwryr1Q7qbKjOZOeWRrOomOJZ45XCi-XECu2cLYYEkMpQZP49_wHswINA-2IBggqdINZfVjENeHAvCfs8ZEVs7FMNFcKl1ab_nzj8VsQz6MP5Tf0NS6AjHlG-08FG5aBpOiZX49miIAXx6iTwyv2XGOZuftFStx_CU1ub_YLoIT2pIJz9Dq9BRZ1H7-l8bK"
-                    alt="Athletics Track" class="w-full h-full object-cover">
+                <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&q=80&w=2000"
+                    alt="Athletics Track in Recklinghausen" class="w-full h-full object-cover" fetchpriority="high">
             </div>
             <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 <span
-                    class="inline-block bg-primary/20 border border-primary text-primary px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest mb-4">Kontakt</span>
+                    class="inline-block bg-primary/20 border border-primary text-primary px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest mb-4">Kontakt</span>
                 <h1 class="font-display text-4xl md:text-6xl font-black text-white mb-6">Wir sind für dich <span
                         class="text-primary">da.</span></h1>
                 <p class="text-slate-400 text-lg max-w-2xl mx-auto">Hast du Fragen zum Training, einer Mitgliedschaft
@@ -49,14 +49,14 @@
                                 <label for="first-name"
                                     class="block text-sm font-bold text-slate-500 dark:text-slate-400 mb-2 uppercase tracking-wide">Vorname</label>
                                 <input type="text" id="first-name"
-                                    class="w-full bg-slate-50 dark:bg-slate-800 border-none rounded-xl px-4 py-3 focus:ring-2 focus:ring-primary transition-all"
+                                    class="w-full bg-slate-50 dark:bg-slate-800 border-none rounded-xl px-4 py-3 min-h-[44px] focus:ring-2 focus:ring-primary transition-all"
                                     placeholder="Dein Vorname" aria-required="true">
                             </div>
                             <div>
                                 <label for="last-name"
                                     class="block text-sm font-bold text-slate-500 dark:text-slate-400 mb-2 uppercase tracking-wide">Nachname</label>
                                 <input type="text" id="last-name"
-                                    class="w-full bg-slate-50 dark:bg-slate-800 border-none rounded-xl px-4 py-3 focus:ring-2 focus:ring-primary transition-all"
+                                    class="w-full bg-slate-50 dark:bg-slate-800 border-none rounded-xl px-4 py-3 min-h-[44px] focus:ring-2 focus:ring-primary transition-all"
                                     placeholder="Dein Nachname" aria-required="true">
                             </div>
                         </div>
@@ -65,20 +65,23 @@
                                 class="block text-sm font-bold text-slate-500 dark:text-slate-400 mb-2 uppercase tracking-wide">E-Mail
                                 Adresse</label>
                             <input type="email" id="email-address"
-                                class="w-full bg-slate-50 dark:bg-slate-800 border-none rounded-xl px-4 py-3 focus:ring-2 focus:ring-primary transition-all"
+                                class="w-full bg-slate-50 dark:bg-slate-800 border-none rounded-xl px-4 py-3 min-h-[44px] focus:ring-2 focus:ring-primary transition-all"
                                 placeholder="deine@email.de" aria-required="true">
                         </div>
                         <div>
                             <label for="subject-select"
                                 class="block text-sm font-bold text-slate-500 dark:text-slate-400 mb-2 uppercase tracking-wide">Betreff</label>
-                            <select id="subject-select"
-                                class="w-full bg-slate-50 dark:bg-slate-800 border-none rounded-xl px-4 py-3 focus:ring-2 focus:ring-primary transition-all"
-                                aria-label="Betreff auswählen">
-                                <option>Allgemeine Anfrage</option>
-                                <option>Probetraining</option>
-                                <option>Mitgliedschaft</option>
-                                <option>Presse</option>
-                            </select>
+                            <div class="relative">
+                                <select id="subject-select"
+                                    class="w-full bg-slate-50 dark:bg-slate-800 border-none rounded-xl px-4 py-3 min-h-[44px] focus:ring-2 focus:ring-primary transition-all appearance-none"
+                                    aria-label="Betreff auswählen">
+                                    <option>Allgemeine Anfrage</option>
+                                    <option>Probetraining</option>
+                                    <option>Mitgliedschaft</option>
+                                    <option>Presse</option>
+                                </select>
+                                <span class="material-icons-round absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-slate-400">expand_more</span>
+                            </div>
                         </div>
                         <div>
                             <label for="message-text"
@@ -88,7 +91,7 @@
                                 placeholder="Wie können wir dir helfen?" aria-required="true"></textarea>
                         </div>
                         <button type="submit"
-                            class="w-full bg-primary hover:bg-opacity-90 text-white font-bold py-4 rounded-xl shadow-lg shadow-primary/20 transition-all transform hover:scale-[1.02]">
+                            class="w-full bg-primary hover:bg-opacity-90 text-white font-bold py-4 min-h-[44px] rounded-xl shadow-lg shadow-primary/20 transition-all transform hover:scale-[1.02]">
                             Nachricht senden
                         </button>
                     </form>
@@ -102,7 +105,7 @@
                         <h3 class="font-display font-bold text-xl mb-6">Vereinsanschrift</h3>
                         <div class="space-y-6">
                             <div class="flex items-start space-x-4">
-                                <div class="bg-primary text-white p-3 rounded-xl shadow-md">
+                                <div class="bg-primary text-white p-3 rounded-xl shadow-md min-w-[44px] min-h-[44px] flex items-center justify-center">
                                     <span class="material-icons-round">location_on</span>
                                 </div>
                                 <div>
@@ -112,7 +115,7 @@
                                 </div>
                             </div>
                             <div class="flex items-start space-x-4">
-                                <div class="bg-primary text-white p-3 rounded-xl shadow-md">
+                                <div class="bg-primary text-white p-3 rounded-xl shadow-md min-w-[44px] min-h-[44px] flex items-center justify-center">
                                     <span class="material-icons-round">stadium</span>
                                 </div>
                                 <div>
@@ -125,20 +128,20 @@
                     </div>
 
                     <!-- Direct Contact -->
-                    <div class="bg-primary p-8 rounded-3xl text-white">
+                    <div class="bg-primary p-8 rounded-3xl text-white shadow-xl shadow-primary/20">
                         <h3 class="font-display font-bold text-xl mb-6">Direkter Kontakt</h3>
                         <div class="space-y-6">
                             <a href="mailto:info@rlc1952.de"
-                                class="flex items-center space-x-4 hover:translate-x-2 transition-transform">
+                                class="flex items-center space-x-4 hover:translate-x-2 transition-transform min-h-[44px]">
                                 <span class="material-icons-round text-white/60">email</span>
                                 <span class="font-bold">info@rlc1952.de</span>
                             </a>
-                            <a href="#" class="flex items-center space-x-4 hover:translate-x-2 transition-transform">
+                            <a href="#" class="flex items-center space-x-4 hover:translate-x-2 transition-transform min-h-[44px]">
                                 <span class="material-icons-round text-white/60">phone</span>
                                 <span class="font-bold">Kontaktformular nutzen</span>
                             </a>
                         </div>
-                        <p class="text-white/60 text-xs mt-8">Unsere Mitgliederverwaltung meldet sich in der Regel
+                        <p class="text-white/80 text-xs mt-8 font-medium">Unsere Mitgliederverwaltung meldet sich in der Regel
                             innerhalb von 48 Stunden.</p>
                     </div>
 
@@ -149,15 +152,23 @@
                             Folge uns</h4>
                         <div class="flex space-x-4">
                             <a href="#"
-                                class="w-12 h-12 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center hover:bg-primary hover:text-white transition-all">
+                                class="w-12 h-12 min-w-[44px] min-h-[44px] rounded-xl bg-slate-100 dark:bg-slate-800 flex items-center justify-center hover:bg-primary hover:text-white transition-all" aria-label="Website">
                                 <span class="material-icons-round">public</span>
                             </a>
                             <a href="#"
-                                class="w-12 h-12 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center hover:bg-primary hover:text-white transition-all">
+                                class="w-12 h-12 min-w-[44px] min-h-[44px] rounded-xl bg-slate-100 dark:bg-slate-800 flex items-center justify-center hover:bg-primary hover:text-white transition-all" aria-label="Teilen">
                                 <span class="material-icons-round">share</span>
                             </a>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <div id="imprint" class="mt-20 pt-10 border-t border-slate-200 dark:border-slate-800">
+                <h2 class="font-display text-2xl font-bold mb-8">Impressum & Datenschutz</h2>
+                <div class="prose dark:prose-invert max-w-none text-slate-500">
+                   <p>Angaben gemäß § 5 TMG.</p>
+                   <p>Verantwortlich für den Inhalt: Recklinghäuser Leichtathletik Club 1952 e.V.</p>
                 </div>
             </div>
         </section>

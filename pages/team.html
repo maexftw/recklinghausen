@@ -21,14 +21,14 @@
     <div class="layout-container flex h-full grow flex-col">
       <!-- Navigation -->
       <header></header>
-      <main class="flex flex-1 flex-col items-center">
+      <main class="flex flex-1 flex-col items-center pt-24 md:pt-32">
         <!-- Hero Section -->
         <div class="w-full max-w-[1280px] px-6 md:px-10 py-10">
           <div class="@container">
             <div
-              class="flex min-h-[400px] flex-col gap-6 bg-cover bg-center bg-no-repeat rounded-xl items-center justify-center p-8 relative overflow-hidden"
+              class="flex min-h-[400px] flex-col gap-6 bg-cover bg-center bg-no-repeat rounded-2xl items-center justify-center p-8 relative overflow-hidden"
               role="img" aria-label="Athleten trainieren auf einer modernen türkisfarbenen Laufbahn"
-              style='background-image: linear-gradient(rgba(16, 34, 32, 0.7) 0%, rgba(16, 34, 32, 0.9) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuC4Z10Z6l1ryQKYHRFRhOrBHHLFbPechhOdvFxAXSFcHgrI2HHmB83vwkgexRXcsg7fzvYk6ujOO34Kwc6Zyr4npdX_l9ss2xs6rZJvYAi6CIIVzd2PmLrR8dKJZHgD5Yz0ZnoIcOcCXKbKpnt04x33upDIOWsmQnkpUaeY1mZy4QYPQlmkxOeR--d9M2B0d8hTczF8zmFIG8Yo7yVQHx3pN6xL6W3pyIT9_FXHN-lrFQ4p9PQyz_ftXAQ0p9PFrnH8X9-fLyswJRfw");'>
+              style='background-image: linear-gradient(rgba(16, 34, 32, 0.7) 0%, rgba(16, 34, 32, 0.9) 100%), url("https://images.unsplash.com/photo-1571008887538-b36bb32f4571?auto=format&fit=crop&q=80&w=2000");'>
               <div class="flex flex-col gap-4 text-center max-w-[800px] relative z-10">
                 <span class="text-primary text-sm font-bold uppercase tracking-widest">Die Gesichter des RLC</span>
                 <h1 class="text-white text-4xl md:text-6xl font-black leading-tight tracking-tight">
@@ -46,14 +46,14 @@
         <div class="w-full max-w-[1280px] px-6 md:px-10 pb-20">
           <!-- Filter Bar -->
           <div class="flex flex-col md:flex-row items-center justify-between mb-12 gap-6">
-            <div class="flex gap-2 p-1 bg-gray-200/50 dark:bg-gray-800/50 rounded-xl">
-              <button class="px-6 py-2 rounded-lg bg-primary text-[#102220] text-sm font-bold shadow-sm">Alle</button>
+            <div class="flex gap-2 p-1 bg-gray-200/50 dark:bg-gray-800/50 rounded-xl overflow-x-auto">
+              <button class="min-h-[44px] px-6 py-2 rounded-lg bg-primary text-white text-sm font-bold shadow-sm whitespace-nowrap">Alle</button>
               <button
-                class="px-6 py-2 rounded-lg text-[#111817] dark:text-gray-300 text-sm font-medium hover:bg-white/50 dark:hover:bg-white/10 transition-all">Jugend</button>
+                class="min-h-[44px] px-6 py-2 rounded-lg text-[#111817] dark:text-gray-300 text-sm font-medium hover:bg-white/50 dark:hover:bg-white/10 transition-all whitespace-nowrap">Jugend</button>
               <button
-                class="px-6 py-2 rounded-lg text-[#111817] dark:text-gray-300 text-sm font-medium hover:bg-white/50 dark:hover:bg-white/10 transition-all">Leistungssport</button>
+                class="min-h-[44px] px-6 py-2 rounded-lg text-[#111817] dark:text-gray-300 text-sm font-medium hover:bg-white/50 dark:hover:bg-white/10 transition-all whitespace-nowrap">Leistungssport</button>
               <button
-                class="px-6 py-2 rounded-lg text-[#111817] dark:text-gray-300 text-sm font-medium hover:bg-white/50 dark:hover:bg-white/10 transition-all">Breitensport</button>
+                class="min-h-[44px] px-6 py-2 rounded-lg text-[#111817] dark:text-gray-300 text-sm font-medium hover:bg-white/50 dark:hover:bg-white/10 transition-all whitespace-nowrap">Breitensport</button>
             </div>
             <div class="flex items-center gap-2 text-gray-500 text-sm">
               <span class="material-symbols-outlined">info</span>
@@ -64,16 +64,16 @@
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
             <!-- Coach Card 1 -->
             <div
-              class="group flex flex-col bg-white dark:bg-background-dark border border-gray-100 dark:border-gray-800 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-t-primary">
+              class="group flex flex-col bg-white dark:bg-background-dark border border-gray-100 dark:border-gray-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-t-primary">
               <div class="relative overflow-hidden aspect-[4/5]">
                 <div
                   class="w-full h-full bg-center bg-no-repeat bg-cover transition-transform duration-500 group-hover:scale-105"
                   data-alt="Professional portrait of a male athletic coach smiling"
-                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCE9bPtpE0hZLQqyVjdtDXxzzK2TUhKjj9f_7qnz3fTYKUDuIKmJbq37_MkVeC8yUStyGNbRcpj_EO_xm8kTZ_PvrdKGkrrVmc27m3NpFB3dRrVnKTapf53_SwVQr4ND6wiedtYX4tTFXqVfnbvsFiMzrhr80jIW3DG5khhcJIa_CRAByNDuX4xEtmqjSzVDNBFICFETrzBJMyeva-4x-6ltPgiH05AuH0Z0O8sU-8GQ49hGxhL0_8H-vYAKOyTcz1C5qIk-rRnKgH7");'>
+                  style='background-image: url("https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=800");'>
                 </div>
                 <div class="absolute bottom-4 left-4">
                   <span
-                    class="bg-primary px-3 py-1 rounded text-[10px] font-black uppercase text-[#102220]">Leistungssport</span>
+                    class="bg-primary px-3 py-1 rounded text-[10px] font-black uppercase text-white">Leistungssport</span>
                 </div>
               </div>
               <div class="p-6 flex flex-col gap-4">
@@ -86,7 +86,7 @@
                   </div>
                 </div>
                 <button
-                  class="mt-2 flex w-full items-center justify-center gap-2 rounded-lg h-11 border-2 border-primary text-[#111817] dark:text-white hover:bg-primary hover:text-[#102220] transition-all font-bold text-sm">
+                  class="mt-2 flex w-full items-center justify-center gap-2 rounded-lg min-h-[44px] border-2 border-primary text-[#111817] dark:text-white hover:bg-primary hover:text-white transition-all font-bold text-sm">
                   <span class="material-symbols-outlined text-lg">mail</span>
                   Kontaktieren
                 </button>
@@ -94,16 +94,16 @@
             </div>
             <!-- Coach Card 2 -->
             <div
-              class="group flex flex-col bg-white dark:bg-background-dark border border-gray-100 dark:border-gray-800 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-t-primary">
+              class="group flex flex-col bg-white dark:bg-background-dark border border-gray-100 dark:border-gray-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-t-primary">
               <div class="relative overflow-hidden aspect-[4/5]">
                 <div
                   class="w-full h-full bg-center bg-no-repeat bg-cover transition-transform duration-500 group-hover:scale-105"
                   data-alt="Professional portrait of a female track coach looking focused"
-                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAvCmgKue4h43Qf_xUYFM3D2il5CJHclerkbW7CqUPfHtWdAGpaI-BCaHy6CzZKy5H25EcJ23HeCnncQ9hPUwVbdAEHIpjEYgWvTxV3k5rLkMDCAxDOrSz_U33O1sCpJPy09-ooe2SfEdWfzjx2UYrV8BfYS2vez0cuBrTjh7kjqmcVzm_yyaG2ZvW5kL7tWdrl-AhX_GuNAFN9__wWO1nw_6wS36hw2Jdzi8gIelcmMjLO8oLH_TvqGaZ02oIGTU6RS2Umr33NFJVq");'>
+                  style='background-image: url("https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800");'>
                 </div>
                 <div class="absolute bottom-4 left-4">
                   <span
-                    class="bg-primary px-3 py-1 rounded text-[10px] font-black uppercase text-[#102220]">Jugend</span>
+                    class="bg-primary px-3 py-1 rounded text-[10px] font-black uppercase text-white">Jugend</span>
                 </div>
               </div>
               <div class="p-6 flex flex-col gap-4">
@@ -116,7 +116,7 @@
                   </div>
                 </div>
                 <button
-                  class="mt-2 flex w-full items-center justify-center gap-2 rounded-lg h-11 border-2 border-primary text-[#111817] dark:text-white hover:bg-primary hover:text-[#102220] transition-all font-bold text-sm">
+                  class="mt-2 flex w-full items-center justify-center gap-2 rounded-lg min-h-[44px] border-2 border-primary text-[#111817] dark:text-white hover:bg-primary hover:text-white transition-all font-bold text-sm">
                   <span class="material-symbols-outlined text-lg">mail</span>
                   Kontaktieren
                 </button>
@@ -124,16 +124,16 @@
             </div>
             <!-- Coach Card 3 -->
             <div
-              class="group flex flex-col bg-white dark:bg-background-dark border border-gray-100 dark:border-gray-800 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-t-primary">
+              class="group flex flex-col bg-white dark:bg-background-dark border border-gray-100 dark:border-gray-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-t-primary">
               <div class="relative overflow-hidden aspect-[4/5]">
                 <div
                   class="w-full h-full bg-center bg-no-repeat bg-cover transition-transform duration-500 group-hover:scale-105"
                   data-alt="Portrait of a senior male coach in athletic gear"
-                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDGuiNzc6bdyE_2ACBlpKqhUneFgW3AQz6sNLGUSEyF-YCI70RQirP459E-A4OrIWg7ywmjC5mXXQr9D5dfENLxxbsiwn1n9dl9wVqrLJeDkLaU0dFEqJopgeYupWZJI69JKmOEBvhqYAoMeWQ77d7V5fwejWaq-qZklzoyRKXVSOehXI_RPBeBKPtVfk-t8eB7BGLY_iFTVkkETYDjw_I4rEBoOe_VU_qRHcBJcx7u2e6eWq68kGJlAT2Jbd62yh042YNCIlcqP580");'>
+                  style='background-image: url("https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=800");'>
                 </div>
                 <div class="absolute bottom-4 left-4">
                   <span
-                    class="bg-primary px-3 py-1 rounded text-[10px] font-black uppercase text-[#102220]">Jugend</span>
+                    class="bg-primary px-3 py-1 rounded text-[10px] font-black uppercase text-white">Jugend</span>
                 </div>
               </div>
               <div class="p-6 flex flex-col gap-4">
@@ -146,7 +146,7 @@
                   </div>
                 </div>
                 <button
-                  class="mt-2 flex w-full items-center justify-center gap-2 rounded-lg h-11 border-2 border-primary text-[#111817] dark:text-white hover:bg-primary hover:text-[#102220] transition-all font-bold text-sm">
+                  class="mt-2 flex w-full items-center justify-center gap-2 rounded-lg min-h-[44px] border-2 border-primary text-[#111817] dark:text-white hover:bg-primary hover:text-white transition-all font-bold text-sm">
                   <span class="material-symbols-outlined text-lg">mail</span>
                   Kontaktieren
                 </button>
@@ -154,16 +154,16 @@
             </div>
             <!-- Coach Card 4 -->
             <div
-              class="group flex flex-col bg-white dark:bg-background-dark border border-gray-100 dark:border-gray-800 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-t-primary">
+              class="group flex flex-col bg-white dark:bg-background-dark border border-gray-100 dark:border-gray-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-t-primary">
               <div class="relative overflow-hidden aspect-[4/5]">
                 <div
                   class="w-full h-full bg-center bg-no-repeat bg-cover transition-transform duration-500 group-hover:scale-105"
                   data-alt="Portrait of a athletic female coach with a stopwatch"
-                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA-bDpSdWZ_Y9Ftvq6AJaamhFQ5g2IJqBC5itU-O-QS5tF-UpfreaZe854UqtyzeWKcmUgtm9ughi_f0ftXfih8kwcuFDpsla_6ZnDbznQT0ur9yQFt9o5KX9ZR3X1698Gvnp4QJQD_gvAVFx4tRQqh8m2HK5J9I1kWmLV3PO9tLLDEZu_35g6PDFbwvVbWsDDZo8D-Q2dkSBGWRLKlekEFDK79N4_qM8Tq91Z27LFxoWA-M4tYFF5jCecrznO8lohzw4jgOzaRA19m");'>
+                  style='background-image: url("https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=800");'>
                 </div>
                 <div class="absolute bottom-4 left-4">
                   <span
-                    class="bg-primary px-3 py-1 rounded text-[10px] font-black uppercase text-[#102220]">Leistungssport</span>
+                    class="bg-primary px-3 py-1 rounded text-[10px] font-black uppercase text-white">Leistungssport</span>
                 </div>
               </div>
               <div class="p-6 flex flex-col gap-4">
@@ -176,7 +176,7 @@
                   </div>
                 </div>
                 <button
-                  class="mt-2 flex w-full items-center justify-center gap-2 rounded-lg h-11 border-2 border-primary text-[#111817] dark:text-white hover:bg-primary hover:text-[#102220] transition-all font-bold text-sm">
+                  class="mt-2 flex w-full items-center justify-center gap-2 rounded-lg min-h-[44px] border-2 border-primary text-[#111817] dark:text-white hover:bg-primary hover:text-white transition-all font-bold text-sm">
                   <span class="material-symbols-outlined text-lg">mail</span>
                   Kontaktieren
                 </button>
@@ -184,16 +184,16 @@
             </div>
             <!-- Coach Card 5 -->
             <div
-              class="group flex flex-col bg-white dark:bg-background-dark border border-gray-100 dark:border-gray-800 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-t-primary">
+              class="group flex flex-col bg-white dark:bg-background-dark border border-gray-100 dark:border-gray-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-t-primary">
               <div class="relative overflow-hidden aspect-[4/5]">
                 <div
                   class="w-full h-full bg-center bg-no-repeat bg-cover transition-transform duration-500 group-hover:scale-105"
                   data-alt="Athletic coach profile photo"
-                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCmrWQppqyV_FAWwHPd1KCsUuUAASxJsQt_UcbFGe_O6tLH8GgCCiiI1x--Xq_no-zaSQKoIKi2KnOyXhigjN7blfpQ3u2g9Q-_q9efTPsvNnTsv2vlSG7nxBsgtfBIBNzjB09a2ohNwu0dZOvT0Wns9XyUva1yxFr2xv2R3ftXWuAeYNeb2QRCFZLKwaBCuJ58uw30fU6Fyd0W7TfBLyVi2Zjp5jRIZdTMzd8xIc_yfQ6OczKT-eLSEYDOxwngjK6Wk3SGH_VTIQU8");'>
+                  style='background-image: url("https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=800");'>
                 </div>
                 <div class="absolute bottom-4 left-4">
                   <span
-                    class="bg-primary px-3 py-1 rounded text-[10px] font-black uppercase text-[#102220]">Breitensport</span>
+                    class="bg-primary px-3 py-1 rounded text-[10px] font-black uppercase text-white">Breitensport</span>
                 </div>
               </div>
               <div class="p-6 flex flex-col gap-4">
@@ -206,7 +206,7 @@
                   </div>
                 </div>
                 <button
-                  class="mt-2 flex w-full items-center justify-center gap-2 rounded-lg h-11 border-2 border-primary text-[#111817] dark:text-white hover:bg-primary hover:text-[#102220] transition-all font-bold text-sm">
+                  class="mt-2 flex w-full items-center justify-center gap-2 rounded-lg min-h-[44px] border-2 border-primary text-[#111817] dark:text-white hover:bg-primary hover:text-white transition-all font-bold text-sm">
                   <span class="material-symbols-outlined text-lg">mail</span>
                   Kontaktieren
                 </button>
@@ -214,16 +214,16 @@
             </div>
             <!-- Coach Card 6 -->
             <div
-              class="group flex flex-col bg-white dark:bg-background-dark border border-gray-100 dark:border-gray-800 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-t-primary">
+              class="group flex flex-col bg-white dark:bg-background-dark border border-gray-100 dark:border-gray-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-t-primary">
               <div class="relative overflow-hidden aspect-[4/5]">
                 <div
                   class="w-full h-full bg-center bg-no-repeat bg-cover transition-transform duration-500 group-hover:scale-105"
                   data-alt="Athletic coach portrait"
-                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCWsI0xEaXMWSu2VbBYb1l2z0mAXadrMg5JLyuNGzwGt00MVLE7VBe008GGqY2opGidcCrj6KtzW3LAAMKtCmCEf8vEHWu3S91SZLF_CRTip_OOHPjURtf1zhGIa5BK_s5Pn4I5g0_KijQ7lrJCqv4vL2REIM5vQrbmyJXcpNFVzRHQ2crMwqOL6L1SZ8bxIUajC4j4C6TbKpqRZ6oGJXSeJyE_VMaoPSLTEahufj4pps5XXWivEsjH_dJIfP7JBy33S2209EcesWqJ");'>
+                  style='background-image: url("https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?auto=format&fit=crop&q=80&w=800");'>
                 </div>
                 <div class="absolute bottom-4 left-4">
                   <span
-                    class="bg-primary px-3 py-1 rounded text-[10px] font-black uppercase text-[#102220]">Breitensport</span>
+                    class="bg-primary px-3 py-1 rounded text-[10px] font-black uppercase text-white">Breitensport</span>
                 </div>
               </div>
               <div class="p-6 flex flex-col gap-4">
@@ -236,7 +236,7 @@
                   </div>
                 </div>
                 <button
-                  class="mt-2 flex w-full items-center justify-center gap-2 rounded-lg h-11 border-2 border-primary text-[#111817] dark:text-white hover:bg-primary hover:text-[#102220] transition-all font-bold text-sm">
+                  class="mt-2 flex w-full items-center justify-center gap-2 rounded-lg min-h-[44px] border-2 border-primary text-[#111817] dark:text-white hover:bg-primary hover:text-white transition-all font-bold text-sm">
                   <span class="material-symbols-outlined text-lg">mail</span>
                   Kontaktieren
                 </button>
@@ -261,11 +261,11 @@
             </p>
             <div class="flex flex-col sm:flex-row gap-4">
               <button
-                class="flex min-w-[200px] items-center justify-center rounded-lg h-14 px-8 bg-primary text-[#102220] text-base font-bold hover:brightness-110 transition-all shadow-lg shadow-primary/20">
+                class="flex min-w-[200px] items-center justify-center rounded-lg h-14 min-h-[56px] px-8 bg-primary text-white text-base font-bold hover:brightness-110 transition-all shadow-lg shadow-primary/20">
                 <span>Jetzt bewerben</span>
               </button>
               <button
-                class="flex min-w-[200px] items-center justify-center rounded-lg h-14 px-8 border-2 border-white/20 text-white text-base font-bold hover:bg-white/10 transition-all">
+                class="flex min-w-[200px] items-center justify-center rounded-lg h-14 min-h-[56px] px-8 border-2 border-white/20 text-white text-base font-bold hover:bg-white/10 transition-all">
                 <span>Voraussetzungen ansehen</span>
               </button>
             </div>
