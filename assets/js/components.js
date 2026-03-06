@@ -119,9 +119,9 @@ function initSharedComponents() {
                 <div>
                     <h4 class="font-bold mb-6 uppercase tracking-widest text-xs text-primary">Rechtliches</h4>
                     <ul class="space-y-4 text-slate-400 text-sm">
-                        <li><a href="${basePath}pages/contact.html#imprint" class="hover:text-white transition-colors">Impressum</a></li>
-                        <li><a href="${basePath}pages/contact.html#privacy" class="hover:text-white transition-colors">Datenschutz</a></li>
-                        <li><a href="${basePath}pages/contact.html#contact" class="hover:text-white transition-colors">Kontakt</a></li>
+                        <li><a href="${basePath}pages/impressum.html" class="hover:text-white transition-colors">Impressum</a></li>
+                        <li><a href="${basePath}pages/datenschutz.html" class="hover:text-white transition-colors">Datenschutz</a></li>
+                        <li><a href="${basePath}pages/contact.html" class="hover:text-white transition-colors">Kontakt</a></li>
                         <li><a href="${basePath}pages/sponsors.html" class="hover:text-white transition-colors">Sponsoren</a></li>
                     </ul>
                 </div>
