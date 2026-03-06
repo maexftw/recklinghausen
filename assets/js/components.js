@@ -1,4 +1,4 @@
-
+﻿
 // RLC 1952 - Common Initialization
 // This script sets up Tailwind and injects shared components.
 
@@ -65,7 +65,7 @@ function initSharedComponents() {
                     <a href="${basePath}pages/register.html" class="bg-primary hover:bg-opacity-90 text-white px-5 py-2.5 rounded-full font-bold text-sm transition-all transform hover:scale-105 shadow-lg shadow-primary/20">
                         Mitmachen
                     </a>
-                    <button id="mobile-menu-button" class="lg:hidden p-2 text-slate-600 dark:text-slate-400" aria-label="Hauptmenü öffnen">
+                    <button id="mobile-menu-button" class="lg:hidden p-2 text-slate-600 dark:text-slate-400" aria-label="HauptmenÃ¼ Ã¶ffnen">
                         <span class="material-icons-round">menu</span>
                     </button>
                 </div>
@@ -96,7 +96,7 @@ function initSharedComponents() {
                         <span class="font-display font-black text-2xl tracking-tighter">RLC<span class="text-primary">1952</span></span>
                     </div>
                     <p class="text-slate-400 max-w-sm mb-8 leading-relaxed">
-                        Seit über 70 Jahren die Heimat für Leichtathletik in Recklinghausen. Wir fördern Talente und leben Gemeinschaft.
+                        Seit Ã¼ber 70 Jahren die Heimat fÃ¼r Leichtathletik in Recklinghausen. Wir fÃ¶rdern Talente und leben Gemeinschaft.
                     </p>
                     <div class="flex space-x-4">
                         <a href="#" class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-primary transition-colors" aria-label="Folge uns auf Instagram">
@@ -127,8 +127,8 @@ function initSharedComponents() {
                 </div>
             </div>
             <div class="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center text-slate-500 text-xs">
-                <p>&copy; 2024 Recklinghäuser Leichtathletik Club 1952 e.V.</p>
-                <p class="mt-4 md:mt-0 italic">Mit Leidenschaft für die Leichtathletik entwickelt</p>
+                <p>&copy; 2024 RecklinghÃ¤user Leichtathletik Club 1952 e.V.</p>
+                <p class="mt-4 md:mt-0 italic">Mit Leidenschaft fÃ¼r die Leichtathletik entwickelt</p>
             </div>
         </div>
     </footer>
@@ -211,3 +211,4 @@ function initDarkMode() {
         });
     }
 }
+
