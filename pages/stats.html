@@ -40,9 +40,7 @@
                             <h1
                                 class="text-[#111817] dark:text-white text-4xl lg:text-5xl font-black leading-tight tracking-[-0.033em]">
                                 Vereinsrekorde &amp; Bestenlisten</h1>
-                            <p class="text-[#618986] text-base font-normal leading-normal max-w-2xl">Offizielle
-                                Vereinsrekorde und Bestenlisten des Recklinghäuser LC seit 1952. Die Statistiken werden
-                                während der Saison wöchentlich aktualisiert.</p>
+                            <p class="text-[#618986] text-base font-normal leading-normal max-w-2xl">Hier findest du die offiziellen Vereinsrekorde und Bestenlisten des Recklinghäuser LC seit 1952. Während der Saison werden die Daten wöchentlich aktualisiert.</p>
                             <div
                                 class="flex items-center gap-2 mt-2 text-xs font-medium text-primary uppercase tracking-wider">
                                 <span class="material-symbols-outlined text-sm">update</span>
@@ -52,11 +50,11 @@
                         <div class="flex gap-3">
                             <button
                                 class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-5 bg-background-light dark:bg-white/5 border border-[#dbe6e5] dark:border-white/10 text-[#111817] dark:text-white text-sm font-bold transition-all hover:bg-[#dbe6e5] dark:hover:bg-white/10">
-                                <span class="truncate">Export PDF</span>
+                                <span class="truncate">Als PDF herunterladen</span>
                             </button>
                             <button
                                 class="flex min-w-[140px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-5 bg-primary text-[#102220] text-sm font-bold transition-all shadow-lg shadow-primary/20">
-                                <span class="truncate">Leistung melden</span>
+                                <span class="truncate">Leistung einreichen</span>
                             </button>
                         </div>
                     </div>
@@ -66,18 +64,16 @@
                             class="flex border-b border-[#dbe6e5] dark:border-white/10 gap-8 overflow-x-auto scrollbar-hide">
                             <a class="flex flex-col items-center justify-center border-b-[3px] border-b-primary text-primary pb-[13px] pt-4"
                                 href="#">
-                                <p class="text-sm font-bold leading-normal tracking-[0.015em] whitespace-nowrap">Outdoor
-                                    Records</p>
+                                <p class="text-sm font-bold leading-normal tracking-[0.015em] whitespace-nowrap">Outdoor-Rekorde</p>
                             </a>
                             <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#618986] pb-[13px] pt-4 hover:text-[#111817] dark:hover:text-white transition-colors"
                                 href="#">
-                                <p class="text-sm font-bold leading-normal tracking-[0.015em] whitespace-nowrap">Indoor
-                                    Records</p>
+                                <p class="text-sm font-bold leading-normal tracking-[0.015em] whitespace-nowrap">Indoor-Rekorde</p>
                             </a>
                             <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#618986] pb-[13px] pt-4 hover:text-[#111817] dark:hover:text-white transition-colors"
                                 href="#">
                                 <p class="text-sm font-bold leading-normal tracking-[0.015em] whitespace-nowrap">
-                                    All-Time Rankings</p>
+                                    Ewige Bestenliste</p>
                             </a>
                         </div>
                     </div>
@@ -86,7 +82,7 @@
                         class="p-4 flex flex-wrap gap-4 items-center bg-white dark:bg-white/5 mt-6 mx-4 rounded-xl border border-[#dbe6e5] dark:border-white/10 shadow-sm">
                         <div class="flex flex-col gap-1.5 flex-1 min-w-[150px]">
                             <label class="text-xs font-bold text-[#618986] uppercase tracking-wider"
-                                for="age-group-select">Age Group</label>
+                                for="age-group-select">Altersklasse</label>
                             <select id="age-group-select"
                                 class="form-select bg-background-light dark:bg-background-dark border-none rounded-lg text-sm font-medium focus:ring-primary h-10"
                                 aria-label="Altersgruppe auswählen">
@@ -99,35 +95,35 @@
                             </select>
                         </div>
                         <div class="flex flex-col gap-1.5 min-w-[120px]">
-                            <label class="text-xs font-bold text-[#618986] uppercase tracking-wider">Gender</label>
+                            <label class="text-xs font-bold text-[#618986] uppercase tracking-wider">Geschlecht</label>
                             <div class="flex bg-background-light dark:bg-background-dark p-1 rounded-lg h-10">
                                 <button
-                                    class="flex-1 px-3 text-xs font-bold bg-white dark:bg-primary shadow-sm rounded-md text-[#111817]">All</button>
+                                    class="flex-1 px-3 text-xs font-bold bg-white dark:bg-primary shadow-sm rounded-md text-[#111817]">Alle</button>
                                 <button
-                                    class="flex-1 px-3 text-xs font-bold text-[#618986] hover:text-primary">Male</button>
+                                    class="flex-1 px-3 text-xs font-bold text-[#618986] hover:text-primary">Männlich</button>
                                 <button
-                                    class="flex-1 px-3 text-xs font-bold text-[#618986] hover:text-primary">Female</button>
+                                    class="flex-1 px-3 text-xs font-bold text-[#618986] hover:text-primary">Weiblich</button>
                             </div>
                         </div>
                         <div class="flex flex-col gap-1.5 min-w-[150px]">
                             <label class="text-xs font-bold text-[#618986] uppercase tracking-wider"
-                                for="discipline-select">Discipline</label>
+                                for="discipline-select">Disziplin</label>
                             <select id="discipline-select"
                                 class="form-select bg-background-light dark:bg-background-dark border-none rounded-lg text-sm font-medium focus:ring-primary h-10"
                                 aria-label="Disziplin auswählen">
-                                <option>All Disciplines</option>
-                                <option>Sprints</option>
-                                <option>Middle Distance</option>
-                                <option>Long Distance</option>
-                                <option>Jumps</option>
-                                <option>Throws</option>
+                                <option>Alle Disziplinen</option>
+                                <option>Sprint</option>
+                                <option>Mittelstrecke</option>
+                                <option>Langstrecke</option>
+                                <option>Sprung</option>
+                                <option>Wurf</option>
                             </select>
                         </div>
                         <div class="flex items-end h-10 self-end">
                             <button
                                 class="bg-[#111817] dark:bg-white dark:text-[#111817] text-white px-4 h-10 rounded-lg text-sm font-bold flex items-center gap-2 hover:opacity-90">
                                 <span class="material-symbols-outlined text-sm">filter_list</span>
-                                Apply Filters
+                                Filter anwenden
                             </button>
                         </div>
                     </div>
@@ -194,7 +190,7 @@
                                         </td>
                                         <td class="px-6 py-5 text-right">
                                             <span class="material-symbols-outlined text-[#FFD700] fill-1"
-                                                title="Club Legend">star</span>
+                                                title="Besonders herausragender Rekord">star</span>
                                         </td>
                                     </tr>
                                     <!-- Row 2 -->
@@ -229,7 +225,7 @@
                                         </td>
                                         <td class="px-6 py-5 text-right">
                                             <span
-                                                class="text-[10px] font-bold py-1 px-2 rounded-full bg-background-light dark:bg-white/10 text-[#618986]">Active</span>
+                                                class="text-[10px] font-bold py-1 px-2 rounded-full bg-background-light dark:bg-white/10 text-[#618986]">Aktuell</span>
                                         </td>
                                     </tr>
                                     <!-- Row 3 -->
