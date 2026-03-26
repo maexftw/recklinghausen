@@ -40,9 +40,9 @@
         
         /* Aktuelles-Bereich - hellere Darstellung */
         .news-section {
-            background: linear-gradient(180deg, rgba(248, 251, 250, 0.98) 0%, rgba(248, 251, 250, 0.94) 100%);
+            background: transparent;
             border-bottom-color: color-mix(in srgb, var(--news-line) 78%, white);
-            box-shadow: 0 12px 30px rgba(27, 67, 83, 0.08);
+            box-shadow: none;
         }
         
         .news-section-label {
@@ -480,6 +480,7 @@
         #main-content .news-section {
             padding-top: var(--spacing-lg);
             padding-bottom: var(--spacing-xl);
+            border: none;
         }
         
         #main-content .news-section h2 {
@@ -496,6 +497,10 @@
         #main-content .news-section .news-card {
             background: rgba(255, 255, 255, 0.78);
             border: 1px solid color-mix(in srgb, var(--news-line) 90%, white);
+        }
+
+        #main-content .news-section .news-card[data-size="featured"] {
+            grid-column: span 12;
         }
         
         #main-content .news-section .news-card:hover {
@@ -693,8 +698,7 @@
     </style>
 </head>
 
-<body
-    class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-sans transition-colors duration-300">
+<body class="news-page-body font-sans transition-colors duration-300">
     <header class="news-page-body"></header>
     <section class="relative overflow-hidden hero-section">
         <div class="hero-media-wrap" aria-hidden="true">
@@ -732,20 +736,29 @@
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
             <div class="lg:col-span-8 space-y-12">
                 <section class="news-section">
-                    <div class="flex flex-col gap-4 md:flex-row md:justify-between md:items-end border-b border-slate-200 dark:border-slate-800 pb-4">
+                    <div class="news-archive-intro">
                         <div>
                             <h2 class="font-display text-3xl font-black uppercase tracking-tight">Aktuelles</h2>
-                            <p class="text-slate-500 dark:text-slate-400 mt-1">Neuigkeiten, Ergebnisse und wichtige Meldungen aus dem Verein</p>
+                            <p class="mt-1 text-[color:var(--news-muted)]">Neuigkeiten, Ergebnisse und wichtige Meldungen aus dem Verein</p>
                         </div>
-                        <div class="pb-1 text-sm text-slate-500 dark:text-slate-400 md:text-right">
-                            <p class="font-semibold text-slate-700 dark:text-slate-200">Die neuesten drei Beiträge werden hier automatisch angezeigt.</p>
-                            <p>Weitere Meldungen findest du im <a href="pages/news.html" class="text-primary font-semibold hover:underline">vollständigen News-Archiv</a>.</p>
+                        <div class="pb-1 text-sm md:text-right text-[color:var(--news-muted)]">
+                            <p class="font-semibold text-[color:var(--news-ink)]">Die neuesten drei Beiträge werden hier automatisch angezeigt.</p>
+                            <p>Weitere Meldungen findest du im <a href="pages/news.html" class="font-semibold text-[color:var(--news-accent-deep)] hover:underline">vollständigen News-Archiv</a>.</p>
                         </div>
                     </div>
                     <div id="index-news-container" class="space-y-12" aria-live="polite">
                         <!-- Dynamic News will be loaded here -->
-                        <div class="animate-pulse bg-slate-200 dark:bg-slate-800 h-64 rounded-2xl"></div>
-                        <div class="animate-pulse bg-slate-200 dark:bg-slate-800 h-64 rounded-2xl"></div>
+                        <div class="news-card animate-pulse" data-size="featured">
+                            <div class="news-card-media min-h-[18rem] bg-slate-200/80"></div>
+                            <div class="news-card-content">
+                                <div class="h-3 w-32 bg-slate-200 rounded-full"></div>
+                                <div class="h-8 w-4/5 bg-slate-200 rounded-full"></div>
+                                <div class="space-y-2">
+                                    <div class="h-3 w-full bg-slate-200 rounded-full"></div>
+                                    <div class="h-3 w-5/6 bg-slate-200 rounded-full"></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </section>
             </div>
@@ -820,15 +833,15 @@
             const news = window.newsData || [];
             const container = document.getElementById('index-news-container');
             if (container) {
-                container.innerHTML = '';
+                    container.innerHTML = '';
                 const featuredArticles = news.slice(0, 3);
 
                 if (featuredArticles.length === 0) {
                     container.innerHTML = `
-                        <div class="rounded-lg border border-dashed border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-900/40 p-8 text-center">
-                            <h3 class="text-xl font-bold mb-2">Zurzeit liegen keine Vereinsnews vor.</h3>
-                            <p class="text-slate-600 dark:text-slate-400 mb-4">Sobald neue Meldungen veröffentlicht werden, erscheinen sie hier automatisch.</p>
-                            <a href="pages/contact.html" class="inline-flex items-center justify-center rounded-lg bg-slate-900 px-5 py-3 font-bold text-white dark:bg-white dark:text-slate-900">Kontakt zum Verein</a>
+                        <div class="news-empty">
+                            <h3 class="text-xl font-bold mb-2 text-[color:var(--news-ink)]">Zurzeit liegen keine Vereinsnews vor.</h3>
+                            <p class="mb-4 text-[color:var(--news-muted)]">Sobald neue Meldungen veröffentlicht werden, erscheinen sie hier automatisch.</p>
+                            <a href="pages/contact.html" class="news-link news-link--primary inline-flex items-center justify-center">Kontakt zum Verein</a>
                         </div>
                     `;
                     return;
@@ -836,7 +849,8 @@
 
                 featuredArticles.forEach(article => {
                     const articleEl = document.createElement('article');
-                    articleEl.className = "group grid grid-cols-1 md:grid-cols-12 gap-6 items-start";
+                    articleEl.className = 'news-card news-reveal';
+                    articleEl.dataset.size = 'featured';
 
                     const imageUrl = article.images && article.images.length > 0 ? article.images[0].local : 'https://via.placeholder.com/600x400?text=RLC+1952';
                     const fullImageUrl = imageUrl.startsWith('http') ? imageUrl : imageUrl;
@@ -846,26 +860,23 @@
                     const articleDate = article.date || 'Datum folgt';
 
                     articleEl.innerHTML = `
-                        <div class="md:col-span-5 h-[240px] overflow-hidden">
-                            <img src="${fullImageUrl}" alt="${articleTitle}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" onerror="this.src='https://via.placeholder.com/800x600?text=RLC+1952'" decoding="async">
+                        <div class="news-card-media">
+                            <img src="${fullImageUrl}" alt="${articleTitle}" loading="lazy" decoding="async" onerror="this.src='https://via.placeholder.com/800x600?text=RLC+1952'">
                         </div>
-                        <div class="md:col-span-7 space-y-3 min-w-0">
-                            <div class="flex items-center space-x-3 text-sm text-slate-500 font-semibold uppercase tracking-wider min-w-0">
-                                <span class="text-primary" aria-label="Veröffentlichungsdatum">${articleDate}</span>
+                        <div class="news-card-content">
+                            <div class="news-card-meta">
+                                <span class="news-date-chip" aria-label="Veröffentlichungsdatum">${articleDate}</span>
+                                <span class="news-category-label">Vereinsnews</span>
                             </div>
-                            <h3 class="text-2xl font-bold leading-tight group-hover:text-primary transition-colors break-words">${articleTitle}</h3>
-                            <p class="text-slate-600 dark:text-slate-400 leading-relaxed line-clamp-3 break-words">
-                                ${articleExcerpt}
-                            </p>
-                            <div class="flex flex-wrap items-center gap-4">
-                                <a class="inline-flex items-center font-bold text-primary group/link" href="${articleLink}">
-                                    Beitrag lesen <span
-                                        class="material-icons-round text-sm ml-1 group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
+                            <div class="space-y-3 min-h-0">
+                                <h3 class="news-card-title news-display break-words">${articleTitle}</h3>
+                                <p class="news-excerpt break-words">${articleExcerpt}</p>
+                            </div>
+                            <div class="flex flex-wrap items-center justify-between gap-3 pt-2">
+                                <a class="news-link" href="${articleLink}">
+                                    Meldung lesen <span class="material-icons-round text-base" aria-hidden="true">arrow_forward</span>
                                 </a>
-                                <a class="inline-flex items-center font-bold text-slate-700 dark:text-slate-200 hover:text-primary transition-colors" href="pages/news.html">
-                                    Zum News-Archiv <span
-                                     class="material-icons-round text-sm ml-1 group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
-                                </a>
+                                <a class="news-link news-link--muted" href="pages/news.html">Zum News-Archiv <span class="material-icons-round text-base" aria-hidden="true">arrow_forward</span></a>
                             </div>
                         </div>
                     `;
@@ -885,10 +896,10 @@
             window.addEventListener('error', (event) => {
                 if (event.filename && event.filename.includes('news_data')) {
                     container.innerHTML = `
-                        <div class="rounded-lg border border-amber-200 bg-amber-50 p-8 text-center text-amber-950 dark:border-amber-800 dark:bg-amber-950/30 dark:text-amber-100">
-                            <h3 class="text-xl font-bold mb-2">Die Vereinsnews konnten gerade nicht vollständig geladen werden.</h3>
-                            <p class="mb-4">Bitte öffne das News-Archiv später erneut oder nutze bei dringenden Fragen den Kontakt zum Verein.</p>
-                            <a href="pages/contact.html" class="inline-flex items-center justify-center rounded-lg bg-slate-900 px-5 py-3 font-bold text-white dark:bg-white dark:text-slate-900">Kontakt zum Verein</a>
+                        <div class="news-empty" style="border-color: color-mix(in srgb, #f59e0b 36%, white); background: color-mix(in srgb, #fef3c7 62%, white);">
+                            <h3 class="text-xl font-bold mb-2 text-[color:var(--news-ink)]">Die Vereinsnews konnten gerade nicht vollständig geladen werden.</h3>
+                            <p class="mb-4 text-[color:var(--news-muted)]">Bitte öffne das News-Archiv später erneut oder nutze bei dringenden Fragen den Kontakt zum Verein.</p>
+                            <a href="pages/contact.html" class="news-link news-link--primary inline-flex items-center justify-center">Kontakt zum Verein</a>
                         </div>
                     `;
                 }
