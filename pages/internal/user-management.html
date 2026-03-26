@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benutzerverwaltung - Interner Bereich</title>
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/responsive.css">
+</head>
+<body>
+    <!-- Header mit Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="../../index.html">
+                    <img src="../../assets/logo/rlc_logo_original.png" alt="RLC Recklinghausen Logo">
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="../../pages/team.html">Unser Verein</a></li>
+                    <li><a href="../../pages/facilities.html">Anlagen</a></li>
+                    <li><a href="../../pages/training.html">Training</a></li>
+                    <li><a href="../../pages/news.html">News</a></li>
+                    <li><a href="../../pages/gallery.html">Galerie</a></li>
+                    <li><a href="../../pages/sponsors.html">Sponsoren</a></li>
+                    <li><a href="../../pages/stats.html">Statistik</a></li>
+                    <li><a href="../../pages/membership-info.html">Mitgliedschaft</a></li>
+                    <li><a href="../../pages/contact.html">Kontakt</a></li>
+                    <li><a href="./index.html">Interner Bereich</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hauptinhalt -->
+    <main class="internal-main">
+        <div class="container">
+            <h1>Benutzerverwaltung</h1>
+            
+            <div class="content-section">
+                <h2>Verwaltung der Benutzerkonten</h2>
+                <p>Hier können Sie Benutzerkonten erstellen, bearbeiten und löschen.</p>
+                
+                <div class="admin-controls">
+                    <h3>Neuer Benutzer</h3>
+                    <form id="user-form">
+                        <div class="form-group">
+                            <label for="new-username">Benutzername:</label>
+                            <input type="text" id="new-username" name="new-username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="new-email">E-Mail:</label>
+                            <input type="email" id="new-email" name="new-email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="new-role">Rolle:</label>
+                            <select id="new-role" name="new-role">
+                                <option value="member">Mitglied</option>
+                                <option value="admin">Administrator</option>
+                            </select>
+                        </div>
+                        <button type="submit">Benutzer erstellen</button>
+                    </form>
+                </div>
+                
+                <div class="admin-controls">
+                    <h3>Bestehende Benutzer</h3>
+                    <table class="user-table">
+                        <thead>
+                            <tr>
+                                <th>Benutzername</th>
+                                <th>E-Mail</th>
+                                <th>Rolle</th>
+                                <th>Aktionen</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>member1</td>
+                                <td>member1@example.com</td>
+                                <td>Mitglied</td>
+                                <td>
+                                    <button onclick="editUser('1')">Bearbeiten</button>
+                                    <button onclick="deleteUser('1')">Löschen</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>admin1</td>
+                                <td>admin1@example.com</td>
+                                <td>Administrator</td>
+                                <td>
+                                    <button onclick="editUser('2')">Bearbeiten</button>
+                                    <button onclick="deleteUser('2')">Löschen</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>member2</td>
+                                <td>member2@example.com</td>
+                                <td>Mitglied</td>
+                                <td>
+                                    <button onclick="editUser('3')">Bearbeiten</button>
+                                    <button onclick="deleteUser('3')">Löschen</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 RLC Recklinghausen. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <script src="../../assets/js/components.js"></script>
+    <script src="../../assets/js/auth.js"></script>
+</body>
+</html>

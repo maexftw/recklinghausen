@@ -1,0 +1,180 @@
+/* Responsive Design für die Website */
+
+/* Mobilgeräte */
+@media (max-width: 768px) {
+    .header {
+        padding: 0.5rem 0;
+    }
+    
+    .logo img {
+        height: 40px;
+    }
+    
+    .main-nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .main-nav li {
+        margin: 5px 0;
+    }
+    
+    .main-nav a {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+    
+    .container {
+        width: 95%;
+        padding: 0 10px;
+    }
+    
+    .internal-section {
+        padding: 15px;
+    }
+    
+    .user-info {
+        padding: 10px;
+    }
+    
+    .training-plan,
+    .announcement,
+    .document-item {
+        padding: 10px;
+    }
+    
+    .admin-controls {
+        padding: 15px;
+    }
+}
+
+/* Kleinere Mobilgeräte */
+@media (max-width: 480px) {
+    .main-nav a {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+    
+    h3 {
+        font-size: 18px;
+    }
+    
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+    
+    button {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}
+
+/* Tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        width: 95%;
+    }
+    
+    .main-nav a {
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+    
+    .internal-section {
+        padding: 18px;
+    }
+}
+
+/* Große Bildschirme */
+@media (min-width: 1200px) {
+    .container {
+        width: 85%;
+    }
+    
+    .main-nav a {
+        padding: 12px 16px;
+    }
+}
+
+/* Focus indicators for mobile navigation and all interactive elements */
+@media (max-width: 768px) {
+    .main-nav a:focus {
+        outline: 2px solid var(--color-primary);
+        outline-offset: 2px;
+    }
+}
+
+/* Enhanced focus indicators for all screen sizes */
+*:focus-visible {
+    outline: 2px solid var(--color-focus);
+    outline-offset: 2px;
+}
+
+/* Ensure all interactive elements have proper focus styles */
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid var(--color-focus);
+    outline-offset: 2px;
+}
+
+/* Focus styles for navigation links */
+.main-nav a:focus {
+    outline: 2px solid var(--color-focus);
+    outline-offset: 2px;
+}
+
+/* Ensure consistent focus styles across all interactive elements */
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus,
+[tabindex]:focus {
+    outline: 2px solid var(--color-focus);
+    outline-offset: 2px;
+    z-index: 10;
+    position: relative;
+}
+
+/* Improve contrast for focus indicators in dark mode */
+@media (prefers-color-scheme: dark) {
+    *:focus-visible {
+        outline: 2px solid var(--color-focus);
+        outline-offset: 2px;
+    }
+    
+    a:focus,
+    button:focus,
+    input:focus,
+    select:focus,
+    textarea:focus,
+    [tabindex]:focus {
+        outline: 2px solid var(--color-focus);
+        outline-offset: 2px;
+    }
+}
+
+/* Ensure consistent focus styles across all interactive elements */
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus,
+[tabindex]:focus {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}

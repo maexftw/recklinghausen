@@ -1,0 +1,30 @@
+{
+    "permissions": {
+        "member": {
+            "access": true,
+            "features": [
+                "view_training_plans",
+                "view_announcements",
+                "view_documents"
+            ],
+            "admin_features": false
+        },
+        "admin": {
+            "access": true,
+            "features": [
+                "view_training_plans",
+                "view_announcements", 
+                "view_documents",
+                "edit_content",
+                "manage_users",
+                "view_statistics"
+            ],
+            "admin_features": true
+        }
+    },
+    "authentication": {
+        "method": "session",
+        "storage": "sessionStorage",
+        "csrf_protection": true
+    }
+}

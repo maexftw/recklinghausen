@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interner Bereich - RLC Recklinghausen</title>
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/responsive.css">
+</head>
+<body>
+    <!-- Header mit Navigation -->
+    <a href="#main-content" class="skip-link">Zum Hauptinhalt springen</a>
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="logo">
+                <a href="../../index.html">
+                    <img src="../../assets/logo/rlc_logo_original.png" alt="RLC Recklinghausen Logo">
+                </a>
+            </div>
+            <nav class="main-nav" role="navigation" aria-label="Hauptnavigation">
+                <ul>
+                    <li><a href="../../index.html">Startseite</a></li>
+                    <li><a href="../../pages/news.html">Aktuelles</a></li>
+                    <li><a href="../../pages/training.html">Training</a></li>
+                    <li><a href="../../pages/team.html">Verein</a></li>
+                    <li><a href="../../pages/facilities.html">Sportstätten</a></li>
+                    <li><a href="../../pages/stats.html">Statistiken</a></li>
+                    <li><a href="../../pages/gallery.html">Fotos</a></li>
+                    <li><a href="../../pages/sponsors.html">Partner</a></li>
+                    <li><a href="../../pages/scope-contract.html">Scope/Vertrag</a></li>
+                    <li><a href="../../pages/contact.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hauptinhalt -->
+    <main class="internal-main">
+        <div class="container">
+            <h1>Interner Bereich</h1>
+            
+            <!-- Login-Bereich für nicht-authentifizierte Nutzer -->
+            <section id="login-section" class="internal-section">
+                <h2>Login</h2>
+                <form id="login-form">
+                    <div class="form-group">
+                        <label for="username">Benutzername:</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Passwort:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <button type="submit">Anmelden</button>
+                </form>
+                <p id="login-error" class="error-message"></p>
+            </section>
+
+            <!-- Dashboard für authentifizierte Nutzer -->
+            <section id="dashboard-section" class="internal-section" style="display: none;">
+                <h2>Dashboard</h2>
+                <div class="user-info">
+                    <p>Angemeldet als: <span id="current-user"></span></p>
+                    <p>Berechtigungsstufe: <span id="user-role"></span></p>
+                    <button id="logout-btn">Abmelden</button>
+                </div>
+
+                <!-- Inhalte für Mitglieder -->
+                <div id="member-content" class="content-section">
+                    <h3>Interne Inhalte für Mitglieder</h3>
+                    <ul>
+                        <li><a href="training-plans.html">Trainingspläne</a></li>
+                        <li><a href="announcements.html">Interne Mitteilungen</a></li>
+                        <li><a href="documents.html">Dokumente</a></li>
+                    </ul>
+                </div>
+
+                <!-- Inhalte für Admins -->
+                <div id="admin-content" class="content-section">
+                    <h3>Admin-Funktionen</h3>
+                    <ul>
+                        <li><a href="content-management.html">Inhalte verwalten</a></li>
+                        <li><a href="user-management.html">Benutzerverwaltung</a></li>
+                        <li><a href="statistics.html">Statistiken</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 RLC Recklinghausen. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <script src="../../assets/js/components.js"></script>
+    <script src="../../assets/js/auth.js"></script>
+    <script>
+        // Initialisiere die Seite nach dem Laden
+        document.addEventListener('DOMContentLoaded', function() {
+            // Aktualisiere Navigation und zeige Dashboard an
+            updateNavigation();
+            showDashboard();
+        });
+    </script>
+</body>
+</html>

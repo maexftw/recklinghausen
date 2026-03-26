@@ -53,9 +53,11 @@ function initSharedComponents() {
                     <a class="text-sm font-semibold hover:text-primary transition-colors" href="${basePath}pages/news.html">Aktuelles</a>
                     <a class="text-sm font-semibold hover:text-primary transition-colors" href="${basePath}pages/training.html">Training</a>
                     <a class="text-sm font-semibold hover:text-primary transition-colors" href="${basePath}pages/team.html">Verein</a>
+                    <a class="text-sm font-semibold hover:text-primary transition-colors" href="${basePath}pages/facilities.html">Sportstätten</a>
                     <a class="text-sm font-semibold hover:text-primary transition-colors" href="${basePath}pages/stats.html">Statistiken</a>
                     <a class="text-sm font-semibold hover:text-primary transition-colors" href="${basePath}pages/gallery.html">Fotos</a>
                     <a class="text-sm font-semibold hover:text-primary transition-colors" href="${basePath}pages/sponsors.html">Partner</a>
+                    <a class="text-sm font-semibold hover:text-primary transition-colors" href="${basePath}pages/scope-contract.html">Scope/Vertrag</a>
                     <a class="text-sm font-semibold hover:text-primary transition-colors" href="${basePath}pages/contact.html">Kontakt</a>
                 </nav>
                 <div class="flex items-center space-x-4">
@@ -65,7 +67,7 @@ function initSharedComponents() {
                     <a href="${basePath}pages/register.html" class="bg-primary hover:bg-opacity-90 text-white px-5 py-2.5 rounded-full font-bold text-sm transition-all transform hover:scale-105 shadow-lg shadow-primary/20">
                         Mitmachen
                     </a>
-                    <button id="mobile-menu-button" class="lg:hidden p-2 text-slate-600 dark:text-slate-400" aria-label="HauptmenÃ¼ Ã¶ffnen">
+                    <button id="mobile-menu-button" class="lg:hidden p-2 text-slate-600 dark:text-slate-400" aria-label="Hauptmenü öffnen">
                         <span class="material-icons-round">menu</span>
                     </button>
                 </div>
@@ -78,9 +80,11 @@ function initSharedComponents() {
                 <a class="block px-3 py-4 text-base font-semibold hover:bg-slate-50 dark:hover:bg-slate-800 rounded-xl" href="${basePath}pages/news.html">Aktuelles</a>
                 <a class="block px-3 py-4 text-base font-semibold hover:bg-slate-50 dark:hover:bg-slate-800 rounded-xl" href="${basePath}pages/training.html">Training</a>
                 <a class="block px-3 py-4 text-base font-semibold hover:bg-slate-50 dark:hover:bg-slate-800 rounded-xl" href="${basePath}pages/team.html">Verein</a>
+                <a class="block px-3 py-4 text-base font-semibold hover:bg-slate-50 dark:hover:bg-slate-800 rounded-xl" href="${basePath}pages/facilities.html">Sportstätten</a>
                 <a class="block px-3 py-4 text-base font-semibold hover:bg-slate-50 dark:hover:bg-slate-800 rounded-xl" href="${basePath}pages/stats.html">Statistiken</a>
                 <a class="block px-3 py-4 text-base font-semibold hover:bg-slate-50 dark:hover:bg-slate-800 rounded-xl" href="${basePath}pages/gallery.html">Fotos</a>
                 <a class="block px-3 py-4 text-base font-semibold hover:bg-slate-50 dark:hover:bg-slate-800 rounded-xl" href="${basePath}pages/sponsors.html">Partner</a>
+                <a class="block px-3 py-4 text-base font-semibold hover:bg-slate-50 dark:hover:bg-slate-800 rounded-xl" href="${basePath}pages/scope-contract.html">Scope/Vertrag</a>
                 <a class="block px-3 py-4 text-base font-semibold hover:bg-slate-50 dark:hover:bg-slate-800 rounded-xl" href="${basePath}pages/contact.html">Kontakt</a>
             </div>
         </div>
@@ -96,15 +100,18 @@ function initSharedComponents() {
                         <span class="font-display font-black text-2xl tracking-tighter">RLC<span class="text-primary">1952</span></span>
                     </div>
                     <p class="text-slate-400 max-w-sm mb-8 leading-relaxed">
-                        Seit Ã¼ber 70 Jahren die Heimat fÃ¼r Leichtathletik in Recklinghausen. Wir fÃ¶rdern Talente und leben Gemeinschaft.
+                        Seit über 70 Jahren die Heimat für Leichtathletik in Recklinghausen. Wir fördern Talente und leben Gemeinschaft.
                     </p>
-                    <div class="flex space-x-4">
-                        <a href="#" class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-primary transition-colors" aria-label="Folge uns auf Instagram">
+                    <div class="flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:gap-4">
+                        <div class="flex space-x-4" aria-label="Social-Media-Platzhalter">
+                        <span class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-slate-400" aria-hidden="true">
                             <img src="https://www.svgrepo.com/show/521711/instagram.svg" class="w-5 h-5 invert" alt="Instagram Logo">
-                        </a>
-                        <a href="#" class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-primary transition-colors" aria-label="Folge uns auf Facebook">
+                        </span>
+                        <span class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-slate-400" aria-hidden="true">
                             <img src="https://www.svgrepo.com/show/521654/facebook.svg" class="w-5 h-5 invert" alt="Facebook Logo">
-                        </a>
+                        </span>
+                        </div>
+                        <p class="text-xs text-slate-400">Social-Media-Links werden ergänzt, sobald die offiziellen Profile eingebunden sind.</p>
                     </div>
                 </div>
                 <div>
@@ -121,14 +128,15 @@ function initSharedComponents() {
                     <ul class="space-y-4 text-slate-400 text-sm">
                         <li><a href="${basePath}pages/contact.html#imprint" class="hover:text-white transition-colors">Impressum</a></li>
                         <li><a href="${basePath}pages/contact.html#privacy" class="hover:text-white transition-colors">Datenschutz</a></li>
+                        <li><a href="${basePath}pages/scope-contract.html" class="hover:text-white transition-colors">Scope/Vertrag</a></li>
                         <li><a href="${basePath}pages/contact.html#contact" class="hover:text-white transition-colors">Kontakt</a></li>
                         <li><a href="${basePath}pages/sponsors.html" class="hover:text-white transition-colors">Sponsoren</a></li>
                     </ul>
                 </div>
             </div>
             <div class="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center text-slate-500 text-xs">
-                <p>&copy; 2024 RecklinghÃ¤user Leichtathletik Club 1952 e.V.</p>
-                <p class="mt-4 md:mt-0 italic">Mit Leidenschaft fÃ¼r die Leichtathletik entwickelt</p>
+                <p>&copy; 2024 Recklinghäuser Leichtathletik Club 1952 e.V.</p>
+                <p class="mt-4 md:mt-0 italic">Mit Leidenschaft für die Leichtathletik entwickelt</p>
             </div>
         </div>
     </footer>

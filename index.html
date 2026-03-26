@@ -4,13 +4,16 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>RLC 1952 - Recklinghäuser Leichtathletik Club</title>
+    <title>RLC 1952 - Leichtathletik in Recklinghausen für Kinder, Jugendliche und Erwachsene</title>
     <meta name="description"
-        content="Der Recklinghäuser Leichtathletik Club 1952 e.V. (RLC) ist dein Verein für professionelles Training, Teamgeist und Spitzenförderung in Recklinghausen. Entdecke unsere Disziplinen und Erfolge!">
+        content="Der Recklinghäuser Leichtathletik Club 1952 e.V. bietet Leichtathletik in Recklinghausen für Kinder, Jugendliche und Erwachsene - vom ersten Probetraining bis zum Wettkampf.">
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Montserrat:wght@700;900&amp;display=swap"
         rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
+    <link href="assets/css/design-tokens.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/responsive.css" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
     <script src="assets/js/news_data.js"></script>
     <script src="assets/js/components.js"></script>
@@ -27,8 +30,9 @@
 
 <body
     class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-sans transition-colors duration-300">
+    <a href="#main-content" class="skip-link">Zum Hauptinhalt springen</a>
     <header></header>
-    <section class="relative pt-20 overflow-hidden bg-slate-900">
+    <section class="relative pt-20 overflow-hidden bg-[var(--color-slate-900)]">
         <div class="absolute inset-0 opacity-40">
             <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDwQwdd7uIAbyPk13ndW2rswSVdHtwl7m8KzZ09eGwWWcKKb8FCwiCrPvLTRc6NS0YC6XuRYqij7cLLhwryr1Q7qbKjOZOeWRrOomOJZ45XCi-XECu2cLYYEkMpQZP49_wHswINA-2IBggqdINZfVjENeHAvCfs8ZEVs7FMNFcKl1ab_nzj8VsQz6MP5Tf0NS6AjHlG-08FG5aBpOiZX49miIAXx6iTwyv2XGOZuftFStx_CU1ub_YLoIT2pIJz9Dq9BRZ1H7-l8bK"
                 alt="Sportler auf der Laufbahn" class="w-full h-full object-cover opacity-30" loading="lazy">
@@ -42,56 +46,54 @@
             </span>
             <h1
                 class="font-display text-4xl md:text-6xl lg:text-7xl font-black text-white max-w-2xl leading-[1.1] mb-6">
-                Schneller, Höher, <span class="text-primary">Weiter.</span>
+                Leichtathletik in Recklinghausen <span class="text-primary">für jedes Alter.</span>
             </h1>
             <p class="text-slate-300 text-lg md:text-xl max-w-xl mb-10 leading-relaxed">
-                Der Recklinghäuser Leichtathletik Club bietet professionelles Training, Teamgeist und Spitzenförderung
-                für alle Altersklassen.
+                Trainiere mit dem RLC 1952 - vom ersten Probetraining bis zur Wettkampfgruppe. Hier findest du
+                Trainingsangebote, Vereinsnews und den Weg zur Mitgliedschaft.
             </p>
             <div class="flex flex-wrap gap-4">
-                <button
+                <a href="pages/membership-info.html"
                     class="bg-primary text-white px-8 py-4 rounded-xl font-bold text-lg hover:shadow-xl hover:shadow-primary/30 transition-all">
-                    Probetraining vereinbaren
-                </button>
-                <button
+                    Probetraining &amp; Mitgliedschaft
+                </a>
+                <a href="pages/news.html"
                     class="bg-white/10 backdrop-blur-md text-white border border-white/20 px-8 py-4 rounded-xl font-bold text-lg hover:bg-white hover:text-slate-900 transition-all">
-                    Aktuelle Termine
-                </button>
+                    Aktuelle News lesen
+                </a>
             </div>
         </div>
     </section>
-    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+    <main id="main-content" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
             <div class="lg:col-span-8 space-y-12">
-                <div class="flex justify-between items-end border-b border-slate-200 dark:border-slate-800 pb-4">
-                    <div>
-                        <h2 class="font-display text-3xl font-black uppercase tracking-tight">Aktuelles</h2>
-                        <p class="text-slate-500 dark:text-slate-400 mt-1">Berichte und Ergebnisse aus dem Club</p>
+                <section>
+                    <div class="flex flex-col gap-4 md:flex-row md:justify-between md:items-end border-b border-slate-200 dark:border-slate-800 pb-4">
+                        <div>
+                            <h2 class="font-display text-3xl font-black uppercase tracking-tight">Aktuelles</h2>
+                            <p class="text-slate-500 dark:text-slate-400 mt-1">Neuigkeiten, Ergebnisse und wichtige Meldungen aus dem Verein</p>
+                        </div>
+                        <div class="pb-1 text-sm text-slate-500 dark:text-slate-400 md:text-right">
+                            <p class="font-semibold text-slate-700 dark:text-slate-200">Die neuesten drei Beiträge werden hier automatisch angezeigt.</p>
+                            <p>Weitere Meldungen findest du im <a href="pages/news.html" class="text-primary font-semibold hover:underline">vollständigen News-Archiv</a>.</p>
+                        </div>
                     </div>
-                    <div class="flex space-x-2 pb-1">
-                        <button
-                            class="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 hover:text-primary transition-colors"><span
-                                class="material-icons-round">chevron_left</span></button>
-                        <button
-                            class="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 hover:text-primary transition-colors"><span
-                                class="material-icons-round">chevron_right</span></button>
+                    <div id="index-news-container" class="space-y-12" aria-live="polite">
+                        <!-- Dynamic News will be loaded here -->
+                        <div class="animate-pulse bg-slate-200 dark:bg-slate-800 h-64 rounded-2xl"></div>
+                        <div class="animate-pulse bg-slate-200 dark:bg-slate-800 h-64 rounded-2xl"></div>
                     </div>
-                </div>
-                <div id="index-news-container" class="space-y-12">
-                    <!-- Dynamic News will be loaded here -->
-                    <div class="animate-pulse bg-slate-200 dark:bg-slate-800 h-64 rounded-2xl"></div>
-                    <div class="animate-pulse bg-slate-200 dark:bg-slate-800 h-64 rounded-2xl"></div>
-                </div>
+                </section>
             </div>
             <aside class="lg:col-span-4 space-y-12">
                 <div
-                    class="bg-slate-100 dark:bg-slate-900/50 p-8 rounded-3xl border border-slate-200 dark:border-slate-800">
+                    class="bg-[var(--color-slate-100)] dark:bg-[var(--color-slate-900)/50] p-8 rounded-3xl border border-[var(--color-slate-200)] dark:border-[var(--color-slate-800)]">
                     <h3 class="font-display font-bold text-xl mb-6 flex items-center">
                         <span class="material-icons-round text-primary mr-2">event</span> Nächste Termine
                     </h3>
                     <div class="space-y-6">
                         <div class="flex items-start space-x-4">
-                            <div class="bg-white dark:bg-slate-800 p-2 rounded-xl text-center min-w-[60px] shadow-sm">
+                            <div class="bg-white dark:bg-[var(--color-slate-800)] p-2 rounded-xl text-center min-w-[60px] shadow-sm">
                                 <span class="block text-xs uppercase font-bold text-slate-400">Feb</span>
                                 <span class="block text-xl font-black text-primary">12</span>
                             </div>
@@ -111,9 +113,9 @@
                             </div>
                         </div>
                     </div>
-                    <button
-                        class="w-full mt-8 py-3 bg-slate-900 dark:bg-white dark:text-slate-900 text-white font-bold rounded-xl text-sm">Alle
-                        Termine</button>
+                    <a href="pages/training.html"
+                        class="block w-full mt-8 py-3 bg-slate-900 dark:bg-white dark:text-slate-900 text-white font-bold rounded-xl text-sm text-center">Trainingszeiten
+                        ansehen</a>
                 </div>
                 <div>
                     <h3
@@ -123,7 +125,7 @@
                         <div
                             class="bg-white dark:bg-slate-800 p-6 rounded-2xl flex flex-col items-center justify-center border border-slate-100 dark:border-slate-700 shadow-sm transition-transform hover:-translate-y-1">
                             <span class="text-[10px] text-slate-400 uppercase font-bold mb-2">by Lückenotto</span>
-                            <div class="text-2xl font-black tracking-tighter text-[#1b4353]">
+                            <div class="text-2xl font-black tracking-tighter text-[var(--color-primary-dark)]">
                                 <span class="text-primary">body</span>nostic
                             </div>
                             <p class="text-[9px] uppercase tracking-[0.2em] font-medium text-slate-500 mt-1">Das
@@ -131,7 +133,7 @@
                         </div>
                         <div
                             class="bg-white dark:bg-slate-800 p-6 rounded-2xl flex items-center space-x-4 border border-slate-100 dark:border-slate-700 shadow-sm transition-transform hover:-translate-y-1">
-                            <div class="bg-blue-600 w-12 h-12 rounded-full flex items-center justify-center shrink-0">
+                            <div class="bg-[var(--color-blue-600)] w-12 h-12 rounded-full flex items-center justify-center shrink-0">
                                 <span class="material-icons-round text-white">public</span>
                             </div>
                             <div>
@@ -148,11 +150,11 @@
                         <span class="material-icons-round text-[150px]">emoji_events</span>
                     </div>
                     <div class="relative z-10">
-                        <h3 class="font-display font-bold text-2xl mb-4">Teil des Teams werden?</h3>
-                        <p class="text-white/80 text-sm mb-6 leading-relaxed">Entdecke die Vielfalt der Leichtathletik
-                            und trainiere mit Profis.</p>
-                        <button class="bg-white text-primary px-6 py-2.5 rounded-xl font-bold text-sm">Jetzt
-                            anmelden</button>
+                        <h3 class="font-display font-bold text-2xl mb-4">Mitglied werden oder Probetraining anfragen?</h3>
+                        <p class="text-white/80 text-sm mb-6 leading-relaxed">Informiere dich über den Ablauf,
+                            Mitgliedsarten und die Angaben für deinen Antrag.</p>
+                        <a href="pages/membership-info.html" class="inline-block bg-white text-primary px-6 py-2.5 rounded-xl font-bold text-sm">Mitgliedschaft
+                            ansehen</a>
                     </div>
                 </div>
             </aside>
@@ -166,34 +168,78 @@
             const container = document.getElementById('index-news-container');
             if (container) {
                 container.innerHTML = '';
-                news.slice(0, 3).forEach(article => {
+                const featuredArticles = news.slice(0, 3);
+
+                if (featuredArticles.length === 0) {
+                    container.innerHTML = `
+                        <div class="rounded-2xl border border-dashed border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-900/40 p-8 text-center">
+                            <h3 class="text-xl font-bold mb-2">Zurzeit liegen keine Vereinsnews vor.</h3>
+                            <p class="text-slate-600 dark:text-slate-400 mb-4">Sobald neue Meldungen veröffentlicht werden, erscheinen sie hier automatisch.</p>
+                            <a href="pages/contact.html" class="inline-flex items-center justify-center rounded-xl bg-slate-900 px-5 py-3 font-bold text-white dark:bg-white dark:text-slate-900">Kontakt zum Verein</a>
+                        </div>
+                    `;
+                    return;
+                }
+
+                featuredArticles.forEach(article => {
                     const articleEl = document.createElement('article');
                     articleEl.className = "group grid grid-cols-1 md:grid-cols-12 gap-6 items-start";
 
-                    const imageUrl = article.images.length > 0 ? article.images[0].local : 'https://via.placeholder.com/600x400?text=RLC+1952';
+                    const imageUrl = article.images && article.images.length > 0 ? article.images[0].local : 'https://via.placeholder.com/600x400?text=RLC+1952';
                     const fullImageUrl = imageUrl.startsWith('http') ? imageUrl : imageUrl;
+                    const articleLink = article.id ? `pages/news/${article.id}.html` : 'pages/news.html';
+                    const articleTitle = article.title || 'Vereinsmeldung';
+                    const articleExcerpt = article.content_text || 'Zu diesem Beitrag liegt aktuell keine Kurzbeschreibung vor.';
+                    const articleDate = article.date || 'Datum folgt';
 
                     articleEl.innerHTML = `
                         <div class="md:col-span-5 h-[240px] overflow-hidden">
-                            <img src="${fullImageUrl}" alt="${article.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" onerror="this.src='https://via.placeholder.com/800x600?text=RLC+1952'">
+                            <img src="${fullImageUrl}" alt="${articleTitle}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" onerror="this.src='https://via.placeholder.com/800x600?text=RLC+1952'" decoding="async">
                         </div>
-                        <div class="md:col-span-7 space-y-3">
-                            <div class="flex items-center space-x-3 text-sm text-slate-500 font-semibold uppercase tracking-wider">
-                                <span class="text-primary" aria-label="Veröffentlichungsdatum">${article.date}</span>
+                        <div class="md:col-span-7 space-y-3 min-w-0">
+                            <div class="flex items-center space-x-3 text-sm text-slate-500 font-semibold uppercase tracking-wider min-w-0">
+                                <span class="text-primary" aria-label="Veröffentlichungsdatum">${articleDate}</span>
                             </div>
-                            <h3 class="text-2xl font-bold leading-tight group-hover:text-primary transition-colors">${article.title}</h3>
-                            <p class="text-slate-600 dark:text-slate-400 leading-relaxed line-clamp-3">
-                                ${article.content_text}
+                            <h3 class="text-2xl font-bold leading-tight group-hover:text-primary transition-colors break-words">${articleTitle}</h3>
+                            <p class="text-slate-600 dark:text-slate-400 leading-relaxed line-clamp-3 break-words">
+                                ${articleExcerpt}
                             </p>
-                            <a class="inline-flex items-center font-bold text-primary group/link" href="pages/news.html">
-                                Weiterlesen <span
-                                    class="material-icons-round text-sm ml-1 group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
-                            </a>
+                            <div class="flex flex-wrap items-center gap-4">
+                                <a class="inline-flex items-center font-bold text-primary group/link" href="${articleLink}">
+                                    Beitrag lesen <span
+                                        class="material-icons-round text-sm ml-1 group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
+                                </a>
+                                <a class="inline-flex items-center font-bold text-slate-700 dark:text-slate-200 hover:text-primary transition-colors" href="pages/news.html">
+                                    Zum News-Archiv <span
+                                     class="material-icons-round text-sm ml-1 group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
+                                </a>
+                            </div>
                         </div>
                     `;
                     container.appendChild(articleEl);
                 });
             }
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const container = document.getElementById('index-news-container');
+            if (!container) {
+                return;
+            }
+
+            window.addEventListener('error', (event) => {
+                if (event.filename && event.filename.includes('news_data')) {
+                    container.innerHTML = `
+                        <div class="rounded-2xl border border-amber-200 bg-amber-50 p-8 text-center text-amber-950 dark:border-amber-800 dark:bg-amber-950/30 dark:text-amber-100">
+                            <h3 class="text-xl font-bold mb-2">Die Vereinsnews konnten gerade nicht vollständig geladen werden.</h3>
+                            <p class="mb-4">Bitte öffne das News-Archiv später erneut oder nutze bei dringenden Fragen den Kontakt zum Verein.</p>
+                            <a href="pages/contact.html" class="inline-flex items-center justify-center rounded-xl bg-slate-900 px-5 py-3 font-bold text-white dark:bg-white dark:text-slate-900">Kontakt zum Verein</a>
+                        </div>
+                    `;
+                }
+            }, { once: true });
         });
     </script>
 </body>

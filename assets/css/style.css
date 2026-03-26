@@ -1,0 +1,382 @@
+/* Haupt-Stil für die Website */
+
+/* Allgemeine Formatierung */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS Variables for better accessibility and contrast - imported from design-tokens.css */
+:root {
+  /* Import design tokens - this is now handled by the design-tokens.css file */
+  /* @import url('./design-tokens.css'); */ /* Removed to avoid circular imports */
+}
+
+body {
+    font-family: var(--font-family-primary);
+    line-height: var(--line-height-normal);
+    color: var(--color-text-contrast);
+    background-color: var(--color-background-light);
+}
+
+/* Skip link styles for keyboard navigation */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 6px;
+    background: var(--color-primary);
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    z-index: 1000;
+    transition: top 0.3s;
+}
+
+.skip-link:focus {
+    top: 6px;
+}
+
+/* Ensure dark mode text has proper contrast */
+@media (prefers-color-scheme: dark) {
+    body {
+        color: var(--color-text-contrast-dark);
+        background-color: var(--color-background-dark);
+    }
+}
+
+/* Improved contrast for all text elements */
+body {
+    color: var(--color-text-contrast);
+    background-color: var(--color-background-light);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-heading);
+    line-height: var(--line-height-tight);
+}
+
+p,
+li,
+input,
+select,
+textarea,
+label {
+    line-height: var(--line-height-normal);
+}
+
+/* Ensure proper contrast ratios for links */
+a {
+    color: var(--color-link);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: var(--color-link-hover);
+    text-decoration: underline;
+}
+
+/* Ensure proper contrast for buttons and interactive elements */
+button {
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius-sm);
+    cursor: pointer;
+    font-size: var(--font-size-md);
+    transition: background-color 0.3s;
+    padding: var(--spacing-sm) var(--spacing-md);
+}
+
+button:hover, button:focus {
+    background-color: var(--color-primary-dark);
+    outline: 2px solid var(--color-focus);
+    outline-offset: 2px;
+}
+
+/* Ensure proper contrast for form elements */
+input, select, textarea {
+    border: 1px solid var(--color-neutral-300);
+    padding: var(--spacing-sm);
+    border-radius: var(--border-radius-sm);
+    background-color: var(--color-card-light);
+    color: var(--color-text-contrast);
+}
+
+/* Ensure proper contrast for form elements in dark mode */
+@media (prefers-color-scheme: dark) {
+    input, select, textarea {
+        background-color: var(--color-card-dark);
+        border: 1px solid var(--color-neutral-600);
+        color: var(--color-text-contrast-dark);
+    }
+}
+
+/* Ensure proper contrast for error messages */
+.error-message {
+    color: var(--color-error);
+    font-weight: var(--font-weight-bold);
+}
+
+/* Ensure proper contrast for success messages */
+.success-message {
+    color: var(--color-success);
+    font-weight: var(--font-weight-bold);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header-Stil */
+.header {
+    background-color: var(--color-primary-dark); /* Updated to meet contrast requirements */
+    color: white;
+    padding: var(--spacing-md) 0;
+    box-shadow: var(--box-shadow-sm);
+}
+
+/* Ensure header text has proper contrast */
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.header a:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+
+.logo img {
+    height: 50px;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.main-nav li {
+    margin: 0 10px;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.main-nav a:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+
+/* Hauptinhalt */
+main {
+    min-height: calc(100vh - 160px);
+    padding: 20px 0;
+}
+
+/* Footer-Stil */
+.footer {
+    background-color: var(--color-neutral-800); /* Changed from #333 to use design tokens */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-nav ul {
+        flex-direction: column;
+    }
+    
+    .main-nav li {
+        margin: 5px 0;
+    }
+    
+    .container {
+        width: 95%;
+    }
+}
+
+/* Stil für den internen Bereich */
+.internal-main {
+    padding: 20px 0;
+}
+
+.internal-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: var(--color-card-light);
+    border-radius: var(--border-radius-sm);
+    box-shadow: var(--box-shadow-sm);
+}
+
+.content-section {
+    margin-top: 20px;
+}
+
+.user-info {
+    background-color: var(--color-info-light); /* Changed from #e9f7fe to use design tokens */
+    padding: 15px;
+    border-radius: var(--border-radius-sm);
+    margin-bottom: 20px;
+}
+
+.user-info p {
+    margin: 5px 0;
+}
+
+.error-message {
+    color: var(--color-error); /* Using design token instead of hard-coded #dc3545 */
+    font-weight: var(--font-weight-bold);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid var(--color-neutral-300); /* Using design token instead of hard-coded #ddd */
+    border-radius: var(--border-radius-sm);
+    box-sizing: border-box;
+}
+
+button {
+    background-color: var(--color-primary); /* Updated to teal color with better contrast */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: var(--border-radius-sm);
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover, button:focus {
+    background-color: var(--color-primary-dark); /* Darker teal for hover state */
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+/* Ensure all interactive elements have proper focus styles */
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid var(--color-focus);
+    outline-offset: 2px;
+}
+
+/* Focus styles for navigation links */
+.main-nav a:focus {
+    outline: 2px solid var(--color-focus);
+    outline-offset: 2px;
+}
+
+/* Improved focus styles for better visibility */
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus,
+[tabindex]:focus {
+    outline: 2px solid var(--color-focus);
+    outline-offset: 2px;
+    z-index: 10;
+    position: relative;
+}
+
+.training-plan,
+.announcement,
+.document-item {
+    background-color: var(--color-card-light);
+    padding: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+    border-radius: var(--border-radius-sm);
+    box-shadow: var(--box-shadow-sm);
+}
+
+.document-item a {
+    display: inline-block;
+    margin-top: var(--spacing-sm);
+    color: var(--color-link);
+    text-decoration: none;
+}
+
+.document-item a:hover {
+    text-decoration: underline;
+}
+
+.admin-controls {
+    background-color: var(--color-warning); /* Using design token for warning color */
+    padding: var(--spacing-md);
+    border-radius: var(--border-radius-sm);
+    margin-bottom: var(--spacing-md);
+}
+
+.article-list li {
+    background-color: var(--color-card-light);
+    padding: var(--spacing-md);
+    margin-bottom: var(--spacing-sm);
+    border-radius: var(--border-radius-sm);
+    box-shadow: var(--box-shadow-sm);
+}
+
+.article-actions {
+    margin-top: 10px;
+}
+
+.article-actions button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.user-table th,
+.user-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--color-neutral-300); /* Using design token instead of hard-coded #ddd */
+}
+
+.user-table th {
+    background-color: var(--color-neutral-100);
+    font-weight: var(--font-weight-bold);
+}
+
+.user-table tr:hover {
+    background-color: var(--color-neutral-100);
+}
+
+.article-meta {
+    display: block;
+    font-size: 14px;
+    color: var(--color-text-contrast);
+    margin-top: 5px;
+}

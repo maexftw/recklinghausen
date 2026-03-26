@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inhalte verwalten - Interner Bereich</title>
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/responsive.css">
+</head>
+<body>
+    <!-- Header mit Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="../../index.html">
+                    <img src="../../assets/logo/rlc_logo_original.png" alt="RLC Recklinghausen Logo">
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="../../pages/team.html">Unser Verein</a></li>
+                    <li><a href="../../pages/facilities.html">Anlagen</a></li>
+                    <li><a href="../../pages/training.html">Training</a></li>
+                    <li><a href="../../pages/news.html">News</a></li>
+                    <li><a href="../../pages/gallery.html">Galerie</a></li>
+                    <li><a href="../../pages/sponsors.html">Sponsoren</a></li>
+                    <li><a href="../../pages/stats.html">Statistik</a></li>
+                    <li><a href="../../pages/membership-info.html">Mitgliedschaft</a></li>
+                    <li><a href="../../pages/contact.html">Kontakt</a></li>
+                    <li><a href="./index.html">Interner Bereich</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hauptinhalt -->
+    <main class="internal-main">
+        <div class="container">
+            <h1>Inhalte verwalten</h1>
+            
+            <div class="content-section">
+                <h2>Verwaltung der Website-Inhalte</h2>
+                <p>Hier können Sie die Inhalte der Website bearbeiten und verwalten.</p>
+                
+                <div class="admin-controls">
+                    <h3>Neuer Artikel</h3>
+                    <form id="article-form">
+                        <div class="form-group">
+                            <label for="title">Titel:</label>
+                            <input type="text" id="title" name="title" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="content">Inhalt:</label>
+                            <textarea id="content" name="content" rows="5" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="category">Kategorie:</label>
+                            <select id="category" name="category">
+                                <option value="news">News</option>
+                                <option value="announcements">Mitteilungen</option>
+                                <option value="events">Veranstaltungen</option>
+                            </select>
+                        </div>
+                        <button type="submit">Artikel veröffentlichen</button>
+                    </form>
+                </div>
+                
+                <div class="admin-controls">
+                    <h3>Bestehende Artikel</h3>
+                    <ul class="article-list">
+                        <li>
+                            <strong>Neue Trainingszeiten für Saison 2026/2027</strong> 
+                            <span class="article-meta">Veröffentlicht am: 15. März 2026 | Kategorie: News</span>
+                            <div class="article-actions">
+                                <button onclick="editArticle('1')">Bearbeiten</button>
+                                <button onclick="deleteArticle('1')">Löschen</button>
+                            </div>
+                        </li>
+                        <li>
+                            <strong>Wartung der Vereinswebsite</strong> 
+                            <span class="article-meta">Veröffentlicht am: 10. März 2026 | Kategorie: Mitteilungen</span>
+                            <div class="article-actions">
+                                <button onclick="editArticle('2')">Bearbeiten</button>
+                                <button onclick="deleteArticle('2')">Löschen</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 RLC Recklinghausen. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <script src="../../assets/js/components.js"></script>
+    <script src="../../assets/js/auth.js"></script>
+</body>
+</html>

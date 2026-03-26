@@ -1,0 +1,124 @@
+/*
+ * Design Tokens for RLC Website
+ * This file defines all CSS custom properties for consistent theming
+ */
+
+:root {
+  /* Color Palette - Primary */
+  --color-primary: #00B29A;
+  --color-primary-dark: #009688;
+  --color-primary-light: #00E5D1;
+  
+  /* Color Palette - Secondary */
+  --color-secondary: #1b4353;
+  --color-secondary-dark: #002d3a;
+  --color-secondary-light: #3a6a7d;
+  
+  /* Color Palette - Neutral */
+  --color-neutral-50: #F9FAFB;
+  --color-neutral-100: #F3F4F6;
+  --color-neutral-200: #E5E7EB;
+  --color-neutral-300: #D1D5DB;
+  --color-neutral-400: #9CA3AF;
+  --color-neutral-500: #6B7280;
+  --color-neutral-600: #4B5563;
+  --color-neutral-700: #374151;
+  --color-neutral-800: #1F2937;
+  --color-neutral-900: #111827;
+  
+  /* Color Palette - Status */
+  --color-success: #28a745;
+  --color-warning: #ffc107;
+  --color-error: #dc3545;
+  --color-info: #17a2b8;
+  
+  /* Color Palette - Links */
+  --color-link: #0066cc;
+  --color-link-hover: #004c99;
+  --color-link-visited: #7d3cb8;
+  
+  /* Color Palette - Backgrounds */
+  --color-background-light: var(--color-neutral-50);
+  --color-background-dark: var(--color-neutral-900);
+  --color-card-light: #ffffff;
+  --color-card-dark: var(--color-neutral-800);
+  
+  /* Color Palette - Text */
+  --color-text-light: var(--color-neutral-900);
+  --color-text-dark: var(--color-neutral-100);
+  --color-text-contrast: var(--color-text-light);
+  --color-text-contrast-dark: var(--color-text-dark);
+  
+  /* Color Palette - Focus */
+  --color-focus: var(--color-primary);
+  
+  /* Color Palette - Additional Colors for Consistency */
+  --color-slate-900: #111817;
+  --color-slate-100: #f0f4f4;
+  --color-slate-200: #e5eaea;
+  --color-slate-300: #dbe6e5;
+  --color-slate-400: #618986;
+  --color-slate-500: #393535;
+  --color-slate-600: #A8C7FA;
+  --color-slate-700: #323232;
+  --color-slate-800: #1a2e2c;
+  --color-slate-900-dark: #102220;
+  
+  /* Spacing Tokens */
+  --spacing-xxs: 0.25rem; /* 4px */
+  --spacing-xs: 0.5rem; /* 8px */
+  --spacing-sm: 0.75rem; /* 12px */
+  --spacing-md: 1rem; /* 16px */
+  --spacing-lg: 1.5rem; /* 24px */
+  --spacing-xl: 2rem; /* 32px */
+  --spacing-xxl: 3rem; /* 48px */
+  --spacing-xxxl: 4rem; /* 64px */
+  
+  /* Typography Tokens */
+  --font-family-primary: 'Inter', Arial, sans-serif;
+  --font-family-heading: 'Montserrat', Arial, sans-serif;
+  
+  --font-size-xs: 0.75rem; /* 12px */
+  --font-size-sm: 0.875rem; /* 14px */
+  --font-size-md: 1rem; /* 16px */
+  --font-size-lg: 1.125rem; /* 18px */
+  --font-size-xl: 1.25rem; /* 20px */
+  --font-size-xxl: 1.5rem; /* 24px */
+  --font-size-xxxl: 2rem; /* 32px */
+  --font-size-xxxxl: 3rem; /* 48px */
+  
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-black: 800;
+
+  /* Typography Rhythm */
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.7;
+  
+  /* Border Radius */
+  --border-radius-sm: 0.25rem; /* 4px */
+  --border-radius-md: 0.5rem; /* 8px */
+  --border-radius-lg: 1rem; /* 16px */
+  --border-radius-xl: 1.5rem; /* 24px */
+  
+  /* Box Shadows */
+  --box-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --box-shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --box-shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  --box-shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.1);
+  
+  /* Transitions */
+  --transition-fast: 0.1s ease-in-out;
+  --transition-normal: 0.3s ease-in-out;
+  --transition-slow: 0.5s ease-in-out;
+  
+  /* Z-indices */
+  --z-index-dropdown: 1000;
+  --z-index-modal: 1100;
+  --z-index-popover: 1200;
+  --z-index-tooltip: 1300;
+}
