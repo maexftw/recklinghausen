@@ -2,7 +2,6 @@
 <html lang="de">
 
 <head>
-  <a href="#main-content" class="skip-link">Zum Hauptinhalt springen</a>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Kontakt | RLC 1952</title>
@@ -18,31 +17,20 @@
 
 <body
     class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-sans transition-colors duration-300">
+    <a href="#main-content" class="skip-link">Zum Hauptinhalt springen</a>
     <header></header>
 
-    <main>
-        <!-- Hero Section -->
-        <section class="relative pt-32 pb-20 overflow-hidden bg-slate-900">
-            <div class="absolute inset-0 opacity-20">
-                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDwQwdd7uIAbyPk13ndW2rswSVdHtwl7m8KzZ09eGwWWcKKb8FCwiCrPvLTRc6NS0YC6XuRYqij7cLLhwryr1Q7qbKjOZOeWRrOomOJZ45XCi-XECu2cLYYEkMpQZP49_wHswINA-2IBggqdINZfVjENeHAvCfs8ZEVs7FMNFcKl1ab_nzj8VsQz6MP5Tf0NS6AjHlG-08FG5aBpOiZX49miIAXx6iTwyv2XGOZuftFStx_CU1ub_YLoIT2pIJz9Dq9BRZ1H7-l8bK"
-                    alt="Athletics Track" class="w-full h-full object-cover">
-            </div>
-            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                <span
-                    class="inline-block bg-primary/20 border border-primary text-primary px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest mb-4">Kontakt</span>
-                <h1 class="font-display text-4xl md:text-6xl font-black text-white mb-6">Wir helfen dir <span
-                        class="text-primary">gern weiter.</span></h1>
-                <p class="text-slate-400 text-lg max-w-2xl mx-auto">Du hast Fragen zu Training, Mitgliedschaft oder
-                    Presse? Schreib uns einfach – wir melden uns so schnell wie möglich.</p>
-            </div>
+    <main id="main-content" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-28 pb-20">
+        <section class="page-intro">
+            <span class="page-eyebrow">Kontakt</span>
+            <h1 class="page-title">Wir helfen dir gern weiter.</h1>
+            <p class="page-lead">Du hast Fragen zu Training, Mitgliedschaft oder Presse? Schreib uns einfach – wir melden uns so schnell wie möglich.</p>
         </section>
-
-        <!-- Contact Content -->
-        <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <section>
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-16">
                 <!-- Contact Form -->
                 <div
-                    class="lg:col-span-7 bg-white dark:bg-slate-900 p-8 md:p-12 rounded-3xl shadow-xl border border-slate-100 dark:border-slate-800">
+                    class="lg:col-span-7 bg-white dark:bg-slate-900 p-8 md:p-12 rounded-lg border border-slate-200 dark:border-slate-800">
                     <h2 class="font-display text-2xl font-bold mb-8">Nachricht senden</h2>
                     <form action="#" class="space-y-6">
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -50,14 +38,14 @@
                                 <label for="first-name"
                                     class="block text-sm font-bold text-slate-500 dark:text-slate-400 mb-2 uppercase tracking-wide">Vorname</label>
                                 <input type="text" id="first-name"
-                                    class="w-full bg-slate-50 dark:bg-slate-800 border-none rounded-xl px-4 py-3 focus:ring-2 focus:ring-primary transition-all"
+                                    class="w-full bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg px-4 py-3 focus:ring-2 focus:ring-primary transition-all"
                                     placeholder="Dein Vorname" aria-required="true">
                             </div>
                             <div>
                                 <label for="last-name"
                                     class="block text-sm font-bold text-slate-500 dark:text-slate-400 mb-2 uppercase tracking-wide">Nachname</label>
                                 <input type="text" id="last-name"
-                                    class="w-full bg-slate-50 dark:bg-slate-800 border-none rounded-xl px-4 py-3 focus:ring-2 focus:ring-primary transition-all"
+                                    class="w-full bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg px-4 py-3 focus:ring-2 focus:ring-primary transition-all"
                                     placeholder="Dein Nachname" aria-required="true">
                             </div>
                         </div>
@@ -65,14 +53,14 @@
                                 <label for="email-address"
                                     class="block text-sm font-bold text-slate-500 dark:text-slate-400 mb-2 uppercase tracking-wide">E-Mail-Adresse</label>
                             <input type="email" id="email-address"
-                                class="w-full bg-slate-50 dark:bg-slate-800 border-none rounded-xl px-4 py-3 focus:ring-2 focus:ring-primary transition-all"
+                                class="w-full bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg px-4 py-3 focus:ring-2 focus:ring-primary transition-all"
                                 placeholder="deine@email.de" aria-required="true">
                         </div>
                         <div>
                             <label for="subject-select"
                                 class="block text-sm font-bold text-slate-500 dark:text-slate-400 mb-2 uppercase tracking-wide">Betreff</label>
                             <select id="subject-select"
-                                class="w-full bg-slate-50 dark:bg-slate-800 border-none rounded-xl px-4 py-3 focus:ring-2 focus:ring-primary transition-all"
+                                class="w-full bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg px-4 py-3 focus:ring-2 focus:ring-primary transition-all"
                                 aria-label="Betreff auswählen">
                                 <option>Allgemeine Anfrage</option>
                                 <option>Probetraining</option>
@@ -84,11 +72,11 @@
                             <label for="message-text"
                                 class="block text-sm font-bold text-slate-500 dark:text-slate-400 mb-2 uppercase tracking-wide">Nachricht</label>
                                 <textarea rows="5" id="message-text"
-                                    class="w-full bg-slate-50 dark:bg-slate-800 border-none rounded-xl px-4 py-3 focus:ring-2 focus:ring-primary transition-all"
+                                    class="w-full bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg px-4 py-3 focus:ring-2 focus:ring-primary transition-all"
                                     placeholder="Schreib kurz, worum es geht und wie wir dir helfen können." aria-required="true"></textarea>
                         </div>
                         <button type="submit"
-                            class="w-full bg-primary hover:bg-opacity-90 text-white font-bold py-4 rounded-xl shadow-lg shadow-primary/20 transition-all transform hover:scale-[1.02]">
+                            class="w-full bg-primary hover:bg-opacity-90 text-white font-bold py-4 rounded-lg transition-colors">
                             Nachricht senden
                         </button>
                     </form>
@@ -98,13 +86,10 @@
                 <div class="lg:col-span-5 space-y-12">
                     <!-- Address Info -->
                     <div
-                        class="bg-slate-100 dark:bg-slate-900/50 p-8 rounded-3xl border border-slate-200 dark:border-slate-800">
+                        class="bg-slate-100 dark:bg-slate-900/50 p-8 rounded-lg border border-slate-200 dark:border-slate-800">
                         <h3 class="font-display font-bold text-xl mb-6">Vereinsanschrift</h3>
                         <div class="space-y-6">
                             <div class="flex items-start space-x-4">
-                                <div class="bg-primary text-white p-3 rounded-xl shadow-md">
-                                    <span class="material-icons-round">location_on</span>
-                                </div>
                                 <div>
                                     <h4 class="font-bold">Postanschrift</h4>
                                     <p class="text-slate-500 dark:text-slate-400 text-sm mt-1">Recklinghäuser LC 1952
@@ -112,9 +97,6 @@
                                 </div>
                             </div>
                             <div class="flex items-start space-x-4">
-                                <div class="bg-primary text-white p-3 rounded-xl shadow-md">
-                                    <span class="material-icons-round">stadium</span>
-                                </div>
                                 <div>
                                     <h4 class="font-bold">Trainingsstätte</h4>
                                     <p class="text-slate-500 dark:text-slate-400 text-sm mt-1">Stadion Hohenhorst<br>Am
@@ -125,38 +107,19 @@
                     </div>
 
                     <!-- Direct Contact -->
-                    <div class="bg-primary p-8 rounded-3xl text-white">
+                    <div class="border-t border-slate-200 dark:border-slate-800 pt-6 text-slate-900 dark:text-white">
                         <h3 class="font-display font-bold text-xl mb-6">Schnellkontakt</h3>
                         <div class="space-y-6">
                             <a href="mailto:info@rlc1952.de"
-                                class="flex items-center space-x-4 hover:translate-x-2 transition-transform">
-                                <span class="material-icons-round text-white/60">email</span>
+                                class="flex items-center space-x-4 hover:text-primary transition-colors">
                                 <span class="font-bold">info@rlc1952.de</span>
                             </a>
-                            <a href="#" class="flex items-center space-x-4 hover:translate-x-2 transition-transform">
-                                <span class="material-icons-round text-white/60">phone</span>
+                            <a href="#" class="flex items-center space-x-4 hover:text-primary transition-colors">
                                 <span class="font-bold">Zum Kontaktformular</span>
                             </a>
                         </div>
-                        <p class="text-white/60 text-xs mt-8">In der Regel erhältst du innerhalb von 48 Stunden eine
+                        <p class="text-slate-500 dark:text-slate-400 text-xs mt-8">In der Regel erhältst du innerhalb von 48 Stunden eine
                             Rückmeldung.</p>
-                    </div>
-
-                    <!-- Social -->
-                    <div>
-                        <h4
-                            class="font-display font-bold text-sm uppercase tracking-widest text-slate-400 mb-6 border-b border-slate-200 dark:border-slate-800 pb-2">
-                            Folge uns</h4>
-                        <div class="flex space-x-4">
-                            <a href="#"
-                                class="w-12 h-12 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center hover:bg-primary hover:text-white transition-all">
-                                <span class="material-icons-round">public</span>
-                            </a>
-                            <a href="#"
-                                class="w-12 h-12 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center hover:bg-primary hover:text-white transition-all">
-                                <span class="material-icons-round">share</span>
-                            </a>
-                        </div>
                     </div>
                 </div>
             </div>

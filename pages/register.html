@@ -41,9 +41,9 @@
 <body class="bg-background-light dark:bg-background-dark text-[#111817] dark:text-white min-h-screen">
     <!-- Top Navigation Bar -->
     <header></header>
-    <main class="flex min-h-[calc(100vh-64px)] overflow-hidden">
+    <main class="min-h-[calc(100vh-64px)] bg-white dark:bg-background-dark">
         <!-- Sidebar Image Section -->
-        <aside class="hidden lg:flex w-1/3 relative bg-cover bg-center flex-col justify-end p-12"
+        <aside class="hidden"
             data-alt="Athletic red running track in a stadium at sunset"
             style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.2) 50%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBx8FQJmsEHnqvs8XtVYdYgfE1X3xU4vgTG9ELkbiBaPIhqs_6-ymxNjBqXCy4hAGdyC72HXxsTDKl86Nb4HaTZx8loPdvKwxr4Owq3GRRz6pW5ajuD8J89wcWaVEt2gjc6N-5nFpEk6jlfcmRpY1DuOjnmS_lHZ6wUid_wY-LXQeSSOxV50Sr0oPTlJULzhudTzNAzj8ucPWEHLFmwlSVw1sZGVSyGwcNdLAwZryeMW9WzzPdO0Eq9ofEOFZihfijZzV-A6uPJf0nr");'>
             <div class="relative z-10 space-y-4">
@@ -63,28 +63,11 @@
             </div>
         </aside>
         <!-- Form Section -->
-        <section class="flex-1 flex flex-col items-center bg-white dark:bg-background-dark overflow-y-auto">
+        <section class="flex flex-col items-center overflow-y-auto">
             <div class="w-full max-w-[800px] px-6 py-10 md:px-12">
-                <!-- Progress Stepper -->
-                <div class="mb-10">
-                    <div class="flex flex-col gap-3">
-                        <div class="flex gap-6 justify-between items-end">
-                            <p
-                                class="text-[#111817] dark:text-white text-base font-semibold leading-normal uppercase tracking-wider">
-                                Schritt 1 von 4</p>
-                            <p class="text-primary text-sm font-bold leading-normal">25% Abgeschlossen</p>
-                        </div>
-                        <div class="rounded-full bg-[#dbe6e5] dark:bg-[#1a312e] h-2.5 overflow-hidden">
-                            <div class="h-full rounded-full bg-primary transition-all duration-500 ease-out"
-                                style="width: 25%;"></div>
-                        </div>
-                        <div class="flex justify-between text-[#618986] dark:text-slate-400 text-xs font-medium">
-                            <span class="text-primary">Persönliche Daten</span>
-                            <span>Kategorie</span>
-                            <span>Zahlung</span>
-                            <span>Review</span>
-                        </div>
-                    </div>
+                <div class="mb-10 border-b border-[#dbe6e5] pb-6 dark:border-[#1a312e]">
+                    <p class="text-primary text-sm font-bold uppercase tracking-[0.2em]">Mitgliedschaft</p>
+                    <p class="mt-2 text-sm text-[#618986] dark:text-slate-400">Schritt 1 von 4 · Persönliche Daten</p>
                 </div>
                 <!-- Page Heading -->
                 <div class="mb-8">
@@ -101,7 +84,7 @@
                         <!-- Floating Label Inputs -->
                         <div class="floating-label-group">
                             <input
-                                class="block w-full px-4 py-3 text-base text-gray-900 bg-transparent border-2 border-gray-200 rounded-lg appearance-none dark:text-white dark:border-gray-600 focus:outline-none focus:ring-0 focus:border-primary peer"
+                                class="block w-full px-4 py-3 text-base text-gray-900 bg-transparent border border-gray-300 rounded-md appearance-none dark:text-white dark:border-gray-600 focus:outline-none focus:ring-0 focus:border-primary peer"
                                 id="firstname" placeholder=" " type="text" />
                             <label
                                 class="absolute text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] px-2 peer-focus:px-2 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-3 pointer-events-none transition-all"
@@ -109,7 +92,7 @@
                         </div>
                         <div class="floating-label-group">
                             <input
-                                class="block w-full px-4 py-3 text-base text-gray-900 bg-transparent border-2 border-gray-200 rounded-lg appearance-none dark:text-white dark:border-gray-600 focus:outline-none focus:ring-0 focus:border-primary peer"
+                                class="block w-full px-4 py-3 text-base text-gray-900 bg-transparent border border-gray-300 rounded-md appearance-none dark:text-white dark:border-gray-600 focus:outline-none focus:ring-0 focus:border-primary peer"
                                 id="lastname" placeholder=" " type="text" />
                             <label
                                 class="absolute text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] px-2 peer-focus:px-2 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-3 pointer-events-none transition-all"
@@ -117,7 +100,7 @@
                         </div>
                         <div class="floating-label-group md:col-span-2">
                             <input
-                                class="block w-full px-4 py-3 text-base text-gray-900 bg-transparent border-2 border-gray-200 rounded-lg appearance-none dark:text-white dark:border-gray-600 focus:outline-none focus:ring-0 focus:border-primary peer"
+                                class="block w-full px-4 py-3 text-base text-gray-900 bg-transparent border border-gray-300 rounded-md appearance-none dark:text-white dark:border-gray-600 focus:outline-none focus:ring-0 focus:border-primary peer"
                                 id="email" placeholder=" " type="email" />
                             <label
                                 class="absolute text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] px-2 peer-focus:px-2 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-3 pointer-events-none transition-all"
@@ -125,7 +108,7 @@
                         </div>
                         <div class="floating-label-group">
                             <input
-                                class="block w-full px-4 py-3 text-base text-gray-900 bg-transparent border-2 border-gray-200 rounded-lg appearance-none dark:text-white dark:border-gray-600 focus:outline-none focus:ring-0 focus:border-primary peer"
+                                class="block w-full px-4 py-3 text-base text-gray-900 bg-transparent border border-gray-300 rounded-md appearance-none dark:text-white dark:border-gray-600 focus:outline-none focus:ring-0 focus:border-primary peer"
                                 id="dob" placeholder=" " type="date" />
                             <label
                                 class="absolute text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] px-2 peer-focus:px-2 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-3 pointer-events-none transition-all"
@@ -133,7 +116,7 @@
                         </div>
                         <div class="floating-label-group">
                             <select
-                                class="block w-full px-4 py-3 text-base text-gray-900 bg-transparent border-2 border-gray-200 rounded-lg appearance-none dark:text-white dark:border-gray-600 focus:outline-none focus:ring-0 focus:border-primary peer"
+                                class="block w-full px-4 py-3 text-base text-gray-900 bg-transparent border border-gray-300 rounded-md appearance-none dark:text-white dark:border-gray-600 focus:outline-none focus:ring-0 focus:border-primary peer"
                                 id="gender">
                                 <option disabled="" selected="" value="">Geschlecht</option>
                                 <option value="m">Männlich</option>
@@ -151,10 +134,9 @@
                         <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
                             <!-- Category Card 1 -->
                             <label
-                                class="relative flex flex-col p-5 border-2 border-gray-200 dark:border-gray-600 rounded-xl cursor-pointer hover:border-primary/50 transition-all group">
+                                class="relative flex flex-col p-5 border border-gray-300 dark:border-gray-600 rounded-lg cursor-pointer hover:border-primary/50 transition-all group">
                                 <input checked="" class="absolute top-4 right-4 text-primary focus:ring-primary h-4 w-4"
                                     name="membership" type="radio" />
-                                <span class="material-symbols-outlined text-primary text-3xl mb-3">sprint</span>
                                 <span class="text-sm font-bold block mb-1">Jugend</span>
                                     <span class="text-xs text-gray-500 dark:text-gray-400 mb-3 leading-tight">Für Kinder und Jugendliche
                                      bis 18 Jahre</span>
@@ -163,10 +145,9 @@
                             </label>
                             <!-- Category Card 2 -->
                             <label
-                                class="relative flex flex-col p-5 border-2 border-gray-200 dark:border-gray-600 rounded-xl cursor-pointer hover:border-primary/50 transition-all group">
+                                class="relative flex flex-col p-5 border border-gray-300 dark:border-gray-600 rounded-lg cursor-pointer hover:border-primary/50 transition-all group">
                                 <input class="absolute top-4 right-4 text-primary focus:ring-primary h-4 w-4"
                                     name="membership" type="radio" />
-                                <span class="material-symbols-outlined text-primary text-3xl mb-3">fitness_center</span>
                                 <span class="text-sm font-bold block mb-1">Aktiv</span>
                                 <span class="text-xs text-gray-500 dark:text-gray-400 mb-3 leading-tight">Reguläres
                                     Training &amp; Wettkämpfe</span>
@@ -175,10 +156,9 @@
                             </label>
                             <!-- Category Card 3 -->
                             <label
-                                class="relative flex flex-col p-5 border-2 border-gray-200 dark:border-gray-600 rounded-xl cursor-pointer hover:border-primary/50 transition-all group">
+                                class="relative flex flex-col p-5 border border-gray-300 dark:border-gray-600 rounded-lg cursor-pointer hover:border-primary/50 transition-all group">
                                 <input class="absolute top-4 right-4 text-primary focus:ring-primary h-4 w-4"
                                     name="membership" type="radio" />
-                                <span class="material-symbols-outlined text-primary text-3xl mb-3">favorite</span>
                                 <span class="text-sm font-bold block mb-1">Passiv</span>
                                     <span class="text-xs text-gray-500 dark:text-gray-400 mb-3 leading-tight">Unterstützung des Vereins ohne aktiven Trainingsbetrieb</span>
                                 <span class="text-lg font-bold mt-auto text-primary">40€ <small
@@ -195,7 +175,7 @@
                             Formular verlassen
                         </button>
                         <button
-                            class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-lg h-12 px-6 bg-primary text-[#111817] text-base font-bold transition-all hover:shadow-lg hover:shadow-primary/20 active:scale-[0.98]">
+                            class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-md h-12 px-6 bg-primary text-white text-base font-bold transition-colors">
                             <span>Nächster Schritt</span>
                             <span class="material-symbols-outlined ml-2">arrow_forward</span>
                         </button>

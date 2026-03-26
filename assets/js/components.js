@@ -2,26 +2,38 @@
 // RLC 1952 - Common Initialization
 // This script sets up Tailwind and injects shared components.
 
+const DESIGN_SYSTEM = {
+    colors: {
+        primary: '#00B29A',
+        secondary: '#1b4353',
+        'background-light': '#F9FAFB',
+        'background-dark': '#111827',
+        slate: {
+            50: '#f7faf9',
+            100: '#f0f4f4',
+            200: '#e5eaea',
+            400: '#618986',
+            900: '#111817'
+        }
+    },
+    fontFamily: {
+        display: ['Montserrat', 'sans-serif'],
+        sans: ['Inter', 'sans-serif']
+    },
+    borderRadius: {
+        DEFAULT: '0.5rem',
+        xl: '1rem',
+        '2xl': '1.5rem'
+    }
+};
+
 if (typeof tailwind !== 'undefined') {
     tailwind.config = {
-        darkMode: "class",
         theme: {
             extend: {
-                colors: {
-                    primary: "#00B29A", // Official RLC Teal
-                    secondary: "#11d4c4", // Accent Teal
-                    "background-light": "#F9FAFB",
-                    "background-dark": "#111827",
-                },
-                fontFamily: {
-                    display: ["Montserrat", "sans-serif"],
-                    sans: ["Inter", "sans-serif"],
-                },
-                borderRadius: {
-                    DEFAULT: "0.5rem",
-                    "xl": "1rem",
-                    "2xl": "1.5rem",
-                },
+                colors: DESIGN_SYSTEM.colors,
+                fontFamily: DESIGN_SYSTEM.fontFamily,
+                borderRadius: DESIGN_SYSTEM.borderRadius,
             },
         },
     };
@@ -29,70 +41,94 @@ if (typeof tailwind !== 'undefined') {
 
 document.addEventListener('DOMContentLoaded', () => {
     initSharedComponents();
-    initDarkMode();
 });
 
 function initSharedComponents() {
     const isRoot = window.location.pathname.endsWith('index.html') || window.location.pathname === '/' || !window.location.pathname.includes('/pages/');
     const basePath = isRoot ? '' : '../';
 
+    ensureSharedStyles(basePath);
+
     const headerHTML = `
-    <header class="fixed top-0 w-full z-50 glass-nav border-b border-slate-200 dark:border-slate-800">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center h-20">
+    <header class="site-shell border-b border-slate-200 dark:border-slate-800">
+        <div class="site-shell__inner max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="site-shell__bar flex justify-between items-center h-20">
                 <div class="flex items-center space-x-3">
-                    <a href="${basePath}index.html" class="flex items-center gap-3">
+                    <a href="${basePath}index.html" class="site-wordmark flex items-center gap-3 focus:outline-none">
+                        <svg width="40" height="40" viewBox="0 0 1904.1 734.68" xmlns="http://www.w3.org/2000/svg" class="logo-svg">
+                            <defs>
+                                <style>
+                                    .cls-1 {
+                                        fill: #fff599;
+                                    }
+                                    .cls-2 {
+                                        fill: #00a67a;
+                                    }
+                                    .cls-3 {
+                                        fill: #10b582;
+                                    }
+                                    .cls-4 {
+                                        fill: #1d1d1b;
+                                    }
+                                </style>
+                            </defs>
+                            <path id="_1" data-name="1" class="cls-3" d="M1693.95,595.75v18.97c0,3.01-.61,6.96,1.03,9.65,2.14,3.53,7.45,5.46,10.98,7.32,0-4.9-2.15-16.56,1.6-20.22,2.31-2.26,6.46-1.73,9.41-1.74h110.06v-13.98h-133.08Z"/>
+                            <path id="_9" data-name="9" class="cls-3" d="M1820.04,516.46c-8.7-6.27-17.31-12.69-26.01-18.97-20.86-15.03-44-37.47-72.04-27.66-3.93,1.38-7.59,3.18-11.01,5.57-4.2,2.94-7.85,6.31-10.79,10.54-3.5,5.07-6.2,10.93-7.41,16.97-1.47,7.34-1.42,15.74.62,22.96,9.96,35.23,59.51,45.44,80.52,13.98,3.64-5.46,5.65-11.52,6.66-17.97.97-6.2.12-11.98-1.56-17.95,9.33,5.8,18.17,12.76,27,19.32,4.06,3.03,8.31,7.1,13,9.13,4.22,1.84,8.83-3.29,9.14-7.42.29-3.88-5.5-6.61-8.12-8.5ZM1754.94,538.63c-4.17,3-8.95,4.7-13.97,5.6-32.47,5.79-48.79-39.41-22.01-57.18,3.34-2.21,7.07-3.89,11.01-4.63,31.9-6.01,51.98,36.83,24.97,56.21Z"/>
+                            <path id="_3" data-name="3" class="cls-3" d="M1735.98,417.07c-6.53-2.49-13.34-4.25-20.01-6.33-2.63-.82-6.39-1.34-8.4-3.38-2.56-2.61-1.6-7.93-1.6-11.25v-28.95h-11.01v31.94c0,6.65.55,13.46-1,19.96,21.52,3.16,41.52,14.8,63.04,17.97-3.41-7.53-7.33-14.52-7.91-22.96-.36-5.27.66-10.16,2.79-14.97,1.91-4.33,4.77-8.34,8.29-11.51,26.79-24.11,69.53,8.96,51.52,40.46-3.41,5.98-8.14,10.01-13.67,13.98,1.77,4.6,4.78,8.27,8,11.98,6.98-3.97,12.72-9.1,16.94-15.97,12.27-19.94,6.9-50.14-11.94-64.13-21.79-16.17-59.21-10.64-71.14,15.21-4.17,9.05-3.9,18.24-3.9,27.95h0Z"/>
+                            <path id="_2" data-name="2" class="cls-3" d="M1731.97,338.21c0-3.59,1.3-10.39-1.03-13.38-2.18-2.81-8.81-3.12-11.98-4.95-8.51-4.93-13.81-13.78-13.96-23.6-.28-19.22,21.35-30.97,37.97-23.61,10.53,4.66,19.38,14.08,28.02,21.48,17.54,15.04,34.95,32.03,54.03,45.05,2.53-8.55,1-19.07,1-27.95v-55.9h-11.01v55.9c-5.69-2.64-10.24-7.53-15.01-11.56-9.68-8.16-19.41-16.27-29.02-24.51-12.68-10.87-25.14-21.44-43.02-19.66-29.9,2.97-45.91,38.37-30.54,63.72,7.25,11.97,20.85,18.38,34.54,18.97h.01Z"/>
+                            <path id="C" d="M1652.93,501.92c-7.74,4.42-13.89,12.58-21.01,18.08-15.04,11.62-32.03,18.88-51.03,20.68-10.42.99-20.97-.86-31.02-3.45-13.29-3.43-25.3-10.76-35.02-20.34-44.43-43.81-38.21-126.68,17.01-159.26,7.3-4.31,15.75-6.99,24.01-8.78,9.48-2.05,20.4-2.72,30.02-1.22,18.68,2.9,34.33,10.82,49.03,22.52,6.28,5.01,11.46,11.36,18.01,15.97v-64.89c0-10.96-1.55-23.25,1-33.94-37.02-15.38-73.63-24.9-114.06-19.39-34.08,4.64-66.15,18.12-91.05,42.36-16.62,16.17-30.74,34.62-40.16,55.89-10.72,24.18-14.87,49.61-14.87,75.87,0,58.7,21.79,112.31,70.04,148.11,40.85,30.32,93.1,36.82,142.08,26.98,11.68-2.34,22.99-6.14,34.02-10.58,3.54-1.43,9.72-2.99,11.98-6.29,1.57-2.29,1.03-5.87,1.03-8.49v-89.84h-.01Z"/>
+                            <path id="L" d="M1156.65,276.31v334.41h203.11v-73.87h-112.06c11.09-3.27,25.47-1,37.02-1h77.04c-3.7-1.55-8.02-1-12.01-1h-103.06v-258.54h-90.05.01Z"/>
+                            <path id="R" d="M1094.3,577.78c-22.86-33.84-47.23-67.09-68.71-101.82,7.93-1.07,15.7-3.63,23.01-6.85,12.88-5.68,24.73-13.99,33.5-25.09,25.16-31.87,25.33-84.05,6.21-118.79-14.99-27.22-43.93-44.77-74.73-47.75-12.72-1.23-22.78,8.65-33.02,15-24.54,15.21-48.92,30.86-73.04,46.72-6.62,4.35-16.12,12.97-24.01,14.28-2.95.49-6.19-.94-9.01-1.68-3.92-1.02-8.6-1.73-11.91-4.18-5.09-3.76-8.81-11.09-12.1-16.41h-.01c-3.01,7.16-1,18.23-1,25.96v255.55h86.05v-131.77c7.72,10.6,13.85,22.62,20.44,33.94,11.84,20.35,23.73,40.68,35.8,60.89,4.94,8.28,9.85,16.6,14.66,24.96,1.96,3.41,4.09,8.8,7.53,10.95,2.43,1.51,5.9,1.03,8.63,1.03h95.05c-6.8-12.18-15.54-23.39-23.34-34.94ZM995.55,424.94c-17.44,11.6-40.15,9.09-60.03,9.09v-88.84h0c19.7-.01,42.8-2.5,60.03,9.08,20.83,14.01,20.75,56.87,0,70.67Z"/>
+                            <polygon id="figure_3_yellow" data-name="figure 3 yellow" class="cls-1" points="521.19 205.62 630.63 141.54 593.16 117.65 508.9 134.67 493.83 188.71 482.69 156.09 444.4 186.41 440.8 140.57 481.24 102.42 610.4 72.67 754.59 136.34 791.04 129.19 826.29 77.57 912.85 76.91 867.18 177.64 823.6 181.83 852.86 258.9 912.42 240.92 936.31 180.88 948.38 210.37 1001.77 175.93 997.19 225.79 849.46 320.2 841.19 304.76 774.39 217.03 592.9 273.2 585.54 294.45 667.02 397.06 656.51 433.89 513.39 500.71 502.53 521.44 547.11 580.92 531.2 595.47 489.84 571.09 433.57 515.11 444.74 493.21 493.43 474.07 547.41 415 603.28 393.82 529.27 342.92 378.28 385.33 356.08 414.53 201.53 444.52 130.33 510.54 117.95 542.51 95.08 540.27 93.03 505.46 117.2 421.98 170.54 419.79 248.92 368.25 322.74 356.18 417.82 273.9 411.3 263.21 503.05 204.97 521.19 205.62 521.19 205.62 521.19 205.62"/>
+                            <polygon id="figure_2_black" data-name="figure 2 black" class="cls-4" points="538.6 223 648.04 158.91 610.57 135.03 526.32 152.04 500.11 173.46 461.82 203.78 458.22 157.95 498.65 119.8 627.82 90.05 772 153.72 808.45 146.56 843.71 94.95 930.27 94.29 884.6 195.01 841.01 199.21 870.28 276.27 929.83 258.29 953.72 198.25 965.79 227.75 1019.19 193.3 1014.6 243.16 866.87 337.57 853.1 324.29 791.66 234.27 610.32 290.57 602.95 311.82 684.43 414.43 673.92 451.26 530.81 518.08 519.94 538.81 564.53 598.29 548.61 612.84 507.26 588.46 450.99 532.48 462.15 510.58 510.85 491.44 564.83 432.38 620.69 411.2 546.69 360.3 395.7 402.7 373.5 431.91 218.95 461.89 147.75 527.92 135.36 559.88 112.5 557.64 110.44 522.84 134.61 439.36 187.96 437.17 266.33 385.62 340.16 373.55 435.23 291.27 428.71 280.59 520.47 222.34 538.6 223 538.6 223 538.6 223"/>
+                            <polygon id="figure_3_green" data-name="figure 3 green" class="cls-2" points="556.02 240.37 665.46 176.28 627.99 152.4 543.73 169.42 528.66 223.47 517.52 190.83 479.23 221.15 475.63 175.32 516.07 137.17 645.24 107.42 789.42 171.09 825.86 163.94 861.12 112.33 947.68 111.66 902.01 212.39 858.42 216.58 887.69 293.65 947.24 275.67 971.14 215.63 983.21 245.12 1036.61 210.68 1032.02 260.54 884.29 354.95 861.92 348.82 797.56 254.24 627.73 307.95 620.37 329.2 701.84 431.81 691.34 468.63 548.22 535.46 537.36 556.19 581.94 615.67 566.02 630.22 524.67 605.84 468.4 549.86 479.57 527.96 528.27 508.82 582.25 449.75 638.11 428.57 564.1 377.67 413.12 420.08 390.92 449.28 236.36 479.26 165.16 545.29 152.78 577.26 129.91 575.01 127.86 540.21 152.03 456.73 205.37 454.54 283.75 402.99 357.57 390.93 452.65 308.64 446.12 297.96 537.88 239.72 556.02 240.37 556.02 240.37 556.02 240.37"/>
+                        </svg>
                         <div class="flex flex-col leading-tight">
                             <span class="font-display font-black text-2xl tracking-tighter text-slate-900 dark:text-white">RLC<span class="text-primary">1952</span></span>
-                            <span class="text-[10px] uppercase tracking-widest font-semibold opacity-60">Recklinghausen</span>
+                            <span class="site-submark font-semibold opacity-80">Recklinghausen</span>
                         </div>
                     </a>
                 </div>
                 <nav class="hidden lg:flex items-center space-x-8">
-                    <a class="text-sm font-semibold hover:text-primary transition-colors" href="${basePath}index.html">Startseite</a>
-                    <a class="text-sm font-semibold hover:text-primary transition-colors" href="${basePath}pages/news.html">Aktuelles</a>
-                    <a class="text-sm font-semibold hover:text-primary transition-colors" href="${basePath}pages/training.html">Training</a>
-                    <a class="text-sm font-semibold hover:text-primary transition-colors" href="${basePath}pages/team.html">Verein</a>
-                    <a class="text-sm font-semibold hover:text-primary transition-colors" href="${basePath}pages/facilities.html">Sportstätten</a>
-                    <a class="text-sm font-semibold hover:text-primary transition-colors" href="${basePath}pages/stats.html">Statistiken</a>
-                    <a class="text-sm font-semibold hover:text-primary transition-colors" href="${basePath}pages/gallery.html">Fotos</a>
-                    <a class="text-sm font-semibold hover:text-primary transition-colors" href="${basePath}pages/sponsors.html">Partner</a>
-                    <a class="text-sm font-semibold hover:text-primary transition-colors" href="${basePath}pages/scope-contract.html">Scope/Vertrag</a>
-                    <a class="text-sm font-semibold hover:text-primary transition-colors" href="${basePath}pages/contact.html">Kontakt</a>
+                    <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}index.html">Startseite</a>
+                    <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/news.html">Aktuelles</a>
+                    <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/training.html">Training</a>
+                    <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/team.html">Verein</a>
+                    <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/facilities.html">Sportstätten</a>
+                    <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/stats.html">Statistiken</a>
+                    <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/gallery.html">Fotos</a>
+                    <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/sponsors.html">Partner</a>
+                    <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/contact.html">Kontakt</a>
                 </nav>
                 <div class="flex items-center space-x-4">
-                    <button id="theme-toggle" class="p-2 text-slate-600 dark:text-slate-400 hover:text-primary transition-colors" aria-label="Farbthema umschalten">
-                        <span class="material-icons-round" id="theme-toggle-icon">dark_mode</span>
-                    </button>
-                    <a href="${basePath}pages/register.html" class="bg-primary hover:bg-opacity-90 text-white px-5 py-2.5 rounded-full font-bold text-sm transition-all transform hover:scale-105 shadow-lg shadow-primary/20">
+                    <a href="${basePath}pages/register.html" class="site-cta px-5 py-2.5 font-bold text-sm focus:outline-none">
                         Mitmachen
                     </a>
-                    <button id="mobile-menu-button" class="lg:hidden p-2 text-slate-600 dark:text-slate-400" aria-label="Hauptmenü öffnen">
+                    <button id="mobile-menu-button" class="site-icon-button lg:hidden p-2 focus:outline-none" aria-label="Hauptmenü öffnen" aria-expanded="false" aria-controls="mobile-menu" aria-haspopup="true">
                         <span class="material-icons-round">menu</span>
                     </button>
                 </div>
             </div>
         </div>
         <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden lg:hidden bg-white dark:bg-background-dark border-b border-slate-200 dark:border-slate-800">
+        <div id="mobile-menu" class="site-mobile-panel hidden lg:hidden bg-white dark:bg-background-dark border-b border-slate-200 dark:border-slate-800" hidden>
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a class="block px-3 py-4 text-base font-semibold hover:bg-slate-50 dark:hover:bg-slate-800 rounded-xl" href="${basePath}index.html">Startseite</a>
-                <a class="block px-3 py-4 text-base font-semibold hover:bg-slate-50 dark:hover:bg-slate-800 rounded-xl" href="${basePath}pages/news.html">Aktuelles</a>
-                <a class="block px-3 py-4 text-base font-semibold hover:bg-slate-50 dark:hover:bg-slate-800 rounded-xl" href="${basePath}pages/training.html">Training</a>
-                <a class="block px-3 py-4 text-base font-semibold hover:bg-slate-50 dark:hover:bg-slate-800 rounded-xl" href="${basePath}pages/team.html">Verein</a>
-                <a class="block px-3 py-4 text-base font-semibold hover:bg-slate-50 dark:hover:bg-slate-800 rounded-xl" href="${basePath}pages/facilities.html">Sportstätten</a>
-                <a class="block px-3 py-4 text-base font-semibold hover:bg-slate-50 dark:hover:bg-slate-800 rounded-xl" href="${basePath}pages/stats.html">Statistiken</a>
-                <a class="block px-3 py-4 text-base font-semibold hover:bg-slate-50 dark:hover:bg-slate-800 rounded-xl" href="${basePath}pages/gallery.html">Fotos</a>
-                <a class="block px-3 py-4 text-base font-semibold hover:bg-slate-50 dark:hover:bg-slate-800 rounded-xl" href="${basePath}pages/sponsors.html">Partner</a>
-                <a class="block px-3 py-4 text-base font-semibold hover:bg-slate-50 dark:hover:bg-slate-800 rounded-xl" href="${basePath}pages/scope-contract.html">Scope/Vertrag</a>
-                <a class="block px-3 py-4 text-base font-semibold hover:bg-slate-50 dark:hover:bg-slate-800 rounded-xl" href="${basePath}pages/contact.html">Kontakt</a>
+                <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}index.html">Startseite</a>
+                <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/news.html">Aktuelles</a>
+                <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/training.html">Training</a>
+                <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/team.html">Verein</a>
+                <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/facilities.html">Sportstätten</a>
+                    <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/stats.html">Statistiken</a>
+                    <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/gallery.html">Fotos</a>
+                    <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/sponsors.html">Partner</a>
+                    <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/contact.html">Kontakt</a>
+                </div>
             </div>
-        </div>
     </header>
     `;
 
     const footerHTML = `
-    <footer class="bg-slate-900 text-white py-16">
+    <footer class="site-footer py-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div class="col-span-1 md:col-span-2">
@@ -104,57 +140,43 @@ function initSharedComponents() {
                     </p>
                     <div class="flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:gap-4">
                         <div class="flex space-x-4" aria-label="Social-Media-Platzhalter">
-                        <span class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-slate-400" aria-hidden="true">
+                        <span class="site-placeholder-icon w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-slate-400" aria-hidden="true">
                             <img src="https://www.svgrepo.com/show/521711/instagram.svg" class="w-5 h-5 invert" alt="Instagram Logo">
                         </span>
-                        <span class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-slate-400" aria-hidden="true">
+                        <span class="site-placeholder-icon w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-slate-400" aria-hidden="true">
                             <img src="https://www.svgrepo.com/show/521654/facebook.svg" class="w-5 h-5 invert" alt="Facebook Logo">
                         </span>
                         </div>
-                        <p class="text-xs text-slate-400">Social-Media-Links werden ergänzt, sobald die offiziellen Profile eingebunden sind.</p>
+                        <p class="site-pill-note">Offizielle Social-Media-Links folgen nach redaktioneller Freigabe.</p>
                     </div>
                 </div>
                 <div>
                     <h4 class="font-bold mb-6 uppercase tracking-widest text-xs text-primary">Verein</h4>
                     <ul class="space-y-4 text-slate-400 text-sm">
-                        <li><a href="${basePath}pages/team.html" class="hover:text-white transition-colors">Unser Team</a></li>
-                        <li><a href="${basePath}pages/training.html" class="hover:text-white transition-colors">Trainingszeiten</a></li>
-                        <li><a href="${basePath}pages/stats.html" class="hover:text-white transition-colors">Rekorde & Bestenlisten</a></li>
-                        <li><a href="${basePath}pages/gallery.html" class="hover:text-white transition-colors">Bildergalerie</a></li>
+                        <li><a href="${basePath}pages/team.html" class="site-footer-link transition-colors focus:outline-none">Unser Team</a></li>
+                        <li><a href="${basePath}pages/training.html" class="site-footer-link transition-colors focus:outline-none">Trainingszeiten</a></li>
+                        <li><a href="${basePath}pages/stats.html" class="site-footer-link transition-colors focus:outline-none">Rekorde & Bestenlisten</a></li>
+                        <li><a href="${basePath}pages/gallery.html" class="site-footer-link transition-colors focus:outline-none">Bildergalerie</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4 class="font-bold mb-6 uppercase tracking-widest text-xs text-primary">Rechtliches</h4>
                     <ul class="space-y-4 text-slate-400 text-sm">
-                        <li><a href="${basePath}pages/contact.html#imprint" class="hover:text-white transition-colors">Impressum</a></li>
-                        <li><a href="${basePath}pages/contact.html#privacy" class="hover:text-white transition-colors">Datenschutz</a></li>
-                        <li><a href="${basePath}pages/scope-contract.html" class="hover:text-white transition-colors">Scope/Vertrag</a></li>
-                        <li><a href="${basePath}pages/contact.html#contact" class="hover:text-white transition-colors">Kontakt</a></li>
-                        <li><a href="${basePath}pages/sponsors.html" class="hover:text-white transition-colors">Sponsoren</a></li>
+                        <li><a href="${basePath}pages/contact.html#imprint" class="site-footer-link transition-colors focus:outline-none">Impressum</a></li>
+                        <li><a href="${basePath}pages/contact.html#privacy" class="site-footer-link transition-colors focus:outline-none">Datenschutz</a></li>
+                        <li><a href="${basePath}pages/scope-contract.html" class="site-footer-link transition-colors focus:outline-none">Scope/Vertrag</a></li>
+                        <li><a href="${basePath}pages/contact.html#contact" class="site-footer-link transition-colors focus:outline-none">Kontakt</a></li>
+                        <li><a href="${basePath}pages/sponsors.html" class="site-footer-link transition-colors focus:outline-none">Sponsoren</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center text-slate-500 text-xs">
+            <div class="site-footer__divider mt-16 pt-8 border-t flex flex-col md:flex-row justify-between items-center text-slate-500 text-xs">
                 <p>&copy; 2024 Recklinghäuser Leichtathletik Club 1952 e.V.</p>
                 <p class="mt-4 md:mt-0 italic">Mit Leidenschaft für die Leichtathletik entwickelt</p>
             </div>
         </div>
     </footer>
     `;
-
-    // Inject styles for glass-nav
-    const style = document.createElement('style');
-    style.textContent = `
-        .glass-nav {
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-            background-color: rgba(255, 255, 255, 0.85);
-        }
-        .dark .glass-nav {
-            background-color: rgba(17, 24, 39, 0.85);
-        }
-    `;
-    document.head.appendChild(style);
 
     // Inject into body
     const body = document.body;
@@ -177,44 +199,83 @@ function initSharedComponents() {
     initMobileMenu();
 }
 
+function ensureSharedStyles(basePath) {
+    const stylesheets = [
+        `${basePath}assets/css/design-tokens.css`,
+        `${basePath}assets/css/shell.css`
+    ];
+
+    stylesheets.forEach((href) => {
+        const existingLink = Array.from(document.querySelectorAll('link[rel="stylesheet"]')).find((link) => link.getAttribute('href') === href);
+        if (!existingLink) {
+            const link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = href;
+            document.head.appendChild(link);
+        }
+    });
+}
+
 function initMobileMenu() {
     const menuBtn = document.getElementById('mobile-menu-button');
     const mobileMenu = document.getElementById('mobile-menu');
 
     if (menuBtn && mobileMenu) {
-        menuBtn.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
+        const focusableSelector = 'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])';
+
+        const updateMenuState = (isOpen) => {
+            mobileMenu.hidden = !isOpen;
+            mobileMenu.classList.toggle('hidden', !isOpen);
+            menuBtn.setAttribute('aria-expanded', String(isOpen));
+            menuBtn.setAttribute('aria-label', isOpen ? 'Hauptmenü schließen' : 'Hauptmenü öffnen');
+
             const icon = menuBtn.querySelector('.material-icons-round');
             if (icon) {
-                icon.textContent = mobileMenu.classList.contains('hidden') ? 'menu' : 'close';
+                icon.textContent = isOpen ? 'close' : 'menu';
+            }
+        };
+
+        const closeMenu = () => {
+            updateMenuState(false);
+            menuBtn.focus();
+        };
+
+        updateMenuState(false);
+
+        menuBtn.addEventListener('click', () => {
+            const willOpen = menuBtn.getAttribute('aria-expanded') !== 'true';
+            updateMenuState(willOpen);
+
+            if (willOpen) {
+                const firstLink = mobileMenu.querySelector(focusableSelector);
+                firstLink?.focus();
             }
         });
-    }
-}
 
-function initDarkMode() {
-    const themeToggle = document.getElementById('theme-toggle');
-    const themeToggleIcon = document.getElementById('theme-toggle-icon');
+        mobileMenu.querySelectorAll('a').forEach((link) => {
+            link.addEventListener('click', () => updateMenuState(false));
+        });
 
-    // Check for saved theme or system preference
-    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-        document.documentElement.classList.add('dark');
-        if (themeToggleIcon) themeToggleIcon.textContent = 'light_mode';
-    } else {
-        document.documentElement.classList.remove('dark');
-        if (themeToggleIcon) themeToggleIcon.textContent = 'dark_mode';
-    }
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape' && menuBtn.getAttribute('aria-expanded') === 'true') {
+                closeMenu();
+            }
+        });
 
-    if (themeToggle) {
-        themeToggle.addEventListener('click', () => {
-            if (document.documentElement.classList.contains('dark')) {
-                document.documentElement.classList.remove('dark');
-                localStorage.theme = 'light';
-                if (themeToggleIcon) themeToggleIcon.textContent = 'dark_mode';
-            } else {
-                document.documentElement.classList.add('dark');
-                localStorage.theme = 'dark';
-                if (themeToggleIcon) themeToggleIcon.textContent = 'light_mode';
+        document.addEventListener('click', (event) => {
+            const isMenuOpen = menuBtn.getAttribute('aria-expanded') === 'true';
+            if (!isMenuOpen) {
+                return;
+            }
+
+            if (!mobileMenu.contains(event.target) && !menuBtn.contains(event.target)) {
+                updateMenuState(false);
+            }
+        });
+
+        window.addEventListener('resize', () => {
+            if (window.innerWidth >= 1024) {
+                updateMenuState(false);
             }
         });
     }
