@@ -142,6 +142,10 @@
   --shell-border: rgba(223, 225, 217, 0.95);
   --shell-border-dark: rgba(31, 41, 55, 0.95);
   
+  /* Ensure proper contrast for header elements */
+  --header-text-color: var(--color-text-contrast);
+  --header-text-color-dark: var(--color-text-contrast-dark);
+  
   /* Transitions */
   --transition-fast: 0.1s ease-in-out;
   --transition-normal: 0.3s ease-in-out;

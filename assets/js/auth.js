@@ -71,11 +71,21 @@ function isInternalIndexPage() {
 }
 
 function updateNavigation() {
+    // Prüfen, ob der interne Bereich bereits in der Navigation vorhanden ist
     const existingLink = document.querySelector('.main-nav ul li a[href="./pages/internal/index.html"], .main-nav ul li a[href="../../pages/internal/index.html"]');
 
     if (!existingLink) {
         const internalLink = document.createElement('li');
-        internalLink.innerHTML = '<a href="./pages/internal/index.html">Interner Bereich</a>';
+        // Überprüfen, ob wir in der internen Navigation sind
+        const isInternalPage = window.location.pathname.includes('/pages/internal/');
+        
+        if (isInternalPage) {
+            // Für interne Seiten: Link zur Startseite des internen Bereichs
+            internalLink.innerHTML = '<a href="../../pages/internal/index.html">Interner Bereich</a>';
+        } else {
+            // Für öffentliche Seiten: Link zur internen Startseite
+            internalLink.innerHTML = '<a href="./pages/internal/index.html">Interner Bereich</a>';
+        }
 
         const navList = document.querySelector('.main-nav ul');
         if (navList) {
