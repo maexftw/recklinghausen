@@ -35,29 +35,33 @@
     </header>
 
     <!-- Hauptinhalt -->
-    <main class="internal-main">
+    <main id="main-content" class="internal-main">
         <div class="container">
             <h1>Interner Bereich</h1>
             
             <!-- Login-Bereich für nicht-authentifizierte Nutzer -->
             <section id="login-section" class="internal-section">
-                <h2>Login</h2>
+                <h2>Vorschauzugang</h2>
+                <p>Der interne Bereich ist in dieser statischen Version nicht serverseitig geschützt. Für die UI-Vorschau können Sie eine lokale Sitzung als Mitglied oder Administrator starten.</p>
                 <form id="login-form">
                     <div class="form-group">
-                        <label for="username">Benutzername:</label>
-                        <input type="text" id="username" name="username" required>
+                        <label for="username">Anzeigename:</label>
+                        <input type="text" id="username" name="username" minlength="2" maxlength="60" autocomplete="nickname" required>
                     </div>
                     <div class="form-group">
-                        <label for="password">Passwort:</label>
-                        <input type="password" id="password" name="password" required>
+                        <label for="role">Vorschau-Rolle:</label>
+                        <select id="role" name="role">
+                            <option value="member">Mitglied</option>
+                            <option value="admin">Administrator</option>
+                        </select>
                     </div>
-                    <button type="submit">Anmelden</button>
+                    <button type="submit">Vorschau starten</button>
                 </form>
-                <p id="login-error" class="error-message"></p>
+                <p id="login-error" class="error-message" aria-live="polite"></p>
             </section>
 
             <!-- Dashboard für authentifizierte Nutzer -->
-            <section id="dashboard-section" class="internal-section" style="display: none;">
+            <section id="dashboard-section" class="internal-section" hidden aria-hidden="true">
                 <h2>Dashboard</h2>
                 <div class="user-info">
                     <p>Angemeldet als: <span id="current-user"></span></p>
@@ -76,13 +80,14 @@
                 </div>
 
                 <!-- Inhalte für Admins -->
-                <div id="admin-content" class="content-section">
+                <div id="admin-content" class="content-section" data-requires-role="admin" hidden aria-hidden="true">
                     <h3>Admin-Funktionen</h3>
                     <ul>
                         <li><a href="content-management.html">Inhalte verwalten</a></li>
                         <li><a href="user-management.html">Benutzerverwaltung</a></li>
-                        <li><a href="statistics.html">Statistiken</a></li>
+                        <li><span aria-disabled="true">Statistiken (noch nicht verfügbar)</span></li>
                     </ul>
+                    <p>Verwaltungsaktionen in dieser Vorschau wirken nur lokal im Browser und werden nach dem Neuladen verworfen.</p>
                 </div>
             </section>
         </div>
@@ -97,13 +102,5 @@
 
     <script src="../../assets/js/components.js"></script>
     <script src="../../assets/js/auth.js"></script>
-    <script>
-        // Initialisiere die Seite nach dem Laden
-        document.addEventListener('DOMContentLoaded', function() {
-            // Aktualisiere Navigation und zeige Dashboard an
-            updateNavigation();
-            showDashboard();
-        });
-    </script>
 </body>
 </html>

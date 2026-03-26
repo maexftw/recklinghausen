@@ -45,10 +45,12 @@
                 
                 <div class="admin-controls">
                     <h3>Neuer Benutzer</h3>
+                    <p id="user-status" aria-live="polite">Benutzeraktionen funktionieren nur in dieser lokalen Vorschau. Persistente Speicherung und echte Berechtigungsprüfung fehlen weiterhin serverseitig.</p>
                     <form id="user-form">
+                        <input type="hidden" id="editing-user-id" name="editing-user-id">
                         <div class="form-group">
                             <label for="new-username">Benutzername:</label>
-                            <input type="text" id="new-username" name="new-username" required>
+                            <input type="text" id="new-username" name="new-username" minlength="2" maxlength="40" required>
                         </div>
                         <div class="form-group">
                             <label for="new-email">E-Mail:</label>
@@ -61,7 +63,8 @@
                                 <option value="admin">Administrator</option>
                             </select>
                         </div>
-                        <button type="submit">Benutzer erstellen</button>
+                        <button type="submit" id="user-submit">Benutzer erstellen</button>
+                        <button type="button" id="user-cancel" hidden>Bearbeitung abbrechen</button>
                     </form>
                 </div>
                 
@@ -76,32 +79,32 @@
                                 <th>Aktionen</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            <tr>
+                        <tbody id="user-table-body">
+                            <tr data-user-id="1">
                                 <td>member1</td>
                                 <td>member1@example.com</td>
                                 <td>Mitglied</td>
                                 <td>
-                                    <button onclick="editUser('1')">Bearbeiten</button>
-                                    <button onclick="deleteUser('1')">Löschen</button>
+                                    <button type="button" data-action="edit" data-id="1">Bearbeiten</button>
+                                    <button type="button" data-action="delete" data-id="1">Löschen</button>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr data-user-id="2">
                                 <td>admin1</td>
                                 <td>admin1@example.com</td>
                                 <td>Administrator</td>
                                 <td>
-                                    <button onclick="editUser('2')">Bearbeiten</button>
-                                    <button onclick="deleteUser('2')">Löschen</button>
+                                    <button type="button" data-action="edit" data-id="2">Bearbeiten</button>
+                                    <button type="button" data-action="delete" data-id="2">Löschen</button>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr data-user-id="3">
                                 <td>member2</td>
                                 <td>member2@example.com</td>
                                 <td>Mitglied</td>
                                 <td>
-                                    <button onclick="editUser('3')">Bearbeiten</button>
-                                    <button onclick="deleteUser('3')">Löschen</button>
+                                    <button type="button" data-action="edit" data-id="3">Bearbeiten</button>
+                                    <button type="button" data-action="delete" data-id="3">Löschen</button>
                                 </td>
                             </tr>
                         </tbody>
@@ -120,5 +123,116 @@
 
     <script src="../../assets/js/components.js"></script>
     <script src="../../assets/js/auth.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const form = document.getElementById('user-form');
+            const body = document.getElementById('user-table-body');
+            const status = document.getElementById('user-status');
+            const idInput = document.getElementById('editing-user-id');
+            const usernameInput = document.getElementById('new-username');
+            const emailInput = document.getElementById('new-email');
+            const roleInput = document.getElementById('new-role');
+            const submitButton = document.getElementById('user-submit');
+            const cancelButton = document.getElementById('user-cancel');
+
+            if (!form || !body) {
+                return;
+            }
+
+            const countAdmins = () => Array.from(body.querySelectorAll('tr')).filter((row) => row.children[2]?.textContent.trim() === 'Administrator').length;
+
+            const resetForm = () => {
+                form.reset();
+                idInput.value = '';
+                submitButton.textContent = 'Benutzer erstellen';
+                cancelButton.hidden = true;
+            };
+
+            const createRow = ({ id, username, email, role }) => {
+                const row = document.createElement('tr');
+                row.dataset.userId = id;
+                row.innerHTML = `
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <button type="button" data-action="edit" data-id="${id}">Bearbeiten</button>
+                        <button type="button" data-action="delete" data-id="${id}">Löschen</button>
+                    </td>
+                `;
+
+                row.children[0].textContent = username;
+                row.children[1].textContent = email;
+                row.children[2].textContent = role === 'admin' ? 'Administrator' : 'Mitglied';
+                return row;
+            };
+
+            body.addEventListener('click', (event) => {
+                const button = event.target.closest('button[data-action]');
+                if (!button) {
+                    return;
+                }
+
+                const row = button.closest('tr');
+                const roleLabel = row.children[2].textContent.trim();
+
+                if (button.dataset.action === 'edit') {
+                    idInput.value = button.dataset.id;
+                    usernameInput.value = row.children[0].textContent.trim();
+                    emailInput.value = row.children[1].textContent.trim();
+                    roleInput.value = roleLabel === 'Administrator' ? 'admin' : 'member';
+                    submitButton.textContent = 'Benutzer aktualisieren';
+                    cancelButton.hidden = false;
+                    status.textContent = `Benutzer \"${usernameInput.value}\" wird bearbeitet.`;
+                    usernameInput.focus();
+                }
+
+                if (button.dataset.action === 'delete') {
+                    if (roleLabel === 'Administrator' && countAdmins() <= 1) {
+                        status.textContent = 'Der letzte Administrator kann in der Vorschau nicht gelöscht werden.';
+                        return;
+                    }
+
+                    row.remove();
+                    resetForm();
+                    status.textContent = `Benutzer mit der ID ${button.dataset.id} wurde lokal entfernt.`;
+                }
+            });
+
+            form.addEventListener('submit', (event) => {
+                event.preventDefault();
+
+                const payload = {
+                    id: idInput.value || String(Date.now()),
+                    username: usernameInput.value.trim(),
+                    email: emailInput.value.trim(),
+                    role: roleInput.value
+                };
+
+                if (!payload.username || !payload.email) {
+                    status.textContent = 'Bitte füllen Sie Benutzername und E-Mail vollständig aus.';
+                    return;
+                }
+
+                if (idInput.value) {
+                    const existing = body.querySelector(`tr[data-user-id="${payload.id}"]`);
+                    if (existing) {
+                        existing.replaceWith(createRow(payload));
+                        status.textContent = `Benutzer \"${payload.username}\" wurde lokal aktualisiert.`;
+                    }
+                } else {
+                    body.appendChild(createRow(payload));
+                    status.textContent = `Benutzer \"${payload.username}\" wurde lokal angelegt.`;
+                }
+
+                resetForm();
+            });
+
+            cancelButton.addEventListener('click', () => {
+                resetForm();
+                status.textContent = 'Bearbeitung abgebrochen.';
+            });
+        });
+    </script>
 </body>
 </html>

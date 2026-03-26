@@ -8,6 +8,8 @@
     <title>Trainingsplan | RLC 1952</title>
     <meta name="description"
         content="Der aktuelle Trainingsplan des Recklinghäuser Leichtathletik Clubs 1952 e.V. Finden Sie alle Trainingszeiten für U12, U14, U16, U18 und Erwachsene in Recklinghausen.">
+    <link href="../assets/css/design-tokens.css" rel="stylesheet" />
+    <link href="../assets/css/shell.css" rel="stylesheet" />
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Montserrat:wght@700;900&amp;display=swap"
         rel="stylesheet" />
@@ -19,9 +21,9 @@
 <body class="bg-background-light dark:bg-background-dark text-[#111817] dark:text-white min-h-screen">
     <!-- Top Navigation Bar -->
     <header></header>
-    <main class="max-w-[1200px] mx-auto px-4 md:px-10 lg:px-40 py-10">
+    <main class="max-w-[1200px] mx-auto px-4 md:px-10 lg:px-40 py-6 md:py-10">
         <!-- Page Heading -->
-        <div class="mb-10">
+        <div class="mb-8 md:mb-10">
             <h1 class="text-4xl font-black leading-tight tracking-[-0.033em] mb-2">Trainingszeiten</h1>
             <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
                 <p class="text-[#618986] text-base font-normal">Aktueller Sommerplan 2024 für alle Altersklassen und Disziplinen</p>
@@ -33,194 +35,149 @@
         </div>
         <!-- Filters Section -->
         <div
-            class="bg-white dark:bg-[#1a2e2c] p-4 rounded-xl shadow-sm border border-[#e5eaea] dark:border-[#2a3c3a] mb-8">
+            class="bg-white dark:bg-[#1a2e2c] p-4 rounded-lg border border-[#e5eaea] dark:border-[#2a3c3a] mb-8">
             <div class="flex flex-col gap-4">
-                <div class="flex flex-wrap items-center gap-3">
-                    <span
-                        class="text-xs font-bold uppercase tracking-wider text-[#618986] w-full lg:w-auto mb-1 lg:mb-0">Altersgruppen</span>
-                    <div class="flex gap-2 flex-wrap">
-                        <button
-                            class="flex h-9 items-center gap-2 rounded-lg bg-primary text-[#111817] px-4 text-sm font-semibold">Alle</button>
-                        <button
-                            class="flex h-9 items-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] text-[#111817] dark:text-white px-4 text-sm font-medium hover:bg-primary/20 transition-colors">U12</button>
-                        <button
-                            class="flex h-9 items-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] text-[#111817] dark:text-white px-4 text-sm font-medium hover:bg-primary/20 transition-colors">U14</button>
-                        <button
-                            class="flex h-9 items-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] text-[#111817] dark:text-white px-4 text-sm font-medium hover:bg-primary/20 transition-colors">U16</button>
-                        <button
-                            class="flex h-9 items-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] text-[#111817] dark:text-white px-4 text-sm font-medium hover:bg-primary/20 transition-colors">U18</button>
-                        <button
-                            class="flex h-9 items-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] text-[#111817] dark:text-white px-4 text-sm font-medium hover:bg-primary/20 transition-colors">Erwachsene</button>
+                <fieldset class="flex flex-col gap-3">
+                    <legend class="text-xs font-bold uppercase tracking-wider text-[#618986]">Altersgruppen</legend>
+                    <div class="flex gap-2 flex-wrap" role="group" aria-label="Nach Altersgruppe filtern">
+                        <button type="button" data-filter-group="age" data-filter-value="all" aria-pressed="true" class="training-filter inline-flex min-h-[44px] items-center justify-center gap-2 rounded-md bg-primary text-white px-4 py-2 text-sm font-semibold">Alle</button>
+                        <button type="button" data-filter-group="age" data-filter-value="u12" aria-pressed="false" class="training-filter inline-flex min-h-[44px] items-center justify-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] text-[#111817] dark:text-white px-4 py-2 text-sm font-medium hover:bg-primary/20 transition-colors">U12</button>
+                        <button type="button" data-filter-group="age" data-filter-value="u14" aria-pressed="false" class="training-filter inline-flex min-h-[44px] items-center justify-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] text-[#111817] dark:text-white px-4 py-2 text-sm font-medium hover:bg-primary/20 transition-colors">U14</button>
+                        <button type="button" data-filter-group="age" data-filter-value="u16" aria-pressed="false" class="training-filter inline-flex min-h-[44px] items-center justify-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] text-[#111817] dark:text-white px-4 py-2 text-sm font-medium hover:bg-primary/20 transition-colors">U16</button>
+                        <button type="button" data-filter-group="age" data-filter-value="u18" aria-pressed="false" class="training-filter inline-flex min-h-[44px] items-center justify-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] text-[#111817] dark:text-white px-4 py-2 text-sm font-medium hover:bg-primary/20 transition-colors">U18</button>
+                        <button type="button" data-filter-group="age" data-filter-value="adults" aria-pressed="false" class="training-filter inline-flex min-h-[44px] items-center justify-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] text-[#111817] dark:text-white px-4 py-2 text-sm font-medium hover:bg-primary/20 transition-colors">Erwachsene</button>
                     </div>
-                </div>
+                </fieldset>
                 <div class="h-px bg-[#e5eaea] dark:bg-[#2a3c3a] w-full"></div>
-                <div class="flex flex-wrap items-center gap-3">
-                    <span
-                        class="text-xs font-bold uppercase tracking-wider text-[#618986] w-full lg:w-auto mb-1 lg:mb-0">Disziplinen</span>
-                    <div class="flex gap-2 flex-wrap">
-                        <button
-                            class="flex h-9 items-center gap-2 rounded-lg bg-primary text-[#111817] px-4 text-sm font-semibold">Alle</button>
-                        <button
-                            class="flex h-9 items-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] px-4 text-sm font-medium hover:bg-primary/20 transition-colors">Sprint</button>
-                        <button
-                            class="flex h-9 items-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] px-4 text-sm font-medium hover:bg-primary/20 transition-colors">Weitsprung</button>
-                        <button
-                            class="flex h-9 items-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] px-4 text-sm font-medium hover:bg-primary/20 transition-colors">Hürden</button>
-                        <button
-                            class="flex h-9 items-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] px-4 text-sm font-medium hover:bg-primary/20 transition-colors">Ausdauer</button>
-                        <button
-                            class="flex h-9 items-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] px-4 text-sm font-medium hover:bg-primary/20 transition-colors">Fitness</button>
+                <fieldset class="flex flex-col gap-3">
+                    <legend class="text-xs font-bold uppercase tracking-wider text-[#618986]">Disziplinen</legend>
+                    <div class="flex gap-2 flex-wrap" role="group" aria-label="Nach Disziplin filtern">
+                        <button type="button" data-filter-group="discipline" data-filter-value="all" aria-pressed="true" class="training-filter inline-flex min-h-[44px] items-center justify-center gap-2 rounded-lg bg-primary text-[#111817] px-4 py-2 text-sm font-semibold">Alle</button>
+                        <button type="button" data-filter-group="discipline" data-filter-value="sprint" aria-pressed="false" class="training-filter inline-flex min-h-[44px] items-center justify-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] px-4 py-2 text-sm font-medium hover:bg-primary/20 transition-colors">Sprint</button>
+                        <button type="button" data-filter-group="discipline" data-filter-value="jump" aria-pressed="false" class="training-filter inline-flex min-h-[44px] items-center justify-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] px-4 py-2 text-sm font-medium hover:bg-primary/20 transition-colors">Sprung</button>
+                        <button type="button" data-filter-group="discipline" data-filter-value="hurdles" aria-pressed="false" class="training-filter inline-flex min-h-[44px] items-center justify-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] px-4 py-2 text-sm font-medium hover:bg-primary/20 transition-colors">Hürden</button>
+                        <button type="button" data-filter-group="discipline" data-filter-value="endurance" aria-pressed="false" class="training-filter inline-flex min-h-[44px] items-center justify-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] px-4 py-2 text-sm font-medium hover:bg-primary/20 transition-colors">Ausdauer</button>
+                        <button type="button" data-filter-group="discipline" data-filter-value="fitness" aria-pressed="false" class="training-filter inline-flex min-h-[44px] items-center justify-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] px-4 py-2 text-sm font-medium hover:bg-primary/20 transition-colors">Fitness</button>
                     </div>
-                </div>
+                </fieldset>
+                <p id="training-filter-status" class="text-sm text-[#618986]" aria-live="polite">7 Trainingseinheiten sichtbar.</p>
             </div>
         </div>
         <!-- Weekly Schedule Grid -->
         <div
-            class="bg-white dark:bg-[#1a2e2c] rounded-xl shadow-sm border border-[#e5eaea] dark:border-[#2a3c3a] overflow-hidden">
-            <div class="grid grid-cols-1 md:grid-cols-7 border-b border-[#e5eaea] dark:border-[#2a3c3a]">
-                <!-- Day Header -->
-                <div class="px-4 py-3 text-center border-r border-[#e5eaea] dark:border-[#2a3c3a] bg-primary/5">
-                    <p class="text-xs font-bold uppercase text-[#618986]">Mo</p>
-                </div>
-                <div class="px-4 py-3 text-center border-r border-[#e5eaea] dark:border-[#2a3c3a]">
-                    <p class="text-xs font-bold uppercase text-[#618986]">Die</p>
-                </div>
-                <div class="px-4 py-3 text-center border-r border-[#e5eaea] dark:border-[#2a3c3a]">
-                    <p class="text-xs font-bold uppercase text-[#618986]">Mi</p>
-                </div>
-                <div class="px-4 py-3 text-center border-r border-[#e5eaea] dark:border-[#2a3c3a]">
-                    <p class="text-xs font-bold uppercase text-[#618986]">Don</p>
-                </div>
-                <div class="px-4 py-3 text-center border-r border-[#e5eaea] dark:border-[#2a3c3a]">
-                    <p class="text-xs font-bold uppercase text-[#618986]">Fre</p>
-                </div>
-                <div
-                    class="px-4 py-3 text-center border-r border-[#e5eaea] dark:border-[#2a3c3a] bg-gray-50 dark:bg-black/10">
-                    <p class="text-xs font-bold uppercase text-[#618986]">Sam</p>
-                </div>
-                <div class="px-4 py-3 text-center bg-gray-50 dark:bg-black/10">
-                    <p class="text-xs font-bold uppercase text-[#618986]">Son</p>
-                </div>
+            class="bg-white dark:bg-[#1a2e2c] rounded-lg border border-[#e5eaea] dark:border-[#2a3c3a] overflow-hidden">
+            <div class="overflow-x-auto">
+                <table class="min-w-full divide-y divide-[#e5eaea] dark:divide-[#2a3c3a]" aria-describedby="training-filter-status">
+                    <caption class="sr-only">Wöchentliche Trainingsübersicht mit Tag, Uhrzeit, Zielgruppe, Disziplin, Ort und Leitung</caption>
+                    <thead class="bg-primary/5 text-left">
+                        <tr>
+                            <th scope="col" class="px-4 py-3 text-xs font-bold uppercase text-[#618986]">Tag</th>
+                            <th scope="col" class="px-4 py-3 text-xs font-bold uppercase text-[#618986]">Zeit</th>
+                            <th scope="col" class="px-4 py-3 text-xs font-bold uppercase text-[#618986]">Altersgruppe</th>
+                            <th scope="col" class="px-4 py-3 text-xs font-bold uppercase text-[#618986]">Disziplin</th>
+                            <th scope="col" class="px-4 py-3 text-xs font-bold uppercase text-[#618986]">Ort</th>
+                            <th scope="col" class="px-4 py-3 text-xs font-bold uppercase text-[#618986]">Leitung</th>
+                        </tr>
+                    </thead>
+                    <tbody id="training-schedule-body" class="divide-y divide-[#e5eaea] dark:divide-[#2a3c3a]">
+                        <tr data-age-group="u12" data-discipline="fitness">
+                            <th scope="row" class="px-4 py-3 text-sm font-semibold">Montag</th>
+                            <td class="px-4 py-3 text-sm">16:30 - 18:00</td>
+                            <td class="px-4 py-3 text-sm">U12</td>
+                            <td class="px-4 py-3 text-sm">Fitness</td>
+                            <td class="px-4 py-3 text-sm">Stadion</td>
+                            <td class="px-4 py-3 text-sm">Trainer: Schmidt</td>
+                        </tr>
+                        <tr data-age-group="u16" data-discipline="sprint">
+                            <th scope="row" class="px-4 py-3 text-sm font-semibold">Montag</th>
+                            <td class="px-4 py-3 text-sm">18:00 - 19:30</td>
+                            <td class="px-4 py-3 text-sm">U16</td>
+                            <td class="px-4 py-3 text-sm">Sprint</td>
+                            <td class="px-4 py-3 text-sm">Stadion</td>
+                            <td class="px-4 py-3 text-sm">Trainerin: Müller</td>
+                        </tr>
+                        <tr data-age-group="adults" data-discipline="fitness">
+                            <th scope="row" class="px-4 py-3 text-sm font-semibold">Dienstag</th>
+                            <td class="px-4 py-3 text-sm">18:00 - 19:30</td>
+                            <td class="px-4 py-3 text-sm">Erwachsene</td>
+                            <td class="px-4 py-3 text-sm">Fitness</td>
+                            <td class="px-4 py-3 text-sm">Halle Süd</td>
+                            <td class="px-4 py-3 text-sm">Trainer: Wagner</td>
+                        </tr>
+                        <tr data-age-group="u18" data-discipline="jump">
+                            <th scope="row" class="px-4 py-3 text-sm font-semibold">Dienstag</th>
+                            <td class="px-4 py-3 text-sm">17:00 - 18:30</td>
+                            <td class="px-4 py-3 text-sm">U18</td>
+                            <td class="px-4 py-3 text-sm">Sprung</td>
+                            <td class="px-4 py-3 text-sm">Stadion</td>
+                            <td class="px-4 py-3 text-sm">Trainer: Klein</td>
+                        </tr>
+                        <tr data-age-group="u14" data-discipline="sprint">
+                            <th scope="row" class="px-4 py-3 text-sm font-semibold">Mittwoch</th>
+                            <td class="px-4 py-3 text-sm">16:30 - 18:00</td>
+                            <td class="px-4 py-3 text-sm">U14</td>
+                            <td class="px-4 py-3 text-sm">Sprint</td>
+                            <td class="px-4 py-3 text-sm">Stadion</td>
+                            <td class="px-4 py-3 text-sm">Trainerin: Weber</td>
+                        </tr>
+                        <tr data-age-group="u16" data-discipline="hurdles">
+                            <th scope="row" class="px-4 py-3 text-sm font-semibold">Donnerstag</th>
+                            <td class="px-4 py-3 text-sm">18:00 - 19:30</td>
+                            <td class="px-4 py-3 text-sm">U16</td>
+                            <td class="px-4 py-3 text-sm">Hürden</td>
+                            <td class="px-4 py-3 text-sm">Stadion</td>
+                            <td class="px-4 py-3 text-sm">Trainerin: Müller</td>
+                        </tr>
+                        <tr data-age-group="adults" data-discipline="sprint">
+                            <th scope="row" class="px-4 py-3 text-sm font-semibold">Donnerstag</th>
+                            <td class="px-4 py-3 text-sm">19:00 - 20:30</td>
+                            <td class="px-4 py-3 text-sm">Erwachsene</td>
+                            <td class="px-4 py-3 text-sm">Sprint</td>
+                            <td class="px-4 py-3 text-sm">Stadion</td>
+                            <td class="px-4 py-3 text-sm">Trainerin: Müller</td>
+                        </tr>
+                        <tr data-age-group="u12" data-discipline="fitness">
+                            <th scope="row" class="px-4 py-3 text-sm font-semibold">Freitag</th>
+                            <td class="px-4 py-3 text-sm">16:30 - 18:00</td>
+                            <td class="px-4 py-3 text-sm">U12</td>
+                            <td class="px-4 py-3 text-sm">Fitness</td>
+                            <td class="px-4 py-3 text-sm">Stadion</td>
+                            <td class="px-4 py-3 text-sm">Trainer: Schmidt</td>
+                        </tr>
+                        <tr data-age-group="u18" data-discipline="jump">
+                            <th scope="row" class="px-4 py-3 text-sm font-semibold">Freitag</th>
+                            <td class="px-4 py-3 text-sm">17:00 - 18:30</td>
+                            <td class="px-4 py-3 text-sm">U18 &amp; Erwachsene</td>
+                            <td class="px-4 py-3 text-sm">Sprung/Fitness</td>
+                            <td class="px-4 py-3 text-sm">Stadion</td>
+                            <td class="px-4 py-3 text-sm">Trainer: Klein</td>
+                        </tr>
+                        <tr data-age-group="u14" data-discipline="endurance">
+                            <th scope="row" class="px-4 py-3 text-sm font-semibold">Samstag</th>
+                            <td class="px-4 py-3 text-sm">10:00 - 11:30</td>
+                            <td class="px-4 py-3 text-sm">U14/U16</td>
+                            <td class="px-4 py-3 text-sm">Ausdauer</td>
+                            <td class="px-4 py-3 text-sm">Stadtwald</td>
+                            <td class="px-4 py-3 text-sm">Trainer: Becker</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-7 min-h-[600px]">
-                <!-- Monday -->
-                <div class="p-2 border-r border-[#e5eaea] dark:border-[#2a3c3a] flex flex-col gap-3">
-                    <div class="p-3 bg-primary/10 border-l-4 border-primary rounded-lg">
-                        <p class="text-[10px] font-bold text-primary mb-1 uppercase tracking-tight">16:30 - 18:00</p>
-                        <p class="text-xs font-bold mb-1">U12 Fitness</p>
-                        <p class="text-[10px] text-[#618986] flex items-center gap-1 mb-1">
-                            <span class="material-symbols-outlined !text-[12px]">location_on</span> Stadion
-                        </p>
-                        <p class="text-[10px] font-medium text-[#111817] dark:text-white/70">Trainer: Schmidt</p>
-                    </div>
-                    <div class="p-3 bg-primary/10 border-l-4 border-primary rounded-lg">
-                        <p class="text-[10px] font-bold text-primary mb-1 uppercase tracking-tight">18:00 - 19:30</p>
-                        <p class="text-xs font-bold mb-1">U16 Sprint</p>
-                        <p class="text-[10px] text-[#618986] flex items-center gap-1 mb-1">
-                            <span class="material-symbols-outlined !text-[12px]">location_on</span> Stadion
-                        </p>
-                        <p class="text-[10px] font-medium text-[#111817] dark:text-white/70">Trainerin: Müller</p>
-                    </div>
-                </div>
-                <!-- Tuesday -->
-                <div class="p-2 border-r border-[#e5eaea] dark:border-[#2a3c3a] flex flex-col gap-3">
-                    <div class="p-3 bg-[#f0f4f4] dark:bg-[#2a3c3a] border-l-4 border-[#618986] rounded-lg">
-                        <p class="text-[10px] font-bold text-[#618986] mb-1 uppercase tracking-tight">18:00 - 19:30</p>
-                        <p class="text-xs font-bold mb-1">Erwachsene Fitness</p>
-                        <p class="text-[10px] text-[#618986] flex items-center gap-1 mb-1">
-                            <span class="material-symbols-outlined !text-[12px]">home_work</span> Halle Süd
-                        </p>
-                        <p class="text-[10px] font-medium text-[#111817] dark:text-white/70">Trainer: Wagner</p>
-                    </div>
-                    <div class="p-3 bg-primary/10 border-l-4 border-primary rounded-lg">
-                        <p class="text-[10px] font-bold text-primary mb-1 uppercase tracking-tight">17:00 - 18:30</p>
-                        <p class="text-xs font-bold mb-1">U18 Sprung</p>
-                        <p class="text-[10px] text-[#618986] flex items-center gap-1 mb-1">
-                            <span class="material-symbols-outlined !text-[12px]">location_on</span> Stadion
-                        </p>
-                        <p class="text-[10px] font-medium text-[#111817] dark:text-white/70">Trainer: Klein</p>
-                    </div>
-                </div>
-                <!-- Wednesday -->
-                <div class="p-2 border-r border-[#e5eaea] dark:border-[#2a3c3a] flex flex-col gap-3">
-                    <div class="p-3 bg-primary/10 border-l-4 border-primary rounded-lg">
-                        <p class="text-[10px] font-bold text-primary mb-1 uppercase tracking-tight">16:30 - 18:00</p>
-                        <p class="text-xs font-bold mb-1">U14 Sprint</p>
-                        <p class="text-[10px] text-[#618986] flex items-center gap-1 mb-1">
-                            <span class="material-symbols-outlined !text-[12px]">location_on</span> Stadion
-                        </p>
-                        <p class="text-[10px] font-medium text-[#111817] dark:text-white/70">Trainerin: Weber</p>
-                    </div>
-                </div>
-                <!-- Thursday -->
-                <div class="p-2 border-r border-[#e5eaea] dark:border-[#2a3c3a] flex flex-col gap-3">
-                    <div class="p-3 bg-primary/10 border-l-4 border-primary rounded-lg">
-                        <p class="text-[10px] font-bold text-primary mb-1 uppercase tracking-tight">18:00 - 19:30</p>
-                        <p class="text-xs font-bold mb-1">U16 Hürden</p>
-                        <p class="text-[10px] text-[#618986] flex items-center gap-1 mb-1">
-                            <span class="material-symbols-outlined !text-[12px]">location_on</span> Stadion
-                        </p>
-                        <p class="text-[10px] font-medium text-[#111817] dark:text-white/70">Trainerin: Müller</p>
-                    </div>
-                    <div class="p-3 bg-[#f0f4f4] dark:bg-[#2a3c3a] border-l-4 border-[#618986] rounded-lg">
-                        <p class="text-[10px] font-bold text-[#618986] mb-1 uppercase tracking-tight">19:00 - 20:30</p>
-                        <p class="text-xs font-bold mb-1">Erwachsene Sprint</p>
-                        <p class="text-[10px] text-[#618986] flex items-center gap-1 mb-1">
-                            <span class="material-symbols-outlined !text-[12px]">location_on</span> Stadion
-                        </p>
-                        <p class="text-[10px] font-medium text-[#111817] dark:text-white/70">Trainerin: Müller</p>
-                    </div>
-                </div>
-                <!-- Friday -->
-                <div class="p-2 border-r border-[#e5eaea] dark:border-[#2a3c3a] flex flex-col gap-3">
-                    <div class="p-3 bg-primary/10 border-l-4 border-primary rounded-lg">
-                        <p class="text-[10px] font-bold text-primary mb-1 uppercase tracking-tight">16:30 - 18:00</p>
-                        <p class="text-xs font-bold mb-1">U12 Fitness</p>
-                        <p class="text-[10px] text-[#618986] flex items-center gap-1 mb-1">
-                            <span class="material-symbols-outlined !text-[12px]">location_on</span> Stadion
-                        </p>
-                        <p class="text-[10px] font-medium text-[#111817] dark:text-white/70">Trainer: Schmidt</p>
-                    </div>
-                    <div class="p-3 bg-primary/10 border-l-4 border-primary rounded-lg">
-                        <p class="text-[10px] font-bold text-primary mb-1 uppercase tracking-tight">17:00 - 18:30</p>
-                        <p class="text-xs font-bold mb-1">U18 &amp; Erwachsene</p>
-                        <p class="text-[10px] text-[#618986] flex items-center gap-1 mb-1">
-                            <span class="material-symbols-outlined !text-[12px]">location_on</span> Stadion
-                        </p>
-                        <p class="text-[10px] font-medium text-[#111817] dark:text-white/70">Trainer: Klein</p>
-                    </div>
-                </div>
-                <!-- Saturday -->
-                <div
-                    class="p-2 border-r border-[#e5eaea] dark:border-[#2a3c3a] bg-gray-50 dark:bg-black/10 flex flex-col gap-3">
-                    <div class="p-3 bg-primary/10 border-l-4 border-primary rounded-lg">
-                        <p class="text-[10px] font-bold text-primary mb-1 uppercase tracking-tight">10:00 - 11:30</p>
-                        <p class="text-xs font-bold mb-1">U14/U16 Ausdauer</p>
-                        <p class="text-[10px] text-[#618986] flex items-center gap-1 mb-1">
-                            <span class="material-symbols-outlined !text-[12px]">park</span> Stadtwald
-                        </p>
-                        <p class="text-[10px] font-medium text-[#111817] dark:text-white/70">Trainer: Becker</p>
-                    </div>
-                </div>
-                <!-- Sunday -->
-                <div class="p-2 bg-gray-50 dark:bg-black/10 flex flex-col items-center justify-center text-center">
-                    <p class="text-[#618986] text-xs font-medium italic">Sonntags findet kein reguläres Training statt.</p>
-                </div>
+            <p id="training-empty-state" class="px-4 py-6 text-sm text-[#618986] italic" hidden>Für diese Filterkombination gibt es aktuell keine Trainingseinheiten. Bitte wählen Sie eine andere Altersgruppe oder Disziplin.</p>
+            <div class="px-4 py-4 bg-gray-50 dark:bg-black/10 border-t border-[#e5eaea] dark:border-[#2a3c3a]">
+                <p class="text-sm text-[#618986] italic">Sonntags findet kein reguläres Training statt.</p>
             </div>
         </div>
         <!-- Special Notices Section -->
         <div class="mt-12">
                 <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
-                    <span class="material-symbols-outlined text-amber-500">campaign</span>
+                    <span class="material-icons-round text-amber-500">campaign</span>
                     Wichtige Hinweise
                 </h3>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <!-- Warning/Cancellation -->
                 <div
-                    class="flex items-start gap-4 p-5 bg-red-50 dark:bg-red-900/10 border border-red-100 dark:border-red-900/30 rounded-xl">
-                    <div class="bg-red-500 text-white rounded-full p-1 shrink-0">
-                        <span class="material-symbols-outlined !text-[18px]">close</span>
-                    </div>
+                    class="flex items-start gap-4 p-5 border-l-2 border-red-400 bg-red-50/60 dark:bg-red-900/10 rounded-r-lg">
                     <div>
                         <p class="text-sm font-bold text-red-900 dark:text-red-400 mb-1">Trainingsausfall: U12 Sprint
                         </p>
@@ -230,10 +187,7 @@
                 </div>
                 <!-- General Info -->
                 <div
-                    class="flex items-start gap-4 p-5 bg-blue-50 dark:bg-blue-900/10 border border-blue-100 dark:border-blue-900/30 rounded-xl">
-                    <div class="bg-blue-500 text-white rounded-full p-1 shrink-0">
-                        <span class="material-symbols-outlined !text-[18px]">info</span>
-                    </div>
+                    class="flex items-start gap-4 p-5 border-l-2 border-blue-400 bg-blue-50/60 dark:bg-blue-900/10 rounded-r-lg">
                     <div>
                         <p class="text-sm font-bold text-blue-900 dark:text-blue-400 mb-1">Pfingstferien 2024</p>
                         <p class="text-sm text-blue-700 dark:text-blue-300">In der ersten Pfingstferienwoche findet kein
@@ -245,6 +199,59 @@
     </main>
     <!-- Footer -->
     <footer></footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const activeFilters = { age: 'all', discipline: 'all' };
+            const buttons = Array.from(document.querySelectorAll('.training-filter'));
+            const rows = Array.from(document.querySelectorAll('#training-schedule-body tr'));
+            const status = document.getElementById('training-filter-status');
+            const emptyState = document.getElementById('training-empty-state');
+
+            const applyButtonState = () => {
+                buttons.forEach((button) => {
+                    const isActive = activeFilters[button.dataset.filterGroup] === button.dataset.filterValue;
+                    button.setAttribute('aria-pressed', String(isActive));
+                    button.classList.toggle('bg-primary', isActive);
+                    button.classList.toggle('text-[#111817]', isActive);
+                    button.classList.toggle('font-semibold', isActive);
+                    button.classList.toggle('bg-[#f0f4f4]', !isActive);
+                });
+            };
+
+            const matchesFilter = (value, selected) => selected === 'all' || value === selected;
+
+            const updateRows = () => {
+                let visibleCount = 0;
+
+                rows.forEach((row) => {
+                    const matchesAge = matchesFilter(row.dataset.ageGroup, activeFilters.age);
+                    const matchesDiscipline = matchesFilter(row.dataset.discipline, activeFilters.discipline);
+                    const isVisible = matchesAge && matchesDiscipline;
+                    row.hidden = !isVisible;
+
+                    if (isVisible) {
+                        visibleCount += 1;
+                    }
+                });
+
+                emptyState.hidden = visibleCount !== 0;
+                status.textContent = visibleCount === 0
+                    ? 'Keine Trainingseinheiten sichtbar.'
+                    : `${visibleCount} Trainingseinheiten sichtbar.`;
+            };
+
+            buttons.forEach((button) => {
+                button.addEventListener('click', () => {
+                    activeFilters[button.dataset.filterGroup] = button.dataset.filterValue;
+                    applyButtonState();
+                    updateRows();
+                });
+            });
+
+            applyButtonState();
+            updateRows();
+        });
+    </script>
 </body>
 
 </html>

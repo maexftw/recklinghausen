@@ -17,48 +17,39 @@
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
     <script src="assets/js/news_data.js"></script>
     <script src="assets/js/components.js"></script>
-    <style>
-        .news-card img {
-            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        .news-card:hover img {
-            transform: scale(1.05);
-        }
-    </style>
 </head>
 
 <body
     class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-sans transition-colors duration-300">
     <a href="#main-content" class="skip-link">Zum Hauptinhalt springen</a>
     <header></header>
-    <section class="relative pt-20 overflow-hidden bg-[var(--color-slate-900)]">
-        <div class="absolute inset-0 opacity-40">
+    <section class="relative overflow-hidden bg-[var(--color-slate-900)]">
+        <div class="absolute inset-0 opacity-20">
             <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDwQwdd7uIAbyPk13ndW2rswSVdHtwl7m8KzZ09eGwWWcKKb8FCwiCrPvLTRc6NS0YC6XuRYqij7cLLhwryr1Q7qbKjOZOeWRrOomOJZ45XCi-XECu2cLYYEkMpQZP49_wHswINA-2IBggqdINZfVjENeHAvCfs8ZEVs7FMNFcKl1ab_nzj8VsQz6MP5Tf0NS6AjHlG-08FG5aBpOiZX49miIAXx6iTwyv2XGOZuftFStx_CU1ub_YLoIT2pIJz9Dq9BRZ1H7-l8bK"
                 alt="Sportler auf der Laufbahn" class="w-full h-full object-cover opacity-30" loading="lazy">
         </div>
-        <div class="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/60 to-transparent"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/75 to-slate-900/35"></div>
         <div
-            class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 flex flex-col items-start justify-center min-h-[600px]">
+            class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-28 flex flex-col items-start justify-center min-h-[460px] md:min-h-[520px]">
             <span
-                class="bg-primary/20 border border-primary text-primary px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest mb-6">
+                class="text-primary px-0 py-0 text-xs font-bold uppercase tracking-[0.2em] mb-4">
                 Leidenschaft seit 1952
             </span>
             <h1
-                class="font-display text-4xl md:text-6xl lg:text-7xl font-black text-white max-w-2xl leading-[1.1] mb-6">
+                class="font-display text-4xl md:text-6xl lg:text-7xl font-black text-white max-w-2xl leading-[1.02] mb-5">
                 Leichtathletik in Recklinghausen <span class="text-primary">für jedes Alter.</span>
             </h1>
-            <p class="text-slate-300 text-lg md:text-xl max-w-xl mb-10 leading-relaxed">
+            <p class="text-slate-300 text-base md:text-xl max-w-xl mb-8 md:mb-10 leading-relaxed">
                 Trainiere mit dem RLC 1952 - vom ersten Probetraining bis zur Wettkampfgruppe. Hier findest du
                 Trainingsangebote, Vereinsnews und den Weg zur Mitgliedschaft.
             </p>
-            <div class="flex flex-wrap gap-4">
+            <div class="flex w-full flex-col sm:w-auto sm:flex-row flex-wrap gap-3 sm:gap-4">
                 <a href="pages/membership-info.html"
-                    class="bg-primary text-white px-8 py-4 rounded-xl font-bold text-lg hover:shadow-xl hover:shadow-primary/30 transition-all">
+                    class="inline-flex items-center justify-center bg-primary text-white px-6 py-4 rounded-lg font-bold text-base md:text-lg transition-colors w-full sm:w-auto">
                     Probetraining &amp; Mitgliedschaft
                 </a>
                 <a href="pages/news.html"
-                    class="bg-white/10 backdrop-blur-md text-white border border-white/20 px-8 py-4 rounded-xl font-bold text-lg hover:bg-white hover:text-slate-900 transition-all">
+                    class="inline-flex items-center justify-center bg-transparent text-white border border-white/30 px-6 py-4 rounded-lg font-bold text-base md:text-lg hover:bg-white/10 transition-colors w-full sm:w-auto">
                     Aktuelle News lesen
                 </a>
             </div>
@@ -85,15 +76,12 @@
                     </div>
                 </section>
             </div>
-            <aside class="lg:col-span-4 space-y-12">
-                <div
-                    class="bg-[var(--color-slate-100)] dark:bg-[var(--color-slate-900)/50] p-8 rounded-3xl border border-[var(--color-slate-200)] dark:border-[var(--color-slate-800)]">
-                    <h3 class="font-display font-bold text-xl mb-6 flex items-center">
-                        <span class="material-icons-round text-primary mr-2">event</span> Nächste Termine
-                    </h3>
+            <aside class="lg:col-span-4 space-y-10">
+                <div class="border-t border-slate-200 dark:border-slate-800 pt-6">
+                    <h3 class="font-display font-bold text-xl mb-6">Nächste Termine</h3>
                     <div class="space-y-6">
                         <div class="flex items-start space-x-4">
-                            <div class="bg-white dark:bg-[var(--color-slate-800)] p-2 rounded-xl text-center min-w-[60px] shadow-sm">
+                            <div class="border border-slate-200 dark:border-slate-700 p-2 rounded-lg text-center min-w-[60px]">
                                 <span class="block text-xs uppercase font-bold text-slate-400">Feb</span>
                                 <span class="block text-xl font-black text-primary">12</span>
                             </div>
@@ -103,7 +91,7 @@
                             </div>
                         </div>
                         <div class="flex items-start space-x-4">
-                            <div class="bg-white dark:bg-slate-800 p-2 rounded-xl text-center min-w-[60px] shadow-sm">
+                            <div class="border border-slate-200 dark:border-slate-700 p-2 rounded-lg text-center min-w-[60px]">
                                 <span class="block text-xs uppercase font-bold text-slate-400">Mär</span>
                                 <span class="block text-xl font-black text-primary">05</span>
                             </div>
@@ -114,16 +102,16 @@
                         </div>
                     </div>
                     <a href="pages/training.html"
-                        class="block w-full mt-8 py-3 bg-slate-900 dark:bg-white dark:text-slate-900 text-white font-bold rounded-xl text-sm text-center">Trainingszeiten
+                        class="block w-full mt-8 py-3 bg-slate-900 dark:bg-white dark:text-slate-900 text-white font-bold rounded-lg text-sm text-center">Trainingszeiten
                         ansehen</a>
                 </div>
                 <div>
                     <h3
                         class="font-display font-bold text-sm uppercase tracking-widest text-slate-400 mb-8 border-b border-slate-200 dark:border-slate-800 pb-2">
                         Unsere Partner</h3>
-                    <div class="space-y-6">
+                    <div class="space-y-4">
                         <div
-                            class="bg-white dark:bg-slate-800 p-6 rounded-2xl flex flex-col items-center justify-center border border-slate-100 dark:border-slate-700 shadow-sm transition-transform hover:-translate-y-1">
+                            class="border border-slate-200 dark:border-slate-700 p-5 rounded-lg flex flex-col items-center justify-center">
                             <span class="text-[10px] text-slate-400 uppercase font-bold mb-2">by Lückenotto</span>
                             <div class="text-2xl font-black tracking-tighter text-[var(--color-primary-dark)]">
                                 <span class="text-primary">body</span>nostic
@@ -132,10 +120,7 @@
                                 Bewegungslabor</p>
                         </div>
                         <div
-                            class="bg-white dark:bg-slate-800 p-6 rounded-2xl flex items-center space-x-4 border border-slate-100 dark:border-slate-700 shadow-sm transition-transform hover:-translate-y-1">
-                            <div class="bg-[var(--color-blue-600)] w-12 h-12 rounded-full flex items-center justify-center shrink-0">
-                                <span class="material-icons-round text-white">public</span>
-                            </div>
+                            class="border border-slate-200 dark:border-slate-700 p-5 rounded-lg flex items-center space-x-4">
                             <div>
                                 <p class="text-[9px] uppercase font-bold text-slate-400">Gefördert durch den</p>
                                 <p class="font-display font-bold text-xs uppercase text-slate-700 dark:text-slate-300">
@@ -145,17 +130,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-primary p-8 rounded-3xl text-white relative overflow-hidden group">
-                    <div class="absolute -right-10 -bottom-10 opacity-20 group-hover:scale-110 transition-transform">
-                        <span class="material-icons-round text-[150px]">emoji_events</span>
-                    </div>
-                    <div class="relative z-10">
-                        <h3 class="font-display font-bold text-2xl mb-4">Mitglied werden oder Probetraining anfragen?</h3>
-                        <p class="text-white/80 text-sm mb-6 leading-relaxed">Informiere dich über den Ablauf,
-                            Mitgliedsarten und die Angaben für deinen Antrag.</p>
-                        <a href="pages/membership-info.html" class="inline-block bg-white text-primary px-6 py-2.5 rounded-xl font-bold text-sm">Mitgliedschaft
-                            ansehen</a>
-                    </div>
+                <div class="border-t border-slate-200 dark:border-slate-800 pt-6">
+                    <h3 class="font-display font-bold text-2xl mb-3">Mitglied werden oder Probetraining anfragen?</h3>
+                    <p class="text-slate-600 dark:text-slate-400 text-sm mb-5 leading-relaxed">Informiere dich über den Ablauf,
+                        Mitgliedsarten und die Angaben für deinen Antrag.</p>
+                    <a href="pages/membership-info.html" class="inline-block bg-primary text-white px-6 py-2.5 rounded-lg font-bold text-sm">Mitgliedschaft
+                        ansehen</a>
                 </div>
             </aside>
         </div>
@@ -172,10 +152,10 @@
 
                 if (featuredArticles.length === 0) {
                     container.innerHTML = `
-                        <div class="rounded-2xl border border-dashed border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-900/40 p-8 text-center">
+                        <div class="rounded-lg border border-dashed border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-900/40 p-8 text-center">
                             <h3 class="text-xl font-bold mb-2">Zurzeit liegen keine Vereinsnews vor.</h3>
                             <p class="text-slate-600 dark:text-slate-400 mb-4">Sobald neue Meldungen veröffentlicht werden, erscheinen sie hier automatisch.</p>
-                            <a href="pages/contact.html" class="inline-flex items-center justify-center rounded-xl bg-slate-900 px-5 py-3 font-bold text-white dark:bg-white dark:text-slate-900">Kontakt zum Verein</a>
+                            <a href="pages/contact.html" class="inline-flex items-center justify-center rounded-lg bg-slate-900 px-5 py-3 font-bold text-white dark:bg-white dark:text-slate-900">Kontakt zum Verein</a>
                         </div>
                     `;
                     return;
@@ -232,10 +212,10 @@
             window.addEventListener('error', (event) => {
                 if (event.filename && event.filename.includes('news_data')) {
                     container.innerHTML = `
-                        <div class="rounded-2xl border border-amber-200 bg-amber-50 p-8 text-center text-amber-950 dark:border-amber-800 dark:bg-amber-950/30 dark:text-amber-100">
+                        <div class="rounded-lg border border-amber-200 bg-amber-50 p-8 text-center text-amber-950 dark:border-amber-800 dark:bg-amber-950/30 dark:text-amber-100">
                             <h3 class="text-xl font-bold mb-2">Die Vereinsnews konnten gerade nicht vollständig geladen werden.</h3>
                             <p class="mb-4">Bitte öffne das News-Archiv später erneut oder nutze bei dringenden Fragen den Kontakt zum Verein.</p>
-                            <a href="pages/contact.html" class="inline-flex items-center justify-center rounded-xl bg-slate-900 px-5 py-3 font-bold text-white dark:bg-white dark:text-slate-900">Kontakt zum Verein</a>
+                            <a href="pages/contact.html" class="inline-flex items-center justify-center rounded-lg bg-slate-900 px-5 py-3 font-bold text-white dark:bg-white dark:text-slate-900">Kontakt zum Verein</a>
                         </div>
                     `;
                 }
