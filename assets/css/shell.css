@@ -9,11 +9,17 @@
     background: var(--shell-surface);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    color: var(--color-text-contrast);
+}
+
+.dark .site-shell {
+    color: var(--color-text-contrast-dark);
 }
 
 .dark .site-shell {
     border-color: var(--shell-border-dark);
     background: var(--shell-surface-dark);
+    color: var(--color-text-contrast-dark);
 }
 
 .site-shell__inner {
@@ -40,12 +46,12 @@ main,
 }
 
 .site-wordmark {
-    color: var(--color-slate-900);
+    color: var(--color-text-contrast);
     text-decoration: none;
 }
 
 .dark .site-wordmark {
-    color: var(--color-text-dark);
+    color: var(--color-text-contrast-dark);
 }
 
 .site-submark {
@@ -67,8 +73,14 @@ main,
 .site-nav-link,
 .site-mobile-link,
 .site-footer-link {
-    color: inherit;
+    color: var(--color-text-contrast);
     text-decoration: none;
+}
+
+.dark .site-nav-link,
+.dark .site-mobile-link,
+.dark .site-footer-link {
+    color: var(--color-text-contrast-dark);
 }
 
 .site-nav-link:hover,
@@ -138,11 +150,16 @@ main,
     align-items: center;
     min-height: 2.75rem;
     border-radius: var(--border-radius-md);
+    color: var(--color-text-contrast);
 }
 
 .site-mobile-link:hover,
 .site-mobile-link:focus-visible {
     background: var(--color-surface-subtle);
+}
+
+.dark .site-mobile-link {
+    color: var(--color-text-contrast-dark);
 }
 
 .dark .site-mobile-link:hover,
