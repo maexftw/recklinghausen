@@ -98,7 +98,6 @@ function initSharedComponents() {
                     <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/stats.html">Statistiken</a>
                     <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/gallery.html">Fotos</a>
                     <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/sponsors.html">Partner</a>
-                    <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/scope-contract.html">Scope/Vertrag</a>
                     <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/contact.html">Kontakt</a>
                 </nav>
                 <div class="flex items-center space-x-4">
@@ -119,13 +118,12 @@ function initSharedComponents() {
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/training.html">Training</a>
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/team.html">Verein</a>
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/facilities.html">Sportstätten</a>
-                <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/stats.html">Statistiken</a>
-                <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/gallery.html">Fotos</a>
-                <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/sponsors.html">Partner</a>
-                <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/scope-contract.html">Scope/Vertrag</a>
-                <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/contact.html">Kontakt</a>
+                    <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/stats.html">Statistiken</a>
+                    <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/gallery.html">Fotos</a>
+                    <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/sponsors.html">Partner</a>
+                    <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/contact.html">Kontakt</a>
+                </div>
             </div>
-        </div>
     </header>
     `;
 
