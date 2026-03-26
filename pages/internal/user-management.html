@@ -7,41 +7,20 @@
     <link rel="stylesheet" href="../../assets/css/style.css">
     <link rel="stylesheet" href="../../assets/css/responsive.css">
 </head>
-<body>
-    <!-- Header mit Navigation -->
-    <header class="header">
-        <div class="container">
-            <div class="logo">
-                <a href="../../index.html">
-                    <img src="../../assets/logo/rlc_logo_original.png" alt="RLC Recklinghausen Logo">
-                </a>
-            </div>
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="../../index.html">Home</a></li>
-                    <li><a href="../../pages/team.html">Unser Verein</a></li>
-                    <li><a href="../../pages/facilities.html">Anlagen</a></li>
-                    <li><a href="../../pages/training.html">Training</a></li>
-                    <li><a href="../../pages/news.html">News</a></li>
-                    <li><a href="../../pages/gallery.html">Galerie</a></li>
-                    <li><a href="../../pages/sponsors.html">Sponsoren</a></li>
-                    <li><a href="../../pages/stats.html">Statistik</a></li>
-                    <li><a href="../../pages/membership-info.html">Mitgliedschaft</a></li>
-                    <li><a href="../../pages/contact.html">Kontakt</a></li>
-                    <li><a href="./index.html">Interner Bereich</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+<body class="internal-preview-page">
+    <main id="main-content" class="internal-main">
+        <div class="container internal-main__shell">
+            <section class="internal-page-intro" aria-labelledby="user-management-title">
+                <a href="./index.html" class="internal-breadcrumb">Interner Bereich / Benutzerverwaltung</a>
+                <h1 id="user-management-title">Benutzerverwaltung</h1>
+                <p>Die Benutzerverwaltung wird als interne Admin-Vorschau konsistent mit den übrigen Werkzeugen dargestellt und klar von der öffentlichen Website getrennt.</p>
+            </section>
 
-    <!-- Hauptinhalt -->
-    <main class="internal-main">
-        <div class="container">
-            <h1>Benutzerverwaltung</h1>
-            
-            <div class="content-section">
-                <h2>Verwaltung der Benutzerkonten</h2>
-                <p>Hier können Sie Benutzerkonten erstellen, bearbeiten und löschen.</p>
+            <section class="internal-section internal-stack">
+                <div>
+                    <h2>Verwaltung der Benutzerkonten</h2>
+                    <p>Hier können Sie Benutzerkonten erstellen, bearbeiten und löschen.</p>
+                </div>
                 
                 <div class="admin-controls">
                     <h3>Neuer Benutzer</h3>
@@ -114,12 +93,7 @@
         </div>
     </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2026 RLC Recklinghausen. Alle Rechte vorbehalten.</p>
-        </div>
-    </footer>
+    <footer></footer>
 
     <script src="../../assets/js/components.js"></script>
     <script src="../../assets/js/auth.js"></script>

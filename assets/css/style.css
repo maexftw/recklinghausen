@@ -344,6 +344,128 @@ article {
     color: var(--color-text-secondary);
 }
 
+.internal-page-intro {
+    display: grid;
+    gap: var(--spacing-sm);
+    padding: clamp(1.35rem, 2.2vw, 2rem);
+    border: 1px solid color-mix(in srgb, var(--color-primary) 14%, white);
+    border-radius: var(--border-radius-xl);
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.82)),
+        linear-gradient(120deg, color-mix(in srgb, var(--color-primary-light) 14%, white) 0%, rgba(255, 255, 255, 0.95) 55%, color-mix(in srgb, var(--color-info-light) 36%, white) 100%);
+    box-shadow: 0 18px 52px rgba(27, 67, 83, 0.08);
+}
+
+.internal-page-intro h1 {
+    margin: 0;
+}
+
+.internal-page-intro p {
+    margin: 0;
+    max-width: 64ch;
+    color: var(--color-text-secondary);
+}
+
+.internal-breadcrumb {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    width: fit-content;
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--color-primary-dark);
+}
+
+.internal-breadcrumb:hover,
+.internal-breadcrumb:focus-visible {
+    text-decoration: underline;
+}
+
+.internal-stack {
+    display: grid;
+    gap: var(--spacing-lg);
+}
+
+.internal-meta-note {
+    margin: 0;
+    padding: 0.9rem 1rem;
+    border-radius: var(--border-radius-lg);
+    border: 1px solid color-mix(in srgb, var(--color-info) 18%, white);
+    background: color-mix(in srgb, var(--color-info-light) 72%, white);
+    color: var(--color-text-secondary);
+}
+
+.internal-card-grid {
+    display: grid;
+    gap: var(--spacing-md);
+}
+
+.internal-card-grid--two {
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+}
+
+.content-section p,
+.training-plan p,
+.announcement p,
+.document-item p,
+.admin-controls p {
+    color: var(--color-text-secondary);
+}
+
+.training-plan h3,
+.announcement h3,
+.document-item h3,
+.admin-controls h3 {
+    margin-top: 0;
+}
+
+.announcement .date,
+.document-item__meta {
+    display: block;
+    margin-bottom: var(--spacing-xs);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-muted);
+}
+
+.internal-action-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-md);
+}
+
+.internal-link-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.75rem;
+    padding: 0.8rem 1.1rem;
+    border-radius: var(--border-radius-pill);
+    text-decoration: none;
+    font-weight: var(--font-weight-bold);
+    color: #fff;
+    background: var(--color-primary-dark);
+}
+
+.internal-link-button:hover,
+.internal-link-button:focus-visible {
+    background: var(--color-primary);
+}
+
+.internal-link-button--subtle {
+    color: var(--color-primary-dark);
+    background: color-mix(in srgb, var(--color-primary-light) 20%, white);
+}
+
+.internal-link-button--subtle:hover,
+.internal-link-button--subtle:focus-visible {
+    background: color-mix(in srgb, var(--color-primary-light) 36%, white);
+}
+
 .internal-section {
     margin-bottom: var(--spacing-xl);
     padding: var(--spacing-xl);
@@ -468,6 +590,33 @@ article {
     font-size: var(--font-size-sm);
 }
 
+.article-list,
+.document-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.document-item {
+    display: grid;
+    gap: var(--spacing-xs);
+}
+
+.document-item a[download] {
+    width: fit-content;
+    padding: 0.75rem 1rem;
+    border-radius: var(--border-radius-pill);
+    background: color-mix(in srgb, var(--color-primary-light) 18%, white);
+    color: var(--color-primary-dark);
+    font-weight: var(--font-weight-bold);
+    text-decoration: none;
+}
+
+.document-item a[download]:hover,
+.document-item a[download]:focus-visible {
+    background: color-mix(in srgb, var(--color-primary-light) 30%, white);
+}
+
 .user-table {
     width: 100%;
     border-collapse: collapse;
@@ -504,6 +653,12 @@ article {
 
     .cta-row {
         flex-direction: column;
+    }
+
+    .internal-page-intro,
+    .internal-section,
+    .admin-controls {
+        padding: var(--spacing-md);
     }
 }
 
