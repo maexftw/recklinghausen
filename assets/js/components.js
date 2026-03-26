@@ -29,7 +29,6 @@ const DESIGN_SYSTEM = {
 
 if (typeof tailwind !== 'undefined') {
     tailwind.config = {
-        darkMode: "class",
         theme: {
             extend: {
                 colors: DESIGN_SYSTEM.colors,
@@ -42,7 +41,6 @@ if (typeof tailwind !== 'undefined') {
 
 document.addEventListener('DOMContentLoaded', () => {
     initSharedComponents();
-    initDarkMode();
 });
 
 function initSharedComponents() {
@@ -76,9 +74,6 @@ function initSharedComponents() {
                     <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/contact.html">Kontakt</a>
                 </nav>
                 <div class="flex items-center space-x-4">
-                    <button id="theme-toggle" class="site-icon-button p-2 transition-colors focus:outline-none" aria-label="Farbthema umschalten">
-                        <span class="material-icons-round" id="theme-toggle-icon">dark_mode</span>
-                    </button>
                     <a href="${basePath}pages/register.html" class="site-cta px-5 py-2.5 font-bold text-sm focus:outline-none">
                         Mitmachen
                     </a>
@@ -255,34 +250,6 @@ function initMobileMenu() {
         window.addEventListener('resize', () => {
             if (window.innerWidth >= 1024) {
                 updateMenuState(false);
-            }
-        });
-    }
-}
-
-function initDarkMode() {
-    const themeToggle = document.getElementById('theme-toggle');
-    const themeToggleIcon = document.getElementById('theme-toggle-icon');
-
-    // Check for saved theme or system preference
-    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-        document.documentElement.classList.add('dark');
-        if (themeToggleIcon) themeToggleIcon.textContent = 'light_mode';
-    } else {
-        document.documentElement.classList.remove('dark');
-        if (themeToggleIcon) themeToggleIcon.textContent = 'dark_mode';
-    }
-
-    if (themeToggle) {
-        themeToggle.addEventListener('click', () => {
-            if (document.documentElement.classList.contains('dark')) {
-                document.documentElement.classList.remove('dark');
-                localStorage.theme = 'light';
-                if (themeToggleIcon) themeToggleIcon.textContent = 'dark_mode';
-            } else {
-                document.documentElement.classList.add('dark');
-                localStorage.theme = 'dark';
-                if (themeToggleIcon) themeToggleIcon.textContent = 'light_mode';
             }
         });
     }
