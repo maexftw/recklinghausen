@@ -43,9 +43,22 @@ document.addEventListener('DOMContentLoaded', () => {
     initSharedComponents();
 });
 
+function getSharedBasePath() {
+    const pathname = window.location.pathname || '/';
+    const normalizedPath = pathname.endsWith('/') ? pathname : pathname.replace(/[^/]*$/, '');
+    const segments = normalizedPath
+        .split('/')
+        .filter((segment) => segment && segment !== '.');
+
+    if (segments.length === 0) {
+        return '';
+    }
+
+    return '../'.repeat(segments.length);
+}
+
 function initSharedComponents() {
-    const isRoot = window.location.pathname.endsWith('index.html') || window.location.pathname === '/' || !window.location.pathname.includes('/pages/');
-    const basePath = isRoot ? '' : '../';
+    const basePath = getSharedBasePath();
 
     ensureSharedStyles(basePath);
 

@@ -7,38 +7,15 @@
     <link rel="stylesheet" href="../../assets/css/style.css">
     <link rel="stylesheet" href="../../assets/css/responsive.css">
 </head>
-<body>
-    <!-- Header mit Navigation -->
-    <header class="header" role="banner">
-        <div class="container">
-            <div class="logo">
-                <a href="../../index.html">
-                    <img src="../../assets/logo/rlc_logo_original.png" alt="RLC Recklinghausen Logo">
-                </a>
-            </div>
-            <nav class="main-nav" role="navigation" aria-label="Hauptnavigation">
-                <ul>
-                    <li><a href="../../index.html">Startseite</a></li>
-                    <li><a href="../../pages/news.html">Aktuelles</a></li>
-                    <li><a href="../../pages/training.html">Training</a></li>
-                    <li><a href="../../pages/team.html">Verein</a></li>
-                    <li><a href="../../pages/facilities.html">Sportstätten</a></li>
-                    <li><a href="../../pages/stats.html">Statistiken</a></li>
-                    <li><a href="../../pages/gallery.html">Fotos</a></li>
-                    <li><a href="../../pages/sponsors.html">Partner</a></li>
-                    <li><a href="../../pages/scope-contract.html">Scope/Vertrag</a></li>
-                    <li><a href="../../pages/contact.html">Kontakt</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <!-- Hauptinhalt -->
+<body class="internal-preview-page">
     <main id="main-content" class="internal-main">
-        <div class="container">
-            <h1>Interner Bereich</h1>
+        <div class="container internal-main__shell">
+            <section class="internal-hero" aria-labelledby="internal-overview-title">
+                <div class="internal-hero__eyebrow">Mitgliederbereich Vorschau</div>
+                <h1 id="internal-overview-title">Interner Bereich</h1>
+                <p>Geschützte Inhalte, Trainingsunterlagen und organisatorische Informationen werden hier in einer einheitlichen Vorschauoberfläche gebündelt.</p>
+            </section>
             
-            <!-- Login-Bereich für nicht-authentifizierte Nutzer -->
             <section id="login-section" class="internal-section">
                 <h2>Vorschauzugang</h2>
                 <p>Der interne Bereich ist in dieser statischen Version nicht serverseitig geschützt. Für die UI-Vorschau können Sie eine lokale Sitzung als Mitglied oder Administrator starten.</p>
@@ -59,7 +36,6 @@
                 <p id="login-error" class="error-message" aria-live="polite"></p>
             </section>
 
-            <!-- Dashboard für authentifizierte Nutzer -->
             <section id="dashboard-section" class="internal-section" hidden aria-hidden="true">
                 <h2>Dashboard</h2>
                 <div class="user-info">
@@ -68,7 +44,6 @@
                     <button id="logout-btn">Abmelden</button>
                 </div>
 
-                <!-- Inhalte für Mitglieder -->
                 <div id="member-content" class="content-section">
                     <h3>Interne Inhalte für Mitglieder</h3>
                     <ul>
@@ -78,7 +53,6 @@
                     </ul>
                 </div>
 
-                <!-- Inhalte für Admins -->
                 <div id="admin-content" class="content-section" data-requires-role="admin" hidden aria-hidden="true">
                     <h3>Admin-Funktionen</h3>
                     <ul>
@@ -91,13 +65,6 @@
             </section>
         </div>
     </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2026 RLC Recklinghausen. Alle Rechte vorbehalten.</p>
-        </div>
-    </footer>
 
     <script src="../../assets/js/components.js"></script>
     <script src="../../assets/js/auth.js"></script>

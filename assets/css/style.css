@@ -301,17 +301,72 @@ article {
     padding: var(--spacing-xl) 0;
 }
 
+.internal-preview-page {
+    background:
+        radial-gradient(circle at top left, color-mix(in srgb, var(--color-primary) 10%, white) 0, transparent 28%),
+        linear-gradient(180deg, color-mix(in srgb, var(--color-primary-light) 14%, white) 0%, var(--color-background-light) 24%, white 100%);
+}
+
+.internal-main__shell {
+    display: grid;
+    gap: var(--spacing-xl);
+}
+
+.internal-hero {
+    display: grid;
+    gap: var(--spacing-sm);
+    padding: clamp(1.5rem, 2.4vw, 2.4rem);
+    border: 1px solid color-mix(in srgb, var(--color-primary) 14%, white);
+    border-radius: var(--border-radius-xl);
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.94), rgba(255, 255, 255, 0.8)),
+        linear-gradient(120deg, color-mix(in srgb, var(--color-primary-light) 16%, white) 0%, rgba(255, 255, 255, 0.94) 56%, color-mix(in srgb, var(--color-info-light) 42%, white) 100%);
+    box-shadow: 0 20px 60px rgba(27, 67, 83, 0.08);
+}
+
+.internal-hero__eyebrow {
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--color-primary-dark);
+}
+
+.internal-hero h1,
+.internal-section h2,
+.content-section h3 {
+    margin: 0;
+}
+
+.internal-hero p {
+    max-width: 62ch;
+    margin: 0;
+    color: var(--color-text-secondary);
+}
+
 .internal-section {
     margin-bottom: var(--spacing-xl);
     padding: var(--spacing-xl);
     background-color: var(--color-card-light);
     border: 1px solid var(--color-border-default);
     border-radius: var(--border-radius-lg);
-    box-shadow: var(--box-shadow-sm);
+    box-shadow: 0 18px 48px rgba(17, 24, 39, 0.06);
 }
 
 .content-section {
     margin-top: var(--spacing-lg);
+}
+
+.content-section h3 {
+    margin-bottom: var(--spacing-sm);
+}
+
+.content-section ul {
+    padding-left: 1.2rem;
+}
+
+.content-section li + li {
+    margin-top: var(--spacing-xs);
 }
 
 .user-info {
@@ -330,6 +385,11 @@ article {
     margin-bottom: var(--spacing-md);
 }
 
+.internal-section form {
+    display: grid;
+    gap: var(--spacing-sm);
+}
+
 .form-group label {
     display: block;
     margin-bottom: var(--spacing-xs);
@@ -341,6 +401,18 @@ article {
 .form-group textarea {
     width: 100%;
     box-sizing: border-box;
+}
+
+#auth-preview-notice {
+    margin-top: calc(var(--spacing-md) * -1);
+    background: color-mix(in srgb, var(--color-info-light) 72%, white);
+    border: 1px solid color-mix(in srgb, var(--color-primary) 18%, white);
+}
+
+#login-section[hidden],
+#dashboard-section[hidden],
+#admin-content[hidden] {
+    display: none !important;
 }
 
 .training-plan,

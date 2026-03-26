@@ -558,20 +558,107 @@
         
         /* Startseite - Hero-Bereich */
         .hero-section {
-            background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.72)),
-                linear-gradient(120deg, color-mix(in srgb, var(--news-wash) 72%, white) 0%, rgba(255, 255, 255, 0.92) 54%, color-mix(in srgb, var(--news-sand) 46%, white) 100%);
-            box-shadow: var(--news-shadow);
+            position: relative;
+            isolation: isolate;
+            background:
+                radial-gradient(circle at top left, color-mix(in srgb, var(--news-accent) 18%, white) 0, transparent 30%),
+                linear-gradient(180deg, rgba(248, 251, 250, 0.98) 0%, rgba(255, 255, 255, 0.94) 100%);
+            border-bottom: 1px solid color-mix(in srgb, var(--news-line) 74%, white);
         }
         
         .hero-section::before {
             content: "";
             position: absolute;
-            inset: 1rem;
+            inset: clamp(0.75rem, 1.6vw, 1rem);
             border: 1px solid color-mix(in srgb, var(--news-accent) 14%, transparent);
             pointer-events: none;
+            z-index: 0;
         }
-        
-        /* Startseite - Textfarben */
+
+        .hero-media-wrap {
+            position: absolute;
+            inset: 0;
+            overflow: hidden;
+            z-index: -2;
+        }
+
+        .hero-media-wrap img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center 38%;
+            filter: saturate(0.96) contrast(0.92) brightness(1.08);
+            transform: scale(1.02);
+        }
+
+        .hero-section::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                linear-gradient(105deg, rgba(249, 251, 250, 0.96) 0%, rgba(249, 251, 250, 0.9) 42%, rgba(249, 251, 250, 0.68) 64%, rgba(249, 251, 250, 0.4) 100%),
+                linear-gradient(180deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.36));
+            z-index: -1;
+        }
+
+        .hero-content {
+            display: grid;
+            gap: clamp(1.4rem, 2.3vw, 2rem);
+            max-width: 42rem;
+        }
+
+        .hero-kicker {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.55rem;
+            width: fit-content;
+            padding: 0.45rem 0.75rem;
+            border: 1px solid color-mix(in srgb, var(--news-line) 85%, white);
+            background: rgba(255, 255, 255, 0.78);
+            color: var(--news-accent-deep);
+            font-size: 0.76rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .hero-kicker strong {
+            color: var(--news-ink);
+            font-weight: 800;
+        }
+
+        .hero-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.9rem 1rem;
+            align-items: center;
+        }
+
+        .hero-link-secondary {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.45rem;
+            color: var(--news-accent-deep);
+            font-weight: 800;
+            transition: color 220ms ease, transform 220ms ease;
+        }
+
+        .hero-link-secondary:hover,
+        .hero-link-secondary:focus-visible {
+            color: var(--news-ink);
+            transform: translateX(2px);
+            outline: none;
+        }
+
+        .hero-link-secondary .material-icons-round {
+            transition: transform 220ms ease;
+        }
+
+        .hero-link-secondary:hover .material-icons-round,
+        .hero-link-secondary:focus-visible .material-icons-round {
+            transform: translateX(3px);
+        }
+
         .hero-section h1 {
             color: var(--news-ink);
         }
@@ -584,13 +671,24 @@
             color: var(--news-accent-deep);
         }
         
-        /* Startseite - Textfarben für bessere Lesbarkeit */
         .hero-section .text-white {
             color: var(--news-ink);
         }
         
         .hero-section .text-slate-300 {
             color: var(--news-muted);
+        }
+
+        @media (max-width: 767px) {
+            .hero-media-wrap img {
+                object-position: center;
+            }
+
+            .hero-section::after {
+                background:
+                    linear-gradient(180deg, rgba(249, 251, 250, 0.94) 0%, rgba(249, 251, 250, 0.86) 48%, rgba(249, 251, 250, 0.78) 100%),
+                    linear-gradient(180deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.28));
+            }
         }
     </style>
 </head>
@@ -599,34 +697,34 @@
     class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-sans transition-colors duration-300">
     <header class="news-page-body"></header>
     <section class="relative overflow-hidden hero-section">
-        <div class="absolute inset-0 opacity-30">
-            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDwQwdd7uIAbyPk13ndW2rswSVdHtwl7m8KzZ09eGwWWcKKb8FCwiCrPvLTRc6NS0YC6XuRYqij7cLLhwryr1Q7qbKjOZOeWRrOomOJZ45XCi-XECu2cLYYEkMpQZP49_wHswINA-2IBggqdINZfVjENeHAvCfs8ZEVs7FMNFcKl1ab_nzj8VsQz6MP5Tf0NS6AjHlG-08FG5aBpOiZX49miIAXx6iTwyv2XGOZuftFStx_CU1ub_YLoIT2pIJz9Dq9BRZ1H7-l8bK"
-                alt="Sportler auf der Laufbahn" class="w-full h-full object-cover opacity-40" loading="lazy">
+        <div class="hero-media-wrap" aria-hidden="true">
+            <img src="news_assets/10158/zoom_20250602125552_PHOTO-2025-05-30-13-28-15.jpg"
+                alt="" loading="eager" decoding="async">
         </div>
-        <div class="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/75 to-slate-900/35"></div>
         <div
             class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-28 flex flex-col items-start justify-center min-h-[460px] md:min-h-[520px]">
-            <span
-                class="text-primary px-0 py-0 text-xs font-bold uppercase tracking-[0.2em] mb-4">
-                Leidenschaft seit 1952
-            </span>
-            <h1
-                class="font-display text-4xl md:text-6xl lg:text-7xl font-black text-white max-w-2xl leading-[1.02] mb-5">
-                Leichtathletik in Recklinghausen <span class="text-primary">für jedes Alter.</span>
-            </h1>
-            <p class="text-slate-300 text-base md:text-xl max-w-xl mb-8 md:mb-10 leading-relaxed">
-                Trainiere mit dem RLC 1952 - vom ersten Probetraining bis zur Wettkampfgruppe. Hier findest du
-                Trainingsangebote, Vereinsnews und den Weg zur Mitgliedschaft.
-            </p>
-            <div class="flex w-full flex-col sm:w-auto sm:flex-row flex-wrap gap-3 sm:gap-4">
-                <a href="pages/membership-info.html"
-                    class="inline-flex items-center justify-center bg-primary text-white px-6 py-4 rounded-lg font-bold text-base md:text-lg transition-colors w-full sm:w-auto">
-                    Probetraining &amp; Mitgliedschaft
-                </a>
-                <a href="pages/news.html"
-                    class="inline-flex items-center justify-center bg-transparent text-white border border-white/30 px-6 py-4 rounded-lg font-bold text-base md:text-lg hover:bg-white/10 transition-colors w-full sm:w-auto">
-                    Aktuelle News lesen
-                </a>
+            <div class="hero-content">
+                <span class="hero-kicker">
+                    <span>Leidenschaft seit 1952</span>
+                    <strong>Training, Teamgeist, Wettkampf</strong>
+                </span>
+                <h1
+                    class="font-display text-4xl md:text-6xl lg:text-7xl font-black text-white max-w-2xl leading-[1.02]">
+                    Leichtathletik in Recklinghausen <span class="text-primary">für jedes Alter.</span>
+                </h1>
+                <p class="text-slate-300 text-base md:text-xl max-w-xl leading-relaxed">
+                    Trainiere mit dem RLC 1952 - vom ersten Probetraining bis zur Wettkampfgruppe. Hier findest du
+                    Trainingsangebote, Vereinsnews und den Weg zur Mitgliedschaft.
+                </p>
+                <div class="hero-actions">
+                    <a href="pages/membership-info.html"
+                        class="news-link news-link--primary inline-flex items-center justify-center w-full sm:w-auto">
+                        Probetraining &amp; Mitgliedschaft
+                    </a>
+                    <a href="pages/news.html" class="hero-link-secondary">
+                        Aktuelle News lesen <span class="material-icons-round text-sm" aria-hidden="true">arrow_forward</span>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
