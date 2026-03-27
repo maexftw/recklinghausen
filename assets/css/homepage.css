@@ -95,6 +95,8 @@ body.homepage {
     left: clamp(1rem, 2.5vw, 2rem);
     bottom: clamp(1rem, 2.5vw, 1.75rem);
     width: min(28rem, calc(100vw - 2rem));
+    max-height: min(34rem, calc(100svh - var(--header-offset) - 2rem));
+    overflow: auto;
     display: grid;
     gap: 1rem;
     padding: clamp(1rem, 1rem + 0.9vw, 1.4rem);
@@ -193,13 +195,15 @@ body.homepage {
 }
 
 .sportabzeichen-drawer {
+    --sportabzeichen-drawer-width: min(25rem, calc(100vw - 1.25rem));
     position: fixed;
     right: 0;
-    top: clamp(6.3rem, 12vw, 8rem);
+    top: max(var(--header-offset), clamp(6.3rem, 12vw, 8rem));
     display: flex;
     align-items: start;
     justify-content: end;
     width: min(100vw, 28rem);
+    max-height: calc(100svh - max(var(--header-offset), clamp(6.3rem, 12vw, 8rem)) - 1rem);
     pointer-events: none;
 }
 
@@ -211,6 +215,7 @@ body.homepage {
 .sportabzeichen-drawer__toggle {
     position: absolute;
     inset: 1.4rem 0 auto auto;
+    z-index: 2;
     display: grid;
     gap: 0.15rem;
     min-width: 9.5rem;
@@ -237,7 +242,9 @@ body.homepage {
 }
 
 .sportabzeichen-drawer__panel {
-    width: min(25rem, calc(100vw - 1.25rem));
+    width: var(--sportabzeichen-drawer-width);
+    max-height: inherit;
+    overflow: auto;
     margin-right: 0;
     padding: 1.2rem 1.2rem 1.3rem;
     border: 1px solid color-mix(in srgb, var(--home-line) 84%, white);
@@ -251,7 +258,7 @@ body.homepage {
 }
 
 .sportabzeichen-drawer[data-drawer-state="open"] .sportabzeichen-drawer__toggle {
-    transform: translateX(-23.5rem);
+    transform: translateX(calc((var(--sportabzeichen-drawer-width) - 100%) * -1));
 }
 
 .sportabzeichen-drawer__panel-head {
@@ -260,6 +267,11 @@ body.homepage {
     justify-content: space-between;
     gap: 1rem;
     margin-bottom: 0.85rem;
+    position: sticky;
+    top: -1.2rem;
+    z-index: 1;
+    padding-block: 0.2rem 0.75rem;
+    background: color-mix(in srgb, white 92%, var(--home-paper));
 }
 
 .sportabzeichen-drawer__panel-head h2 {
@@ -381,7 +393,7 @@ body.homepage {
     position: relative;
     isolation: isolate;
     overflow: clip;
-    padding: clamp(2rem, 4vw, 3rem) 0 clamp(3.5rem, 8vw, 6rem);
+    padding: clamp(2rem, 4vw, 3rem) 0 clamp(4rem, 8vw, 6.75rem);
     border-bottom: 1px solid color-mix(in srgb, var(--home-line) 72%, white);
 }
 
@@ -553,11 +565,10 @@ body.homepage {
 .home-band {
     display: grid;
     gap: 1rem;
-    margin-top: calc(var(--home-section-space) * -0.34);
+    margin-top: clamp(1.25rem, 3vw, 2rem);
     padding: clamp(1.15rem, 2.2vw, 1.6rem);
     grid-template-columns: repeat(3, minmax(0, 1fr));
     position: relative;
-    z-index: 1;
     background: color-mix(in srgb, white 86%, var(--home-paper-strong));
     border: 1px solid color-mix(in srgb, var(--home-line) 88%, white);
     box-shadow: var(--home-shadow);
@@ -1198,9 +1209,11 @@ body.homepage {
     }
 
     .sportabzeichen-drawer {
+        --sportabzeichen-drawer-width: min(24rem, calc(100vw - 1rem));
         top: auto;
         bottom: 5.8rem;
         width: 100%;
+        max-height: calc(100svh - 6.2rem);
     }
 
     .sportabzeichen-drawer__toggle {
@@ -1210,11 +1223,12 @@ body.homepage {
     }
 
     .sportabzeichen-drawer__panel {
-        width: min(24rem, calc(100vw - 1rem));
+        width: var(--sportabzeichen-drawer-width);
+        max-height: calc(100svh - 6.6rem);
     }
 
     .sportabzeichen-drawer[data-drawer-state="open"] .sportabzeichen-drawer__toggle {
-        transform: translateX(-22.2rem);
+        transform: translateX(calc((var(--sportabzeichen-drawer-width) - 100%) * -1));
     }
 
     .sportabzeichen-drawer__item {

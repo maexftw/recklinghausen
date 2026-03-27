@@ -58,6 +58,10 @@ function getSharedBasePath() {
 }
 
 function initSharedComponents() {
+    if (document.documentElement.dataset.sharedComponentsInitialized === 'true') {
+        return;
+    }
+
     const basePath = getSharedBasePath();
 
     ensureSharedStyles(basePath);
@@ -164,20 +168,24 @@ function initSharedComponents() {
 
     // Inject into body
     const body = document.body;
-    const headerPlaceholder = document.querySelector('header');
-    const footerPlaceholder = document.querySelector('footer');
+    const headerPlaceholder = document.querySelector('[data-shared-shell-placeholder]');
+    const footerPlaceholder = document.querySelector('[data-shared-footer-placeholder]');
+    const existingHeader = document.querySelector('.site-shell');
+    const existingFooter = document.querySelector('.site-footer');
 
-    if (headerPlaceholder) {
+    if (!existingHeader && headerPlaceholder) {
         headerPlaceholder.outerHTML = headerHTML;
-    } else {
+    } else if (!existingHeader) {
         body.insertAdjacentHTML('afterbegin', headerHTML);
     }
 
-    if (footerPlaceholder) {
+    if (!existingFooter && footerPlaceholder) {
         footerPlaceholder.outerHTML = footerHTML;
-    } else {
+    } else if (!existingFooter) {
         body.insertAdjacentHTML('beforeend', footerHTML);
     }
+
+    document.documentElement.dataset.sharedComponentsInitialized = 'true';
 
     // Initialize Menu after injection
     initMobileMenu();
@@ -205,6 +213,11 @@ function initMobileMenu() {
     const mobileMenu = document.getElementById('mobile-menu');
 
     if (menuBtn && mobileMenu) {
+        if (menuBtn.dataset.mobileMenuBound === 'true') {
+            return;
+        }
+
+        menuBtn.dataset.mobileMenuBound = 'true';
         const focusableSelector = 'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])';
 
         const updateMenuState = (isOpen) => {

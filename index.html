@@ -14,6 +14,7 @@
     <link href="assets/css/design-tokens.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
     <link href="assets/css/responsive.css" rel="stylesheet" />
+    <link href="assets/css/shell.css" rel="stylesheet" />
     <link href="assets/css/homepage.css" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
     <script src="assets/js/news_data.js"></script>
@@ -21,7 +22,7 @@
 </head>
 
 <body class="homepage font-sans transition-colors duration-300">
-    <header></header>
+    <header data-shared-shell-placeholder></header>
     <div class="sportabzeichen-layer" data-sportabzeichen-ui>
         <section class="sportabzeichen-notice" id="sportabzeichen-notice" aria-labelledby="sportabzeichen-notice-title"
             aria-describedby="sportabzeichen-notice-text" role="dialog" aria-modal="false" hidden>
@@ -343,7 +344,7 @@
             </section>
         </div>
     </main>
-    <footer></footer>
+    <footer data-shared-footer-placeholder></footer>
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
@@ -441,6 +442,12 @@
     </script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
+            if (document.body.dataset.homeSportabzeichenInitialized === 'true') {
+                return;
+            }
+
+            document.body.dataset.homeSportabzeichenInitialized = 'true';
+
             const notice = document.getElementById('sportabzeichen-notice');
             const noticeDismissButtons = document.querySelectorAll('[data-notice-dismiss]');
             const drawer = document.querySelector('.sportabzeichen-drawer');
