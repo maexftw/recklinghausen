@@ -14,816 +14,249 @@
     <link href="assets/css/design-tokens.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
     <link href="assets/css/responsive.css" rel="stylesheet" />
+    <link href="assets/css/homepage.css" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
     <script src="assets/js/news_data.js"></script>
     <script src="assets/js/components.js"></script>
-    <style>
-        /* Helle Farbpalette für den Aktuelles-Bereich */
-        :root {
-            --news-paper: oklch(0.985 0.008 95);
-            --news-ink: oklch(0.22 0.02 210);
-            --news-muted: oklch(0.53 0.03 210);
-            --news-line: oklch(0.87 0.02 190);
-            --news-accent: oklch(0.72 0.15 176);
-            --news-accent-deep: oklch(0.45 0.09 188);
-            --news-wash: oklch(0.96 0.026 176);
-            --news-sand: oklch(0.94 0.02 88);
-            --news-shadow: 0 28px 80px color-mix(in srgb, var(--news-accent-deep) 18%, transparent);
-        }
-        
-        body {
-            background:
-                radial-gradient(circle at top left, color-mix(in srgb, var(--news-accent) 14%, white) 0, transparent 34%),
-                linear-gradient(180deg, oklch(0.95 0.018 180) 0%, var(--news-paper) 22%, oklch(0.99 0.006 100) 100%);
-            color: var(--news-ink);
-        }
-        
-        /* Aktuelles-Bereich - hellere Darstellung */
-        .news-section {
-            background: transparent;
-            border-bottom-color: color-mix(in srgb, var(--news-line) 78%, white);
-            box-shadow: none;
-        }
-        
-        .news-section-label {
-            letter-spacing: 0.22em;
-            text-transform: uppercase;
-            font-size: 0.72rem;
-            font-weight: 800;
-        }
-        
-        .news-display {
-            font-family: var(--font-family-heading);
-        }
-        
-        .news-hero {
-            position: relative;
-            display: grid;
-            gap: clamp(1.2rem, 2.4vw, 2.35rem);
-            padding: clamp(1.2rem, 2.7vw, 2.1rem);
-            border: 1px solid color-mix(in srgb, var(--news-accent) 20%, white);
-            background:
-                linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.72)),
-                linear-gradient(120deg, color-mix(in srgb, var(--news-wash) 72%, white) 0%, rgba(255, 255, 255, 0.92) 54%, color-mix(in srgb, var(--news-sand) 46%, white) 100%);
-            box-shadow: var(--news-shadow);
-        }
-        
-        .news-hero::before {
-            content: "";
-            position: absolute;
-            inset: 1rem;
-            border: 1px solid color-mix(in srgb, var(--news-accent) 14%, transparent);
-            pointer-events: none;
-        }
-        
-        .news-feature {
-            display: grid;
-            gap: 0;
-            background: rgba(255, 255, 255, 0.76);
-            border: 1px solid color-mix(in srgb, var(--news-line) 88%, white);
-        }
-        
-        .news-feature-media {
-            position: relative;
-            min-height: 15rem;
-            overflow: hidden;
-            background: linear-gradient(135deg, color-mix(in srgb, var(--news-accent-deep) 36%, white), color-mix(in srgb, var(--news-sand) 80%, white));
-        }
-        
-        .news-feature-body {
-            display: grid;
-            gap: 1.2rem;
-            padding: clamp(1.4rem, 2vw, 2rem);
-            align-content: start;
-        }
-        
-        .news-feature-intro {
-            display: grid;
-            gap: 0.75rem;
-        }
-        
-        .news-feature-context {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.55rem;
-            width: fit-content;
-            padding: 0.45rem 0.75rem;
-            border: 1px solid color-mix(in srgb, var(--news-line) 85%, white);
-            background: color-mix(in srgb, var(--news-accent) 6%, white);
-            color: var(--news-accent-deep);
-            font-size: 0.76rem;
-            font-weight: 700;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
-        }
-        
-        .news-feature-context strong {
-            color: var(--news-ink);
-            font-weight: 800;
-        }
-        
-        .news-feature-meta,
-        .news-card-meta {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.65rem 1rem;
-            align-items: center;
-            color: var(--news-muted);
-            font-size: 0.85rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.12em;
-        }
-        
-        .news-date-chip {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            padding: 0.45rem 0.7rem;
-            background: var(--news-accent-deep);
-            color: oklch(0.985 0.004 180);
-            font-size: 0.7rem;
-            font-weight: 800;
-            letter-spacing: 0.12em;
-            text-transform: uppercase;
-        }
-        
-        .news-feature-title,
-        .news-card-title {
-            line-height: 0.98;
-            text-wrap: balance;
-        }
-        
-        .news-feature-title {
-            font-size: clamp(1.8rem, 2.35vw, 2.7rem);
-            font-weight: 700;
-        }
-        
-        .news-card {
-            grid-column: span 12;
-            display: grid;
-            grid-template-rows: auto 1fr;
-            align-self: stretch;
-            background: rgba(255, 255, 255, 0.78);
-            border: 1px solid color-mix(in srgb, var(--news-line) 90%, white);
-            transition: transform 300ms cubic-bezier(.22, 1, .36, 1), border-color 300ms ease, box-shadow 300ms ease;
-        }
-        
-        .news-card:hover {
-            transform: translateY(-3px);
-            border-color: color-mix(in srgb, var(--news-accent) 36%, white);
-            box-shadow: 0 24px 54px rgba(20, 67, 83, 0.08);
-        }
-        
-        .news-card-media {
-            position: relative;
-            min-height: 12rem;
-            max-height: 13.5rem;
-            overflow: hidden;
-            background: linear-gradient(135deg, color-mix(in srgb, var(--news-accent) 26%, white), color-mix(in srgb, var(--news-sand) 84%, white));
-        }
-        
-        .news-card-content {
-            display: grid;
-            gap: 1rem;
-            padding: clamp(1.15rem, 2vw, 1.7rem);
-            align-content: start;
-            grid-template-rows: auto 1fr auto;
-            height: 100%;
-        }
-        
-        .news-card-title {
-            font-size: clamp(1.25rem, 1.75vw, 1.7rem);
-            font-weight: 700;
-        }
-        
-        .news-excerpt {
-            color: color-mix(in srgb, var(--news-ink) 72%, white);
-            line-height: 1.7;
-            display: -webkit-box;
-            -webkit-line-clamp: 4;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-        
-        .news-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.45rem;
-            font-weight: 800;
-            color: var(--news-accent-deep);
-        }
-        
-        .news-link--primary {
-            justify-content: center;
-            padding: 0.95rem 1.4rem;
-            background: var(--news-accent-deep);
-            color: oklch(0.99 0.004 180);
-            border: 1px solid color-mix(in srgb, var(--news-accent-deep) 76%, black);
-            box-shadow: 0 16px 34px color-mix(in srgb, var(--news-accent-deep) 18%, transparent);
-            transition: transform 220ms ease, box-shadow 220ms ease, background-color 220ms ease;
-        }
-        
-        .news-link--primary:hover,
-        .news-link--primary:focus-visible {
-            transform: translateY(-2px);
-            box-shadow: 0 22px 40px color-mix(in srgb, var(--news-accent-deep) 24%, transparent);
-            outline: none;
-        }
-        
-        .news-link--muted {
-            font-size: 0.93rem;
-            font-weight: 700;
-            color: color-mix(in srgb, var(--news-accent-deep) 80%, var(--news-muted));
-        }
-        
-        .news-hero-actions {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            gap: 0.9rem 1.25rem;
-        }
-        
-        .news-hero-note {
-            max-width: 24rem;
-            font-size: 0.82rem;
-            line-height: 1.7;
-            color: var(--news-muted);
-        }
-        
-        .news-link .material-icons-round {
-            transition: transform 220ms ease;
-        }
-        
-        .news-link:hover .material-icons-round,
-        .news-link:focus-visible .material-icons-round {
-            transform: translateX(3px);
-        }
-        
-        .news-panel {
-            position: relative;
-            padding: 1.35rem;
-            background: rgba(255, 255, 255, 0.68);
-            border: 1px solid color-mix(in srgb, var(--news-line) 90%, white);
-            overflow: hidden;
-        }
-        
-        .news-panel--accent {
-            background: linear-gradient(180deg, color-mix(in srgb, var(--news-accent) 10%, white), rgba(255, 255, 255, 0.88));
-            border-color: color-mix(in srgb, var(--news-accent) 28%, white);
-        }
-        
-        .news-panel--quiet {
-            background: color-mix(in srgb, white 88%, var(--news-paper));
-            border-color: color-mix(in srgb, var(--news-line) 72%, white);
-        }
-        
-        .news-panel::after {
-            content: "";
-            position: absolute;
-            left: 1.35rem;
-            right: 1.35rem;
-            top: 0;
-            height: 2px;
-            background: linear-gradient(90deg, var(--news-accent-deep), color-mix(in srgb, var(--news-sand) 75%, var(--news-accent)));
-            opacity: 0.58;
-        }
-        
-        .news-panel--quiet::after {
-            opacity: 0.26;
-        }
-        
-        .news-filter-list,
-        .news-quick-links,
-        .news-timeline {
-            display: grid;
-            gap: 0.8rem;
-        }
-        
-        .news-filter {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 1rem;
-            padding: 0.9rem 1rem;
-            border: 1px solid color-mix(in srgb, var(--news-line) 90%, white);
-            background: rgba(255, 255, 255, 0.84);
-            font-weight: 700;
-            text-align: left;
-            transition: border-color 220ms ease, transform 220ms ease, background-color 220ms ease;
-        }
-        
-        .news-filter:hover,
-        .news-filter:focus-visible,
-        .news-filter.is-active {
-            border-color: color-mix(in srgb, var(--news-accent) 44%, white);
-            background: color-mix(in srgb, var(--news-accent) 10%, white);
-            transform: translateX(3px);
-            outline: none;
-        }
-        
-        .news-utility-link {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 1rem;
-            padding: 0.85rem 0;
-            border-top: 1px solid color-mix(in srgb, var(--news-line) 72%, white);
-            color: color-mix(in srgb, var(--news-ink) 88%, white);
-            font-weight: 700;
-            transition: color 220ms ease, transform 220ms ease;
-        }
-        
-        .news-utility-link:first-child {
-            border-top: none;
-            padding-top: 0;
-        }
-        
-        .news-utility-link:last-child {
-            padding-bottom: 0;
-        }
-        
-        .news-utility-link:hover,
-        .news-utility-link:focus-visible {
-            color: var(--news-accent-deep);
-            transform: translateX(2px);
-            outline: none;
-        }
-        
-        .news-utility-link .material-icons-round {
-            color: color-mix(in srgb, var(--news-muted) 82%, white);
-        }
-        
-        .news-archive-intro {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: end;
-            justify-content: space-between;
-            gap: 1.25rem 2rem;
-            padding-bottom: 1rem;
-            border-bottom: 1px solid color-mix(in srgb, var(--news-line) 74%, white);
-        }
-        
-        .news-archive-summary {
-            display: inline-flex;
-            flex-wrap: wrap;
-            gap: 0.55rem;
-            align-items: center;
-            font-size: 0.88rem;
-            color: var(--news-muted);
-        }
-        
-        .news-archive-summary strong {
-            color: var(--news-ink);
-            font-weight: 800;
-        }
-        
-        .news-category-label {
-            display: inline-flex;
-            align-items: center;
-            padding: 0.22rem 0.55rem;
-            border-radius: 999px;
-            background: color-mix(in srgb, var(--news-sand) 58%, white);
-            color: color-mix(in srgb, var(--news-ink) 82%, white);
-            font-size: 0.72rem;
-            font-weight: 700;
-            letter-spacing: 0.04em;
-            text-transform: none;
-        }
-        
-        .news-card[data-size="standard"] .news-card-content {
-            gap: 0.8rem;
-        }
-        
-        .news-card[data-size="standard"] .news-card-title {
-            font-size: clamp(1.2rem, 1.7vw, 1.55rem);
-            line-height: 1.05;
-        }
-        
-        .news-card[data-size="standard"] .news-excerpt {
-            -webkit-line-clamp: 3;
-        }
-        
-        .news-card[data-size="featured"] .news-card-content {
-            padding-block: clamp(1.2rem, 1.9vw, 1.65rem);
-        }
-        
-        .news-card[data-size="featured"] .news-card-media {
-            min-height: 13.5rem;
-            max-height: 15rem;
-        }
-        
-        .news-filter small {
-            color: var(--news-muted);
-            font-weight: 600;
-        }
-        
-        .news-pagination {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.6rem;
-            align-items: center;
-            justify-content: center;
-            padding-top: 1.5rem;
-        }
-        
-        .news-pagination button,
-        .news-pagination span {
-            min-width: 2.8rem;
-            min-height: 2.8rem;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            border: 1px solid color-mix(in srgb, var(--news-line) 92%, white);
-            background: rgba(255, 255, 255, 0.74);
-            font-weight: 800;
-            transition: transform 220ms ease, border-color 220ms ease, background-color 220ms ease;
-        }
-        
-        .news-pagination button:hover,
-        .news-pagination button:focus-visible {
-            border-color: color-mix(in srgb, var(--news-accent) 44%, white);
-            transform: translateY(-2px);
-            outline: none;
-        }
-        
-        .news-pagination button[aria-current="page"] {
-            background: var(--news-accent-deep);
-            border-color: var(--news-accent-deep);
-            color: white;
-            box-shadow: 0 18px 35px rgba(27, 67, 83, 0.18);
-        }
-        
-        .news-empty {
-            padding: clamp(1.8rem, 4vw, 3rem);
-            background: rgba(255, 255, 255, 0.72);
-            border: 1px dashed color-mix(in srgb, var(--news-accent) 44%, white);
-            text-align: left;
-        }
-        
-        .news-reveal {
-            opacity: 0;
-            transform: translateY(18px);
-            animation: newsReveal 700ms cubic-bezier(.22, 1, .36, 1) forwards;
-        }
-        
-        @keyframes newsReveal {
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-        
-        /* Anpassungen für die Startseite */
-        #main-content .news-section {
-            padding-top: var(--spacing-lg);
-            padding-bottom: var(--spacing-xl);
-            border: none;
-        }
-        
-        #main-content .news-section h2 {
-            font-size: clamp(1.8rem, 2.35vw, 2.7rem);
-            font-weight: 700;
-            margin-bottom: var(--spacing-md);
-        }
-        
-        #main-content .news-section p {
-            color: var(--news-muted);
-            max-width: 62ch;
-        }
-        
-        #main-content .news-section .news-card {
-            background: rgba(255, 255, 255, 0.78);
-            border: 1px solid color-mix(in srgb, var(--news-line) 90%, white);
-        }
-
-        #main-content .news-section .news-card[data-size="featured"] {
-            grid-column: span 12;
-        }
-        
-        #main-content .news-section .news-card:hover {
-            transform: translateY(-3px);
-            border-color: color-mix(in srgb, var(--news-accent) 36%, white);
-            box-shadow: 0 24px 54px rgba(20, 67, 83, 0.08);
-        }
-        
-        #main-content .news-section .news-card-title {
-            font-size: clamp(1.25rem, 1.75vw, 1.7rem);
-            font-weight: 700;
-        }
-        
-        #main-content .news-section .news-excerpt {
-            color: color-mix(in srgb, var(--news-ink) 72%, white);
-            line-height: 1.7;
-        }
-        
-        #main-content .news-section .news-date-chip {
-            background: var(--news-accent-deep);
-            color: oklch(0.985 0.004 180);
-        }
-        
-        #main-content .news-section .news-link {
-            font-weight: 800;
-            color: var(--news-accent-deep);
-        }
-        
-        #main-content .news-section .news-link--primary {
-            background: var(--news-accent-deep);
-            color: oklch(0.99 0.004 180);
-            border: 1px solid color-mix(in srgb, var(--news-accent-deep) 76%, black);
-            box-shadow: 0 16px 34px color-mix(in srgb, var(--news-accent-deep) 18%, transparent);
-        }
-        
-        #main-content .news-section .news-link--primary:hover,
-        #main-content .news-section .news-link--primary:focus-visible {
-            transform: translateY(-2px);
-            box-shadow: 0 22px 40px color-mix(in srgb, var(--news-accent-deep) 24%, transparent);
-        }
-        
-        /* Responsive Anpassungen */
-        @media (min-width: 900px) {
-            #main-content .news-section .news-card {
-                grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
-                grid-template-rows: 1fr;
-            }
-            
-            #main-content .news-section .news-card-media {
-                min-height: 100%;
-                max-height: none;
-            }
-        }
-        
-        /* Startseite - Header-Anpassungen */
-        header {
-            background: linear-gradient(135deg, color-mix(in srgb, var(--news-accent) 10%, white) 0%, rgba(255, 255, 255, 0.92) 54%, color-mix(in srgb, var(--news-sand) 46%, white) 100%);
-            border-bottom: 1px solid color-mix(in srgb, var(--news-line) 78%, white);
-        }
-        
-        /* Startseite - Hero-Bereich */
-        .hero-section {
-            position: relative;
-            isolation: isolate;
-            background:
-                radial-gradient(circle at top left, color-mix(in srgb, var(--news-accent) 18%, white) 0, transparent 30%),
-                linear-gradient(180deg, rgba(248, 251, 250, 0.98) 0%, rgba(255, 255, 255, 0.94) 100%);
-            border-bottom: 1px solid color-mix(in srgb, var(--news-line) 74%, white);
-        }
-        
-        .hero-section::before {
-            content: "";
-            position: absolute;
-            inset: clamp(0.75rem, 1.6vw, 1rem);
-            border: 1px solid color-mix(in srgb, var(--news-accent) 14%, transparent);
-            pointer-events: none;
-            z-index: 0;
-        }
-
-        .hero-media-wrap {
-            position: absolute;
-            inset: 0;
-            overflow: hidden;
-            z-index: -2;
-        }
-
-        .hero-media-wrap img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: center 38%;
-            filter: saturate(0.96) contrast(0.92) brightness(1.08);
-            transform: scale(1.02);
-        }
-
-        .hero-section::after {
-            content: "";
-            position: absolute;
-            inset: 0;
-            background:
-                linear-gradient(105deg, rgba(249, 251, 250, 0.96) 0%, rgba(249, 251, 250, 0.9) 42%, rgba(249, 251, 250, 0.68) 64%, rgba(249, 251, 250, 0.4) 100%),
-                linear-gradient(180deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.36));
-            z-index: -1;
-        }
-
-        .hero-content {
-            display: grid;
-            gap: clamp(1.4rem, 2.3vw, 2rem);
-            max-width: 42rem;
-        }
-
-        .hero-kicker {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.55rem;
-            width: fit-content;
-            padding: 0.45rem 0.75rem;
-            border: 1px solid color-mix(in srgb, var(--news-line) 85%, white);
-            background: rgba(255, 255, 255, 0.78);
-            color: var(--news-accent-deep);
-            font-size: 0.76rem;
-            font-weight: 700;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
-        }
-
-        .hero-kicker strong {
-            color: var(--news-ink);
-            font-weight: 800;
-        }
-
-        .hero-actions {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.9rem 1rem;
-            align-items: center;
-        }
-
-        .hero-link-secondary {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.45rem;
-            color: var(--news-accent-deep);
-            font-weight: 800;
-            transition: color 220ms ease, transform 220ms ease;
-        }
-
-        .hero-link-secondary:hover,
-        .hero-link-secondary:focus-visible {
-            color: var(--news-ink);
-            transform: translateX(2px);
-            outline: none;
-        }
-
-        .hero-link-secondary .material-icons-round {
-            transition: transform 220ms ease;
-        }
-
-        .hero-link-secondary:hover .material-icons-round,
-        .hero-link-secondary:focus-visible .material-icons-round {
-            transform: translateX(3px);
-        }
-
-        .hero-section h1 {
-            color: var(--news-ink);
-        }
-        
-        .hero-section p {
-            color: var(--news-muted);
-        }
-        
-        .hero-section .text-primary {
-            color: var(--news-accent-deep);
-        }
-        
-        .hero-section .text-white {
-            color: var(--news-ink);
-        }
-        
-        .hero-section .text-slate-300 {
-            color: var(--news-muted);
-        }
-
-        @media (max-width: 767px) {
-            .hero-media-wrap img {
-                object-position: center;
-            }
-
-            .hero-section::after {
-                background:
-                    linear-gradient(180deg, rgba(249, 251, 250, 0.94) 0%, rgba(249, 251, 250, 0.86) 48%, rgba(249, 251, 250, 0.78) 100%),
-                    linear-gradient(180deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.28));
-            }
-        }
-    </style>
 </head>
 
-<body class="news-page-body font-sans transition-colors duration-300">
-    <header class="news-page-body"></header>
-    <section class="relative overflow-hidden hero-section">
-        <div class="hero-media-wrap" aria-hidden="true">
+<body class="homepage font-sans transition-colors duration-300">
+    <header></header>
+    <main id="main-content" class="home-main">
+        <section class="home-hero" aria-labelledby="home-hero-title">
+        <div class="home-hero__media" aria-hidden="true">
             <img src="news_assets/10158/zoom_20250602125552_PHOTO-2025-05-30-13-28-15.jpg"
                 alt="" loading="eager" decoding="async">
         </div>
-        <div
-            class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-28 flex flex-col items-start justify-center min-h-[460px] md:min-h-[520px]">
-            <div class="hero-content">
-                <span class="hero-kicker">
+        <div class="home-hero__inner">
+            <div class="home-hero__content">
+                <span class="home-kicker">
                     <span>Leidenschaft seit 1952</span>
                     <strong>Training, Teamgeist, Wettkampf</strong>
                 </span>
-                <h1
-                    class="font-display text-4xl md:text-6xl lg:text-7xl font-black text-white max-w-2xl leading-[1.02]">
-                    Leichtathletik in Recklinghausen <span class="text-primary">für jedes Alter.</span>
+                <h1 id="home-hero-title" class="home-hero__title home-display">
+                    Leichtathletik in Recklinghausen <em>für jedes Alter.</em>
                 </h1>
-                <p class="text-slate-300 text-base md:text-xl max-w-xl leading-relaxed">
-                    Trainiere mit dem RLC 1952 - vom ersten Probetraining bis zur Wettkampfgruppe. Hier findest du
-                    Trainingsangebote, Vereinsnews und den Weg zur Mitgliedschaft.
+                <p class="home-hero__lead">
+                    Der RLC 1952 ist für Kinder, Jugendliche und Erwachsene, die Leichtathletik ausprobieren,
+                    regelmäßig trainieren oder sich sportlich weiterentwickeln möchten. Auch Familien finden hier
+                    schnell den Einstieg: mit Probetraining, Trainingszeiten und den richtigen Ansprechpartnern.
                 </p>
-                <div class="hero-actions">
-                    <a href="pages/membership-info.html"
-                        class="news-link news-link--primary inline-flex items-center justify-center w-full sm:w-auto">
-                        Probetraining &amp; Mitgliedschaft
+                <div class="home-actions">
+                    <a href="pages/membership-info.html" class="home-button">
+                        Probetraining &amp; Mitgliedschaft <span class="material-icons-round" aria-hidden="true">arrow_forward</span>
                     </a>
-                    <a href="pages/news.html" class="hero-link-secondary">
+                    <a href="pages/news.html" class="home-link">
                         Aktuelle News lesen <span class="material-icons-round text-sm" aria-hidden="true">arrow_forward</span>
                     </a>
                 </div>
             </div>
+            <aside class="home-hero__notes" aria-label="Kurzüberblick zum Verein">
+                <h2>Gut zu wissen vor dem ersten Training</h2>
+                <ul>
+                    <li>
+                        <strong>Probetraining ist unkompliziert möglich.</strong>
+                        <span>Wenn du oder dein Kind Leichtathletik erst kennenlernen möchtet, ist ein unverbindlicher Einstieg der beste erste Schritt.</span>
+                    </li>
+                    <li>
+                        <strong>Trainingszeiten und Gruppen sind schnell auffindbar.</strong>
+                        <span>In der Trainingsübersicht siehst du nach Altersbereich und Angebot, wann und wo trainiert wird.</span>
+                    </li>
+                    <li>
+                        <strong>Fragen lassen sich direkt klären.</strong>
+                        <span>Ob Mitgliedschaft, Einstieg oder Organisation: Über Team und Kontakt kommst du ohne Umwege zur passenden Ansprechperson.</span>
+                    </li>
+                </ul>
+            </aside>
         </div>
-    </section>
-    <main id="main-content" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
-            <div class="lg:col-span-8 space-y-12">
-                <section class="news-section">
-                    <div class="news-archive-intro">
-                        <div>
-                            <h2 class="font-display text-3xl font-black uppercase tracking-tight">Aktuelles</h2>
-                            <p class="mt-1 text-[color:var(--news-muted)]">Neuigkeiten, Ergebnisse und wichtige Meldungen aus dem Verein</p>
-                        </div>
-                        <div class="pb-1 text-sm md:text-right text-[color:var(--news-muted)]">
-                            <p class="font-semibold text-[color:var(--news-ink)]">Die neuesten drei Beiträge werden hier automatisch angezeigt.</p>
-                            <p>Weitere Meldungen findest du im <a href="pages/news.html" class="font-semibold text-[color:var(--news-accent-deep)] hover:underline">vollständigen News-Archiv</a>.</p>
-                        </div>
+        </section>
+
+        <section class="home-band" aria-label="Schnellorientierung">
+            <article class="home-band__item">
+                <span>Mitmachen</span>
+                <strong>Hier startest du mit Probetraining und Mitgliedschaft.</strong>
+                <p>Ideal für Familien, Einsteiger und alle, die zuerst wissen möchten, wie ein Einstieg beim RLC 1952 abläuft.</p>
+            </article>
+            <article class="home-band__item">
+                <span>Vereinsleben</span>
+                <strong>News, Termine und Ergebnisse aus dem Club.</strong>
+                <p>Bleibe auf dem Laufenden, wenn du wissen möchtest, was im Verein gerade passiert und welche Veranstaltungen anstehen.</p>
+            </article>
+            <article class="home-band__item">
+                <span>Orientierung</span>
+                <strong>Trainingszeiten, Orte und Kontakte auf einen Blick.</strong>
+                <p>Wenn du neu bist, findest du hier schnell heraus, wo trainiert wird, wer hilft und welcher nächste Schritt sinnvoll ist.</p>
+            </article>
+        </section>
+
+        <div class="home-grid-shell">
+            <section class="home-news" aria-labelledby="home-news-title">
+                <div class="home-news__stack">
+                    <div class="home-news__intro">
+                        <span class="home-section-label">Aktuelles</span>
+                        <h2 id="home-news-title" class="home-news__title home-display">Neuigkeiten, Ergebnisse und wichtige Meldungen aus dem Verein.</h2>
+                        <p class="home-news__lede">Hier siehst du aktuelle Beiträge aus dem RLC 1952. Wenn du mehr lesen möchtest, findest du weitere Meldungen im <a href="pages/news.html" class="home-link">News-Archiv <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>.</p>
                     </div>
-                    <div id="index-news-container" class="space-y-12" aria-live="polite">
-                        <!-- Dynamic News will be loaded here -->
-                        <div class="news-card animate-pulse" data-size="featured">
-                            <div class="news-card-media min-h-[18rem] bg-slate-200/80"></div>
-                            <div class="news-card-content">
-                                <div class="h-3 w-32 bg-slate-200 rounded-full"></div>
-                                <div class="h-8 w-4/5 bg-slate-200 rounded-full"></div>
-                                <div class="space-y-2">
-                                    <div class="h-3 w-full bg-slate-200 rounded-full"></div>
-                                    <div class="h-3 w-5/6 bg-slate-200 rounded-full"></div>
+                    <div id="index-news-container" class="home-news__grid" aria-live="polite">
+                        <article class="home-news-card" data-size="compact" aria-hidden="true">
+                            <div class="home-news-card__media"></div>
+                            <div class="home-news-card__body">
+                                <div class="home-news-card__meta">
+                                    <span class="home-date-chip">Lädt</span>
+                                    <span class="home-category-chip">Vereinsnews</span>
+                                </div>
+                                <div class="home-news-card__content">
+                                    <h3 class="home-news-card__title home-display">Die neuesten Meldungen werden geladen.</h3>
+                                    <p class="home-news-card__excerpt">Sobald die News-Daten verfügbar sind, erscheint hier automatisch eine kompakte Auswahl aktueller Beiträge aus dem Verein.</p>
+                                </div>
+                                <div class="home-news-card__footer">
+                                    <span class="home-news-card__cta">Aktualisierung läuft <span class="material-icons-round" aria-hidden="true">schedule</span></span>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-            <aside class="lg:col-span-4 space-y-10">
-                <div class="border-t border-slate-200 dark:border-slate-800 pt-6">
-                    <h3 class="font-display font-bold text-xl mb-6">Nächste Termine</h3>
-                    <div class="space-y-6">
-                        <div class="flex items-start space-x-4">
-                            <div class="border border-slate-200 dark:border-slate-700 p-2 rounded-lg text-center min-w-[60px]">
-                                <span class="block text-xs uppercase font-bold text-slate-400">Feb</span>
-                                <span class="block text-xl font-black text-primary">12</span>
+                        </article>
+                        <article class="home-news-card" data-size="compact" aria-hidden="true">
+                            <div class="home-news-card__media"></div>
+                            <div class="home-news-card__body">
+                                <div class="home-news-card__meta">
+                                    <span class="home-date-chip">Lädt</span>
+                                    <span class="home-category-chip">Vereinsnews</span>
+                                </div>
+                                <div class="home-news-card__content">
+                                    <h3 class="home-news-card__title home-display">Weitere Meldungen werden vorbereitet.</h3>
+                                    <p class="home-news-card__excerpt">Der Überblick bleibt bewusst kompakt, damit mehrere aktuelle Themen gleichzeitig sichtbar sind.</p>
+                                </div>
+                                <div class="home-news-card__footer">
+                                    <span class="home-news-card__cta">Mehrere Themen im Blick <span class="material-icons-round" aria-hidden="true">east</span></span>
+                                </div>
                             </div>
-                            <div>
-                                <h4 class="font-bold text-sm">Hallen-Meeting Dortmund</h4>
-                                <p class="text-xs text-slate-500 mt-1">Helmut-Körnig-Halle, 10:00 Uhr</p>
-                            </div>
-                        </div>
-                        <div class="flex items-start space-x-4">
-                            <div class="border border-slate-200 dark:border-slate-700 p-2 rounded-lg text-center min-w-[60px]">
-                                <span class="block text-xs uppercase font-bold text-slate-400">Mär</span>
-                                <span class="block text-xl font-black text-primary">05</span>
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-sm">Jahreshauptversammlung</h4>
-                                <p class="text-xs text-slate-500 mt-1">Vereinsheim, 18:30 Uhr</p>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="pages/training.html"
-                        class="block w-full mt-8 py-3 bg-slate-900 dark:bg-white dark:text-slate-900 text-white font-bold rounded-lg text-sm text-center">Trainingszeiten
-                        ansehen</a>
-                </div>
-                <div>
-                    <h3
-                        class="font-display font-bold text-sm uppercase tracking-widest text-slate-400 mb-8 border-b border-slate-200 dark:border-slate-800 pb-2">
-                        Unsere Partner</h3>
-                    <div class="space-y-4">
-                        <div
-                            class="border border-slate-200 dark:border-slate-700 p-5 rounded-lg flex flex-col items-center justify-center">
-                            <span class="text-[10px] text-slate-400 uppercase font-bold mb-2">by Lückenotto</span>
-                            <div class="text-2xl font-black tracking-tighter text-[var(--color-primary-dark)]">
-                                <span class="text-primary">body</span>nostic
-                            </div>
-                            <p class="text-[9px] uppercase tracking-[0.2em] font-medium text-slate-500 mt-1">Das
-                                Bewegungslabor</p>
-                        </div>
-                        <div
-                            class="border border-slate-200 dark:border-slate-700 p-5 rounded-lg flex items-center space-x-4">
-                            <div>
-                                <p class="text-[9px] uppercase font-bold text-slate-400">Gefördert durch den</p>
-                                <p class="font-display font-bold text-xs uppercase text-slate-700 dark:text-slate-300">
-                                    Landessportbund</p>
-                                <p class="text-[10px] text-slate-500">Nordrhein-Westfalen</p>
-                            </div>
-                        </div>
+                        </article>
                     </div>
                 </div>
-                <div class="border-t border-slate-200 dark:border-slate-800 pt-6">
-                    <h3 class="font-display font-bold text-2xl mb-3">Mitglied werden oder Probetraining anfragen?</h3>
-                    <p class="text-slate-600 dark:text-slate-400 text-sm mb-5 leading-relaxed">Informiere dich über den Ablauf,
-                        Mitgliedsarten und die Angaben für deinen Antrag.</p>
-                    <a href="pages/membership-info.html" class="inline-block bg-primary text-white px-6 py-2.5 rounded-lg font-bold text-sm">Mitgliedschaft
-                        ansehen</a>
+
+                <aside class="home-news-aside">
+                    <section class="home-panel" aria-labelledby="home-dates-title">
+                        <h3 id="home-dates-title">Nächste Termine</h3>
+                        <div class="home-timeline">
+                            <article class="home-timeline__item">
+                                <div class="home-timeline__date" aria-hidden="true"><span>Feb</span><span>12</span></div>
+                                <div>
+                                    <strong>Hallen-Meeting Dortmund</strong>
+                                    <p>Helmut-Körnig-Halle, 10:00 Uhr</p>
+                                </div>
+                            </article>
+                            <article class="home-timeline__item">
+                                <div class="home-timeline__date" aria-hidden="true"><span>Mär</span><span>05</span></div>
+                                <div>
+                                    <strong>Jahreshauptversammlung</strong>
+                                    <p>Vereinsheim, 18:30 Uhr</p>
+                                </div>
+                            </article>
+                        </div>
+                        <a href="pages/training.html" class="home-button">Trainingszeiten ansehen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                    </section>
+
+                    <section class="home-panel" aria-labelledby="home-shortcuts-title">
+                        <h3 id="home-shortcuts-title">Schnelle Wege</h3>
+                        <div class="home-list-links">
+                            <a class="home-list-link" href="pages/training.html"><span>Training &amp; Gruppen</span><span>Zur Übersicht</span></a>
+                            <a class="home-list-link" href="pages/team.html"><span>Team &amp; Ansprechpartner</span><span>Zum Verein</span></a>
+                            <a class="home-list-link" href="pages/facilities.html"><span>Sportstätten</span><span>Orte ansehen</span></a>
+                            <a class="home-list-link" href="pages/contact.html"><span>Kontakt zum Verein</span><span>Jetzt schreiben</span></a>
+                        </div>
+                    </section>
+                </aside>
+            </section>
+
+            <section class="home-essence" aria-labelledby="home-essence-title">
+                <div class="home-essence__intro">
+                    <span class="home-section-label">Der Verein auf einen Blick</span>
+                    <h2 id="home-essence-title" class="home-essence__title home-display">Finde schnell heraus, ob der RLC 1952 zu dir oder deinem Kind passt.</h2>
+                    <p>Beim RLC 1952 trainieren Kinder, Jugendliche und Erwachsene. Ob erste Bewegungserfahrungen, regelmäßiges Training oder sportliche Ziele im Wettkampf: Hier findest du die wichtigsten Wege für einen guten Start.</p>
                 </div>
-            </aside>
+                <div class="home-essence__layout">
+                    <div class="home-essence__column">
+                        <article class="home-essence-card home-essence-card--accent">
+                            <strong class="home-section-label">Training</strong>
+                            <h3 class="home-display">Angebote für Kinder, Jugendliche und Erwachsene.</h3>
+                            <p>In der Trainingsübersicht findest du Zeiten, Gruppen und Orte für verschiedene Altersklassen und Leistungsniveaus. So kannst du leichter einschätzen, welches Angebot zu dir oder deinem Kind passt.</p>
+                            <a href="pages/training.html" class="home-link">Trainingszeiten ansehen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                        </article>
+                        <article class="home-essence-card">
+                            <strong class="home-section-label">Mitgliedschaft</strong>
+                            <h3 class="home-display">Probetraining anfragen und Mitglied werden.</h3>
+                            <p>Hier erfährst du, wie der Einstieg abläuft, welche Informationen für neue Mitglieder wichtig sind und wie Familien oder Einzelpersonen den nächsten Schritt machen können.</p>
+                            <a href="pages/membership-info.html" class="home-link">Mitgliedschaft ansehen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                        </article>
+                    </div>
+                    <div class="home-essence__column">
+                        <article class="home-essence-card">
+                            <strong class="home-section-label">Verein</strong>
+                            <h3 class="home-display">Menschen, Ansprechpartner und Vereinsleben kennenlernen.</h3>
+                            <p>Wenn du Fragen zu Gruppen, Abläufen oder dem Verein hast, findest du hier die Menschen, die dir verlässlich weiterhelfen.</p>
+                            <a href="pages/team.html" class="home-link">Zum Verein <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                        </article>
+                        <article class="home-essence-card">
+                            <strong class="home-section-label">Aktuelles</strong>
+                            <h3 class="home-display">Bleib bei Terminen, Erfolgen und Neuigkeiten auf dem Laufenden.</h3>
+                            <p>Hier findest du Ergebnisse, Vereinsmeldungen und Eindrücke aus dem Trainings- und Wettkampfalltag des Clubs.</p>
+                            <a href="pages/news.html" class="home-link">Zum News-Archiv <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="home-visit" aria-labelledby="home-visit-title">
+                <div class="home-visit__intro">
+                    <span class="home-section-label">Rund um den Verein</span>
+                    <h2 id="home-visit-title" class="home-visit__title home-display">Alles Wichtige rund um Trainingsorte und das Umfeld des Vereins.</h2>
+                    <p>Wenn du ein erstes Bild vom RLC 1952 hast, findest du hier schnell heraus, wo trainiert wird und welche Partner den Verein begleiten.</p>
+                </div>
+                <div class="home-visit__grid">
+                    <article class="home-visit-card">
+                        <strong>Sportstätten</strong>
+                        <h3 class="home-display">Finde schnell den richtigen Trainingsort in Recklinghausen.</h3>
+                        <p>Die Übersicht zeigt dir, wo Training stattfindet, damit du Stadion, Halle oder weitere Treffpunkte leicht findest.</p>
+                        <a href="pages/facilities.html" class="home-link">Sportstätten ansehen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                    </article>
+                    <article class="home-partner-card">
+                        <small>Unsere Partner</small>
+                        <div class="home-partner-mark">
+                            <span>by Lückenotto</span>
+                            <b><span>body</span>nostic</b>
+                            <p>Das Bewegungslabor</p>
+                        </div>
+                        <p>Partner und Förderer unterstützen den Verein und tragen dazu bei, dass Training und Vereinsleben verlässlich möglich bleiben.</p>
+                    </article>
+                    <article class="home-partner-card">
+                        <small>Förderung</small>
+                        <h3 class="home-display">Landessportbund Nordrhein-Westfalen</h3>
+                        <p>Öffentliche Förderung stärkt die Arbeit des Vereins und unterstützt Angebote für Sportlerinnen, Sportler und Familien.</p>
+                        <a href="pages/sponsors.html" class="home-link">Partnerübersicht öffnen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                    </article>
+                </div>
+            </section>
+
+            <section class="home-involvement" aria-labelledby="home-involvement-title">
+                <div class="home-involvement__intro">
+                    <span class="home-section-label">Nächster Schritt</span>
+                    <h2 id="home-involvement-title" class="home-involvement__title home-display">Mitglied werden oder ein Probetraining anfragen.</h2>
+                    <p>Hier findest du den einfachsten Weg für den Einstieg: zuerst informieren, dann Kontakt aufnehmen und das passende Training kennenlernen.</p>
+                </div>
+                <div class="home-involvement__grid">
+                    <article class="home-involvement-card">
+                        <strong>Mitgliedschaft</strong>
+                        <h3 class="home-display">Alles Wichtige zu Probetraining und Mitgliedschaft.</h3>
+                        <p>Die Mitgliedschaftsseite erklärt, wie neue Mitglieder starten, welche Angaben hilfreich sind und wie der Weg vom ersten Interesse bis zum Beitritt aussieht.</p>
+                        <a href="pages/membership-info.html" class="home-button">Mitgliedschaft ansehen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                    </article>
+                    <article class="home-involvement-card">
+                        <strong>Kontakt</strong>
+                        <h3 class="home-display">Fragen zu Probetraining, Mitgliedschaft oder Organisation direkt klären.</h3>
+                        <p>Wenn du unsicher bist, welche Gruppe passt oder wie dein Kind einsteigen kann, erreichst du den Verein hier schnell und direkt.</p>
+                        <a href="pages/contact.html" class="home-link">Kontakt aufnehmen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                    </article>
+                </div>
+            </section>
         </div>
     </main>
     <footer></footer>
@@ -832,51 +265,67 @@
         document.addEventListener('DOMContentLoaded', () => {
             const news = window.newsData || [];
             const container = document.getElementById('index-news-container');
+
+            const createExcerpt = (text) => {
+                if (!text) {
+                    return 'Zu diesem Beitrag liegt aktuell keine Kurzbeschreibung vor.';
+                }
+
+                const normalized = text.replace(/\s+/g, ' ').trim();
+                if (normalized.length <= 148) {
+                    return normalized;
+                }
+
+                return `${normalized.slice(0, 145).trimEnd()}…`;
+            };
+
             if (container) {
-                    container.innerHTML = '';
-                const featuredArticles = news.slice(0, 3);
+                container.innerHTML = '';
+                const featuredArticles = news.slice(0, 4);
 
                 if (featuredArticles.length === 0) {
                     container.innerHTML = `
-                        <div class="news-empty">
-                            <h3 class="text-xl font-bold mb-2 text-[color:var(--news-ink)]">Zurzeit liegen keine Vereinsnews vor.</h3>
-                            <p class="mb-4 text-[color:var(--news-muted)]">Sobald neue Meldungen veröffentlicht werden, erscheinen sie hier automatisch.</p>
-                            <a href="pages/contact.html" class="news-link news-link--primary inline-flex items-center justify-center">Kontakt zum Verein</a>
-                        </div>
+                        <article class="home-empty">
+                            <h3 class="home-display">Zurzeit liegen keine Vereinsnews vor.</h3>
+                            <p>Sobald neue Meldungen veröffentlicht werden, erscheinen sie hier automatisch.</p>
+                            <a href="pages/contact.html" class="home-button">Kontakt zum Verein <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                        </article>
                     `;
                     return;
                 }
 
-                featuredArticles.forEach(article => {
+                featuredArticles.forEach((article, index) => {
                     const articleEl = document.createElement('article');
-                    articleEl.className = 'news-card news-reveal';
-                    articleEl.dataset.size = 'featured';
+                    articleEl.className = 'home-news-card home-news-reveal';
+                    articleEl.dataset.size = 'compact';
 
                     const imageUrl = article.images && article.images.length > 0 ? article.images[0].local : 'https://via.placeholder.com/600x400?text=RLC+1952';
                     const fullImageUrl = imageUrl.startsWith('http') ? imageUrl : imageUrl;
                     const articleLink = article.id ? `pages/news/${article.id}.html` : 'pages/news.html';
                     const articleTitle = article.title || 'Vereinsmeldung';
-                    const articleExcerpt = article.content_text || 'Zu diesem Beitrag liegt aktuell keine Kurzbeschreibung vor.';
+                    const articleExcerpt = createExcerpt(article.content_text);
                     const articleDate = article.date || 'Datum folgt';
+                    const articleCategory = index === 0 ? 'Neu im Fokus' : 'Vereinsnews';
+                    const archiveLabel = index === 0 ? 'Archiv & weitere Meldungen' : 'Zum News-Archiv';
 
                     articleEl.innerHTML = `
-                        <div class="news-card-media">
+                        <div class="home-news-card__media">
                             <img src="${fullImageUrl}" alt="${articleTitle}" loading="lazy" decoding="async" onerror="this.src='https://via.placeholder.com/800x600?text=RLC+1952'">
                         </div>
-                        <div class="news-card-content">
-                            <div class="news-card-meta">
-                                <span class="news-date-chip" aria-label="Veröffentlichungsdatum">${articleDate}</span>
-                                <span class="news-category-label">Vereinsnews</span>
+                        <div class="home-news-card__body">
+                            <div class="home-news-card__meta">
+                                <span class="home-date-chip" aria-label="Veröffentlichungsdatum">${articleDate}</span>
+                                <span class="home-category-chip">${articleCategory}</span>
                             </div>
-                            <div class="space-y-3 min-h-0">
-                                <h3 class="news-card-title news-display break-words">${articleTitle}</h3>
-                                <p class="news-excerpt break-words">${articleExcerpt}</p>
+                            <div class="home-news-card__content">
+                                <h3 class="home-news-card__title home-display">${articleTitle}</h3>
+                                <p class="home-news-card__excerpt">${articleExcerpt}</p>
                             </div>
-                            <div class="flex flex-wrap items-center justify-between gap-3 pt-2">
-                                <a class="news-link" href="${articleLink}">
+                            <div class="home-news-card__footer">
+                                <a class="home-news-card__cta" href="${articleLink}" aria-label="${articleTitle} lesen">
                                     Meldung lesen <span class="material-icons-round text-base" aria-hidden="true">arrow_forward</span>
                                 </a>
-                                <a class="news-link news-link--muted" href="pages/news.html">Zum News-Archiv <span class="material-icons-round text-base" aria-hidden="true">arrow_forward</span></a>
+                                <a class="home-news-card__archive" href="pages/news.html">${archiveLabel} <span class="material-icons-round text-base" aria-hidden="true">north_east</span></a>
                             </div>
                         </div>
                     `;
@@ -896,11 +345,11 @@
             window.addEventListener('error', (event) => {
                 if (event.filename && event.filename.includes('news_data')) {
                     container.innerHTML = `
-                        <div class="news-empty" style="border-color: color-mix(in srgb, #f59e0b 36%, white); background: color-mix(in srgb, #fef3c7 62%, white);">
-                            <h3 class="text-xl font-bold mb-2 text-[color:var(--news-ink)]">Die Vereinsnews konnten gerade nicht vollständig geladen werden.</h3>
-                            <p class="mb-4 text-[color:var(--news-muted)]">Bitte öffne das News-Archiv später erneut oder nutze bei dringenden Fragen den Kontakt zum Verein.</p>
-                            <a href="pages/contact.html" class="news-link news-link--primary inline-flex items-center justify-center">Kontakt zum Verein</a>
-                        </div>
+                        <article class="home-empty" style="border-color: color-mix(in srgb, #f59e0b 36%, white); background: color-mix(in srgb, #fef3c7 62%, white);">
+                            <h3 class="home-display">Die Vereinsnews konnten gerade nicht vollständig geladen werden.</h3>
+                            <p>Bitte öffne das News-Archiv später erneut oder nutze bei dringenden Fragen den Kontakt zum Verein.</p>
+                            <a href="pages/contact.html" class="home-button">Kontakt zum Verein <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                        </article>
                     `;
                 }
             }, { once: true });

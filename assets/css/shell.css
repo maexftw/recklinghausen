@@ -10,6 +10,7 @@
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     color: var(--color-text-contrast);
+    box-shadow: 0 10px 30px rgba(17, 24, 39, 0.06);
 }
 
 .dark .site-shell {
@@ -30,6 +31,10 @@
 
 .site-shell__bar {
     min-height: var(--header-height);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: clamp(0.9rem, 2vw, 2rem);
 }
 
 html {
@@ -37,7 +42,7 @@ html {
 }
 
 body {
-    padding-top: var(--header-offset);
+    padding-top: var(--header-height);
 }
 
 main,
@@ -46,21 +51,81 @@ main,
 }
 
 .site-wordmark {
+    display: inline-flex;
+    align-items: center;
+    flex: 0 0 auto;
     color: var(--color-text-contrast);
     text-decoration: none;
+}
+
+.site-wordmark__text {
+    display: grid;
+    gap: 0.15rem;
+}
+
+.site-eyebrow {
+    font-size: 0.65rem;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--color-text-subtle);
+}
+
+.site-title {
+    font-family: var(--font-family-heading);
+    font-size: clamp(0.95rem, 0.88rem + 0.22vw, 1.1rem);
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+    max-width: 18ch;
 }
 
 .site-logo-image {
     display: block;
     width: auto;
-    height: 3.25rem;
-    max-width: min(12rem, 38vw);
+    height: clamp(3rem, 5vw, 4.2rem);
+    max-width: min(13rem, 32vw);
     object-fit: contain;
     filter: none;
 }
 
 .dark .site-wordmark {
     color: var(--color-text-contrast-dark);
+}
+
+.dark .site-eyebrow {
+    color: var(--color-neutral-300);
+}
+
+.site-shell__cluster,
+.site-shell__actions {
+    display: flex;
+    align-items: center;
+}
+
+.site-shell__cluster {
+    gap: clamp(0.8rem, 1.6vw, 1.25rem);
+    margin-inline-start: auto;
+    min-width: 0;
+}
+
+.site-shell__actions {
+    gap: 0.65rem;
+}
+
+.site-nav {
+    align-items: center;
+    gap: clamp(0.35rem, 0.8vw, 0.7rem);
+    padding: 0.45rem;
+    border: 1px solid color-mix(in srgb, var(--color-border-default) 90%, white);
+    border-radius: var(--border-radius-pill);
+    background: color-mix(in srgb, var(--color-surface-base) 90%, white);
+    flex-wrap: nowrap;
+}
+
+.dark .site-nav {
+    border-color: color-mix(in srgb, var(--shell-border-dark) 88%, transparent);
+    background: rgba(17, 24, 39, 0.54);
 }
 
 .site-submark {
@@ -84,6 +149,14 @@ main,
 .site-footer-link {
     color: var(--color-text-contrast);
     text-decoration: none;
+}
+
+.site-nav-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.5rem;
+    padding-inline: 0.85rem;
+    border-radius: var(--border-radius-pill);
 }
 
 .dark .site-nav-link,
@@ -138,20 +211,33 @@ main,
     align-items: center;
     justify-content: center;
     border-radius: var(--border-radius-pill);
+    border: 1px solid color-mix(in srgb, var(--color-primary-dark) 70%, black 10%);
     background: var(--color-primary);
     color: #fff;
     text-decoration: none;
+    box-shadow: 0 12px 24px color-mix(in srgb, var(--color-primary) 24%, transparent);
 }
 
 .site-cta:hover,
 .site-cta:focus-visible {
     background: var(--color-primary-dark);
     color: #fff;
+    box-shadow: 0 16px 28px color-mix(in srgb, var(--color-primary-dark) 28%, transparent);
 }
 
 .site-mobile-panel {
     border-top: 1px solid var(--color-border-default);
     padding-block-end: var(--spacing-sm);
+}
+
+.site-mobile-panel__inner {
+    display: grid;
+    gap: var(--spacing-xxs);
+}
+
+.site-cta--mobile {
+    width: 100%;
+    margin-block-end: 0.45rem;
 }
 
 .site-mobile-link {
@@ -182,7 +268,7 @@ main,
     }
 
     body {
-        padding-top: var(--header-offset-mobile);
+        padding-top: var(--header-height-mobile);
     }
 
     main,
@@ -199,13 +285,17 @@ main,
         min-height: var(--header-height-mobile);
     }
 
+    .site-shell__cluster {
+        gap: var(--spacing-xs);
+    }
+
     .site-wordmark {
         min-width: 0;
     }
 
     .site-logo-image {
-        height: 2.75rem;
-        max-width: min(9.5rem, 44vw);
+        height: clamp(2.5rem, 9vw, 3.2rem);
+        max-width: min(10.75rem, 48vw);
     }
 
     .site-submark {
@@ -234,6 +324,16 @@ main,
     .site-mobile-link {
         padding: var(--spacing-sm) var(--spacing-md);
         font-size: var(--font-size-md);
+    }
+}
+
+@media (max-width: 560px) {
+    .site-shell__actions {
+        gap: 0.5rem;
+    }
+
+    .site-cta {
+        padding-inline: var(--spacing-sm);
     }
 }
 

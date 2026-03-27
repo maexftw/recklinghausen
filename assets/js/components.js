@@ -65,47 +65,49 @@ function initSharedComponents() {
     const headerHTML = `
     <header class="site-shell border-b border-slate-200 dark:border-slate-800">
         <div class="site-shell__inner max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="site-shell__bar flex justify-between items-center h-20">
-                <div class="flex items-center space-x-3">
-                    <a href="${basePath}index.html" class="site-wordmark flex items-center gap-3 focus:outline-none" aria-label="RLC 1952 Startseite">
-                        <img src="${basePath}assets/logo/rlc_logo_original.png" alt="RLC 1952" class="site-logo-image" />
-                    </a>
-                </div>
-                <nav class="hidden lg:flex items-center space-x-8">
-                    <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}index.html">Startseite</a>
-                    <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/news.html">Aktuelles</a>
-                    <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/training.html">Training</a>
-                    <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/team.html">Verein</a>
-                    <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/facilities.html">Sportstätten</a>
-                    <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/gallery.html">Fotos</a>
-                    <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/sponsors.html">Partner</a>
-                    <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/contact.html">Kontakt</a>
-                    <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/internal/">Interner Bereich</a>
-                </nav>
-                <div class="flex items-center space-x-4">
-                    <a href="${basePath}pages/register.html" class="site-cta px-5 py-2.5 font-bold text-sm focus:outline-none">
-                        Mitmachen
-                    </a>
-                    <button id="mobile-menu-button" class="site-icon-button lg:hidden p-2 focus:outline-none" aria-label="Hauptmenü öffnen" aria-expanded="false" aria-controls="mobile-menu" aria-haspopup="true">
-                        <span class="material-icons-round">menu</span>
-                    </button>
+            <div class="site-shell__bar">
+                <a href="${basePath}index.html" class="site-wordmark focus:outline-none" aria-label="RLC 1952 Startseite">
+                    <img src="${basePath}RLC-Logo_vector/RLC-Logo_vector_transparent.svg" alt="RLC 1952" class="site-logo-image" />
+                </a>
+                <div class="site-shell__cluster">
+                    <nav class="site-nav hidden lg:flex" aria-label="Hauptnavigation">
+                        <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}index.html">Startseite</a>
+                        <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/news.html">Aktuelles</a>
+                        <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/training.html">Training</a>
+                        <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/team.html">Verein</a>
+                        <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/facilities.html">Sportstätten</a>
+                        <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/gallery.html">Fotos</a>
+                        <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/sponsors.html">Partner</a>
+                        <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/contact.html">Kontakt</a>
+                        <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/internal/">Interner Bereich</a>
+                    </nav>
+                    <div class="site-shell__actions">
+                        <a href="${basePath}pages/register.html" class="site-cta px-5 py-2.5 font-bold text-sm focus:outline-none">
+                            Mitmachen
+                        </a>
+                        <button id="mobile-menu-button" class="site-icon-button site-mobile-toggle lg:hidden p-2 focus:outline-none" aria-label="Hauptmenü öffnen" aria-expanded="false" aria-controls="mobile-menu" aria-haspopup="true">
+                            <span class="material-icons-round">menu</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- Mobile Menu -->
         <div id="mobile-menu" class="site-mobile-panel hidden lg:hidden bg-white dark:bg-background-dark border-b border-slate-200 dark:border-slate-800" hidden>
-            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <div class="site-mobile-panel__inner px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="${basePath}pages/register.html" class="site-cta site-cta--mobile px-5 py-2.5 font-bold text-sm focus:outline-none">
+                    Mitmachen
+                </a>
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}index.html">Startseite</a>
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/news.html">Aktuelles</a>
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/training.html">Training</a>
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/team.html">Verein</a>
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/facilities.html">Sportstätten</a>
-                    <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/gallery.html">Fotos</a>
-                    <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/sponsors.html">Partner</a>
-                    <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/contact.html">Kontakt</a>
-                    <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/internal/">Interner Bereich</a>
-                </div>
+                <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/gallery.html">Fotos</a>
+                <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/sponsors.html">Partner</a>
+                <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/contact.html">Kontakt</a>
+                <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/internal/">Interner Bereich</a>
             </div>
+        </div>
     </header>
     `;
 
