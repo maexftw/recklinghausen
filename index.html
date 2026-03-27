@@ -22,6 +22,90 @@
 
 <body class="homepage font-sans transition-colors duration-300">
     <header></header>
+    <div class="sportabzeichen-layer" data-sportabzeichen-ui>
+        <section class="sportabzeichen-notice" id="sportabzeichen-notice" aria-labelledby="sportabzeichen-notice-title"
+            aria-describedby="sportabzeichen-notice-text" role="dialog" aria-modal="false" hidden>
+            <div class="sportabzeichen-notice__eyebrow">
+                <span class="home-section-label">Aktuelle Info</span>
+                <button type="button" class="sportabzeichen-notice__dismiss" data-notice-dismiss aria-label="Hinweis schließen">
+                    <span class="material-icons-round" aria-hidden="true">close</span>
+                </button>
+            </div>
+            <div class="sportabzeichen-notice__body">
+                <p class="sportabzeichen-notice__meta">Sportabzeichenabnahme · Demo-Inhalt für die Startseite</p>
+                <h2 id="sportabzeichen-notice-title" class="sportabzeichen-notice__title home-display">Nächste Abnahmen im Stadion Hohenhorst jetzt vormerken.</h2>
+                <p id="sportabzeichen-notice-text" class="sportabzeichen-notice__text">
+                    Die nächsten offenen Termine sind am <strong>Mittwoch, 16. April 2026</strong> und <strong>Samstag, 27. April 2026</strong>.
+                    Bitte Sportsachen für Lauf, Sprung und Wurf mitbringen. Eine kurze Voranmeldung hilft uns bei der Planung.
+                </p>
+                <dl class="sportabzeichen-notice__facts">
+                    <div>
+                        <dt>Nächste Termine</dt>
+                        <dd>16.04.2026 · 18:00 Uhr<br>27.04.2026 · 10:30 Uhr</dd>
+                    </div>
+                    <div>
+                        <dt>Ansprechperson</dt>
+                        <dd>Martina Beispiel · Sportabzeichen-Team</dd>
+                    </div>
+                </dl>
+                <div class="sportabzeichen-notice__actions">
+                    <a href="pages/contact.html" class="home-button">Zur Kontaktseite <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                    <button type="button" class="home-link sportabzeichen-notice__later" data-notice-dismiss>
+                        Heute ausblenden <span class="material-icons-round" aria-hidden="true">visibility_off</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <div class="sportabzeichen-drawer" data-drawer-state="closed">
+            <button type="button" class="sportabzeichen-drawer__toggle" data-drawer-toggle aria-expanded="false"
+                aria-controls="sportabzeichen-drawer-panel">
+                <span class="sportabzeichen-drawer__toggle-label">Sportabzeichen</span>
+                <span class="sportabzeichen-drawer__toggle-meta">3 Termine</span>
+            </button>
+
+            <aside class="sportabzeichen-drawer__panel" id="sportabzeichen-drawer-panel"
+                aria-labelledby="sportabzeichen-drawer-title" tabindex="-1">
+                <div class="sportabzeichen-drawer__panel-head">
+                    <div>
+                        <p class="sportabzeichen-drawer__kicker">Sportabzeichenabnahme</p>
+                        <h2 id="sportabzeichen-drawer-title" class="home-display">Termine &amp; kurze Hinweise</h2>
+                    </div>
+                    <button type="button" class="sportabzeichen-drawer__close" data-drawer-close aria-label="Seitenpanel schließen">
+                        <span class="material-icons-round" aria-hidden="true">close</span>
+                    </button>
+                </div>
+
+                <p class="sportabzeichen-drawer__intro">Platzhalterinhalt für die Startseite. Die folgenden Angaben lassen sich später direkt in index.html austauschen.</p>
+
+                <div class="sportabzeichen-drawer__timeline" role="list" aria-label="Drei kommende Sportabzeichen-Termine">
+                    <article class="sportabzeichen-drawer__item" role="listitem">
+                        <div class="sportabzeichen-drawer__date" aria-hidden="true"><span>Apr</span><strong>16</strong></div>
+                        <div>
+                            <h3>Mittwoch, 16. April 2026 · 18:00 Uhr</h3>
+                            <p>Stadion Hohenhorst · Fokus auf Sprint und Weitsprung. Bitte möglichst 15 Minuten vorher da sein.</p>
+                        </div>
+                    </article>
+                    <article class="sportabzeichen-drawer__item" role="listitem">
+                        <div class="sportabzeichen-drawer__date" aria-hidden="true"><span>Apr</span><strong>27</strong></div>
+                        <div>
+                            <h3>Samstag, 27. April 2026 · 10:30 Uhr</h3>
+                            <p>Stadion Hohenhorst · Familienfreundlicher Termin mit Abnahme in mehreren Disziplinen.</p>
+                        </div>
+                    </article>
+                    <article class="sportabzeichen-drawer__item" role="listitem">
+                        <div class="sportabzeichen-drawer__date" aria-hidden="true"><span>Mai</span><strong>08</strong></div>
+                        <div>
+                            <h3>Freitag, 8. Mai 2026 · 17:30 Uhr</h3>
+                            <p>Reserve-Termin bei guter Witterung · Kurzfristige Rückfrage über die Kontaktseite empfohlen.</p>
+                        </div>
+                    </article>
+                </div>
+
+                <a href="pages/contact.html" class="home-link sportabzeichen-drawer__link">Fragen zur Abnahme klären <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+            </aside>
+        </div>
+    </div>
     <main id="main-content" class="home-main">
         <section class="home-hero" aria-labelledby="home-hero-title">
         <div class="home-hero__media" aria-hidden="true">
@@ -353,6 +437,117 @@
                     `;
                 }
             }, { once: true });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const notice = document.getElementById('sportabzeichen-notice');
+            const noticeDismissButtons = document.querySelectorAll('[data-notice-dismiss]');
+            const drawer = document.querySelector('.sportabzeichen-drawer');
+            const drawerToggle = document.querySelector('[data-drawer-toggle]');
+            const drawerClose = document.querySelector('[data-drawer-close]');
+            const drawerPanel = document.getElementById('sportabzeichen-drawer-panel');
+            const noticeStorageKey = 'rlc-home-sportabzeichen-notice-dismissed';
+            let lastTrigger = null;
+
+            const hideNotice = () => {
+                if (!notice || notice.hidden) {
+                    return;
+                }
+
+                notice.classList.remove('is-visible');
+                window.setTimeout(() => {
+                    notice.hidden = true;
+                }, 220);
+
+                try {
+                    window.localStorage.setItem(noticeStorageKey, 'true');
+                } catch (error) {
+                    console.warn('Sportabzeichen notice persistence unavailable.', error);
+                }
+            };
+
+            const showNotice = () => {
+                if (!notice) {
+                    return;
+                }
+
+                try {
+                    if (window.localStorage.getItem(noticeStorageKey) === 'true') {
+                        return;
+                    }
+                } catch (error) {
+                    console.warn('Sportabzeichen notice persistence unavailable.', error);
+                }
+
+                notice.hidden = false;
+                window.requestAnimationFrame(() => {
+                    notice.classList.add('is-visible');
+                });
+            };
+
+            const openDrawer = () => {
+                if (!drawer || !drawerToggle || !drawerPanel) {
+                    return;
+                }
+
+                lastTrigger = document.activeElement instanceof HTMLElement ? document.activeElement : drawerToggle;
+                drawer.dataset.drawerState = 'open';
+                drawerToggle.setAttribute('aria-expanded', 'true');
+                drawerPanel.focus({ preventScroll: true });
+            };
+
+            const closeDrawer = () => {
+                if (!drawer || !drawerToggle) {
+                    return;
+                }
+
+                drawer.dataset.drawerState = 'closed';
+                drawerToggle.setAttribute('aria-expanded', 'false');
+
+                if (lastTrigger instanceof HTMLElement) {
+                    lastTrigger.focus({ preventScroll: true });
+                }
+            };
+
+            noticeDismissButtons.forEach((button) => {
+                button.addEventListener('click', hideNotice);
+            });
+
+            drawerToggle?.addEventListener('click', () => {
+                if (drawer?.dataset.drawerState === 'open') {
+                    closeDrawer();
+                    return;
+                }
+
+                openDrawer();
+            });
+
+            drawerClose?.addEventListener('click', closeDrawer);
+
+            document.addEventListener('keydown', (event) => {
+                if (event.key === 'Escape') {
+                    hideNotice();
+                    closeDrawer();
+                }
+            });
+
+            document.addEventListener('click', (event) => {
+                if (!drawer || drawer.dataset.drawerState !== 'open') {
+                    return;
+                }
+
+                const target = event.target;
+                if (!(target instanceof Node)) {
+                    return;
+                }
+
+                if (!drawer.contains(target)) {
+                    closeDrawer();
+                }
+            });
+
+            window.setTimeout(showNotice, 420);
         });
     </script>
 </body>
