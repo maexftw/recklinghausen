@@ -57,13 +57,13 @@ def generate_page(article, all_articles):
     
     # Replace main content
     # We'll replace the entire #article-content div content
-    start_tag = '<div id="article-content" class="prose prose-slate dark:prose-invert max-w-none">'
-    end_tag = '</div>\n<!-- Share & Navigation -->'
+    start_tag = '<div id="article-content" class="subpage-news-content">'
+    end_tag = '</div>\n\n                    <div class="subpage-actions"'
     
     if start_tag in page:
         # We need to construct the new content section
-        quote_p = f'<p class="font-display text-xl md:text-2xl font-bold text-slate-800 dark:text-slate-200 my-8">"{quote}"</p>'
-        new_body = f'{start_tag}\n    {quote_p}\n    <div class="space-y-6">\n        {processed_content}\n    </div>\n'
+        quote_p = f'<div class="subpage-news-quote">\n                            "{quote}"\n                        </div>'
+        new_body = f'{start_tag}\n                        {quote_p}\n                        <div class="space-y-6">\n                            {processed_content}\n                        </div>\n                    '
         
         # Replace up to the end tag
         pattern = re.compile(f'{re.escape(start_tag)}.*?{re.escape(end_tag)}', re.DOTALL)
@@ -80,15 +80,13 @@ def generate_page(article, all_articles):
         if other['images']: other_img = "../../" + other['images'][0]['local']
         
         sidebar_html += f'''
-    <a class="group flex flex-col gap-3" href="{other['id']}.html">
-        <div class="aspect-video rounded-2xl overflow-hidden">
-            <img src="{other_img}" alt="{other['title']}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
-        </div>
-        <div>
-            <h4 class="font-bold leading-tight group-hover:text-primary transition-colors text-sm">{other['title']}</h4>
-            <p class="text-slate-400 text-xs mt-2 font-bold uppercase tracking-wider">{other['date']}</p>
-        </div>
-    </a>'''
+                            <a href="{other['id']}.html" class="news-sidebar-card">
+                                <div class="news-sidebar-card__media" style="background-image: url('{other_img}');"></div>
+                                <div class="news-sidebar-card__body">
+                                    <span class="news-sidebar-card__title">{other['title']}</span>
+                                    <span class="news-sidebar-card__meta">{other['date']}</span>
+                                </div>
+                            </a>'''
         sidebar_count += 1
         
     page = page.replace('<!-- Will be filled by script if needed, or static if generated -->', sidebar_html)
