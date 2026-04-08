@@ -13,6 +13,7 @@
     --subpage-brand-strong: var(--color-primary-dark);
     --subpage-accent: color-mix(in srgb, var(--subpage-brand) 68%, white);
     --subpage-accent-soft: color-mix(in srgb, var(--subpage-brand) 18%, white);
+    --subpage-accent-deep: var(--subpage-brand-strong);
     --subpage-shadow: 0 34px 120px color-mix(in srgb, var(--color-secondary) 14%, transparent);
     --subpage-shadow-soft: 0 24px 68px color-mix(in srgb, var(--color-secondary) 10%, transparent);
     --subpage-radius: clamp(1.1rem, 1rem + 0.8vw, 1.9rem);
@@ -56,15 +57,17 @@ body.subpage {
 
 .subpage-intro {
     position: relative;
+    isolation: isolate;
     overflow: clip;
     display: grid;
     gap: clamp(1.25rem, 2.1vw, 1.8rem);
     grid-template-columns: minmax(0, 1.35fr) minmax(16rem, 0.82fr);
-    padding: clamp(1.5rem, 3vw, 2.3rem);
+    padding: clamp(1.8rem, 3.2vw, 2.6rem);
     border: 1px solid color-mix(in srgb, var(--subpage-line) 82%, white);
     background:
+        radial-gradient(circle at 86% 18%, color-mix(in srgb, var(--subpage-accent-soft) 82%, white) 0%, transparent 29%),
         linear-gradient(135deg, color-mix(in srgb, white 50%, transparent) 0%, transparent 50%),
-        linear-gradient(180deg, color-mix(in srgb, white 86%, var(--subpage-paper)) 0%, color-mix(in srgb, var(--subpage-paper) 76%, var(--subpage-wash)) 100%);
+        linear-gradient(180deg, color-mix(in srgb, white 82%, var(--subpage-paper)) 0%, color-mix(in srgb, var(--subpage-paper) 74%, var(--subpage-wash)) 100%);
     box-shadow: var(--subpage-shadow);
 }
 
@@ -73,6 +76,18 @@ body.subpage {
     position: absolute;
     inset: clamp(0.7rem, 1.4vw, 1rem);
     border: 1px solid color-mix(in srgb, var(--subpage-accent) 22%, transparent);
+    pointer-events: none;
+}
+
+.subpage-intro::after {
+    content: "";
+    position: absolute;
+    inset: auto 0 0;
+    height: clamp(8rem, 18vw, 12rem);
+    background:
+        linear-gradient(180deg, transparent 0%, color-mix(in srgb, var(--subpage-brand-strong) 7%, transparent) 100%),
+        linear-gradient(90deg, color-mix(in srgb, var(--subpage-brand) 16%, transparent) 0 16%, transparent 16% 100%);
+    opacity: 0.72;
     pointer-events: none;
 }
 
@@ -89,7 +104,7 @@ body.subpage {
 
 .subpage-intro__content {
     display: grid;
-    gap: 1rem;
+    gap: clamp(1rem, 1.8vw, 1.4rem);
     align-content: start;
 }
 
@@ -101,6 +116,25 @@ body.subpage {
     border: 1px solid color-mix(in srgb, var(--subpage-line) 72%, white);
     background: color-mix(in srgb, white 62%, var(--subpage-paper-strong));
     box-shadow: var(--subpage-shadow-soft);
+}
+
+.subpage-intro__aside--accent {
+    align-self: end;
+    gap: 1rem;
+    padding: clamp(1.2rem, 2.2vw, 1.75rem);
+    border-color: color-mix(in srgb, var(--subpage-accent-soft) 34%, white);
+    background:
+        linear-gradient(180deg, color-mix(in srgb, white 90%, var(--subpage-wash)) 0%, color-mix(in srgb, white 82%, var(--subpage-paper-strong)) 100%);
+    box-shadow: 0 28px 56px rgba(8, 39, 39, 0.15);
+}
+
+.subpage-intro__aside--accent::before {
+    content: "";
+    position: absolute;
+    inset: 0 auto auto 0;
+    width: 100%;
+    height: 5px;
+    background: var(--subpage-brand);
 }
 
 .subpage-eyebrow {
@@ -132,6 +166,11 @@ body.subpage {
     text-wrap: balance;
 }
 
+.subpage-display em {
+    font-style: normal;
+    color: var(--subpage-brand-strong);
+}
+
 .subpage-lead {
     max-width: 42rem;
     font-size: clamp(1rem, 0.98rem + 0.55vw, 1.26rem);
@@ -161,6 +200,10 @@ body.subpage {
     font-weight: 600;
 }
 
+.subpage-meta strong {
+    color: var(--subpage-ink);
+}
+
 .subpage-meta .material-icons-round,
 .subpage-link .material-icons-round,
 .subpage-button .material-icons-round {
@@ -179,18 +222,33 @@ body.subpage {
 .subpage-button {
     justify-content: center;
     padding: 0.98rem 1.45rem;
-    border: 1px solid color-mix(in srgb, var(--subpage-brand-strong) 75%, black 8%);
+    border: 1px solid color-mix(in srgb, var(--subpage-accent-deep) 75%, black 8%);
     background: var(--subpage-brand);
     color: oklch(0.985 0.004 180);
-    box-shadow: 0 22px 40px color-mix(in srgb, var(--subpage-brand-strong) 24%, transparent);
+    box-shadow: 0 22px 40px color-mix(in srgb, var(--subpage-accent-deep) 24%, transparent);
 }
 
 .subpage-button:hover,
 .subpage-button:focus-visible {
     transform: translateY(-3px);
+    border-color: color-mix(in srgb, var(--subpage-accent-deep) 90%, black 6%);
     background: var(--subpage-brand-strong);
-    box-shadow: 0 28px 52px color-mix(in srgb, var(--subpage-brand-strong) 30%, transparent);
+    box-shadow: 0 28px 52px color-mix(in srgb, var(--subpage-accent-deep) 30%, transparent);
     color: oklch(0.985 0.004 180);
+}
+
+.subpage-button--secondary {
+    border-color: color-mix(in srgb, var(--subpage-line) 80%, white);
+    background: color-mix(in srgb, white 86%, var(--subpage-paper));
+    color: var(--subpage-ink);
+    box-shadow: none;
+}
+
+.subpage-button--secondary:hover,
+.subpage-button--secondary:focus-visible {
+    background: color-mix(in srgb, var(--subpage-accent-soft) 20%, white);
+    color: var(--subpage-brand-strong);
+    box-shadow: 0 18px 36px color-mix(in srgb, var(--subpage-brand) 14%, transparent);
 }
 
 .subpage-link {
@@ -228,6 +286,37 @@ body.subpage {
     align-items: start;
 }
 
+.subpage-hero-points {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.8rem;
+    margin-top: 0.25rem;
+}
+
+.subpage-hero-point {
+    display: grid;
+    gap: 0.45rem;
+    min-height: 100%;
+    padding: 1rem 1rem 1.05rem;
+    border: 1px solid color-mix(in srgb, var(--subpage-accent-soft) 28%, white);
+    background: color-mix(in srgb, white 78%, var(--subpage-paper));
+    box-shadow: 0 18px 36px rgba(8, 39, 39, 0.1);
+}
+
+.subpage-hero-point span {
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--subpage-brand-strong);
+}
+
+.subpage-hero-point strong {
+    font-size: 1rem;
+    line-height: 1.25;
+    color: var(--subpage-ink);
+}
+
 .subpage-surface,
 .subpage-panel,
 .subpage-toolbar,
@@ -235,6 +324,14 @@ body.subpage {
     border: 1px solid color-mix(in srgb, var(--subpage-line) 82%, white);
     background: color-mix(in srgb, white 88%, var(--subpage-paper));
     box-shadow: var(--subpage-shadow-soft);
+}
+
+.subpage-surface--plain,
+.subpage-panel--plain {
+    border: none;
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
 }
 
 .subpage-surface,
@@ -279,7 +376,9 @@ body.subpage {
 .subpage-panel p,
 .subpage-note p,
 .subpage-empty,
-.subpage-table td {
+.subpage-table td,
+.subpage-checklist li,
+.subpage-stack-list li {
     color: var(--subpage-muted);
     line-height: 1.7;
 }
@@ -328,9 +427,78 @@ body.subpage {
     line-height: 1.55;
 }
 
+.subpage-stack-list,
+.subpage-checklist {
+    display: grid;
+    gap: 0.85rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.subpage-stack-list li,
+.subpage-checklist li {
+    position: relative;
+    padding-left: 1.35rem;
+}
+
+.subpage-stack-list li::before,
+.subpage-checklist li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.68rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--subpage-brand) 76%, white);
+    box-shadow: 0 0 0 0.28rem color-mix(in srgb, var(--subpage-accent-soft) 54%, white);
+}
+
+.subpage-stack-list strong,
+.subpage-checklist strong {
+    color: var(--subpage-ink);
+}
+
+.subpage-highlight-strip {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    padding: clamp(1.1rem, 2.4vw, 1.7rem);
+    border: 1px solid color-mix(in srgb, var(--subpage-accent) 24%, white);
+    background: color-mix(in srgb, white 90%, var(--subpage-paper));
+    box-shadow: 0 30px 72px rgba(16, 57, 55, 0.12);
+}
+
+.subpage-highlight-strip article {
+    display: grid;
+    gap: 0.45rem;
+    align-content: start;
+}
+
+.subpage-highlight-strip span {
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--subpage-brand-strong);
+}
+
+.subpage-highlight-strip strong {
+    font-size: clamp(1.1rem, 1rem + 0.5vw, 1.5rem);
+    line-height: 1.08;
+    color: var(--subpage-ink);
+}
+
+.subpage-highlight-strip p {
+    color: color-mix(in srgb, var(--subpage-ink) 76%, white);
+}
+
 .subpage-toolbar {
     display: grid;
     gap: 1rem;
+    background:
+        linear-gradient(180deg, color-mix(in srgb, white 94%, var(--subpage-paper)) 0%, color-mix(in srgb, white 88%, var(--subpage-paper-strong)) 100%);
 }
 
 .subpage-toolbar__group {
@@ -372,10 +540,10 @@ body.subpage {
 
 .subpage-chip.is-active,
 .subpage-chip[aria-pressed="true"] {
-    border-color: color-mix(in srgb, var(--subpage-brand-strong) 75%, black 8%);
+    border-color: color-mix(in srgb, var(--subpage-accent-deep) 75%, black 8%);
     background: var(--subpage-brand);
     color: oklch(0.985 0.004 180);
-    box-shadow: 0 14px 32px color-mix(in srgb, var(--subpage-brand-strong) 18%, transparent);
+    box-shadow: 0 14px 32px color-mix(in srgb, var(--subpage-accent-deep) 18%, transparent);
 }
 
 .subpage-toolbar__status {
@@ -384,7 +552,7 @@ body.subpage {
 }
 
 .subpage-table-shell {
-    overflow-x: auto;
+    overflow: hidden;
 }
 
 .subpage-table {
@@ -422,6 +590,80 @@ body.subpage {
     background: color-mix(in srgb, var(--subpage-accent-soft) 45%, white);
 }
 
+.subpage-mobile-schedule {
+    display: none;
+}
+
+.subpage-schedule-cards {
+    display: grid;
+    gap: 0.9rem;
+    padding: 0 1rem 1rem;
+}
+
+.subpage-schedule-card {
+    display: grid;
+    gap: 0.85rem;
+    padding: 1rem;
+    border: 1px solid color-mix(in srgb, var(--subpage-line) 74%, white);
+    background: color-mix(in srgb, white 94%, var(--subpage-paper));
+}
+
+.subpage-schedule-card[hidden] {
+    display: none;
+}
+
+.subpage-schedule-card__top {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.8rem;
+    align-items: start;
+}
+
+.subpage-schedule-card__day {
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--subpage-ink);
+}
+
+.subpage-schedule-card__time {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.25rem;
+    padding: 0.35rem 0.7rem;
+    border: 1px solid color-mix(in srgb, var(--subpage-accent-soft) 34%, white);
+    background: color-mix(in srgb, var(--subpage-accent-soft) 28%, white);
+    color: var(--subpage-brand-strong);
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.subpage-schedule-card__grid {
+    display: grid;
+    gap: 0.7rem;
+}
+
+.subpage-schedule-card__item {
+    display: grid;
+    gap: 0.18rem;
+}
+
+.subpage-schedule-card__item span {
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--subpage-brand-strong);
+}
+
+.subpage-schedule-card__item strong {
+    font-size: 0.96rem;
+    line-height: 1.4;
+    color: var(--subpage-ink);
+}
+
 .subpage-table-note {
     display: flex;
     align-items: center;
@@ -455,6 +697,11 @@ body.subpage {
     background: color-mix(in srgb, var(--color-secondary) 10%, white);
 }
 
+.subpage-note--success {
+    border-left-color: var(--subpage-brand-strong);
+    background: color-mix(in srgb, var(--subpage-brand) 10%, white);
+}
+
 .subpage-empty {
     font-style: italic;
 }
@@ -462,12 +709,18 @@ body.subpage {
 @media (max-width: 960px) {
     .subpage-intro,
     .subpage-grid--sidebar,
-    .subpage-grid--two {
+    .subpage-grid--two,
+    .subpage-highlight-strip,
+    .subpage-hero-points {
         grid-template-columns: 1fr;
     }
 
     .subpage-display {
         max-width: 13ch;
+    }
+
+    .subpage-intro__aside--accent {
+        max-width: 36rem;
     }
 }
 
@@ -485,6 +738,10 @@ body.subpage {
         padding-inline: 1rem;
     }
 
+    .subpage-intro {
+        padding-block: 1.15rem 1.3rem;
+    }
+
     .subpage-button,
     .subpage-link {
         width: 100%;
@@ -497,8 +754,16 @@ body.subpage {
         justify-content: center;
     }
 
-    .subpage-table {
-        min-width: 38rem;
+    .subpage-meta-row {
+        gap: 0.7rem;
+    }
+
+    .subpage-table-shell {
+        display: none;
+    }
+
+    .subpage-mobile-schedule {
+        display: block;
     }
 
     .subpage-table-note {
