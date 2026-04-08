@@ -1,264 +1,240 @@
 <!DOCTYPE html>
 <html class="light" lang="de">
-
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>RLC 1952 - News Detail</title>
-    <link href="https://fonts.googleapis.com" rel="preconnect" />
-    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Montserrat:wght@700;900&display=swap"
-        rel="stylesheet" />
+    <link href="../../assets/css/design-tokens.css" rel="stylesheet" />
+    <link href="../../assets/css/shell.css" rel="stylesheet" />
+    <link href="../../assets/css/subpages.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Montserrat:wght@700;900&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
-    <script id="tailwind-config">
-        tailwind.config = {
-            darkMode: "class",
-            theme: {
-                extend: {
-                    colors: {
-                        "primary": "#11d4c4",
-                        "background-light": "#f6f8f8",
-                        "background-dark": "#102220",
-                        "card-dark": "#1a2e2c"
-                    },
-                    fontFamily: {
-                        "sans": ["Inter", "sans-serif"],
-                        "display": ["Montserrat", "sans-serif"]
-                    },
-                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
-                },
-            },
-        }
-    </script>
+    <script src="../../assets/js/components.js"></script>
     <style>
-        body {
-            font-family: 'Inter', sans-serif;
+        .subpage-news-detail-hero {
+            position: relative;
+            min-height: clamp(350px, 45vh, 500px);
+            border-radius: var(--subpage-radius);
+            overflow: clip;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: clamp(1.5rem, 5vw, 3rem);
+            background-size: cover;
+            background-position: center;
+            box-shadow: var(--subpage-shadow);
+        }
+        
+        .subpage-news-detail-hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(0deg, rgba(16, 34, 32, 0.95) 0%, rgba(0, 0, 0, 0.2) 60%);
+            z-index: 1;
+        }
+        
+        .subpage-news-detail-hero > * {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .subpage-news-detail-title {
+            color: white;
+            font-family: var(--font-display);
+            font-size: clamp(2rem, 4vw, 3.5rem);
+            font-weight: 900;
+            line-height: 1.1;
+            max-width: 48rem;
+            text-wrap: balance;
+            margin-top: 1rem;
+        }
+        
+        .subpage-news-detail-badge {
+            background: var(--color-primary);
+            color: oklch(0.985 0.004 180);
+            font-size: 0.75rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.16em;
+            padding: 0.5rem 1rem;
+            border-radius: 999px;
+            width: fit-content;
+            box-shadow: 0 10px 20px rgba(0,178,154,0.3);
+        }
+        
+        .subpage-news-content {
+            font-size: clamp(1.05rem, 1vw, 1.15rem);
+            line-height: 1.8;
+            color: var(--subpage-ink);
+        }
+        
+        .subpage-news-content p {
+            margin-bottom: 1.5rem;
+            color: var(--subpage-muted);
         }
 
-        .font-display {
-            font-family: 'Montserrat', sans-serif;
+        .subpage-news-content strong {
+            color: var(--subpage-ink);
+        }
+        
+        .subpage-news-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: var(--subpage-radius);
+            margin: 2rem 0;
+            box-shadow: var(--subpage-shadow-soft);
+        }
+        
+        .subpage-news-content h2,
+        .subpage-news-content h3 {
+            font-family: var(--font-display);
+            font-weight: 800;
+            color: var(--subpage-ink);
+            margin: 2.5rem 0 1rem 0;
+            line-height: 1.3;
+            letter-spacing: -0.03em;
+        }
+        
+        .subpage-news-content h2 { font-size: 1.8rem; }
+        .subpage-news-content h3 { font-size: 1.4rem; }
+        
+        .subpage-news-quote {
+            font-family: var(--font-display);
+            font-size: clamp(1.3rem, 2vw, 1.8rem);
+            font-weight: 800;
+            color: var(--subpage-brand-strong);
+            margin: 2.5rem 0;
+            line-height: 1.4;
+            border-left: 4px solid var(--subpage-brand);
+            padding-left: 1.5rem;
+            letter-spacing: -0.03em;
+        }
+
+        .news-sidebar-card {
+            display: grid;
+            gap: 0.8rem;
+            text-decoration: none;
+            padding-bottom: 1.25rem;
+            border-bottom: 1px solid color-mix(in srgb, var(--subpage-line) 76%, white);
+        }
+
+        .news-sidebar-card:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .news-sidebar-card:hover .news-sidebar-card__title {
+            color: var(--subpage-brand-strong);
+        }
+
+        .news-sidebar-card__media {
+            aspect-ratio: 16/9;
+            border-radius: 0.75rem;
+            background-color: var(--subpage-wash);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .news-sidebar-card__body {
+            display: grid;
+            gap: 0.4rem;
+        }
+
+        .news-sidebar-card__title {
+            font-weight: 800;
+            color: var(--subpage-ink);
+            line-height: 1.3;
+            font-size: 0.95rem;
+            transition: color 180ms ease;
+        }
+
+        .news-sidebar-card__meta {
+            font-size: 0.72rem;
+            font-weight: 800;
+            color: var(--subpage-brand-strong);
+            text-transform: uppercase;
+            letter-spacing: 0.16em;
         }
     </style>
 </head>
+<body class="subpage min-h-screen">
+    <header data-shared-shell-placeholder></header>
 
-<body
-    class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 transition-colors duration-200">
-    <div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
-        <div class="layout-container flex h-full grow flex-col">
-            <!-- Top Navigation Bar (Simplified to match redesign look) -->
-            <header
-                class="flex items-center justify-between border-b border-solid border-slate-200 dark:border-slate-800 px-6 md:px-20 lg:px-40 py-4 bg-white dark:bg-[#102220]">
-                <div class="flex items-center gap-8">
-                    <a href="../../index.html" class="flex items-center gap-3 text-slate-900 dark:text-white">
-                        <h2 class="text-xl font-black font-display tracking-tight">RLC <span
-                                class="text-primary">1952</span></h2>
-                    </a>
-                    <div class="hidden lg:flex items-center gap-8">
-                        <a class="text-slate-600 dark:text-slate-400 text-sm font-bold hover:text-primary transition-colors"
-                            href="../news.html">News</a>
-                        <a class="text-slate-600 dark:text-slate-400 text-sm font-bold hover:text-primary transition-colors"
-                            href="../../index.html#verein">Verein</a>
-                        <a class="text-slate-600 dark:text-slate-400 text-sm font-bold hover:text-primary transition-colors"
-                            href="../../index.html#kontakt">Kontakt</a>
+    <main class="subpage-main">
+        <div class="subpage-stack">
+            <!-- Hero -->
+            <div class="subpage-news-detail-hero" style='background-image: url("../../assets/images/placeholder.jpg");'>
+                <span class="subpage-news-detail-badge">Aktuelles</span>
+                <h1 class="subpage-news-detail-title">RLC BAUT FüHRUNG IN JUGENDLIGA AUS</h1>
+            </div>
+
+            <!-- Content Area -->
+            <div class="subpage-grid subpage-grid--sidebar">
+                <article class="subpage-section subpage-section--tight">
+                    <div class="subpage-meta-row" style="margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid color-mix(in srgb, var(--subpage-line) 76%, white);">
+                        <span class="subpage-meta"><span class="material-icons-round" aria-hidden="true">calendar_today</span><strong>30. Juni 2011 -  30. Juni 2020</strong></span>
+                        <span class="subpage-meta"><span class="material-icons-round" aria-hidden="true">person</span><strong>RLC 1952</strong></span>
                     </div>
-                </div>
-                <div class="flex items-center gap-4">
-                    <button
-                        class="hidden sm:flex bg-primary text-white text-xs font-black px-5 py-2.5 rounded-full uppercase tracking-widest shadow-lg shadow-primary/20 hover:scale-105 transition-all">
-                        Mitglied werden
-                    </button>
-                </div>
-            </header>
-            <main class="flex-1 flex flex-col items-center">
-                <!-- Breadcrumbs -->
-                <div class="w-full max-w-[960px] px-4 md:px-0">
-                    <div class="flex flex-wrap gap-2 py-8">
-                        <a class="text-slate-400 text-sm font-semibold hover:text-primary"
-                            href="../../index.html">Home</a>
-                        <span class="text-slate-300 text-sm">/</span>
-                        <a class="text-slate-400 text-sm font-semibold hover:text-primary" href="../news.html">News</a>
-                        <span class="text-slate-300 text-sm">/</span>
-                        <span class="text-primary text-sm font-bold">Wettkampfbericht</span>
-                    </div>
-                </div>
-                <!-- Hero Section -->
-                <div class="w-full max-w-[960px] px-4 md:px-0">
-                    <div class="@container">
-                        <div class="bg-cover bg-center flex flex-col justify-end overflow-hidden rounded-3xl min-h-[400px] md:min-h-[500px] relative shadow-2xl border border-slate-200 dark:border-slate-800"
-                            style='background-image: linear-gradient(0deg, rgba(16, 34, 32, 0.95) 0%, rgba(0, 0, 0, 0) 60%), url("../../assets/images/placeholder.jpg");'>
-                            <div class="flex flex-col p-8 md:p-12 gap-5">
-                                <span
-                                    class="bg-primary text-white text-[10px] font-black uppercase tracking-[0.2em] px-3 py-1.5 rounded-full w-fit shadow-lg shadow-primary/30">News</span>
-                                <h1
-                                    class="text-white text-3xl md:text-5xl font-black leading-tight font-display max-w-3xl drop-shadow-md">
-                                    RLC BAUT FüHRUNG IN JUGENDLIGA AUS</h1>
-                            </div>
+
+                    <div id="article-content" class="subpage-news-content">
+                        <div class="subpage-news-quote">
+                            "Auch nach dem dritten Wettbewerb, der zur Berechnung der Jugendliga im Leichtathletikkreis Recklinghausen herangezogen wird - den Kreismehrkampfmeisterschaften vom 25."
+                        </div>
+                        <div class="space-y-6">
+                            <p class="detailViewTop"><b>Auch nach dem dritten Wettbewerb, der zur Berechnung der Jugendliga im Leichtathletikkreis Recklinghausen herangezogen wird - den Kreismehrkampfmeisterschaften vom 25./26.06.2011 - führen die Athletinnen und Athleten des Recklinghäuser LC die Liste mit 1141 Punkten vor der LA SV Herten mit 977 Punkten an.</b></p>
                         </div>
                     </div>
-                </div>
-                <!-- Article Content Container -->
-                <div class="w-full max-w-[960px] grid grid-cols-1 lg:grid-cols-12 gap-12 py-16 px-4 md:px-0">
-                    <!-- Left Column: Article Body -->
-                    <article class="lg:col-span-8 flex flex-col gap-8 text-lg leading-relaxed">
-                        <!-- Meta Info -->
-                        <div
-                            class="flex items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-8">
-                            <div class="flex items-center gap-6">
-                                <div
-                                    class="flex items-center gap-2 text-slate-500 dark:text-slate-400 text-sm font-bold uppercase tracking-wider">
-                                    <span class="material-icons-round text-primary text-xs">calendar_today</span>
-                                    <span>30. Juni 2011 -  30. Juni 2020</span>
+
+                    <div class="subpage-actions" style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid color-mix(in srgb, var(--subpage-line) 76%, white);">
+                        <a href="../news.html" class="subpage-button subpage-button--secondary">
+                            <span class="material-icons-round" aria-hidden="true">arrow_back</span> Zurück zur Übersicht
+                        </a>
+                        <button class="subpage-button subpage-button--secondary" onclick="window.print()">
+                            <span class="material-icons-round" aria-hidden="true">print</span> Beitrag drucken
+                        </button>
+                    </div>
+                </article>
+
+                <aside class="subpage-panel">
+                    <div class="subpage-surface">
+                        <span class="subpage-eyebrow">Weitere News</span>
+                        <h3 class="subpage-panel__title" style="margin-top: 0.5rem; margin-bottom: 1.5rem;">Zuletzt veröffentlicht</h3>
+                        <div class="subpage-card-grid" style="grid-template-columns: 1fr;">
+                            
+                            <a href="10193.html" class="news-sidebar-card">
+                                <div class="news-sidebar-card__media" style="background-image: url('../../news_assets/10193/zoom_20260106173515_Arne_Bianca.jpg');"></div>
+                                <div class="news-sidebar-card__body">
+                                    <span class="news-sidebar-card__title">NEUES JAHR - NEUE QUALIS TEIL 2</span>
+                                    <span class="news-sidebar-card__meta">06. Januar 2026</span>
                                 </div>
-                                <div
-                                    class="flex items-center gap-2 text-slate-500 dark:text-slate-400 text-sm font-bold uppercase tracking-wider">
-                                    <span class="material-icons-round text-primary text-xs">person</span>
-                                    <span>Vom RLC 1952</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Content Body -->
-                        <!-- Content section will be injected here -->
-                        <div id="article-content" class="prose prose-slate dark:prose-invert max-w-none">
-                            <p
-                                class="font-display text-xl md:text-2xl font-bold text-slate-800 dark:text-slate-200 my-8">
-                                "Auch nach dem dritten Wettbewerb, der zur Berechnung der Jugendliga im Leichtathletikkreis Recklinghausen herangezogen wird - den Kreismehrkampfmeisterschaften vom 25."
-                            </p>
-                            <div class="space-y-6">
-                                <p>Am vergangenen Wochenende fanden im Gladbecker Stadion...</p>
-                            </div>
-                        </div>
-                        <!-- Share & Navigation -->
-                        <div
-                            class="flex flex-col sm:flex-row items-center justify-between border-t border-slate-100 dark:border-slate-800 pt-12 mt-8 gap-8">
-                            <a class="flex items-center gap-3 text-primary font-black uppercase text-sm tracking-widest hover:translate-x-[-4px] transition-transform"
-                                href="../news.html">
-                                <span class="material-icons-round">arrow_back</span>
-                                Zurück zur Übersicht
                             </a>
-                            <div class="flex items-center gap-6">
-                                <span
-                                    class="text-xs font-black uppercase tracking-[0.2em] text-slate-400">Teilen:</span>
-                                <div class="flex gap-3">
-                                    <button
-                                        class="size-10 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center hover:bg-primary hover:text-white transition-all text-slate-500">
-                                        <span class="material-icons-round text-lg">share</span>
-                                    </button>
-                                    <button
-                                        class="size-10 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center hover:bg-primary hover:text-white transition-all text-slate-500">
-                                        <span class="material-icons-round text-lg">content_copy</span>
-                                    </button>
+                            <a href="10192.html" class="news-sidebar-card">
+                                <div class="news-sidebar-card__media" style="background-image: url('../../news_assets/10192/zoom_20260106173623_Jonathan_Patrizio.JPG');"></div>
+                                <div class="news-sidebar-card__body">
+                                    <span class="news-sidebar-card__title">NEUES JAHR - NEUE QUALIS TEIL 1</span>
+                                    <span class="news-sidebar-card__meta">06. Januar 2026</span>
                                 </div>
-                            </div>
-                        </div>
-                    </article>
-                    <!-- Right Column: Sidebar -->
-                    <aside class="lg:col-span-4 flex flex-col gap-10">
-                        <div
-                            class="bg-slate-50 dark:bg-[#152a28] p-8 rounded-3xl border border-slate-100 dark:border-slate-800">
-                            <h3
-                                class="text-xl font-black mb-8 font-display tracking-tight text-slate-900 dark:text-white">
-                                Weitere News</h3>
-                            <div id="latest-news-sidebar" class="flex flex-col gap-8">
-                                
-    <a class="group flex flex-col gap-3" href="10193.html">
-        <div class="aspect-video rounded-2xl overflow-hidden">
-            <img src="../../news_assets/10193/zoom_20260106173515_Arne_Bianca.jpg" alt="NEUES JAHR - NEUE QUALIS TEIL 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
-        </div>
-        <div>
-            <h4 class="font-bold leading-tight group-hover:text-primary transition-colors text-sm">NEUES JAHR - NEUE QUALIS TEIL 2</h4>
-            <p class="text-slate-400 text-xs mt-2 font-bold uppercase tracking-wider">06. Januar 2026</p>
-        </div>
-    </a>
-    <a class="group flex flex-col gap-3" href="10192.html">
-        <div class="aspect-video rounded-2xl overflow-hidden">
-            <img src="../../news_assets/10192/zoom_20260106173623_Jonathan_Patrizio.JPG" alt="NEUES JAHR - NEUE QUALIS TEIL 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
-        </div>
-        <div>
-            <h4 class="font-bold leading-tight group-hover:text-primary transition-colors text-sm">NEUES JAHR - NEUE QUALIS TEIL 1</h4>
-            <p class="text-slate-400 text-xs mt-2 font-bold uppercase tracking-wider">06. Januar 2026</p>
-        </div>
-    </a>
-    <a class="group flex flex-col gap-3" href="10191.html">
-        <div class="aspect-video rounded-2xl overflow-hidden">
-            <img src="../../news_assets/10191/zoom_20251215153135_Jendrik.jpg" alt="RECKLINGHäUSER LC GLäNZT BEIM JUNIOR-ADVENTSCUP IN DORTMUND" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
-        </div>
-        <div>
-            <h4 class="font-bold leading-tight group-hover:text-primary transition-colors text-sm">RECKLINGHäUSER LC GLäNZT BEIM JUNIOR-ADVENTSCUP IN DORTMUND</h4>
-            <p class="text-slate-400 text-xs mt-2 font-bold uppercase tracking-wider">15. Dezember 2025</p>
-        </div>
-    </a>
-                            </div>
-                        </div>
-                        <!-- Newsletter Box -->
-                        <div
-                            class="bg-primary text-white p-8 rounded-3xl flex flex-col gap-6 shadow-xl shadow-primary/20">
-                            <h3 class="text-xl font-black font-display leading-tight">Möchtest du auf dem Laufenden
-                                bleiben?</h3>
-                            <p class="text-sm text-white/90 leading-relaxed font-semibold">Wir informieren dich über
-                                Ergebnisse und Termine direkt per E-Mail.</p>
-                            <div class="space-y-3">
-                                <input
-                                    class="w-full bg-white/20 border-none rounded-xl focus:ring-2 focus:ring-white text-white placeholder:text-white/60 py-3 px-4"
-                                    placeholder="E-Mail Adresse" type="email" />
-                                <button
-                                    class="w-full bg-slate-900 text-white font-black py-3 rounded-xl hover:bg-slate-800 transition-all uppercase tracking-widest text-xs">Anmelden</button>
-                            </div>
-                        </div>
-                    </aside>
-                </div>
-            </main>
-            <footer
-                class="bg-slate-50 dark:bg-[#0a1615] border-t border-slate-200 dark:border-slate-800 py-16 px-6 md:px-20 lg:px-40 mt-20">
-                <div class="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
-                    <div class="flex flex-col gap-6">
-                        <h2 class="text-2xl font-black font-display tracking-tight text-slate-900 dark:text-white">RLC
-                            <span class="text-primary">1952</span></h2>
-                        <p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">Dein Leichtathletik-Club
-                            in Recklinghausen seit über 70 Jahren. Tradition, Teamgeist und Spitzenleistung.</p>
-                    </div>
-                    <div>
-                        <h4 class="font-black text-xs uppercase tracking-widest text-primary mb-6">Navigation</h4>
-                        <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-4 font-bold">
-                            <li><a class="hover:text-primary transition-colors" href="../news.html">News & Archiv</a>
-                            </li>
-                            <li><a class="hover:text-primary transition-colors"
-                                    href="../../index.html#verein">Vereinsleben</a></li>
-                            <li><a class="hover:text-primary transition-colors"
-                                    href="../../index.html#kontakt">Kontakt</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="font-black text-xs uppercase tracking-widest text-primary mb-6">Rechtliches</h4>
-                        <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-4 font-bold">
-                            <li><a class="hover:text-primary transition-colors" href="#">Impressum</a></li>
-                            <li><a class="hover:text-primary transition-colors" href="#">Datenschutz</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="font-black text-xs uppercase tracking-widest text-primary mb-6">Folge uns</h4>
-                        <div class="flex gap-4">
-                            <a href="#"
-                                class="size-10 rounded-full bg-slate-200 dark:bg-slate-800 flex items-center justify-center hover:bg-primary transition-all text-slate-600 dark:text-white"><span
-                                    class="material-icons-round text-lg">public</span></a>
-                            <a href="#"
-                                class="size-10 rounded-full bg-slate-200 dark:bg-slate-800 flex items-center justify-center hover:bg-primary transition-all text-slate-600 dark:text-white"><span
-                                    class="material-icons-round text-lg">photo_camera</span></a>
+                            </a>
+                            <a href="10191.html" class="news-sidebar-card">
+                                <div class="news-sidebar-card__media" style="background-image: url('../../news_assets/10191/zoom_20251215153135_Jendrik.jpg');"></div>
+                                <div class="news-sidebar-card__body">
+                                    <span class="news-sidebar-card__title">RECKLINGHäUSER LC GLäNZT BEIM JUNIOR-ADVENTSCUP IN DORTMUND</span>
+                                    <span class="news-sidebar-card__meta">15. Dezember 2025</span>
+                                </div>
+                            </a>
                         </div>
                     </div>
-                </div>
-                <div
-                    class="max-w-[1200px] mx-auto mt-16 pt-8 border-t border-slate-200 dark:border-slate-800 text-center text-xs text-slate-400 font-bold tracking-widest uppercase">
-                    © 2026 Recklinghäuser Leichtathletik-Club 1952 e.V.
-                </div>
-            </footer>
-        </div>
-    </div>
-    <script>
-        // Simple script to inject latest news into sidebar if desired
-        // For now, it could be static during generation.
-    </script>
-</body>
 
+                    <div class="subpage-surface" style="background: var(--subpage-brand); border: none;">
+                        <h3 class="subpage-panel__title" style="color: white; margin-bottom: 0.5rem;">Komm ins Training</h3>
+                        <p style="color: rgba(255,255,255,0.9); margin-bottom: 1.5rem; line-height: 1.6; font-size: 0.95rem;">Du hast Interesse an Leichtathletik? Schau dir unser vereinsweites Trainingsangebot an und besuch uns im Stadion.</p>
+                        <a href="../../pages/training.html" class="subpage-button" style="width: 100%; border: none; background: var(--subpage-paper); color: var(--subpage-ink); box-shadow: none;">Trainingszeiten <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <footer data-shared-footer-placeholder></footer>
+</body>
 </html>

@@ -1,131 +1,229 @@
 <!DOCTYPE html>
-<html lang="de">
+
+<html class="light" lang="de">
 
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Kontakt | RLC 1952</title>
     <meta name="description"
-        content="Kontaktieren Sie den Recklinghäuser Leichtathletik Club 1952 e.V. bei Fragen zu Training, Mitgliedschaft oder Presseanfragen. Wir freuen uns auf Ihre Nachricht!">
+        content="Kontaktseite des Recklinghäuser Leichtathletik Clubs 1952 e.V. mit klarer Erstorientierung, direktem Kontaktweg und strukturierter Anfrage für Training, Mitgliedschaft oder Medienanliegen.">
+    <link href="../assets/css/design-tokens.css" rel="stylesheet" />
+    <link href="../assets/css/shell.css" rel="stylesheet" />
+    <link href="../assets/css/subpages.css" rel="stylesheet" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Montserrat:wght@700;900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Montserrat:wght@700;900&amp;display=swap"
         rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
     <script src="../assets/js/components.js"></script>
 </head>
 
-<body
-    class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-sans transition-colors duration-300">
-    <header></header>
-
-    <main id="main-content" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-28 pb-20">
-        <section class="page-intro">
-            <span class="page-eyebrow">Kontakt</span>
-            <h1 class="page-title">Wir helfen dir gern weiter.</h1>
-            <p class="page-lead">Du hast Fragen zu Training, Mitgliedschaft oder Presse? Schreib uns einfach – wir melden uns so schnell wie möglich.</p>
-        </section>
-        <section>
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-16">
-                <!-- Contact Form -->
-                <div
-                    class="lg:col-span-7 bg-white dark:bg-slate-900 p-8 md:p-12 rounded-lg border border-slate-200 dark:border-slate-800">
-                    <h2 class="font-display text-2xl font-bold mb-8">Nachricht senden</h2>
-                    <form action="#" class="space-y-6">
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <div>
-                                <label for="first-name"
-                                    class="block text-sm font-bold text-slate-500 dark:text-slate-400 mb-2 uppercase tracking-wide">Vorname</label>
-                                <input type="text" id="first-name"
-                                    class="w-full bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg px-4 py-3 focus:ring-2 focus:ring-primary transition-all"
-                                    placeholder="Dein Vorname" aria-required="true">
-                            </div>
-                            <div>
-                                <label for="last-name"
-                                    class="block text-sm font-bold text-slate-500 dark:text-slate-400 mb-2 uppercase tracking-wide">Nachname</label>
-                                <input type="text" id="last-name"
-                                    class="w-full bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg px-4 py-3 focus:ring-2 focus:ring-primary transition-all"
-                                    placeholder="Dein Nachname" aria-required="true">
-                            </div>
-                        </div>
-                        <div>
-                                <label for="email-address"
-                                    class="block text-sm font-bold text-slate-500 dark:text-slate-400 mb-2 uppercase tracking-wide">E-Mail-Adresse</label>
-                            <input type="email" id="email-address"
-                                class="w-full bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg px-4 py-3 focus:ring-2 focus:ring-primary transition-all"
-                                placeholder="deine@email.de" aria-required="true">
-                        </div>
-                        <div>
-                            <label for="subject-select"
-                                class="block text-sm font-bold text-slate-500 dark:text-slate-400 mb-2 uppercase tracking-wide">Betreff</label>
-                            <select id="subject-select"
-                                class="w-full bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg px-4 py-3 focus:ring-2 focus:ring-primary transition-all"
-                                aria-label="Betreff auswählen">
-                                <option>Allgemeine Anfrage</option>
-                                <option>Probetraining</option>
-                                <option>Mitgliedschaft</option>
-                                <option>Presse</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label for="message-text"
-                                class="block text-sm font-bold text-slate-500 dark:text-slate-400 mb-2 uppercase tracking-wide">Nachricht</label>
-                                <textarea rows="5" id="message-text"
-                                    class="w-full bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg px-4 py-3 focus:ring-2 focus:ring-primary transition-all"
-                                    placeholder="Schreib kurz, worum es geht und wie wir dir helfen können." aria-required="true"></textarea>
-                        </div>
-                        <button type="submit"
-                            class="w-full bg-primary hover:bg-opacity-90 text-white font-bold py-4 rounded-lg transition-colors">
-                            Nachricht senden
-                        </button>
-                    </form>
-                </div>
-
-                <!-- Info Sidebar -->
-                <div class="lg:col-span-5 space-y-12">
-                    <!-- Address Info -->
-                    <div
-                        class="bg-slate-100 dark:bg-slate-900/50 p-8 rounded-lg border border-slate-200 dark:border-slate-800">
-                        <h3 class="font-display font-bold text-xl mb-6">Vereinsanschrift</h3>
-                        <div class="space-y-6">
-                            <div class="flex items-start space-x-4">
-                                <div>
-                                    <h4 class="font-bold">Postanschrift</h4>
-                                    <p class="text-slate-500 dark:text-slate-400 text-sm mt-1">Recklinghäuser LC 1952
-                                        e.V.<br>Postfach 10 16 23<br>45616 Recklinghausen</p>
-                                </div>
-                            </div>
-                            <div class="flex items-start space-x-4">
-                                <div>
-                                    <h4 class="font-bold">Trainingsstätte</h4>
-                                    <p class="text-slate-500 dark:text-slate-400 text-sm mt-1">Stadion Hohenhorst<br>Am
-                                        Stadion 1<br>45659 Recklinghausen</p>
-                                </div>
-                            </div>
-                        </div>
+<body class="subpage subpage-contact min-h-screen">
+    <header data-shared-shell-placeholder></header>
+    <main class="subpage-main">
+        <div class="subpage-stack">
+            <section class="subpage-intro" aria-labelledby="contact-page-title">
+                <div class="subpage-intro__content">
+                    <span class="subpage-eyebrow">Kontakt</span>
+                    <h1 id="contact-page-title" class="subpage-display">Schnell zum <em>passenden Kontaktweg</em> statt zu einer offenen Warteschleife.</h1>
+                    <p class="subpage-lead">Egal ob es um ein Probetraining, die Mitgliedschaft oder allgemeine Fragen zum Verein geht – hier kommt deine Anfrage direkt an der richtigen Stelle an.</p>
+                    <div class="subpage-meta-row">
+                        <span class="subpage-meta"><span class="material-icons-round" aria-hidden="true">schedule</span><strong>Rückmeldung:</strong> in der Regel innerhalb von 48 Stunden</span>
+                        <span class="subpage-meta"><span class="material-icons-round" aria-hidden="true">mail</span><strong>Anliegen:</strong> Training, Mitgliedschaft, Organisation, Presse</span>
+                        <span class="subpage-meta"><span class="material-icons-round" aria-hidden="true">place</span><strong>Bezug:</strong> zentral für Stadion, Gruppen und Vereinsorganisation</span>
                     </div>
-
-                    <!-- Direct Contact -->
-                    <div class="border-t border-slate-200 dark:border-slate-800 pt-6 text-slate-900 dark:text-white">
-                        <h3 class="font-display font-bold text-xl mb-6">Schnellkontakt</h3>
-                        <div class="space-y-6">
-                            <a href="mailto:info@rlc1952.de"
-                                class="flex items-center space-x-4 hover:text-primary transition-colors">
-                                <span class="font-bold">info@rlc1952.de</span>
-                            </a>
-                            <a href="#" class="flex items-center space-x-4 hover:text-primary transition-colors">
-                                <span class="font-bold">Zum Kontaktformular</span>
-                            </a>
-                        </div>
-                        <p class="text-slate-500 dark:text-slate-400 text-xs mt-8">In der Regel erhältst du innerhalb von 48 Stunden eine
-                            Rückmeldung.</p>
+                    <div class="subpage-hero-points" aria-label="Drei schnelle Gründe für die Kontaktseite">
+                        <article class="subpage-hero-point">
+                            <span>Klare Einordnung</span>
+                            <strong>Schon die erste Nachricht lässt sich nach Thema, Altersgruppe und Ziel sauber zuordnen.</strong>
+                        </article>
+                        <article class="subpage-hero-point">
+                            <span>Vertrauensvoller Eindruck</span>
+                            <strong>Kontakt, Adresse und nächster Schritt wirken sichtbar, aktuell und verbindlich.</strong>
+                        </article>
+                        <article class="subpage-hero-point">
+                            <span>Niedrige Hürde</span>
+                            <strong>Wer noch nicht alles weiß, kann trotzdem einfach anfragen und wird passend weitergeleitet.</strong>
+                        </article>
+                    </div>
+                    <div class="subpage-actions">
+                        <a href="#contact-form-title" class="subpage-button">Nachricht vorbereiten <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                        <a href="training.html" class="subpage-button subpage-button--secondary">Vorher Trainingsübersicht ansehen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                        <a href="#contact-direct-title" class="subpage-link">Direkt zu E-Mail & Anschrift <span class="material-icons-round" aria-hidden="true">south</span></a>
                     </div>
                 </div>
-            </div>
-        </section>
+                <aside class="subpage-intro__aside subpage-intro__aside--accent" aria-label="Schnelle Orientierung zur Kontaktaufnahme">
+                    <span class="subpage-kicker">Worum geht es?</span>
+                    <p class="subpage-copy">Ein zentrales Kontaktformular hilft uns, Anfragen schnell zuzuordnen und passend zu beantworten. Wähle einfach das passende Thema für deine Nachricht aus.</p>
+                    <dl class="subpage-stat-list">
+                        <div>
+                            <dt>Für neue Mitglieder</dt>
+                            <dd>Eine kurze Anfrage mit Alter, Trainingsziel und bisherigen Erfahrungen reicht für die erste Zuordnung völlig aus.</dd>
+                        </div>
+                        <div>
+                            <dt>Für organisatorische Fragen</dt>
+                            <dd>Mitgliedschaft, Abläufe und allgemeine Vereinsanliegen laufen bewusst gebündelt über einen klar lesbaren Kanal.</dd>
+                        </div>
+                        <div>
+                            <dt>Für Presse & externe Anfragen</dt>
+                            <dd>Auch mediale oder formale Anliegen bekommen einen nachvollziehbaren Einstieg ohne Umweg über Einzelseiten.</dd>
+                        </div>
+                    </dl>
+                    <ul class="subpage-checklist" aria-label="Drei schnelle Hinweise zur Kontaktseite">
+                        <li><strong>Kein Vorwissen nötig:</strong> Wer Gruppe, Trainingsort oder Disziplin noch nicht sicher kennt, kann das offen dazuschreiben.</li>
+                        <li><strong>Gezielter wird schneller:</strong> Alter, Ziel und bisherige Erfahrung beschleunigen die Zuordnung deutlich.</li>
+                        <li><strong>Zentral statt verstreut:</strong> Die Kontaktseite ergänzt Training, Team und Sportstätten als gemeinsamer Einstiegspunkt.</li>
+                    </ul>
+                </aside>
+            </section>
+
+            <section class="subpage-highlight-strip" aria-label="Schnellorientierung zur Kontaktaufnahme">
+                <article>
+                    <span>Probetraining</span>
+                    <strong>Der einfachste Einstieg beginnt mit wenigen klaren Angaben.</strong>
+                    <p>Alter, gewünschter Bereich oder grobes Trainingsziel helfen sofort dabei, die passende Gruppe oder Ansprechperson vorzubereiten.</p>
+                </article>
+                <article>
+                    <span>Mitgliedschaft & Organisation</span>
+                    <strong>Allgemeine Fragen bleiben gebündelt statt verteilt.</strong>
+                    <p>Die Seite schafft einen zentralen Weg für Themen rund um Mitgliedschaft, Abläufe, Vereinskontakt und organisatorische Rückfragen.</p>
+                </article>
+                <article>
+                    <span>Verlässlicher Erstkontakt</span>
+                    <strong>Adresse, E-Mail und Formular ergänzen sich statt miteinander zu konkurrieren.</strong>
+                    <p>So entsteht auch ohne Telefonliste ein glaubwürdiger, direkter und anschlussfähiger erster Eindruck.</p>
+                </article>
+            </section>
+
+            <section class="subpage-grid subpage-grid--sidebar" aria-labelledby="contact-form-title" id="contact">
+                <div class="subpage-section subpage-section--tight">
+                    <section class="subpage-surface" aria-labelledby="contact-form-title">
+                        <div class="subpage-title-row">
+                            <div>
+                                <span class="subpage-eyebrow">Kontaktformular</span>
+                                <h2 id="contact-form-title" class="subpage-title">Anfrage klar formulieren, damit der erste Rückruf oder die erste Antwort sofort passt.</h2>
+                            </div>
+                        </div>
+                        <form action="#" class="contact-form" novalidate>
+                            <div class="contact-form__grid">
+                                <div class="contact-field">
+                                    <label for="first-name">Vorname</label>
+                                    <input type="text" id="first-name" name="first-name" placeholder="Dein Vorname" aria-required="true">
+                                </div>
+                                <div class="contact-field">
+                                    <label for="last-name">Nachname</label>
+                                    <input type="text" id="last-name" name="last-name" placeholder="Dein Nachname" aria-required="true">
+                                </div>
+                            </div>
+                            <div class="contact-field">
+                                <label for="email-address">E-Mail-Adresse</label>
+                                <input type="email" id="email-address" name="email-address" placeholder="deine@email.de" aria-required="true">
+                            </div>
+                            <div class="contact-form__grid">
+                                <div class="contact-field">
+                                    <label for="subject-select">Betreff</label>
+                                    <select id="subject-select" name="subject-select" aria-label="Betreff auswählen">
+                                        <option>Allgemeine Anfrage</option>
+                                        <option>Probetraining</option>
+                                        <option>Mitgliedschaft</option>
+                                        <option>Presse</option>
+                                    </select>
+                                </div>
+                                <div class="contact-field">
+                                    <label for="contact-context">Hilfreicher Kontext</label>
+                                    <input type="text" id="contact-context" name="contact-context" placeholder="z. B. U14, Wiedereinstieg oder Elternanfrage">
+                                </div>
+                            </div>
+                            <div class="contact-field">
+                                <label for="message-text">Nachricht</label>
+                                <textarea rows="6" id="message-text" name="message-text"
+                                    placeholder="Schreib kurz, worum es geht, für wen die Anfrage ist und was der passende nächste Schritt wäre." aria-required="true"></textarea>
+                            </div>
+                            <div class="contact-form__footer">
+                                <p class="contact-form__note">Je klarer Betreff, Altersgruppe oder Ziel beschrieben sind, desto schneller kann die Anfrage intern richtig weitergegeben werden.</p>
+                                <button type="submit" class="subpage-button">Nachricht senden <span class="material-icons-round" aria-hidden="true">send</span></button>
+                            </div>
+                        </form>
+                    </section>
+
+                    <section class="subpage-surface" aria-labelledby="contact-direct-title">
+                        <div class="subpage-title-row">
+                            <div>
+                                <span class="subpage-eyebrow">Direkter Kontakt</span>
+                                <h2 id="contact-direct-title" class="subpage-title">Kontaktwege, Anschrift und Vereinsbezug auf einen Blick.</h2>
+                            </div>
+                        </div>
+                        <div class="contact-direct-grid">
+                            <article class="contact-direct-card">
+                                <span class="subpage-kicker">E-Mail</span>
+                                <h3>Allgemeiner Vereinskontakt</h3>
+                                <p>Für Probetraining, Mitgliedschaft, Organisation und erste Rückfragen ist die zentrale Adresse der sinnvollste Einstieg.</p>
+                                <a href="mailto:info@rlc1952.de" class="subpage-link">info@rlc1952.de <span class="material-icons-round" aria-hidden="true">east</span></a>
+                            </article>
+                            <article class="contact-direct-card">
+                                <span class="subpage-kicker">Postanschrift</span>
+                                <h3>Recklinghäuser LC 1952 e.V.</h3>
+                                <p>Postfach 10 16 23<br>45616 Recklinghausen</p>
+                            </article>
+                            <article class="contact-direct-card">
+                                <span class="subpage-kicker">Trainingsbezug</span>
+                                <h3>Stadion Hohenhorst</h3>
+                                <p>Am Stadion 1<br>45659 Recklinghausen</p>
+                            </article>
+                        </div>
+                    </section>
+                </div>
+
+                <aside class="subpage-section subpage-section--tight" aria-label="Hilfen für die Kontaktaufnahme und vertrauensbildende Hinweise">
+                    <section class="subpage-panel subpage-panel--plain">
+                        <span class="subpage-eyebrow">Schneller Einstieg</span>
+                        <h2 class="subpage-panel__title">So wird aus einer allgemeinen Nachricht schneller der richtige Erstkontakt.</h2>
+                        <ul class="subpage-stack-list">
+                            <li><strong>Kurz einordnen:</strong> Ein Satz zu Alter, Trainingsziel oder Anlass macht die interne Weiterleitung deutlich einfacher.</li>
+                            <li><strong>Unklarheit ist erlaubt:</strong> Wer noch nicht weiß, ob Team, Training oder Standort zuerst relevant sind, schreibt genau das einfach dazu.</li>
+                            <li><strong>Schritt für Schritt:</strong> Wir melden uns in der Regel innerhalb von 48 Stunden bei dir zurück, um offene Fragen oder einen Termin abzuklären.</li>
+                        </ul>
+                        <div class="subpage-actions">
+                            <a href="#contact-form-title" class="subpage-button">Anfrage jetzt formulieren <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                        </div>
+                    </section>
+
+                    <section class="subpage-panel">
+                        <span class="subpage-eyebrow">Vertrauen & Unterstützung</span>
+                        <div class="subpage-grid">
+                            <article class="subpage-note subpage-note--success">
+                                <strong>Zentrale Zuordnung statt Sucharbeit</strong>
+                                <p>Die erste Nachricht muss nicht schon perfekt sein. Wichtig ist nur, dass Anliegen und grober Kontext erkennbar sind.</p>
+                            </article>
+                            <article class="subpage-note subpage-note--info">
+                                <strong>Probetraining kann einfach starten</strong>
+                                <p>Gerade für Familien oder Wiedereinsteigerinnen und Wiedereinsteiger reicht eine kurze Anfrage, damit Gruppe und Treffpunkt abgestimmt werden.</p>
+                            </article>
+                            <article class="subpage-note subpage-note--warning">
+                                <strong>Spezielle Details folgen bei Bedarf</strong>
+                                <p>Konkrete Zeiten, saisonale Änderungen oder besondere organisatorische Hinweise werden nach der ersten Rückmeldung passend ergänzt.</p>
+                            </article>
+                        </div>
+                    </section>
+
+                    <section class="subpage-cta-band" aria-label="Weiterführende Seiten und nächster Schritt">
+                        <div class="subpage-cta-band__content">
+                            <span class="subpage-kicker">Und jetzt?</span>
+                            <h2 class="subpage-panel__title">Schreibe uns deine Nachricht oder informiere dich weiter.</h2>
+                            <p>Wir freuen uns auf den Austausch. Bis dahin bietet unsere Website bereits viele hilfreiche Antworten.</p>
+                        </div>
+                        <div class="subpage-cta-band__actions">
+                            <a href="#contact-form-title" class="subpage-button">Kontaktanfrage absenden <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                            <a href="team.html" class="subpage-link">Vorher Trainerteam ansehen <span class="material-icons-round" aria-hidden="true">east</span></a>
+                        </div>
+                    </section>
+                </aside>
+            </section>
+        </div>
     </main>
 
-    <footer></footer>
+    <footer data-shared-footer-placeholder></footer>
 </body>
 
 </html>

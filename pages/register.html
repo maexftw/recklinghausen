@@ -5,194 +5,319 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>RLC 1952 - Mitgliedsantrag</title>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Montserrat:wght@700;900&amp;display=swap"
-        rel="stylesheet" />
+    <title>RLC 1952 – Anmeldung &amp; Mitgliedsantrag</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Montserrat:wght@700;900&amp;display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <link href="../assets/css/design-tokens.css" rel="stylesheet" />
+    <link href="../assets/css/style.css" rel="stylesheet" />
+    <link href="../assets/css/responsive.css" rel="stylesheet" />
+    <link href="../assets/css/subpages.css" rel="stylesheet" />
     <script src="../assets/js/components.js"></script>
-    <style>
-        body {
-            font-family: 'Lexend', sans-serif;
-        }
-
-        .floating-label-group {
-            position: relative;
-        }
-
-        .floating-label-group input:focus~label,
-        .floating-label-group input:not(:placeholder-shown)~label {
-            top: -0.5rem;
-            left: 0.75rem;
-            font-size: 0.75rem;
-            background-color: white;
-            padding: 0 0.25rem;
-            color: #00B29A;
-        }
-
-        .dark .floating-label-group input:focus~label,
-        .dark .floating-label-group input:not(:placeholder-shown)~label {
-            background-color: #102220;
-        }
-    </style>
 </head>
 
-<body class="bg-background-light dark:bg-background-dark text-[#111817] dark:text-white min-h-screen">
-    <!-- Top Navigation Bar -->
-    <header></header>
-    <main class="min-h-[calc(100vh-64px)] bg-white dark:bg-background-dark">
-        <!-- Sidebar Image Section -->
-        <aside class="hidden"
-            data-alt="Athletic red running track in a stadium at sunset"
-            style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.2) 50%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBx8FQJmsEHnqvs8XtVYdYgfE1X3xU4vgTG9ELkbiBaPIhqs_6-ymxNjBqXCy4hAGdyC72HXxsTDKl86Nb4HaTZx8loPdvKwxr4Owq3GRRz6pW5ajuD8J89wcWaVEt2gjc6N-5nFpEk6jlfcmRpY1DuOjnmS_lHZ6wUid_wY-LXQeSSOxV50Sr0oPTlJULzhudTzNAzj8ucPWEHLFmwlSVw1sZGVSyGwcNdLAwZryeMW9WzzPdO0Eq9ofEOFZihfijZzV-A6uPJf0nr");'>
-            <div class="relative z-10 space-y-4">
-                <h1 class="text-white text-5xl font-bold leading-tight">Werde Teil des RLC 1952</h1>
-                <p class="text-white/80 text-lg">Starte deine Mitgliedschaft und werde Teil unseres Vereinslebens und Trainingsangebots.</p>
-                <div class="flex gap-4 pt-6">
-                    <div class="flex flex-col">
-                        <span class="text-primary font-bold text-2xl">70+</span>
-                        <span class="text-white text-xs uppercase tracking-wider">Jahre Tradition</span>
+<body class="subpage subpage-register min-h-screen">
+    <header data-shared-shell-placeholder></header>
+
+    <main class="subpage-main">
+        <div class="subpage-stack">
+            <section class="subpage-intro subpage-register-intro" aria-labelledby="register-page-title">
+                <div class="subpage-intro__content">
+                    <span class="subpage-eyebrow">Anmeldung &amp; Mitgliedsantrag</span>
+                    <h1 id="register-page-title" class="subpage-display">Beitritt vorbereiten mit <em>klarer Reihenfolge</em>, sichtbaren Angaben und ehrlichen nächsten Schritten.</h1>
+                    <p class="subpage-lead">Um den Beitritt so unkompliziert wie möglich zu gestalten, kannst du hier deinen Antrag vorbereiten. Alle Daten werden ausschließlich für die Vereinsorganisation verwendet.</p>
+
+                    <div class="subpage-meta-row">
+                        <span class="subpage-meta"><span class="material-icons-round" aria-hidden="true">how_to_reg</span><strong>Fokus:</strong> Antrag vorbereitet statt unkommentiert abgesendet</span>
+                        <span class="subpage-meta"><span class="material-icons-round" aria-hidden="true">verified_user</span><strong>Transparent:</strong> Angaben, Beitrag und Hinweise sind vorab sichtbar</span>
+                        <span class="subpage-meta"><span class="material-icons-round" aria-hidden="true">support_agent</span><strong>Unterstützung:</strong> Kontaktweg bleibt jederzeit erreichbar</span>
                     </div>
-                    <div class="w-px h-10 bg-white/20"></div>
-                    <div class="flex flex-col">
-                        <span class="text-primary font-bold text-2xl">500+</span>
-                        <span class="text-white text-xs uppercase tracking-wider">Aktive Mitglieder</span>
+
+                    <div class="subpage-hero-points" aria-label="Drei schnelle Gründe für die Registrierungsseite">
+                        <article class="subpage-hero-point">
+                            <span>Klarer Start</span>
+                            <strong>Neue Interessierte sehen sofort, welche Daten gebraucht werden und wie der Antrag weitergeführt wird.</strong>
+                        </article>
+                        <article class="subpage-hero-point">
+                            <span>Mehr Vertrauen</span>
+                            <strong>Kontakt, Beitragslogik und organisatorische Hinweise begleiten den Prozess statt erst nach dem Formular aufzutauchen.</strong>
+                        </article>
+                        <article class="subpage-hero-point">
+                            <span>Sauberer Anschluss</span>
+                            <strong>Mitgliedschaft, Probetraining und Rückfragen bleiben als unterschiedliche nächste Schritte klar voneinander getrennt.</strong>
+                        </article>
+                    </div>
+
+                    <div class="subpage-actions">
+                        <a href="#register-form-title" class="subpage-button">Zur Formularübersicht <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                        <a href="contact.html#contact" class="subpage-button subpage-button--secondary">Frage vorab senden <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                        <a href="#register-next-step-title" class="subpage-link">Direkt zu den nächsten Schritten <span class="material-icons-round" aria-hidden="true">south</span></a>
                     </div>
                 </div>
-            </div>
-        </aside>
-        <!-- Form Section -->
-        <section class="flex flex-col items-center overflow-y-auto">
-            <div class="w-full max-w-[800px] px-6 py-10 md:px-12">
-                <div class="mb-10 border-b border-[#dbe6e5] pb-6 dark:border-[#1a312e]">
-                    <p class="text-primary text-sm font-bold uppercase tracking-[0.2em]">Mitgliedschaft</p>
-                    <p class="mt-2 text-sm text-[#618986] dark:text-slate-400">Schritt 1 von 4 · Persönliche Daten</p>
-                </div>
-                <!-- Page Heading -->
-                <div class="mb-8">
-                        <h2 class="text-[#111817] dark:text-white tracking-tight text-3xl font-bold leading-tight mb-2">
-                        Online-Mitgliedsantrag</h2>
-                    <p class="text-[#618986] dark:text-slate-400 text-base">Bitte füllen Sie das Formular vollständig aus, damit wir Ihren Antrag prüfen können.</p>
-                </div>
-                <!-- Section: Personal Info -->
-                <div class="space-y-8">
-                    <div class="border-b border-solid border-[#f0f4f4] dark:border-[#1a312e] pb-4">
-                            <h3 class="text-[#111817] dark:text-white text-lg font-bold">Persönliche Angaben</h3>
-                    </div>
-                    <form class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <!-- Floating Label Inputs -->
-                        <div class="floating-label-group">
-                            <input
-                                class="block w-full px-4 py-3 text-base text-gray-900 bg-transparent border border-gray-300 rounded-md appearance-none dark:text-white dark:border-gray-600 focus:outline-none focus:ring-0 focus:border-primary peer"
-                                id="firstname" placeholder=" " type="text" />
-                            <label
-                                class="absolute text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] px-2 peer-focus:px-2 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-3 pointer-events-none transition-all"
-                                for="firstname">Vorname</label>
-                        </div>
-                        <div class="floating-label-group">
-                            <input
-                                class="block w-full px-4 py-3 text-base text-gray-900 bg-transparent border border-gray-300 rounded-md appearance-none dark:text-white dark:border-gray-600 focus:outline-none focus:ring-0 focus:border-primary peer"
-                                id="lastname" placeholder=" " type="text" />
-                            <label
-                                class="absolute text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] px-2 peer-focus:px-2 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-3 pointer-events-none transition-all"
-                                for="lastname">Nachname</label>
-                        </div>
-                        <div class="floating-label-group md:col-span-2">
-                            <input
-                                class="block w-full px-4 py-3 text-base text-gray-900 bg-transparent border border-gray-300 rounded-md appearance-none dark:text-white dark:border-gray-600 focus:outline-none focus:ring-0 focus:border-primary peer"
-                                id="email" placeholder=" " type="email" />
-                            <label
-                                class="absolute text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] px-2 peer-focus:px-2 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-3 pointer-events-none transition-all"
-                                for="email">E-Mail Adresse</label>
-                        </div>
-                        <div class="floating-label-group">
-                            <input
-                                class="block w-full px-4 py-3 text-base text-gray-900 bg-transparent border border-gray-300 rounded-md appearance-none dark:text-white dark:border-gray-600 focus:outline-none focus:ring-0 focus:border-primary peer"
-                                id="dob" placeholder=" " type="date" />
-                            <label
-                                class="absolute text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] px-2 peer-focus:px-2 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-3 pointer-events-none transition-all"
-                                for="dob">Geburtsdatum</label>
-                        </div>
-                        <div class="floating-label-group">
-                            <select
-                                class="block w-full px-4 py-3 text-base text-gray-900 bg-transparent border border-gray-300 rounded-md appearance-none dark:text-white dark:border-gray-600 focus:outline-none focus:ring-0 focus:border-primary peer"
-                                id="gender">
-                                <option disabled="" selected="" value="">Geschlecht</option>
-                                <option value="m">Männlich</option>
-                                <option value="f">Weiblich</option>
-                                <option value="d">Divers</option>
-                            </select>
-                        </div>
-                    </form>
-                    <!-- Section: Membership Categories -->
-                    <div class="space-y-6 pt-6">
-                        <div class="border-b border-solid border-[#f0f4f4] dark:border-[#1a312e] pb-4">
-                            <h3 class="text-[#111817] dark:text-white text-lg font-bold">Mitgliedschaft auswählen
-                            </h3>
-                        </div>
-                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                            <!-- Category Card 1 -->
-                            <label
-                                class="relative flex flex-col p-5 border border-gray-300 dark:border-gray-600 rounded-lg cursor-pointer hover:border-primary/50 transition-all group">
-                                <input checked="" class="absolute top-4 right-4 text-primary focus:ring-primary h-4 w-4"
-                                    name="membership" type="radio" />
-                                <span class="text-sm font-bold block mb-1">Jugend</span>
-                                    <span class="text-xs text-gray-500 dark:text-gray-400 mb-3 leading-tight">Für Kinder und Jugendliche
-                                     bis 18 Jahre</span>
-                                <span class="text-lg font-bold mt-auto text-primary">60€ <small
-                                        class="text-xs text-gray-400 font-normal">/ Jahr</small></span>
-                            </label>
-                            <!-- Category Card 2 -->
-                            <label
-                                class="relative flex flex-col p-5 border border-gray-300 dark:border-gray-600 rounded-lg cursor-pointer hover:border-primary/50 transition-all group">
-                                <input class="absolute top-4 right-4 text-primary focus:ring-primary h-4 w-4"
-                                    name="membership" type="radio" />
-                                <span class="text-sm font-bold block mb-1">Aktiv</span>
-                                <span class="text-xs text-gray-500 dark:text-gray-400 mb-3 leading-tight">Reguläres
-                                    Training &amp; Wettkämpfe</span>
-                                <span class="text-lg font-bold mt-auto text-primary">120€ <small
-                                        class="text-xs text-gray-400 font-normal">/ Jahr</small></span>
-                            </label>
-                            <!-- Category Card 3 -->
-                            <label
-                                class="relative flex flex-col p-5 border border-gray-300 dark:border-gray-600 rounded-lg cursor-pointer hover:border-primary/50 transition-all group">
-                                <input class="absolute top-4 right-4 text-primary focus:ring-primary h-4 w-4"
-                                    name="membership" type="radio" />
-                                <span class="text-sm font-bold block mb-1">Passiv</span>
-                                    <span class="text-xs text-gray-500 dark:text-gray-400 mb-3 leading-tight">Unterstützung des Vereins ohne aktiven Trainingsbetrieb</span>
-                                <span class="text-lg font-bold mt-auto text-primary">40€ <small
-                                        class="text-xs text-gray-400 font-normal">/ Jahr</small></span>
-                            </label>
-                        </div>
-                    </div>
-                    <!-- Actions -->
-                    <div
-                        class="flex items-center justify-between pt-10 border-t border-gray-100 dark:border-[#1a312e] mt-10">
-                        <button
-                            class="flex items-center gap-2 text-gray-500 hover:text-gray-800 dark:hover:text-white transition-colors text-sm font-bold">
-                            <span class="material-symbols-outlined">arrow_back</span>
-                            Formular verlassen
-                        </button>
-                        <button
-                            class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-md h-12 px-6 bg-primary text-white text-base font-bold transition-colors">
-                            <span>Nächster Schritt</span>
-                            <span class="material-symbols-outlined ml-2">arrow_forward</span>
-                        </button>
-                    </div>
-                    <!-- Footer Help -->
-                    <div class="bg-background-light dark:bg-[#1a312e] p-4 rounded-lg flex gap-4 items-start">
-                        <span class="material-symbols-outlined text-primary">info</span>
+
+                <aside class="subpage-intro__aside subpage-intro__aside--accent" aria-label="Kurzüberblick zur Anmeldung">
+                    <span class="subpage-kicker">Worum geht es?</span>
+                    <p class="subpage-copy">Hier findest du alle nötigen Schritte für die Anmeldung in unserem Verein. Bitte beachte, dass dies noch kein bindender Abschluss ist.</p>
+
+                    <dl class="subpage-stat-list">
                         <div>
-                            <p class="text-sm font-semibold">Fragen zum Antrag?</p>
-                            <p class="text-xs text-gray-500 dark:text-gray-400">Unsere Mitgliederverwaltung hilft Ihnen gern weiter: <a class="text-primary underline"
-                                    href="#">mitglied@rlc1952.de</a></p>
+                            <dt>Antragslogik</dt>
+                            <dd>Persönliche Daten, Mitgliedschaftsart und organisatorische Hinweise sind in nachvollziehbaren Blöcken gegliedert.</dd>
                         </div>
-                    </div>
+                        <div>
+                            <dt>Support</dt>
+                            <dd>Fragen zu Familienanfragen, Minderjährigen oder Probetraining bleiben direkt neben dem Antrag sichtbar.</dd>
+                        </div>
+                        <div>
+                            <dt>Nächster Schritt</dt>
+                            <dd>Am Ende wird klar, ob der Antrag vorbereitet, Rückfrage gesendet oder erst Training abgestimmt werden sollte.</dd>
+                        </div>
+                    </dl>
+
+                    <ul class="subpage-checklist" aria-label="Drei Hinweise zur Registrierung">
+                        <li><strong>Öffentlich verständlich:</strong> Die Seite wirkt nicht wie ein internes Rohformular, sondern wie ein sauber geführter Einstieg.</li>
+                        <li><strong>Weniger Unsicherheit:</strong> Beitrag, Zuständigkeit und Datenschutz stehen nicht versteckt am Rand.</li>
+                        <li><strong>Conversion mit Ehrlichkeit:</strong> Die Anmeldung bleibt im Mittelpunkt, ohne Support- und Orientierungsbedarf zu ignorieren.</li>
+                    </ul>
+                </aside>
+            </section>
+
+            <section class="subpage-highlight-strip" aria-label="Schnellorientierung für die Anmeldung">
+                <article>
+                    <span>Vorbereitung</span>
+                    <strong>Der Antrag beginnt mit den Angaben, die für Rückmeldung, Zuordnung und Mitgliederverwaltung wirklich gebraucht werden.</strong>
+                    <p>Dadurch entsteht ein ruhigerer Einstieg als bei einem unkommentierten Formularblock direkt zu Seitenbeginn.</p>
+                </article>
+                <article>
+                    <span>Vertrauen</span>
+                    <strong>Hinweise zu Beitrag, Minderjährigen und Kontakt sind in den Seitenfluss integriert.</strong>
+                    <p>Das macht die Registrierung glaubwürdiger und reduziert Reibung für Eltern, Neueinsteiger und Rückfragen.</p>
+                </article>
+                <article>
+                    <span>Abschluss</span>
+                    <strong>Die Seite endet mit klaren nächsten Schritten statt mit einem isolierten Button ohne Einordnung.</strong>
+                    <p>So bleibt sichtbar, was nach dem Ausfüllen passiert und welcher alternative Weg bei Unsicherheit sinnvoll ist.</p>
+                </article>
+            </section>
+
+            <section class="subpage-grid subpage-grid--sidebar" aria-labelledby="register-form-title">
+                <div class="subpage-section subpage-section--tight">
+                    <section class="subpage-toolbar" aria-labelledby="register-flow-title">
+                        <div class="subpage-title-row">
+                            <div>
+                                <span class="subpage-eyebrow">Ablauf &amp; Orientierung</span>
+                                <h2 id="register-flow-title" class="subpage-title">So wird aus einer Absicht zur Mitgliedschaft ein sauber vorbereiteter Antrag.</h2>
+                            </div>
+                        </div>
+
+                        <div class="membership-step-list" aria-label="Drei Schritte zur Registrierung">
+                            <article class="membership-step-card">
+                                <span class="membership-step-card__index">01</span>
+                                <h3>Persönliche Angaben erfassen</h3>
+                                <p>Name, Geburtsdatum und Kontaktweg schaffen die Grundlage für Rückmeldung und organisatorische Zuordnung.</p>
+                            </article>
+                            <article class="membership-step-card">
+                                <span class="membership-step-card__index">02</span>
+                                <h3>Mitgliedschaft passend auswählen</h3>
+                                <p>Jugend, aktiv oder passiv werden direkt eingeordnet, damit Beitrag und Erwartung verständlich bleiben.</p>
+                            </article>
+                            <article class="membership-step-card">
+                                <span class="membership-step-card__index">03</span>
+                                <h3>Nächsten Schritt bewusst wählen</h3>
+                                <p>Absenden, Rückfrage oder vorheriges Probetraining stehen am Ende gleich lesbar und nachvollziehbar bereit.</p>
+                            </article>
+                        </div>
+                    </section>
+
+                    <section class="subpage-surface subpage-surface--flush register-surface" aria-labelledby="register-form-title">
+                        <div class="subpage-title-row subpage-surface__header">
+                            <div>
+                                <span class="subpage-eyebrow">Formularübersicht</span>
+                                <h2 id="register-form-title" class="subpage-title">Die Anmeldung ist als geführte Formularfläche mit Kontext, Beitrag und Hilfestellung aufgebaut.</h2>
+                            </div>
+                        </div>
+
+                        <div class="register-progress" aria-label="Ablauf der Registrierung">
+                            <article class="register-progress__step is-current">
+                                <span>Schritt 1</span>
+                                <strong>Persönliche Daten</strong>
+                            </article>
+                            <article class="register-progress__step">
+                                <span>Schritt 2</span>
+                                <strong>Mitgliedschaft</strong>
+                            </article>
+                            <article class="register-progress__step">
+                                <span>Schritt 3</span>
+                                <strong>Prüfen &amp; senden</strong>
+                            </article>
+                        </div>
+
+                        <div class="register-form-stack">
+                            <section class="register-form-section" aria-labelledby="register-personal-title">
+                                <div class="register-form-section__header">
+                                    <span class="material-icons-round" aria-hidden="true">person</span>
+                                    <div>
+                                        <h3 id="register-personal-title">Persönliche Angaben</h3>
+                                        <p>Diese Daten braucht der Verein für Kontaktaufnahme, Zuordnung und die weitere Bearbeitung des Antrags.</p>
+                                    </div>
+                                </div>
+
+                                <form class="register-field-grid" aria-label="Persönliche Angaben im Mitgliedsantrag">
+                                    <label class="register-field">
+                                        <span>Vorname</span>
+                                        <input id="firstname" name="firstname" type="text" placeholder="Vorname eingeben" />
+                                    </label>
+                                    <label class="register-field">
+                                        <span>Nachname</span>
+                                        <input id="lastname" name="lastname" type="text" placeholder="Nachname eingeben" />
+                                    </label>
+                                    <label class="register-field register-field--wide">
+                                        <span>E-Mail-Adresse</span>
+                                        <input id="email" name="email" type="email" placeholder="name@beispiel.de" />
+                                    </label>
+                                    <label class="register-field">
+                                        <span>Geburtsdatum</span>
+                                        <input id="dob" name="dob" type="date" />
+                                    </label>
+                                    <label class="register-field">
+                                        <span>Geschlecht</span>
+                                        <select id="gender" name="gender">
+                                            <option selected value="">Bitte auswählen</option>
+                                            <option value="m">Männlich</option>
+                                            <option value="f">Weiblich</option>
+                                            <option value="d">Divers</option>
+                                        </select>
+                                    </label>
+                                </form>
+                            </section>
+
+                            <section class="register-form-section" aria-labelledby="register-membership-title">
+                                <div class="register-form-section__header">
+                                    <span class="material-icons-round" aria-hidden="true">groups</span>
+                                    <div>
+                                        <h3 id="register-membership-title">Mitgliedschaft auswählen</h3>
+                                        <p>Die Beitragshöhe und Einordnung sind schon in der Auswahl sichtbar, damit der Antrag nicht wie eine Blackbox wirkt.</p>
+                                    </div>
+                                </div>
+
+                                <div class="register-choice-grid" role="radiogroup" aria-label="Mitgliedschaftsarten auswählen">
+                                    <label class="register-choice-card is-active">
+                                        <input checked name="membership" type="radio" value="jugend" />
+                                        <span class="register-choice-card__kicker">Bis 18 Jahre</span>
+                                        <strong>Jugend</strong>
+                                        <p>Für Kinder und Jugendliche mit altersgerechter Trainingszuordnung.</p>
+                                        <span class="register-choice-card__price">60 € <small>/ Jahr</small></span>
+                                    </label>
+                                    <label class="register-choice-card">
+                                        <input name="membership" type="radio" value="aktiv" />
+                                        <span class="register-choice-card__kicker">Reguläre Teilnahme</span>
+                                        <strong>Aktiv</strong>
+                                        <p>Für regelmäßiges Training und Teilnahme am Vereins- und Wettkampfbetrieb.</p>
+                                        <span class="register-choice-card__price">120 € <small>/ Jahr</small></span>
+                                    </label>
+                                    <label class="register-choice-card">
+                                        <input name="membership" type="radio" value="passiv" />
+                                        <span class="register-choice-card__kicker">Unterstützend</span>
+                                        <strong>Passiv</strong>
+                                        <p>Für Fördermitglieder ohne laufenden Trainingsbetrieb.</p>
+                                        <span class="register-choice-card__price">40 € <small>/ Jahr</small></span>
+                                    </label>
+                                </div>
+                            </section>
+
+                            <section class="register-form-section" aria-labelledby="register-guidance-title">
+                                <div class="register-form-section__header">
+                                    <span class="material-icons-round" aria-hidden="true">fact_check</span>
+                                    <div>
+                                        <h3 id="register-guidance-title">Hinweise vor dem Absenden</h3>
+                                        <p>Kurze, vertrauensbildende Hinweise helfen bei Familienanfragen, Rückfragen und dem realistischen Erwartungsmanagement.</p>
+                                    </div>
+                                </div>
+
+                                <div class="register-note-grid">
+                                    <article class="register-note-card">
+                                        <strong>Minderjährige</strong>
+                                        <p>Bei Jugendanträgen sollten Kontaktangaben der erziehungsberechtigten Person direkt mit vorbereitet werden.</p>
+                                    </article>
+                                    <article class="register-note-card">
+                                        <strong>Probetraining</strong>
+                                        <p>Wer die passende Gruppe noch nicht kennt, sollte vor dem verbindlichen Einstieg zuerst Training und Ansprechpartner abstimmen.</p>
+                                    </article>
+                                    <article class="register-note-card">
+                                        <strong>Rückmeldung</strong>
+                                        <p>Je vollständiger der Antrag vorbereitet ist, desto schneller kann die Mitgliederverwaltung den nächsten Schritt koordinieren.</p>
+                                    </article>
+                                </div>
+                            </section>
+                        </div>
+
+                        <div class="register-form-footer">
+                            <button class="register-ghost-action" type="button">
+                                <span class="material-icons-round" aria-hidden="true">close</span>
+                                Formular verlassen
+                            </button>
+                            <div class="subpage-actions register-form-footer__actions">
+                                <a href="contact.html#contact" class="subpage-link">Vorher Rückfrage senden <span class="material-icons-round" aria-hidden="true">east</span></a>
+                                <button class="subpage-button" type="submit">Nächster Schritt <span class="material-icons-round" aria-hidden="true">arrow_forward</span></button>
+                            </div>
+                        </div>
+                    </section>
                 </div>
-            </div>
-        </section>
+
+                <aside class="subpage-section subpage-section--tight" aria-label="Support und Entscheidungshilfe zur Registrierung">
+                    <section class="subpage-panel subpage-panel--plain register-side-panel" aria-labelledby="register-support-title">
+                        <span class="subpage-eyebrow">Support &amp; Vertrauen</span>
+                        <h2 id="register-support-title" class="subpage-panel__title">Fragen zum Antrag sollen nicht erst nach dem Formulareinstieg auftauchen.</h2>
+                        <ul class="subpage-stack-list">
+                            <li><strong>Mitgliederverwaltung erreichbar:</strong> Rückfragen zu Ablauf, Beitrag und Unterlagen können vor dem Absenden geklärt werden.</li>
+                            <li><strong>Familienfreundlich gedacht:</strong> Eltern und Erziehungsberechtigte erkennen schneller, welche Angaben beim Einstieg relevant sind.</li>
+                            <li><strong>Öffentlicher Seitenstandard:</strong> Rhythmus, Typografie und CTA-Führung entsprechen jetzt der übrigen Subpage-Systematik.</li>
+                        </ul>
+                    </section>
+
+                    <section class="subpage-panel register-side-panel" aria-labelledby="register-contact-title">
+                        <span class="subpage-eyebrow">Direkter Kontakt</span>
+                        <h2 id="register-contact-title" class="subpage-panel__title">Wenn vor dem Ausfüllen etwas unklar ist, bleibt Hilfe ohne Umweg erreichbar.</h2>
+                        <div class="register-contact-card">
+                            <span class="material-icons-round" aria-hidden="true">mail</span>
+                            <div>
+                                <strong>Mitgliederverwaltung</strong>
+                                <a href="mailto:mitglied@rlc1952.de">mitglied@rlc1952.de</a>
+                            </div>
+                        </div>
+                        <p>Besonders sinnvoll bei Fragen zu Minderjährigen, Mitgliedschaftsart, organisatorischem Ablauf oder dem passenden Einstieg über ein Probetraining.</p>
+                        <div class="subpage-actions">
+                            <a href="contact.html#contact" class="subpage-button subpage-button--secondary">Kontaktseite öffnen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                        </div>
+                    </section>
+
+                    <section class="subpage-panel register-side-panel" aria-labelledby="register-alt-title">
+                        <span class="subpage-eyebrow">Nicht sicher?</span>
+                        <h2 id="register-alt-title" class="subpage-panel__title">Für viele neue Interessierte ist Probetraining vor der Anmeldung der bessere erste Schritt.</h2>
+                        <p>Wenn Trainingsgruppe, Altersklasse oder Leistungsniveau noch nicht klar sind, sollte zuerst die Trainingsübersicht genutzt und anschließend kurz Kontakt aufgenommen werden.</p>
+                        <div class="subpage-actions">
+                            <a href="training.html" class="subpage-button subpage-button--secondary">Trainingsübersicht ansehen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                            <a href="contact.html#contact" class="subpage-link">Probetraining abstimmen <span class="material-icons-round" aria-hidden="true">east</span></a>
+                        </div>
+                    </section>
+                </aside>
+            </section>
+
+            <section class="subpage-cta-band" aria-labelledby="register-next-step-title">
+                <div class="subpage-cta-band__content">
+                    <span class="subpage-kicker">Nächster Schritt nach der Orientierung</span>
+                    <h2 id="register-next-step-title" class="subpage-panel__title">Registrierung jetzt sauber fortsetzen – oder den sinnvolleren Vorweg wählen.</h2>
+                    <p>Du kannst deinen Antrag direkt vor Ort beim nächsten Training einreichen, uns als Mail vorbereiten oder vorher noch offene Fragen klären.</p>
+                </div>
+                <div class="subpage-cta-band__actions">
+                    <a href="#register-form-title" class="subpage-button">Antrag weiter ausfüllen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                    <a href="contact.html#contact" class="subpage-button subpage-button--secondary">Frage zur Anmeldung senden <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                    <a href="training.html" class="subpage-link">Vorher Trainingsübersicht prüfen <span class="material-icons-round" aria-hidden="true">east</span></a>
+                </div>
+            </section>
+        </div>
     </main>
+
+    <footer data-shared-shell-placeholder></footer>
 </body>
 
 </html>

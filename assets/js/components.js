@@ -1,4 +1,4 @@
-﻿
+
 // RLC 1952 - Common Initialization
 // This script sets up Tailwind and injects shared components.
 
@@ -78,7 +78,7 @@ function initSharedComponents() {
                         <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}index.html">Startseite</a>
                         <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/news.html">Aktuelles</a>
                         <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/training.html">Training</a>
-                        <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/team.html">Verein</a>
+                        <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/team.html">Unser Team</a>
                         <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/facilities.html">Sportstätten</a>
                         <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/gallery.html">Fotos</a>
                         <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/sponsors.html">Partner</a>
@@ -104,7 +104,7 @@ function initSharedComponents() {
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}index.html">Startseite</a>
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/news.html">Aktuelles</a>
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/training.html">Training</a>
-                <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/team.html">Verein</a>
+                <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/team.html">Unser Team</a>
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/facilities.html">Sportstätten</a>
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/gallery.html">Fotos</a>
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/sponsors.html">Partner</a>
@@ -152,7 +152,6 @@ function initSharedComponents() {
                     <ul class="space-y-4 text-slate-400 text-sm">
                         <li><a href="${basePath}pages/contact.html#imprint" class="site-footer-link transition-colors focus:outline-none">Impressum</a></li>
                         <li><a href="${basePath}pages/contact.html#privacy" class="site-footer-link transition-colors focus:outline-none">Datenschutz</a></li>
-                        <li><a href="${basePath}pages/scope-contract.html" class="site-footer-link transition-colors focus:outline-none">Scope/Vertrag</a></li>
                         <li><a href="${basePath}pages/contact.html#contact" class="site-footer-link transition-colors focus:outline-none">Kontakt</a></li>
                         <li><a href="${basePath}pages/sponsors.html" class="site-footer-link transition-colors focus:outline-none">Sponsoren</a></li>
                     </ul>
