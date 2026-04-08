@@ -41,6 +41,17 @@ html {
     scroll-padding-top: var(--header-offset);
 }
 
+html :focus-visible {
+    outline: 3px solid #0f8f7b !important;
+    outline-offset: 3px !important;
+}
+
+@media (max-width: 560px) {
+    .site-cta--header-main {
+        display: none !important;
+    }
+}
+
 body {
     padding-top: var(--header-height);
 }
@@ -303,8 +314,9 @@ main,
     }
 
     .site-shell__bar {
-        gap: var(--spacing-sm);
+        gap: var(--spacing-xs);
         min-height: var(--header-height-mobile);
+        padding-block: var(--spacing-xs);
     }
 
     .site-shell__cluster {
@@ -386,3 +398,15 @@ main,
     background: rgba(255, 255, 255, 0.08);
     color: var(--color-neutral-200);
 }
+
+/* Base Utilities for Shared Components (Tailwind fallback) */
+.w-5 { width: 1.25rem !important; }
+.h-5 { height: 1.25rem !important; }
+.w-10 { width: 2.5rem !important; }
+.h-10 { height: 2.5rem !important; }
+.invert { filter: invert(1) !important; }
+.rounded-full { border-radius: 9999px !important; }
+.flex { display: flex !important; }
+.items-center { align-items: center !important; }
+.justify-center { justify-content: center !important; }
+
