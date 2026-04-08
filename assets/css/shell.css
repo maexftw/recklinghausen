@@ -34,7 +34,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: clamp(0.9rem, 2vw, 2rem);
+    gap: clamp(0.6rem, 1.5vw, 1.5rem);
 }
 
 html {
@@ -104,7 +104,7 @@ main,
 }
 
 .site-shell__cluster {
-    gap: clamp(0.8rem, 1.6vw, 1.25rem);
+    gap: clamp(0.5rem, 1.2vw, 1rem);
     margin-inline-start: auto;
     min-width: 0;
 }
@@ -115,8 +115,8 @@ main,
 
 .site-nav {
     align-items: center;
-    gap: clamp(0.35rem, 0.8vw, 0.7rem);
-    padding: 0.45rem;
+    gap: clamp(0.2rem, 0.5vw, 0.5rem);
+    padding: 0.35rem;
     border: 1px solid color-mix(in srgb, var(--color-border-default) 90%, white);
     border-radius: var(--border-radius-pill);
     background: color-mix(in srgb, var(--color-surface-base) 90%, white);
@@ -155,7 +155,7 @@ main,
     display: inline-flex;
     align-items: center;
     min-height: 2.5rem;
-    padding-inline: 0.85rem;
+    padding-inline: clamp(0.65rem, 0.8vw, 0.85rem);
     border-radius: var(--border-radius-pill);
 }
 
