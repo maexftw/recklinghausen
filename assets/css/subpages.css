@@ -71,6 +71,10 @@ body.subpage {
     box-shadow: var(--subpage-shadow);
 }
 
+.subpage-intro--full {
+    grid-template-columns: 1fr;
+}
+
 .subpage-intro::before {
     content: "";
     position: absolute;
@@ -2144,7 +2148,8 @@ body.subpage-news {
 }
 
 .subpage-news-feature__media {
-    min-height: 18rem;
+    aspect-ratio: 16 / 7;
+    max-height: 420px;
 }
 
 .subpage-news-feature__media img,
@@ -2274,7 +2279,8 @@ body.subpage-news {
 }
 
 .subpage-news-card__media {
-    min-height: 12rem;
+    aspect-ratio: 16 / 9;
+    max-height: 220px;
 }
 
 .subpage-news-card__body {
@@ -2288,6 +2294,7 @@ body.subpage-news {
     display: -webkit-box;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
+    line-clamp: 4;
     overflow: hidden;
 }
 
@@ -2300,7 +2307,8 @@ body.subpage-news {
 }
 
 .subpage-news-card--featured .subpage-news-card__media {
-    min-height: 14rem;
+    aspect-ratio: 16 / 8;
+    max-height: 280px;
 }
 
 .subpage-news-pagination {
@@ -2581,21 +2589,8 @@ body.subpage-news {
     line-height: 1.65;
 }
 
-.subpage-gallery {
-    --subpage-brand: #3b82f6;
-    --subpage-brand-strong: #1d4ed8;
-    --subpage-accent: color-mix(in srgb, #60a5fa 72%, white);
-    --subpage-accent-soft: color-mix(in srgb, #93c5fd 24%, white);
-    --subpage-accent-deep: #1e40af;
-    --subpage-sand: #f4f7fb;
-}
+/* Removed inconsistent blue theme overrides to restore brand consistency */
 
-.subpage-gallery-intro {
-    background:
-        radial-gradient(circle at top right, color-mix(in srgb, var(--subpage-accent-soft) 84%, white) 0%, transparent 34%),
-        radial-gradient(circle at bottom left, color-mix(in srgb, var(--subpage-sand) 62%, white) 0%, transparent 32%),
-        linear-gradient(180deg, color-mix(in srgb, white 84%, var(--subpage-paper)) 0%, color-mix(in srgb, white 76%, var(--subpage-paper-strong)) 100%);
-}
 
 .gallery-feature-grid {
     display: grid;

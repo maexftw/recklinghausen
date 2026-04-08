@@ -4,7 +4,7 @@
 
 const DESIGN_SYSTEM = {
     colors: {
-        primary: '#00B29A',
+        primary: '#0f8f7b',
         secondary: '#1b4353',
         'background-light': '#F9FAFB',
         'background-dark': '#111827',
@@ -34,6 +34,9 @@ if (typeof tailwind !== 'undefined') {
                 colors: DESIGN_SYSTEM.colors,
                 fontFamily: DESIGN_SYSTEM.fontFamily,
                 borderRadius: DESIGN_SYSTEM.borderRadius,
+                screens: {
+                    'xs': '480px',
+                }
             },
         },
     };
@@ -70,25 +73,28 @@ function initSharedComponents() {
     <header class="site-shell border-b border-slate-200 dark:border-slate-800">
         <div class="site-shell__inner max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="site-shell__bar">
-                <a href="${basePath}index.html" class="site-wordmark focus:outline-none" aria-label="RLC 1952 Startseite">
+                <a href="${basePath}index.html" class="site-wordmark" aria-label="RLC 1952 Startseite">
                     <img src="${basePath}RLC-Logo_vector/RLC-Logo_vector_transparent.svg" alt="RLC 1952" class="site-logo-image" />
                 </a>
                 <div class="site-shell__cluster">
                     <nav class="site-nav hidden lg:flex" aria-label="Hauptnavigation">
-                        <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}index.html">Startseite</a>
-                        <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/news.html">Aktuelles</a>
-                        <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/training.html">Training</a>
-                        <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/team.html">Unser Team</a>
-                        <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/facilities.html">Sportstätten</a>
-                        <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/gallery.html">Fotos</a>
-                        <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/sponsors.html">Partner</a>
-                        <a class="site-nav-link text-sm font-semibold transition-colors focus:outline-none" href="${basePath}pages/contact.html">Kontakt</a>
+                        <a class="site-nav-link text-sm font-semibold transition-colors" href="${basePath}index.html">Startseite</a>
+                        <a class="site-nav-link text-sm font-semibold transition-colors" href="${basePath}pages/news.html">Aktuelles</a>
+                        <a class="site-nav-link text-sm font-semibold transition-colors" href="${basePath}pages/training.html">Training</a>
+                        <a class="site-nav-link text-sm font-semibold transition-colors" href="${basePath}pages/team.html">Unser Team</a>
+                        <a class="site-nav-link text-sm font-semibold transition-colors" href="${basePath}pages/facilities.html">Sportstätten</a>
+                        <a class="site-nav-link text-sm font-semibold transition-colors" href="${basePath}pages/gallery.html">Fotos</a>
+                        <a class="site-nav-link text-sm font-semibold transition-colors" href="${basePath}pages/sponsors.html">Partner</a>
+                        <a class="site-nav-link text-sm font-semibold transition-colors" href="${basePath}pages/contact.html">Kontakt</a>
                     </nav>
                     <div class="site-shell__actions">
-                        <a href="${basePath}pages/register.html" class="site-cta px-5 py-2.5 font-bold text-sm focus:outline-none">
+                        <button id="theme-toggle" class="site-icon-button p-2" aria-label="Dark Mode umschalten" aria-pressed="false">
+                            <span class="material-icons-round">dark_mode</span>
+                        </button>
+                        <a href="${basePath}pages/register.html" class="site-cta site-cta--header-main px-5 py-2.5 font-bold text-sm">
                             Mitmachen
                         </a>
-                        <button id="mobile-menu-button" class="site-icon-button site-mobile-toggle lg:hidden p-2 focus:outline-none" aria-label="Hauptmenü öffnen" aria-expanded="false" aria-controls="mobile-menu" aria-haspopup="true">
+                        <button id="mobile-menu-button" class="site-icon-button site-mobile-toggle lg:hidden p-2" aria-label="Hauptmenü öffnen" aria-expanded="false" aria-controls="mobile-menu" aria-haspopup="true">
                             <span class="material-icons-round">menu</span>
                         </button>
                     </div>
@@ -97,17 +103,17 @@ function initSharedComponents() {
         </div>
         <div id="mobile-menu" class="site-mobile-panel hidden lg:hidden bg-white dark:bg-background-dark border-b border-slate-200 dark:border-slate-800" hidden>
             <div class="site-mobile-panel__inner px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a href="${basePath}pages/register.html" class="site-cta site-cta--mobile px-5 py-2.5 font-bold text-sm focus:outline-none">
+                <a href="${basePath}pages/register.html" class="site-cta site-cta--mobile px-5 py-2.5 font-bold text-sm">
                     Mitmachen
                 </a>
-                <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}index.html">Startseite</a>
-                <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/news.html">Aktuelles</a>
-                <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/training.html">Training</a>
-                <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/team.html">Unser Team</a>
-                <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/facilities.html">Sportstätten</a>
-                <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/gallery.html">Fotos</a>
-                <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/sponsors.html">Partner</a>
-                <a class="site-mobile-link block px-3 py-4 text-base font-semibold focus:outline-none" href="${basePath}pages/contact.html">Kontakt</a>
+                <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}index.html">Startseite</a>
+                <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/news.html">Aktuelles</a>
+                <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/training.html">Training</a>
+                <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/team.html">Unser Team</a>
+                <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/facilities.html">Sportstätten</a>
+                <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/gallery.html">Fotos</a>
+                <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/sponsors.html">Partner</a>
+                <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/contact.html">Kontakt</a>
             </div>
         </div>
     </header>
@@ -124,16 +130,17 @@ function initSharedComponents() {
                     <p class="text-slate-400 max-w-sm mb-8 leading-relaxed">
                         Seit über 70 Jahren die Heimat für Leichtathletik in Recklinghausen. Wir fördern Talente und leben Gemeinschaft.
                     </p>
-                    <div class="flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:gap-4">
-                        <div class="flex space-x-4" aria-label="Social-Media-Platzhalter">
-                        <span class="site-placeholder-icon w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-slate-400" aria-hidden="true">
-                            <img src="https://www.svgrepo.com/show/521711/instagram.svg" class="w-5 h-5 invert" alt="Instagram Logo">
-                        </span>
-                        <span class="site-placeholder-icon w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-slate-400" aria-hidden="true">
-                            <img src="https://www.svgrepo.com/show/521654/facebook.svg" class="w-5 h-5 invert" alt="Facebook Logo">
-                        </span>
-                        </div>
-                        <p class="site-pill-note">Offizielle Social-Media-Links folgen nach redaktioneller Freigabe.</p>
+                    <div class="site-footer__social-row" style="display: flex; gap: 1rem; align-items: center;">
+                        <a href="https://www.instagram.com/rlc_1952/" class="site-social-link" target="_blank" rel="noopener" aria-label="Instagram" style="display: flex;">
+                            <span class="site-placeholder-icon" style="width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.05); display: flex; align-items: center; justify-content: center;" aria-hidden="true">
+                                <img src="https://www.svgrepo.com/show/521711/instagram.svg" style="width: 20px; height: 20px; filter: invert(1);" alt="Instagram Logo">
+                            </span>
+                        </a>
+                        <a href="#" class="site-social-link" aria-label="Facebook" style="display: flex;">
+                            <span class="site-placeholder-icon" style="width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.05); display: flex; align-items: center; justify-content: center;" aria-hidden="true">
+                                <img src="https://www.svgrepo.com/show/521654/facebook.svg" style="width: 20px; height: 20px; filter: invert(1);" alt="Facebook Logo">
+                            </span>
+                        </a>
                     </div>
                 </div>
                 <div>
@@ -203,6 +210,29 @@ function ensureSharedStyles(basePath) {
             document.head.appendChild(link);
         }
     });
+
+    // Theme toggle functionality
+    const themeToggle = document.getElementById('theme-toggle');
+    if (themeToggle) {
+        // Check for saved user preference
+        const savedTheme = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        
+        // Apply saved theme or system preference
+        if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+            document.documentElement.classList.add('dark');
+            themeToggle.setAttribute('aria-pressed', 'true');
+            themeToggle.querySelector('span').textContent = 'light_mode';
+        }
+
+        // Toggle theme on click
+        themeToggle.addEventListener('click', () => {
+            const isDark = document.documentElement.classList.toggle('dark');
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+            themeToggle.setAttribute('aria-pressed', isDark);
+            themeToggle.querySelector('span').textContent = isDark ? 'light_mode' : 'dark_mode';
+        });
+    }
 }
 
 function initMobileMenu() {
