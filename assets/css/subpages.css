@@ -1,0 +1,508 @@
+@import url('./design-tokens.css');
+
+:root {
+    --subpage-paper: oklch(0.985 0.008 95);
+    --subpage-paper-strong: oklch(0.965 0.012 95);
+    --subpage-paper-deep: oklch(0.924 0.024 87);
+    --subpage-ink: oklch(0.22 0.03 206);
+    --subpage-muted: oklch(0.46 0.034 199);
+    --subpage-line: oklch(0.84 0.03 186);
+    --subpage-wash: oklch(0.948 0.05 171);
+    --subpage-sand: oklch(0.94 0.036 88);
+    --subpage-brand: var(--color-primary);
+    --subpage-brand-strong: var(--color-primary-dark);
+    --subpage-accent: color-mix(in srgb, var(--subpage-brand) 68%, white);
+    --subpage-accent-soft: color-mix(in srgb, var(--subpage-brand) 18%, white);
+    --subpage-shadow: 0 34px 120px color-mix(in srgb, var(--color-secondary) 14%, transparent);
+    --subpage-shadow-soft: 0 24px 68px color-mix(in srgb, var(--color-secondary) 10%, transparent);
+    --subpage-radius: clamp(1.1rem, 1rem + 0.8vw, 1.9rem);
+    --subpage-gutter: clamp(1rem, 2vw, 1.5rem);
+    --subpage-section-space: clamp(3rem, 6vw, 5.5rem);
+    --subpage-container: min(100% - 2rem, 78rem);
+    --subpage-content: min(100% - 2rem, 72rem);
+}
+
+body.subpage {
+    font-family: "Inter", Arial, sans-serif;
+    color: var(--subpage-ink);
+    background:
+        radial-gradient(circle at top, color-mix(in srgb, var(--subpage-wash) 80%, white) 0%, transparent 45%),
+        linear-gradient(180deg, color-mix(in srgb, var(--subpage-paper) 82%, var(--subpage-wash)) 0%, color-mix(in srgb, white 80%, var(--subpage-paper)) 100%);
+}
+
+.subpage a {
+    text-decoration: none;
+}
+
+.subpage-main {
+    width: var(--subpage-content);
+    margin-inline: auto;
+    padding: clamp(1.25rem, 2vw, 1.8rem) 0 var(--subpage-section-space);
+}
+
+.subpage-stack {
+    display: grid;
+    gap: var(--subpage-section-space);
+}
+
+.subpage-section {
+    display: grid;
+    gap: clamp(1.2rem, 2vw, 1.8rem);
+}
+
+.subpage-section--tight {
+    gap: clamp(1rem, 1.8vw, 1.35rem);
+}
+
+.subpage-intro {
+    position: relative;
+    overflow: clip;
+    display: grid;
+    gap: clamp(1.25rem, 2.1vw, 1.8rem);
+    grid-template-columns: minmax(0, 1.35fr) minmax(16rem, 0.82fr);
+    padding: clamp(1.5rem, 3vw, 2.3rem);
+    border: 1px solid color-mix(in srgb, var(--subpage-line) 82%, white);
+    background:
+        linear-gradient(135deg, color-mix(in srgb, white 50%, transparent) 0%, transparent 50%),
+        linear-gradient(180deg, color-mix(in srgb, white 86%, var(--subpage-paper)) 0%, color-mix(in srgb, var(--subpage-paper) 76%, var(--subpage-wash)) 100%);
+    box-shadow: var(--subpage-shadow);
+}
+
+.subpage-intro::before {
+    content: "";
+    position: absolute;
+    inset: clamp(0.7rem, 1.4vw, 1rem);
+    border: 1px solid color-mix(in srgb, var(--subpage-accent) 22%, transparent);
+    pointer-events: none;
+}
+
+.subpage-intro__content,
+.subpage-intro__aside,
+.subpage-panel,
+.subpage-surface,
+.subpage-note,
+.subpage-toolbar,
+.subpage-empty {
+    position: relative;
+    z-index: 1;
+}
+
+.subpage-intro__content {
+    display: grid;
+    gap: 1rem;
+    align-content: start;
+}
+
+.subpage-intro__aside {
+    display: grid;
+    gap: 0.9rem;
+    align-content: start;
+    padding: clamp(1.1rem, 2vw, 1.5rem);
+    border: 1px solid color-mix(in srgb, var(--subpage-line) 72%, white);
+    background: color-mix(in srgb, white 62%, var(--subpage-paper-strong));
+    box-shadow: var(--subpage-shadow-soft);
+}
+
+.subpage-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.65rem;
+    font-size: 0.74rem;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--subpage-brand-strong);
+}
+
+.subpage-eyebrow::before {
+    content: "";
+    width: 2.8rem;
+    height: 1px;
+    background: currentColor;
+    opacity: 0.45;
+}
+
+.subpage-display {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: clamp(2.7rem, 5vw, 5rem);
+    line-height: 0.94;
+    letter-spacing: -0.06em;
+    color: var(--subpage-ink);
+    max-width: 11ch;
+    text-wrap: balance;
+}
+
+.subpage-lead {
+    max-width: 42rem;
+    font-size: clamp(1rem, 0.98rem + 0.55vw, 1.26rem);
+    line-height: 1.72;
+    color: var(--subpage-muted);
+}
+
+.subpage-meta-row,
+.subpage-actions,
+.subpage-inline-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem 1rem;
+    align-items: center;
+}
+
+.subpage-meta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-height: 2.65rem;
+    padding: 0.55rem 0.9rem;
+    border: 1px solid color-mix(in srgb, var(--subpage-line) 78%, white);
+    background: color-mix(in srgb, white 72%, var(--subpage-wash));
+    color: var(--subpage-muted);
+    font-size: 0.88rem;
+    font-weight: 600;
+}
+
+.subpage-meta .material-icons-round,
+.subpage-link .material-icons-round,
+.subpage-button .material-icons-round {
+    font-size: 1rem;
+}
+
+.subpage-button,
+.subpage-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    min-height: 3.2rem;
+    font-weight: 800;
+}
+
+.subpage-button {
+    justify-content: center;
+    padding: 0.98rem 1.45rem;
+    border: 1px solid color-mix(in srgb, var(--subpage-brand-strong) 75%, black 8%);
+    background: var(--subpage-brand);
+    color: oklch(0.985 0.004 180);
+    box-shadow: 0 22px 40px color-mix(in srgb, var(--subpage-brand-strong) 24%, transparent);
+}
+
+.subpage-button:hover,
+.subpage-button:focus-visible {
+    transform: translateY(-3px);
+    background: var(--subpage-brand-strong);
+    box-shadow: 0 28px 52px color-mix(in srgb, var(--subpage-brand-strong) 30%, transparent);
+    color: oklch(0.985 0.004 180);
+}
+
+.subpage-link {
+    color: var(--subpage-brand-strong);
+}
+
+.subpage-link:hover,
+.subpage-link:focus-visible {
+    color: var(--subpage-ink);
+}
+
+.subpage-link .material-icons-round,
+.subpage-button .material-icons-round {
+    transition: transform 220ms ease;
+}
+
+.subpage-link:hover .material-icons-round,
+.subpage-link:focus-visible .material-icons-round,
+.subpage-button:hover .material-icons-round,
+.subpage-button:focus-visible .material-icons-round {
+    transform: translateX(3px);
+}
+
+.subpage-grid {
+    display: grid;
+    gap: clamp(1rem, 1.8vw, 1.45rem);
+}
+
+.subpage-grid--two {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.subpage-grid--sidebar {
+    grid-template-columns: minmax(0, 1.45fr) minmax(18rem, 0.72fr);
+    align-items: start;
+}
+
+.subpage-surface,
+.subpage-panel,
+.subpage-toolbar,
+.subpage-empty {
+    border: 1px solid color-mix(in srgb, var(--subpage-line) 82%, white);
+    background: color-mix(in srgb, white 88%, var(--subpage-paper));
+    box-shadow: var(--subpage-shadow-soft);
+}
+
+.subpage-surface,
+.subpage-toolbar,
+.subpage-empty,
+.subpage-panel {
+    padding: clamp(1.1rem, 2vw, 1.55rem);
+}
+
+.subpage-surface--flush {
+    padding: 0;
+    overflow: hidden;
+}
+
+.subpage-surface__header {
+    padding: clamp(1.1rem, 2vw, 1.55rem);
+    padding-bottom: 0;
+}
+
+.subpage-panel {
+    display: grid;
+    gap: 0.9rem;
+}
+
+.subpage-panel__title,
+.subpage-title {
+    font-size: clamp(1.15rem, 1.05rem + 0.35vw, 1.45rem);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    color: var(--subpage-ink);
+}
+
+.subpage-title-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.9rem 1rem;
+    align-items: end;
+    flex-wrap: wrap;
+}
+
+.subpage-copy,
+.subpage-panel p,
+.subpage-note p,
+.subpage-empty,
+.subpage-table td {
+    color: var(--subpage-muted);
+    line-height: 1.7;
+}
+
+.subpage-kicker {
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--subpage-brand-strong);
+}
+
+.subpage-stat-list,
+.subpage-detail-list {
+    display: grid;
+    gap: 0.8rem;
+}
+
+.subpage-stat-list div,
+.subpage-detail-list div {
+    display: grid;
+    gap: 0.28rem;
+    padding-top: 0.8rem;
+    border-top: 1px solid color-mix(in srgb, var(--subpage-line) 74%, white);
+}
+
+.subpage-stat-list div:first-child,
+.subpage-detail-list div:first-child {
+    padding-top: 0;
+    border-top: none;
+}
+
+.subpage-stat-list dt,
+.subpage-detail-list dt {
+    font-size: 0.76rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--subpage-brand-strong);
+}
+
+.subpage-stat-list dd,
+.subpage-detail-list dd {
+    margin: 0;
+    color: var(--subpage-ink);
+    line-height: 1.55;
+}
+
+.subpage-toolbar {
+    display: grid;
+    gap: 1rem;
+}
+
+.subpage-toolbar__group {
+    display: grid;
+    gap: 0.7rem;
+}
+
+.subpage-toolbar__divider {
+    height: 1px;
+    background: color-mix(in srgb, var(--subpage-line) 76%, white);
+}
+
+.subpage-chip-row {
+    display: flex;
+    gap: 0.65rem;
+    flex-wrap: wrap;
+}
+
+.subpage-chip {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.75rem;
+    padding: 0.7rem 1rem;
+    border: 1px solid color-mix(in srgb, var(--subpage-line) 76%, white);
+    background: color-mix(in srgb, var(--subpage-paper-strong) 72%, white);
+    color: var(--subpage-ink);
+    font-size: 0.94rem;
+    font-weight: 700;
+    transition: background-color 180ms ease, border-color 180ms ease, color 180ms ease, transform 180ms ease;
+}
+
+.subpage-chip:hover,
+.subpage-chip:focus-visible {
+    border-color: color-mix(in srgb, var(--subpage-brand) 52%, white);
+    background: color-mix(in srgb, var(--subpage-brand) 14%, white);
+    color: var(--subpage-brand-strong);
+}
+
+.subpage-chip.is-active,
+.subpage-chip[aria-pressed="true"] {
+    border-color: color-mix(in srgb, var(--subpage-brand-strong) 75%, black 8%);
+    background: var(--subpage-brand);
+    color: oklch(0.985 0.004 180);
+    box-shadow: 0 14px 32px color-mix(in srgb, var(--subpage-brand-strong) 18%, transparent);
+}
+
+.subpage-toolbar__status {
+    font-size: 0.94rem;
+    color: var(--subpage-muted);
+}
+
+.subpage-table-shell {
+    overflow-x: auto;
+}
+
+.subpage-table {
+    width: 100%;
+    min-width: 42rem;
+    border-collapse: collapse;
+}
+
+.subpage-table thead {
+    background: color-mix(in srgb, var(--subpage-brand) 6%, white);
+}
+
+.subpage-table th,
+.subpage-table td {
+    padding: 0.95rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid color-mix(in srgb, var(--subpage-line) 72%, white);
+}
+
+.subpage-table thead th {
+    font-size: 0.76rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--subpage-brand-strong);
+}
+
+.subpage-table tbody th {
+    font-size: 0.96rem;
+    font-weight: 800;
+    color: var(--subpage-ink);
+}
+
+.subpage-table tbody tr:hover {
+    background: color-mix(in srgb, var(--subpage-accent-soft) 45%, white);
+}
+
+.subpage-table-note {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 1.1rem;
+    background: color-mix(in srgb, var(--subpage-paper-strong) 72%, white);
+    color: var(--subpage-muted);
+    border-top: 1px solid color-mix(in srgb, var(--subpage-line) 72%, white);
+}
+
+.subpage-note {
+    display: grid;
+    gap: 0.45rem;
+    padding: 1rem 1.1rem 1rem 1.25rem;
+    border-left: 3px solid var(--subpage-brand);
+    background: color-mix(in srgb, var(--subpage-accent-soft) 52%, white);
+}
+
+.subpage-note strong {
+    color: var(--subpage-ink);
+}
+
+.subpage-note--warning {
+    border-left-color: #d66b45;
+    background: color-mix(in srgb, #f7d4c5 48%, white);
+}
+
+.subpage-note--info {
+    border-left-color: var(--color-secondary);
+    background: color-mix(in srgb, var(--color-secondary) 10%, white);
+}
+
+.subpage-empty {
+    font-style: italic;
+}
+
+@media (max-width: 960px) {
+    .subpage-intro,
+    .subpage-grid--sidebar,
+    .subpage-grid--two {
+        grid-template-columns: 1fr;
+    }
+
+    .subpage-display {
+        max-width: 13ch;
+    }
+}
+
+@media (max-width: 720px) {
+    .subpage-main {
+        width: min(100% - 1.25rem, 72rem);
+        padding-top: 1rem;
+    }
+
+    .subpage-intro,
+    .subpage-panel,
+    .subpage-surface,
+    .subpage-toolbar,
+    .subpage-empty {
+        padding-inline: 1rem;
+    }
+
+    .subpage-button,
+    .subpage-link {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .subpage-meta,
+    .subpage-chip {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .subpage-table {
+        min-width: 38rem;
+    }
+
+    .subpage-table-note {
+        align-items: start;
+        flex-direction: column;
+    }
+}

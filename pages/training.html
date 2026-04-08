@@ -10,6 +10,7 @@
         content="Der aktuelle Trainingsplan des Recklinghäuser Leichtathletik Clubs 1952 e.V. Finden Sie alle Trainingszeiten für U12, U14, U16, U18 und Erwachsene in Recklinghausen.">
     <link href="../assets/css/design-tokens.css" rel="stylesheet" />
     <link href="../assets/css/shell.css" rel="stylesheet" />
+    <link href="../assets/css/subpages.css" rel="stylesheet" />
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Montserrat:wght@700;900&amp;display=swap"
         rel="stylesheet" />
@@ -18,187 +19,229 @@
     <script src="../assets/js/components.js"></script>
 </head>
 
-<body class="bg-background-light dark:bg-background-dark text-[#111817] dark:text-white min-h-screen">
-    <!-- Top Navigation Bar -->
-    <header></header>
-    <main class="max-w-[1200px] mx-auto px-4 md:px-10 lg:px-40 py-6 md:py-10">
-        <!-- Page Heading -->
-        <div class="mb-8 md:mb-10">
-            <h1 class="text-4xl font-black leading-tight tracking-[-0.033em] mb-2">Trainingszeiten</h1>
-            <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
-                <p class="text-[#618986] text-base font-normal">Aktueller Sommerplan 2024 für alle Altersklassen und Disziplinen</p>
-                <div class="flex items-center gap-2 text-sm font-medium text-[#618986]">
-                    <span class="material-symbols-outlined">calendar_today</span>
-                    Zuletzt aktualisiert: 15. Mai 2024
+<body class="subpage subpage-training min-h-screen">
+    <header data-shared-shell-placeholder></header>
+    <main class="subpage-main">
+        <div class="subpage-stack">
+            <section class="subpage-intro" aria-labelledby="training-page-title">
+                <div class="subpage-intro__content">
+                    <span class="subpage-eyebrow">Trainingsübersicht</span>
+                    <h1 id="training-page-title" class="subpage-display">Trainingszeiten für Kinder, Jugendliche und Erwachsene.</h1>
+                    <p class="subpage-lead">Der Sommerplan 2024 bündelt Trainingszeiten, Altersgruppen und Schwerpunkte in einer Übersicht, damit Familien, Neueinsteiger und aktive Mitglieder schnell das passende Angebot finden.</p>
+                    <div class="subpage-meta-row">
+                        <span class="subpage-meta"><span class="material-icons-round" aria-hidden="true">calendar_today</span>Zuletzt aktualisiert: 15. Mai 2024</span>
+                        <span class="subpage-meta"><span class="material-icons-round" aria-hidden="true">place</span>Stadion, Halle Süd und Stadtwald</span>
+                    </div>
+                    <div class="subpage-actions">
+                        <a href="contact.html#contact" class="subpage-button">Probetraining anfragen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                        <a href="team.html" class="subpage-link">Trainerteam ansehen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <!-- Filters Section -->
-        <div
-            class="bg-white dark:bg-[#1a2e2c] p-4 rounded-lg border border-[#e5eaea] dark:border-[#2a3c3a] mb-8">
-            <div class="flex flex-col gap-4">
-                <fieldset class="flex flex-col gap-3">
-                    <legend class="text-xs font-bold uppercase tracking-wider text-[#618986]">Altersgruppen</legend>
-                    <div class="flex gap-2 flex-wrap" role="group" aria-label="Nach Altersgruppe filtern">
-                        <button type="button" data-filter-group="age" data-filter-value="all" aria-pressed="true" class="training-filter inline-flex min-h-[44px] items-center justify-center gap-2 rounded-md bg-primary text-white px-4 py-2 text-sm font-semibold">Alle</button>
-                        <button type="button" data-filter-group="age" data-filter-value="u12" aria-pressed="false" class="training-filter inline-flex min-h-[44px] items-center justify-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] text-[#111817] dark:text-white px-4 py-2 text-sm font-medium hover:bg-primary/20 transition-colors">U12</button>
-                        <button type="button" data-filter-group="age" data-filter-value="u14" aria-pressed="false" class="training-filter inline-flex min-h-[44px] items-center justify-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] text-[#111817] dark:text-white px-4 py-2 text-sm font-medium hover:bg-primary/20 transition-colors">U14</button>
-                        <button type="button" data-filter-group="age" data-filter-value="u16" aria-pressed="false" class="training-filter inline-flex min-h-[44px] items-center justify-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] text-[#111817] dark:text-white px-4 py-2 text-sm font-medium hover:bg-primary/20 transition-colors">U16</button>
-                        <button type="button" data-filter-group="age" data-filter-value="u18" aria-pressed="false" class="training-filter inline-flex min-h-[44px] items-center justify-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] text-[#111817] dark:text-white px-4 py-2 text-sm font-medium hover:bg-primary/20 transition-colors">U18</button>
-                        <button type="button" data-filter-group="age" data-filter-value="adults" aria-pressed="false" class="training-filter inline-flex min-h-[44px] items-center justify-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] text-[#111817] dark:text-white px-4 py-2 text-sm font-medium hover:bg-primary/20 transition-colors">Erwachsene</button>
+                <aside class="subpage-intro__aside" aria-label="Schnelle Orientierung zum Training">
+                    <span class="subpage-kicker">Kurzüberblick</span>
+                    <p class="subpage-copy">Die Übersicht ist bewusst nach Altersgruppen und Disziplinen filterbar. So wird aus einer langen Tabelle eine schnelle Orientierung für den nächsten sinnvollen Einstieg.</p>
+                    <dl class="subpage-stat-list">
+                        <div>
+                            <dt>Trainingseinheiten</dt>
+                            <dd>Mehrere Termine pro Woche für Nachwuchs, Jugend und Erwachsene.</dd>
+                        </div>
+                        <div>
+                            <dt>Filterlogik</dt>
+                            <dd>Altersgruppe und Disziplin lassen sich direkt kombinieren.</dd>
+                        </div>
+                        <div>
+                            <dt>Für den Einstieg</dt>
+                            <dd>Über die Kontaktseite lässt sich ein Probetraining schnell abstimmen.</dd>
+                        </div>
+                    </dl>
+                </aside>
+            </section>
+
+            <section class="subpage-grid subpage-grid--sidebar" aria-labelledby="training-plan-title">
+                <div class="subpage-section subpage-section--tight">
+                    <div class="subpage-toolbar" aria-labelledby="training-filter-title">
+                        <div class="subpage-title-row">
+                            <div>
+                                <span class="subpage-eyebrow">Filter & Orientierung</span>
+                                <h2 id="training-filter-title" class="subpage-title">Passende Gruppen und Disziplinen schneller finden.</h2>
+                            </div>
+                        </div>
+                        <fieldset class="subpage-toolbar__group">
+                            <legend class="subpage-kicker">Altersgruppen</legend>
+                            <div class="subpage-chip-row" role="group" aria-label="Nach Altersgruppe filtern">
+                                <button type="button" data-filter-group="age" data-filter-value="all" aria-pressed="true" class="training-filter subpage-chip is-active">Alle</button>
+                                <button type="button" data-filter-group="age" data-filter-value="u12" aria-pressed="false" class="training-filter subpage-chip">U12</button>
+                                <button type="button" data-filter-group="age" data-filter-value="u14" aria-pressed="false" class="training-filter subpage-chip">U14</button>
+                                <button type="button" data-filter-group="age" data-filter-value="u16" aria-pressed="false" class="training-filter subpage-chip">U16</button>
+                                <button type="button" data-filter-group="age" data-filter-value="u18" aria-pressed="false" class="training-filter subpage-chip">U18</button>
+                                <button type="button" data-filter-group="age" data-filter-value="adults" aria-pressed="false" class="training-filter subpage-chip">Erwachsene</button>
+                            </div>
+                        </fieldset>
+                        <div class="subpage-toolbar__divider"></div>
+                        <fieldset class="subpage-toolbar__group">
+                            <legend class="subpage-kicker">Disziplinen</legend>
+                            <div class="subpage-chip-row" role="group" aria-label="Nach Disziplin filtern">
+                                <button type="button" data-filter-group="discipline" data-filter-value="all" aria-pressed="true" class="training-filter subpage-chip is-active">Alle</button>
+                                <button type="button" data-filter-group="discipline" data-filter-value="sprint" aria-pressed="false" class="training-filter subpage-chip">Sprint</button>
+                                <button type="button" data-filter-group="discipline" data-filter-value="jump" aria-pressed="false" class="training-filter subpage-chip">Sprung</button>
+                                <button type="button" data-filter-group="discipline" data-filter-value="hurdles" aria-pressed="false" class="training-filter subpage-chip">Hürden</button>
+                                <button type="button" data-filter-group="discipline" data-filter-value="endurance" aria-pressed="false" class="training-filter subpage-chip">Ausdauer</button>
+                                <button type="button" data-filter-group="discipline" data-filter-value="fitness" aria-pressed="false" class="training-filter subpage-chip">Fitness</button>
+                            </div>
+                        </fieldset>
+                        <p id="training-filter-status" class="subpage-toolbar__status" aria-live="polite">10 Trainingseinheiten sichtbar.</p>
                     </div>
-                </fieldset>
-                <div class="h-px bg-[#e5eaea] dark:bg-[#2a3c3a] w-full"></div>
-                <fieldset class="flex flex-col gap-3">
-                    <legend class="text-xs font-bold uppercase tracking-wider text-[#618986]">Disziplinen</legend>
-                    <div class="flex gap-2 flex-wrap" role="group" aria-label="Nach Disziplin filtern">
-                        <button type="button" data-filter-group="discipline" data-filter-value="all" aria-pressed="true" class="training-filter inline-flex min-h-[44px] items-center justify-center gap-2 rounded-lg bg-primary text-[#111817] px-4 py-2 text-sm font-semibold">Alle</button>
-                        <button type="button" data-filter-group="discipline" data-filter-value="sprint" aria-pressed="false" class="training-filter inline-flex min-h-[44px] items-center justify-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] px-4 py-2 text-sm font-medium hover:bg-primary/20 transition-colors">Sprint</button>
-                        <button type="button" data-filter-group="discipline" data-filter-value="jump" aria-pressed="false" class="training-filter inline-flex min-h-[44px] items-center justify-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] px-4 py-2 text-sm font-medium hover:bg-primary/20 transition-colors">Sprung</button>
-                        <button type="button" data-filter-group="discipline" data-filter-value="hurdles" aria-pressed="false" class="training-filter inline-flex min-h-[44px] items-center justify-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] px-4 py-2 text-sm font-medium hover:bg-primary/20 transition-colors">Hürden</button>
-                        <button type="button" data-filter-group="discipline" data-filter-value="endurance" aria-pressed="false" class="training-filter inline-flex min-h-[44px] items-center justify-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] px-4 py-2 text-sm font-medium hover:bg-primary/20 transition-colors">Ausdauer</button>
-                        <button type="button" data-filter-group="discipline" data-filter-value="fitness" aria-pressed="false" class="training-filter inline-flex min-h-[44px] items-center justify-center gap-2 rounded-lg bg-[#f0f4f4] dark:bg-[#2a3c3a] px-4 py-2 text-sm font-medium hover:bg-primary/20 transition-colors">Fitness</button>
-                    </div>
-                </fieldset>
-                <p id="training-filter-status" class="text-sm text-[#618986]" aria-live="polite">7 Trainingseinheiten sichtbar.</p>
-            </div>
-        </div>
-        <!-- Weekly Schedule Grid -->
-        <div
-            class="bg-white dark:bg-[#1a2e2c] rounded-lg border border-[#e5eaea] dark:border-[#2a3c3a] overflow-hidden">
-            <div class="overflow-x-auto">
-                <table class="min-w-full divide-y divide-[#e5eaea] dark:divide-[#2a3c3a]" aria-describedby="training-filter-status">
+
+                    <section class="subpage-surface subpage-surface--flush" aria-labelledby="training-plan-title">
+                        <div class="subpage-title-row subpage-surface__header">
+                            <div>
+                                <span class="subpage-eyebrow">Wochenplan</span>
+                                <h2 id="training-plan-title" class="subpage-title">Regelmäßige Einheiten im Wochenverlauf.</h2>
+                            </div>
+                        </div>
+                        <div class="subpage-table-shell">
+                            <table class="subpage-table" aria-describedby="training-filter-status">
                     <caption class="sr-only">Wöchentliche Trainingsübersicht mit Tag, Uhrzeit, Zielgruppe, Disziplin, Ort und Leitung</caption>
-                    <thead class="bg-primary/5 text-left">
+                    <thead>
                         <tr>
-                            <th scope="col" class="px-4 py-3 text-xs font-bold uppercase text-[#618986]">Tag</th>
-                            <th scope="col" class="px-4 py-3 text-xs font-bold uppercase text-[#618986]">Zeit</th>
-                            <th scope="col" class="px-4 py-3 text-xs font-bold uppercase text-[#618986]">Altersgruppe</th>
-                            <th scope="col" class="px-4 py-3 text-xs font-bold uppercase text-[#618986]">Disziplin</th>
-                            <th scope="col" class="px-4 py-3 text-xs font-bold uppercase text-[#618986]">Ort</th>
-                            <th scope="col" class="px-4 py-3 text-xs font-bold uppercase text-[#618986]">Leitung</th>
+                            <th scope="col">Tag</th>
+                            <th scope="col">Zeit</th>
+                            <th scope="col">Altersgruppe</th>
+                            <th scope="col">Disziplin</th>
+                            <th scope="col">Ort</th>
+                            <th scope="col">Leitung</th>
                         </tr>
                     </thead>
-                    <tbody id="training-schedule-body" class="divide-y divide-[#e5eaea] dark:divide-[#2a3c3a]">
+                    <tbody id="training-schedule-body">
                         <tr data-age-group="u12" data-discipline="fitness">
-                            <th scope="row" class="px-4 py-3 text-sm font-semibold">Montag</th>
-                            <td class="px-4 py-3 text-sm">16:30 - 18:00</td>
-                            <td class="px-4 py-3 text-sm">U12</td>
-                            <td class="px-4 py-3 text-sm">Fitness</td>
-                            <td class="px-4 py-3 text-sm">Stadion</td>
-                            <td class="px-4 py-3 text-sm">Trainer: Schmidt</td>
+                            <th scope="row">Montag</th>
+                            <td>16:30 - 18:00</td>
+                            <td>U12</td>
+                            <td>Fitness</td>
+                            <td>Stadion</td>
+                            <td>Trainer: Schmidt</td>
                         </tr>
                         <tr data-age-group="u16" data-discipline="sprint">
-                            <th scope="row" class="px-4 py-3 text-sm font-semibold">Montag</th>
-                            <td class="px-4 py-3 text-sm">18:00 - 19:30</td>
-                            <td class="px-4 py-3 text-sm">U16</td>
-                            <td class="px-4 py-3 text-sm">Sprint</td>
-                            <td class="px-4 py-3 text-sm">Stadion</td>
-                            <td class="px-4 py-3 text-sm">Trainerin: Müller</td>
+                            <th scope="row">Montag</th>
+                            <td>18:00 - 19:30</td>
+                            <td>U16</td>
+                            <td>Sprint</td>
+                            <td>Stadion</td>
+                            <td>Trainerin: Müller</td>
                         </tr>
                         <tr data-age-group="adults" data-discipline="fitness">
-                            <th scope="row" class="px-4 py-3 text-sm font-semibold">Dienstag</th>
-                            <td class="px-4 py-3 text-sm">18:00 - 19:30</td>
-                            <td class="px-4 py-3 text-sm">Erwachsene</td>
-                            <td class="px-4 py-3 text-sm">Fitness</td>
-                            <td class="px-4 py-3 text-sm">Halle Süd</td>
-                            <td class="px-4 py-3 text-sm">Trainer: Wagner</td>
+                            <th scope="row">Dienstag</th>
+                            <td>18:00 - 19:30</td>
+                            <td>Erwachsene</td>
+                            <td>Fitness</td>
+                            <td>Halle Süd</td>
+                            <td>Trainer: Wagner</td>
                         </tr>
                         <tr data-age-group="u18" data-discipline="jump">
-                            <th scope="row" class="px-4 py-3 text-sm font-semibold">Dienstag</th>
-                            <td class="px-4 py-3 text-sm">17:00 - 18:30</td>
-                            <td class="px-4 py-3 text-sm">U18</td>
-                            <td class="px-4 py-3 text-sm">Sprung</td>
-                            <td class="px-4 py-3 text-sm">Stadion</td>
-                            <td class="px-4 py-3 text-sm">Trainer: Klein</td>
+                            <th scope="row">Dienstag</th>
+                            <td>17:00 - 18:30</td>
+                            <td>U18</td>
+                            <td>Sprung</td>
+                            <td>Stadion</td>
+                            <td>Trainer: Klein</td>
                         </tr>
                         <tr data-age-group="u14" data-discipline="sprint">
-                            <th scope="row" class="px-4 py-3 text-sm font-semibold">Mittwoch</th>
-                            <td class="px-4 py-3 text-sm">16:30 - 18:00</td>
-                            <td class="px-4 py-3 text-sm">U14</td>
-                            <td class="px-4 py-3 text-sm">Sprint</td>
-                            <td class="px-4 py-3 text-sm">Stadion</td>
-                            <td class="px-4 py-3 text-sm">Trainerin: Weber</td>
+                            <th scope="row">Mittwoch</th>
+                            <td>16:30 - 18:00</td>
+                            <td>U14</td>
+                            <td>Sprint</td>
+                            <td>Stadion</td>
+                            <td>Trainerin: Weber</td>
                         </tr>
                         <tr data-age-group="u16" data-discipline="hurdles">
-                            <th scope="row" class="px-4 py-3 text-sm font-semibold">Donnerstag</th>
-                            <td class="px-4 py-3 text-sm">18:00 - 19:30</td>
-                            <td class="px-4 py-3 text-sm">U16</td>
-                            <td class="px-4 py-3 text-sm">Hürden</td>
-                            <td class="px-4 py-3 text-sm">Stadion</td>
-                            <td class="px-4 py-3 text-sm">Trainerin: Müller</td>
+                            <th scope="row">Donnerstag</th>
+                            <td>18:00 - 19:30</td>
+                            <td>U16</td>
+                            <td>Hürden</td>
+                            <td>Stadion</td>
+                            <td>Trainerin: Müller</td>
                         </tr>
                         <tr data-age-group="adults" data-discipline="sprint">
-                            <th scope="row" class="px-4 py-3 text-sm font-semibold">Donnerstag</th>
-                            <td class="px-4 py-3 text-sm">19:00 - 20:30</td>
-                            <td class="px-4 py-3 text-sm">Erwachsene</td>
-                            <td class="px-4 py-3 text-sm">Sprint</td>
-                            <td class="px-4 py-3 text-sm">Stadion</td>
-                            <td class="px-4 py-3 text-sm">Trainerin: Müller</td>
+                            <th scope="row">Donnerstag</th>
+                            <td>19:00 - 20:30</td>
+                            <td>Erwachsene</td>
+                            <td>Sprint</td>
+                            <td>Stadion</td>
+                            <td>Trainerin: Müller</td>
                         </tr>
                         <tr data-age-group="u12" data-discipline="fitness">
-                            <th scope="row" class="px-4 py-3 text-sm font-semibold">Freitag</th>
-                            <td class="px-4 py-3 text-sm">16:30 - 18:00</td>
-                            <td class="px-4 py-3 text-sm">U12</td>
-                            <td class="px-4 py-3 text-sm">Fitness</td>
-                            <td class="px-4 py-3 text-sm">Stadion</td>
-                            <td class="px-4 py-3 text-sm">Trainer: Schmidt</td>
+                            <th scope="row">Freitag</th>
+                            <td>16:30 - 18:00</td>
+                            <td>U12</td>
+                            <td>Fitness</td>
+                            <td>Stadion</td>
+                            <td>Trainer: Schmidt</td>
                         </tr>
                         <tr data-age-group="u18" data-discipline="jump">
-                            <th scope="row" class="px-4 py-3 text-sm font-semibold">Freitag</th>
-                            <td class="px-4 py-3 text-sm">17:00 - 18:30</td>
-                            <td class="px-4 py-3 text-sm">U18 &amp; Erwachsene</td>
-                            <td class="px-4 py-3 text-sm">Sprung/Fitness</td>
-                            <td class="px-4 py-3 text-sm">Stadion</td>
-                            <td class="px-4 py-3 text-sm">Trainer: Klein</td>
+                            <th scope="row">Freitag</th>
+                            <td>17:00 - 18:30</td>
+                            <td>U18 &amp; Erwachsene</td>
+                            <td>Sprung/Fitness</td>
+                            <td>Stadion</td>
+                            <td>Trainer: Klein</td>
                         </tr>
                         <tr data-age-group="u14" data-discipline="endurance">
-                            <th scope="row" class="px-4 py-3 text-sm font-semibold">Samstag</th>
-                            <td class="px-4 py-3 text-sm">10:00 - 11:30</td>
-                            <td class="px-4 py-3 text-sm">U14/U16</td>
-                            <td class="px-4 py-3 text-sm">Ausdauer</td>
-                            <td class="px-4 py-3 text-sm">Stadtwald</td>
-                            <td class="px-4 py-3 text-sm">Trainer: Becker</td>
+                            <th scope="row">Samstag</th>
+                            <td>10:00 - 11:30</td>
+                            <td>U14/U16</td>
+                            <td>Ausdauer</td>
+                            <td>Stadtwald</td>
+                            <td>Trainer: Becker</td>
                         </tr>
                     </tbody>
                 </table>
-            </div>
-            <p id="training-empty-state" class="px-4 py-6 text-sm text-[#618986] italic" hidden>Für diese Filterkombination gibt es aktuell keine Trainingseinheiten. Bitte wählen Sie eine andere Altersgruppe oder Disziplin.</p>
-            <div class="px-4 py-4 bg-gray-50 dark:bg-black/10 border-t border-[#e5eaea] dark:border-[#2a3c3a]">
-                <p class="text-sm text-[#618986] italic">Sonntags findet kein reguläres Training statt.</p>
-            </div>
-        </div>
-        <!-- Special Notices Section -->
-        <div class="mt-12">
-                <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
-                    <span class="material-icons-round text-amber-500">campaign</span>
-                    Wichtige Hinweise
-                </h3>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <!-- Warning/Cancellation -->
-                <div
-                    class="flex items-start gap-4 p-5 border-l-2 border-red-400 bg-red-50/60 dark:bg-red-900/10 rounded-r-lg">
-                    <div>
-                        <p class="text-sm font-bold text-red-900 dark:text-red-400 mb-1">Trainingsausfall: U12 Sprint
-                        </p>
-                        <p class="text-sm text-red-700 dark:text-red-300">Am Mittwoch, den 22.05., fällt das
-                            Sprint-Training der U12 aufgrund einer Fortbildung des Trainers aus.</p>
-                    </div>
+                        </div>
+                        <p id="training-empty-state" class="subpage-empty" hidden>Für diese Filterkombination gibt es aktuell keine Trainingseinheiten. Bitte wählen Sie eine andere Altersgruppe oder Disziplin.</p>
+                        <div class="subpage-table-note">
+                            <p>Sonntags findet kein reguläres Training statt.</p>
+                            <a href="contact.html#contact" class="subpage-link">Fragen zum Einstieg klären <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                        </div>
+                    </section>
                 </div>
-                <!-- General Info -->
-                <div
-                    class="flex items-start gap-4 p-5 border-l-2 border-blue-400 bg-blue-50/60 dark:bg-blue-900/10 rounded-r-lg">
-                    <div>
-                        <p class="text-sm font-bold text-blue-900 dark:text-blue-400 mb-1">Pfingstferien 2024</p>
-                        <p class="text-sm text-blue-700 dark:text-blue-300">In der ersten Pfingstferienwoche findet kein
-                            Training für die U10 und U12 statt. Alle anderen Gruppen trainieren nach Plan.</p>
-                    </div>
-                </div>
-            </div>
+
+                <aside class="subpage-section subpage-section--tight" aria-label="Wichtige Hinweise und Einstiegshilfe">
+                    <section class="subpage-panel">
+                        <span class="subpage-eyebrow">Schneller Einstieg</span>
+                        <h2 class="subpage-panel__title">Vor dem ersten Training gut zu wissen.</h2>
+                        <dl class="subpage-detail-list">
+                            <div>
+                                <dt>Probetraining</dt>
+                                <dd>Ein unverbindlicher Einstieg ist möglich und lässt sich am besten vorab kurz abstimmen.</dd>
+                            </div>
+                            <div>
+                                <dt>Ausrüstung</dt>
+                                <dd>Normale Sportsachen und eine Trinkflasche reichen für das Kennenlernen aus.</dd>
+                            </div>
+                            <div>
+                                <dt>Trainingsorte</dt>
+                                <dd>Je nach Gruppe findet das Training im Stadion, in der Halle oder im Stadtwald statt.</dd>
+                            </div>
+                        </dl>
+                    </section>
+
+                    <section class="subpage-panel">
+                        <span class="subpage-eyebrow">Wichtige Hinweise</span>
+                        <div class="subpage-grid">
+                            <article class="subpage-note subpage-note--warning">
+                                <strong>Trainingsausfall: U12 Sprint</strong>
+                                <p>Am Mittwoch, den 22.05., fällt das Sprint-Training der U12 aufgrund einer Fortbildung des Trainers aus.</p>
+                            </article>
+                            <article class="subpage-note subpage-note--info">
+                                <strong>Pfingstferien 2024</strong>
+                                <p>In der ersten Pfingstferienwoche findet kein Training für die U10 und U12 statt. Alle anderen Gruppen trainieren nach Plan.</p>
+                            </article>
+                        </div>
+                    </section>
+                </aside>
+            </section>
         </div>
     </main>
-    <!-- Footer -->
-    <footer></footer>
+    <footer data-shared-footer-placeholder></footer>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const activeFilters = { age: 'all', discipline: 'all' };
@@ -211,10 +254,7 @@
                 buttons.forEach((button) => {
                     const isActive = activeFilters[button.dataset.filterGroup] === button.dataset.filterValue;
                     button.setAttribute('aria-pressed', String(isActive));
-                    button.classList.toggle('bg-primary', isActive);
-                    button.classList.toggle('text-[#111817]', isActive);
-                    button.classList.toggle('font-semibold', isActive);
-                    button.classList.toggle('bg-[#f0f4f4]', !isActive);
+                    button.classList.toggle('is-active', isActive);
                 });
             };
 
