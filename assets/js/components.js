@@ -152,7 +152,6 @@ function initSharedComponents() {
                     <ul class="space-y-4 text-slate-400 text-sm">
                         <li><a href="${basePath}pages/contact.html#imprint" class="site-footer-link transition-colors focus:outline-none">Impressum</a></li>
                         <li><a href="${basePath}pages/contact.html#privacy" class="site-footer-link transition-colors focus:outline-none">Datenschutz</a></li>
-                        <li><a href="${basePath}pages/scope-contract.html" class="site-footer-link transition-colors focus:outline-none">Scope/Vertrag</a></li>
                         <li><a href="${basePath}pages/contact.html#contact" class="site-footer-link transition-colors focus:outline-none">Kontakt</a></li>
                         <li><a href="${basePath}pages/sponsors.html" class="site-footer-link transition-colors focus:outline-none">Sponsoren</a></li>
                     </ul>

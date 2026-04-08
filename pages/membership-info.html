@@ -5,346 +5,323 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>RLC 1952 - Mitgliedsantrag</title>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Montserrat:wght@700;900&amp;display=swap"
-        rel="stylesheet" />
+    <title>RLC 1952 – Mitgliedschaft &amp; Einstieg</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Montserrat:wght@700;900&amp;display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
     <link href="../assets/css/design-tokens.css" rel="stylesheet" />
     <link href="../assets/css/style.css" rel="stylesheet" />
     <link href="../assets/css/responsive.css" rel="stylesheet" />
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <link href="../assets/css/subpages.css" rel="stylesheet" />
     <script src="../assets/js/components.js"></script>
-    <style>
-        .custom-radio:checked+label {
-            border-color: var(--color-primary);
-            background-color: color-mix(in srgb, var(--color-primary) 10%, transparent);
-        }
-
-        .timeline-step::before {
-            content: "";
-            position: absolute;
-            left: 0.875rem;
-            top: 2.5rem;
-            bottom: -1.5rem;
-            width: 2px;
-            background: #dbe6e5;
-        }
-
-        .timeline-step:last-child::before {
-            display: none;
-        }
- 
-        .form-preview[disabled] {
-            opacity: 1;
-        }
-
-        .form-preview[disabled] input,
-        .form-preview[disabled] select,
-        .form-preview[disabled] textarea,
-        .form-preview[disabled] button {
-            cursor: not-allowed;
-        }
-    </style>
 </head>
 
-<body
-    class="bg-background-light dark:bg-background-dark min-h-screen text-[#111817] dark:text-white transition-colors duration-200">
-    <!-- Top Navigation Bar -->
-    <header></header>
-   <main id="main-content" class="max-w-[800px] mx-auto px-4 pt-28 pb-32 md:pt-32 md:pb-32">
-        <!-- Progress Bar -->
-        <div class="mb-10 flex flex-col gap-3">
-            <div class="flex flex-col gap-4 md:flex-row md:justify-between md:items-end">
-                <div>
-                    <h2 class="text-3xl font-black tracking-tight dark:text-white">Mitglied werden</h2>
-                    <p class="text-[#618986] mt-1">Hier siehst du, welche Angaben du für eine Mitgliedschaft brauchst und wie du den Antrag aktuell startest.</p>
+<body class="subpage subpage-membership min-h-screen">
+    <header data-shared-shell-placeholder></header>
+
+    <main class="subpage-main">
+        <div class="subpage-stack">
+            <section class="subpage-intro subpage-membership-intro" aria-labelledby="membership-page-title">
+                <div class="subpage-intro__content">
+                    <span class="subpage-eyebrow">Mitgliedschaft &amp; Probetraining</span>
+                    <h1 id="membership-page-title" class="subpage-display">Mitglied werden mit <em>klaren nächsten Schritten</em>, realistischen Erwartungen und wenig Reibung.</h1>
+                    <p class="subpage-lead">Diese Seite ist als Einstiegs- und Entscheidungsfläche für neue Mitglieder aufgebaut: zuerst Orientierung, dann Vorbereitung, danach der direkte Weg zu Probetraining, Mitgliedschaftsanfrage oder Rückfrage an den Verein. Der verbindliche Antrag startet aktuell noch persönlich über den Kontakt zum RLC.</p>
+
+                    <div class="subpage-meta-row">
+                        <span class="subpage-meta"><span class="material-icons-round" aria-hidden="true">assignment</span><strong>Status:</strong> Vorbereitung statt Online-Abschluss</span>
+                        <span class="subpage-meta"><span class="material-icons-round" aria-hidden="true">groups</span><strong>Geeignet für:</strong> Einzelpersonen, Familien und Jugend</span>
+                        <span class="subpage-meta"><span class="material-icons-round" aria-hidden="true">bolt</span><strong>Nächster Schritt:</strong> Kontakt oder Probetraining abstimmen</span>
+                    </div>
+
+                    <div class="subpage-hero-points" aria-label="Drei schnelle Gründe für diese Mitgliedschaftsseite">
+                        <article class="subpage-hero-point">
+                            <span>Entscheidungshilfe</span>
+                            <strong>Die Seite erklärt vor dem ersten Kontakt, welche Angaben gebraucht werden und was danach passiert.</strong>
+                        </article>
+                        <article class="subpage-hero-point">
+                            <span>Niedrige Hürde</span>
+                            <strong>Probetraining, Mitgliedschaft und Rückfragen haben getrennte, klar lesbare Anschlusswege.</strong>
+                        </article>
+                        <article class="subpage-hero-point">
+                            <span>Vertrauen</span>
+                            <strong>Statt eines irreführenden Formularversprechens zeigt die Seite ehrlich den aktuellen Ablauf zum Beitritt.</strong>
+                        </article>
+                    </div>
+
+                    <div class="subpage-actions">
+                        <a href="contact.html#contact" class="subpage-button">Mitgliedschaft anfragen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                        <a href="training.html" class="subpage-button subpage-button--secondary">Probetraining vorbereiten <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                        <a href="#membership-preview-title" class="subpage-link">Direkt zur Antragsvorschau <span class="material-icons-round" aria-hidden="true">south</span></a>
+                    </div>
                 </div>
-                <div class="text-right">
-                    <p class="text-sm font-bold text-primary uppercase tracking-widest">Schritt 1 von 2 · Vorbereitung</p>
-                </div>
-            </div>
-            <div class="h-1 w-full bg-[#dbe6e5] dark:bg-white/10 overflow-hidden">
-                <div class="h-full bg-primary" style="width: 50%;"></div>
-            </div>
-        </div>
-        <section class="mb-8 border-b border-slate-200 pb-8 dark:border-white/10">
-            <div class="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
-                <div class="max-w-2xl">
-                    <p class="text-sm font-bold uppercase tracking-[0.2em] text-primary">So funktioniert der Einstieg</p>
-                    <h3 class="mt-2 text-2xl font-black tracking-tight">In wenigen Minuten weißt du, was du für den Beitritt brauchst.</h3>
-                    <p class="mt-3 text-sm leading-relaxed text-[#618986]">Auf dieser Seite sendest du noch nichts ab. Nutze die Vorschau, um alle Angaben und Unterlagen in Ruhe vorzubereiten. Danach kontaktierst du den Verein für den verbindlichen Antrag.</p>
-                </div>
-                <div class="border border-[#dbe6e5] p-4 dark:border-white/10 lg:max-w-[280px]">
-                    <p class="text-sm font-bold text-slate-900 dark:text-white">Dafür ist diese Seite da</p>
-                    <ul class="mt-3 space-y-2 text-sm text-[#618986]">
-                        <li>• Vorab sehen, welche Angaben gebraucht werden</li>
-                        <li>• Den Antrag ohne Zeitdruck vorbereiten</li>
-                        <li>• Den richtigen Kontakt zum Verein finden</li>
+
+                <aside class="subpage-intro__aside subpage-intro__aside--accent" aria-label="Schnelle Orientierung zur Mitgliedschaft">
+                    <span class="subpage-kicker">Kurzüberblick</span>
+                    <p class="subpage-copy">Die Mitgliedschaftsseite folgt jetzt derselben Subpage-Logik wie Training, Team, Sportstätten, Kontakt und News: starker Einstieg, klare Entscheidungshilfen, sichtbare Anschlusswege und ein ruhiger, nachvollziehbarer Informationsfluss.</p>
+
+                    <dl class="subpage-stat-list">
+                        <div>
+                            <dt>Antragspfad</dt>
+                            <dd>Der verbindliche Antrag wird vorbereitet und anschließend direkt mit dem Verein abgestimmt.</dd>
+                        </div>
+                        <div>
+                            <dt>Probetraining</dt>
+                            <dd>Wer zuerst Training und Gruppe kennenlernen möchte, kann den Einstieg vor der Mitgliedschaft abstimmen.</dd>
+                        </div>
+                        <div>
+                            <dt>Vorbereitung</dt>
+                            <dd>Persönliche Daten, SEPA-Angaben und Zustimmungen bleiben vor dem Kontakt transparent sichtbar.</dd>
+                        </div>
+                    </dl>
+
+                    <ul class="subpage-checklist" aria-label="Drei schnelle Hinweise zur Mitgliedschaft">
+                        <li><strong>Kein Blindflug:</strong> Die wichtigsten Unterlagen und Angaben sind vor dem ersten Gespräch sichtbar.</li>
+                        <li><strong>Kein unnötiger Druck:</strong> Ein Probetraining kann vor dem verbindlichen Antrag abgestimmt werden.</li>
+                        <li><strong>Klare Erwartung:</strong> Diese Seite ist bewusst Vorbereitung und Orientierung, nicht ein halbfertiger Online-Abschluss.</li>
                     </ul>
+                </aside>
+            </section>
+
+            <section class="subpage-highlight-strip" aria-label="Schnellorientierung für Mitgliedschaft und Einstieg">
+                <article>
+                    <span>Einstieg</span>
+                    <strong>Mitgliedschaft, Probetraining und Rückfragen sind sauber voneinander getrennt.</strong>
+                    <p>Neue Interessierte sehen sofort, ob sie direkt beitreten, erst Training ansehen oder zunächst Kontakt aufnehmen sollten.</p>
+                </article>
+                <article>
+                    <span>Vorbereitung</span>
+                    <strong>Alle wesentlichen Angaben werden vor dem Kontakt transparent und nachvollziehbar erklärt.</strong>
+                    <p>Das reduziert Rückfragen, spart Abstimmungsschleifen und schafft einen ruhigeren ersten Eindruck.</p>
+                </article>
+                <article>
+                    <span>Verbindlichkeit</span>
+                    <strong>Die Seite verspricht keinen digitalen Abschluss, den der Verein aktuell noch nicht anbietet.</strong>
+                    <p>Gerade auf einer conversion-orientierten Seite stärkt diese Ehrlichkeit das Vertrauen in den tatsächlichen Ablauf.</p>
+                </article>
+            </section>
+
+            <section class="subpage-grid subpage-grid--sidebar" aria-labelledby="membership-journey-title">
+                <div class="subpage-section subpage-section--tight">
+                    <section class="subpage-toolbar" aria-labelledby="membership-journey-title">
+                        <div class="subpage-title-row">
+                            <div>
+                                <span class="subpage-eyebrow">Ablauf &amp; Orientierung</span>
+                                <h2 id="membership-journey-title" class="subpage-title">So wird aus Interesse ein abgestimmter Einstieg in den Verein.</h2>
+                            </div>
+                        </div>
+
+                        <div class="membership-step-list" aria-label="Drei Schritte zur Mitgliedschaft">
+                            <article class="membership-step-card">
+                                <span class="membership-step-card__index">01</span>
+                                <h3>Passenden Einstieg wählen</h3>
+                                <p>Direkt beitreten, erst ein Probetraining abstimmen oder zunächst offene Fragen klären – alle drei Wege sind gleich sichtbar angelegt.</p>
+                            </article>
+                            <article class="membership-step-card">
+                                <span class="membership-step-card__index">02</span>
+                                <h3>Angaben vorbereiten</h3>
+                                <p>Die Vorschau zeigt alle Daten, die für Mitgliedschaft, Beitragseinzug und organisatorische Zuordnung gebraucht werden.</p>
+                            </article>
+                            <article class="membership-step-card">
+                                <span class="membership-step-card__index">03</span>
+                                <h3>Kontakt mit dem Verein aufnehmen</h3>
+                                <p>Danach wird der verbindliche Antrag mit dem Verein abgestimmt – inklusive Rückfragen, Trainingszuordnung und möglichem Probetraining.</p>
+                            </article>
+                        </div>
+                    </section>
+
+                    <section class="subpage-panel" aria-labelledby="membership-prep-title">
+                        <div class="subpage-title-row">
+                            <div>
+                                <span class="subpage-eyebrow">Vorbereitung vor dem Kontakt</span>
+                                <h2 id="membership-prep-title" class="subpage-title">Diese Informationen solltest du vor der Anfrage bereithalten.</h2>
+                            </div>
+                        </div>
+
+                        <div class="membership-prep-grid">
+                            <article class="membership-prep-card">
+                                <span class="material-icons-round" aria-hidden="true">badge</span>
+                                <h3>Persönliche Daten</h3>
+                                <p>Name, Geburtsdatum, Anschrift und erreichbare E-Mail-Adresse helfen bei der klaren Zuordnung.</p>
+                            </article>
+                            <article class="membership-prep-card">
+                                <span class="material-icons-round" aria-hidden="true">account_balance</span>
+                                <h3>SEPA-Angaben</h3>
+                                <p>Kontoinhaber und IBAN werden für den jährlichen Beitragseinzug benötigt.</p>
+                            </article>
+                            <article class="membership-prep-card">
+                                <span class="material-icons-round" aria-hidden="true">family_restroom</span>
+                                <h3>Mitgliedschaftsart</h3>
+                                <p>Aktiv, passiv oder Jugend – je nach Trainingsbezug und Alter der beitretenden Person.</p>
+                            </article>
+                            <article class="membership-prep-card">
+                                <span class="material-icons-round" aria-hidden="true">chat</span>
+                                <h3>Offene Fragen</h3>
+                                <p>Zum Beispiel zu Trainingszeiten, Probetraining, Minderjährigen oder organisatorischen Details.</p>
+                            </article>
+                        </div>
+
+                        <ul class="subpage-stack-list" aria-label="Zusätzliche Hinweise zur Vorbereitung">
+                            <li><strong>Für Familien:</strong> Die Vorschau macht sichtbar, welche Angaben für Kinder und Jugendliche typischerweise vorliegen sollten.</li>
+                            <li><strong>Für Neueinsteiger:</strong> Wer die passende Gruppe noch nicht kennt, sollte zuerst die <a href="training.html" class="subpage-link">Trainingsübersicht</a> ansehen oder direkt eine kurze Anfrage senden.</li>
+                            <li><strong>Für schnelle Rückmeldung:</strong> Je konkreter Anliegen, Alter und Trainingsziel beschrieben sind, desto leichter wird die Weiterleitung im Verein.</li>
+                        </ul>
+                    </section>
+
+                    <section class="subpage-surface subpage-surface--flush" aria-labelledby="membership-preview-title">
+                        <div class="subpage-title-row subpage-surface__header">
+                            <div>
+                                <span class="subpage-eyebrow">Antragsvorschau</span>
+                                <h2 id="membership-preview-title" class="subpage-title">So sieht die aktuelle Vorbereitung für den Mitgliedsantrag aus.</h2>
+                            </div>
+                        </div>
+
+                        <div class="membership-preview-note" role="note" aria-label="Hinweis zur Formularvorschau">
+                            <span class="material-icons-round" aria-hidden="true">info</span>
+                            <p>Alle Felder sind bewusst als Vorschau gestaltet. Die Online-Übermittlung findet aktuell noch nicht auf dieser Seite statt.</p>
+                        </div>
+
+                        <div class="membership-preview-stack">
+                            <section class="membership-preview-section" aria-labelledby="membership-type-heading">
+                                <div class="membership-preview-section__header">
+                                    <span class="material-icons-round" aria-hidden="true">groups</span>
+                                    <div>
+                                        <h3 id="membership-type-heading">Art der Mitgliedschaft</h3>
+                                        <p>Vorab sichtbar, damit die Anfrage direkt in die richtige organisatorische Richtung geht.</p>
+                                    </div>
+                                </div>
+                                <div class="membership-choice-grid">
+                                    <article class="membership-choice-card is-active">
+                                        <strong>Aktiv</strong>
+                                        <span>Regelmäßiges Training und Teilnahme am Vereinsbetrieb.</span>
+                                    </article>
+                                    <article class="membership-choice-card">
+                                        <strong>Passiv</strong>
+                                        <span>Unterstützung des Vereins ohne regelmäßigen Trainingsbetrieb.</span>
+                                    </article>
+                                    <article class="membership-choice-card">
+                                        <strong>Jugend</strong>
+                                        <span>Für Minderjährige mit altersgerechter Zuordnung im Trainingsbereich.</span>
+                                    </article>
+                                </div>
+                            </section>
+
+                            <section class="membership-preview-section" aria-labelledby="personal-data-heading">
+                                <div class="membership-preview-section__header">
+                                    <span class="material-icons-round" aria-hidden="true">person</span>
+                                    <div>
+                                        <h3 id="personal-data-heading">Persönliche Daten</h3>
+                                        <p>Diese Angaben braucht der Verein für Rückmeldung, Zuordnung und formale Mitgliederverwaltung.</p>
+                                    </div>
+                                </div>
+                                <div class="membership-field-grid">
+                                    <article class="membership-field"><span>Vorname</span><strong>z.&nbsp;B. Max</strong></article>
+                                    <article class="membership-field"><span>Nachname</span><strong>z.&nbsp;B. Mustermann</strong></article>
+                                    <article class="membership-field"><span>Geburtsdatum</span><strong>TT.MM.JJJJ</strong></article>
+                                    <article class="membership-field"><span>E-Mail</span><strong>max@beispiel.de</strong></article>
+                                    <article class="membership-field membership-field--wide"><span>Straße &amp; Hausnummer</span><strong>Beispielstraße 123</strong></article>
+                                    <article class="membership-field"><span>PLZ</span><strong>45657</strong></article>
+                                    <article class="membership-field"><span>Ort</span><strong>Recklinghausen</strong></article>
+                                </div>
+                            </section>
+
+                            <section class="membership-preview-section" aria-labelledby="bank-details-heading">
+                                <div class="membership-preview-section__header">
+                                    <span class="material-icons-round" aria-hidden="true">account_balance</span>
+                                    <div>
+                                        <h3 id="bank-details-heading">Bankverbindung &amp; Beitragseinzug</h3>
+                                        <p>Die SEPA-Daten werden für den jährlichen Beitragseinzug benötigt und deshalb frühzeitig transparent gemacht.</p>
+                                    </div>
+                                </div>
+                                <div class="membership-field-grid">
+                                    <article class="membership-field membership-field--wide"><span>Kontoinhaber</span><strong>Vor- und Nachname des Kontoinhabers</strong></article>
+                                    <article class="membership-field membership-field--wide"><span>IBAN</span><strong>DE00 0000 0000 0000 0000 00</strong></article>
+                                </div>
+                            </section>
+
+                            <section class="membership-preview-section" aria-labelledby="consents-heading">
+                                <div class="membership-preview-section__header">
+                                    <span class="material-icons-round" aria-hidden="true">gavel</span>
+                                    <div>
+                                        <h3 id="consents-heading">Rechtliches &amp; Datenschutz</h3>
+                                        <p>Auch die nötigen Zustimmungen sind im Vorfeld sichtbar, damit es beim verbindlichen Antrag keine Überraschungen gibt.</p>
+                                    </div>
+                                </div>
+                                <ul class="subpage-checklist membership-consent-list" aria-label="Vorschau auf notwendige Zustimmungen">
+                                    <li><strong>Datenschutz:</strong> Angaben werden nur für Vereinsorganisation, Mitgliederverwaltung und Beitragseinzug verwendet.</li>
+                                    <li><strong>Foto- und Videohinweis:</strong> Vereinskommunikation kann Aufnahmen von Veranstaltungen und Vereinsmomenten nutzen.</li>
+                                    <li><strong>Satzung:</strong> Die Mitgliedschaft setzt die Anerkennung der aktuell gültigen Vereinssatzung voraus.</li>
+                                </ul>
+                            </section>
+                        </div>
+                    </section>
                 </div>
-            </div>
-        </section>
-        <section class="mb-8 rounded-lg border border-[#dbe6e5] bg-background-light p-6 dark:border-white/10 dark:bg-white/5">
-            <div class="flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
-                <div class="max-w-2xl">
-                    <h3 class="text-lg font-bold">Dein Weg zur Mitgliedschaft</h3>
-                    <p class="mt-2 text-sm leading-relaxed text-[#618986]">Damit der Einstieg einfach bleibt, läuft die Anmeldung aktuell in diesen zwei Schritten ab.</p>
+
+                <aside class="subpage-section subpage-section--tight" aria-label="Entscheidungshilfe zur Mitgliedschaft">
+                    <section class="subpage-panel subpage-panel--plain membership-decision-panel">
+                        <span class="subpage-eyebrow">Entscheidungshilfe</span>
+                        <h2 class="subpage-panel__title">Welcher nächste Schritt ist gerade der richtige?</h2>
+                        <div class="membership-route-list">
+                            <article class="membership-route-card">
+                                <span class="material-icons-round" aria-hidden="true">how_to_reg</span>
+                                <div>
+                                    <h3>Direkt Mitgliedschaft anfragen</h3>
+                                    <p>Für alle, die den Beitritt grundsätzlich entschieden haben und den verbindlichen Antrag abstimmen möchten.</p>
+                                </div>
+                            </article>
+                            <article class="membership-route-card">
+                                <span class="material-icons-round" aria-hidden="true">directions_run</span>
+                                <div>
+                                    <h3>Erst Probetraining abstimmen</h3>
+                                    <p>Für Interessierte, die Trainingsgruppe, Niveau und Vereinsatmosphäre zunächst kennenlernen möchten.</p>
+                                </div>
+                            </article>
+                            <article class="membership-route-card">
+                                <span class="material-icons-round" aria-hidden="true">contact_support</span>
+                                <div>
+                                    <h3>Vorher Fragen klären</h3>
+                                    <p>Für Familien, Jugendliche oder Rückfragen zu Organisation, Ablauf und Zuständigkeiten.</p>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+
+                    <section class="subpage-panel membership-side-panel" aria-labelledby="membership-trial-title">
+                        <span class="subpage-eyebrow">Probetraining zuerst</span>
+                        <h2 id="membership-trial-title" class="subpage-panel__title">Für viele Interessierte ist ein Probetraining der sinnvollste Einstieg.</h2>
+                        <p>Gerade bei Kindern, Jugendlichen und Neueinsteigerinnen oder Neueinsteigern hilft ein kurzer Abgleich von Alter, Ziel und Trainingsgruppe vor dem verbindlichen Antrag.</p>
+                        <div class="subpage-actions">
+                            <a href="training.html" class="subpage-button subpage-button--secondary">Trainingsübersicht ansehen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                            <a href="contact.html#contact" class="subpage-link">Probetraining anfragen <span class="material-icons-round" aria-hidden="true">east</span></a>
+                        </div>
+                    </section>
+
+                    <section class="subpage-panel membership-side-panel" aria-labelledby="membership-contact-title">
+                        <span class="subpage-eyebrow">Kontakt &amp; Rückmeldung</span>
+                        <h2 id="membership-contact-title" class="subpage-panel__title">Was in der ersten Nachricht stehen sollte.</h2>
+                        <ul class="subpage-stack-list">
+                            <li><strong>Wer möchte einsteigen:</strong> Name, Alter oder Hinweis auf Familienanfrage.</li>
+                            <li><strong>Was das Ziel ist:</strong> Direkt Mitglied werden, Probetraining oder zunächst organisatorische Rückfrage.</li>
+                            <li><strong>Worauf sich die Anfrage bezieht:</strong> Trainingsgruppe, Mitgliedschaftsart oder Einstiegstermin.</li>
+                        </ul>
+                    </section>
+                </aside>
+            </section>
+
+            <section class="subpage-cta-band" aria-labelledby="membership-cta-title">
+                <div class="subpage-cta-band__content">
+                    <span class="subpage-kicker">Nächster Schritt nach der Orientierung</span>
+                    <h2 id="membership-cta-title" class="subpage-panel__title">Jetzt Mitgliedschaft, Probetraining oder Rückfrage sauber anstoßen.</h2>
+                    <p>Die Seite endet bewusst nicht bei Information: Mitgliedschaftsanfrage, Trainingsübersicht und Kontakt bleiben als klare Conversion-Wege sichtbar und anschlussfähig.</p>
                 </div>
-                    <p class="text-sm font-semibold text-primary">Kein Online-Antrag auf dieser Seite</p>
-            </div>
-            <ol class="mt-6 space-y-6">
-                <li class="timeline-step relative pl-12">
-                    <div class="absolute left-0 top-0 flex h-7 w-7 items-center justify-center rounded-full bg-primary text-xs font-black text-white">1</div>
-                    <h4 class="text-sm font-bold uppercase tracking-wide text-slate-900 dark:text-white">Vorbereiten</h4>
-                    <p class="mt-2 text-sm leading-relaxed text-[#618986]">Sieh dir die Felder unten an und prüfe, ob du persönliche Daten, Bankverbindung und nötige Zustimmungen griffbereit hast.</p>
-                </li>
-                <li class="timeline-step relative pl-12">
-                    <div class="absolute left-0 top-0 flex h-7 w-7 items-center justify-center rounded-full bg-slate-900 text-xs font-black text-white dark:bg-white dark:text-slate-900">2</div>
-                    <h4 class="text-sm font-bold uppercase tracking-wide text-slate-900 dark:text-white">Kontakt aufnehmen</h4>
-                    <p class="mt-2 text-sm leading-relaxed text-[#618986]">Wenn du alles vorbereitet hast, nimmst du Kontakt mit dem Verein auf. Dort klärst du den verbindlichen Antrag, Rückfragen oder ein Probetraining.</p>
-                </li>
-            </ol>
-        </section>
-        <section class="mb-8 rounded-lg border border-amber-200 bg-amber-50 p-6 text-amber-950 dark:border-amber-800 dark:bg-amber-950/20 dark:text-amber-100">
-            <div class="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
-                <div class="max-w-2xl">
-                    <h3 class="text-lg font-bold mb-2">Wichtiger Hinweis</h3>
-                    <p class="text-sm leading-relaxed">Die Felder unten sind absichtlich deaktiviert. Diese Seite ist eine Vorschau und keine Online-Anmeldung. Du erfährst hier, welche Angaben der Verein braucht und was dein nächster Schritt ist.</p>
-                </div>
-                <div class="flex flex-col gap-3 md:min-w-[240px]">
-                    <a href="contact.html" class="inline-flex items-center justify-center rounded-lg bg-slate-900 px-5 py-3 text-sm font-bold text-white dark:bg-white dark:text-slate-900">Mitgliedschaft anfragen</a>
-                    <a href="training.html" class="inline-flex items-center justify-center rounded-lg border border-slate-300 px-5 py-3 text-sm font-bold text-slate-900 dark:border-white/15 dark:text-white">Trainingszeiten ansehen</a>
-                </div>
-            </div>
-        </section>
-        <section class="mb-8 rounded-lg border border-[#dbe6e5] bg-white p-6 dark:border-white/10 dark:bg-white/5">
-            <div class="flex flex-col gap-6 lg:flex-row lg:justify-between">
-                <div class="max-w-2xl">
-                    <h3 class="text-lg font-bold">Diese Angaben solltest du vor dem Kontakt bereithalten</h3>
-                    <p class="mt-2 text-sm leading-relaxed text-[#618986]">Wenn du diese Informationen schon hast, kann der Verein deine Anfrage schneller einordnen und offene Fragen direkt klären.</p>
-                </div>
-                    <p class="text-sm text-[#618986] lg:max-w-[220px]">Das ist besonders hilfreich für Familien und alle, die zum ersten Mal Kontakt aufnehmen.</p>
-            </div>
-            <div class="mt-5 grid gap-3 sm:grid-cols-2">
-                <div class="border border-[#dbe6e5] p-4 dark:border-white/10">
-                    <p class="text-sm font-bold">Persönliche Angaben</p>
-                    <p class="mt-1 text-sm text-[#618986]">Name, Geburtsdatum, Adresse und erreichbare E-Mail-Adresse.</p>
-                </div>
-                <div class="border border-[#dbe6e5] p-4 dark:border-white/10">
-                    <p class="text-sm font-bold">Bankverbindung für SEPA</p>
-                    <p class="mt-1 text-sm text-[#618986]">Kontoinhaber und IBAN für den jährlichen Beitragseinzug.</p>
-                </div>
-                <div class="border border-[#dbe6e5] p-4 dark:border-white/10">
-                    <p class="text-sm font-bold">Mitgliedschaftsart</p>
-                    <p class="mt-1 text-sm text-[#618986]">Aktiv, passiv oder Jugend – je nachdem, wer beitreten möchte.</p>
-                </div>
-                <div class="border border-[#dbe6e5] p-4 dark:border-white/10">
-                    <p class="text-sm font-bold">Offene Fragen</p>
-                    <p class="mt-1 text-sm text-[#618986]">Zum Beispiel zum Probetraining, zu Zeiten oder zum Ablauf für Minderjährige.</p>
-                </div>
-            </div>
-        </section>
-        <form class="space-y-8" aria-describedby="membership-preview-note">
-            <p id="membership-preview-note" class="sr-only">Alle Formularfelder sind als Vorschau deaktiviert, da eine Online-Übermittlung derzeit nicht verfügbar ist.</p>
-            <fieldset class="form-preview space-y-8" disabled>
-            <!-- Section: Membership Type -->
-            <section aria-labelledby="membership-type-heading"
-                class="bg-white dark:bg-white/5 p-6 rounded-xl border border-[#dbe6e5] dark:border-white/10 shadow-sm">
-                <h3 id="membership-type-heading" class="text-lg font-bold mb-4 flex items-center gap-2">
-                    <span class="material-icons-round text-primary">groups</span>
-                    Art der Mitgliedschaft
-                </h3>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                    <div class="relative">
-                        <input checked="" class="hidden custom-radio" id="active" name="membership_type" type="radio" />
-                        <label
-                            class="flex flex-col p-4 border-2 border-transparent bg-background-light dark:bg-white/5 rounded-xl cursor-pointer hover:border-primary/50 transition-all"
-                            for="active">
-                            <span class="font-bold">Aktiv</span>
-                            <span class="text-xs text-[#618986]">Regelmäßiges Training und Wettkämpfe</span>
-                        </label>
-                    </div>
-                    <div class="relative">
-                        <input class="hidden custom-radio" id="passive" name="membership_type" type="radio" />
-                        <label
-                            class="flex flex-col p-4 border-2 border-transparent bg-background-light dark:bg-white/5 rounded-xl cursor-pointer hover:border-primary/50 transition-all"
-                            for="passive">
-                            <span class="font-bold">Passiv</span>
-                            <span class="text-xs text-[#618986]">Unterstützt den Verein ohne Trainingsbetrieb</span>
-                        </label>
-                    </div>
-                    <div class="relative">
-                        <input class="hidden custom-radio" id="youth" name="membership_type" type="radio" />
-                        <label
-                            class="flex flex-col p-4 border-2 border-transparent bg-background-light dark:bg-white/5 rounded-xl cursor-pointer hover:border-primary/50 transition-all"
-                            for="youth">
-                            <span class="font-bold">Jugend</span>
-                            <span class="text-xs text-[#618986]">Für Minderjährige bis 18 Jahre</span>
-                        </label>
-                    </div>
+                <div class="subpage-cta-band__actions">
+                    <a href="contact.html#contact" class="subpage-button">Mitgliedschaft anfragen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                    <a href="training.html" class="subpage-button subpage-button--secondary">Probetraining vorbereiten <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                    <a href="contact.html#contact" class="subpage-link">Kontakt zum Verein öffnen <span class="material-icons-round" aria-hidden="true">east</span></a>
                 </div>
             </section>
-            <!-- Section: Personal Data -->
-            <section aria-labelledby="personal-data-heading"
-                class="bg-white dark:bg-white/5 p-6 rounded-xl border border-[#dbe6e5] dark:border-white/10 shadow-sm">
-                <h3 id="personal-data-heading" class="text-lg font-bold mb-6 flex items-center gap-2">
-                    <span class="material-icons-round text-primary">person</span>
-                    Persönliche Daten
-                </h3>
-                 <p class="text-sm text-[#618986] mb-6">Hier siehst du, welche Daten für die Person gebraucht werden, die Mitglied werden soll. So kann der Verein den Antrag korrekt zuordnen und bei Rückfragen Kontakt aufnehmen.</p>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <label class="flex flex-col gap-2">
-                        <span class="text-sm font-semibold">Vorname</span>
-                        <input
-                            class="rounded-lg border-[#dbe6e5] dark:bg-background-dark dark:border-white/10 focus:border-primary focus:ring-primary/20 h-12"
-                            placeholder="z.B. Max" type="text" />
-                    </label>
-                    <label class="flex flex-col gap-2">
-                        <span class="text-sm font-semibold">Nachname</span>
-                        <input
-                            class="rounded-lg border-[#dbe6e5] dark:bg-background-dark dark:border-white/10 focus:border-primary focus:ring-primary/20 h-12"
-                            placeholder="z.B. Mustermann" type="text" />
-                    </label>
-                    <label class="flex flex-col gap-2">
-                        <span class="text-sm font-semibold">Geburtsdatum</span>
-                        <input
-                            class="rounded-lg border-[#dbe6e5] dark:bg-background-dark dark:border-white/10 focus:border-primary focus:ring-primary/20 h-12"
-                            type="date" />
-                    </label>
-                    <label class="flex flex-col gap-2">
-                        <span class="text-sm font-semibold">E-Mail</span>
-                        <input
-                            class="rounded-lg border-[#dbe6e5] dark:bg-background-dark dark:border-white/10 focus:border-primary focus:ring-primary/20 h-12"
-                            placeholder="max@beispiel.de" type="email" />
-                    </label>
-                    <div class="md:col-span-2">
-                        <label class="flex flex-col gap-2">
-                            <span class="text-sm font-semibold">Straße &amp; Hausnummer</span>
-                            <input
-                                class="rounded-lg border-[#dbe6e5] dark:bg-background-dark dark:border-white/10 focus:border-primary focus:ring-primary/20 h-12"
-                                placeholder="Beispielstraße 123" type="text" />
-                        </label>
-                    </div>
-                    <label class="flex flex-col gap-2">
-                        <span class="text-sm font-semibold">PLZ</span>
-                        <input
-                            class="rounded-lg border-[#dbe6e5] dark:bg-background-dark dark:border-white/10 focus:border-primary focus:ring-primary/20 h-12"
-                            placeholder="45657" type="text" />
-                    </label>
-                    <label class="flex flex-col gap-2">
-                        <span class="text-sm font-semibold">Ort</span>
-                        <input
-                            class="rounded-lg border-[#dbe6e5] dark:bg-background-dark dark:border-white/10 focus:border-primary focus:ring-primary/20 h-12"
-                            placeholder="Recklinghausen" type="text" />
-                    </label>
-                </div>
-            </section>
-            <!-- Section: Bank Details -->
-            <section aria-labelledby="bank-details-heading"
-                class="bg-white dark:bg-white/5 p-6 rounded-xl border border-[#dbe6e5] dark:border-white/10 shadow-sm">
-                <h3 id="bank-details-heading" class="text-lg font-bold mb-4 flex items-center gap-2">
-                    <span class="material-icons-round text-primary">account_balance</span>
-                    Bankverbindung (SEPA)
-                </h3>
-                 <p class="text-sm text-[#618986] mb-6">Diese Angaben werden nur für das SEPA-Lastschriftmandat verwendet. Der Mitgliedsbeitrag wird einmal pro Jahr eingezogen.
-                </p>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div class="md:col-span-2">
-                        <label class="flex flex-col gap-2">
-                            <span class="text-sm font-semibold">Kontoinhaber</span>
-                            <input
-                                class="rounded-lg border-[#dbe6e5] dark:bg-background-dark dark:border-white/10 focus:border-primary focus:ring-primary/20 h-12"
-                                placeholder="Vor- und Nachname des Kontoinhabers" type="text" />
-                        </label>
-                    </div>
-                    <div class="md:col-span-2">
-                        <label class="flex flex-col gap-2">
-                            <span class="text-sm font-semibold">IBAN</span>
-                            <input
-                                class="rounded-lg border-[#dbe6e5] dark:bg-background-dark dark:border-white/10 focus:border-primary focus:ring-primary/20 h-12"
-                                placeholder="DE00 0000 0000 0000 0000 00" type="text" />
-                        </label>
-                    </div>
-                </div>
-            </section>
-            <!-- Section: Consents -->
-            <section
-                class="bg-white dark:bg-white/5 p-6 rounded-xl border border-[#dbe6e5] dark:border-white/10 shadow-sm">
-                <h3 class="text-lg font-bold mb-6 flex items-center gap-2">
-                    <span class="material-icons-round text-primary">gavel</span>
-                    Rechtliches &amp; Datenschutz
-                </h3>
-                <div class="space-y-4">
-                    <label class="flex gap-4 items-start cursor-pointer group">
-                        <div class="mt-1">
-                            <input
-                                class="size-5 rounded text-primary focus:ring-primary border-[#dbe6e5] dark:bg-background-dark dark:border-white/10"
-                                type="checkbox" />
-                        </div>
-                        <div class="flex flex-col">
-                             <span
-                                 class="text-sm font-semibold group-hover:text-primary transition-colors">Datenschutzhinweise gelesen</span>
-                             <span class="text-xs text-[#618986]">Ich habe die Datenschutzhinweise gelesen. Meine Angaben werden nur für die Vereinsorganisation, Mitgliederverwaltung und den Beitragseinzug genutzt.</span>
-                        </div>
-                    </label>
-                    <label class="flex gap-4 items-start cursor-pointer group">
-                        <div class="mt-1">
-                            <input
-                                class="size-5 rounded text-primary focus:ring-primary border-[#dbe6e5] dark:bg-background-dark dark:border-white/10"
-                                type="checkbox" />
-                        </div>
-                        <div class="flex flex-col">
-                            <span class="text-sm font-semibold group-hover:text-primary transition-colors">Hinweis zu Foto- &amp;
-                                Videoaufnahmen</span>
-                            <span class="text-xs text-[#618986]">Ich habe zur Kenntnis genommen, dass bei Vereinsveranstaltungen Fotos und Videos für die Vereinskommunikation, zum Beispiel auf der Webseite, verwendet werden können.</span>
-                        </div>
-                    </label>
-                    <label class="flex gap-4 items-start cursor-pointer group">
-                        <div class="mt-1">
-                            <input
-                                class="size-5 rounded text-primary focus:ring-primary border-[#dbe6e5] dark:bg-background-dark dark:border-white/10"
-                                type="checkbox" />
-                        </div>
-                        <div class="flex flex-col">
-                            <span
-                                 class="text-sm font-semibold group-hover:text-primary transition-colors">Satzung anerkennen</span>
-                            <span class="text-xs text-[#618986]">Ich erkenne die Satzung des RLC 1952 in ihrer aktuell gültigen Fassung an.</span>
-                        </div>
-                    </label>
-                </div>
-            </section>
-            </fieldset>
-        </form>
-        <section class="mt-8 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-white/10 dark:bg-white/5">
-            <div class="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-                <div>
-                    <h3 class="text-lg font-bold">So geht es weiter</h3>
-                    <p class="text-sm text-[#618986] mt-1">Wenn du die Angaben geprüft hast, nimm direkt Kontakt mit dem Verein auf. Dort klärst du den verbindlichen Antrag, ein Probetraining und individuelle Fragen.</p>
-                </div>
-                <div class="flex flex-col gap-3 sm:flex-row">
-                    <a href="contact.html" class="inline-flex items-center justify-center rounded-xl bg-primary px-5 py-3 text-sm font-bold text-white">Kontakt aufnehmen</a>
-                    <a href="../index.html" class="inline-flex items-center justify-center rounded-xl border border-slate-300 px-5 py-3 text-sm font-bold text-slate-900 dark:border-white/15 dark:text-white">Zur Startseite</a>
-                </div>
-            </div>
-            <div class="mt-5 grid gap-3 text-sm text-[#618986] md:grid-cols-3">
-                <div class="rounded-xl bg-background-light p-4 dark:bg-background-dark/60">
-                    <p class="font-bold text-slate-900 dark:text-white">Verbindlicher Antrag</p>
-                    <p class="mt-1">Der verbindliche Antrag wird aktuell nicht online über diese Seite gestellt.</p>
-                </div>
-                <div class="rounded-xl bg-background-light p-4 dark:bg-background-dark/60">
-                    <p class="font-bold text-slate-900 dark:text-white">Probetraining</p>
-                    <p class="mt-1">Ein Probetraining stimmst du am einfachsten direkt mit dem Verein ab.</p>
-                </div>
-                <div class="rounded-xl bg-background-light p-4 dark:bg-background-dark/60">
-                    <p class="font-bold text-slate-900 dark:text-white">Fragen vorab</p>
-                    <p class="mt-1">Offene Fragen kannst du vorab über das Kontaktformular oder persönlich klären.</p>
-                </div>
-            </div>
-        </section>
+        </div>
     </main>
-    <!-- Sticky Bottom Action Bar -->
-    <footer></footer>
+
+    <footer data-shared-shell-placeholder></footer>
 </body>
 
 </html>

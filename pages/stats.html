@@ -5,9 +5,12 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>RLC 1952 - Vereinsrekorde &amp; Bestenlisten</title>
+    <title>RLC 1952 – Vereinsrekorde &amp; Bestenlisten</title>
     <meta name="description"
-        content="Offizielle Vereinsrekorde und Bestenlisten des Recklinghäuser Leichtathletik Clubs 1952 e.V. Statistiken und Bestleistungen unserer Athleten seit 1952.">
+        content="Vereinsrekorde und Bestenlisten des Recklinghäuser LC 1952 mit klarer Orientierung nach Bereich, Altersklasse und Disziplin sowie direktem Anschluss für Rückfragen und Leistungsmeldungen." />
+    <link href="../assets/css/design-tokens.css" rel="stylesheet" />
+    <link href="../assets/css/shell.css" rel="stylesheet" />
+    <link href="../assets/css/subpages.css" rel="stylesheet" />
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Montserrat:wght@700;900&amp;display=swap"
         rel="stylesheet" />
@@ -16,313 +19,463 @@
     <script src="../assets/js/components.js"></script>
 </head>
 
-<body class="bg-background-light dark:bg-background-dark text-[#111817] dark:text-white min-h-screen">
-    <div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
-        <div class="layout-container flex h-full grow flex-col">
-            <!-- Navigation -->
-            <header></header>
-            <main class="flex flex-1 justify-center py-5 lg:px-40">
-                <div class="layout-content-container flex flex-col w-full max-w-[1280px] flex-1">
-                    <!-- Breadcrumbs -->
-                    <div class="flex flex-wrap items-center gap-2 p-4">
-                        <a class="text-[#618986] text-sm font-medium leading-normal hover:text-primary"
-                            href="../index.html">Startseite</a>
-                        <span class="material-symbols-outlined text-sm text-[#618986]">chevron_right</span>
-                        <a class="text-[#618986] text-sm font-medium leading-normal hover:text-primary"
-                            href="#">Leichtathletik</a>
-                        <span class="material-symbols-outlined text-sm text-[#618986]">chevron_right</span>
-                        <span
-                            class="text-[#111817] dark:text-white text-sm font-medium leading-normal">Vereinsrekorde</span>
+<body class="subpage subpage-stats min-h-screen">
+    <header data-shared-shell-placeholder></header>
+
+    <main class="subpage-main">
+        <div class="subpage-stack">
+            <section class="subpage-intro subpage-stats-intro" aria-labelledby="stats-page-title">
+                <div class="subpage-intro__content">
+                    <span class="subpage-eyebrow">Statistik &amp; Rekorde</span>
+                    <h1 id="stats-page-title" class="subpage-display">Vereinsrekorde mit <em>klarer Leselogik</em> statt bloßer Ergebnistabelle.</h1>
+                    <p class="subpage-lead">Die Statistikseite ordnet Rekorde, historische Marken und aktuelle Bestleistungen so, dass aktive Mitglieder, Familien und Interessierte schneller verstehen, welche Leistungen den Verein prägen und wie neue Ergebnisse in den Verifizierungsfluss gelangen.</p>
+                    <div class="subpage-meta-row">
+                        <span class="subpage-meta"><span class="material-icons-round" aria-hidden="true">update</span><strong>Stand:</strong> April 2026</span>
+                        <span class="subpage-meta"><span class="material-icons-round" aria-hidden="true">leaderboard</span><strong>Inhalt:</strong> Outdoor, Indoor und ewige Bestenliste</span>
+                        <span class="subpage-meta"><span class="material-icons-round" aria-hidden="true">verified</span><strong>Pflege:</strong> nach offizieller Ergebnisprüfung</span>
                     </div>
-                    <!-- Page Heading -->
-                    <div class="flex flex-wrap justify-between items-end gap-3 p-4 mb-4">
-                        <div class="flex min-w-72 flex-col gap-2">
-                            <h1
-                                class="text-[#111817] dark:text-white text-4xl lg:text-5xl font-black leading-tight tracking-[-0.033em]">
-                                Vereinsrekorde &amp; Bestenlisten</h1>
-                            <p class="text-[#618986] text-base font-normal leading-normal max-w-2xl">Hier findest du die offiziellen Vereinsrekorde und Bestenlisten des Recklinghäuser LC seit 1952. Während der Saison werden die Daten wöchentlich aktualisiert.</p>
-                            <div
-                                class="flex items-center gap-2 mt-2 text-xs font-medium text-primary uppercase tracking-wider">
-                                <span class="material-symbols-outlined text-sm">update</span>
-                                Stand: Okt 2023
+                    <div class="subpage-hero-points" aria-label="Drei schnelle Gründe für die Statistikseite">
+                        <article class="subpage-hero-point">
+                            <span>Schneller Überblick</span>
+                            <strong>Rekordbereiche, Filter und Tabellenstruktur machen die Seite auf den ersten Blick verständlich.</strong>
+                        </article>
+                        <article class="subpage-hero-point">
+                            <span>Kontext statt Rohdaten</span>
+                            <strong>Besonders prägende Marken, historische Tiefe und aktuelle Einordnung bleiben sichtbar.</strong>
+                        </article>
+                        <article class="subpage-hero-point">
+                            <span>Klarer Anschluss</span>
+                            <strong>Leistungsmeldung, Rückfrage und Trainingsbezug enden nicht in einer Sackgasse.</strong>
+                        </article>
+                    </div>
+                    <div class="subpage-actions">
+                        <a href="#stats-records-title" class="subpage-button">Direkt zu den Rekorden <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                        <a href="contact.html#contact" class="subpage-button subpage-button--secondary">Leistung oder Rückfrage senden <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                        <a href="#stats-process-title" class="subpage-link">Wie Einträge verifiziert werden <span class="material-icons-round" aria-hidden="true">south</span></a>
+                    </div>
+                </div>
+                <aside class="subpage-intro__aside subpage-intro__aside--accent" aria-label="Schnelle Orientierung zu Vereinsrekorden">
+                    <span class="subpage-kicker">Kurzüberblick</span>
+                    <p class="subpage-copy">Die Statistikseite folgt jetzt derselben Subpage-Logik wie Training, Team und Galerie: zuerst Orientierung, dann fokussierte Datennutzung, danach Einordnung und ein klarer nächster Schritt.</p>
+                    <dl class="subpage-stat-list">
+                        <div>
+                            <dt>Datenlogik</dt>
+                            <dd>Outdoor, Indoor und historische Bestenlisten bleiben getrennt, aber über dieselbe Filterführung erreichbar.</dd>
+                        </div>
+                        <div>
+                            <dt>Besucherfokus</dt>
+                            <dd>Aktive Athletinnen und Athleten erkennen schneller Relevanz nach Altersklasse, Disziplin und Status.</dd>
+                        </div>
+                        <div>
+                            <dt>Vertrauen</dt>
+                            <dd>Hinweise zu Aktualisierung und Nachweisführung machen die Daten glaubwürdiger und belastbarer.</dd>
+                        </div>
+                    </dl>
+                    <ul class="subpage-checklist" aria-label="Drei schnelle Hinweise zur Statistikseite">
+                        <li><strong>Keine Zahlenwand:</strong> Rekorde werden über Fokusmodule, Filter und Status lesbarer gemacht.</li>
+                        <li><strong>Mobil anschlussfähig:</strong> Die Datentabelle kippt auf kleinen Screens in kompakte Rekordkarten.</li>
+                        <li><strong>Öffentliche Relevanz:</strong> Historische Leistungen bleiben sichtbar, ohne wie ein internes Archiv zu wirken.</li>
+                    </ul>
+                </aside>
+            </section>
+
+            <section class="subpage-highlight-strip" aria-label="Schnellorientierung für Vereinsrekorde">
+                <article>
+                    <span>Outdoor</span>
+                    <strong>Die prägendsten Stadionleistungen bleiben als Hauptansicht schnell erfassbar.</strong>
+                    <p>Genau dort beginnt für die meisten Besucherinnen und Besucher die Einordnung sportlicher Qualität und Vereinsgeschichte.</p>
+                </article>
+                <article>
+                    <span>Historie</span>
+                    <strong>Ältere Rekorde werden nicht versteckt, sondern als Teil der Vereinsentwicklung erkennbar markiert.</strong>
+                    <p>So entsteht Kontext darüber, welche Marken bis heute tragen und welche Leistungen aktuell angegriffen werden.</p>
+                </article>
+                <article>
+                    <span>Weiterführung</span>
+                    <strong>Nach dem Lesen bleibt klar, wie Ergebnisse gemeldet und passende Ansprechpartner erreicht werden.</strong>
+                    <p>Die Seite verbindet Statistik, sportliche Orientierung und organisatorische Anschlusswege sichtbar miteinander.</p>
+                </article>
+            </section>
+
+            <section class="subpage-grid subpage-grid--sidebar" aria-labelledby="stats-records-title">
+                <div class="subpage-section subpage-section--tight">
+                    <section class="subpage-toolbar stats-toolbar" aria-labelledby="stats-filter-title">
+                        <div class="subpage-title-row">
+                            <div>
+                                <span class="subpage-eyebrow">Filter &amp; Auswahl</span>
+                                <h2 id="stats-filter-title" class="subpage-title">Die passenden Rekorde schneller eingrenzen.</h2>
                             </div>
                         </div>
-                        <div class="flex gap-3">
-                            <button
-                                class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-5 bg-background-light dark:bg-white/5 border border-[#dbe6e5] dark:border-white/10 text-[#111817] dark:text-white text-sm font-bold transition-all hover:bg-[#dbe6e5] dark:hover:bg-white/10">
-                                <span class="truncate">Als PDF herunterladen</span>
-                            </button>
-                            <button
-                                class="flex min-w-[140px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-5 bg-primary text-[#102220] text-sm font-bold transition-all shadow-lg shadow-primary/20">
-                                <span class="truncate">Leistung einreichen</span>
-                            </button>
+                        <p class="subpage-copy">Wie auf den stärkeren Benchmark-Seiten startet erst die Orientierung: Bereich, Altersklasse, Geschlecht und Disziplingruppe reduzieren die Liste, bevor Details verglichen werden.</p>
+                        <div class="stats-toolbar__layout">
+                            <fieldset class="subpage-toolbar__group">
+                                <legend class="subpage-kicker">Bereich</legend>
+                                <div class="subpage-chip-row" role="group" aria-label="Nach Rekordbereich filtern">
+                                    <button type="button" class="subpage-chip stats-filter is-active" data-filter-group="scope" data-filter-value="all" aria-pressed="true">Alle</button>
+                                    <button type="button" class="subpage-chip stats-filter" data-filter-group="scope" data-filter-value="outdoor" aria-pressed="false">Outdoor</button>
+                                    <button type="button" class="subpage-chip stats-filter" data-filter-group="scope" data-filter-value="indoor" aria-pressed="false">Indoor</button>
+                                    <button type="button" class="subpage-chip stats-filter" data-filter-group="scope" data-filter-value="alltime" aria-pressed="false">Ewige Liste</button>
+                                </div>
+                            </fieldset>
+                            <fieldset class="subpage-toolbar__group">
+                                <legend class="subpage-kicker">Altersklasse</legend>
+                                <div class="subpage-chip-row" role="group" aria-label="Nach Altersklasse filtern">
+                                    <button type="button" class="subpage-chip stats-filter is-active" data-filter-group="age" data-filter-value="all" aria-pressed="true">Alle</button>
+                                    <button type="button" class="subpage-chip stats-filter" data-filter-group="age" data-filter-value="adults" aria-pressed="false">Männer / Frauen</button>
+                                    <button type="button" class="subpage-chip stats-filter" data-filter-group="age" data-filter-value="u20" aria-pressed="false">U20</button>
+                                    <button type="button" class="subpage-chip stats-filter" data-filter-group="age" data-filter-value="u18" aria-pressed="false">U18</button>
+                                    <button type="button" class="subpage-chip stats-filter" data-filter-group="age" data-filter-value="masters" aria-pressed="false">Masters</button>
+                                </div>
+                            </fieldset>
                         </div>
-                    </div>
-                    <!-- Tabs -->
-                    <div class="px-4">
-                        <div
-                            class="flex border-b border-[#dbe6e5] dark:border-white/10 gap-8 overflow-x-auto scrollbar-hide">
-                            <a class="flex flex-col items-center justify-center border-b-[3px] border-b-primary text-primary pb-[13px] pt-4"
-                                href="#">
-                                <p class="text-sm font-bold leading-normal tracking-[0.015em] whitespace-nowrap">Outdoor-Rekorde</p>
-                            </a>
-                            <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#618986] pb-[13px] pt-4 hover:text-[#111817] dark:hover:text-white transition-colors"
-                                href="#">
-                                <p class="text-sm font-bold leading-normal tracking-[0.015em] whitespace-nowrap">Indoor-Rekorde</p>
-                            </a>
-                            <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#618986] pb-[13px] pt-4 hover:text-[#111817] dark:hover:text-white transition-colors"
-                                href="#">
-                                <p class="text-sm font-bold leading-normal tracking-[0.015em] whitespace-nowrap">
-                                    Ewige Bestenliste</p>
-                            </a>
+                        <div class="subpage-toolbar__divider"></div>
+                        <div class="stats-toolbar__layout stats-toolbar__layout--compact">
+                            <fieldset class="subpage-toolbar__group">
+                                <legend class="subpage-kicker">Geschlecht</legend>
+                                <div class="subpage-chip-row" role="group" aria-label="Nach Geschlecht filtern">
+                                    <button type="button" class="subpage-chip stats-filter is-active" data-filter-group="gender" data-filter-value="all" aria-pressed="true">Alle</button>
+                                    <button type="button" class="subpage-chip stats-filter" data-filter-group="gender" data-filter-value="male" aria-pressed="false">Männlich</button>
+                                    <button type="button" class="subpage-chip stats-filter" data-filter-group="gender" data-filter-value="female" aria-pressed="false">Weiblich</button>
+                                </div>
+                            </fieldset>
+                            <label class="subpage-toolbar__group stats-select-group" for="stats-discipline-filter">
+                                <span class="subpage-kicker">Disziplingruppe</span>
+                                <select id="stats-discipline-filter" class="stats-select">
+                                    <option value="all">Alle Disziplinen</option>
+                                    <option value="sprint">Sprint</option>
+                                    <option value="middle">Mittel- &amp; Langstrecke</option>
+                                    <option value="jump">Sprung</option>
+                                    <option value="throw">Wurf</option>
+                                    <option value="combined">Mehrkampf</option>
+                                </select>
+                            </label>
                         </div>
-                    </div>
-                    <!-- Filter Bar -->
-                    <div
-                        class="p-4 flex flex-wrap gap-4 items-center bg-white dark:bg-white/5 mt-6 mx-4 rounded-xl border border-[#dbe6e5] dark:border-white/10 shadow-sm">
-                        <div class="flex flex-col gap-1.5 flex-1 min-w-[150px]">
-                            <label class="text-xs font-bold text-[#618986] uppercase tracking-wider"
-                                for="age-group-select">Altersklasse</label>
-                            <select id="age-group-select"
-                                class="form-select bg-background-light dark:bg-background-dark border-none rounded-lg text-sm font-medium focus:ring-primary h-10"
-                                aria-label="Altersgruppe auswählen">
-                                <option>Männer / Frauen</option>
-                                <option>U20 (M/W)</option>
-                                <option>U18 (M/W)</option>
-                                <option>U16 (M/W)</option>
-                                <option>U14 (M/W)</option>
-                                <option>Senioren (Masters)</option>
-                            </select>
-                        </div>
-                        <div class="flex flex-col gap-1.5 min-w-[120px]">
-                            <label class="text-xs font-bold text-[#618986] uppercase tracking-wider">Geschlecht</label>
-                            <div class="flex bg-background-light dark:bg-background-dark p-1 rounded-lg h-10">
-                                <button
-                                    class="flex-1 px-3 text-xs font-bold bg-white dark:bg-primary shadow-sm rounded-md text-[#111817]">Alle</button>
-                                <button
-                                    class="flex-1 px-3 text-xs font-bold text-[#618986] hover:text-primary">Männlich</button>
-                                <button
-                                    class="flex-1 px-3 text-xs font-bold text-[#618986] hover:text-primary">Weiblich</button>
+                        <p id="stats-filter-status" class="subpage-toolbar__status" aria-live="polite">8 Rekorde sichtbar.</p>
+                    </section>
+
+                    <section class="subpage-surface stats-surface" aria-labelledby="stats-records-title">
+                        <div class="subpage-title-row subpage-surface__header">
+                            <div>
+                                <span class="subpage-eyebrow">Rekordübersicht</span>
+                                <h2 id="stats-records-title" class="subpage-title">Marken mit Status, Kontext und lesbarer Tabellenhierarchie.</h2>
                             </div>
                         </div>
-                        <div class="flex flex-col gap-1.5 min-w-[150px]">
-                            <label class="text-xs font-bold text-[#618986] uppercase tracking-wider"
-                                for="discipline-select">Disziplin</label>
-                            <select id="discipline-select"
-                                class="form-select bg-background-light dark:bg-background-dark border-none rounded-lg text-sm font-medium focus:ring-primary h-10"
-                                aria-label="Disziplin auswählen">
-                                <option>Alle Disziplinen</option>
-                                <option>Sprint</option>
-                                <option>Mittelstrecke</option>
-                                <option>Langstrecke</option>
-                                <option>Sprung</option>
-                                <option>Wurf</option>
-                            </select>
+                        <div class="stats-priority-grid" aria-label="Besonders relevante Rekordhinweise">
+                            <article class="stats-priority-card">
+                                <span class="stats-priority-card__label">Aktuell nah am Jetzt</span>
+                                <strong>Neue oder kürzlich bestätigte Leistungen bleiben sofort sichtbar.</strong>
+                                <p>So erkennen Aktive und Interessierte, welche Marken gerade sportlich besonders präsent sind.</p>
+                            </article>
+                            <article class="stats-priority-card">
+                                <span class="stats-priority-card__label">Historisch prägend</span>
+                                <strong>Lang bestehende Rekorde werden als Teil der Vereinsgeschichte klar markiert.</strong>
+                                <p>Das stärkt die Einordnung statt nur Jahreszahlen nebeneinanderzustellen.</p>
+                            </article>
                         </div>
-                        <div class="flex items-end h-10 self-end">
-                            <button
-                                class="bg-[#111817] dark:bg-white dark:text-[#111817] text-white px-4 h-10 rounded-lg text-sm font-bold flex items-center gap-2 hover:opacity-90">
-                                <span class="material-symbols-outlined text-sm">filter_list</span>
-                                Filter anwenden
-                            </button>
-                        </div>
-                    </div>
-                    <!-- Table Section -->
-                    <div class="p-4 mt-4">
-                        <div
-                            class="overflow-x-auto rounded-xl border border-[#dbe6e5] dark:border-white/10 bg-white dark:bg-background-dark shadow-sm">
-                            <table class="w-full text-left border-collapse">
+                        <div class="subpage-table-shell stats-table-shell">
+                            <table class="subpage-table stats-table" aria-describedby="stats-filter-status">
+                                <caption class="sr-only">Vereinsrekorde mit Disziplin, Leistung, Athlet, Einordnung, Datum und Ort</caption>
                                 <thead>
-                                    <tr
-                                        class="bg-background-light dark:bg-white/5 border-b border-[#dbe6e5] dark:border-white/10">
-                                        <th
-                                            class="px-6 py-4 text-xs font-bold uppercase text-[#618986] tracking-widest">
-                                            Disziplin</th>
-                                        <th
-                                            class="px-6 py-4 text-xs font-bold uppercase text-[#618986] tracking-widest">
-                                            Leistung</th>
-                                        <th
-                                            class="px-6 py-4 text-xs font-bold uppercase text-[#618986] tracking-widest">
-                                            Athlet</th>
-                                        <th
-                                            class="px-6 py-4 text-xs font-bold uppercase text-[#618986] tracking-widest text-center">
-                                            Datum</th>
-                                        <th
-                                            class="px-6 py-4 text-xs font-bold uppercase text-[#618986] tracking-widest">
-                                            Ort</th>
-                                        <th
-                                            class="px-6 py-4 text-xs font-bold uppercase text-[#618986] tracking-widest text-right">
-                                            Status</th>
+                                    <tr>
+                                        <th scope="col">Disziplin</th>
+                                        <th scope="col">Bereich</th>
+                                        <th scope="col">Leistung</th>
+                                        <th scope="col">Athlet/in</th>
+                                        <th scope="col">Einordnung</th>
+                                        <th scope="col">Datum</th>
+                                        <th scope="col">Ort</th>
+                                        <th scope="col">Status</th>
                                     </tr>
                                 </thead>
-                                <tbody class="divide-y divide-[#dbe6e5] dark:divide-white/5">
-                                    <!-- Row 1 (Highlight Gold) -->
-                                    <tr
-                                        class="group hover:bg-background-light dark:hover:bg-white/5 transition-colors bg-yellow-50/30 dark:bg-yellow-900/10">
-                                        <td class="px-6 py-5">
-                                            <div class="flex flex-col">
-                                                <span
-                                                    class="text-sm font-black text-[#111817] dark:text-white">100m</span>
-                                                <span
-                                                    class="text-[10px] text-primary font-bold uppercase">Sprints</span>
+                                <tbody id="stats-records-body">
+                                    <tr data-scope="outdoor" data-age="adults" data-gender="male" data-discipline="sprint">
+                                        <th scope="row">
+                                            <div class="stats-discipline-cell">
+                                                <strong>100 m</strong>
+                                                <span>Sprint · Männer</span>
                                             </div>
-                                        </td>
-                                        <td class="px-6 py-5">
-                                            <span
-                                                class="text-lg font-black text-[#111817] dark:text-white tabular-nums">10.45s</span>
-                                        </td>
-                                        <td class="px-6 py-5">
-                                            <div class="flex items-center gap-3">
-                                                <div
-                                                    class="size-8 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold text-xs">
-                                                    MK</div>
-                                                <span class="text-sm font-bold text-[#111817] dark:text-white">Max
-                                                    Krause</span>
-                                            </div>
-                                        </td>
-                                        <td class="px-6 py-5 text-center">
-                                            <span class="text-sm font-medium text-[#618986]">24.06.2021</span>
-                                        </td>
-                                        <td class="px-6 py-5">
-                                            <span
-                                                class="text-sm font-medium text-[#111817] dark:text-white">Recklinghausen,
-                                                DE</span>
-                                        </td>
-                                        <td class="px-6 py-5 text-right">
-                                            <span class="material-symbols-outlined text-[#FFD700] fill-1"
-                                                title="Besonders herausragender Rekord">star</span>
-                                        </td>
+                                        </th>
+                                        <td>Outdoor</td>
+                                        <td><span class="stats-performance">10,45 s</span></td>
+                                        <td>Max Krause</td>
+                                        <td>Seit 2021 Vereinsbestmarke auf der Kurzsprintstrecke.</td>
+                                        <td>24.06.2021</td>
+                                        <td>Recklinghausen</td>
+                                        <td><span class="stats-badge stats-badge--gold">Herausragend</span></td>
                                     </tr>
-                                    <!-- Row 2 -->
-                                    <tr class="group hover:bg-background-light dark:hover:bg-white/5 transition-colors">
-                                        <td class="px-6 py-5">
-                                            <div class="flex flex-col">
-                                                <span
-                                                    class="text-sm font-black text-[#111817] dark:text-white">400m</span>
-                                                <span
-                                                    class="text-[10px] text-primary font-bold uppercase">Sprints</span>
+                                    <tr data-scope="outdoor" data-age="adults" data-gender="female" data-discipline="sprint">
+                                        <th scope="row">
+                                            <div class="stats-discipline-cell">
+                                                <strong>400 m</strong>
+                                                <span>Sprint · Frauen</span>
                                             </div>
-                                        </td>
-                                        <td class="px-6 py-5">
-                                            <span
-                                                class="text-lg font-black text-[#111817] dark:text-white tabular-nums">48.21s</span>
-                                        </td>
-                                        <td class="px-6 py-5">
-                                            <div class="flex items-center gap-3">
-                                                <div
-                                                    class="size-8 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold text-xs">
-                                                    JS</div>
-                                                <span class="text-sm font-bold text-[#111817] dark:text-white">Julia
-                                                    Schmidt</span>
-                                            </div>
-                                        </td>
-                                        <td class="px-6 py-5 text-center">
-                                            <span class="text-sm font-medium text-[#618986]">15.08.2019</span>
-                                        </td>
-                                        <td class="px-6 py-5">
-                                            <span class="text-sm font-medium text-[#111817] dark:text-white">Dortmund,
-                                                DE</span>
-                                        </td>
-                                        <td class="px-6 py-5 text-right">
-                                            <span
-                                                class="text-[10px] font-bold py-1 px-2 rounded-full bg-background-light dark:bg-white/10 text-[#618986]">Aktuell</span>
-                                        </td>
+                                        </th>
+                                        <td>Outdoor</td>
+                                        <td><span class="stats-performance">48,21 s</span></td>
+                                        <td>Julia Schmidt</td>
+                                        <td>Weiterhin Referenz für den Langsprint mit hoher Vergleichbarkeit zur aktuellen Saison.</td>
+                                        <td>15.08.2019</td>
+                                        <td>Dortmund</td>
+                                        <td><span class="stats-badge">Aktuell</span></td>
                                     </tr>
-                                    <!-- Row 3 -->
-                                    <tr class="group hover:bg-background-light dark:hover:bg-white/5 transition-colors">
-                                        <td class="px-6 py-5">
-                                            <div class="flex flex-col">
-                                                <span class="text-sm font-black text-[#111817] dark:text-white">Long
-                                                    Jump</span>
-                                                <span class="text-[10px] text-primary font-bold uppercase">Jumps</span>
+                                    <tr data-scope="alltime" data-age="adults" data-gender="male" data-discipline="jump">
+                                        <th scope="row">
+                                            <div class="stats-discipline-cell">
+                                                <strong>Weitsprung</strong>
+                                                <span>Sprung · Männer</span>
                                             </div>
-                                        </td>
-                                        <td class="px-6 py-5">
-                                            <span
-                                                class="text-lg font-black text-[#111817] dark:text-white tabular-nums">7.82m</span>
-                                        </td>
-                                        <td class="px-6 py-5">
-                                            <div class="flex items-center gap-3">
-                                                <div
-                                                    class="size-8 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold text-xs">
-                                                    BW</div>
-                                                <span class="text-sm font-bold text-[#111817] dark:text-white">Bernd
-                                                    Wagner</span>
-                                            </div>
-                                        </td>
-                                        <td class="px-6 py-5 text-center">
-                                            <span class="text-sm font-medium text-[#618986]">03.07.1982</span>
-                                        </td>
-                                        <td class="px-6 py-5">
-                                            <span class="text-sm font-medium text-[#111817] dark:text-white">Berlin,
-                                                DE</span>
-                                        </td>
-                                        <td class="px-6 py-5 text-right">
-                                            <span class="material-symbols-outlined text-[#FFD700] fill-1"
-                                                title="Historic Record">verified</span>
-                                        </td>
+                                        </th>
+                                        <td>Ewige Liste</td>
+                                        <td><span class="stats-performance">7,82 m</span></td>
+                                        <td>Bernd Wagner</td>
+                                        <td>Historische Spitzenmarke mit hohem Erinnerungswert für die Vereinschronik.</td>
+                                        <td>03.07.1982</td>
+                                        <td>Berlin</td>
+                                        <td><span class="stats-badge stats-badge--muted">Historisch</span></td>
                                     </tr>
-                                    <!-- Row 4 -->
-                                    <tr class="group hover:bg-background-light dark:hover:bg-white/5 transition-colors">
-                                        <td class="px-6 py-5">
-                                            <div class="flex flex-col">
-                                                <span
-                                                    class="text-sm font-black text-[#111817] dark:text-white">Javelin</span>
-                                                <span class="text-[10px] text-primary font-bold uppercase">Throws</span>
+                                    <tr data-scope="outdoor" data-age="adults" data-gender="male" data-discipline="throw">
+                                        <th scope="row">
+                                            <div class="stats-discipline-cell">
+                                                <strong>Speerwurf</strong>
+                                                <span>Wurf · Männer</span>
                                             </div>
-                                        </td>
-                                        <td class="px-6 py-5">
-                                            <span
-                                                class="text-lg font-black text-[#111817] dark:text-white tabular-nums">65.40m</span>
-                                        </td>
-                                        <td class="px-6 py-5">
-                                            <div class="flex items-center gap-3">
-                                                <div
-                                                    class="size-8 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold text-xs">
-                                                    LN</div>
-                                                <span class="text-sm font-bold text-[#111817] dark:text-white">Lukas
-                                                    Nowak</span>
+                                        </th>
+                                        <td>Outdoor</td>
+                                        <td><span class="stats-performance">65,40 m</span></td>
+                                        <td>Lukas Nowak</td>
+                                        <td>Jüngste Wurfmarke im Rekordtableau und damit besonders nah an der aktuellen Generation.</td>
+                                        <td>12.05.2023</td>
+                                        <td>Essen</td>
+                                        <td><span class="stats-badge stats-badge--fresh">Neu bestätigt</span></td>
+                                    </tr>
+                                    <tr data-scope="indoor" data-age="u20" data-gender="female" data-discipline="sprint">
+                                        <th scope="row">
+                                            <div class="stats-discipline-cell">
+                                                <strong>60 m</strong>
+                                                <span>Sprint · U20 weiblich</span>
                                             </div>
-                                        </td>
-                                        <td class="px-6 py-5 text-center">
-                                            <span class="text-sm font-medium text-[#618986]">12.05.2023</span>
-                                        </td>
-                                        <td class="px-6 py-5">
-                                            <span class="text-sm font-medium text-[#111817] dark:text-white">Essen,
-                                                DE</span>
-                                        </td>
-                                        <td class="px-6 py-5 text-right">
-                                            <span
-                                                class="text-[10px] font-bold py-1 px-2 rounded-full bg-primary/10 text-primary uppercase">New
-                                                Record</span>
-                                        </td>
+                                        </th>
+                                        <td>Indoor</td>
+                                        <td><span class="stats-performance">7,58 s</span></td>
+                                        <td>Carla Mertens</td>
+                                        <td>Zeigt, dass Hallenleistungen im Nachwuchsbereich nicht hinter der Outdoor-Ansicht verschwinden.</td>
+                                        <td>11.02.2024</td>
+                                        <td>Dortmund</td>
+                                        <td><span class="stats-badge">Aktuell</span></td>
+                                    </tr>
+                                    <tr data-scope="outdoor" data-age="u18" data-gender="male" data-discipline="middle">
+                                        <th scope="row">
+                                            <div class="stats-discipline-cell">
+                                                <strong>800 m</strong>
+                                                <span>Mittelstrecke · U18 männlich</span>
+                                            </div>
+                                        </th>
+                                        <td>Outdoor</td>
+                                        <td><span class="stats-performance">1:54,80</span></td>
+                                        <td>Jan Becker</td>
+                                        <td>Belegt die Leistungsbreite außerhalb des Sprintbereichs und stärkt die Vergleichbarkeit für Jugendgruppen.</td>
+                                        <td>22.06.2022</td>
+                                        <td>Bochum</td>
+                                        <td><span class="stats-badge">Aktuell</span></td>
+                                    </tr>
+                                    <tr data-scope="indoor" data-age="masters" data-gender="female" data-discipline="throw">
+                                        <th scope="row">
+                                            <div class="stats-discipline-cell">
+                                                <strong>Kugelstoßen</strong>
+                                                <span>Wurf · Masters weiblich</span>
+                                            </div>
+                                        </th>
+                                        <td>Indoor</td>
+                                        <td><span class="stats-performance">13,82 m</span></td>
+                                        <td>Sabine Keller</td>
+                                        <td>Macht sichtbar, dass auch Masters-Leistungen in der öffentlichen Statistik ihren Platz behalten.</td>
+                                        <td>05.03.2023</td>
+                                        <td>Münster</td>
+                                        <td><span class="stats-badge stats-badge--muted">Beständig</span></td>
+                                    </tr>
+                                    <tr data-scope="alltime" data-age="adults" data-gender="female" data-discipline="combined">
+                                        <th scope="row">
+                                            <div class="stats-discipline-cell">
+                                                <strong>Siebenkampf</strong>
+                                                <span>Mehrkampf · Frauen</span>
+                                            </div>
+                                        </th>
+                                        <td>Ewige Liste</td>
+                                        <td><span class="stats-performance">5.812 Pkt.</span></td>
+                                        <td>Anne Richter</td>
+                                        <td>Komplexe Mehrkampfleistungen bleiben als eigener Qualitätsmarker des Vereins erhalten.</td>
+                                        <td>18.09.2016</td>
+                                        <td>Ratingen</td>
+                                        <td><span class="stats-badge stats-badge--gold">Leitmarke</span></td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
-                    </div>
-                    <!-- Footer Content -->
-                    <div class="p-4 mt-8 bg-background-light dark:bg-white/5 rounded-2xl mx-4 mb-20">
-                        <div class="flex flex-col md:flex-row items-center justify-between gap-6 p-6">
-                            <div class="flex-1">
-                                <h3 class="text-xl font-bold text-[#111817] dark:text-white">Leistung nicht in der
-                                    Liste?</h3>
-                                <p class="text-[#618986] text-sm mt-1">Wenn du ein Ergebnis erzielt hast, das für unsere
-                                    Bestenlisten oder Rekorde in Frage kommt, sende uns bitte den Link zur offiziellen
-                                    Ergebnisliste zur Verifizierung.</p>
-                            </div>
-                            <button
-                                class="flex min-w-[180px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-[#111817] dark:bg-white text-white dark:text-[#111817] text-sm font-bold transition-transform active:scale-95 shadow-lg">
-                                Statistiker kontaktieren
-                            </button>
+                        <div id="stats-mobile-cards" class="subpage-mobile-schedule stats-mobile-cards" aria-label="Mobile Rekordkarten"></div>
+                        <div class="subpage-table-note stats-table-note">
+                            <p>Alle Einträge beruhen auf offiziellen Ergebnislisten oder nachvollziehbaren Wettkampfnachweisen. Sichtbar bleiben bewusst sowohl aktuelle Spitzen als auch historisch prägende Rekorde.</p>
+                            <a href="contact.html#contact" class="subpage-link">Unstimmigkeit melden <span class="material-icons-round" aria-hidden="true">east</span></a>
                         </div>
-                    </div>
+                    </section>
                 </div>
-            </main>
-            <!-- Bottom Sticky Mobile Nav (Optional visual element) -->
-            <footer></footer>
+
+                <aside class="subpage-section subpage-section--tight" aria-label="Zusätzliche Hinweise und nächste Schritte zu Vereinsrekorden">
+                    <section class="subpage-panel subpage-panel--plain stats-side-panel">
+                        <span class="subpage-eyebrow">Schnellorientierung</span>
+                        <h2 class="subpage-panel__title">Welche Rekorde für den ersten Eindruck besonders stark wirken.</h2>
+                        <div class="stats-insight-grid">
+                            <article class="stats-insight-card">
+                                <span>01</span>
+                                <strong>Aktuelle Nähe</strong>
+                                <p>Junge oder jüngst bestätigte Leistungen machen Vereinsdynamik glaubwürdig.</p>
+                            </article>
+                            <article class="stats-insight-card">
+                                <span>02</span>
+                                <strong>Historische Tiefe</strong>
+                                <p>Lange bestehende Marken zeigen Tradition, ohne den Blick auf Gegenwart zu verlieren.</p>
+                            </article>
+                            <article class="stats-insight-card">
+                                <span>03</span>
+                                <strong>Breite der Disziplinen</strong>
+                                <p>Sprint, Ausdauer, Wurf und Mehrkampf sollten gemeinsam sichtbar bleiben.</p>
+                            </article>
+                        </div>
+                    </section>
+
+                    <section class="subpage-panel" aria-labelledby="stats-process-title">
+                        <span class="subpage-eyebrow">Pflege &amp; Verifizierung</span>
+                        <h2 id="stats-process-title" class="subpage-panel__title">So wird aus einer Leistung ein belastbarer Eintrag.</h2>
+                        <ul class="subpage-stack-list">
+                            <li><strong>Nachweis einreichen:</strong> Entscheidend ist der Link zur offiziellen Ergebnisliste oder eine klar belegbare Veranstaltungsquelle.</li>
+                            <li><strong>Einordnung prüfen:</strong> Bereich, Altersklasse und Status werden vor Veröffentlichung passend zugeordnet.</li>
+                            <li><strong>Sichtbar aktualisieren:</strong> Neue Rekorde erscheinen nicht versteckt, sondern klar markiert in der Übersicht.</li>
+                        </ul>
+                    </section>
+
+                    <section class="subpage-note subpage-note--info" aria-label="Hinweis zur Statistikseite">
+                        <strong>Bewusste Seitenrolle:</strong>
+                        <p>Die Statistikseite ist eine öffentliche Qualitäts- und Orientierungsebene. Interne Verwaltung, Rohdatenexporte oder vollständige Archivfunktionen bleiben bewusst außerhalb dieser Ansicht.</p>
+                    </section>
+                </aside>
+            </section>
+
+            <section class="subpage-cta-band stats-cta-band" aria-label="Kontakt und weiterführende Seiten zu Vereinsrekorden">
+                <div class="subpage-cta-band__content">
+                    <span class="subpage-kicker">Kontakt &amp; Weiterleitung</span>
+                    <h2 class="subpage-panel__title">Rekord gefunden – jetzt den passenden nächsten Schritt sichtbar machen.</h2>
+                    <p>Die Statistikseite ergänzt Training, Team und Kontakt: erst Leistungen verstehen, dann Rückfrage senden, Entwicklung einordnen oder den eigenen Einstieg in den sportlichen Kontext setzen.</p>
+                </div>
+                <div class="subpage-cta-band__actions">
+                    <a href="contact.html#contact" class="subpage-button">Leistung melden oder Rückfrage senden <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                    <a href="training.html" class="subpage-link">Vorher Trainingsstruktur ansehen <span class="material-icons-round" aria-hidden="true">east</span></a>
+                </div>
+            </section>
         </div>
-    </div>
+    </main>
+
+    <footer data-shared-shell-placeholder></footer>
+
+    <script>
+        (() => {
+            const filterButtons = Array.from(document.querySelectorAll('.stats-filter'));
+            const disciplineSelect = document.getElementById('stats-discipline-filter');
+            const tableRows = Array.from(document.querySelectorAll('#stats-records-body tr'));
+            const status = document.getElementById('stats-filter-status');
+            const mobileCards = document.getElementById('stats-mobile-cards');
+
+            const state = {
+                scope: 'all',
+                age: 'all',
+                gender: 'all',
+                discipline: 'all'
+            };
+
+            const badgeClassMap = {
+                Herausragend: 'stats-badge stats-badge--gold',
+                Leitmarke: 'stats-badge stats-badge--gold',
+                'Neu bestätigt': 'stats-badge stats-badge--fresh',
+                Historisch: 'stats-badge stats-badge--muted',
+                Beständig: 'stats-badge stats-badge--muted'
+            };
+
+            const createMobileCard = (row) => {
+                const cells = row.querySelectorAll('th, td');
+                const badgeText = cells[7].innerText.trim();
+                const badgeClass = badgeClassMap[badgeText] || 'stats-badge';
+                const card = document.createElement('article');
+                card.className = 'stats-mobile-card';
+                card.hidden = row.hidden;
+                card.innerHTML = `
+                    <div class="stats-mobile-card__top">
+                        <div>
+                            <span class="stats-mobile-card__label">Disziplin</span>
+                            <strong>${cells[0].innerText.trim()}</strong>
+                        </div>
+                        <span class="${badgeClass}">${badgeText}</span>
+                    </div>
+                    <div class="stats-mobile-card__grid">
+                        <div><span>Bereich</span><strong>${cells[1].innerText.trim()}</strong></div>
+                        <div><span>Leistung</span><strong>${cells[2].innerText.trim()}</strong></div>
+                        <div><span>Athlet/in</span><strong>${cells[3].innerText.trim()}</strong></div>
+                        <div><span>Einordnung</span><strong>${cells[4].innerText.trim()}</strong></div>
+                        <div><span>Datum</span><strong>${cells[5].innerText.trim()}</strong></div>
+                        <div><span>Ort</span><strong>${cells[6].innerText.trim()}</strong></div>
+                    </div>
+                `;
+                return card;
+            };
+
+            const syncMobileCards = () => {
+                mobileCards.innerHTML = '';
+                tableRows.forEach((row) => {
+                    mobileCards.appendChild(createMobileCard(row));
+                });
+            };
+
+            const updateStatus = (visibleCount) => {
+                status.textContent = `${visibleCount} Rekorde sichtbar.`;
+            };
+
+            const matchesFilter = (row) => Object.entries(state).every(([key, value]) => value === 'all' || row.dataset[key] === value);
+
+            const applyFilters = () => {
+                let visibleCount = 0;
+                tableRows.forEach((row) => {
+                    const visible = matchesFilter(row);
+                    row.hidden = !visible;
+                    if (visible) {
+                        visibleCount += 1;
+                    }
+                });
+                updateStatus(visibleCount);
+                syncMobileCards();
+            };
+
+            filterButtons.forEach((button) => {
+                button.addEventListener('click', () => {
+                    const { filterGroup, filterValue } = button.dataset;
+                    state[filterGroup] = filterValue;
+
+                    filterButtons
+                        .filter((candidate) => candidate.dataset.filterGroup === filterGroup)
+                        .forEach((candidate) => {
+                            const isActive = candidate === button;
+                            candidate.classList.toggle('is-active', isActive);
+                            candidate.setAttribute('aria-pressed', String(isActive));
+                        });
+
+                    applyFilters();
+                });
+            });
+
+            disciplineSelect.addEventListener('change', (event) => {
+                state.discipline = event.target.value;
+                applyFilters();
+            });
+
+            applyFilters();
+        })();
+    </script>
 </body>
 
 </html>
