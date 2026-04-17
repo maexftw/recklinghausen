@@ -7,14 +7,14 @@
   color-scheme: light;
 
   /* Color Palette - Primary */
-  --color-primary: #0f8f7b;
-  --color-primary-dark: #0a6c5d;
-  --color-primary-light: #d8f0eb;
+  --color-primary: #20488e;
+  --color-primary-dark: #163364;
+  --color-primary-light: #dbe7ff;
   
   /* Color Palette - Secondary */
-  --color-secondary: #1b4353;
-  --color-secondary-dark: #002d3a;
-  --color-secondary-light: #3a6a7d;
+  --color-secondary: #10284f;
+  --color-secondary-dark: #0a1731;
+  --color-secondary-light: #3c5d92;
   
   /* Color Palette - Neutral */
   --color-neutral-50: #F9FAFB;
@@ -29,27 +29,28 @@
   --color-neutral-900: #111827;
   
   /* Color Palette - Status */
-  --color-success: #28a745;
-  --color-warning: #ffc107;
+  --color-success: #2f5f9f;
+  --color-warning: #5e6d92;
   --color-error: #dc3545;
-  --color-info: #17a2b8;
-  --color-success-light: #e8f7ef;
-  --color-warning-light: #fff7db;
+  --color-info: #325ba1;
+  --color-success-light: #e9f0fb;
+  --color-warning-light: #eef2f8;
   --color-error-light: #fce8eb;
-  --color-info-light: #e8f5f8;
+  --color-info-light: #e7eefb;
   
   /* Color Palette - Links */
-  --color-link: #0066cc;
-  --color-link-hover: #004c99;
-  --color-link-visited: #7d3cb8;
+  --color-link: #1e4f9a;
+  --color-link-hover: #153a74;
+  --color-link-visited: #27427b;
   
   /* Color Palette - Backgrounds */
-  --color-background-light: #f7f7f3;
+  --color-background-light: #f4f7fc;
   --color-background-dark: var(--color-neutral-900);
-  --color-card-light: #fcfcf9;
+  --color-card-light: #fbfcff;
   --color-card-dark: var(--color-neutral-800);
-  --color-surface-muted: #efefe8;
-  --color-surface-subtle: #f3f2eb;
+  --color-surface-muted: #e8edf8;
+  --color-surface-subtle: #f1f4fb;
+  --color-surface-base: var(--color-card-light);
   
   /* Color Palette - Text */
   --color-text-light: var(--color-neutral-900);
@@ -61,7 +62,7 @@
   
   /* Color Palette - Focus */
   --color-focus: var(--color-primary);
-  --color-focus-ring: rgba(0, 178, 154, 0.35);
+  --color-focus-ring: rgba(32, 72, 142, 0.24);
 
   /* Borders */
   --color-border-default: var(--color-neutral-200);
@@ -69,16 +70,16 @@
   --color-border-inverse: rgba(255, 255, 255, 0.14);
   
   /* Color Palette - Additional Colors for Consistency */
-  --color-slate-900: #111817;
-  --color-slate-100: #f0f4f4;
-  --color-slate-200: #e5eaea;
-  --color-slate-300: #dbe6e5;
-  --color-slate-400: #618986;
-  --color-slate-500: #393535;
-  --color-slate-600: #A8C7FA;
-  --color-slate-700: #323232;
-  --color-slate-800: #1a2e2c;
-  --color-slate-900-dark: #102220;
+  --color-slate-900: #0f1830;
+  --color-slate-100: #eef4ff;
+  --color-slate-200: #dbe4f2;
+  --color-slate-300: #c7d4e6;
+  --color-slate-400: #6581a8;
+  --color-slate-500: #41506a;
+  --color-slate-600: #8ca7d6;
+  --color-slate-700: #24324a;
+  --color-slate-800: #162134;
+  --color-slate-900-dark: #0b1325;
   
   /* Spacing Tokens */
   --spacing-xxs: 0.25rem; /* 4px */
@@ -137,10 +138,10 @@
   --content-max-width: 72rem;
 
   /* Shared shell */
-  --shell-surface: rgba(252, 252, 249, 0.98);
-  --shell-surface-dark: rgba(17, 24, 39, 0.94);
-  --shell-border: rgba(223, 225, 217, 0.95);
-  --shell-border-dark: rgba(31, 41, 55, 0.95);
+  --shell-surface: rgba(251, 252, 255, 0.96);
+  --shell-surface-dark: rgba(12, 24, 45, 0.94);
+  --shell-border: rgba(205, 217, 235, 0.92);
+  --shell-border-dark: rgba(46, 64, 95, 0.92);
   
   /* Ensure proper contrast for header elements */
   --header-text-color: var(--color-text-contrast);

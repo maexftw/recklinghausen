@@ -1,24 +1,24 @@
 @import url('./design-tokens.css');
 
 :root {
-    --subpage-paper: oklch(0.985 0.008 95);
-    --subpage-paper-strong: oklch(0.965 0.012 95);
-    --subpage-paper-deep: oklch(0.924 0.024 87);
-    --subpage-ink: oklch(0.22 0.03 206);
-    --subpage-muted: oklch(0.46 0.034 199);
-    --subpage-line: oklch(0.84 0.03 186);
-    --subpage-wash: oklch(0.948 0.05 171);
-    --subpage-sand: oklch(0.94 0.036 88);
+    --subpage-paper: oklch(0.985 0.008 255);
+    --subpage-paper-strong: oklch(0.965 0.014 252);
+    --subpage-paper-deep: oklch(0.93 0.022 247);
+    --subpage-ink: oklch(0.24 0.032 255);
+    --subpage-muted: oklch(0.5 0.028 252);
+    --subpage-line: oklch(0.87 0.024 247);
+    --subpage-wash: oklch(0.95 0.026 240);
+    --subpage-sand: oklch(0.94 0.015 250);
     --subpage-brand: var(--color-primary);
     --subpage-brand-strong: var(--color-primary-dark);
     --subpage-accent: color-mix(in srgb, var(--subpage-brand) 68%, white);
-    --subpage-accent-soft: color-mix(in srgb, var(--subpage-brand) 18%, white);
+    --subpage-accent-soft: color-mix(in srgb, var(--subpage-brand) 14%, white);
     --subpage-accent-deep: var(--subpage-brand-strong);
     --subpage-shadow: 0 34px 120px color-mix(in srgb, var(--color-secondary) 14%, transparent);
     --subpage-shadow-soft: 0 24px 68px color-mix(in srgb, var(--color-secondary) 10%, transparent);
     --subpage-radius: clamp(1.1rem, 1rem + 0.8vw, 1.9rem);
     --subpage-gutter: clamp(1rem, 2vw, 1.5rem);
-    --subpage-section-space: clamp(3rem, 6vw, 5.5rem);
+    --subpage-section-space: clamp(2.3rem, 4.4vw, 4rem);
     --subpage-container: min(100% - 2rem, 78rem);
     --subpage-content: min(100% - 2rem, 72rem);
 }
@@ -38,7 +38,7 @@ body.subpage {
 .subpage-main {
     width: var(--subpage-content);
     margin-inline: auto;
-    padding: clamp(1.25rem, 2vw, 1.8rem) 0 var(--subpage-section-space);
+    padding: clamp(1rem, 1.8vw, 1.4rem) 0 var(--subpage-section-space);
 }
 
 .subpage-stack {
@@ -60,9 +60,9 @@ body.subpage {
     isolation: isolate;
     overflow: clip;
     display: grid;
-    gap: clamp(1.25rem, 2.1vw, 1.8rem);
+    gap: clamp(1rem, 1.8vw, 1.35rem);
     grid-template-columns: minmax(0, 1.35fr) minmax(16rem, 0.82fr);
-    padding: clamp(1.8rem, 3.2vw, 2.6rem);
+    padding: clamp(1.35rem, 2.6vw, 2rem);
     border: 1px solid color-mix(in srgb, var(--subpage-line) 82%, white);
     background:
         radial-gradient(circle at 86% 18%, color-mix(in srgb, var(--subpage-accent-soft) 82%, white) 0%, transparent 29%),
@@ -162,11 +162,11 @@ body.subpage {
 
 .subpage-display {
     font-family: "Montserrat", Arial, sans-serif;
-    font-size: clamp(2.7rem, 5vw, 5rem);
-    line-height: 0.94;
+    font-size: clamp(1.95rem, 3.4vw, 3.15rem);
+    line-height: 1;
     letter-spacing: -0.06em;
     color: var(--subpage-ink);
-    max-width: 11ch;
+    max-width: 13ch;
     text-wrap: balance;
 }
 
@@ -176,9 +176,9 @@ body.subpage {
 }
 
 .subpage-lead {
-    max-width: 42rem;
-    font-size: clamp(1rem, 0.98rem + 0.55vw, 1.26rem);
-    line-height: 1.72;
+    max-width: 36rem;
+    font-size: clamp(0.96rem, 0.94rem + 0.38vw, 1.08rem);
+    line-height: 1.62;
     color: var(--subpage-muted);
 }
 
@@ -362,7 +362,7 @@ body.subpage {
 
 .subpage-panel__title,
 .subpage-title {
-    font-size: clamp(1.15rem, 1.05rem + 0.35vw, 1.45rem);
+    font-size: clamp(1rem, 0.94rem + 0.22vw, 1.16rem);
     font-weight: 800;
     letter-spacing: -0.03em;
     color: var(--subpage-ink);
@@ -672,11 +672,16 @@ body.subpage {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 1rem;
-    padding: 1rem 1.1rem;
+    gap: 0.7rem;
+    padding: 0.9rem 1rem;
     background: color-mix(in srgb, var(--subpage-paper-strong) 72%, white);
     color: var(--subpage-muted);
     border-top: 1px solid color-mix(in srgb, var(--subpage-line) 72%, white);
+}
+
+.subpage-table-note--intro {
+    border-top: none;
+    border-bottom: 1px solid color-mix(in srgb, var(--subpage-line) 72%, white);
 }
 
 .subpage-note {
@@ -692,8 +697,8 @@ body.subpage {
 }
 
 .subpage-note--warning {
-    border-left-color: #d66b45;
-    background: color-mix(in srgb, #f7d4c5 48%, white);
+    border-left-color: var(--color-secondary-light);
+    background: color-mix(in srgb, var(--color-secondary-light) 10%, white);
 }
 
 .subpage-note--info {
@@ -2008,6 +2013,92 @@ body.subpage-news {
     align-items: start;
 }
 
+body.subpage-news .subpage-intro,
+body.subpage-facilities .subpage-intro {
+    grid-template-columns: 1fr;
+}
+
+body.subpage-news .subpage-meta-row,
+body.subpage-news .subpage-hero-points,
+body.subpage-news .subpage-intro__aside,
+body.subpage-news .subpage-highlight-strip,
+body.subpage-facilities .subpage-meta-row,
+body.subpage-facilities .subpage-hero-points,
+body.subpage-facilities .subpage-intro__aside,
+body.subpage-facilities .subpage-highlight-strip {
+    display: none;
+}
+
+body.subpage-news .subpage-actions .subpage-button--secondary {
+    min-height: auto;
+    padding: 0;
+    border: none;
+    background: transparent;
+    box-shadow: none;
+    color: var(--subpage-brand-strong);
+}
+
+body.subpage-news .subpage-actions .subpage-button--secondary:hover,
+body.subpage-news .subpage-actions .subpage-button--secondary:focus-visible {
+    transform: none;
+    background: transparent;
+    box-shadow: none;
+    color: var(--subpage-ink);
+}
+
+body.subpage-news .subpage-actions .subpage-link[href="contact.html#contact"] {
+    display: none;
+}
+
+body.subpage-facilities .subpage-display {
+    font-size: clamp(1.8rem, 3vw, 2.75rem);
+    max-width: 11ch;
+}
+
+body.subpage-facilities .subpage-lead {
+    max-width: 34rem;
+}
+
+body.subpage-facilities .subpage-actions .subpage-button[href="contact.html#contact"] {
+    display: none;
+}
+
+body.subpage-facilities .subpage-actions .subpage-button--secondary {
+    min-height: auto;
+    padding: 0;
+    border: none;
+    background: transparent;
+    box-shadow: none;
+    color: var(--subpage-brand-strong);
+}
+
+body.subpage-facilities .subpage-actions .subpage-button--secondary:hover,
+body.subpage-facilities .subpage-actions .subpage-button--secondary:focus-visible {
+    transform: none;
+    background: transparent;
+    box-shadow: none;
+    color: var(--subpage-ink);
+}
+
+body.subpage-facilities .subpage-actions .subpage-link[href="#facilities-directory-title"] {
+    justify-content: center;
+    min-height: 3.2rem;
+    padding: 0.98rem 1.45rem;
+    border: 1px solid color-mix(in srgb, var(--subpage-accent-deep) 75%, black 8%);
+    background: var(--subpage-brand);
+    color: oklch(0.985 0.004 180);
+    box-shadow: 0 22px 40px color-mix(in srgb, var(--subpage-accent-deep) 24%, transparent);
+}
+
+body.subpage-facilities .subpage-actions .subpage-link[href="#facilities-directory-title"]:hover,
+body.subpage-facilities .subpage-actions .subpage-link[href="#facilities-directory-title"]:focus-visible {
+    transform: translateY(-3px);
+    border-color: color-mix(in srgb, var(--subpage-accent-deep) 90%, black 6%);
+    background: var(--subpage-brand-strong);
+    box-shadow: 0 28px 52px color-mix(in srgb, var(--subpage-accent-deep) 30%, transparent);
+    color: oklch(0.985 0.004 180);
+}
+
 .subpage-news-toolbar-stats {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -2240,11 +2331,11 @@ body.subpage-news {
 }
 
 .subpage-news-feature__title {
-    font-size: clamp(1.8rem, 2rem + 1vw, 2.9rem);
+    font-size: clamp(1.35rem, 1.28rem + 0.65vw, 1.95rem);
 }
 
 .subpage-news-card__title {
-    font-size: clamp(1.18rem, 1.02rem + 0.45vw, 1.55rem);
+    font-size: clamp(1.08rem, 1rem + 0.28vw, 1.34rem);
 }
 
 .subpage-news-feature__actions {
@@ -2780,7 +2871,7 @@ body.subpage-news {
     }
 
     .subpage-display {
-        max-width: 13ch;
+        max-width: 14ch;
     }
 
     .subpage-intro__aside--accent {

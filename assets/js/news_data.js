@@ -71,3 +71,36 @@
     }
 ];
 
+window.homeTermine = [
+    {
+        "isoDate": "2026-05-09",
+        "title": "4. Bodynostic Meeting",
+        "detail": "",
+        "location": "Stadion Hohenhorst"
+    },
+    {
+        "isoDate": "2026-06-04",
+        "title": "15. KidsCup Recklinghausen",
+        "detail": "",
+        "location": "Stadion Hohenhorst"
+    },
+    {
+        "isoDate": "2026-08-28",
+        "title": "9. Sparkassen Abendlauf",
+        "detail": "5 km | 10 km | Kreismeisterschaften 10 km",
+        "location": "Stadion Hohenhorst & Außenbereich"
+    },
+    {
+        "isoDate": "2026-09-19",
+        "title": "43. Stadtmeisterschaften",
+        "detail": "",
+        "location": "Stadion Hohenhorst"
+    },
+    {
+        "isoDate": "2026-12-31",
+        "title": "39. Silvesterlauf",
+        "detail": "5 km | 10 km | Nordic Walking | Walking",
+        "location": "Stadion Hohenhorst & Außenbereich"
+    }
+];
+
