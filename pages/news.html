@@ -10,13 +10,16 @@
         content="Aktuelle Nachrichten, Ergebnisse und Hintergründe aus dem Recklinghäuser Leichtathletik Club 1952 e.V. – als kuratiertes News-Archiv mit klaren Einstiegen in Training, Kontakt und Vereinsleben." />
     <link href="../assets/css/design-tokens.css" rel="stylesheet" />
     <link href="../assets/css/shell.css" rel="stylesheet" />
-    <link href="../assets/css/subpages.css" rel="stylesheet" />
+    <link href="../assets/css/subpages.css?v=1.1" rel="stylesheet" />
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Montserrat:wght@700;900&amp;display=swap"
         rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
+    <link rel="preconnect" href="https://www.rlc1952.de" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
-    <script src="../assets/js/news_data.js"></script>
+    <script src="../assets/js/news_data.js?v=1.1"></script>
     <script src="../assets/js/components.js"></script>
 </head>
 
@@ -28,80 +31,14 @@
             <section class="subpage-intro subpage-news-intro" aria-labelledby="news-page-title">
                 <div class="subpage-intro__content">
                     <span class="subpage-eyebrow">RLC News</span>
-                    <h1 id="news-page-title" class="subpage-display">Vereinsnews mit <em>klarer Gewichtung</em>, schneller Orientierung und starkem Archivzugang.</h1>
-                    <p class="subpage-lead">Bleibe informiert über alles, was im RLC 1952 passiert – von Wettkampfergebnissen bis hin zu internen Terminen und Vereinsgeschichten.</p>
-
-                    <div class="subpage-meta-row">
-                        <span class="subpage-meta"><span class="material-icons-round" aria-hidden="true">newspaper</span><strong>Inhalt:</strong> Meldungen, Ergebnisse und Vereinsgeschichten</span>
-                        <span class="subpage-meta"><span class="material-icons-round" aria-hidden="true">filter_alt</span><strong>Fokus:</strong> Themenfilter ohne Neuladen</span>
-                        <span class="subpage-meta"><span class="material-icons-round" aria-hidden="true">folder_open</span><strong>Archiv:</strong> Priorisierte Übersicht mit Detailseiten</span>
-                    </div>
-
-                    <div class="subpage-hero-points" aria-label="Drei schnelle Gründe für die News-Übersicht">
-                        <article class="subpage-hero-point">
-                            <span>Erster Eindruck</span>
-                            <strong>Die wichtigste Meldung steht nicht im Raster versteckt, sondern führt die Seite sichtbar an.</strong>
-                        </article>
-                        <article class="subpage-hero-point">
-                            <span>Archivrhythmus</span>
-                            <strong>Filter, Pagination und Karten bauen einen lesbaren Takt zwischen Top-Story und weiterem Archiv auf.</strong>
-                        </article>
-                        <article class="subpage-hero-point">
-                            <span>Nächster Schritt</span>
-                            <strong>Von jeder Meldung aus bleiben Training, Kontakt und Mitgliedschaft als Anschluss klar erreichbar.</strong>
-                        </article>
-                    </div>
+                    <h1 id="news-page-title" class="subpage-display">Neuigkeiten, Berichte und <em>Höhepunkte</em> aus dem RLC-Vereinsleben.</h1>
+                    <p class="subpage-lead">Bleib informiert über alles, was auf und neben der Bahn passiert – von aktuellen Wettkampfergebnissen über Nachwuchsberichte bis hin zu Terminen unserer starken Gemeinschaft.</p>
 
                     <div class="subpage-actions">
                         <a href="#news-feature-title" class="subpage-button">Top-Meldung lesen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                         <a href="#news-archive-title" class="subpage-button subpage-button--secondary">Direkt ins Archiv <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
-                        <a href="contact.html#contact" class="subpage-link">Redaktionellen Kontakt vorbereiten <span class="material-icons-round" aria-hidden="true">east</span></a>
                     </div>
                 </div>
-
-                <aside class="subpage-intro__aside subpage-intro__aside--accent" aria-label="Schnelle Orientierung zum News-Archiv">
-                    <span class="subpage-kicker">Worum geht es?</span>
-                    <p class="subpage-copy">Alle wichtigen Meldungen im schnellen Zugriff. Wähle eine Kategorie, um die Liste nach deinen Interessen zu filtern.</p>
-
-                    <dl class="subpage-stat-list">
-                        <div>
-                            <dt>Top-Meldung</dt>
-                            <dd>Der aktuell wichtigste Beitrag zum gewählten Thema wird prominent oberhalb des Archivs ausgespielt.</dd>
-                        </div>
-                        <div>
-                            <dt>Metadaten</dt>
-                            <dd>Datum, Themenlabel und Kartenhierarchie machen jede Meldung schneller einschätzbar.</dd>
-                        </div>
-                        <div>
-                            <dt>Folgeschritt</dt>
-                            <dd>Kontakt, Training und Mitgliedschaft bleiben im Seitenfluss sichtbar statt in der Navigation versteckt.</dd>
-                        </div>
-                    </dl>
-
-                    <ul class="subpage-checklist" aria-label="Drei redaktionelle Hinweise zur News-Seite">
-                        <li><strong>Für aktuelle Orientierung:</strong> Die Top-Meldung aktualisiert sich automatisch passend zum aktiven Thema.</li>
-                        <li><strong>Für Archivnutzung:</strong> Filter und Seitennavigation halten auch größere Mengen lesbar und ruhig.</li>
-                        <li><strong>Für spätere Detailseiten:</strong> Die Übersicht bereitet bereits Kartenlogik, Labels und CTA-Richtung für die News-Detailseiten vor.</li>
-                    </ul>
-                </aside>
-            </section>
-
-            <section class="subpage-highlight-strip" aria-label="Schnellorientierung für das News-Archiv">
-                <article>
-                    <span>Aktualität</span>
-                    <strong>Die Seite startet mit Gewichtung statt mit Gleichbehandlung aller Beiträge.</strong>
-                    <p>Wichtige Meldungen, Ergebnisse und redaktionelle Höhepunkte wirken dadurch relevanter und schneller erfassbar.</p>
-                </article>
-                <article>
-                    <span>Orientierung</span>
-                    <strong>Themenfilter und Archivstatus machen Umfang, Fokus und aktuelle Ansicht direkt verständlich.</strong>
-                    <p>Leserinnen und Leser sehen sofort, welche Kategorie aktiv ist und wie viele Beiträge dazu verfügbar sind.</p>
-                </article>
-                <article>
-                    <span>Anschluss</span>
-                    <strong>News endet nicht bei Information, sondern verweist sichtbar auf Training, Kontakt und Mitgliedschaft.</strong>
-                    <p>Die Seite funktioniert damit nicht nur als Archiv, sondern auch als Einstieg in das Vereinsangebot.</p>
-                </article>
             </section>
 
             <section class="subpage-grid subpage-grid--sidebar" aria-labelledby="news-archive-title">
@@ -109,7 +46,7 @@
                     <div class="subpage-toolbar" aria-labelledby="news-filter-title">
                         <div class="subpage-title-row">
                             <div>
-                                <span class="subpage-eyebrow">Filter &amp; Orientierung</span>
+                                <span class="subpage-eyebrow">Filter &amp; </span>
                                 <h2 id="news-filter-title" class="subpage-title">Das passende Thema schneller finden und den Archivfokus sofort verstehen.</h2>
                             </div>
                             <div class="subpage-news-toolbar-stats" aria-label="Aktueller Archivstatus">
@@ -152,7 +89,7 @@
 
                         <article class="subpage-news-feature" aria-labelledby="news-feature-title">
                             <div class="subpage-news-feature__media">
-                                <img id="featured-story-image" src="" alt="" loading="eager" decoding="async" />
+                                <img id="featured-story-image" src="" alt="" loading="lazy" decoding="async" />
                             </div>
                             <div class="subpage-news-feature__body">
                                 <div class="subpage-news-card-meta">
@@ -178,7 +115,7 @@
                         </article>
 
                         <div id="news-container" class="subpage-news-grid" aria-live="polite" aria-busy="true">
-                            <article class="subpage-news-card subpage-news-card--featured is-loading" aria-hidden="true">
+                            <article class="subpage-news-card subpage-news-card--featured is-loading" aria-label="Wird geladen">
                                 <div class="subpage-news-card__media"></div>
                                 <div class="subpage-news-card__body">
                                     <div class="subpage-news-card__skeleton-line subpage-news-card__skeleton-line--short"></div>
@@ -195,34 +132,34 @@
                 <aside class="subpage-section subpage-section--tight">
                     <section class="subpage-panel">
                         <span class="subpage-eyebrow">Schnell weiter</span>
-                        <h2 class="subpage-panel__title">Wichtige Vereinsseiten direkt aus dem News-Kontext.</h2>
+                        <h2 class="subpage-panel__title">Wichtige Seiten</h2>
                         <p class="subpage-copy">Wer nach einer Meldung tiefer einsteigen möchte, findet hier die wichtigsten Anschlussseiten ohne Umweg über die Hauptnavigation.</p>
                         <div class="subpage-news-link-list">
                             <a href="membership-info.html" class="subpage-news-utility-link">
                                 <span>
                                     <strong>Mitgliedschaft &amp; Antrag</strong>
-                                    <small>Wenn News in den nächsten Schritt führen soll.</small>
+                                    
                                 </span>
                                 <span class="material-icons-round" aria-hidden="true">north_east</span>
                             </a>
                             <a href="training.html" class="subpage-news-utility-link">
                                 <span>
                                     <strong>Training &amp; Gruppen</strong>
-                                    <small>Direkter Übergang von Bericht zu Trainingsrealität.</small>
+                                    
                                 </span>
                                 <span class="material-icons-round" aria-hidden="true">north_east</span>
                             </a>
                             <a href="team.html" class="subpage-news-utility-link">
                                 <span>
                                     <strong>Team &amp; Ansprechpartner</strong>
-                                    <small>Wer hinter Leistung, Nachwuchs und Vereinsbetrieb steht.</small>
+                                    
                                 </span>
                                 <span class="material-icons-round" aria-hidden="true">north_east</span>
                             </a>
                             <a href="contact.html#contact" class="subpage-news-utility-link">
                                 <span>
-                                    <strong>Kontakt zum Verein</strong>
-                                    <small>Für Rückfragen, Einstieg oder redaktionelle Hinweise.</small>
+                                    <strong>Kontakt</strong>
+                                    
                                 </span>
                                 <span class="material-icons-round" aria-hidden="true">north_east</span>
                             </a>
@@ -230,12 +167,12 @@
                     </section>
 
                     <section class="subpage-panel">
-                        <span class="subpage-eyebrow">Orientierung</span>
-                        <h2 class="subpage-panel__title">So liest sich das Archiv schneller.</h2>
+                        <span class="subpage-eyebrow"></span>
+                        <h2 class="subpage-panel__title"></h2>
                         <ol class="subpage-news-steps" aria-label="Drei Schritte zur Nutzung des News-Archivs">
                             <li>
                                 <strong>Top-Meldung prüfen</strong>
-                                <p>Ganz oben steht immer der aktuell wichtigste Beitrag zum gewählten Thema – als redaktioneller Schnellzugang.</p>
+                                <p>Ganz oben steht immer der aktuell wichtigste Beitrag zum gewählten Thema – so erfährst du sofort das Wichtigste.</p>
                             </li>
                             <li>
                                 <strong>Thema eingrenzen</strong>
@@ -243,25 +180,13 @@
                             </li>
                             <li>
                                 <strong>Ins Detail wechseln</strong>
-                                <p>Jede Karte führt direkt zur Beitragsseite und behält Datum, Kategorie und CTA-Richtung konsistent bei.</p>
+                                <p>Jede Karte führt direkt zur Beitragsseite – alle Details, Termine und Ergebnisse sind dort übersichtlich für dich aufbereitet.</p>
                             </li>
                         </ol>
                     </section>
                 </aside>
             </section>
 
-            <section class="subpage-cta-band" aria-labelledby="news-cta-title">
-                <div class="subpage-cta-band__content">
-                    <span class="subpage-kicker">Nächster Schritt nach dem Lesen</span>
-                    <h2 id="news-cta-title" class="subpage-panel__title">Vom News-Archiv direkt in den Verein.</h2>
-                    <p>Fehlt dir eine Information? Melde dich einfach bei uns oder informiere dich weiter über unsere Trainingsangebote.</p>
-                </div>
-                <div class="subpage-cta-band__actions">
-                    <a href="contact.html#contact" class="subpage-button">Kontakt aufnehmen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
-                    <a href="training.html" class="subpage-button subpage-button--secondary">Trainingsübersicht ansehen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
-                    <a href="#news-page-title" class="subpage-link">Zurück zum Seitenanfang <span class="material-icons-round" aria-hidden="true">north</span></a>
-                </div>
-            </section>
         </div>
     </main>
 
@@ -441,7 +366,7 @@
                 button.innerHTML = `
                     <span class="subpage-news-filter__copy">
                         <strong>${filter.label}</strong>
-                        <small>${filter.description}</small>
+                        
                     </span>
                     <span class="subpage-news-filter__count">${String(count).padStart(2, '0')}</span>
                 `;
