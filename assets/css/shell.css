@@ -10,7 +10,7 @@
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     color: var(--color-text-contrast);
-    box-shadow: 0 10px 30px rgba(17, 24, 39, 0.06);
+    box-shadow: 0 10px 30px color-mix(in srgb, var(--color-secondary) 10%, transparent);
 }
 
 .dark .site-shell {
@@ -42,7 +42,7 @@ html {
 }
 
 html :focus-visible {
-    outline: 3px solid #0f8f7b !important;
+    outline: 3px solid var(--color-focus) !important;
     outline-offset: 3px !important;
 }
 
@@ -372,7 +372,7 @@ main,
 }
 
 .site-footer {
-    background: var(--color-slate-900);
+    background: color-mix(in srgb, var(--color-secondary-dark) 88%, black 12%);
     color: var(--color-text-dark);
 }
 

@@ -33,24 +33,24 @@
                 </button>
             </div>
             <div class="sportabzeichen-notice__body">
-                <p class="sportabzeichen-notice__meta">Sportabzeichenabnahme · Demo-Inhalt für die Startseite</p>
-                <h2 id="sportabzeichen-notice-title" class="sportabzeichen-notice__title home-display">Nächste Abnahmen im Stadion Hohenhorst jetzt vormerken.</h2>
-                <p id="sportabzeichen-notice-text" class="sportabzeichen-notice__text">
-                    Die nächsten offenen Termine sind am <strong>Mittwoch, 16. April 2026</strong> und <strong>Samstag, 27. April 2026</strong>.
-                    Bitte Sportsachen für Lauf, Sprung und Wurf mitbringen. Eine kurze Voranmeldung hilft uns bei der Planung.
-                </p>
+                <p class="sportabzeichen-notice__meta">Vereinstermine 2026</p>
+                <h2 id="sportabzeichen-notice-title" class="sportabzeichen-notice__title home-display">Die n&auml;chsten Vereinstermine stehen fest.</h2>
+                <p id="sportabzeichen-notice-text" class="sportabzeichen-notice__text"></p>
                 <dl class="sportabzeichen-notice__facts">
                     <div>
-                        <dt>Nächste Termine</dt>
-                        <dd>16.04.2026 · 18:00 Uhr<br>27.04.2026 · 10:30 Uhr</dd>
+                        <dt>N&auml;chste Termine</dt>
+                        <dd id="sportabzeichen-notice-dates"></dd>
                     </div>
                     <div>
-                        <dt>Ansprechperson</dt>
-                        <dd>Martina Beispiel · Sportabzeichen-Team</dd>
+                        <dt>Ort</dt>
+                        <dd id="sportabzeichen-notice-location"></dd>
                     </div>
                 </dl>
                 <div class="sportabzeichen-notice__actions">
-                    <a href="pages/contact.html" class="home-button">Zur Kontaktseite <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                    <button type="button" class="home-button" data-drawer-toggle aria-expanded="false"
+                        aria-controls="sportabzeichen-drawer-panel">
+                        Alle Termine im &Uuml;berblick <span class="material-icons-round" aria-hidden="true">arrow_forward</span>
+                    </button>
                     <button type="button" class="home-link sportabzeichen-notice__later" data-notice-dismiss>
                         Heute ausblenden <span class="material-icons-round" aria-hidden="true">visibility_off</span>
                     </button>
@@ -61,49 +61,28 @@
         <div class="sportabzeichen-drawer" data-drawer-state="closed">
             <button type="button" class="sportabzeichen-drawer__toggle" data-drawer-toggle aria-expanded="false"
                 aria-controls="sportabzeichen-drawer-panel">
-                <span class="sportabzeichen-drawer__toggle-label">Sportabzeichen</span>
-                <span class="sportabzeichen-drawer__toggle-meta">3 Termine</span>
+                <span class="sportabzeichen-drawer__toggle-label">Termine</span>
+                <span class="sportabzeichen-drawer__toggle-meta" id="sportabzeichen-drawer-count">5 Termine</span>
             </button>
 
             <aside class="sportabzeichen-drawer__panel" id="sportabzeichen-drawer-panel"
                 aria-labelledby="sportabzeichen-drawer-title" tabindex="-1">
                 <div class="sportabzeichen-drawer__panel-head">
                     <div>
-                        <p class="sportabzeichen-drawer__kicker">Sportabzeichenabnahme</p>
-                        <h2 id="sportabzeichen-drawer-title" class="home-display">Termine &amp; kurze Hinweise</h2>
+                        <p class="sportabzeichen-drawer__kicker">Vereinstermine</p>
+                        <h2 id="sportabzeichen-drawer-title" class="home-display">Alle aktuellen Termine</h2>
                     </div>
                     <button type="button" class="sportabzeichen-drawer__close" data-drawer-close aria-label="Seitenpanel schließen">
                         <span class="material-icons-round" aria-hidden="true">close</span>
                     </button>
                 </div>
 
-                <p class="sportabzeichen-drawer__intro">Platzhalterinhalt für die Startseite. Die folgenden Angaben lassen sich später direkt in index.html austauschen.</p>
+                <p class="sportabzeichen-drawer__intro">Die wichtigsten Vereinstermine aus dem aktuellen Jahresplan im schnellen Zugriff.</p>
 
-                <div class="sportabzeichen-drawer__timeline" role="list" aria-label="Drei kommende Sportabzeichen-Termine">
-                    <article class="sportabzeichen-drawer__item" role="listitem">
-                        <div class="sportabzeichen-drawer__date" aria-hidden="true"><span>Apr</span><strong>16</strong></div>
-                        <div>
-                            <h3>Mittwoch, 16. April 2026 · 18:00 Uhr</h3>
-                            <p>Stadion Hohenhorst · Fokus auf Sprint und Weitsprung. Bitte möglichst 15 Minuten vorher da sein.</p>
-                        </div>
-                    </article>
-                    <article class="sportabzeichen-drawer__item" role="listitem">
-                        <div class="sportabzeichen-drawer__date" aria-hidden="true"><span>Apr</span><strong>27</strong></div>
-                        <div>
-                            <h3>Samstag, 27. April 2026 · 10:30 Uhr</h3>
-                            <p>Stadion Hohenhorst · Familienfreundlicher Termin mit Abnahme in mehreren Disziplinen.</p>
-                        </div>
-                    </article>
-                    <article class="sportabzeichen-drawer__item" role="listitem">
-                        <div class="sportabzeichen-drawer__date" aria-hidden="true"><span>Mai</span><strong>08</strong></div>
-                        <div>
-                            <h3>Freitag, 8. Mai 2026 · 17:30 Uhr</h3>
-                            <p>Reserve-Termin bei guter Witterung · Kurzfristige Rückfrage über die Kontaktseite empfohlen.</p>
-                        </div>
-                    </article>
-                </div>
+                <div class="sportabzeichen-drawer__timeline" id="sportabzeichen-drawer-timeline" role="list"
+                    aria-label="Aktuelle Vereinstermine"></div>
 
-                <a href="pages/contact.html" class="home-link sportabzeichen-drawer__link">Fragen zur Abnahme klären <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                <a href="pages/contact.html" class="home-link sportabzeichen-drawer__link">Fragen zu Terminen kl&auml;ren <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
             </aside>
         </div>
     </div>
@@ -234,24 +213,12 @@
 
                 <aside class="home-news-aside">
                     <section class="home-panel" aria-labelledby="home-dates-title">
-                        <h3 id="home-dates-title">Nächste Termine</h3>
-                        <div class="home-timeline">
-                            <article class="home-timeline__item">
-                                <div class="home-timeline__date" aria-hidden="true"><span>Feb</span><span>12</span></div>
-                                <div>
-                                    <strong>Hallen-Meeting Dortmund</strong>
-                                    <p>Helmut-Körnig-Halle, 10:00 Uhr</p>
-                                </div>
-                            </article>
-                            <article class="home-timeline__item">
-                                <div class="home-timeline__date" aria-hidden="true"><span>Mär</span><span>05</span></div>
-                                <div>
-                                    <strong>Jahreshauptversammlung</strong>
-                                    <p>Vereinsheim, 18:30 Uhr</p>
-                                </div>
-                            </article>
-                        </div>
-                        <a href="pages/training.html" class="home-button">Trainingszeiten ansehen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                        <h3 id="home-dates-title">N&auml;chste Termine</h3>
+                        <div class="home-timeline" id="home-dates-timeline"></div>
+                        <button type="button" class="home-button" data-drawer-toggle aria-expanded="false"
+                            aria-controls="sportabzeichen-drawer-panel">
+                            Alle Termine im &Uuml;berblick <span class="material-icons-round" aria-hidden="true">arrow_forward</span>
+                        </button>
                     </section>
 
                     <section class="home-panel" aria-labelledby="home-shortcuts-title">
@@ -436,6 +403,110 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
+            const termine = Array.isArray(window.homeTermine) ? [...window.homeTermine] : [];
+            if (termine.length === 0) {
+                return;
+            }
+
+            const parseEventDate = (value) => new Date(`${value}T00:00:00`);
+            const shortDateFormatter = new Intl.DateTimeFormat('de-DE', {
+                day: '2-digit',
+                month: '2-digit',
+                year: 'numeric'
+            });
+            const longDateFormatter = new Intl.DateTimeFormat('de-DE', {
+                weekday: 'long',
+                day: 'numeric',
+                month: 'long',
+                year: 'numeric'
+            });
+            const monthFormatter = new Intl.DateTimeFormat('de-DE', { month: 'short' });
+            const dayFormatter = new Intl.DateTimeFormat('de-DE', { day: '2-digit' });
+            const today = new Date();
+            today.setHours(0, 0, 0, 0);
+
+            const formatShortDate = (value) => shortDateFormatter.format(parseEventDate(value));
+            const formatLongDate = (value) => longDateFormatter.format(parseEventDate(value));
+            const formatMonth = (value) => {
+                const raw = monthFormatter.format(parseEventDate(value)).replace('.', '');
+                return raw.charAt(0).toUpperCase() + raw.slice(1);
+            };
+            const formatDay = (value) => dayFormatter.format(parseEventDate(value));
+            const createSummary = (eventItem) => eventItem.detail
+                ? `${eventItem.detail} · ${eventItem.location}`
+                : eventItem.location;
+            const createTimelineMarkup = (eventItem) => `
+                <article class="home-timeline__item">
+                    <div class="home-timeline__date" aria-hidden="true">
+                        <span>${formatMonth(eventItem.isoDate)}</span>
+                        <span>${formatDay(eventItem.isoDate)}</span>
+                    </div>
+                    <div>
+                        <strong>${eventItem.title}</strong>
+                        <p>${createSummary(eventItem)}</p>
+                    </div>
+                </article>
+            `;
+            const createDrawerMarkup = (eventItem) => `
+                <article class="sportabzeichen-drawer__item" role="listitem">
+                    <div class="sportabzeichen-drawer__date" aria-hidden="true">
+                        <span>${formatMonth(eventItem.isoDate)}</span>
+                        <strong>${formatDay(eventItem.isoDate)}</strong>
+                    </div>
+                    <div>
+                        <h3>${formatLongDate(eventItem.isoDate)} · ${eventItem.title}</h3>
+                        <p>${createSummary(eventItem)}</p>
+                    </div>
+                </article>
+            `;
+
+            termine.sort((left, right) => parseEventDate(left.isoDate) - parseEventDate(right.isoDate));
+
+            const upcomingTermine = termine.filter((eventItem) => parseEventDate(eventItem.isoDate) >= today);
+            const noticeTermine = (upcomingTermine.length > 0 ? upcomingTermine : termine).slice(0, 2);
+            const drawerTermine = upcomingTermine.length > 0 ? upcomingTermine : termine;
+
+            const noticeText = document.getElementById('sportabzeichen-notice-text');
+            const noticeDates = document.getElementById('sportabzeichen-notice-dates');
+            const noticeLocation = document.getElementById('sportabzeichen-notice-location');
+            const drawerCount = document.getElementById('sportabzeichen-drawer-count');
+            const drawerTimeline = document.getElementById('sportabzeichen-drawer-timeline');
+            const homeDatesTimeline = document.getElementById('home-dates-timeline');
+
+            if (noticeText && noticeTermine.length > 0) {
+                const [firstEvent, secondEvent] = noticeTermine;
+                noticeText.textContent = secondEvent
+                    ? `Am ${formatLongDate(firstEvent.isoDate)} steht ${firstEvent.title} in ${firstEvent.location} an. Danach folgt am ${formatLongDate(secondEvent.isoDate)} ${secondEvent.title}.`
+                    : `Am ${formatLongDate(firstEvent.isoDate)} steht ${firstEvent.title} in ${firstEvent.location} an.`;
+            }
+
+            if (noticeDates && noticeTermine.length > 0) {
+                noticeDates.innerHTML = noticeTermine
+                    .map((eventItem) => `${formatShortDate(eventItem.isoDate)} · ${eventItem.title}`)
+                    .join('<br>');
+            }
+
+            if (noticeLocation && noticeTermine.length > 0) {
+                const locations = [...new Set(noticeTermine.map((eventItem) => eventItem.location))];
+                noticeLocation.textContent = locations.join(' / ');
+            }
+
+            if (drawerCount) {
+                drawerCount.textContent = `${drawerTermine.length} Termine`;
+            }
+
+            if (drawerTimeline) {
+                drawerTimeline.innerHTML = drawerTermine.map(createDrawerMarkup).join('');
+            }
+
+            if (homeDatesTimeline) {
+                homeDatesTimeline.innerHTML = noticeTermine.map(createTimelineMarkup).join('');
+            }
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
             const container = document.getElementById('index-news-container');
             if (!container) {
                 return;
@@ -444,7 +515,7 @@
             window.addEventListener('error', (event) => {
                 if (event.filename && event.filename.includes('news_data')) {
                     container.innerHTML = `
-                        <article class="home-empty" style="border-color: color-mix(in srgb, #f59e0b 36%, white); background: color-mix(in srgb, #fef3c7 62%, white);">
+                        <article class="home-empty" style="border-color: color-mix(in srgb, #3b5d96 30%, white); background: color-mix(in srgb, #eef3ff 76%, white);">
                             <h3 class="home-display">Die Vereinsnews konnten gerade nicht vollständig geladen werden.</h3>
                             <p>Bitte öffne das News-Archiv später erneut oder nutze bei dringenden Fragen den Kontakt zum Verein.</p>
                             <a href="pages/contact.html" class="home-button">Kontakt zum Verein <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
@@ -465,11 +536,17 @@
             const notice = document.getElementById('sportabzeichen-notice');
             const noticeDismissButtons = document.querySelectorAll('[data-notice-dismiss]');
             const drawer = document.querySelector('.sportabzeichen-drawer');
-            const drawerToggle = document.querySelector('[data-drawer-toggle]');
+            const drawerToggles = Array.from(document.querySelectorAll('[data-drawer-toggle]'));
             const drawerClose = document.querySelector('[data-drawer-close]');
             const drawerPanel = document.getElementById('sportabzeichen-drawer-panel');
             const noticeStorageKey = 'rlc-home-sportabzeichen-notice-dismissed';
             let lastTrigger = null;
+
+            const setDrawerToggleState = (isOpen) => {
+                drawerToggles.forEach((toggle) => {
+                    toggle.setAttribute('aria-expanded', String(isOpen));
+                });
+            };
 
             const hideNotice = () => {
                 if (!notice || notice.hidden) {
@@ -507,24 +584,26 @@
                 });
             };
 
-            const openDrawer = () => {
-                if (!drawer || !drawerToggle || !drawerPanel) {
+            const openDrawer = (trigger) => {
+                if (!drawer || drawerToggles.length === 0 || !drawerPanel) {
                     return;
                 }
 
-                lastTrigger = document.activeElement instanceof HTMLElement ? document.activeElement : drawerToggle;
+                lastTrigger = trigger instanceof HTMLElement
+                    ? trigger
+                    : (document.activeElement instanceof HTMLElement ? document.activeElement : drawerToggles[0]);
                 drawer.dataset.drawerState = 'open';
-                drawerToggle.setAttribute('aria-expanded', 'true');
+                setDrawerToggleState(true);
                 drawerPanel.focus({ preventScroll: true });
             };
 
             const closeDrawer = () => {
-                if (!drawer || !drawerToggle) {
+                if (!drawer || drawerToggles.length === 0) {
                     return;
                 }
 
                 drawer.dataset.drawerState = 'closed';
-                drawerToggle.setAttribute('aria-expanded', 'false');
+                setDrawerToggleState(false);
 
                 if (lastTrigger instanceof HTMLElement) {
                     lastTrigger.focus({ preventScroll: true });
@@ -535,13 +614,16 @@
                 button.addEventListener('click', hideNotice);
             });
 
-            drawerToggle?.addEventListener('click', () => {
-                if (drawer?.dataset.drawerState === 'open') {
-                    closeDrawer();
-                    return;
-                }
+            drawerToggles.forEach((toggle) => {
+                toggle.addEventListener('click', (event) => {
+                    event.preventDefault();
+                    if (drawer?.dataset.drawerState === 'open') {
+                        closeDrawer();
+                        return;
+                    }
 
-                openDrawer();
+                    openDrawer(toggle);
+                });
             });
 
             drawerClose?.addEventListener('click', closeDrawer);
@@ -560,6 +642,10 @@
 
                 const target = event.target;
                 if (!(target instanceof Node)) {
+                    return;
+                }
+
+                if (target instanceof Element && target.closest('[data-drawer-toggle]')) {
                     return;
                 }
 

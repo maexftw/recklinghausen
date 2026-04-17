@@ -1,18 +1,18 @@
 @import url('./design-tokens.css');
 
 :root {
-    --home-paper: oklch(0.985 0.008 95);
-    --home-paper-strong: oklch(0.965 0.012 95);
-    --home-paper-deep: oklch(0.924 0.024 87);
-    --home-ink: oklch(0.22 0.03 206);
-    --home-muted: oklch(0.46 0.034 199);
-    --home-line: oklch(0.84 0.03 186);
-    --home-wash: oklch(0.948 0.05 171);
-    --home-sand: oklch(0.94 0.036 88);
+    --home-paper: oklch(0.985 0.008 255);
+    --home-paper-strong: oklch(0.965 0.014 252);
+    --home-paper-deep: oklch(0.93 0.022 247);
+    --home-ink: oklch(0.24 0.032 255);
+    --home-muted: oklch(0.5 0.028 252);
+    --home-line: oklch(0.87 0.024 247);
+    --home-wash: oklch(0.95 0.026 240);
+    --home-sand: oklch(0.94 0.015 250);
     --home-brand: var(--color-primary);
     --home-brand-strong: var(--color-primary-dark);
     --home-accent: color-mix(in srgb, var(--home-brand) 68%, white);
-    --home-accent-soft: color-mix(in srgb, var(--home-brand) 24%, white);
+    --home-accent-soft: color-mix(in srgb, var(--home-brand) 18%, white);
     --home-accent-deep: var(--home-brand-strong);
     --home-shadow: 0 34px 120px color-mix(in srgb, var(--color-secondary) 18%, transparent);
     --home-shadow-soft: 0 24px 68px color-mix(in srgb, var(--color-secondary) 11%, transparent);
@@ -187,7 +187,7 @@ body.homepage {
 }
 
 .sportabzeichen-notice__title {
-    font-size: clamp(1.45rem, 1.15rem + 1vw, 2.05rem);
+    font-size: clamp(1.32rem, 1.08rem + 0.75vw, 1.82rem);
     line-height: 1.02;
     max-width: 16ch;
 }
@@ -483,7 +483,7 @@ body.homepage {
     gap: clamp(2rem, 3vw, 3rem);
     align-items: end;
     grid-template-columns: minmax(0, 1.35fr) minmax(19rem, 0.85fr);
-    min-height: min(46rem, calc(100svh - var(--header-offset) - 2rem));
+    min-height: min(42rem, calc(100svh - var(--header-offset) - 2rem));
 }
 
 .home-hero__content {
@@ -494,7 +494,7 @@ body.homepage {
 }
 
 .home-hero__title {
-    font-size: clamp(3.7rem, 8vw, 8.2rem);
+    font-size: clamp(3rem, 6vw, 6.4rem);
     line-height: 0.88;
     text-wrap: balance;
     max-width: 9ch;
@@ -738,7 +738,7 @@ body.homepage {
 .home-essence__title,
 .home-visit__title,
 .home-involvement__title {
-    font-size: clamp(2.2rem, 1.6rem + 2.4vw, 4rem);
+    font-size: clamp(1.9rem, 1.45rem + 1.7vw, 3.2rem);
     line-height: 0.94;
     text-wrap: balance;
 }
@@ -863,7 +863,7 @@ body.homepage {
 }
 
 .home-news-card__title {
-    font-size: clamp(1.02rem, 0.96rem + 0.32vw, 1.24rem);
+    font-size: clamp(0.98rem, 0.94rem + 0.2vw, 1.16rem);
     line-height: 1.12;
     text-wrap: pretty;
     max-width: 22ch;
@@ -1272,7 +1272,7 @@ body.homepage {
     }
 
     .home-hero__title {
-        font-size: clamp(2.7rem, 12vw, 4.7rem);
+        font-size: clamp(2.35rem, 11vw, 4.1rem);
     }
 
     .home-hero__lead {

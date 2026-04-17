@@ -1,18 +1,18 @@
 @import url('./design-tokens.css');
 
 :root {
-    --subpage-paper: oklch(0.985 0.008 95);
-    --subpage-paper-strong: oklch(0.965 0.012 95);
-    --subpage-paper-deep: oklch(0.924 0.024 87);
-    --subpage-ink: oklch(0.22 0.03 206);
-    --subpage-muted: oklch(0.46 0.034 199);
-    --subpage-line: oklch(0.84 0.03 186);
-    --subpage-wash: oklch(0.948 0.05 171);
-    --subpage-sand: oklch(0.94 0.036 88);
+    --subpage-paper: oklch(0.985 0.008 255);
+    --subpage-paper-strong: oklch(0.965 0.014 252);
+    --subpage-paper-deep: oklch(0.93 0.022 247);
+    --subpage-ink: oklch(0.24 0.032 255);
+    --subpage-muted: oklch(0.5 0.028 252);
+    --subpage-line: oklch(0.87 0.024 247);
+    --subpage-wash: oklch(0.95 0.026 240);
+    --subpage-sand: oklch(0.94 0.015 250);
     --subpage-brand: var(--color-primary);
     --subpage-brand-strong: var(--color-primary-dark);
     --subpage-accent: color-mix(in srgb, var(--subpage-brand) 68%, white);
-    --subpage-accent-soft: color-mix(in srgb, var(--subpage-brand) 18%, white);
+    --subpage-accent-soft: color-mix(in srgb, var(--subpage-brand) 14%, white);
     --subpage-accent-deep: var(--subpage-brand-strong);
     --subpage-shadow: 0 34px 120px color-mix(in srgb, var(--color-secondary) 14%, transparent);
     --subpage-shadow-soft: 0 24px 68px color-mix(in srgb, var(--color-secondary) 10%, transparent);
@@ -162,11 +162,11 @@ body.subpage {
 
 .subpage-display {
     font-family: "Montserrat", Arial, sans-serif;
-    font-size: clamp(2.7rem, 5vw, 5rem);
-    line-height: 0.94;
+    font-size: clamp(2.25rem, 4.2vw, 3.9rem);
+    line-height: 0.97;
     letter-spacing: -0.06em;
     color: var(--subpage-ink);
-    max-width: 11ch;
+    max-width: 12ch;
     text-wrap: balance;
 }
 
@@ -362,7 +362,7 @@ body.subpage {
 
 .subpage-panel__title,
 .subpage-title {
-    font-size: clamp(1.15rem, 1.05rem + 0.35vw, 1.45rem);
+    font-size: clamp(1.05rem, 0.98rem + 0.28vw, 1.28rem);
     font-weight: 800;
     letter-spacing: -0.03em;
     color: var(--subpage-ink);
@@ -692,8 +692,8 @@ body.subpage {
 }
 
 .subpage-note--warning {
-    border-left-color: #d66b45;
-    background: color-mix(in srgb, #f7d4c5 48%, white);
+    border-left-color: var(--color-secondary-light);
+    background: color-mix(in srgb, var(--color-secondary-light) 10%, white);
 }
 
 .subpage-note--info {
@@ -2240,11 +2240,11 @@ body.subpage-news {
 }
 
 .subpage-news-feature__title {
-    font-size: clamp(1.8rem, 2rem + 1vw, 2.9rem);
+    font-size: clamp(1.55rem, 1.45rem + 0.85vw, 2.35rem);
 }
 
 .subpage-news-card__title {
-    font-size: clamp(1.18rem, 1.02rem + 0.45vw, 1.55rem);
+    font-size: clamp(1.08rem, 1rem + 0.28vw, 1.34rem);
 }
 
 .subpage-news-feature__actions {
@@ -2780,7 +2780,7 @@ body.subpage-news {
     }
 
     .subpage-display {
-        max-width: 13ch;
+        max-width: 14ch;
     }
 
     .subpage-intro__aside--accent {
