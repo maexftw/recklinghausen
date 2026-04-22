@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html class="light" lang="de">
 <head>
     <meta charset="utf-8" />
@@ -6,7 +6,7 @@
     <title>Trainingsplan | RLC 1952</title>
     <meta
         name="description"
-        content="Aktuelle Sommer-Trainingszeiten 2026 des RecklinghÃ¤user Leichtathletik Clubs 1952 e.V. mit Gruppen, JahrgÃ¤ngen, Orten und Trainerteams."
+        content="Aktuelle Sommer-Trainingszeiten 2026 des Recklinghäuser Leichtathletik Clubs 1952 e.V. mit Gruppen, Jahrgängen, Orten und Trainerteams."
     />
     <link href="../assets/css/design-tokens.css" rel="stylesheet" />
     <link href="../assets/css/shell.css" rel="stylesheet" />
@@ -27,9 +27,9 @@
             <section class="subpage-intro subpage-intro--full" aria-labelledby="training-page-title">
                 <div class="subpage-intro__content">
                     <span class="subpage-eyebrow">Trainingszeiten 2026</span>
-                    <h1 id="training-page-title" class="subpage-display">Sommerfahrplan fÃ¼r Kinder, Jugend, Erwachsene und Senioren.</h1>
-                    <p class="subpage-lead">Hier stehen die aktuellen Sommer-Trainingszeiten des RLC 1952 mit Gruppen, JahrgÃ¤ngen, Orten und Trainerteam.</p>
-                    <div class="subpage-meta-row" id="training-meta-row" aria-label="SchnellÃ¼berblick zu den Trainingszeiten"></div>
+                    <h1 id="training-page-title" class="subpage-display">Sommerfahrplan für Kinder, Jugend, Erwachsene und Senioren.</h1>
+                    <p class="subpage-lead">Hier stehen die aktuellen Sommer-Trainingszeiten des RLC 1952 mit Gruppen, Jahrgängen, Orten und Trainerteam.</p>
+                    <div class="subpage-meta-row" id="training-meta-row" aria-label="Schnellüberblick zu den Trainingszeiten"></div>
                     <div class="subpage-actions">
                         <a href="#training-plan-title" class="subpage-button">Zum Wochenplan <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                         <a href="contact.html#contact" class="subpage-button subpage-button--secondary">Probetraining abstimmen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
@@ -40,12 +40,12 @@
 
             <section class="subpage-grid" aria-label="Wichtige Hinweise zum Sommertraining">
                 <article class="subpage-note subpage-note--info">
-                    <strong>GÃ¼ltigkeit</strong>
-                    <p id="training-validity-note">GÃ¼ltig von April 2026 bis zu den Herbstferien in NRW.</p>
+                    <strong>Gültigkeit</strong>
+                    <p id="training-validity-note">Gültig von April 2026 bis zu den Herbstferien in NRW.</p>
                 </article>
                 <article class="subpage-note subpage-note--warning">
                     <strong>Leistungsgruppen</strong>
-                    <p id="training-performance-note">Markierte EintrÃ¤ge kennzeichnen Wettkampf- und Leistungstraining.</p>
+                    <p id="training-performance-note">Markierte Einträge kennzeichnen Wettkampf- und Leistungstraining.</p>
                 </article>
             </section>
 
@@ -60,12 +60,12 @@
 
                     <div class="subpage-table-note subpage-table-note--intro">
                         <p id="training-table-intro">Der Wochenplan zeigt alle aktuellen Sommertermine.</p>
-                        <a href="../RLC1952_Trainingszeiten_2026_Sommer.pdf" class="subpage-link">Original-PDF Ã¶ffnen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                        <a href="../RLC1952_Trainingszeiten_2026_Sommer.pdf" class="subpage-link">Original-PDF öffnen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                     </div>
 
                     <div class="subpage-table-shell">
                         <table class="subpage-table">
-                            <caption class="sr-only">TrainingsÃ¼bersicht mit Tag, Uhrzeit, Gruppe, Jahrgang, Ort und Trainerteam</caption>
+                            <caption class="sr-only">Trainingsübersicht mit Tag, Uhrzeit, Gruppe, Jahrgang, Ort und Trainerteam</caption>
                             <thead>
                                 <tr>
                                     <th scope="col">Tag</th>
@@ -80,14 +80,14 @@
                         </table>
                     </div>
 
-                    <div class="subpage-mobile-schedule" aria-label="Mobile TrainingsÃ¼bersicht als Kartenliste">
+                    <div class="subpage-mobile-schedule" aria-label="Mobile Trainingsübersicht als Kartenliste">
                         <div class="subpage-schedule-cards" id="training-cards"></div>
                     </div>
 
                     <div class="subpage-table-note">
                         <p>
                             Vor dem ersten Termin bitte kurz Kontakt aufnehmen. So kann das passende Trainerteam den Treffpunkt und die
-                            richtige Gruppe direkt bestÃ¤tigen.
+                            richtige Gruppe direkt bestätigen.
                         </p>
                         <a href="contact.html#contact" class="subpage-link">Kontakt aufnehmen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                     </div>
@@ -121,7 +121,7 @@
                     },
                     {
                         icon: 'event_available',
-                        label: 'GÃ¼ltig',
+                        label: 'Gültig',
                         value: meta.validRange || 'Aktueller Sommerstand'
                     },
                     {
@@ -207,7 +207,7 @@
             renderTable();
             renderCards();
 
-            validityNote.textContent = `GÃ¼ltig: ${meta.validRange || 'den aktuellen Sommerstand'}.`;
+            validityNote.textContent = `Gültig: ${meta.validRange || 'den aktuellen Sommerstand'}.`;
             performanceNote.textContent = `${meta.performanceNote || '* Wettkampf- und Leistungstraining'} ist auf der Seite direkt an den betreffenden Gruppen markiert.`;
             tableIntro.textContent = `${schedule.length} Einheiten an ${uniqueDayCount} Wochentagen. Grundlage ist ${meta.seasonLabel || 'Sommersaison 2026'}.`;
         });

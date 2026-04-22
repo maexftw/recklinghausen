@@ -1,12 +1,12 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html class="light" lang="de">
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>SportstÃ¤tten | RLC 1952</title>
+    <title>Sportstätten | RLC 1952</title>
     <meta
         name="description"
-        content="Ãœbersicht der realen Trainingsorte des RecklinghÃ¤user Leichtathletik Clubs 1952 e.V. auf Basis des aktuellen Trainingsplans."
+        content="Übersicht der realen Trainingsorte des Recklinghäuser Leichtathletik Clubs 1952 e.V. auf Basis des aktuellen Trainingsplans."
     />
     <link href="../assets/css/design-tokens.css" rel="stylesheet" />
     <link href="../assets/css/shell.css" rel="stylesheet" />
@@ -26,13 +26,13 @@
         <div class="subpage-stack">
             <section class="subpage-intro subpage-intro--full" aria-labelledby="facilities-page-title">
                 <div class="subpage-intro__content">
-                    <span class="subpage-eyebrow">SportstÃ¤tten</span>
-                    <h1 id="facilities-page-title" class="subpage-display">Unsere Trainingsorte im Ãœberblick.</h1>
-                    <p class="subpage-lead">Hier findest du die Orte, an denen unsere Gruppen trainieren. FÃ¼r den ersten Termin stimmen wir den genauen Treffpunkt bei Bedarf direkt mit dir ab.</p>
-                    <div class="subpage-meta-row" id="facilities-meta-row" aria-label="SchnellÃ¼berblick zu den Trainingsorten"></div>
+                    <span class="subpage-eyebrow">Sportstätten</span>
+                    <h1 id="facilities-page-title" class="subpage-display">Unsere Trainingsorte im Überblick.</h1>
+                    <p class="subpage-lead">Hier findest du die Orte, an denen unsere Gruppen trainieren. Für den ersten Termin stimmen wir den genauen Treffpunkt bei Bedarf direkt mit dir ab.</p>
+                    <div class="subpage-meta-row" id="facilities-meta-row" aria-label="Schnellüberblick zu den Trainingsorten"></div>
                     <div class="subpage-actions">
                         <a href="training.html" class="subpage-button">Zum Trainingsplan <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
-                        <a href="contact.html#contact" class="subpage-button subpage-button--secondary">RÃ¼ckfrage zum Ort <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                        <a href="contact.html#contact" class="subpage-button subpage-button--secondary">Rückfrage zum Ort <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                     </div>
                 </div>
             </section>
@@ -40,7 +40,7 @@
             <section class="subpage-section" aria-labelledby="facilities-directory-title">
                 <div class="subpage-title-row">
                     <div>
-                        <span class="subpage-eyebrow">StandortÃ¼bersicht</span>
+                        <span class="subpage-eyebrow">Standortübersicht</span>
                         <h2 id="facilities-directory-title" class="subpage-title">Die Trainingsorte des Vereins.</h2>
                     </div>
                 </div>
@@ -64,17 +64,17 @@
                     badge: 'Hauptstandort',
                     category: 'Bahn',
                     accent: 'facility-accent--stadium',
-                    summary: 'Unser Hauptstandort fÃ¼r viele Gruppen.',
-                    copy: 'Kinder, Jugend und Erwachsene trainieren hier regelmÃ¤ÃŸig auf der Bahn und im AuÃŸenbereich.',
+                    summary: 'Unser Hauptstandort für viele Gruppen.',
+                    copy: 'Kinder, Jugend und Erwachsene trainieren hier regelmäßig auf der Bahn und im Außenbereich.',
                     match: (entry) => entry.location.includes('Stadion Hohenhorst')
                 },
                 {
                     name: 'Kraftraum am Stadion Hohenhorst',
-                    badge: 'ErgÃ¤nzend',
+                    badge: 'Ergänzend',
                     category: 'Kraft',
                     accent: 'facility-accent--gym',
-                    summary: 'ErgÃ¤nzt das Bahntraining mit Kraft- und Aufbauarbeit.',
-                    copy: 'Hier trainieren leistungsorientierte Gruppen und ergÃ¤nzende Krafteinheiten.',
+                    summary: 'Ergänzt das Bahntraining mit Kraft- und Aufbauarbeit.',
+                    copy: 'Hier trainieren leistungsorientierte Gruppen und ergänzende Krafteinheiten.',
                     match: (entry) => entry.location.includes('Kraftraum')
                 },
                 {
@@ -82,8 +82,8 @@
                     badge: 'Halle',
                     category: 'Indoor',
                     accent: 'facility-accent--hall',
-                    summary: 'Innenort fÃ¼r Senioren- und Ausweichtraining.',
-                    copy: 'Hier finden Hallenzeiten, Gesundheitssport und ergÃ¤nzende Einheiten statt.',
+                    summary: 'Innenort für Senioren- und Ausweichtraining.',
+                    copy: 'Hier finden Hallenzeiten, Gesundheitssport und ergänzende Einheiten statt.',
                     match: (entry) => entry.location.includes('Hohenzollernhalle')
                 },
                 {
@@ -91,8 +91,8 @@
                     badge: 'Ausweichort',
                     category: 'Indoor',
                     accent: 'facility-accent--hall',
-                    summary: 'Weitere HallenflÃ¤che fÃ¼r einzelne Gruppen.',
-                    copy: 'Die Halle wird fÃ¼r konkrete Termine und Gruppen aus dem Wochenplan genutzt.',
+                    summary: 'Weitere Hallenfläche für einzelne Gruppen.',
+                    copy: 'Die Halle wird für konkrete Termine und Gruppen aus dem Wochenplan genutzt.',
                     match: (entry) => entry.location.includes('5-fach Sporthalle')
                 }
             ];

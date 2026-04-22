@@ -1223,7 +1223,7 @@ body.homepage {
     }
 
     .home-hero::after {
-        background: color-mix(in srgb, var(--home-brand-strong) 74%, transparent);
+        background: color-mix(in srgb, var(--home-brand-strong) 82%, transparent);
     }
 
     .home-hero__media img {
@@ -1239,7 +1239,7 @@ body.homepage {
     }
 
     .home-hero__lead {
-        color: color-mix(in srgb, white 90%, var(--home-sand));
+        color: color-mix(in srgb, white 96%, var(--home-sand));
     }
 
     .home-actions {
@@ -1310,6 +1310,7 @@ body.homepage {
         inset: auto 0 0 auto;
         min-width: 8.6rem;
         padding-inline: 0.9rem;
+        display: none;
     }
 
     .sportabzeichen-drawer__panel {

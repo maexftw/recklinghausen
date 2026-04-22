@@ -468,18 +468,9 @@
                     return;
                 }
 
-                try {
-                    if (window.localStorage.getItem(noticeStorageKey) === 'true') {
-                        return;
-                    }
-                } catch (error) {
-                    console.warn('Sportabzeichen notice persistence unavailable.', error);
-                }
-
-                notice.hidden = false;
-                window.requestAnimationFrame(() => {
-                    notice.classList.add('is-visible');
-                });
+                // The fixed notice card kept covering homepage content. Keep the
+                // lighter drawer entry point and retire the floating duplicate.
+                notice.hidden = true;
             };
 
             const openDrawer = (trigger) => {
