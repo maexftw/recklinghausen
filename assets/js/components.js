@@ -71,7 +71,7 @@ function initSharedComponents() {
 
     const ctaTarget = `${basePath}pages/contact.html#contact`;
     const headerHTML = `
-    <header class="site-shell border-b border-slate-200 dark:border-slate-800">
+    <header class="site-shell border-b border-slate-200">
         <div class="site-shell__inner max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="site-shell__bar">
                 <a href="${basePath}index.html" class="site-wordmark" aria-label="RLC 1952 Startseite">
@@ -89,9 +89,6 @@ function initSharedComponents() {
                         <a class="site-nav-link text-sm font-semibold transition-colors" href="${basePath}pages/contact.html">Kontakt</a>
                     </nav>
                     <div class="site-shell__actions">
-                        <button id="theme-toggle" class="site-icon-button p-2" aria-label="Dark Mode umschalten" aria-pressed="false">
-                            <span class="material-icons-round">dark_mode</span>
-                        </button>
                         <a href="${ctaTarget}" class="site-cta site-cta--header-main px-5 py-2.5 font-bold text-sm">
                             Mitmachen
                         </a>
@@ -102,7 +99,7 @@ function initSharedComponents() {
                 </div>
             </div>
         </div>
-        <div id="mobile-menu" class="site-mobile-panel hidden lg:hidden bg-white dark:bg-background-dark border-b border-slate-200 dark:border-slate-800" hidden>
+        <div id="mobile-menu" class="site-mobile-panel hidden lg:hidden bg-white border-b border-slate-200" hidden>
             <div class="site-mobile-panel__inner px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a href="${ctaTarget}" class="site-cta site-cta--mobile px-5 py-2.5 font-bold text-sm">
                     Mitmachen
@@ -187,7 +184,7 @@ function initSharedComponents() {
 
     document.documentElement.dataset.sharedComponentsInitialized = 'true';
 
-    initThemeToggle();
+    enforceLightTheme();
     highlightActiveNavigation();
     initMobileMenu();
 }
@@ -210,33 +207,15 @@ function ensureSharedStyles(basePath) {
 
 }
 
-function initThemeToggle() {
-    const themeToggle = document.getElementById('theme-toggle');
-    if (!themeToggle || themeToggle.dataset.bound === 'true') {
-        return;
+function enforceLightTheme() {
+    document.documentElement.classList.remove('dark');
+    document.documentElement.classList.add('light');
+
+    try {
+        localStorage.removeItem('theme');
+    } catch (error) {
+        console.warn('Theme preference cleanup unavailable.', error);
     }
-
-    themeToggle.dataset.bound = 'true';
-
-    const savedTheme = localStorage.getItem('theme');
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const shouldUseDark = savedTheme === 'dark' || (!savedTheme && prefersDark);
-    const icon = themeToggle.querySelector('.material-icons-round');
-
-    document.documentElement.classList.toggle('dark', shouldUseDark);
-    themeToggle.setAttribute('aria-pressed', String(shouldUseDark));
-    if (icon) {
-        icon.textContent = shouldUseDark ? 'light_mode' : 'dark_mode';
-    }
-
-    themeToggle.addEventListener('click', () => {
-        const isDark = document.documentElement.classList.toggle('dark');
-        localStorage.setItem('theme', isDark ? 'dark' : 'light');
-        themeToggle.setAttribute('aria-pressed', String(isDark));
-        if (icon) {
-            icon.textContent = isDark ? 'light_mode' : 'dark_mode';
-        }
-    });
 }
 
 function highlightActiveNavigation() {
