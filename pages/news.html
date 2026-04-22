@@ -1,16 +1,16 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html class="light" lang="de">
 
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>News, Ergebnisse und Vereinsarchiv | RLC 1952</title>
+    <title>News und Vereinsmeldungen | RLC 1952</title>
     <meta name="description"
-        content="Aktuelle Nachrichten, Ergebnisse und Hintergründe aus dem Recklinghäuser Leichtathletik Club 1952 e.V. – als kuratiertes News-Archiv mit klaren Einstiegen in Training, Kontakt und Vereinsleben." />
+        content="Aktuelle News und Vereinsmeldungen des Recklingh&auml;user Leichtathletik Clubs 1952 e.V. in einer klaren, entschlackten Archivansicht." />
     <link href="../assets/css/design-tokens.css" rel="stylesheet" />
     <link href="../assets/css/shell.css" rel="stylesheet" />
-    <link href="../assets/css/subpages.css" rel="stylesheet" />
+    <link href="../assets/css/subpages.css?v=4" rel="stylesheet" />
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Montserrat:wght@700;900&amp;display=swap"
         rel="stylesheet" />
@@ -25,241 +25,87 @@
 
     <main class="subpage-main">
         <div class="subpage-stack">
-            <section class="subpage-intro subpage-intro--full subpage-news-intro" aria-labelledby="news-page-title">
+            <section class="subpage-intro" aria-labelledby="news-page-title">
                 <div class="subpage-intro__content">
-                    <span class="subpage-eyebrow">RLC News</span>
-                    <h1 id="news-page-title" class="subpage-display">News, Ergebnisse und Vereinsmeldungen im schnellen Zugriff.</h1>
-                    <p class="subpage-lead">Bleibe informiert über alles, was im RLC 1952 passiert – von Wettkampfergebnissen bis hin zu internen Terminen und Vereinsgeschichten.</p>
-
-                    <div class="subpage-meta-row">
-                        <span class="subpage-meta"><span class="material-icons-round" aria-hidden="true">newspaper</span><strong>Inhalt:</strong> Meldungen, Ergebnisse und Vereinsgeschichten</span>
-                        <span class="subpage-meta"><span class="material-icons-round" aria-hidden="true">filter_alt</span><strong>Fokus:</strong> Themenfilter ohne Neuladen</span>
-                        <span class="subpage-meta"><span class="material-icons-round" aria-hidden="true">folder_open</span><strong>Archiv:</strong> Priorisierte Übersicht mit Detailseiten</span>
-                    </div>
-
-                    <div class="subpage-hero-points" aria-label="Drei schnelle Gründe für die News-Übersicht">
-                        <article class="subpage-hero-point">
-                            <span>Erster Eindruck</span>
-                            <strong>Die wichtigste Meldung steht nicht im Raster versteckt, sondern führt die Seite sichtbar an.</strong>
-                        </article>
-                        <article class="subpage-hero-point">
-                            <span>Archivrhythmus</span>
-                            <strong>Filter, Pagination und Karten bauen einen lesbaren Takt zwischen Top-Story und weiterem Archiv auf.</strong>
-                        </article>
-                        <article class="subpage-hero-point">
-                            <span>Nächster Schritt</span>
-                            <strong>Von jeder Meldung aus bleiben Training, Kontakt und Mitgliedschaft als Anschluss klar erreichbar.</strong>
-                        </article>
-                    </div>
-
+                    <span class="subpage-eyebrow">Aktuelles</span>
+                    <h1 id="news-page-title" class="subpage-display">Neuigkeiten aus dem Verein, ohne &Uuml;berbau und ohne Umwege.</h1>
+                    <p class="subpage-lead">Die neueste Meldung steht direkt oben. Weitere Beitr&auml;ge und Ergebnisse findest du darunter in einer ruhigen Archivansicht.</p>
                     <div class="subpage-actions">
-                        <a href="#news-feature-title" class="subpage-button">Top-Meldung lesen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
-                        <a href="#news-archive-title" class="subpage-button subpage-button--secondary">Direkt ins Archiv <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
-                        <a href="contact.html#contact" class="subpage-link">Redaktionellen Kontakt vorbereiten <span class="material-icons-round" aria-hidden="true">east</span></a>
+                        <a href="#news-feature-title" class="subpage-button">Neueste Meldung lesen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                        <a href="#news-archive-title" class="subpage-link">Direkt ins Archiv <span class="material-icons-round" aria-hidden="true">south</span></a>
                     </div>
                 </div>
 
-                <aside class="subpage-intro__aside subpage-intro__aside--accent" aria-label="Schnelle Orientierung zum News-Archiv">
-                    <span class="subpage-kicker">Worum geht es?</span>
-                    <p class="subpage-copy">Alle wichtigen Meldungen im schnellen Zugriff. Wähle eine Kategorie, um die Liste nach deinen Interessen zu filtern.</p>
-
-                    <dl class="subpage-stat-list">
-                        <div>
-                            <dt>Top-Meldung</dt>
-                            <dd>Der aktuell wichtigste Beitrag zum gewählten Thema wird prominent oberhalb des Archivs ausgespielt.</dd>
+                <aside class="subpage-intro__aside subpage-intro__aside--accent" aria-label="Platzhalter f&uuml;r Vereinsfoto oder Newsmotiv">
+                    <div class="subpage-hero-placeholder">
+                        <span class="subpage-kicker">Bildfl&auml;che</span>
+                        <div class="subpage-hero-placeholder__frame">
+                            <span class="subpage-hero-placeholder__label">Vereinsfoto oder Aktionsmotiv</span>
                         </div>
-                        <div>
-                            <dt>Metadaten</dt>
-                            <dd>Datum, Themenlabel und Kartenhierarchie machen jede Meldung schneller einschätzbar.</dd>
-                        </div>
-                        <div>
-                            <dt>Folgeschritt</dt>
-                            <dd>Kontakt, Training und Mitgliedschaft bleiben im Seitenfluss sichtbar statt in der Navigation versteckt.</dd>
-                        </div>
-                    </dl>
-
-                    <ul class="subpage-checklist" aria-label="Drei redaktionelle Hinweise zur News-Seite">
-                        <li><strong>Für aktuelle Orientierung:</strong> Die Top-Meldung aktualisiert sich automatisch passend zum aktiven Thema.</li>
-                        <li><strong>Für Archivnutzung:</strong> Filter und Seitennavigation halten auch größere Mengen lesbar und ruhig.</li>
-                        <li><strong>Für spätere Detailseiten:</strong> Die Übersicht bereitet bereits Kartenlogik, Labels und CTA-Richtung für die News-Detailseiten vor.</li>
-                    </ul>
+                        <p class="subpage-copy">Bis ein aktuelles Motiv vorliegt, bleibt die Fl&auml;che bewusst klar als Platzhalter markiert.</p>
+                    </div>
                 </aside>
             </section>
 
-            <section class="subpage-highlight-strip" aria-label="Schnellorientierung für das News-Archiv">
-                <article>
-                    <span>Aktualität</span>
-                    <strong>Die Seite startet mit Gewichtung statt mit Gleichbehandlung aller Beiträge.</strong>
-                    <p>Wichtige Meldungen, Ergebnisse und redaktionelle Höhepunkte wirken dadurch relevanter und schneller erfassbar.</p>
-                </article>
-                <article>
-                    <span>Orientierung</span>
-                    <strong>Themenfilter und Archivstatus machen Umfang, Fokus und aktuelle Ansicht direkt verständlich.</strong>
-                    <p>Leserinnen und Leser sehen sofort, welche Kategorie aktiv ist und wie viele Beiträge dazu verfügbar sind.</p>
-                </article>
-                <article>
-                    <span>Anschluss</span>
-                    <strong>News endet nicht bei Information, sondern verweist sichtbar auf Training, Kontakt und Mitgliedschaft.</strong>
-                    <p>Die Seite funktioniert damit nicht nur als Archiv, sondern auch als Einstieg in das Vereinsangebot.</p>
-                </article>
-            </section>
-
-            <section class="subpage-grid subpage-grid--sidebar" aria-labelledby="news-archive-title">
-                <div class="subpage-section subpage-section--tight">
-                    <div class="subpage-toolbar" aria-labelledby="news-filter-title">
-                        <div class="subpage-title-row">
-                            <div>
-                                <span class="subpage-eyebrow">Filter &amp; Orientierung</span>
-                                <h2 id="news-filter-title" class="subpage-title">Das passende Thema schneller finden und den Archivfokus sofort verstehen.</h2>
-                            </div>
-                            <div class="subpage-news-toolbar-stats" aria-label="Aktueller Archivstatus">
-                                <article class="subpage-news-stat-card">
-                                    <span>Archiv</span>
-                                    <strong id="news-count">00</strong>
-                                    <p>Beiträge gesamt</p>
-                                </article>
-                                <article class="subpage-news-stat-card">
-                                    <span>Seite</span>
-                                    <strong id="page-indicator">01</strong>
-                                    <p>Aktuelle Archivansicht</p>
-                                </article>
-                                <article class="subpage-news-stat-card">
-                                    <span>Fokus</span>
-                                    <strong id="current-filter-label">Alles</strong>
-                                    <p>Gewähltes Thema</p>
-                                </article>
-                            </div>
+            <section class="subpage-surface subpage-surface--flush" aria-labelledby="news-feature-title">
+                <div class="subpage-surface__header">
+                    <div class="subpage-title-row">
+                        <div>
+                            <span class="subpage-eyebrow">Neueste Meldung</span>
+                            <h2 id="news-feature-title" class="subpage-title">Die aktuellste Vereinsmeldung steht direkt vorne.</h2>
                         </div>
-
-                        <fieldset class="subpage-toolbar__group">
-                            <legend class="subpage-kicker">Themenfilter</legend>
-                            <div id="news-filters" class="subpage-news-filter-list" role="group" aria-label="News nach Thema filtern"></div>
-                        </fieldset>
-
-                        <p id="news-filter-status" class="subpage-toolbar__status" aria-live="polite">Archiv wird geladen.</p>
+                        <p id="news-last-updated" class="subpage-copy">Neueste Meldung wird geladen.</p>
                     </div>
-
-                    <section class="subpage-surface subpage-surface--flush" aria-labelledby="news-archive-title">
-                        <div class="subpage-surface__header subpage-news-surface-header">
-                            <div class="subpage-title-row">
-                                <div>
-                                    <span class="subpage-eyebrow">Archivübersicht</span>
-                                    <h2 id="news-archive-title" class="subpage-title">Top-Meldung zuerst, danach das vollständige Archiv im lesbaren Rhythmus.</h2>
-                                </div>
-                            </div>
-                            <p id="archive-summary" class="subpage-copy subpage-news-archive-summary">Aktuell sichtbar: <strong>Alle Meldungen</strong></p>
-                        </div>
-
-                        <article class="subpage-news-feature" aria-labelledby="news-feature-title">
-                            <div class="subpage-news-feature__media">
-                                <img id="featured-story-image" src="" alt="" loading="eager" decoding="async" />
-                            </div>
-                            <div class="subpage-news-feature__body">
-                                <div class="subpage-news-card-meta">
-                                    <span class="subpage-news-date-chip" id="featured-story-date">Aktuell</span>
-                                    <span class="subpage-news-category" id="featured-story-eyebrow">Top-Meldung aus dem Archiv</span>
-                                </div>
-
-                                <p id="featured-story-context" class="subpage-news-context">Aktuelles Thema <strong>Alle Meldungen</strong></p>
-
-                                <div class="subpage-news-feature__intro">
-                                    <h3 id="news-feature-title" class="subpage-news-feature__title">Die wichtigste Meldung zuerst.</h3>
-                                    <p id="featured-story-excerpt" class="subpage-copy">Die neueste passende Meldung wird geladen und hier hervorgehoben.</p>
-                                </div>
-
-                                <div class="subpage-actions subpage-news-feature__actions">
-                                    <a id="featured-story-link" href="news.html" class="subpage-button" aria-label="Top-Meldung lesen">Top-Meldung lesen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
-                                    <a href="training.html" class="subpage-button subpage-button--secondary">Training ansehen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
-                                    <a href="membership-info.html" class="subpage-link">Mitglied werden <span class="material-icons-round" aria-hidden="true">east</span></a>
-                                </div>
-
-                                <p id="featured-story-note" class="subpage-news-feature__note">Die Auswahl passt sich automatisch an das gewählte Thema an.</p>
-                            </div>
-                        </article>
-
-                        <div id="news-container" class="subpage-news-grid" aria-live="polite" aria-busy="true">
-                            <article class="subpage-news-card subpage-news-card--featured is-loading" aria-hidden="true">
-                                <div class="subpage-news-card__media"></div>
-                                <div class="subpage-news-card__body">
-                                    <div class="subpage-news-card__skeleton-line subpage-news-card__skeleton-line--short"></div>
-                                    <div class="subpage-news-card__skeleton-line subpage-news-card__skeleton-line--title"></div>
-                                    <div class="subpage-news-card__skeleton-line subpage-news-card__skeleton-line--body"></div>
-                                </div>
-                            </article>
-                        </div>
-
-                        <nav id="news-pagination" class="subpage-news-pagination" aria-label="Seitennavigation für News-Archiv"></nav>
-                    </section>
                 </div>
 
-                <aside class="subpage-section subpage-section--tight">
-                    <section class="subpage-panel">
-                        <span class="subpage-eyebrow">Schnell weiter</span>
-                        <h2 class="subpage-panel__title">Wichtige Vereinsseiten direkt aus dem News-Kontext.</h2>
-                        <p class="subpage-copy">Wer nach einer Meldung tiefer einsteigen möchte, findet hier die wichtigsten Anschlussseiten ohne Umweg über die Hauptnavigation.</p>
-                        <div class="subpage-news-link-list">
-                            <a href="membership-info.html" class="subpage-news-utility-link">
-                                <span>
-                                    <strong>Mitgliedschaft &amp; Antrag</strong>
-                                    <small>Wenn News in den nächsten Schritt führen soll.</small>
-                                </span>
-                                <span class="material-icons-round" aria-hidden="true">north_east</span>
-                            </a>
-                            <a href="training.html" class="subpage-news-utility-link">
-                                <span>
-                                    <strong>Training &amp; Gruppen</strong>
-                                    <small>Direkter Übergang von Bericht zu Trainingsrealität.</small>
-                                </span>
-                                <span class="material-icons-round" aria-hidden="true">north_east</span>
-                            </a>
-                            <a href="team.html" class="subpage-news-utility-link">
-                                <span>
-                                    <strong>Team &amp; Ansprechpartner</strong>
-                                    <small>Wer hinter Leistung, Nachwuchs und Vereinsbetrieb steht.</small>
-                                </span>
-                                <span class="material-icons-round" aria-hidden="true">north_east</span>
-                            </a>
-                            <a href="contact.html#contact" class="subpage-news-utility-link">
-                                <span>
-                                    <strong>Kontakt zum Verein</strong>
-                                    <small>Für Rückfragen, Einstieg oder redaktionelle Hinweise.</small>
-                                </span>
-                                <span class="material-icons-round" aria-hidden="true">north_east</span>
-                            </a>
+                <article class="subpage-news-feature" aria-labelledby="featured-story-title">
+                    <div class="subpage-news-feature__media">
+                        <img id="featured-story-image" src="" alt="" loading="eager" decoding="async" />
+                    </div>
+                    <div class="subpage-news-feature__body">
+                        <div class="subpage-news-card-meta">
+                            <span class="subpage-news-date-chip" id="featured-story-date">Aktuell</span>
+                            <span class="subpage-news-category" id="featured-story-category">Vereinsnews</span>
                         </div>
-                    </section>
 
-                    <section class="subpage-panel">
-                        <span class="subpage-eyebrow">Orientierung</span>
-                        <h2 class="subpage-panel__title">So liest sich das Archiv schneller.</h2>
-                        <ol class="subpage-news-steps" aria-label="Drei Schritte zur Nutzung des News-Archivs">
-                            <li>
-                                <strong>Top-Meldung prüfen</strong>
-                                <p>Ganz oben steht immer der aktuell wichtigste Beitrag zum gewählten Thema – als redaktioneller Schnellzugang.</p>
-                            </li>
-                            <li>
-                                <strong>Thema eingrenzen</strong>
-                                <p>Mit Wettkampf, Nachwuchs, Vereinsleben oder Ehrungen wird aus dem Gesamtarchiv eine fokussierte Auswahl.</p>
-                            </li>
-                            <li>
-                                <strong>Ins Detail wechseln</strong>
-                                <p>Jede Karte führt direkt zur Beitragsseite und behält Datum, Kategorie und CTA-Richtung konsistent bei.</p>
-                            </li>
-                        </ol>
-                    </section>
-                </aside>
+                        <div class="subpage-news-feature__intro">
+                            <h3 id="featured-story-title" class="subpage-news-feature__title">Die neueste Meldung wird geladen.</h3>
+                            <p id="featured-story-excerpt" class="subpage-copy">Sobald die News-Daten verf&uuml;gbar sind, erscheint hier automatisch die aktuellste Vereinsmeldung.</p>
+                        </div>
+
+                        <div class="subpage-actions subpage-news-feature__actions">
+                            <a id="featured-story-link" href="contact.html#contact" class="subpage-button">Meldung lesen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                            <a href="training.html" class="subpage-link">Trainings&uuml;bersicht ansehen <span class="material-icons-round" aria-hidden="true">east</span></a>
+                        </div>
+
+                        <p class="subpage-copy">Weitere Meldungen und Ergebnisse findest du direkt darunter im Archiv.</p>
+                    </div>
+                </article>
+            </section>
+
+            <section class="subpage-surface subpage-surface--flush" aria-labelledby="news-archive-title">
+                <div class="subpage-surface__header">
+                    <div class="subpage-title-row">
+                        <div>
+                            <span class="subpage-eyebrow">Archiv</span>
+                            <h2 id="news-archive-title" class="subpage-title">Weitere Meldungen im schnellen &Uuml;berblick.</h2>
+                        </div>
+                        <p id="news-archive-summary" class="subpage-copy">Beitr&auml;ge werden geladen.</p>
+                    </div>
+                </div>
+
+                <div id="news-container" class="subpage-news-grid" aria-live="polite" aria-busy="true"></div>
             </section>
 
             <section class="subpage-cta-band" aria-labelledby="news-cta-title">
                 <div class="subpage-cta-band__content">
-                    <span class="subpage-kicker">Nächster Schritt nach dem Lesen</span>
-                    <h2 id="news-cta-title" class="subpage-panel__title">Vom News-Archiv direkt in den Verein.</h2>
-                    <p>Fehlt dir eine Information? Melde dich einfach bei uns oder informiere dich weiter über unsere Trainingsangebote.</p>
+                    <span class="subpage-kicker">Und jetzt?</span>
+                    <h2 id="news-cta-title" class="subpage-panel__title">Vom Lesen direkt zum richtigen n&auml;chsten Schritt.</h2>
+                    <p>Wer nach einer Meldung mehr wissen will, landet ohne Umweg bei Training, Kontakt oder dem n&auml;chsten Probetraining.</p>
                 </div>
                 <div class="subpage-cta-band__actions">
                     <a href="contact.html#contact" class="subpage-button">Kontakt aufnehmen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
-                    <a href="training.html" class="subpage-button subpage-button--secondary">Trainingsübersicht ansehen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
-                    <a href="#news-page-title" class="subpage-link">Zurück zum Seitenanfang <span class="material-icons-round" aria-hidden="true">north</span></a>
+                    <a href="training.html" class="subpage-button subpage-button--secondary">Trainingszeiten ansehen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                 </div>
             </section>
         </div>
@@ -268,395 +114,144 @@
     <footer data-shared-footer-placeholder></footer>
 
     <script>
-        const ARTICLES_PER_PAGE = 9;
-        let currentPage = 1;
-        let activeFilter = 'all';
+        document.addEventListener('DOMContentLoaded', () => {
+            const news = Array.isArray(window.newsData) ? window.newsData : [];
+            const container = document.getElementById('news-container');
+            const featuredImage = document.getElementById('featured-story-image');
+            const featuredDate = document.getElementById('featured-story-date');
+            const featuredCategory = document.getElementById('featured-story-category');
+            const featuredTitle = document.getElementById('featured-story-title');
+            const featuredExcerpt = document.getElementById('featured-story-excerpt');
+            const featuredLink = document.getElementById('featured-story-link');
+            const lastUpdated = document.getElementById('news-last-updated');
+            const archiveSummary = document.getElementById('news-archive-summary');
 
-        const FILTER_DEFINITIONS = [
-            {
-                key: 'all',
-                label: 'Alles',
-                description: 'Alle Meldungen im Archiv',
-                matcher: () => true
-            },
-            {
-                key: 'competition',
-                label: 'Wettkampf',
-                description: 'Meisterschaften, Ergebnisse, Qualifikationen',
-                matcher: (article) => hasKeywords(article, ['wettkampf', 'meister', 'meeting', 'hallen', 'qual', 'rekord', 'lauf', 'cup', 'platz', 'bestleistung'])
-            },
-            {
-                key: 'youth',
-                label: 'Nachwuchs',
-                description: 'Kinder, Jugend und KiLa',
-                matcher: (article) => hasKeywords(article, ['u8', 'u10', 'u12', 'u14', 'u16', 'u18', 'kila', 'jugend', 'nachwuchs', 'kinder'])
-            },
-            {
-                key: 'club',
-                label: 'Vereinsleben',
-                description: 'Termine, Gemeinschaft, Vereinsalltag',
-                matcher: (article) => hasKeywords(article, ['verein', 'jahres', 'mitglied', 'training', 'veranstaltung', 'gemeinschaft', 'versammlung'])
-            },
-            {
-                key: 'honours',
-                label: 'Ehrungen',
-                description: 'Auszeichnungen und Würdigungen',
-                matcher: (article) => hasKeywords(article, ['ehrung', 'geehrt', 'pokal', 'auszeichnung'])
-            }
-        ];
-
-        function normalizeText(value) {
-            return (value || '')
+            const normalizeText = (value) => (value || '')
                 .toString()
                 .normalize('NFD')
                 .replace(/[\u0300-\u036f]/g, '')
                 .toLowerCase();
-        }
 
-        function hasKeywords(article, keywords) {
-            const haystack = normalizeText(`${article.title || ''} ${article.content_text || ''}`);
-            return keywords.some((keyword) => haystack.includes(normalizeText(keyword)));
-        }
-
-        function getImageUrl(article) {
-            const fallback = 'https://via.placeholder.com/1200x800?text=RLC+1952';
-            const imageUrl = article.images && article.images.length > 0 ? article.images[0].local : fallback;
-            return imageUrl.startsWith('http') ? imageUrl : `../${imageUrl}`;
-        }
-
-        function getArticleUrl(article) {
-            return article.id ? `news/${article.id}.html` : 'news.html';
-        }
-
-        function getExcerpt(article) {
-            const text = (article.content_text || 'Zu diesem Beitrag gibt es noch keine Kurzbeschreibung.').replace(/\s+/g, ' ').trim();
-            return text.length > 240 ? `${text.slice(0, 237)}…` : text;
-        }
-
-        function getFilteredNews() {
-            const news = Array.isArray(window.newsData) ? window.newsData : [];
-            const filterDef = FILTER_DEFINITIONS.find((filter) => filter.key === activeFilter) || FILTER_DEFINITIONS[0];
-            return news.filter(filterDef.matcher);
-        }
-
-        function getArticleCategory(article) {
-            if (activeFilter !== 'all') {
-                return FILTER_DEFINITIONS.find((filter) => filter.key === activeFilter)?.label || 'Vereinsnews';
-            }
-
-            const preferredOrder = ['honours', 'youth', 'competition', 'club'];
-            const matched = preferredOrder
-                .map((key) => FILTER_DEFINITIONS.find((filter) => filter.key === key))
-                .find((filter) => filter && filter.matcher(article));
-
-            return matched?.label || 'Vereinsnews';
-        }
-
-        function updateHero(news) {
-            const featured = news[0];
-            const image = document.getElementById('featured-story-image');
-            const date = document.getElementById('featured-story-date');
-            const eyebrow = document.getElementById('featured-story-eyebrow');
-            const context = document.getElementById('featured-story-context');
-            const title = document.getElementById('news-feature-title');
-            const excerpt = document.getElementById('featured-story-excerpt');
-            const link = document.getElementById('featured-story-link');
-            const note = document.getElementById('featured-story-note');
-            const filterDef = FILTER_DEFINITIONS.find((filter) => filter.key === activeFilter) || FILTER_DEFINITIONS[0];
-            const filterLabel = filterDef.label || 'Alles';
-            const filterDescription = filterDef.description || 'Alle Meldungen';
-
-            if (context) {
-                context.innerHTML = `Aktuelles Thema <strong>${filterLabel === 'Alles' ? 'Alle Meldungen' : filterLabel}</strong>`;
-            }
-
-            if (!featured) {
-                image.src = 'https://via.placeholder.com/1200x800?text=RLC+1952';
-                image.alt = 'News-Archiv des RLC 1952';
-                date.textContent = 'Archiv';
-                if (eyebrow) eyebrow.textContent = 'Zurzeit keine Top-Meldung';
-                title.textContent = 'Im Moment sind hier keine Meldungen verfügbar.';
-                excerpt.textContent = `Für „${filterLabel}“ sind aktuell keine Beiträge vorhanden. Sobald neue Meldungen veröffentlicht werden, erscheinen sie hier automatisch.`;
-                link.href = 'contact.html#contact';
-                link.setAttribute('aria-label', 'Kontaktseite öffnen');
-                link.innerHTML = 'Zur Kontaktseite <span class="material-icons-round" aria-hidden="true">arrow_forward</span>';
-                if (note) note.textContent = `Aktives Thema: ${filterDescription}.`;
-                return;
-            }
-
-            image.src = getImageUrl(featured);
-            image.alt = featured.title || 'Aktuelle Vereinsmeldung';
-            image.onerror = () => { image.src = 'https://via.placeholder.com/1200x800?text=RLC+1952'; };
-            date.textContent = featured.date || 'Aktuell';
-            if (eyebrow) eyebrow.textContent = activeFilter === 'all' ? 'Top-Meldung aus dem Archiv' : `Top-Meldung zu ${filterLabel}`;
-            title.textContent = featured.title || 'Vereinsmeldung';
-            excerpt.textContent = getExcerpt(featured);
-            link.href = getArticleUrl(featured);
-            link.setAttribute('aria-label', `Top-Meldung lesen: ${featured.title || 'Vereinsmeldung'}`);
-            link.innerHTML = 'Top-Meldung lesen <span class="material-icons-round" aria-hidden="true">arrow_forward</span>';
-            if (note) {
-                note.textContent = activeFilter === 'all'
-                    ? 'Hier siehst du immer die neueste Meldung aus dem Archiv.'
-                    : `Hier siehst du die neueste Meldung zum Thema „${filterLabel}“.`;
-            }
-        }
-
-        function updateStats(allNews, filteredNews) {
-            const filterLabel = FILTER_DEFINITIONS.find((filter) => filter.key === activeFilter)?.label || 'Alles';
-            const newsCount = document.getElementById('news-count');
-            const pageIndicator = document.getElementById('page-indicator');
-            const currentFilterLabel = document.getElementById('current-filter-label');
-            const archiveSummary = document.getElementById('archive-summary');
-            const filterStatus = document.getElementById('news-filter-status');
-
-            if (newsCount) newsCount.textContent = String(allNews.length).padStart(2, '0');
-            if (pageIndicator) pageIndicator.textContent = String(currentPage).padStart(2, '0');
-            if (currentFilterLabel) currentFilterLabel.textContent = filterLabel;
-            if (archiveSummary) {
-                archiveSummary.innerHTML = `Aktuell sichtbar: <strong>${filterLabel === 'Alles' ? 'Alle Meldungen' : filterLabel}</strong> · ${String(filteredNews.length).padStart(2, '0')} Beiträge`;
-            }
-            if (filterStatus) {
-                filterStatus.textContent = `${String(filteredNews.length).padStart(2, '0')} Beiträge im Fokus „${filterLabel}“.`;
-            }
-
-            const container = document.getElementById('news-container');
-            if (container) {
-                container.setAttribute('aria-busy', 'false');
-                container.dataset.resultCount = String(filteredNews.length);
-            }
-        }
-
-        function renderFilters(allNews) {
-            const filterContainer = document.getElementById('news-filters');
-            if (!filterContainer) return;
-
-            filterContainer.innerHTML = '';
-
-            FILTER_DEFINITIONS.forEach((filter) => {
-                const count = allNews.filter(filter.matcher).length;
-                const button = document.createElement('button');
-                button.type = 'button';
-                button.className = `subpage-news-filter${activeFilter === filter.key ? ' is-active' : ''}`;
-                button.setAttribute('aria-pressed', String(activeFilter === filter.key));
-                button.innerHTML = `
-                    <span class="subpage-news-filter__copy">
-                        <strong>${filter.label}</strong>
-                        <small>${filter.description}</small>
-                    </span>
-                    <span class="subpage-news-filter__count">${String(count).padStart(2, '0')}</span>
-                `;
-                button.addEventListener('click', () => {
-                    activeFilter = filter.key;
-                    currentPage = 1;
-                    loadNews();
-                });
-                filterContainer.appendChild(button);
-            });
-        }
-
-        function createArticleCard(article, index) {
-            const card = document.createElement('article');
-            const size = index % 5 === 0 ? 'featured' : 'standard';
-            card.className = `subpage-news-card${size === 'featured' ? ' subpage-news-card--featured' : ''}`;
-
-            card.innerHTML = `
-                <div class="subpage-news-card__media">
-                    <img src="${getImageUrl(article)}" alt="${article.title || 'Vereinsmeldung'}" loading="lazy" decoding="async">
-                </div>
-                <div class="subpage-news-card__body">
-                    <div class="subpage-news-card-meta">
-                        <span class="subpage-news-date-chip">${article.date || 'Datum folgt'}</span>
-                        <span class="subpage-news-category">${getArticleCategory(article)}</span>
-                    </div>
-                    <div class="subpage-news-card__content">
-                        <h3 class="subpage-news-card__title">${article.title || 'Vereinsmeldung'}</h3>
-                        <p class="subpage-copy">${getExcerpt(article)}</p>
-                    </div>
-                    <div class="subpage-news-card__footer">
-                        <a href="${getArticleUrl(article)}" class="subpage-link">
-                            Meldung lesen
-                            <span class="material-icons-round" aria-hidden="true">arrow_forward</span>
-                        </a>
-                        <span class="subpage-news-card__source">RLC 1952 News</span>
-                    </div>
-                </div>
-            `;
-
-            const image = card.querySelector('img');
-            if (image) {
-                image.onerror = () => { image.src = 'https://via.placeholder.com/1200x800?text=RLC+1952'; };
-            }
-
-            return card;
-        }
-
-        function renderPagination(totalArticles) {
-            const totalPages = Math.max(1, Math.ceil(totalArticles / ARTICLES_PER_PAGE));
-            const nav = document.getElementById('news-pagination');
-            if (!nav) return;
-
-            nav.innerHTML = '';
-            nav.setAttribute('aria-label', `Seitennavigation für ${totalPages} Archivseiten`);
-
-            const appendButton = ({ label, text, disabled, onClick, current = false, icon = null }) => {
-                const button = document.createElement('button');
-                button.type = 'button';
-                button.disabled = disabled;
-                button.setAttribute('aria-label', label);
-                if (current) button.setAttribute('aria-current', 'page');
-                if (icon) {
-                    button.innerHTML = `<span class="material-icons-round" aria-hidden="true">${icon}</span>`;
-                } else {
-                    button.textContent = text;
-                }
-                if (!disabled) button.addEventListener('click', onClick);
-                if (disabled) button.classList.add('is-disabled');
-                nav.appendChild(button);
+            const getImageUrl = (article) => {
+                const fallback = 'https://via.placeholder.com/1200x800?text=RLC+1952';
+                const imageUrl = article.images && article.images.length > 0 ? article.images[0].local : fallback;
+                return imageUrl.startsWith('http') ? imageUrl : `../${imageUrl}`;
             };
 
-            appendButton({
-                label: 'Vorherige Archivseite',
-                disabled: currentPage === 1,
-                icon: 'chevron_left',
-                onClick: () => {
-                    currentPage -= 1;
-                    loadNews();
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
+            const getArticleUrl = (article) => article.id ? `news/${article.id}.html` : 'contact.html#contact';
+
+            const getExcerpt = (article) => {
+                const text = (article.content_text || 'Zu diesem Beitrag gibt es noch keine Kurzbeschreibung.').replace(/\s+/g, ' ').trim();
+                return text.length > 220 ? `${text.slice(0, 217)}...` : text;
+            };
+
+            const getCategory = (article) => {
+                const haystack = normalizeText(`${article.title || ''} ${article.content_text || ''}`);
+                if (['ehrung', 'pokal', 'auszeichnung'].some((keyword) => haystack.includes(keyword))) {
+                    return 'Ehrungen';
                 }
-            });
-
-            let startPage = Math.max(1, currentPage - 2);
-            let endPage = Math.min(totalPages, currentPage + 2);
-
-            if (startPage > 1) {
-                appendButton({
-                    label: 'Archivseite 1',
-                    text: '1',
-                    disabled: false,
-                    current: currentPage === 1,
-                    onClick: () => {
-                        currentPage = 1;
-                        loadNews();
-                        window.scrollTo({ top: 0, behavior: 'smooth' });
-                    }
-                });
-
-                if (startPage > 2) {
-                    const dots = document.createElement('span');
-                    dots.textContent = '…';
-                    nav.appendChild(dots);
+                if (['u8', 'u10', 'u12', 'u14', 'u16', 'u18', 'jugend', 'kila', 'nachwuchs', 'kinder'].some((keyword) => haystack.includes(keyword))) {
+                    return 'Nachwuchs';
                 }
-            }
-
-            for (let page = startPage; page <= endPage; page += 1) {
-                appendButton({
-                    label: `Archivseite ${page}`,
-                    text: String(page),
-                    disabled: false,
-                    current: currentPage === page,
-                    onClick: () => {
-                        currentPage = page;
-                        loadNews();
-                        window.scrollTo({ top: 0, behavior: 'smooth' });
-                    }
-                });
-            }
-
-            if (endPage < totalPages) {
-                if (endPage < totalPages - 1) {
-                    const dots = document.createElement('span');
-                    dots.textContent = '…';
-                    nav.appendChild(dots);
+                if (['meister', 'meeting', 'qual', 'lauf', 'halle', 'rekord', 'wettkampf'].some((keyword) => haystack.includes(keyword))) {
+                    return 'Wettkampf';
                 }
+                return 'Vereinsnews';
+            };
 
-                appendButton({
-                    label: `Archivseite ${totalPages}`,
-                    text: String(totalPages),
-                    disabled: false,
-                    current: currentPage === totalPages,
-                    onClick: () => {
-                        currentPage = totalPages;
-                        loadNews();
-                        window.scrollTo({ top: 0, behavior: 'smooth' });
-                    }
-                });
-            }
-
-            appendButton({
-                label: 'Nächste Archivseite',
-                disabled: currentPage === totalPages,
-                icon: 'chevron_right',
-                onClick: () => {
-                    currentPage += 1;
-                    loadNews();
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                }
-            });
-        }
-
-        function renderEmptyState(message) {
-            const container = document.getElementById('news-container');
-            if (!container) return;
-
-            container.innerHTML = `
-                <div class="subpage-empty subpage-news-empty">
-                    <p class="subpage-eyebrow">Keine passenden Meldungen</p>
-                    <h3 class="subpage-title">${message}</h3>
-                    <p class="subpage-copy">Wähle ein anderes Thema oder nutze die Kontaktseite, wenn du eine bestimmte Information suchst.</p>
-                    <div class="subpage-actions">
-                        <button type="button" class="subpage-button" id="reset-filter-button">Alle Meldungen anzeigen <span class="material-icons-round" aria-hidden="true">refresh</span></button>
-                        <a href="contact.html#contact" class="subpage-button subpage-button--secondary">Zur Kontaktseite <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+            const createCard = (article) => {
+                const card = document.createElement('article');
+                card.className = 'subpage-news-card';
+                card.innerHTML = `
+                    <div class="subpage-news-card__media">
+                        <img src="${getImageUrl(article)}" alt="${article.title || 'Vereinsmeldung'}" loading="lazy" decoding="async">
                     </div>
-                </div>
-            `;
+                    <div class="subpage-news-card__body">
+                        <div class="subpage-news-card-meta">
+                            <span class="subpage-news-date-chip">${article.date || 'Datum folgt'}</span>
+                            <span class="subpage-news-category">${getCategory(article)}</span>
+                        </div>
+                        <div class="subpage-news-card__content">
+                            <h3 class="subpage-news-card__title">${article.title || 'Vereinsmeldung'}</h3>
+                            <p class="subpage-copy">${getExcerpt(article)}</p>
+                        </div>
+                        <div class="subpage-news-card__footer">
+                            <a href="${getArticleUrl(article)}" class="subpage-link">
+                                Meldung lesen
+                                <span class="material-icons-round" aria-hidden="true">arrow_forward</span>
+                            </a>
+                            <span class="subpage-news-card__source">RLC 1952</span>
+                        </div>
+                    </div>
+                `;
 
-            document.getElementById('reset-filter-button')?.addEventListener('click', () => {
-                activeFilter = 'all';
-                currentPage = 1;
-                loadNews();
-            });
-        }
+                const image = card.querySelector('img');
+                if (image) {
+                    image.onerror = () => { image.src = 'https://via.placeholder.com/1200x800?text=RLC+1952'; };
+                }
 
-        function loadNews() {
-            const allNews = Array.isArray(window.newsData) ? window.newsData : [];
-            const filteredNews = getFilteredNews();
-            const container = document.getElementById('news-container');
+                return card;
+            };
 
-            if (!container) return;
-
-            container.setAttribute('aria-busy', 'true');
-            renderFilters(allNews);
-            updateHero(filteredNews.length > 0 ? filteredNews : allNews);
-            updateStats(allNews, filteredNews);
-
-            if (filteredNews.length === 0) {
-                renderEmptyState('Für dieses Thema gibt es aktuell keine passenden Meldungen.');
-                renderPagination(0);
-                updateStats(allNews, filteredNews);
+            if (news.length === 0) {
+                if (lastUpdated) lastUpdated.textContent = 'Aktuell liegen keine Meldungen vor.';
+                if (archiveSummary) archiveSummary.textContent = 'Sobald neue Meldungen ver&ouml;ffentlicht werden, erscheinen sie hier automatisch.';
+                if (container) {
+                    container.setAttribute('aria-busy', 'false');
+                    container.innerHTML = `
+                        <article class="subpage-panel">
+                            <span class="subpage-eyebrow">Zurzeit leer</span>
+                            <h3 class="subpage-title">Es sind noch keine aktuellen Vereinsmeldungen hinterlegt.</h3>
+                            <p class="subpage-copy">Melde dich bei Fragen direkt beim Verein. Neue Beitr&auml;ge erscheinen hier automatisch, sobald sie ver&ouml;ffentlicht sind.</p>
+                            <div class="subpage-actions">
+                                <a href="contact.html#contact" class="subpage-button">Kontakt aufnehmen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                            </div>
+                        </article>
+                    `;
+                }
                 return;
             }
 
-            const totalPages = Math.max(1, Math.ceil(filteredNews.length / ARTICLES_PER_PAGE));
-            if (currentPage > totalPages) currentPage = 1;
+            const featured = news[0];
+            const archiveNews = news.slice(1);
 
-            const start = (currentPage - 1) * ARTICLES_PER_PAGE;
-            const pageArticles = filteredNews.slice(start, start + ARTICLES_PER_PAGE);
+            featuredImage.src = getImageUrl(featured);
+            featuredImage.alt = featured.title || 'Neueste Vereinsmeldung';
+            featuredImage.onerror = () => { featuredImage.src = 'https://via.placeholder.com/1200x800?text=RLC+1952'; };
+            featuredDate.textContent = featured.date || 'Aktuell';
+            featuredCategory.textContent = getCategory(featured);
+            featuredTitle.textContent = featured.title || 'Neueste Vereinsmeldung';
+            featuredExcerpt.textContent = getExcerpt(featured);
+            featuredLink.href = getArticleUrl(featured);
+            featuredLink.setAttribute('aria-label', `Meldung lesen: ${featured.title || 'Neueste Vereinsmeldung'}`);
 
-            container.innerHTML = '';
-            pageArticles.forEach((article, index) => {
-                container.appendChild(createArticleCard(article, index));
-            });
+            if (lastUpdated) {
+                lastUpdated.textContent = `Neueste Meldung vom ${featured.date || 'aktuellen Stand'}.`;
+            }
 
-            renderPagination(filteredNews.length);
-            updateStats(allNews, filteredNews);
-        }
+            if (archiveSummary) {
+                archiveSummary.textContent = archiveNews.length > 0
+                    ? `${archiveNews.length} weitere Meldungen unterhalb der aktuellen Top-Meldung.`
+                    : 'Aktuell ist nur diese eine Meldung sichtbar.';
+            }
 
-        document.addEventListener('DOMContentLoaded', () => {
-            try {
-                loadNews();
-            } catch (error) {
-                console.error('Error loading news:', error);
-                renderEmptyState('Das News-Archiv konnte gerade nicht geladen werden.');
+            if (container) {
+                container.innerHTML = '';
+                container.setAttribute('aria-busy', 'false');
+
+                if (archiveNews.length === 0) {
+                    container.innerHTML = `
+                        <article class="subpage-panel">
+                            <span class="subpage-eyebrow">Noch keine weiteren Meldungen</span>
+                            <p class="subpage-copy">Sobald weitere News eingespielt werden, erscheinen sie hier direkt unter der neuesten Meldung.</p>
+                        </article>
+                    `;
+                    return;
+                }
+
+                archiveNews.forEach((article) => {
+                    container.appendChild(createCard(article));
+                });
             }
         });
     </script>

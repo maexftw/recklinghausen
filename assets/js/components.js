@@ -69,6 +69,7 @@ function initSharedComponents() {
 
     ensureSharedStyles(basePath);
 
+    const ctaTarget = `${basePath}pages/contact.html#contact`;
     const headerHTML = `
     <header class="site-shell border-b border-slate-200 dark:border-slate-800">
         <div class="site-shell__inner max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -91,7 +92,7 @@ function initSharedComponents() {
                         <button id="theme-toggle" class="site-icon-button p-2" aria-label="Dark Mode umschalten" aria-pressed="false">
                             <span class="material-icons-round">dark_mode</span>
                         </button>
-                        <a href="${basePath}pages/register.html" class="site-cta site-cta--header-main px-5 py-2.5 font-bold text-sm">
+                        <a href="${ctaTarget}" class="site-cta site-cta--header-main px-5 py-2.5 font-bold text-sm">
                             Mitmachen
                         </a>
                         <button id="mobile-menu-button" class="site-icon-button site-mobile-toggle lg:hidden p-2" aria-label="Hauptmenü öffnen" aria-expanded="false" aria-controls="mobile-menu" aria-haspopup="true">
@@ -103,7 +104,7 @@ function initSharedComponents() {
         </div>
         <div id="mobile-menu" class="site-mobile-panel hidden lg:hidden bg-white dark:bg-background-dark border-b border-slate-200 dark:border-slate-800" hidden>
             <div class="site-mobile-panel__inner px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a href="${basePath}pages/register.html" class="site-cta site-cta--mobile px-5 py-2.5 font-bold text-sm">
+                <a href="${ctaTarget}" class="site-cta site-cta--mobile px-5 py-2.5 font-bold text-sm">
                     Mitmachen
                 </a>
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}index.html">Startseite</a>
@@ -130,15 +131,10 @@ function initSharedComponents() {
                     <p class="text-slate-400 max-w-sm mb-8 leading-relaxed">
                         Seit über 70 Jahren die Heimat für Leichtathletik in Recklinghausen. Wir fördern Talente und leben Gemeinschaft.
                     </p>
-                    <div class="site-footer__social-row" style="display: flex; gap: 1rem; align-items: center;">
-                        <a href="https://www.instagram.com/rlc_1952/" class="site-social-link" target="_blank" rel="noopener" aria-label="Instagram" style="display: flex;">
-                            <span class="site-placeholder-icon" style="width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.05); display: flex; align-items: center; justify-content: center;" aria-hidden="true">
-                                <img src="https://www.svgrepo.com/show/521711/instagram.svg" style="width: 20px; height: 20px; filter: invert(1);" alt="Instagram Logo">
-                            </span>
-                        </a>
-                        <a href="#" class="site-social-link" aria-label="Facebook" style="display: flex;">
-                            <span class="site-placeholder-icon" style="width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.05); display: flex; align-items: center; justify-content: center;" aria-hidden="true">
-                                <img src="https://www.svgrepo.com/show/521654/facebook.svg" style="width: 20px; height: 20px; filter: invert(1);" alt="Facebook Logo">
+                    <div class="site-footer__social-row">
+                        <a href="https://www.instagram.com/rlc_1952/" class="site-social-link" target="_blank" rel="noopener" aria-label="Instagram">
+                            <span class="site-placeholder-icon" aria-hidden="true">
+                                <img src="https://www.svgrepo.com/show/521711/instagram.svg" class="site-social-icon" alt="Instagram Logo">
                             </span>
                         </a>
                     </div>
@@ -163,7 +159,7 @@ function initSharedComponents() {
                 </div>
             </div>
             <div class="site-footer__divider mt-16 pt-8 border-t flex flex-col md:flex-row justify-between items-center text-slate-500 text-xs">
-                <p>&copy; 2024 Recklinghäuser Leichtathletik Club 1952 e.V.</p>
+                <p>&copy; 2026 Recklinghäuser Leichtathletik Club 1952 e.V.</p>
                 <p class="mt-4 md:mt-0 italic">Mit Leidenschaft für die Leichtathletik entwickelt</p>
             </div>
         </div>
@@ -191,7 +187,8 @@ function initSharedComponents() {
 
     document.documentElement.dataset.sharedComponentsInitialized = 'true';
 
-    // Initialize Menu after injection
+    initThemeToggle();
+    highlightActiveNavigation();
     initMobileMenu();
 }
 
@@ -211,28 +208,60 @@ function ensureSharedStyles(basePath) {
         }
     });
 
-    // Theme toggle functionality
+}
+
+function initThemeToggle() {
     const themeToggle = document.getElementById('theme-toggle');
-    if (themeToggle) {
-        // Check for saved user preference
-        const savedTheme = localStorage.getItem('theme');
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        
-        // Apply saved theme or system preference
-        if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
-            document.documentElement.classList.add('dark');
-            themeToggle.setAttribute('aria-pressed', 'true');
-            themeToggle.querySelector('span').textContent = 'light_mode';
+    if (!themeToggle || themeToggle.dataset.bound === 'true') {
+        return;
+    }
+
+    themeToggle.dataset.bound = 'true';
+
+    const savedTheme = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const shouldUseDark = savedTheme === 'dark' || (!savedTheme && prefersDark);
+    const icon = themeToggle.querySelector('.material-icons-round');
+
+    document.documentElement.classList.toggle('dark', shouldUseDark);
+    themeToggle.setAttribute('aria-pressed', String(shouldUseDark));
+    if (icon) {
+        icon.textContent = shouldUseDark ? 'light_mode' : 'dark_mode';
+    }
+
+    themeToggle.addEventListener('click', () => {
+        const isDark = document.documentElement.classList.toggle('dark');
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        themeToggle.setAttribute('aria-pressed', String(isDark));
+        if (icon) {
+            icon.textContent = isDark ? 'light_mode' : 'dark_mode';
+        }
+    });
+}
+
+function highlightActiveNavigation() {
+    const currentPath = window.location.pathname || '';
+    const navLinks = document.querySelectorAll('.site-nav-link, .site-mobile-link');
+    const isNewsDetailPath = /\/pages\/news\/[^/]+\.html$/.test(currentPath);
+
+    navLinks.forEach((link) => {
+        const href = link.getAttribute('href') || '';
+        if (!href) {
+            return;
         }
 
-        // Toggle theme on click
-        themeToggle.addEventListener('click', () => {
-            const isDark = document.documentElement.classList.toggle('dark');
-            localStorage.setItem('theme', isDark ? 'dark' : 'light');
-            themeToggle.setAttribute('aria-pressed', isDark);
-            themeToggle.querySelector('span').textContent = isDark ? 'light_mode' : 'dark_mode';
-        });
-    }
+        const resolvedHref = new URL(href, window.location.href).pathname;
+        const isIndex = /\/(?:index\.html)?$/.test(currentPath) && /\/index\.html$/.test(resolvedHref);
+        const isNewsArchiveMatch = isNewsDetailPath && /\/pages\/news\.html$/.test(resolvedHref);
+        const isCurrent = currentPath === resolvedHref || isIndex || isNewsArchiveMatch;
+
+        link.classList.toggle('is-active', isCurrent);
+        if (isCurrent) {
+            link.setAttribute('aria-current', 'page');
+        } else {
+            link.removeAttribute('aria-current');
+        }
+    });
 }
 
 function initMobileMenu() {

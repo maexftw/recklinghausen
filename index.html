@@ -93,8 +93,8 @@
                     und Erwachsene in Recklinghausen.
                 </p>
                 <div class="home-actions">
-                    <a href="pages/membership-info.html" class="home-button">
-                        Probetraining &amp; Mitgliedschaft <span class="material-icons-round" aria-hidden="true">arrow_forward</span>
+                    <a href="pages/contact.html#contact" class="home-button">
+                        Probetraining anfragen <span class="material-icons-round" aria-hidden="true">arrow_forward</span>
                     </a>
                     <a href="pages/training.html" class="home-link">
                         Trainingszeiten ansehen <span class="material-icons-round text-sm" aria-hidden="true">arrow_forward</span>
@@ -110,7 +110,6 @@
                     <div class="home-news__intro">
                         <span class="home-section-label">Aktuelles</span>
                         <h2 id="home-news-title" class="home-news__title home-display">Aktuelle Meldungen aus dem Verein.</h2>
-                        <p class="home-news__lede">Die wichtigsten Beiträge stehen hier direkt im Überblick. Weitere Meldungen findest du im <a href="pages/news.html" class="home-link">News-Archiv <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>.</p>
                     </div>
                     <div id="index-news-container" class="home-news__grid" aria-live="polite">
                         <article class="home-news-card" data-size="compact" aria-hidden="true">
@@ -185,10 +184,10 @@
                             <a href="pages/training.html" class="home-link">Trainingszeiten ansehen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                         </article>
                         <article class="home-essence-card">
-                            <strong class="home-section-label">Mitgliedschaft</strong>
-                            <h3 class="home-display">Probetraining anfragen und Mitglied werden.</h3>
-                            <p>Hier steht der einfachste Weg vom ersten Interesse bis zum Einstieg in den Verein.</p>
-                            <a href="pages/membership-info.html" class="home-link">Mitgliedschaft ansehen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                            <strong class="home-section-label">Einstieg</strong>
+                            <h3 class="home-display">Probetraining und erste Fragen direkt kl&auml;ren.</h3>
+                            <p>Der schnellste Weg in den Verein l&auml;uft jetzt &uuml;ber die Kontaktseite statt &uuml;ber einen eigenen Membership-Flow.</p>
+                            <a href="pages/contact.html#contact" class="home-link">Kontakt aufnehmen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                         </article>
                     </div>
                     <div class="home-essence__column">
@@ -222,7 +221,7 @@
                             <b><span>body</span>nostic</b>
                             <p>Das Bewegungslabor</p>
                         </div>
-                        <p>Partner und Förderer unterstützen den Verein und tragen dazu bei, dass Training und Vereinsleben verlässlich möglich bleiben.</p>
+                        <p>bodynostic begleitet den Verein als sichtbarer Partner rund um Bewegung, Events und Vereinsalltag.</p>
                     </article>
                     <article class="home-partner-card">
                         <small>Förderung</small>
@@ -281,7 +280,6 @@
                     const articleExcerpt = createExcerpt(article.content_text);
                     const articleDate = article.date || 'Datum folgt';
                     const articleCategory = index === 0 ? 'Neu im Fokus' : 'Vereinsnews';
-                    const archiveLabel = index === 0 ? 'Archiv & weitere Meldungen' : 'Zum News-Archiv';
 
                     articleEl.innerHTML = `
                         <div class="home-news-card__media">
@@ -300,7 +298,6 @@
                                 <a class="home-news-card__cta" href="${articleLink}" aria-label="${articleTitle} lesen">
                                     Meldung lesen <span class="material-icons-round text-base" aria-hidden="true">arrow_forward</span>
                                 </a>
-                                <a class="home-news-card__archive" href="pages/news.html">${archiveLabel} <span class="material-icons-round text-base" aria-hidden="true">north_east</span></a>
                             </div>
                         </div>
                     `;

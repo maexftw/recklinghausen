@@ -1,456 +1,206 @@
-<!DOCTYPE html>
-
+﻿<!DOCTYPE html>
 <html class="light" lang="de">
-
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Unser Team | RLC 1952</title>
-    <meta name="description"
-        content="Lernen Sie das Trainerteam des Recklinghäuser Leichtathletik Clubs 1952 e.V. kennen. Finden Sie passende Ansprechpartnerinnen und Ansprechpartner für Nachwuchs, Leistungssport und Breitensport.">
+    <title>Trainerteam | RLC 1952</title>
+    <meta
+        name="description"
+        content="Das Trainerteam des RecklinghÃ¤user Leichtathletik Clubs 1952 e.V. direkt aus dem aktuellen Trainingsplan abgeleitet."
+    />
     <link href="../assets/css/design-tokens.css" rel="stylesheet" />
     <link href="../assets/css/shell.css" rel="stylesheet" />
-    <link href="../assets/css/subpages.css" rel="stylesheet" />
+    <link href="../assets/css/subpages.css?v=4" rel="stylesheet" />
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Montserrat:wght@700;900&amp;display=swap"
-        rel="stylesheet" />
+        rel="stylesheet"
+    />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
     <script src="../assets/js/components.js"></script>
+    <script src="../assets/js/training_schedule.js"></script>
 </head>
-
 <body class="subpage subpage-team min-h-screen">
     <header data-shared-shell-placeholder></header>
     <main class="subpage-main">
         <div class="subpage-stack">
-            <section class="subpage-intro" aria-labelledby="team-page-title">
+            <section class="subpage-intro subpage-intro--full" aria-labelledby="team-page-title">
                 <div class="subpage-intro__content">
                     <span class="subpage-eyebrow">Trainerteam</span>
-                    <h1 id="team-page-title" class="subpage-display">Menschen mit <em>klaren Rollen</em>, echter Erfahrung und kurzen Wegen.</h1>
-                    <p class="subpage-lead">Unser Team vereint Leidenschaft für Nachwuchsarbeit, Wettkampfbegleitung und Breitensport. Hier findest du direkt die passende Ansprechperson für deine Trainingsziele, vom ersten Schnuppertraining bis zur Wettkampfvorbereitung.</p>
-                    <div class="subpage-meta-row">
-                        <span class="subpage-meta"><span class="material-icons-round" aria-hidden="true">groups</span><strong>Teamgröße:</strong> 12 Trainerinnen und Trainer</span>
-                        <span class="subpage-meta"><span class="material-icons-round" aria-hidden="true">military_tech</span><strong>Profile:</strong> Nachwuchs, Mehrkampf, Ausdauer, Sprint, Wurf</span>
-                        <span class="subpage-meta"><span class="material-icons-round" aria-hidden="true">mail</span><strong>Kontaktweg:</strong> Einstieg über Kontaktseite oder direkt zum passenden Bereich</span>
-                    </div>
-                    <div class="subpage-hero-points" aria-label="Drei schnelle Gründe für die Teamübersicht">
-                        <article class="subpage-hero-point">
-                            <span>Passende Zuordnung</span>
-                            <strong>Altersstufe und Schwerpunkt lassen sich ohne langes Suchen abgleichen.</strong>
-                        </article>
-                        <article class="subpage-hero-point">
-                            <span>Verlässlicher Eindruck</span>
-                            <strong>Rollen, Lizenzen und Trainingsschwerpunkte sind sichtbar statt nur angedeutet.</strong>
-                        </article>
-                        <article class="subpage-hero-point">
-                            <span>Nächster Schritt</span>
-                            <strong>Jede Seite endet nicht bei Informationen, sondern führt direkt zum Einstieg oder Kontakt.</strong>
-                        </article>
-                    </div>
+                    <h1 id="team-page-title" class="subpage-display">Unser Trainerteam im Ãœberblick.</h1>
+                    <p class="subpage-lead">Hier findest du die Trainerinnen und Trainer, die aktuell unsere Gruppen begleiten, mit ihren Einsatzbereichen und Trainingstagen.</p>
+                    <div class="subpage-meta-row" id="team-meta-row" aria-label="SchnellÃ¼berblick zum Trainerteam"></div>
                     <div class="subpage-actions">
-                        <a href="contact.html#contact" class="subpage-button">Passende Ansprechperson finden <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
-                        <a href="training.html" class="subpage-button subpage-button--secondary">Trainingsübersicht ansehen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
-                        <a href="#team-directory-title" class="subpage-link">Direkt zum Teamverzeichnis <span class="material-icons-round" aria-hidden="true">south</span></a>
+                        <a href="#team-directory-title" class="subpage-button">Zum Trainerteam <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                        <a href="contact.html#contact" class="subpage-button subpage-button--secondary">Kontakt aufnehmen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                     </div>
                 </div>
-                <aside class="subpage-intro__aside subpage-intro__aside--accent" aria-label="Schnelle Orientierung zum Trainerteam">
-                    <span class="subpage-kicker">Unser Ansatz</span>
-                    <p class="subpage-copy">Wir legen großen Wert auf gut ausgebildete Trainerinnen und Trainer. Ob spielerische Leichtathletik für Kinder oder leistungsorientiertes Spezialtraining – wir haben die passenden Fachkräfte.</p>
-                    <dl class="subpage-stat-list">
-                        <div>
-                            <dt>Für neue Mitglieder</dt>
-                            <dd>Direkte Kontaktmöglichkeiten für den Einstieg in die passenden Trainingsgruppen, sortiert nach Alter und Disziplin.</dd>
-                        </div>
-                        <div>
-                            <dt>Für aktive Athletinnen und Athleten</dt>
-                            <dd>Spezialisierungen wie Sprint, Hürden, Ausdauer, Mehrkampf oder Breitensport bleiben sofort erkennbar.</dd>
-                        </div>
-                        <div>
-                            <dt>Für Interessierte am Mitwirken</dt>
-                            <dd>Am Seitenende ist der Weg ins Trainerteam klar formuliert und mit Kontaktmöglichkeit verbunden.</dd>
-                        </div>
-                    </dl>
-                    <ul class="subpage-checklist" aria-label="Drei Kernaspekte unseres Trainerteams">
-                        <li><strong>Nachwuchsorientiert:</strong> Qualifizierte Betreuung von Anfang an.</li>
-                        <li><strong>Leistungsnah:</strong> Erfahrung und Lizenzen für ambitionierte Wettkampfziele.</li>
-                        <li><strong>Niedrige Hürde:</strong> Unkomplizierter Kontakt direkt über unsere Website.</li>
-                    </ul>
-                </aside>
             </section>
 
-            <section class="subpage-highlight-strip" aria-label="Schnellorientierung für das Trainerteam">
-                <article>
-                    <span>Einstieg</span>
-                    <strong>Von den ersten Einheiten bis zur gezielten Entwicklung begleitet.</strong>
-                    <p>Das Team deckt den Weg vom spielerischen Nachwuchsbereich über Jugendgruppen bis zu leistungsorientierten Schwerpunkten ab.</p>
-                </article>
-                <article>
-                    <span>Organisation</span>
-                    <strong>Klare Ansprechpartner statt anonymer Vereinsstruktur.</strong>
-                    <p>Profile zeigen Rolle, Fokus und Kontaktweg so, dass Gespräche schneller beim richtigen Thema landen.</p>
-                </article>
-                <article>
-                    <span>Mitwirkung</span>
-                    <strong>Auch für neue Trainerinnen und Trainer offen gedacht.</strong>
-                    <p>Wer Erfahrung, Lizenz oder sportpädagogisches Interesse mitbringt, findet am Seitenende einen konkreten Einstiegspunkt.</p>
-                </article>
-            </section>
-
-            <section class="subpage-grid subpage-grid--sidebar" aria-labelledby="team-directory-title">
-                <div class="subpage-section subpage-section--tight">
-                    <div class="subpage-toolbar" aria-labelledby="team-filter-title">
-                        <div class="subpage-title-row">
-                            <div>
-                                <span class="subpage-eyebrow">Filter & Orientierung</span>
-                                <h2 id="team-filter-title" class="subpage-title">Das passende Profil schneller finden.</h2>
-                            </div>
+            <section class="subpage-section subpage-section--tight" aria-labelledby="team-directory-title">
+                <section class="subpage-surface subpage-surface--flush" aria-labelledby="team-directory-title">
+                    <div class="subpage-title-row subpage-surface__header">
+                        <div>
+                            <span class="subpage-eyebrow">Teamverzeichnis</span>
+                            <h2 id="team-directory-title" class="subpage-title">Trainerteam mit Gruppen und Trainingstagen.</h2>
                         </div>
-                        <fieldset class="subpage-toolbar__group">
-                            <legend class="subpage-kicker">Bereiche</legend>
-                            <div class="subpage-chip-row" role="group" aria-label="Nach Bereich filtern">
-                                <button type="button" data-filter-group="area" data-filter-value="all" aria-pressed="true" class="team-filter subpage-chip is-active">Alle</button>
-                                <button type="button" data-filter-group="area" data-filter-value="youth" aria-pressed="false" class="team-filter subpage-chip">Nachwuchs</button>
-                                <button type="button" data-filter-group="area" data-filter-value="performance" aria-pressed="false" class="team-filter subpage-chip">Leistungssport</button>
-                                <button type="button" data-filter-group="area" data-filter-value="club" aria-pressed="false" class="team-filter subpage-chip">Breitensport</button>
-                            </div>
-                        </fieldset>
-                        <div class="subpage-toolbar__divider"></div>
-                        <fieldset class="subpage-toolbar__group">
-                            <legend class="subpage-kicker">Schwerpunkte</legend>
-                            <div class="subpage-chip-row" role="group" aria-label="Nach Schwerpunkt filtern">
-                                <button type="button" data-filter-group="focus" data-filter-value="all" aria-pressed="true" class="team-filter subpage-chip is-active">Alle</button>
-                                <button type="button" data-filter-group="focus" data-filter-value="sprint" aria-pressed="false" class="team-filter subpage-chip">Sprint</button>
-                                <button type="button" data-filter-group="focus" data-filter-value="endurance" aria-pressed="false" class="team-filter subpage-chip">Ausdauer</button>
-                                <button type="button" data-filter-group="focus" data-filter-value="technique" aria-pressed="false" class="team-filter subpage-chip">Technik</button>
-                                <button type="button" data-filter-group="focus" data-filter-value="allround" aria-pressed="false" class="team-filter subpage-chip">Allround</button>
-                            </div>
-                        </fieldset>
-                        <p id="team-filter-status" class="subpage-toolbar__status" aria-live="polite">6 Profile sichtbar.</p>
                     </div>
+                    <div class="subpage-card-grid subpage-card-grid--team" id="team-card-grid"></div>
+                </section>
+            </section>
 
-                    <section class="subpage-surface" aria-labelledby="team-directory-title">
-                        <div class="subpage-title-row">
-                            <div>
-                                <span class="subpage-eyebrow">Teamverzeichnis</span>
-                                <h2 id="team-directory-title" class="subpage-title">Trainerinnen und Trainer mit Schwerpunkt, Lizenz und Einstiegspfad.</h2>
-                            </div>
-                        </div>
-                        <div class="subpage-card-grid subpage-card-grid--team" id="team-card-grid">
-                            <article class="subpage-person-card" data-area="performance" data-focus="sprint">
-                                <div class="subpage-person-card__media">
-                                    <div class="subpage-person-card__image"
-                                        role="img"
-                                        aria-label="Trainerporträt von Thomas Schmidt"
-                                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCE9bPtpE0hZLQqyVjdtDXxzzK2TUhKjj9f_7qnz3fTYKUDuIKmJbq37_MkVeC8yUStyGNbRcpj_EO_xm8kTZ_PvrdKGkrrVmc27m3NpFB3dRrVnKTapf53_SwVQr4ND6wiedtYX4tTFXqVfnbvsFiMzrhr80jIW3DG5khhcJIa_CRAByNDuX4xEtmqjSzVDNBFICFETrzBJMyeva-4x-6ltPgiH05AuH0Z0O8sU-8GQ49hGxhL0_8H-vYAKOyTcz1C5qIk-rRnKgH7");'></div>
-                                    <span class="subpage-person-card__badge">Leistungssport</span>
-                                </div>
-                                <div class="subpage-person-card__body">
-                                    <div class="subpage-person-card__header">
-                                        <div>
-                                            <h3>Thomas Schmidt</h3>
-                                            <p>Sprint, Hürden &amp; Wettkampfbegleitung</p>
-                                        </div>
-                                        <span class="subpage-person-card__license">DOSB B-Lizenz</span>
-                                    </div>
-                                    <div class="subpage-inline-list subpage-pill-row" aria-label="Profilmerkmale von Thomas Schmidt">
-                                        <span class="subpage-pill">U16 bis Erwachsene</span>
-                                        <span class="subpage-pill">Starts & Technik</span>
-                                        <span class="subpage-pill">Leistungsaufbau</span>
-                                    </div>
-                                    <p class="subpage-person-card__copy">Betreut Athletinnen und Athleten im sprintorientierten Aufbau und begleitet den Übergang vom ambitionierten Vereinstraining in die wettkampforientierte Entwicklung.</p>
-                                    <dl class="subpage-detail-list subpage-person-card__details">
-                                        <div>
-                                            <dt>Typische Anfrage</dt>
-                                            <dd>Sprintgruppe, Wettkampfvorbereitung oder gezielter Wiedereinstieg nach Trainingspause.</dd>
-                                        </div>
-                                        <div>
-                                            <dt>Kontaktweg</dt>
-                                            <dd>Am besten über die Kontaktseite mit Hinweis auf Sprint, Hürden oder Leistungsgruppe.</dd>
-                                        </div>
-                                    </dl>
-                                </div>
-                            </article>
-
-                            <article class="subpage-person-card" data-area="youth" data-focus="technique">
-                                <div class="subpage-person-card__media">
-                                    <div class="subpage-person-card__image"
-                                        role="img"
-                                        aria-label="Trainerporträt von Sabine Weber"
-                                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAvCmgKue4h43Qf_xUYFM3D2il5CJHclerkbW7CqUPfHtWdAGpaI-BCaHy6CzZKy5H25EcJ23HeCnncQ9hPUwVbdAEHIpjEYgWvTxV3k5rLkMDCAxDOrSz_U33O1sCpJPy09-ooe2SfEdWfzjx2UYrV8BfYS2vez0cuBrTjh7kjqmcVzm_yyaG2ZvW5kL7tWdrl-AhX_GuNAFN9__wWO1nw_6wS36hw2Jdzi8gIelcmMjLO8oLH_TvqGaZ02oIGTU6RS2Umr33NFJVq");'></div>
-                                    <span class="subpage-person-card__badge">Nachwuchs</span>
-                                </div>
-                                <div class="subpage-person-card__body">
-                                    <div class="subpage-person-card__header">
-                                        <div>
-                                            <h3>Sabine Weber</h3>
-                                            <p>Wurf, Stoß &amp; technisch saubere Grundlagen</p>
-                                        </div>
-                                        <span class="subpage-person-card__license">DOSB A-Lizenz</span>
-                                    </div>
-                                    <div class="subpage-inline-list subpage-pill-row" aria-label="Profilmerkmale von Sabine Weber">
-                                        <span class="subpage-pill">U14 bis U18</span>
-                                        <span class="subpage-pill">Technikfokus</span>
-                                        <span class="subpage-pill">Koordination</span>
-                                    </div>
-                                    <p class="subpage-person-card__copy">Verbindet präzise Technikvermittlung mit altersgerechtem Aufbau und schafft besonders für Jugendliche einen verlässlichen Übergang in anspruchsvollere Disziplinen.</p>
-                                    <dl class="subpage-detail-list subpage-person-card__details">
-                                        <div>
-                                            <dt>Typische Anfrage</dt>
-                                            <dd>Jugendaufbau, Technikverbesserung in Wurfdisziplinen oder Disziplinwechsel mit Betreuung.</dd>
-                                        </div>
-                                        <div>
-                                            <dt>Kontaktweg</dt>
-                                            <dd>Ideal für Rückfragen zu jugendorientierten Technikgruppen oder leistungsnahen Grundlagen.</dd>
-                                        </div>
-                                    </dl>
-                                </div>
-                            </article>
-
-                            <article class="subpage-person-card" data-area="youth" data-focus="allround">
-                                <div class="subpage-person-card__media">
-                                    <div class="subpage-person-card__image"
-                                        role="img"
-                                        aria-label="Trainerporträt von Markus Förster"
-                                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDGuiNzc6bdyE_2ACBlpKqhUneFgW3AQz6sNLGUSEyF-YCI70RQirP459E-A4OrIWg7ywmjC5mXXQr9D5dfENLxxbsiwn1n9dl9wVqrLJeDkLaU0dFEqJopgeYupWZJI69JKmOEBvhqYAoMeWQ77d7V5fwejWaq-qZklzoyRKXVSOehXI_RPBeBKPtVfk-t8eB7BGLY_iFTVkkETYDjw_I4rEBoOe_VU_qRHcBJcx7u2e6eWq68kGJlAT2Jbd62yh042YNCIlcqP580");'></div>
-                                    <span class="subpage-person-card__badge">Nachwuchs</span>
-                                </div>
-                                <div class="subpage-person-card__body">
-                                    <div class="subpage-person-card__header">
-                                        <div>
-                                            <h3>Markus Förster</h3>
-                                            <p>Jugendtraining, Allround-Aufbau &amp; Motivation</p>
-                                        </div>
-                                        <span class="subpage-person-card__license">DOSB C-Lizenz</span>
-                                    </div>
-                                    <div class="subpage-inline-list subpage-pill-row" aria-label="Profilmerkmale von Markus Förster">
-                                        <span class="subpage-pill">U12 bis U16</span>
-                                        <span class="subpage-pill">Breite Grundlagen</span>
-                                        <span class="subpage-pill">Spielerischer Aufbau</span>
-                                    </div>
-                                    <p class="subpage-person-card__copy">Arbeitet stark im Übergang vom ersten Vereinstraining zu regelmäßiger Trainingsroutine und hält Motivation, Struktur und Disziplinenvielfalt bewusst zusammen.</p>
-                                    <dl class="subpage-detail-list subpage-person-card__details">
-                                        <div>
-                                            <dt>Typische Anfrage</dt>
-                                            <dd>Erste Orientierung für Kinder und Jugendliche, die verschiedene Disziplinen kennenlernen möchten.</dd>
-                                        </div>
-                                        <div>
-                                            <dt>Kontaktweg</dt>
-                                            <dd>Geeignet für Familien, die eine passende Einstiegsgruppe mit überschaubarer Hürde suchen.</dd>
-                                        </div>
-                                    </dl>
-                                </div>
-                            </article>
-
-                            <article class="subpage-person-card" data-area="performance" data-focus="endurance">
-                                <div class="subpage-person-card__media">
-                                    <div class="subpage-person-card__image"
-                                        role="img"
-                                        aria-label="Trainerporträt von Elena Müller"
-                                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA-bDpSdWZ_Y9Ftvq6AJaamhFQ5g2IJqBC5itU-O-QS5tF-UpfreaZe854UqtyzeWKcmUgtm9ughi_f0ftXfih8kwcuFDpsla_6ZnDbznQT0ur9yQFt9o5KX9ZR3X1698Gvnp4QJQD_gvAVFx4tRQqh8m2HK5J9I1kWmLV3PO9tLLDEZu_35g6PDFbwvVbWsDDZo8D-Q2dkSBGWRLKlekEFDK79N4_qM8Tq91Z27LFxoWA-M4tYFF5jCecrznO8lohzw4jgOzaRA19m");'></div>
-                                    <span class="subpage-person-card__badge">Leistungssport</span>
-                                </div>
-                                <div class="subpage-person-card__body">
-                                    <div class="subpage-person-card__header">
-                                        <div>
-                                            <h3>Elena Müller</h3>
-                                            <p>Langstrecke, Belastungssteuerung &amp; Wettkampfplanung</p>
-                                        </div>
-                                        <span class="subpage-person-card__license">DOSB B-Lizenz</span>
-                                    </div>
-                                    <div class="subpage-inline-list subpage-pill-row" aria-label="Profilmerkmale von Elena Müller">
-                                        <span class="subpage-pill">Jugend & Erwachsene</span>
-                                        <span class="subpage-pill">Ausdauer</span>
-                                        <span class="subpage-pill">Trainingssteuerung</span>
-                                    </div>
-                                    <p class="subpage-person-card__copy">Begleitet Athletinnen und Athleten in mittel- und langfristigen Ausdauerprozessen und verbindet Laufökonomie, Umfangssteuerung und Wettkampfrhythmus.</p>
-                                    <dl class="subpage-detail-list subpage-person-card__details">
-                                        <div>
-                                            <dt>Typische Anfrage</dt>
-                                            <dd>Ausdauergruppe, Saisonstruktur oder Leistungsausbau für regelmäßige Wettkämpfe.</dd>
-                                        </div>
-                                        <div>
-                                            <dt>Kontaktweg</dt>
-                                            <dd>Sinnvoll bei Fragen zu Langstrecke, Aufbau nach Pause oder leistungsorientiertem Erwachsenenbereich.</dd>
-                                        </div>
-                                    </dl>
-                                </div>
-                            </article>
-
-                            <article class="subpage-person-card" data-area="club" data-focus="allround">
-                                <div class="subpage-person-card__media">
-                                    <div class="subpage-person-card__image"
-                                        role="img"
-                                        aria-label="Trainerporträt von Christian Jung"
-                                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCmrWQppqyV_FAWwHPd1KCsUuUAASxJsQt_UcbFGe_O6tLH8GgCCiiI1x--Xq_no-zaSQKoIKi2KnOyXhigjN7blfpQ3u2g9Q-_q9efTPsvNnTsv2vlSG7nxBsgtfBIBNzjB09a2ohNwu0dZOvT0Wns9XyUva1yxFr2xv2R3ftXWuAeYNeb2QRCFZLKwaBCuJ58uw30fU6Fyd0W7TfBLyVi2Zjp5jRIZdTMzd8xIc_yfQ6OczKT-eLSEYDOxwngjK6Wk3SGH_VTIQU8");'></div>
-                                    <span class="subpage-person-card__badge">Breitensport</span>
-                                </div>
-                                <div class="subpage-person-card__body">
-                                    <div class="subpage-person-card__header">
-                                        <div>
-                                            <h3>Christian Jung</h3>
-                                            <p>Mehrkampf, Vielseitigkeit &amp; strukturierter Vereinsalltag</p>
-                                        </div>
-                                        <span class="subpage-person-card__license">DOSB A-Lizenz</span>
-                                    </div>
-                                    <div class="subpage-inline-list subpage-pill-row" aria-label="Profilmerkmale von Christian Jung">
-                                        <span class="subpage-pill">Breite Zielgruppen</span>
-                                        <span class="subpage-pill">Mehrkampf</span>
-                                        <span class="subpage-pill">Ganzheitlicher Aufbau</span>
-                                    </div>
-                                    <p class="subpage-person-card__copy">Stark für Athletinnen und Athleten, die Vielseitigkeit suchen und Training nicht nur über eine Einzeldisziplin, sondern über eine saubere Gesamtentwicklung denken.</p>
-                                    <dl class="subpage-detail-list subpage-person-card__details">
-                                        <div>
-                                            <dt>Typische Anfrage</dt>
-                                            <dd>Allround-Training, Mehrkampfinteresse oder strukturierter Wiedereinstieg in mehrere Disziplinen.</dd>
-                                        </div>
-                                        <div>
-                                            <dt>Kontaktweg</dt>
-                                            <dd>Empfehlenswert für Mitglieder, die nicht auf einen einzigen Schwerpunkt festgelegt starten möchten.</dd>
-                                        </div>
-                                    </dl>
-                                </div>
-                            </article>
-
-                            <article class="subpage-person-card" data-area="club" data-focus="allround">
-                                <div class="subpage-person-card__media">
-                                    <div class="subpage-person-card__image"
-                                        role="img"
-                                        aria-label="Trainerporträt von Julia Bauer"
-                                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCWsI0xEaXMWSu2VbBYb1l2z0mAXadrMg5JLyuNGzwGt00MVLE7VBe008GGqY2opGidcCrj6KtzW3LAAMKtCmCEf8vEHWu3S91SZLF_CRTip_OOHPjURtf1zhGIa5BK_s5Pn4I5g0_KijQ7lrJCqv4vL2REIM5vQrbmyJXcpNFVzRHQ2crMwqOL6L1SZ8bxIUajC4j4C6TbKpqRZ6oGJXSeJyE_VMaoPSLTEahufj4pps5XXWivEsjH_dJIfP7JBy33S2209EcesWqJ");'></div>
-                                    <span class="subpage-person-card__badge">Breitensport</span>
-                                </div>
-                                <div class="subpage-person-card__body">
-                                    <div class="subpage-person-card__header">
-                                        <div>
-                                            <h3>Julia Bauer</h3>
-                                            <p>Breitensport, Einstieg mit Struktur &amp; Training im Vereinston</p>
-                                        </div>
-                                        <span class="subpage-person-card__license">Übungsleiterin</span>
-                                    </div>
-                                    <div class="subpage-inline-list subpage-pill-row" aria-label="Profilmerkmale von Julia Bauer">
-                                        <span class="subpage-pill">Offener Einstieg</span>
-                                        <span class="subpage-pill">Regelmäßigkeit</span>
-                                        <span class="subpage-pill">Alltagstauglich</span>
-                                    </div>
-                                    <p class="subpage-person-card__copy">Ideal für Erwachsene oder Wiedereinsteigerinnen und Wiedereinsteiger, die ein motivierendes Setting mit klarer Struktur und guter Anschlussfähigkeit suchen.</p>
-                                    <dl class="subpage-detail-list subpage-person-card__details">
-                                        <div>
-                                            <dt>Typische Anfrage</dt>
-                                            <dd>Gesundheitsorientierter Einstieg, Vereinsanschluss oder regelmäßiges Training ohne Wettkampfdruck.</dd>
-                                        </div>
-                                        <div>
-                                            <dt>Kontaktweg</dt>
-                                            <dd>Passend für erste Nachrichten von Erwachsenen, die unkompliziert in den Trainingsalltag starten möchten.</dd>
-                                        </div>
-                                    </dl>
-                                </div>
-                            </article>
-                        </div>
-                        <p id="team-empty-state" class="subpage-empty" hidden>Für diese Filterkombination ist aktuell kein Profil sichtbar. Bitte wählen Sie einen anderen Bereich oder Schwerpunkt.</p>
-                    </section>
+            <section class="subpage-cta-band" aria-labelledby="team-cta-title">
+                <div class="subpage-cta-band__content">
+                    <span class="subpage-kicker">Einstieg</span>
+                    <h2 id="team-cta-title" class="subpage-panel__title">Noch nicht sicher, welche Gruppe passt?</h2>
+                    <p>Eine kurze Nachricht mit Alter, Ziel und Vorerfahrung reicht aus. Dann landet die Anfrage direkt beim passenden Bereich.</p>
                 </div>
-
-                <aside class="subpage-section subpage-section--tight" aria-label="Zusätzliche Hinweise zum Trainerteam">
-                    <section class="subpage-panel subpage-panel--plain">
-                        <span class="subpage-eyebrow">Schneller Einstieg</span>
-                        <h2 class="subpage-panel__title">So wird aus einer Anfrage der passende Erstkontakt.</h2>
-                        <ul class="subpage-stack-list">
-                            <li><strong>Kurz beschreiben:</strong> Alter, bisherige Erfahrung und sportliche Ziele helfen uns bei der Zuordnung.</li>
-                            <li><strong>Keine Perfektion nötig:</strong> Wer noch nicht weiß, welche Disziplin am besten passt, fängt am besten im Allround-Bereich an.</li>
-                            <li><strong>Direkter Übergang:</strong> Wir klären gemeinsam, welche Gruppe und Trainingszeit ideal ist.</li>
-                        </ul>
-                        <div class="subpage-actions">
-                            <a href="contact.html#contact" class="subpage-button">Anfrage vorbereiten <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
-                        </div>
-                    </section>
-
-                    <section class="subpage-panel">
-                        <span class="subpage-eyebrow">Engagement</span>
-                        <div class="subpage-grid">
-                            <article class="subpage-note subpage-note--success">
-                                <strong>Starke Nachwuchsförderung</strong>
-                                <p>Der RLC 1952 lebt von der Jugend. Deshalb liegt unser größter Fokus auf einem altersgerechten und motivierenden Einstieg.</p>
-                            </article>
-                            <article class="subpage-note subpage-note--info">
-                                <strong>Kontinuierliche Weiterbildung</strong>
-                                <p>Unsere Trainerinnen und Trainer bilden sich regelmäßig über den Leichtathletik-Verband (FLVW) fort.</p>
-                            </article>
-                            <article class="subpage-note subpage-note--warning">
-                                <strong>Zentrale Koordination</strong>
-                                <p>Um Anfragen effizient zu bearbeiten, bitten wir um Erstkontakt über unsere zentrale Kontaktseite.</p>
-                            </article>
-                        </div>
-                    </section>
-
-                    <section class="subpage-panel subpage-panel--plain">
-                        <div class="subpage-cta-band">
-                            <div class="subpage-cta-band__content">
-                                <span class="subpage-kicker">Mitwirken im Verein</span>
-                                <h2 class="subpage-panel__title">Teil des Trainerteams werden?</h2>
-                                <p>Gesucht sind Menschen mit Trainerlizenz, sportpädagogischer Erfahrung oder Freude daran, Leichtathletik in Recklinghausen verlässlich mitzugestalten.</p>
-                            </div>
-                            <div class="subpage-cta-band__actions">
-                                <a href="contact.html#contact" class="subpage-button">Interesse melden <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
-                                <a href="training.html" class="subpage-link">Vorher Trainingsstruktur ansehen <span class="material-icons-round" aria-hidden="true">east</span></a>
-                            </div>
-                        </div>
-                    </section>
-                </aside>
+                <div class="subpage-cta-band__actions">
+                    <a href="contact.html#contact" class="subpage-button">Anfrage senden <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                    <a href="training.html" class="subpage-link">Vorher Trainingszeiten ansehen <span class="material-icons-round" aria-hidden="true">east</span></a>
+                </div>
             </section>
         </div>
     </main>
     <footer data-shared-footer-placeholder></footer>
+
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            const activeFilters = { area: 'all', focus: 'all' };
-            const buttons = Array.from(document.querySelectorAll('.team-filter'));
-            const cards = Array.from(document.querySelectorAll('#team-card-grid .subpage-person-card'));
-            const status = document.getElementById('team-filter-status');
-            const emptyState = document.getElementById('team-empty-state');
+            const schedule = Array.isArray(window.trainingSchedule) ? window.trainingSchedule : [];
+            const meta = window.trainingScheduleMeta || {};
 
-            const applyButtonState = () => {
-                buttons.forEach((button) => {
-                    const isActive = activeFilters[button.dataset.filterGroup] === button.dataset.filterValue;
-                    button.setAttribute('aria-pressed', String(isActive));
-                    button.classList.toggle('is-active', isActive);
-                });
+            const metaRow = document.getElementById('team-meta-row');
+            const grid = document.getElementById('team-card-grid');
+
+            const unique = (values) => [...new Set(values.filter(Boolean))];
+            const abbreviateDays = (days) => {
+                const labels = {
+                    Montag: 'Mo',
+                    Dienstag: 'Di',
+                    Mittwoch: 'Mi',
+                    Donnerstag: 'Do',
+                    Freitag: 'Fr',
+                    Samstag: 'Sa'
+                };
+
+                return days.map((day) => labels[day] || day);
             };
 
-            const matchesFilter = (value, selected) => selected === 'all' || value === selected;
+            const initials = (name) => name
+                .split(/[\s-]+/)
+                .filter(Boolean)
+                .map((part) => part[0])
+                .slice(0, 2)
+                .join('')
+                .toUpperCase();
 
-            const updateCards = () => {
-                let visibleCount = 0;
+            const classifyTrainer = (entries) => {
+                const groups = entries.map((entry) => entry.group);
+                const hasKids = groups.some((group) => /^(Vorschulkinder|Kinder)/.test(group));
+                const hasYouth = groups.some((group) => /Jugend|U14|U16|U23/.test(group));
+                const hasAdults = groups.some((group) => /Erwachsene|Senioren/.test(group));
+                const performance = entries.some((entry) => entry.performance);
 
-                cards.forEach((card) => {
-                    const matchesArea = matchesFilter(card.dataset.area, activeFilters.area);
-                    const matchesFocus = matchesFilter(card.dataset.focus, activeFilters.focus);
-                    const isVisible = matchesArea && matchesFocus;
+                let badge = 'Vereinsbetrieb';
+                let summary = 'Aktuell im Einsatz fÃ¼r den regulÃ¤ren Trainingsbetrieb.';
 
-                    card.hidden = !isVisible;
+                if (hasKids) {
+                    badge = 'Nachwuchs';
+                    summary = 'Begleitet Kinder und frÃ¼he Aufbaugruppen im Vereinsalltag.';
+                } else if (hasYouth) {
+                    badge = 'Jugend';
+                    summary = 'Arbeitet mit Jugend- und Aufbaugruppen im aktuellen Wochenplan.';
+                } else if (hasAdults) {
+                    badge = 'Erwachsene';
+                    summary = 'Ist vor allem in Erwachsenen- oder Seniorengruppen eingeplant.';
+                }
 
-                    if (isVisible) {
-                        visibleCount += 1;
-                    }
-                });
+                if (performance && !hasKids) {
+                    badge = 'Wettkampf';
+                    summary = 'Begleitet leistungsnahe Gruppen und markierte Wettkampfeinheiten.';
+                }
 
-                emptyState.hidden = visibleCount !== 0;
-                status.textContent = visibleCount === 0
-                    ? 'Kein Profil sichtbar.'
-                    : `${visibleCount} Profile sichtbar.`;
+                return { badge, summary };
             };
 
-            buttons.forEach((button) => {
-                button.addEventListener('click', () => {
-                    activeFilters[button.dataset.filterGroup] = button.dataset.filterValue;
-                    applyButtonState();
-                    updateCards();
+            const trainerMap = new Map();
+            schedule.forEach((entry) => {
+                (entry.trainers || []).forEach((trainer) => {
+                    const items = trainerMap.get(trainer) || [];
+                    items.push(entry);
+                    trainerMap.set(trainer, items);
                 });
             });
 
-            applyButtonState();
-            updateCards();
+            const trainers = [...trainerMap.entries()].sort((left, right) => left[0].localeCompare(right[0], 'de'));
+
+            metaRow.innerHTML = [
+                {
+                    icon: 'groups',
+                    label: 'Trainerteam',
+                    value: `${trainers.length} Trainerinnen und Trainer`
+                },
+                {
+                    icon: 'calendar_month',
+                    label: 'Stand',
+                    value: meta.seasonLabel || 'Sommer 2026'
+                },
+                {
+                    icon: 'schedule',
+                    label: 'Trainingstage',
+                    value: `${unique(schedule.map((entry) => entry.day)).length} Tage pro Woche`
+                }
+            ].map((item) => `
+                <span class="subpage-meta">
+                    <span class="material-icons-round" aria-hidden="true">${item.icon}</span>
+                    <strong>${item.label}:</strong> ${item.value}
+                </span>
+            `).join('');
+
+            grid.innerHTML = trainers.map(([trainer, entries]) => {
+                const groups = unique(entries.map((entry) => entry.group));
+                const days = abbreviateDays(unique(entries.map((entry) => entry.day)));
+                const { badge, summary } = classifyTrainer(entries);
+
+                return `
+                    <article class="subpage-person-card">
+                        <div class="subpage-person-card__media">
+                            <div class="subpage-person-card__image subpage-person-card__image--placeholder" aria-hidden="true">${initials(trainer)}</div>
+                            <span class="subpage-person-card__badge">${badge}</span>
+                        </div>
+                        <div class="subpage-person-card__body">
+                            <div class="subpage-person-card__header">
+                                <div>
+                                    <h3>${trainer}</h3>
+                                    <p>${summary}</p>
+                                </div>
+                                <span class="subpage-person-card__license">PortrÃ¤t folgt</span>
+                            </div>
+                            <div class="subpage-inline-list subpage-pill-row" aria-label="Einsatzfelder von ${trainer}">
+                                ${groups.slice(0, 3).map((group) => `<span class="subpage-pill">${group}</span>`).join('')}
+                                ${days.map((day) => `<span class="subpage-pill">${day}</span>`).join('')}
+                            </div>
+                            <p class="subpage-person-card__copy">Trainingsgruppen: ${groups.join(', ')}.</p>
+                            <dl class="subpage-detail-list subpage-person-card__details">
+                                <div>
+                                    <dt>Trainingstage</dt>
+                                    <dd>${days.join(', ')}</dd>
+                                </div>
+                                <div>
+                                    <dt>Foto</dt>
+                                    <dd>PortrÃ¤t folgt.</dd>
+                                </div>
+                                <div>
+                                    <dt>Saison</dt>
+                                    <dd>${meta.seasonLabel || 'Sommersaison 2026'}</dd>
+                                </div>
+                            </dl>
+                        </div>
+                    </article>
+                `;
+            }).join('');
         });
     </script>
 </body>
-
 </html>
+

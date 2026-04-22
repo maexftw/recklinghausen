@@ -56,37 +56,6 @@ body.homepage {
     color: var(--home-brand-strong);
 }
 
-.homepage .site-footer {
-    background: color-mix(in srgb, var(--home-brand-strong) 22%, #0f1716);
-    color: color-mix(in srgb, white 88%, var(--home-wash));
-}
-
-.homepage .site-footer-link,
-.homepage .site-footer p,
-.homepage .site-footer li,
-.homepage .site-footer small {
-    color: color-mix(in srgb, white 82%, var(--home-wash));
-}
-
-.homepage .site-footer-link:hover,
-.homepage .site-footer-link:focus-visible {
-    color: color-mix(in srgb, white 96%, var(--home-accent-soft));
-}
-
-.homepage .site-footer .site-eyebrow {
-    color: var(--home-accent);
-}
-
-.homepage .site-footer__divider {
-    border-color: color-mix(in srgb, var(--home-brand) 24%, white 10%);
-}
-
-.homepage .site-placeholder-icon {
-    border-color: color-mix(in srgb, white 18%, var(--home-brand));
-    color: color-mix(in srgb, white 92%, var(--home-wash));
-    background: color-mix(in srgb, var(--home-brand-strong) 14%, transparent);
-}
-
 .homepage .site-pill-note {
     background: color-mix(in srgb, white 92%, var(--home-paper));
     color: var(--home-brand-strong);
@@ -897,8 +866,7 @@ body.homepage {
     border-top: 1px solid color-mix(in srgb, var(--home-line) 64%, white);
 }
 
-.home-news-card__cta,
-.home-news-card__archive {
+.home-news-card__cta {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
@@ -915,14 +883,8 @@ body.homepage {
     color: var(--home-accent-deep);
 }
 
-.home-news-card__archive {
-    color: color-mix(in srgb, var(--home-accent-deep) 82%, var(--home-muted));
-}
-
 .home-news-card__cta:hover,
-.home-news-card__cta:focus-visible,
-.home-news-card__archive:hover,
-.home-news-card__archive:focus-visible {
+.home-news-card__cta:focus-visible {
     color: var(--home-ink);
 }
 
@@ -933,16 +895,13 @@ body.homepage {
     background: color-mix(in srgb, var(--home-wash) 84%, white);
 }
 
-.home-news-card__cta .material-icons-round,
-.home-news-card__archive .material-icons-round {
+.home-news-card__cta .material-icons-round {
     font-size: 1rem;
     transition: transform 220ms ease;
 }
 
 .home-news-card__cta:hover .material-icons-round,
-.home-news-card__cta:focus-visible .material-icons-round,
-.home-news-card__archive:hover .material-icons-round,
-.home-news-card__archive:focus-visible .material-icons-round {
+.home-news-card__cta:focus-visible .material-icons-round {
     transform: translateX(3px);
 }
 

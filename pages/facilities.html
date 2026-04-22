@@ -1,479 +1,165 @@
-<!DOCTYPE html>
-
+﻿<!DOCTYPE html>
 <html class="light" lang="de">
-
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Sportstätten | RLC 1952</title>
-    <meta name="description"
-        content="Übersicht der Sportstätten des Recklinghäuser Leichtathletik Clubs 1952 e.V. mit Trainingsschwerpunkten, Orientierung für den Einstieg und kompakten Standortdetails.">
+    <title>SportstÃ¤tten | RLC 1952</title>
+    <meta
+        name="description"
+        content="Ãœbersicht der realen Trainingsorte des RecklinghÃ¤user Leichtathletik Clubs 1952 e.V. auf Basis des aktuellen Trainingsplans."
+    />
     <link href="../assets/css/design-tokens.css" rel="stylesheet" />
     <link href="../assets/css/shell.css" rel="stylesheet" />
-    <link href="../assets/css/subpages.css" rel="stylesheet" />
+    <link href="../assets/css/subpages.css?v=4" rel="stylesheet" />
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Montserrat:wght@700;900&amp;display=swap"
-        rel="stylesheet" />
+        rel="stylesheet"
+    />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
     <script src="../assets/js/components.js"></script>
+    <script src="../assets/js/training_schedule.js"></script>
 </head>
-
 <body class="subpage subpage-facilities min-h-screen">
     <header data-shared-shell-placeholder></header>
     <main class="subpage-main">
         <div class="subpage-stack">
-            <section class="subpage-intro" aria-labelledby="facilities-page-title">
+            <section class="subpage-intro subpage-intro--full" aria-labelledby="facilities-page-title">
                 <div class="subpage-intro__content">
-                    <span class="subpage-eyebrow">Sportstätten</span>
-                    <h1 id="facilities-page-title" class="subpage-display">Trainingsorte mit <em>klarer Orientierung</em> für Alltag, Einstieg und Leistung.</h1>
-                    <p class="subpage-lead">Wir bieten unseren Athletinnen und Athleten optimale Trainingsbedingungen rund um Recklinghausen. Je nach Disziplin, Witterung und Jahreszeit weichen wir auf verschiedene Sportstätten aus.</p>
-                    <div class="subpage-meta-row">
-                        <span class="subpage-meta"><span class="material-icons-round" aria-hidden="true">place</span><strong>Standorte:</strong> Stadion, Halle, Stadtwald, Athletikbereich</span>
-                        <span class="subpage-meta"><span class="material-icons-round" aria-hidden="true">sports_score</span><strong>Schwerpunkte:</strong> Sprint, Sprung, Wurf, Ausdauer, Athletik</span>
-                        <span class="subpage-meta"><span class="material-icons-round" aria-hidden="true">directions_walk</span><strong>Für den Einstieg:</strong> Trainingsort und Kontaktweg direkt kombinierbar</span>
-                    </div>
-                    <div class="subpage-hero-points" aria-label="Drei schnelle Gründe für die Sportstättenübersicht">
-                        <article class="subpage-hero-point">
-                            <span>Schneller Überblick</span>
-                            <strong>Jeder Ort ist nach Trainingszweck statt nur nach Adresse erklärt.</strong>
-                        </article>
-                        <article class="subpage-hero-point">
-                            <span>Bessere Planung</span>
-                            <strong>Ausstattung, Eignung und typische Nutzung bleiben direkt vergleichbar.</strong>
-                        </article>
-                        <article class="subpage-hero-point">
-                            <span>Nächster Schritt</span>
-                            <strong>Von der Standortwahl führt die Seite direkt zu Training oder Kontakt.</strong>
-                        </article>
-                    </div>
+                    <span class="subpage-eyebrow">SportstÃ¤tten</span>
+                    <h1 id="facilities-page-title" class="subpage-display">Unsere Trainingsorte im Ãœberblick.</h1>
+                    <p class="subpage-lead">Hier findest du die Orte, an denen unsere Gruppen trainieren. FÃ¼r den ersten Termin stimmen wir den genauen Treffpunkt bei Bedarf direkt mit dir ab.</p>
+                    <div class="subpage-meta-row" id="facilities-meta-row" aria-label="SchnellÃ¼berblick zu den Trainingsorten"></div>
                     <div class="subpage-actions">
-                        <a href="contact.html#contact" class="subpage-button">Trainingsort abstimmen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
-                        <a href="training.html" class="subpage-button subpage-button--secondary">Trainingsübersicht ansehen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
-                        <a href="#facilities-directory-title" class="subpage-link">Direkt zu den Sportstätten <span class="material-icons-round" aria-hidden="true">south</span></a>
+                        <a href="training.html" class="subpage-button">Zum Trainingsplan <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                        <a href="contact.html#contact" class="subpage-button subpage-button--secondary">RÃ¼ckfrage zum Ort <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                     </div>
                 </div>
-                <aside class="subpage-intro__aside subpage-intro__aside--accent" aria-label="Schnelle Orientierung zu den Sportstätten">
-                    <span class="subpage-kicker">Unsere Standorte</span>
-                    <p class="subpage-copy">Ein Großteil des sommerlichen Trainingsbetriebs findet am Stadion Hohenhorst statt, während Halle und Athletikraum im Winter oder bei schlechtem Wetter zum Einsatz kommen.</p>
-                    <dl class="subpage-stat-list">
-                        <div>
-                            <dt>Für neue Mitglieder</dt>
-                            <dd>Der passende Trainingsort wird nicht vorausgesetzt, sondern über Schwerpunkt und Zielgruppe verständlich gemacht.</dd>
-                        </div>
-                        <div>
-                            <dt>Für aktive Gruppen</dt>
-                            <dd>Belastbare Hinweise zu Ausstattung, Atmosphäre und typischer Nutzung helfen bei der Planung im Wochenrhythmus.</dd>
-                        </div>
-                        <div>
-                            <dt>Für Rückfragen</dt>
-                            <dd>Am Seitenende bleiben Kontakt, Trainingsbezug und organisatorische Hinweise direkt anschlussfähig.</dd>
-                        </div>
-                    </dl>
-                    <ul class="subpage-checklist" aria-label="Drei schnelle Hinweise zu den Sportstätten">
-                        <li><strong>Außensaison:</strong> Technik- und Bahneinheiten finden überwiegend im Stadion statt, ergänzt durch Wald- und Ausdauerblöcke.</li>
-                        <li><strong>Witterung:</strong> Hallen- und Athletikflächen sichern planbare Einheiten auch bei wechselnden Bedingungen.</li>
-                        <li><strong>Vor dem ersten Termin:</strong> Eine kurze Nachricht über die Kontaktseite reicht, damit Treffpunkt und Gruppe passend vorbereitet werden.</li>
-                    </ul>
-                </aside>
             </section>
 
-            <section class="subpage-highlight-strip" aria-label="Schnellorientierung zu den Trainingsorten">
-                <article>
-                    <span>Stadion & Bahn</span>
-                    <strong>Für Sprint, Hürden, Sprung und große Gruppen gesetzt.</strong>
-                    <p>Der Hauptstandort bietet klare Wege, viele Anknüpfungspunkte für Probetrainings und den stärksten Überblick über reguläre Vereinseinheiten.</p>
-                </article>
-                <article>
-                    <span>Halle & Technik</span>
-                    <strong>Wetterfest für Athletik, Grundlagen und saubere Bewegungsarbeit.</strong>
-                    <p>Innenräume ergänzen die Außensaison besonders dann, wenn Sicherheit, Wiederholbarkeit und ruhige Lernbedingungen im Vordergrund stehen.</p>
-                </article>
-                <article>
-                    <span>Ausdauer & Umfeld</span>
-                    <strong>Stadtwald und ergänzende Bereiche schaffen Rhythmus jenseits der Bahn.</strong>
-                    <p>Grundlagenläufe, koordinative Inhalte und ergänzende Kraftimpulse lassen sich als eigenständige Trainingsorte schnell einordnen.</p>
-                </article>
-            </section>
-
-            <section class="subpage-grid subpage-grid--sidebar" aria-labelledby="facilities-directory-title">
-                <div class="subpage-section subpage-section--tight">
-                    <div class="subpage-toolbar" aria-labelledby="facilities-filter-title">
-                        <div class="subpage-title-row">
-                            <div>
-                                <span class="subpage-eyebrow">Filter & Orientierung</span>
-                                <h2 id="facilities-filter-title" class="subpage-title">Den passenden Trainingsort schneller finden.</h2>
-                            </div>
-                        </div>
-                        <div class="subpage-toolbar__group">
-                            <label class="subpage-kicker" for="facility-search">Suche</label>
-                            <input id="facility-search" type="search" class="subpage-search-input"
-                                placeholder="Zum Beispiel Stadion, Wurf oder Ausdauer" autocomplete="off" />
-                        </div>
-                        <div class="subpage-toolbar__divider"></div>
-                        <fieldset class="subpage-toolbar__group">
-                            <legend class="subpage-kicker">Schwerpunkte</legend>
-                            <div class="subpage-chip-row" role="group" aria-label="Nach Schwerpunkt filtern">
-                                <button type="button" data-filter="all" aria-pressed="true" class="facility-filter subpage-chip is-active">Alle</button>
-                                <button type="button" data-filter="lauf" aria-pressed="false" class="facility-filter subpage-chip">Lauf</button>
-                                <button type="button" data-filter="spring" aria-pressed="false" class="facility-filter subpage-chip">Sprung</button>
-                                <button type="button" data-filter="wurf" aria-pressed="false" class="facility-filter subpage-chip">Wurf</button>
-                                <button type="button" data-filter="huerden" aria-pressed="false" class="facility-filter subpage-chip">Hürden</button>
-                                <button type="button" data-filter="athletik" aria-pressed="false" class="facility-filter subpage-chip">Athletik</button>
-                            </div>
-                        </fieldset>
-                        <p id="facilities-filter-status" class="subpage-toolbar__status" aria-live="polite">5 Sportstätten sichtbar.</p>
+            <section class="subpage-section" aria-labelledby="facilities-directory-title">
+                <div class="subpage-title-row">
+                    <div>
+                        <span class="subpage-eyebrow">StandortÃ¼bersicht</span>
+                        <h2 id="facilities-directory-title" class="subpage-title">Die Trainingsorte des Vereins.</h2>
                     </div>
-
-                    <section class="subpage-surface" aria-labelledby="facilities-directory-title">
-                        <div class="subpage-title-row">
-                            <div>
-                                <span class="subpage-eyebrow">Standortübersicht</span>
-                                <h2 id="facilities-directory-title" class="subpage-title">Sportstätten mit Fokus, Ausstattung und typischer Nutzung.</h2>
-                            </div>
-                        </div>
-                        <div id="facilities-grid" class="subpage-card-grid subpage-card-grid--facilities"></div>
-                        <p id="facilities-empty-state" class="subpage-empty" hidden>Für diese Such- und Filterkombination gibt es aktuell keine passende Sportstätte. Bitte andere Begriffe oder einen anderen Schwerpunkt wählen.</p>
-                    </section>
-
-                    <section id="facility-detail" class="subpage-surface" aria-labelledby="facility-detail-title">
-                        <div class="subpage-title-row">
-                            <div>
-                                <span class="subpage-eyebrow">Standortdetails</span>
-                                <h2 id="facility-detail-title" class="subpage-title">Ein Ort im Detail – für Anfahrt, Einsatz und Einstieg.</h2>
-                            </div>
-                        </div>
-                        <article class="facility-detail-card">
-                            <div id="detail-visual" class="facility-detail-card__visual" aria-hidden="true"></div>
-                            <div class="facility-detail-card__content">
-                                <div class="facility-detail-card__header">
-                                    <div>
-                                        <div id="detail-pill-row" class="subpage-inline-list subpage-pill-row" aria-label="Schwerpunkte der ausgewählten Sportstätte"></div>
-                                        <h3 id="detail-title" class="facility-detail-card__title"></h3>
-                                        <p id="detail-description" class="facility-detail-card__copy"></p>
-                                    </div>
-                                    <span id="detail-badge" class="facility-detail-card__badge"></span>
-                                </div>
-                                <dl class="subpage-detail-list facility-detail-card__details">
-                                    <div>
-                                        <dt>Adresse</dt>
-                                        <dd id="detail-address"></dd>
-                                    </div>
-                                    <div>
-                                        <dt>Geeignet für</dt>
-                                        <dd id="detail-audience"></dd>
-                                    </div>
-                                    <div>
-                                        <dt>Typische Nutzung</dt>
-                                        <dd id="detail-usage"></dd>
-                                    </div>
-                                </dl>
-                                <div>
-                                    <span class="subpage-kicker">Vor Ort besonders relevant</span>
-                                    <ul id="detail-features" class="subpage-stack-list facility-detail-card__feature-list"></ul>
-                                </div>
-                            </div>
-                        </article>
-                        <div class="subpage-table-note">
-                            <p>Standorte und Schwerpunkte dienen als Orientierung. Konkrete Treffpunkte oder saisonale Anpassungen werden bei Bedarf vor dem ersten Termin abgestimmt.</p>
-                            <a href="contact.html#contact" class="subpage-link">Fragen zu Treffpunkt oder Einstieg klären <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
-                        </div>
-                    </section>
                 </div>
-
-                <aside class="subpage-section subpage-section--tight" aria-label="Hinweise zur Nutzung und Kontaktaufnahme">
-                    <section class="subpage-panel subpage-panel--plain">
-                        <span class="subpage-eyebrow">Schneller Einstieg</span>
-                        <h2 class="subpage-panel__title">So wird aus einem Standort direkt der passende nächste Schritt.</h2>
-                        <ul class="subpage-stack-list">
-                            <li><strong>Schwerpunkt wählen:</strong> Wer schon weiß, ob Sprint, Wurf, Hürden oder Athletik gefragt sind, findet den richtigen Ort besonders schnell.</li>
-                            <li><strong>Ort nicht sicher?</strong> Wenn der Treffpunkt für das erste Probetraining unklar ist, gib einfach kurz im Kontaktformular Bescheid.</li>
-                            <li><strong>Einfach anfragen:</strong> Für den ersten Kontakt reicht eine kurze Nachricht mit Alter, Trainingsziel und gewünschtem Schwerpunkt.</li>
-                        </ul>
-                        <div class="subpage-actions">
-                            <a href="contact.html#contact" class="subpage-button">Einstieg vorbereiten <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
-                        </div>
-                    </section>
-
-                    <section class="subpage-panel">
-                        <span class="subpage-eyebrow">Standortlogik</span>
-                        <div class="subpage-grid">
-                            <article class="subpage-note subpage-note--success">
-                                <strong>Stadion für sichtbare Vereinsstruktur</strong>
-                                <p>Viele Probetrainings starten am Hauptstandort, weil Treffpunkt, Bahnbezug und Gruppensituation dort am klarsten nachvollziehbar sind.</p>
-                            </article>
-                            <article class="subpage-note subpage-note--info">
-                                <strong>Halle und Athletikbereich ergänzen verlässlich</strong>
-                                <p>Bei Wetterwechsel, Grundlagenarbeit oder speziellen Belastungsformen entstehen hier ruhigere und planbare Trainingsfenster.</p>
-                            </article>
-                            <article class="subpage-note subpage-note--warning">
-                                <strong>Treffpunkte können saisonal variieren</strong>
-                                <p>Bei Veranstaltungen, Ferien oder Wettkämpfen werden alternative Zugänge oder Startpunkte separat kommuniziert.</p>
-                            </article>
-                        </div>
-                    </section>
-
-                    <section class="subpage-cta-band" aria-label="Kontakt und weiterführende Seiten">
-                        <div class="subpage-cta-band__content">
-                            <span class="subpage-kicker">Kontakt & Weiterleitung</span>
-                            <h2 class="subpage-panel__title">Trainingsort gefunden – jetzt den Einstieg konkret machen.</h2>
-                            <p>Melde dich bei uns, wenn du konkrete Fragen zu einem unserer Standorte hast.</p>
-                        </div>
-                        <div class="subpage-cta-band__actions">
-                            <a href="contact.html#contact" class="subpage-button">Frage zu einem Standort senden <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
-                            <a href="team.html" class="subpage-link">Vorher Trainerteam ansehen <span class="material-icons-round" aria-hidden="true">east</span></a>
-                        </div>
-                    </section>
-                </aside>
+                <div class="subpage-card-grid subpage-card-grid--facilities" id="facilities-grid"></div>
             </section>
         </div>
     </main>
     <footer data-shared-footer-placeholder></footer>
+
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            const facilities = [
+            const schedule = Array.isArray(window.trainingSchedule) ? window.trainingSchedule : [];
+            const grid = document.getElementById('facilities-grid');
+            const metaRow = document.getElementById('facilities-meta-row');
+
+            const unique = (values) => [...new Set(values.filter(Boolean))];
+
+            const locationDefinitions = [
                 {
-                    id: 1,
                     name: 'Stadion Hohenhorst',
-                    category: 'lauf',
                     badge: 'Hauptstandort',
-                    accent: 'stadium',
-                    description: 'Der zentrale Trainingsort für Bahn, Sprint, Hürden, Sprung und große Vereinsgruppen mit klarer Orientierung für Probetrainings und reguläre Wochenstruktur.',
-                    address: 'Maybacher Heide 9, 45659 Recklinghausen',
-                    audience: 'U12 bis Erwachsene, besonders für strukturierte Gruppen- und Bahneinheiten.',
-                    usage: 'Sprint, Hürden, Technikaufbau, Weitsprung, Staffeln und leistungsnahe Gruppentermine.',
-                    summary: 'Bahn, Technikflächen und gute Orientierung für den Einstieg.',
-                    features: [
-                        '400-Meter-Rundbahn mit klaren Treffpunkten für Gruppenstarts.',
-                        'Sprint- und Hürdenbereiche für technische Wiederholungen und wettkampfnahes Training.',
-                        'Weitsprung- und Mehrkampfbezug für vielseitige Einheiten im Wochenrhythmus.'
-                    ],
-                    tags: ['Lauf', 'Sprint', 'Hürden'],
-                    searchable: 'stadion hohenhorst sprint hürden lauf bahn technik probetraining gruppen'
+                    category: 'Bahn',
+                    accent: 'facility-accent--stadium',
+                    summary: 'Unser Hauptstandort fÃ¼r viele Gruppen.',
+                    copy: 'Kinder, Jugend und Erwachsene trainieren hier regelmÃ¤ÃŸig auf der Bahn und im AuÃŸenbereich.',
+                    match: (entry) => entry.location.includes('Stadion Hohenhorst')
                 },
                 {
-                    id: 2,
-                    name: 'Halle Süd',
-                    category: 'spring',
-                    badge: 'Wetterfest',
-                    accent: 'hall',
-                    description: 'Die Halle schafft verlässliche Bedingungen für Technik, Athletik und koordinative Inhalte, wenn Witterung, Sicherheit oder konzentrierte Grundlagenarbeit im Vordergrund stehen.',
-                    address: 'Blitzkuhlenstraße 81, 45659 Recklinghausen',
-                    audience: 'Nachwuchs, Jugend und Erwachsene bei Hallenbetrieb, Wintertraining oder Technikphasen.',
-                    usage: 'Sprungvorbereitung, koordinative Grundlagen, Athletikzirkel und betreute Halleneinheiten.',
-                    summary: 'Planbare Innenfläche für kontrollierte Technik- und Aufbauarbeit.',
-                    features: [
-                        'Geschützte Bedingungen für saubere Bewegungsabläufe und wiederholbare Technikblöcke.',
-                        'Geeignet für koordinative Stationen, Sprungvorbereitung und ergänzende Athletik.',
-                        'Hilfreich für Gruppen, die in der kalten Jahreszeit konstante Rahmenbedingungen brauchen.'
-                    ],
-                    tags: ['Sprung', 'Technik', 'Halle'],
-                    searchable: 'halle sued sprung technik winter athletik koordination indoor'
+                    name: 'Kraftraum am Stadion Hohenhorst',
+                    badge: 'ErgÃ¤nzend',
+                    category: 'Kraft',
+                    accent: 'facility-accent--gym',
+                    summary: 'ErgÃ¤nzt das Bahntraining mit Kraft- und Aufbauarbeit.',
+                    copy: 'Hier trainieren leistungsorientierte Gruppen und ergÃ¤nzende Krafteinheiten.',
+                    match: (entry) => entry.location.includes('Kraftraum')
                 },
                 {
-                    id: 3,
-                    name: 'Wurfanlage Nord',
-                    category: 'wurf',
-                    badge: 'Technikfokus',
-                    accent: 'throw',
-                    description: 'Die Wurfanlage ist für stoß- und wurforientierte Einheiten gedacht und bietet einen klaren Rahmen für technische Präzision, Sicherheitsabstände und betreute Belastungssteuerung.',
-                    address: 'Am Nordpark 14, 45657 Recklinghausen',
-                    audience: 'Jugendliche und Erwachsene mit Fokus auf Wurf, Stoß oder ergänzende Kraft-Technik-Kombinationen.',
-                    usage: 'Kugelstoß, Diskus, Speer und disziplinspezifische Technikblöcke mit ruhigerem Aufbau.',
-                    summary: 'Spezialisierte Fläche für Wurfdisziplinen mit mehr Ruhe und Präzision.',
-                    features: [
-                        'Getrenntere Nutzungssituation für sicheres Techniktraining in Wurfdisziplinen.',
-                        'Mehr Platz für methodische Aufbauformen und individuelle Korrekturen.',
-                        'Gut geeignet für leistungsnahe Blöcke oder disziplinspezifische Entwicklungsphasen.'
-                    ],
-                    tags: ['Wurf', 'Stoß', 'Technik'],
-                    searchable: 'wurfanlage nord wurf stoss speer diskus kugel technik sicherheit'
+                    name: 'Hohenzollernhalle',
+                    badge: 'Halle',
+                    category: 'Indoor',
+                    accent: 'facility-accent--hall',
+                    summary: 'Innenort fÃ¼r Senioren- und Ausweichtraining.',
+                    copy: 'Hier finden Hallenzeiten, Gesundheitssport und ergÃ¤nzende Einheiten statt.',
+                    match: (entry) => entry.location.includes('Hohenzollernhalle')
                 },
                 {
-                    id: 4,
-                    name: 'Stadtwald Recklinghausen',
-                    category: 'lauf',
-                    badge: 'Ausdauer',
-                    accent: 'forest',
-                    description: 'Der Stadtwald ergänzt das Bahntraining um längere Läufe, lockere Grundlagen, Geländeimpulse und ein anderes Belastungsgefühl als im Stadionalltag.',
-                    address: 'Treffpunkt je nach Gruppe am Stadtwald-Eingang Hohenhorster Weg, 45659 Recklinghausen',
-                    audience: 'Jugend, Erwachsene und Gruppen mit Schwerpunkt Ausdauer, Grundlagen oder abwechslungsreichem Lauftraining.',
-                    usage: 'Dauerläufe, Ausdauerblöcke, Rhythmuswechsel und gruppentaugliche Grundlagenarbeit im Freien.',
-                    summary: 'Natürlicher Trainingsraum für Ausdauer und ergänzende Laufbelastung.',
-                    features: [
-                        'Abwechslungsreiche Untergründe und Streckenprofile für ausdauerorientierte Inhalte.',
-                        'Sinnvoll für Grundlagenphasen, mentale Abwechslung und gruppentaugliche Laufrhythmen.',
-                        'Treffpunkte werden je nach Einheit klar vorab kommuniziert.'
-                    ],
-                    tags: ['Lauf', 'Ausdauer', 'Outdoor'],
-                    searchable: 'stadtwald ausdauer lauf outdoor grundlagen dauerlauf wald'
-                },
-                {
-                    id: 5,
-                    name: 'Athletikraum West',
-                    category: 'athletik',
-                    badge: 'Ergänzend',
-                    accent: 'gym',
-                    description: 'Der Athletikraum bündelt Kraft, Stabilität, Mobilität und ergänzende Prävention, damit technische Entwicklung und Belastbarkeit im Vereinsalltag besser zusammenpassen.',
-                    address: 'Nebenhalle West, Campus Vestischer Ring 22, 45657 Recklinghausen',
-                    audience: 'Jugendliche, Erwachsene und leistungsorientierte Gruppen mit zusätzlichem Athletikbedarf.',
-                    usage: 'Kraftzirkel, Stabilisation, Mobility, Reha-nahe Ergänzungen und saisonbegleitende Athletikarbeit.',
-                    summary: 'Innenraum für Stabilität, Kraft und ergänzende Belastungssteuerung.',
-                    features: [
-                        'Hilfreich für Ergänzungstraining, Prävention und kontrollierte Belastungssteuerung.',
-                        'Passt besonders gut zu Sprint-, Wurf- und leistungsnahen Aufbaugruppen.',
-                        'Schafft Alternativen, wenn wetterunabhängige Zusatzarbeit gefragt ist.'
-                    ],
-                    tags: ['Athletik', 'Kraft', 'Stabilität'],
-                    searchable: 'athletikraum west kraft stabilitaet mobility praevention indoor gym'
+                    name: '5-fach Sporthalle',
+                    badge: 'Ausweichort',
+                    category: 'Indoor',
+                    accent: 'facility-accent--hall',
+                    summary: 'Weitere HallenflÃ¤che fÃ¼r einzelne Gruppen.',
+                    copy: 'Die Halle wird fÃ¼r konkrete Termine und Gruppen aus dem Wochenplan genutzt.',
+                    match: (entry) => entry.location.includes('5-fach Sporthalle')
                 }
             ];
 
-            const grid = document.getElementById('facilities-grid');
-            const searchInput = document.getElementById('facility-search');
-            const filterButtons = Array.from(document.querySelectorAll('.facility-filter'));
-            const status = document.getElementById('facilities-filter-status');
-            const emptyState = document.getElementById('facilities-empty-state');
+            const cards = locationDefinitions.map((location) => {
+                const entries = schedule.filter(location.match);
+                const groups = unique(entries.map((entry) => entry.group));
+                const trainerCount = unique(entries.flatMap((entry) => entry.trainers || [])).length;
 
-            const detailVisual = document.getElementById('detail-visual');
-            const detailTitle = document.getElementById('detail-title');
-            const detailDescription = document.getElementById('detail-description');
-            const detailBadge = document.getElementById('detail-badge');
-            const detailAddress = document.getElementById('detail-address');
-            const detailAudience = document.getElementById('detail-audience');
-            const detailUsage = document.getElementById('detail-usage');
-            const detailFeatures = document.getElementById('detail-features');
-            const detailPillRow = document.getElementById('detail-pill-row');
+                return {
+                    ...location,
+                    groups,
+                    trainerCount
+                };
+            });
 
-            const state = {
-                filter: 'all',
-                search: '',
-                selectedId: facilities[0].id
-            };
-
-            const categoryLabels = {
-                lauf: 'Lauf',
-                spring: 'Sprung',
-                wurf: 'Wurf',
-                huerden: 'Hürden',
-                athletik: 'Athletik'
-            };
-
-            const matchesFacility = (facility) => {
-                const normalizedSearch = state.search.trim().toLowerCase();
-                const filterLabel = categoryLabels[state.filter]?.toLowerCase() || state.filter;
-                const matchesFilter = state.filter === 'all'
-                    || facility.category === state.filter
-                    || facility.tags.some((tag) => tag.toLowerCase().includes(filterLabel));
-                const matchesSearch = normalizedSearch === '' || facility.searchable.includes(normalizedSearch) || facility.tags.some((tag) => tag.toLowerCase().includes(normalizedSearch)) || facility.name.toLowerCase().includes(normalizedSearch) || facility.description.toLowerCase().includes(normalizedSearch);
-                return matchesFilter && matchesSearch;
-            };
-
-            const renderDetail = (facility) => {
-                detailVisual.className = `facility-detail-card__visual facility-accent facility-accent--${facility.accent}`;
-                detailTitle.textContent = facility.name;
-                detailDescription.textContent = facility.description;
-                detailBadge.textContent = facility.badge;
-                detailAddress.textContent = facility.address;
-                detailAudience.textContent = facility.audience;
-                detailUsage.textContent = facility.usage;
-
-                detailPillRow.innerHTML = facility.tags
-                    .map((tag) => `<span class="subpage-pill">${tag}</span>`)
-                    .join('');
-
-                detailFeatures.innerHTML = facility.features
-                    .map((feature) => `<li>${feature}</li>`)
-                    .join('');
-            };
-
-            const renderCards = (visibleFacilities) => {
-                grid.innerHTML = '';
-
-                visibleFacilities.forEach((facility) => {
-                    const card = document.createElement('article');
-                    const isSelected = facility.id === state.selectedId;
-
-                    card.className = 'facility-card';
-                    card.innerHTML = `
-                        <button type="button" class="facility-card__button${isSelected ? ' is-selected' : ''}" data-id="${facility.id}" aria-pressed="${isSelected}">
-                            <div class="facility-card__media facility-accent facility-accent--${facility.accent}" aria-hidden="true">
-                                <span class="facility-card__badge">${facility.badge}</span>
-                            </div>
-                            <div class="facility-card__body">
-                                <div class="facility-card__header">
-                                    <div>
-                                        <h3>${facility.name}</h3>
-                                        <p>${facility.summary}</p>
-                                    </div>
-                                    <span class="facility-card__category">${categoryLabels[facility.category] || facility.category}</span>
-                                </div>
-                                <div class="subpage-inline-list subpage-pill-row" aria-label="Schwerpunkte von ${facility.name}">
-                                    ${facility.tags.map((tag) => `<span class="subpage-pill">${tag}</span>`).join('')}
-                                </div>
-                                <p class="facility-card__copy">${facility.description}</p>
-                                <div class="facility-card__footer">
-                                    <span class="facility-card__address">${facility.address}</span>
-                                    <span class="facility-card__action">Details ansehen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></span>
-                                </div>
-                            </div>
-                        </button>
-                    `;
-
-                    grid.appendChild(card);
-                });
-
-                Array.from(grid.querySelectorAll('.facility-card__button')).forEach((button) => {
-                    button.addEventListener('click', () => {
-                        state.selectedId = Number(button.dataset.id);
-                        updateView();
-                    });
-                });
-            };
-
-            const updateFilterButtons = () => {
-                filterButtons.forEach((button) => {
-                    const isActive = button.dataset.filter === state.filter;
-                    button.classList.toggle('is-active', isActive);
-                    button.setAttribute('aria-pressed', String(isActive));
-                });
-            };
-
-            const updateView = () => {
-                const visibleFacilities = facilities.filter(matchesFacility);
-
-                if (!visibleFacilities.some((facility) => facility.id === state.selectedId)) {
-                    state.selectedId = visibleFacilities[0]?.id ?? facilities[0].id;
+            metaRow.innerHTML = [
+                {
+                    icon: 'place',
+                    label: 'Orte',
+                    value: `${cards.length} reale Standorte`
+                },
+                {
+                    icon: 'groups',
+                    label: 'Gruppen',
+                    value: `${unique(schedule.map((entry) => entry.group)).length} Trainingsgruppen`
+                },
+                {
+                    icon: 'source',
+                    label: 'Quelle',
+                    value: 'Sommersaison 2026'
                 }
+            ].map((item) => `
+                <span class="subpage-meta">
+                    <span class="material-icons-round" aria-hidden="true">${item.icon}</span>
+                    <strong>${item.label}:</strong> ${item.value}
+                </span>
+            `).join('');
 
-                renderCards(visibleFacilities);
-                updateFilterButtons();
-
-                emptyState.hidden = visibleFacilities.length !== 0;
-                status.textContent = visibleFacilities.length === 0
-                    ? 'Keine Sportstätten sichtbar.'
-                    : `${visibleFacilities.length} Sportstätten sichtbar.`;
-
-                const selectedFacility = facilities.find((facility) => facility.id === state.selectedId) || facilities[0];
-                renderDetail(selectedFacility);
-            };
-
-            filterButtons.forEach((button) => {
-                button.addEventListener('click', () => {
-                    state.filter = button.dataset.filter;
-                    updateView();
-                });
-            });
-
-            searchInput.addEventListener('input', (event) => {
-                state.search = event.target.value;
-                updateView();
-            });
-
-            updateView();
+            grid.innerHTML = cards.map((location) => `
+                <article class="facility-card">
+                    <div class="facility-card__button">
+                        <div class="facility-card__media ${location.accent}" aria-hidden="true">
+                            <span class="facility-card__badge">${location.badge}</span>
+                        </div>
+                        <div class="facility-card__body">
+                            <div class="facility-card__header">
+                                <div>
+                                    <h3>${location.name}</h3>
+                                    <p>${location.summary}</p>
+                                </div>
+                                <span class="facility-card__category">${location.category}</span>
+                            </div>
+                            <div class="subpage-inline-list subpage-pill-row" aria-label="Gruppen an ${location.name}">
+                                ${location.groups.map((group) => `<span class="subpage-pill">${group}</span>`).join('')}
+                            </div>
+                            <p class="facility-card__copy">${location.copy}</p>
+                            <div class="facility-card__footer">
+                                <span class="facility-card__address">${location.trainerCount} Trainerinnen und Trainer</span>
+                                <span class="facility-card__action">${location.groups.length} Gruppen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            `).join('');
         });
     </script>
 </body>
-
 </html>
 
