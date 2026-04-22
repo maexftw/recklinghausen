@@ -191,10 +191,22 @@ main,
     white-space: nowrap;
 }
 
+.site-nav-link.is-active,
+.site-mobile-link.is-active {
+    background: color-mix(in srgb, var(--color-primary) 16%, white);
+    color: var(--color-primary-dark);
+}
+
 .dark .site-nav-link,
 .dark .site-mobile-link,
 .dark .site-footer-link {
     color: var(--color-text-contrast-dark);
+}
+
+.dark .site-nav-link.is-active,
+.dark .site-mobile-link.is-active {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--color-primary-light);
 }
 
 .site-nav-link:hover,
@@ -376,12 +388,60 @@ main,
     color: var(--color-text-dark);
 }
 
-.site-footer__divider {
+.site-footer p,
+.site-footer li,
+.site-footer small {
+    color: color-mix(in srgb, white 78%, var(--color-primary-light));
+}
+
+.site-footer .text-slate-400,
+.site-footer .text-slate-500 {
+    color: color-mix(in srgb, white 78%, var(--color-primary-light));
+}
+
+.site-footer h4 {
+    color: color-mix(in srgb, white 22%, var(--color-primary-light) 78%);
+}
+
+.site-footer .site-footer-link {
+    color: color-mix(in srgb, white 84%, var(--color-primary-light));
+}
+
+.site-footer .site-footer-link:hover,
+.site-footer .site-footer-link:focus-visible {
+    color: white;
+}
+
+.site-footer .site-footer__divider {
     border-color: var(--color-border-inverse);
+    color: color-mix(in srgb, white 64%, var(--color-primary-light));
+}
+
+.site-footer__social-row {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
 }
 
 .site-placeholder-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 1px solid var(--color-border-inverse);
+}
+
+.site-social-link {
+    display: inline-flex;
+}
+
+.site-social-icon {
+    width: 20px;
+    height: 20px;
+    filter: invert(1);
 }
 
 .site-pill-note {

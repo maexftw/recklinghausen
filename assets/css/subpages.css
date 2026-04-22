@@ -66,7 +66,6 @@ body.subpage {
     border: 1px solid color-mix(in srgb, var(--subpage-line) 82%, white);
     background:
         radial-gradient(circle at 86% 18%, color-mix(in srgb, var(--subpage-accent-soft) 82%, white) 0%, transparent 29%),
-        linear-gradient(135deg, color-mix(in srgb, white 50%, transparent) 0%, transparent 50%),
         linear-gradient(180deg, color-mix(in srgb, white 82%, var(--subpage-paper)) 0%, color-mix(in srgb, var(--subpage-paper) 74%, var(--subpage-wash)) 100%);
     box-shadow: var(--subpage-shadow);
 }
@@ -84,15 +83,7 @@ body.subpage {
 }
 
 .subpage-intro::after {
-    content: "";
-    position: absolute;
-    inset: auto 0 0;
-    height: clamp(8rem, 18vw, 12rem);
-    background:
-        linear-gradient(180deg, transparent 0%, color-mix(in srgb, var(--subpage-brand-strong) 7%, transparent) 100%),
-        linear-gradient(90deg, color-mix(in srgb, var(--subpage-brand) 16%, transparent) 0 16%, transparent 16% 100%);
-    opacity: 0.72;
-    pointer-events: none;
+    content: none;
 }
 
 .subpage-intro__content,
@@ -139,6 +130,69 @@ body.subpage {
     width: 100%;
     height: 5px;
     background: var(--subpage-brand);
+}
+
+.subpage-hero-placeholder {
+    display: grid;
+    gap: 0.9rem;
+    min-height: 100%;
+}
+
+.subpage-hero-placeholder__frame {
+    position: relative;
+    display: grid;
+    align-content: end;
+    min-height: 18rem;
+    padding: 1.15rem;
+    overflow: hidden;
+    border: 1px dashed color-mix(in srgb, var(--subpage-brand) 36%, white);
+    background:
+        radial-gradient(circle at 18% 18%, color-mix(in srgb, var(--subpage-accent-soft) 88%, white) 0%, transparent 28%),
+        linear-gradient(135deg, color-mix(in srgb, var(--subpage-brand-strong) 12%, white) 0%, color-mix(in srgb, var(--subpage-paper-strong) 94%, white) 100%);
+}
+
+.subpage-hero-placeholder__frame::before,
+.subpage-hero-placeholder__frame::after {
+    content: "";
+    position: absolute;
+    inset: auto;
+    pointer-events: none;
+}
+
+.subpage-hero-placeholder__frame::before {
+    right: -8%;
+    top: -16%;
+    width: 52%;
+    height: 52%;
+    border-radius: 999px;
+    background: color-mix(in srgb, white 50%, transparent);
+    opacity: 0.75;
+}
+
+.subpage-hero-placeholder__frame::after {
+    left: -10%;
+    bottom: -18%;
+    width: 72%;
+    height: 70%;
+    border-radius: 40% 60% 58% 42% / 48% 38% 62% 52%;
+    background: color-mix(in srgb, var(--subpage-brand) 18%, transparent);
+    opacity: 0.9;
+}
+
+.subpage-hero-placeholder__label {
+    position: relative;
+    z-index: 1;
+    display: inline-flex;
+    width: fit-content;
+    min-height: 2rem;
+    align-items: center;
+    padding: 0.35rem 0.72rem;
+    background: rgba(255, 255, 255, 0.92);
+    color: var(--subpage-brand-strong);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
 }
 
 .subpage-eyebrow {
@@ -288,6 +342,14 @@ body.subpage {
 .subpage-grid--sidebar {
     grid-template-columns: minmax(0, 1.45fr) minmax(18rem, 0.72fr);
     align-items: start;
+}
+
+.subpage-news-detail-hero + .subpage-grid--sidebar {
+    grid-template-columns: minmax(0, 1fr);
+}
+
+.subpage-news-detail-hero + .subpage-grid--sidebar > aside {
+    display: none;
 }
 
 .subpage-hero-points {
@@ -556,7 +618,7 @@ body.subpage {
 }
 
 .subpage-table-shell {
-    overflow: hidden;
+    overflow-x: auto;
 }
 
 .subpage-table {
@@ -666,6 +728,27 @@ body.subpage {
     font-size: 0.96rem;
     line-height: 1.4;
     color: var(--subpage-ink);
+}
+
+.training-badge {
+    min-height: auto;
+    padding: 0.16rem 0.5rem;
+    font-size: 0.66rem;
+    letter-spacing: 0.08em;
+}
+
+.training-table-cell,
+.training-card-top {
+    display: grid;
+    gap: 0.4rem;
+}
+
+.training-table-cell strong,
+.training-card-group {
+    color: var(--subpage-ink);
+    font-size: 1rem;
+    font-weight: 800;
+    line-height: 1.35;
 }
 
 .subpage-table-note {
@@ -992,6 +1075,20 @@ body.subpage {
     background-size: cover;
     transform: scale(1.01);
     transition: transform 320ms ease;
+}
+
+.subpage-person-card__image--placeholder {
+    display: grid;
+    place-items: center;
+    background-image:
+        radial-gradient(circle at 22% 20%, rgba(255, 255, 255, 0.45) 0%, transparent 24%),
+        linear-gradient(135deg, color-mix(in srgb, var(--subpage-brand) 84%, white) 0%, color-mix(in srgb, var(--subpage-brand-strong) 74%, black 4%) 100%);
+    color: white;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: clamp(2rem, 1.4rem + 1.4vw, 3rem);
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
 }
 
 .subpage-person-card:hover .subpage-person-card__image,
@@ -2013,40 +2110,14 @@ body.subpage-news {
     align-items: start;
 }
 
-body.subpage-news .subpage-intro,
 body.subpage-facilities .subpage-intro {
     grid-template-columns: 1fr;
 }
 
-body.subpage-news .subpage-meta-row,
-body.subpage-news .subpage-hero-points,
-body.subpage-news .subpage-intro__aside,
-body.subpage-news .subpage-highlight-strip,
 body.subpage-facilities .subpage-meta-row,
 body.subpage-facilities .subpage-hero-points,
 body.subpage-facilities .subpage-intro__aside,
 body.subpage-facilities .subpage-highlight-strip {
-    display: none;
-}
-
-body.subpage-news .subpage-actions .subpage-button--secondary {
-    min-height: auto;
-    padding: 0;
-    border: none;
-    background: transparent;
-    box-shadow: none;
-    color: var(--subpage-brand-strong);
-}
-
-body.subpage-news .subpage-actions .subpage-button--secondary:hover,
-body.subpage-news .subpage-actions .subpage-button--secondary:focus-visible {
-    transform: none;
-    background: transparent;
-    box-shadow: none;
-    color: var(--subpage-ink);
-}
-
-body.subpage-news .subpage-actions .subpage-link[href="contact.html#contact"] {
     display: none;
 }
 
