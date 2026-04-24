@@ -16,9 +16,14 @@ DIRECTORY = "."
 # Wechseln in das Verzeichnis der Website
 os.chdir(DIRECTORY)
 
+class ReusableThreadingHTTPServer(http.server.ThreadingHTTPServer):
+    allow_reuse_address = True
+    daemon_threads = True
+
+
 # Erstellen des HTTP-Servers
 Handler = http.server.SimpleHTTPRequestHandler
-with socketserver.TCPServer(("", PORT), Handler) as httpd:
+with ReusableThreadingHTTPServer(("", PORT), Handler) as httpd:
     print(f"Server wird auf Port {PORT} gestartet...")
     print(f"Zugriff über: http://localhost:{PORT}")
     print(f"Verzeichnis: {os.getcwd()}")

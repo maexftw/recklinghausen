@@ -6,6 +6,7 @@ import re
 ARCHIVE_FILE = 'news_archive.json'
 TEMPLATE_FILE = 'stitch_modern_news_archive_page (2)/code.html'
 OUTPUT_DIR = 'pages/news'
+PLACEHOLDER_IMAGE = "../../assets/images/news-placeholder.svg"
 
 # Ensure output directory exists
 if not os.path.exists(OUTPUT_DIR):
@@ -27,13 +28,32 @@ def generate_page(article, all_articles):
     content_text = article.get('content_text', '')
     
     # Get image
-    main_image = "../../assets/images/placeholder.jpg"
+    main_image = PLACEHOLDER_IMAGE
     if article['images'] and len(article['images']) > 0:
         main_image = "../../" + article['images'][0]['local']
     
     # Process content_html to fix image paths
     processed_content = content_html
-    processed_content = re.sub(r'src="(assets/|news_assets/)', r'src="../../\1', processed_content)
+
+    def rewrite_content_src(match):
+        quote = match.group(1)
+        path = match.group(2)
+
+        if path.startswith('assets/images/uploads/'):
+            filename = path.rsplit('/', 1)[-1]
+            local_path = os.path.join('news_assets', str(article_id), filename)
+            if not os.path.exists(local_path):
+                return f'src={quote}{PLACEHOLDER_IMAGE}{quote}'
+
+            return f'src={quote}../../news_assets/{article_id}/{filename}{quote}'
+
+        return f'src={quote}../../{path}{quote}'
+
+    processed_content = re.sub(
+        r'src=(["\'])(?:\.\./\.\./)?(assets/images/uploads/[^"\']+|news_assets/[^"\']+)\1',
+        rewrite_content_src,
+        processed_content
+    )
     
     # Use content_text for quote if it's long enough, otherwise use title
     quote = article['title']
@@ -76,7 +96,7 @@ def generate_page(article, all_articles):
         if other['id'] == article_id: continue
         if sidebar_count >= 3: break
         
-        other_img = "../../assets/images/placeholder.jpg"
+        other_img = PLACEHOLDER_IMAGE
         if other['images']: other_img = "../../" + other['images'][0]['local']
         
         sidebar_html += f'''
