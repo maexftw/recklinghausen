@@ -56,6 +56,15 @@ def repair_text(value):
         return {key: repair_text(item) for key, item in value.items()}
     return value
 
+def normalize_headline(value):
+    if not isinstance(value, str):
+        return value
+    return value.translate(str.maketrans({
+        chr(0x00e4): chr(0x00c4),
+        chr(0x00f6): chr(0x00d6),
+        chr(0x00fc): chr(0x00dc)
+    }))
+
 def sync():
     # Load existing archive
     if os.path.exists(ARCHIVE_FILE):
@@ -103,6 +112,8 @@ def sync():
         
     # Update JS file with a launch-sized recent archive for the overview page
     js_export = repair_text(archive[:JS_EXPORT_LIMIT])
+    for article in js_export:
+        article["title"] = normalize_headline(article.get("title", ""))
     js_content = "window.newsData = " + json.dumps(js_export, ensure_ascii=False, indent=4) + ";"
     with open(JS_DATA_FILE, 'w', encoding='utf-8') as f:
         f.write(js_content)

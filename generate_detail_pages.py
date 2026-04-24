@@ -1,6 +1,7 @@
 import json
 import os
 import re
+from html import escape
 
 # Paths
 ARCHIVE_FILE = 'news_archive.json'
@@ -62,6 +63,12 @@ def generate_page(article, all_articles):
 
     # Replace placeholders in template
     page = template
+
+    # Set a specific browser title instead of the generic template title.
+    page = page.replace(
+        '<title>RLC 1952 - News Detail</title>',
+        f'<title>{escape(title)} | RLC 1952</title>'
+    )
     
     # Replace background image
     page = re.sub(r'url\("https?://.*?"\)', f'url("{main_image}")', page)

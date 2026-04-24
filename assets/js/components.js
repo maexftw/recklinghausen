@@ -84,7 +84,6 @@ function initSharedComponents() {
                         <a class="site-nav-link text-sm font-semibold transition-colors" href="${basePath}pages/training.html">Training</a>
                         <a class="site-nav-link text-sm font-semibold transition-colors" href="${basePath}pages/team.html">Unser Team</a>
                         <a class="site-nav-link text-sm font-semibold transition-colors" href="${basePath}pages/facilities.html">Sportstätten</a>
-                        <a class="site-nav-link text-sm font-semibold transition-colors" href="${basePath}pages/gallery.html">Fotos</a>
                         <a class="site-nav-link text-sm font-semibold transition-colors" href="${basePath}pages/sponsors.html">Partner</a>
                         <a class="site-nav-link text-sm font-semibold transition-colors" href="${basePath}pages/contact.html">Kontakt</a>
                     </nav>
@@ -109,7 +108,6 @@ function initSharedComponents() {
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/training.html">Training</a>
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/team.html">Unser Team</a>
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/facilities.html">Sportstätten</a>
-                <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/gallery.html">Fotos</a>
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/sponsors.html">Partner</a>
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/contact.html">Kontakt</a>
             </div>
@@ -141,8 +139,8 @@ function initSharedComponents() {
                     <ul class="space-y-4 text-slate-400 text-sm">
                         <li><a href="${basePath}pages/team.html" class="site-footer-link transition-colors focus:outline-none">Unser Team</a></li>
                         <li><a href="${basePath}pages/training.html" class="site-footer-link transition-colors focus:outline-none">Trainingszeiten</a></li>
-                        <li><a href="${basePath}pages/stats.html" class="site-footer-link transition-colors focus:outline-none">Rekorde & Bestenlisten</a></li>
-                        <li><a href="${basePath}pages/gallery.html" class="site-footer-link transition-colors focus:outline-none">Bildergalerie</a></li>
+                        <li><a href="${basePath}pages/facilities.html" class="site-footer-link transition-colors focus:outline-none">Sportstätten</a></li>
+                        <li><a href="${basePath}pages/news.html" class="site-footer-link transition-colors focus:outline-none">Aktuelles</a></li>
                     </ul>
                 </div>
                 <div>

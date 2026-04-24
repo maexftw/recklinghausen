@@ -367,13 +367,14 @@ body.subpage {
 }
 
 .subpage-news .subpage-news-list-item__media {
-    align-self: stretch;
+    align-self: start;
+    height: 7rem;
     box-shadow: none;
 }
 
 .subpage-news .subpage-news-list-item__media img {
     height: 100%;
-    min-height: 6.4rem;
+    min-height: 0;
     aspect-ratio: auto;
 }
 

@@ -30,7 +30,7 @@ window.newsData = [
     {
         "url": "https://www.rlc1952.de/rlc.php?id=0-0000-0-10191",
         "id": "10191",
-        "title": "RECKLINGHäUSER LC GLäNZT BEIM JUNIOR-ADVENTSCUP IN DORTMUND",
+        "title": "RECKLINGHÄUSER LC GLÄNZT BEIM JUNIOR-ADVENTSCUP IN DORTMUND",
         "date": "15. Dezember 2025",
         "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20251215153135_Jendrik.jpg\"/></div><p class=\"detailViewTop\"><b>Beim Junior-Adventscup in der Helmut-Körnig-Halle am 13. Dezember 2025 präsentierte sich der Nachwuchs des Recklinghäuser LC in starker Form. Mit persönlichen Bestleistungen und soliden Platzierungen zeigten die Athletinnen und Athleten, dass sie bestens für die Hallensaison gerüstet sind.</b></p>",
         "content_text": "Beim Junior-Adventscup in der Helmut-Körnig-Halle am 13. Dezember 2025 präsentierte sich der Nachwuchs des Recklinghäuser LC in starker Form. Mit persönlichen Bestleistungen und soliden Platzierungen zeigten die Athletinnen und Athleten, dass sie bestens für die Hallensaison gerüstet sind.",
@@ -114,7 +114,7 @@ window.newsData = [
     {
         "url": "https://www.rlc1952.de/rlc.php?id=0-0000-3-10185",
         "id": "10185",
-        "title": "WINTERSPORTFEST IM RECKLINGHäUSER LC",
+        "title": "WINTERSPORTFEST IM RECKLINGHÄUSER LC",
         "date": "16. November 2025",
         "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20251116153315_RLC-Logo_450x150.png\"/></div><p class=\"detailViewTop\"><b><strong>Liebe Eltern</strong>, <strong>der Recklinghäuser LC veranstaltet am Montag, den 01.12.2025 sein traditionelles Wintersportfest für alle Kinder des RLC vom Jahrgang 2020 - 2013.</strong></b></p>",
         "content_text": "Liebe Eltern\n,\nder Recklinghäuser LC veranstaltet am Montag, den 01.12.2025 sein traditionelles Wintersportfest für alle Kinder des RLC vom Jahrgang 2020 - 2013.",
@@ -128,7 +128,7 @@ window.newsData = [
     {
         "url": "https://www.rlc1952.de/rlc.php?id=0-0000-2-10184",
         "id": "10184",
-        "title": "JüRGEN NEUHAUSEN KäMPFT SICH DURCH!",
+        "title": "JÜRGEN NEUHAUSEN KÄMPFT SICH DURCH!",
         "date": "16. November 2025",
         "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20251116152345_Jrgeb_01.jpeg\"/></div><p class=\"detailViewTop\"><b>Bei den Westf. Meisterschaften im Crosslauf am 15.11. in Oelde und typischem Crosslaufwetter ( kühl-nieselig, einfach ungemütlich) hat RLC-Langstreckler Jürgen Neuhausen einen tollen 4. Platz in seiner Altersklasse belegt.</b></p>",
         "content_text": "Bei den Westf. Meisterschaften im Crosslauf am 15.11. in Oelde und typischem Crosslaufwetter ( kühl-nieselig, einfach ungemütlich) hat RLC-Langstreckler Jürgen Neuhausen einen tollen 4. Platz in seiner Altersklasse belegt.",
@@ -170,7 +170,7 @@ window.newsData = [
     {
         "url": "https://www.rlc1952.de/rlc.php?id=0-0000-4-10179",
         "id": "10179",
-        "title": "DAUERLäUFER NEUHAUSEN ERFOLGREICH UNTERWEGS",
+        "title": "DAUERLÄUFER NEUHAUSEN ERFOLGREICH UNTERWEGS",
         "date": "06. Oktober 2025",
         "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20251006175627_HM_Jrgen.jpeg\"/></div><p class=\"detailViewTop\"><b>Am 28.09.2025 fanden im Rahmen der Bertlicher Straßenläufe auch die Westf. Halbmarathonmeisterschaften statt. Mit dabei wie immer: Ü60-Seniorenläufer Jürgen Neuhausen.</b></p>",
         "content_text": "Am 28.09.2025 fanden im Rahmen der Bertlicher Straßenläufe auch die Westf. Halbmarathonmeisterschaften statt. Mit dabei wie immer: Ü60-Seniorenläufer Jürgen Neuhausen.",
@@ -184,7 +184,7 @@ window.newsData = [
     {
         "url": "https://www.rlc1952.de/rlc.php?id=0-0000-3-10178",
         "id": "10178",
-        "title": "NOCH MEHR KREISMEISTERTITEL FüR DEN RLC",
+        "title": "NOCH MEHR KREISMEISTERTITEL FÜR DEN RLC",
         "date": "06. Oktober 2025",
         "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20251006102946_6x50.jpg\"/></div><p class=\"detailViewTop\"><b>am 05.10.2025 fanden in Herten-Bertlich die Kreismeisterschaften der Staffeln, wie eigentlich immer in den vergangenen Jahren bei nass-kühlen 11°C und stürmischen Winden. Der RLC konnte nur mit einer reduzierten Anzahl an Staffeln teilnehmen, da einige Athleten zeitgleich zu einer Kadermaßnahme eingeladen waren.</b></p>",
         "content_text": "am 05.10.2025 fanden in Herten-Bertlich die Kreismeisterschaften der Staffeln, wie eigentlich immer in den vergangenen Jahren bei nass-kühlen 11°C und stürmischen Winden. Der RLC konnte nur mit einer reduzierten Anzahl an Staffeln teilnehmen, da einige Athleten zeitgleich zu einer Kadermaßnahme eingeladen waren.",
@@ -296,7 +296,7 @@ window.newsData = [
     {
         "url": "https://www.rlc1952.de/rlc.php?id=0-0000-7-10167",
         "id": "10167",
-        "title": "FLVW-MASTERS IN WASSENBERG: RLC-SENIORINNEN UND -SENIOREN TRUMPFEN AUF/ JüRGEN NEUHAUSEN STARTETE BEIM WINTERBERGER BOBBAHN-RENNEN",
+        "title": "FLVW-MASTERS IN WASSENBERG: RLC-SENIORINNEN UND -SENIOREN TRUMPFEN AUF/ JÜRGEN NEUHAUSEN STARTETE BEIM WINTERBERGER BOBBAHN-RENNEN",
         "date": "07. Juli 2025",
         "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250707104945_Senioren_Urkunden.jpg\"/></div><p class=\"detailViewTop\"><b>Am 05.07./06.07.2025 fanden in diesem Jahr die FLVW-Senioren-Meisterschaften in Wasserberg als Kombi-Veranstaltung mit dem Verband Nordrhein statt. Am ersten Tag war das Wetter ok, wenn auch windig, am 2. Tag kalt, nass und windig, was den Beteiligten alles abverlangte.</b></p>",
         "content_text": "Am 05.07./06.07.2025 fanden in diesem Jahr die FLVW-Senioren-Meisterschaften in Wasserberg als Kombi-Veranstaltung mit dem Verband Nordrhein statt. Am ersten Tag war das Wetter ok, wenn auch windig, am 2. Tag kalt, nass und windig, was den Beteiligten alles abverlangte.",
@@ -310,7 +310,7 @@ window.newsData = [
     {
         "url": "https://www.rlc1952.de/rlc.php?id=0-0000-7-10166",
         "id": "10166",
-        "title": "KREISMEHRKAMPFMEISTERSCHAFTEN: 6 WEITERE KREISMEISTERTITEL FüR DIE U10/U12",
+        "title": "KREISMEHRKAMPFMEISTERSCHAFTEN: 6 WEITERE KREISMEISTERTITEL FÜR DIE U10/U12",
         "date": "05. Juli 2025",
         "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250705224625_Siegerehrung_WKU12.jpg\"/></div><p class=\"detailViewTop\"><b>Bei warmem und ruhigen Leichtathletikwetter konnten die Kreismehrkampf-meisterschaften am 05.07.2025 im heimischen Hohenhorst-Stadion zum Abschluss der Sommersaison ohne Probleme über die Bühne gebracht werden, 6 weitere Titel für den RLC sprangen dabei heraus.</b></p>",
         "content_text": "Bei warmem und ruhigen Leichtathletikwetter konnten die Kreismehrkampf-meisterschaften am 05.07.2025 im heimischen Hohenhorst-Stadion zum Abschluss der Sommersaison ohne Probleme über die Bühne gebracht werden, 6 weitere Titel für den RLC sprangen dabei heraus.",
@@ -324,7 +324,7 @@ window.newsData = [
     {
         "url": "https://www.rlc1952.de/rlc.php?id=0-0000-7-10165",
         "id": "10165",
-        "title": "KREISEINZELMEISTERSCHAFTEN: 17 TITEL FüR RLCLERINNEN",
+        "title": "KREISEINZELMEISTERSCHAFTEN: 17 TITEL FÜR RLCLERINNEN",
         "date": "03. Juli 2025",
         "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250703185820_Rohat_Marlena.jpg\"/></div><p class=\"detailViewTop\"><b>Die Kreiseinzelmeisterschaften am 29.06. in Haltern-Sythen gerieten wie eigentlich immer zu einer Hitzeschlacht par excellence: die Kids der Jahrgänge 2012 – 2017, die Kampfrichter: alle hatten damit zu tun, soviel Flüssigkeit wie möglich aufzunehmen und sich immer mal in einen schattigen Bereich zurückzuziehen.</b></p>",
         "content_text": "Die Kreiseinzelmeisterschaften am 29.06. in Haltern-Sythen gerieten wie eigentlich immer zu einer Hitzeschlacht par excellence: die Kids der Jahrgänge 2012 – 2017, die Kampfrichter: alle hatten damit zu tun, soviel Flüssigkeit wie möglich aufzunehmen und sich immer mal in einen schattigen Bereich zurückzuziehen.",
@@ -338,7 +338,7 @@ window.newsData = [
     {
         "url": "https://www.rlc1952.de/rlc.php?id=0-0000-8-10164",
         "id": "10164",
-        "title": "21.-22.06.2025 LAGE  WESTFäLISCHE MEISTERSCHAFTEN II UND III MATEJA STEVIC UND JONATHAN PERNER WESTFäLISCHE MEISTER MJU18 4X100M LäUFT QUALI FüR DIE DEUTSCHEN MEISTERSCHAFTEN",
+        "title": "21.-22.06.2025 LAGE  WESTFÄLISCHE MEISTERSCHAFTEN II UND III MATEJA STEVIC UND JONATHAN PERNER WESTFÄLISCHE MEISTER MJU18 4X100M LÄUFT QUALI FÜR DIE DEUTSCHEN MEISTERSCHAFTEN",
         "date": "24. Juni 2025",
         "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250624153458_Jonathan_Patrizio.JPG\"/></div><p class=\"detailViewTop\"><b>Mit 25 Athleten und Athletinnen der Altersklassen U16/U18/U20/M/F startete der RLC Nachwuchs in Lage/ Ostwestfalen bei den westfälischen Meisterschaften II und III. Subtropische Bedingungen – bis zu 34° Samstag/Sonntag – verlangten den Aktiven alles ab.</b></p>",
         "content_text": "Mit 25 Athleten und Athletinnen der Altersklassen U16/U18/U20/M/F startete der RLC Nachwuchs in Lage/ Ostwestfalen bei den westfälischen Meisterschaften II und III. Subtropische Bedingungen – bis zu 34° Samstag/Sonntag – verlangten den Aktiven alles ab.",
@@ -352,7 +352,7 @@ window.newsData = [
     {
         "url": "https://www.rlc1952.de/rlc.php?id=0-0000-8-10163",
         "id": "10163",
-        "title": "RECKLINGHäUSER KIDS CUP: SECHS RLC-MANNSCHAFTEN IN GUTER FORM",
+        "title": "RECKLINGHÄUSER KIDS CUP: SECHS RLC-MANNSCHAFTEN IN GUTER FORM",
         "date": "22. Juni 2025",
         "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250622180117_U12-Mannschaften_bearb.jpg\"/></div><p class=\"detailViewTop\"><b>Für den 14. Recklinghäuser Kids Cup am 19.06.2025 hatten je 2 Mannschaften der Altersklassen U8, U10 und U12 des RLC gemeldet. Die jüngeren zeigten sich stark verbessert gegenüber ihrem Auftritt in Oer-Erkenschwick, die älteren U12er steuerten viele persönliche Bestleistungen zum Gesamtergebnis bei.</b></p>",
         "content_text": "Für den 14. Recklinghäuser Kids Cup am 19.06.2025 hatten je 2 Mannschaften der Altersklassen U8, U10 und U12 des RLC gemeldet. Die jüngeren zeigten sich stark verbessert gegenüber ihrem Auftritt in Oer-Erkenschwick, die älteren U12er steuerten viele persönliche Bestleistungen zum Gesamtergebnis bei.",
@@ -366,7 +366,7 @@ window.newsData = [
     {
         "url": "https://www.rlc1952.de/rlc.php?id=0-0000-8-10162",
         "id": "10162",
-        "title": "NEUE BESTLEISTUNG FüR FABIAN STRABERG: 47,57SEC üBER 400M",
+        "title": "NEUE BESTLEISTUNG FÜR FABIAN STRABERG: 47,57SEC ÜBER 400M",
         "date": "17. Juni 2025",
         "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250617104254_Fabian_Ludger.JPG\"/></div><p class=\"detailViewTop\"><b>Der Deutsche Leichtathletik Verband hatte am Wochenende ( 14.06.2025) seine Sprintelite nach Regensburg zur Sparkassen Gala eingeladen. <br>Dabei war auch der männliche Nachwuchskader 400m. Regensburg, ein erster Test<br/>auf den Weg zu den U20 Europameisterschaften am 07.-10.08.2025 in Tampere/Finnland. </br></b></p>",
         "content_text": "Der Deutsche Leichtathletik Verband hatte am Wochenende ( 14.06.2025) seine Sprintelite nach Regensburg zur Sparkassen Gala eingeladen.\nDabei war auch der männliche Nachwuchskader 400m. Regensburg, ein erster Test\nauf den Weg zu den U20 Europameisterschaften am 07.-10.08.2025 in Tampere/Finnland.",
@@ -380,7 +380,7 @@ window.newsData = [
     {
         "url": "https://www.rlc1952.de/rlc.php?id=0-0000-9-10161",
         "id": "10161",
-        "title": "JüRGEN NEUHAUSEN: PLATZ 3 BEI WESTFäLISCHEN 10KM-MEISTERSCHAFTEN",
+        "title": "JÜRGEN NEUHAUSEN: PLATZ 3 BEI WESTFÄLISCHEN 10KM-MEISTERSCHAFTEN",
         "date": "15. Juni 2025",
         "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250615174906_Jrgen_10km3Pl.jpeg\"/></div><p class=\"detailViewTop\"><b>Unser dauerlaufender M60-Senior Jürden Neuhausen hat schon wieder zugeschlagen: am 15.06.2025 in Menden bei drückend-schwülem Wetter, gerade für Ausdauersportler nicht die günstigste Wetterlage, schaffte es Jürgen gegen starke Konkurrenz, sich 42:15min den 3. Platz bei den Westfälischen 10km-Meisterschaften zu sichern.</b></p>",
         "content_text": "Unser dauerlaufender M60-Senior Jürden Neuhausen hat schon wieder zugeschlagen: am 15.06.2025 in Menden bei drückend-schwülem Wetter, gerade für Ausdauersportler nicht die günstigste Wetterlage, schaffte es Jürgen gegen starke Konkurrenz, sich 42:15min den 3. Platz bei den Westfälischen 10km-Meisterschaften zu sichern.",
@@ -417,7 +417,7 @@ window.newsData = [
     {
         "url": "https://www.rlc1952.de/rlc.php?id=0-0000-10-10157",
         "id": "10157",
-        "title": "„DAUERLäUFER“ JüRGEN NEUHAUSEN ERNEUT WESTFALENMEISTER üBER 10.000M",
+        "title": "„DAUERLÄUFER“ JÜRGEN NEUHAUSEN ERNEUT WESTFALENMEISTER ÜBER 10.000M",
         "date": "20. Mai 2025",
         "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250520152154_Jrgen_bearb.jpeg\"/></div><p class=\"detailViewTop\"><b>Die Siegesserie geht für Jürgen Neuhausen, M60, weiter. Am 18.05.2025 gewann unser unermüdlicher Langstreckler im Russheide-Stadion Bielefeld in 43:05,61min mit über einer Minute Vorsprung den Westfalentitel. O-Ton Jürgen:</b></p>",
         "content_text": "Die Siegesserie geht für Jürgen Neuhausen, M60, weiter. Am 18.05.2025 gewann unser unermüdlicher Langstreckler im Russheide-Stadion Bielefeld in 43:05,61min mit über einer Minute Vorsprung den Westfalentitel. O-Ton Jürgen:",
@@ -431,7 +431,7 @@ window.newsData = [
     {
         "url": "https://www.rlc1952.de/rlc.php?id=0-0000-10-10156",
         "id": "10156",
-        "title": "ALLIANZ-CUP IN ERKENSCHWICK -  EIN GUTES PFLASTER FüR U14-AKTIVE",
+        "title": "ALLIANZ-CUP IN ERKENSCHWICK -  EIN GUTES PFLASTER FÜR U14-AKTIVE",
         "date": "20. Mai 2025",
         "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250520150513_Inga.jpg\"/></div><p class=\"detailViewTop\"><b>Am 18.05.2025 hatte Christina Sip einige ihrer U14-Aktivposten zum Allianz-Cup in Erkenschwick gemeldet, 9 persönliche Bestleistungen bzw. Einstellung der Bestleistungen sprangen dabei heraus.</b></p>",
         "content_text": "Am 18.05.2025 hatte Christina Sip einige ihrer U14-Aktivposten zum Allianz-Cup in Erkenschwick gemeldet, 9 persönliche Bestleistungen bzw. Einstellung der Bestleistungen sprangen dabei heraus.",
@@ -459,7 +459,7 @@ window.newsData = [
     {
         "url": "https://www.rlc1952.de/rlc.php?id=0-0000-11-10154",
         "id": "10154",
-        "title": "FEINE LEISTUNG FüR JüNGSTEN DES RLC!",
+        "title": "FEINE LEISTUNG FÜR JÜNGSTEN DES RLC!",
         "date": "18. Mai 2025",
         "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250518175909_U8.JPG\"/></div><p class=\"detailViewTop\"><b>Beim ersten Auftritt der U8-Kids von Fabienne Manderla und Charlotte Klein in diesem Jahr haben sich Johann Dahmen – schon ein alter Hase in Sachen Kinderleichtathletik-Wettkämpfen – Juna Rodemann, Titus Mohr, Josefine Wüller, Younes Sibai sowie Jakob Christensen als Neulinge bestens geschlagen.</b></p>",
         "content_text": "Beim ersten Auftritt der U8-Kids von Fabienne Manderla und Charlotte Klein in diesem Jahr haben sich Johann Dahmen – schon ein alter Hase in Sachen Kinderleichtathletik-Wettkämpfen – Juna Rodemann, Titus Mohr, Josefine Wüller, Younes Sibai sowie Jakob Christensen als Neulinge bestens geschlagen.",
@@ -473,7 +473,7 @@ window.newsData = [
     {
         "url": "https://www.rlc1952.de/rlc.php?id=0-0000-11-10153",
         "id": "10153",
-        "title": "8 STARTS, 7X PB, 3X QUALI DM! SEHR  ERFOLGREICHER START IN DIE SAISON FüR DIE 400M - UND 800M- LäUFER/INNEN.",
+        "title": "8 STARTS, 7X PB, 3X QUALI DM! SEHR  ERFOLGREICHER START IN DIE SAISON FÜR DIE 400M - UND 800M- LÄUFER/INNEN.",
         "date": "13. Mai 2025",
         "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250514083347_DM-Fahrer.jpg\"/></div><p class=\"detailViewTop\"><b>Beim Saisonauftakt in Dortmund, am Samstag, den 10.05. gelang den Athletinnen und Athleten aus der Trainingsgruppe von Jan Spiegel und Ludger Zander ein Auftakt nach Maß.</b></p>",
         "content_text": "Beim Saisonauftakt in Dortmund, am Samstag, den 10.05. gelang den Athletinnen und Athleten aus der Trainingsgruppe von Jan Spiegel und Ludger Zander ein Auftakt nach Maß.",
@@ -487,7 +487,7 @@ window.newsData = [
     {
         "url": "https://www.rlc1952.de/rlc.php?id=0-0000-12-10152",
         "id": "10152",
-        "title": "SCHEINE FüR VEREINE IST WIEDER DA!",
+        "title": "SCHEINE FÜR VEREINE IST WIEDER DA!",
         "date": "08. Mai 2025",
         "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20250508152029_Scheine_01.png\"/></div><p class=\"detailViewTop\"><b>Liebe Mitglieder, Freunde und UnterstützerInnen des Recklinghäuser LC:<br>die erfolgreiche REWE-Aktion \" Scheine für Vereine\" ist wieder da!</br></b></p>",
         "content_text": "Liebe Mitglieder, Freunde und UnterstützerInnen des Recklinghäuser LC:\ndie erfolgreiche REWE-Aktion \" Scheine für Vereine\" ist wieder da!",

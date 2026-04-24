@@ -22,10 +22,21 @@ def repair_text(value):
         return {key: repair_text(item) for key, item in value.items()}
     return value
 
+def normalize_headline(value):
+    if not isinstance(value, str):
+        return value
+    return value.translate(str.maketrans({
+        chr(0x00e4): chr(0x00c4),
+        chr(0x00f6): chr(0x00d6),
+        chr(0x00fc): chr(0x00dc)
+    }))
+
 # Sort by id descending
 archive.sort(key=lambda x: int(x['id']), reverse=True)
 
 export = repair_text(archive[:EXPORT_LIMIT])
+for article in export:
+    article['title'] = normalize_headline(article.get('title', ''))
 js_content = "window.newsData = " + json.dumps(export, ensure_ascii=False, indent=4) + ";"
 
 with open(JS_DATA_FILE, 'w', encoding='utf-8') as f:
