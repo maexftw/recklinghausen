@@ -12,7 +12,7 @@ window.trainingSchedule = [
         group: 'Kinder U10',
         year: 'Jg. 2017/2018',
         location: 'Stadion Hohenhorst',
-        trainers: ['Leni Nefedev', 'Nuria Tornow Lafuente', 'Maja Rothers', 'Klara Kuhlmann'],
+        trainers: ['Leni Nefedev', 'Nùria Tornow Lafuente', 'Maja Rothers', 'Klara Kuhlmann'],
         performance: false
     },
     {
@@ -223,3 +223,4 @@ window.trainingSchedule = [
         performance: true
     }
 ];
+

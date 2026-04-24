@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html class="light" lang="de">
 
@@ -10,13 +10,13 @@
         content="Aktuelle News und Vereinsmeldungen des Recklingh&auml;user Leichtathletik Clubs 1952 e.V. in einer klaren, entschlackten Archivansicht." />
     <link href="../assets/css/design-tokens.css" rel="stylesheet" />
     <link href="../assets/css/shell.css" rel="stylesheet" />
-    <link href="../assets/css/subpages.css?v=4" rel="stylesheet" />
+    <link href="../assets/css/subpages.css?v=5" rel="stylesheet" />
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Montserrat:wght@700;900&amp;display=swap"
         rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
-    <script src="../assets/js/news_data.js"></script>
+    <script src="../assets/js/news_data.js?v=2"></script>
     <script src="../assets/js/components.js"></script>
 </head>
 
@@ -25,26 +25,20 @@
 
     <main class="subpage-main">
         <div class="subpage-stack">
-            <section class="subpage-intro" aria-labelledby="news-page-title">
+            <section class="subpage-intro subpage-news-intro" aria-labelledby="news-page-title">
                 <div class="subpage-intro__content">
                     <span class="subpage-eyebrow">Aktuelles</span>
-                    <h1 id="news-page-title" class="subpage-display">Neuigkeiten aus dem Verein, ohne &Uuml;berbau und ohne Umwege.</h1>
-                    <p class="subpage-lead">Die neueste Meldung steht direkt oben. Weitere Beitr&auml;ge und Ergebnisse findest du darunter in einer ruhigen Archivansicht.</p>
+                    <h1 id="news-page-title" class="subpage-display">Neuigkeiten und Ergebnisse aus dem Verein.</h1>
+                    <p class="subpage-lead">Aktuelle Meldungen, Ergebnisse und Vereinsinfos im klaren &Uuml;berblick.</p>
+                    <div class="subpage-news-intro__meta">
+                        <span class="subpage-news-context" id="news-intro-context">Archiv wird geladen</span>
+                        <p id="news-last-updated" class="subpage-copy">Neueste Meldung wird geladen.</p>
+                    </div>
                     <div class="subpage-actions">
-                        <a href="#news-feature-title" class="subpage-button">Neueste Meldung lesen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
-                        <a href="#news-archive-title" class="subpage-link">Direkt ins Archiv <span class="material-icons-round" aria-hidden="true">south</span></a>
+                        <a href="#news-feature-title" class="subpage-button">Zur neuesten Meldung <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                        <a href="#news-archive-title" class="subpage-link">Zum Archiv <span class="material-icons-round" aria-hidden="true">south</span></a>
                     </div>
                 </div>
-
-                <aside class="subpage-intro__aside subpage-intro__aside--accent" aria-label="Platzhalter f&uuml;r Vereinsfoto oder Newsmotiv">
-                    <div class="subpage-hero-placeholder">
-                        <span class="subpage-kicker">Bildfl&auml;che</span>
-                        <div class="subpage-hero-placeholder__frame">
-                            <span class="subpage-hero-placeholder__label">Vereinsfoto oder Aktionsmotiv</span>
-                        </div>
-                        <p class="subpage-copy">Bis ein aktuelles Motiv vorliegt, bleibt die Fl&auml;che bewusst klar als Platzhalter markiert.</p>
-                    </div>
-                </aside>
             </section>
 
             <section class="subpage-surface subpage-surface--flush" aria-labelledby="news-feature-title">
@@ -52,9 +46,8 @@
                     <div class="subpage-title-row">
                         <div>
                             <span class="subpage-eyebrow">Neueste Meldung</span>
-                            <h2 id="news-feature-title" class="subpage-title">Die aktuellste Vereinsmeldung steht direkt vorne.</h2>
+                            <h2 id="news-feature-title" class="subpage-title">Neueste Meldung kompakt.</h2>
                         </div>
-                        <p id="news-last-updated" class="subpage-copy">Neueste Meldung wird geladen.</p>
                     </div>
                 </div>
 
@@ -74,11 +67,9 @@
                         </div>
 
                         <div class="subpage-actions subpage-news-feature__actions">
-                            <a id="featured-story-link" href="contact.html#contact" class="subpage-button">Meldung lesen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
-                            <a href="training.html" class="subpage-link">Trainings&uuml;bersicht ansehen <span class="material-icons-round" aria-hidden="true">east</span></a>
+                            <a id="featured-story-link" href="contact.html#contact" class="subpage-button">Zum Beitrag <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                            <a href="#news-archive-title" class="subpage-link">Weitere Meldungen <span class="material-icons-round" aria-hidden="true">south</span></a>
                         </div>
-
-                        <p class="subpage-copy">Weitere Meldungen und Ergebnisse findest du direkt darunter im Archiv.</p>
                     </div>
                 </article>
             </section>
@@ -88,25 +79,13 @@
                     <div class="subpage-title-row">
                         <div>
                             <span class="subpage-eyebrow">Archiv</span>
-                            <h2 id="news-archive-title" class="subpage-title">Weitere Meldungen im schnellen &Uuml;berblick.</h2>
+                            <h2 id="news-archive-title" class="subpage-title">Weitere Meldungen.</h2>
                         </div>
                         <p id="news-archive-summary" class="subpage-copy">Beitr&auml;ge werden geladen.</p>
                     </div>
                 </div>
 
-                <div id="news-container" class="subpage-news-grid" aria-live="polite" aria-busy="true"></div>
-            </section>
-
-            <section class="subpage-cta-band" aria-labelledby="news-cta-title">
-                <div class="subpage-cta-band__content">
-                    <span class="subpage-kicker">Und jetzt?</span>
-                    <h2 id="news-cta-title" class="subpage-panel__title">Vom Lesen direkt zum richtigen n&auml;chsten Schritt.</h2>
-                    <p>Wer nach einer Meldung mehr wissen will, landet ohne Umweg bei Training, Kontakt oder dem n&auml;chsten Probetraining.</p>
-                </div>
-                <div class="subpage-cta-band__actions">
-                    <a href="contact.html#contact" class="subpage-button">Kontakt aufnehmen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
-                    <a href="training.html" class="subpage-button subpage-button--secondary">Trainingszeiten ansehen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
-                </div>
+                <div id="news-container" class="subpage-news-archive-list" aria-live="polite" aria-busy="true"></div>
             </section>
         </div>
     </main>
@@ -123,8 +102,24 @@
             const featuredTitle = document.getElementById('featured-story-title');
             const featuredExcerpt = document.getElementById('featured-story-excerpt');
             const featuredLink = document.getElementById('featured-story-link');
+            const introContext = document.getElementById('news-intro-context');
             const lastUpdated = document.getElementById('news-last-updated');
             const archiveSummary = document.getElementById('news-archive-summary');
+            const fallbackImage = '../assets/images/news-placeholder.svg';
+            const monthMap = {
+                januar: 0,
+                februar: 1,
+                marz: 2,
+                april: 3,
+                mai: 4,
+                juni: 5,
+                juli: 6,
+                august: 7,
+                september: 8,
+                oktober: 9,
+                november: 10,
+                dezember: 11
+            };
 
             const normalizeText = (value) => (value || '')
                 .toString()
@@ -132,17 +127,44 @@
                 .replace(/[\u0300-\u036f]/g, '')
                 .toLowerCase();
 
+            const escapeHtml = (value) => (value || '')
+                .toString()
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;');
+
+            const parseGermanDate = (value) => {
+                const match = (value || '').match(/^(\d{1,2})\.\s+([^\s]+)\s+(\d{4})$/);
+                if (!match) return 0;
+
+                const day = Number(match[1]);
+                const month = monthMap[normalizeText(match[2])];
+                const year = Number(match[3]);
+
+                if (Number.isNaN(day) || month === undefined || Number.isNaN(year)) {
+                    return 0;
+                }
+
+                return new Date(year, month, day).getTime();
+            };
+
+            const getYear = (article) => {
+                const match = (article.date || '').match(/(\d{4})$/);
+                return match ? match[1] : 'Archiv';
+            };
+
             const getImageUrl = (article) => {
-                const fallback = 'https://via.placeholder.com/1200x800?text=RLC+1952';
-                const imageUrl = article.images && article.images.length > 0 ? article.images[0].local : fallback;
+                const imageUrl = article.images && article.images.length > 0 ? article.images[0].local : fallbackImage;
                 return imageUrl.startsWith('http') ? imageUrl : `../${imageUrl}`;
             };
 
             const getArticleUrl = (article) => article.id ? `news/${article.id}.html` : 'contact.html#contact';
 
-            const getExcerpt = (article) => {
+            const getExcerpt = (article, maxLength = 220) => {
                 const text = (article.content_text || 'Zu diesem Beitrag gibt es noch keine Kurzbeschreibung.').replace(/\s+/g, ' ').trim();
-                return text.length > 220 ? `${text.slice(0, 217)}...` : text;
+                return text.length > maxLength ? `${text.slice(0, Math.max(0, maxLength - 3)).trim()}...` : text;
             };
 
             const getCategory = (article) => {
@@ -159,43 +181,83 @@
                 return 'Vereinsnews';
             };
 
-            const createCard = (article) => {
+            const sortNews = (items) => [...items].sort((left, right) => {
+                const dateDelta = parseGermanDate(right.date) - parseGermanDate(left.date);
+                if (dateDelta !== 0) return dateDelta;
+                return Number(right.id || 0) - Number(left.id || 0);
+            });
+
+            const getYearCountLabel = (items) => {
+                const years = [...new Set(items.map(getYear).filter((year) => year !== 'Archiv'))];
+                if (years.length === 0) return 'Archiv';
+                return years.length === 1 ? '1 Jahr' : `${years.length} Jahre`;
+            };
+
+            const createArchiveItem = (article) => {
                 const card = document.createElement('article');
-                card.className = 'subpage-news-card';
+                const articleUrl = getArticleUrl(article);
+                const title = article.title || 'Vereinsmeldung';
+
+                card.className = 'subpage-news-list-item';
                 card.innerHTML = `
-                    <div class="subpage-news-card__media">
-                        <img src="${getImageUrl(article)}" alt="${article.title || 'Vereinsmeldung'}" loading="lazy" decoding="async">
-                    </div>
-                    <div class="subpage-news-card__body">
-                        <div class="subpage-news-card-meta">
-                            <span class="subpage-news-date-chip">${article.date || 'Datum folgt'}</span>
-                            <span class="subpage-news-category">${getCategory(article)}</span>
+                    <a class="subpage-news-list-item__media" href="${articleUrl}" aria-label="Meldung \u00f6ffnen: ${escapeHtml(title)}">
+                        <img src="${getImageUrl(article)}" alt="${escapeHtml(title)}" loading="lazy" decoding="async">
+                    </a>
+                    <div class="subpage-news-list-item__body">
+                        <div class="subpage-news-list-item__meta">
+                            <span class="subpage-news-date-chip">${escapeHtml(article.date || 'Datum folgt')}</span>
+                            <span class="subpage-news-category">${escapeHtml(getCategory(article))}</span>
                         </div>
-                        <div class="subpage-news-card__content">
-                            <h3 class="subpage-news-card__title">${article.title || 'Vereinsmeldung'}</h3>
-                            <p class="subpage-copy">${getExcerpt(article)}</p>
-                        </div>
-                        <div class="subpage-news-card__footer">
-                            <a href="${getArticleUrl(article)}" class="subpage-link">
-                                Meldung lesen
+                        <h3 class="subpage-news-list-item__title">
+                            <a href="${articleUrl}">${escapeHtml(title)}</a>
+                        </h3>
+                        <p class="subpage-copy">${escapeHtml(getExcerpt(article, 118))}</p>
+                        <div class="subpage-news-list-item__footer">
+                            <a href="${articleUrl}" class="subpage-link">
+                                Zum Beitrag
                                 <span class="material-icons-round" aria-hidden="true">arrow_forward</span>
                             </a>
-                            <span class="subpage-news-card__source">RLC 1952</span>
                         </div>
                     </div>
                 `;
 
                 const image = card.querySelector('img');
                 if (image) {
-                    image.onerror = () => { image.src = 'https://via.placeholder.com/1200x800?text=RLC+1952'; };
+                    image.onerror = () => {
+                        image.src = fallbackImage;
+                    };
                 }
 
                 return card;
             };
 
-            if (news.length === 0) {
+            const createYearGroup = (year, items) => {
+                const group = document.createElement('section');
+                const list = document.createElement('div');
+
+                group.className = 'subpage-news-year-group';
+                list.className = 'subpage-news-list';
+                group.innerHTML = `
+                    <div class="subpage-news-year-heading">
+                        <h3>${escapeHtml(year)}</h3>
+                        <span>${items.length} Meldung${items.length === 1 ? '' : 'en'}</span>
+                    </div>
+                `;
+
+                items.forEach((article) => {
+                    list.appendChild(createArchiveItem(article));
+                });
+
+                group.appendChild(list);
+                return group;
+            };
+
+            const sortedNews = sortNews(news);
+
+            if (sortedNews.length === 0) {
+                if (introContext) introContext.textContent = 'Archiv leer';
                 if (lastUpdated) lastUpdated.textContent = 'Aktuell liegen keine Meldungen vor.';
-                if (archiveSummary) archiveSummary.textContent = 'Sobald neue Meldungen ver&ouml;ffentlicht werden, erscheinen sie hier automatisch.';
+                if (archiveSummary) archiveSummary.textContent = 'Sobald neue Meldungen ver\u00f6ffentlicht werden, erscheinen sie hier automatisch.';
                 if (container) {
                     container.setAttribute('aria-busy', 'false');
                     container.innerHTML = `
@@ -212,27 +274,49 @@
                 return;
             }
 
-            const featured = news[0];
-            const archiveNews = news.slice(1);
+            const featured = sortedNews[0];
+            const archiveNews = sortedNews.slice(1);
+            const groupedArchive = archiveNews.reduce((groups, article) => {
+                const year = getYear(article);
+                if (!groups.has(year)) {
+                    groups.set(year, []);
+                }
+                groups.get(year).push(article);
+                return groups;
+            }, new Map());
+            const orderedGroups = [...groupedArchive.entries()].sort((left, right) => {
+                const leftYear = Number(left[0]);
+                const rightYear = Number(right[0]);
+
+                if (Number.isNaN(leftYear) && Number.isNaN(rightYear)) return 0;
+                if (Number.isNaN(leftYear)) return 1;
+                if (Number.isNaN(rightYear)) return -1;
+
+                return rightYear - leftYear;
+            });
 
             featuredImage.src = getImageUrl(featured);
             featuredImage.alt = featured.title || 'Neueste Vereinsmeldung';
-            featuredImage.onerror = () => { featuredImage.src = 'https://via.placeholder.com/1200x800?text=RLC+1952'; };
+            featuredImage.onerror = () => {
+                featuredImage.src = fallbackImage;
+            };
             featuredDate.textContent = featured.date || 'Aktuell';
             featuredCategory.textContent = getCategory(featured);
             featuredTitle.textContent = featured.title || 'Neueste Vereinsmeldung';
-            featuredExcerpt.textContent = getExcerpt(featured);
+            featuredExcerpt.textContent = getExcerpt(featured, 180);
             featuredLink.href = getArticleUrl(featured);
             featuredLink.setAttribute('aria-label', `Meldung lesen: ${featured.title || 'Neueste Vereinsmeldung'}`);
 
-            if (lastUpdated) {
-                lastUpdated.textContent = `Neueste Meldung vom ${featured.date || 'aktuellen Stand'}.`;
+            if (introContext) {
+                introContext.textContent = `${sortedNews.length} Meldungen \u00b7 ${getYearCountLabel(sortedNews)}`;
             }
-
+            if (lastUpdated) {
+                lastUpdated.textContent = `Stand ${featured.date || 'aktueller Vereinsmeldung'}.`;
+            }
             if (archiveSummary) {
                 archiveSummary.textContent = archiveNews.length > 0
-                    ? `${archiveNews.length} weitere Meldungen unterhalb der aktuellen Top-Meldung.`
-                    : 'Aktuell ist nur diese eine Meldung sichtbar.';
+                    ? `${archiveNews.length} weitere Meldungen im Archiv.`
+                    : 'Aktuell gibt es keine weiteren Meldungen im Archiv.';
             }
 
             if (container) {
@@ -249,13 +333,14 @@
                     return;
                 }
 
-                archiveNews.forEach((article) => {
-                    container.appendChild(createCard(article));
+                const fragment = document.createDocumentFragment();
+                orderedGroups.forEach(([year, items]) => {
+                    fragment.appendChild(createYearGroup(year, items));
                 });
+                container.appendChild(fragment);
             }
         });
     </script>
 </body>
 
 </html>
-

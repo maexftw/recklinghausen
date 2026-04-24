@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html class="light" lang="de">
 <head>
     <meta charset="utf-8" />
@@ -6,11 +6,11 @@
     <title>Trainerteam | RLC 1952</title>
     <meta
         name="description"
-        content="Das Trainerteam des RecklinghÃ¤user Leichtathletik Clubs 1952 e.V. direkt aus dem aktuellen Trainingsplan abgeleitet."
+        content="Das Trainerteam des Recklinghäuser Leichtathletik Clubs 1952 e.V. direkt aus dem aktuellen Trainingsplan abgeleitet."
     />
     <link href="../assets/css/design-tokens.css" rel="stylesheet" />
     <link href="../assets/css/shell.css" rel="stylesheet" />
-    <link href="../assets/css/subpages.css?v=4" rel="stylesheet" />
+    <link href="../assets/css/subpages.css?v=6" rel="stylesheet" />
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Montserrat:wght@700;900&amp;display=swap"
         rel="stylesheet"
@@ -18,23 +18,26 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
     <script src="../assets/js/components.js"></script>
-    <script src="../assets/js/training_schedule.js"></script>
+    <script src="../assets/js/training_schedule.js?v=2"></script>
 </head>
 <body class="subpage subpage-team min-h-screen">
     <header data-shared-shell-placeholder></header>
     <main class="subpage-main">
         <div class="subpage-stack">
-            <section class="subpage-intro subpage-intro--full" aria-labelledby="team-page-title">
+            <section class="subpage-intro subpage-intro--visual" aria-labelledby="team-page-title">
                 <div class="subpage-intro__content">
                     <span class="subpage-eyebrow">Trainerteam</span>
-                    <h1 id="team-page-title" class="subpage-display">Unser Trainerteam im Ãœberblick.</h1>
+                    <h1 id="team-page-title" class="subpage-display">Unser Trainerteam im Überblick.</h1>
                     <p class="subpage-lead">Hier findest du die Trainerinnen und Trainer, die aktuell unsere Gruppen begleiten, mit ihren Einsatzbereichen und Trainingstagen.</p>
-                    <div class="subpage-meta-row" id="team-meta-row" aria-label="SchnellÃ¼berblick zum Trainerteam"></div>
+                    <div class="subpage-meta-row" id="team-meta-row" aria-label="Schnellüberblick zum Trainerteam"></div>
                     <div class="subpage-actions">
                         <a href="#team-directory-title" class="subpage-button">Zum Trainerteam <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                         <a href="contact.html#contact" class="subpage-button subpage-button--secondary">Kontakt aufnehmen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                     </div>
                 </div>
+                <figure class="subpage-intro__visual">
+                    <img src="../assets/images/subpage-placeholder.svg" alt="Bildplatzhalter für ein zukünftiges Teamfoto" loading="lazy" decoding="async" />
+                </figure>
             </section>
 
             <section class="subpage-section subpage-section--tight" aria-labelledby="team-directory-title">
@@ -102,11 +105,11 @@
                 const performance = entries.some((entry) => entry.performance);
 
                 let badge = 'Vereinsbetrieb';
-                let summary = 'Aktuell im Einsatz fÃ¼r den regulÃ¤ren Trainingsbetrieb.';
+                let summary = 'Aktuell im Einsatz für den regulären Trainingsbetrieb.';
 
                 if (hasKids) {
                     badge = 'Nachwuchs';
-                    summary = 'Begleitet Kinder und frÃ¼he Aufbaugruppen im Vereinsalltag.';
+                    summary = 'Begleitet Kinder und frühe Aufbaugruppen im Vereinsalltag.';
                 } else if (hasYouth) {
                     badge = 'Jugend';
                     summary = 'Arbeitet mit Jugend- und Aufbaugruppen im aktuellen Wochenplan.';
@@ -174,7 +177,7 @@
                                     <h3>${trainer}</h3>
                                     <p>${summary}</p>
                                 </div>
-                                <span class="subpage-person-card__license">PortrÃ¤t folgt</span>
+                                <span class="subpage-person-card__license">Porträt folgt</span>
                             </div>
                             <div class="subpage-inline-list subpage-pill-row" aria-label="Einsatzfelder von ${trainer}">
                                 ${groups.slice(0, 3).map((group) => `<span class="subpage-pill">${group}</span>`).join('')}
@@ -188,7 +191,7 @@
                                 </div>
                                 <div>
                                     <dt>Foto</dt>
-                                    <dd>PortrÃ¤t folgt.</dd>
+                                    <dd>Porträt folgt.</dd>
                                 </div>
                                 <div>
                                     <dt>Saison</dt>

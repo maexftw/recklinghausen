@@ -16,13 +16,6 @@ body {
     background-color: var(--color-background-light);
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        color: var(--color-text-contrast-dark);
-        background-color: var(--color-background-dark);
-    }
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-heading);
     line-height: var(--line-height-tight);
@@ -139,14 +132,6 @@ input, select, textarea {
     border-radius: var(--border-radius-md);
     background-color: var(--color-card-light);
     color: var(--color-text-contrast);
-}
-
-@media (prefers-color-scheme: dark) {
-    input, select, textarea {
-        background-color: var(--color-card-dark);
-        border-color: var(--color-neutral-600);
-        color: var(--color-text-contrast-dark);
-    }
 }
 
 :where(a, button, input, select, textarea, summary, [tabindex]):focus {

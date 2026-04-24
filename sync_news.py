@@ -8,6 +8,7 @@ BASE_URL = "https://www.rlc1952.de/"
 ASSETS_DIR = "news_assets"
 ARCHIVE_FILE = "news_archive.json"
 JS_DATA_FILE = "assets/js/news_data.js"
+JS_EXPORT_LIMIT = 36
 
 if not os.path.exists(ASSETS_DIR):
     os.makedirs(ASSETS_DIR)
@@ -40,6 +41,29 @@ def download_image(url, article_id):
     except Exception as e:
         print(f"Error downloading {url}: {e}")
     return None
+
+def repair_text(value):
+    if isinstance(value, str):
+        if "Ã" in value or "Â" in value:
+            try:
+                return value.encode("latin1").decode("utf-8")
+            except UnicodeError:
+                return value
+        return value
+    if isinstance(value, list):
+        return [repair_text(item) for item in value]
+    if isinstance(value, dict):
+        return {key: repair_text(item) for key, item in value.items()}
+    return value
+
+def normalize_headline(value):
+    if not isinstance(value, str):
+        return value
+    return value.translate(str.maketrans({
+        chr(0x00e4): chr(0x00c4),
+        chr(0x00f6): chr(0x00d6),
+        chr(0x00fc): chr(0x00dc)
+    }))
 
 def sync():
     # Load existing archive
@@ -86,12 +110,15 @@ def sync():
     with open(ARCHIVE_FILE, 'w', encoding='utf-8') as f:
         json.dump(archive, f, ensure_ascii=False, indent=4)
         
-    # Update JS file (latest 20 entries)
-    js_content = "window.newsData = " + json.dumps(archive[:20], ensure_ascii=False, indent=4) + ";"
+    # Update JS file with a launch-sized recent archive for the overview page
+    js_export = repair_text(archive[:JS_EXPORT_LIMIT])
+    for article in js_export:
+        article["title"] = normalize_headline(article.get("title", ""))
+    js_content = "window.newsData = " + json.dumps(js_export, ensure_ascii=False, indent=4) + ";"
     with open(JS_DATA_FILE, 'w', encoding='utf-8') as f:
         f.write(js_content)
         
-    print(f"Finished sync. Updated images for {updated_count} articles. Updated {JS_DATA_FILE}")
+    print(f"Finished sync. Updated images for {updated_count} articles. Updated {JS_DATA_FILE} with {min(len(archive), JS_EXPORT_LIMIT)} articles.")
 
 if __name__ == "__main__":
     sync()

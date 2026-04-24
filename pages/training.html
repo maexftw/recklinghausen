@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html class="light" lang="de">
 <head>
     <meta charset="utf-8" />
@@ -6,11 +6,11 @@
     <title>Trainingsplan | RLC 1952</title>
     <meta
         name="description"
-        content="Aktuelle Sommer-Trainingszeiten 2026 des RecklinghÃ¤user Leichtathletik Clubs 1952 e.V. mit Gruppen, JahrgÃ¤ngen, Orten und Trainerteams."
+        content="Aktuelle Sommer-Trainingszeiten 2026 des Recklinghäuser Leichtathletik Clubs 1952 e.V. mit Gruppen, Jahrgängen, Orten und Trainerteams."
     />
     <link href="../assets/css/design-tokens.css" rel="stylesheet" />
     <link href="../assets/css/shell.css" rel="stylesheet" />
-    <link href="../assets/css/subpages.css?v=4" rel="stylesheet" />
+    <link href="../assets/css/subpages.css?v=6" rel="stylesheet" />
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Montserrat:wght@700;900&amp;display=swap"
         rel="stylesheet"
@@ -18,34 +18,37 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
     <script src="../assets/js/components.js"></script>
-    <script src="../assets/js/training_schedule.js"></script>
+    <script src="../assets/js/training_schedule.js?v=2"></script>
 </head>
 <body class="subpage subpage-training min-h-screen">
     <header data-shared-shell-placeholder></header>
     <main class="subpage-main">
         <div class="subpage-stack">
-            <section class="subpage-intro subpage-intro--full" aria-labelledby="training-page-title">
+            <section class="subpage-intro subpage-intro--visual" aria-labelledby="training-page-title">
                 <div class="subpage-intro__content">
                     <span class="subpage-eyebrow">Trainingszeiten 2026</span>
-                    <h1 id="training-page-title" class="subpage-display">Sommerfahrplan fÃ¼r Kinder, Jugend, Erwachsene und Senioren.</h1>
-                    <p class="subpage-lead">Hier stehen die aktuellen Sommer-Trainingszeiten des RLC 1952 mit Gruppen, JahrgÃ¤ngen, Orten und Trainerteam.</p>
-                    <div class="subpage-meta-row" id="training-meta-row" aria-label="SchnellÃ¼berblick zu den Trainingszeiten"></div>
+                    <h1 id="training-page-title" class="subpage-display">Sommerfahrplan für Kinder, Jugend, Erwachsene und Senioren.</h1>
+                    <p class="subpage-lead">Hier stehen die aktuellen Sommer-Trainingszeiten des RLC 1952 mit Gruppen, Jahrgängen, Orten und Trainerteam.</p>
+                    <div class="subpage-meta-row" id="training-meta-row" aria-label="Schnellüberblick zu den Trainingszeiten"></div>
                     <div class="subpage-actions">
                         <a href="#training-plan-title" class="subpage-button">Zum Wochenplan <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                         <a href="contact.html#contact" class="subpage-button subpage-button--secondary">Probetraining abstimmen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                         <a href="../RLC1952_Trainingszeiten_2026_Sommer.pdf" class="subpage-link">PDF ansehen <span class="material-icons-round" aria-hidden="true">south</span></a>
                     </div>
                 </div>
+                <figure class="subpage-intro__visual">
+                    <img src="../assets/images/subpage-placeholder.svg" alt="Bildplatzhalter für ein zukünftiges Trainingsfoto" loading="lazy" decoding="async" />
+                </figure>
             </section>
 
             <section class="subpage-grid" aria-label="Wichtige Hinweise zum Sommertraining">
                 <article class="subpage-note subpage-note--info">
-                    <strong>GÃ¼ltigkeit</strong>
-                    <p id="training-validity-note">GÃ¼ltig von April 2026 bis zu den Herbstferien in NRW.</p>
+                    <strong>Gültigkeit</strong>
+                    <p id="training-validity-note">Gültig von April 2026 bis zu den Herbstferien in NRW.</p>
                 </article>
                 <article class="subpage-note subpage-note--warning">
                     <strong>Leistungsgruppen</strong>
-                    <p id="training-performance-note">Markierte EintrÃ¤ge kennzeichnen Wettkampf- und Leistungstraining.</p>
+                    <p id="training-performance-note">Markierte Einträge kennzeichnen Wettkampf- und Leistungstraining.</p>
                 </article>
             </section>
 
@@ -58,14 +61,47 @@
                         </div>
                     </div>
 
+                    <section class="subpage-toolbar training-filter-toolbar" aria-labelledby="training-filter-title">
+                        <div>
+                            <span class="subpage-eyebrow">Filter</span>
+                            <h3 id="training-filter-title" class="subpage-panel__title">Nach Altersgruppe und Ort eingrenzen.</h3>
+                        </div>
+                        <div class="subpage-toolbar__group">
+                            <span class="subpage-kicker">Altersgruppe</span>
+                            <div class="subpage-chip-row" role="group" aria-label="Nach Altersgruppe filtern">
+                                <button type="button" class="subpage-chip training-filter is-active" data-filter-group="age" data-filter-value="all" aria-pressed="true">Alle</button>
+                                <button type="button" class="subpage-chip training-filter" data-filter-group="age" data-filter-value="u6" aria-pressed="false">U6</button>
+                                <button type="button" class="subpage-chip training-filter" data-filter-group="age" data-filter-value="u8" aria-pressed="false">U8</button>
+                                <button type="button" class="subpage-chip training-filter" data-filter-group="age" data-filter-value="u10" aria-pressed="false">U10</button>
+                                <button type="button" class="subpage-chip training-filter" data-filter-group="age" data-filter-value="u12" aria-pressed="false">U12</button>
+                                <button type="button" class="subpage-chip training-filter" data-filter-group="age" data-filter-value="u14" aria-pressed="false">U14</button>
+                                <button type="button" class="subpage-chip training-filter" data-filter-group="age" data-filter-value="u16-u23" aria-pressed="false">U16 - U23</button>
+                                <button type="button" class="subpage-chip training-filter" data-filter-group="age" data-filter-value="adults" aria-pressed="false">Erwachsene</button>
+                                <button type="button" class="subpage-chip training-filter" data-filter-group="age" data-filter-value="seniors" aria-pressed="false">Senioren</button>
+                            </div>
+                        </div>
+                        <div class="subpage-toolbar__divider" aria-hidden="true"></div>
+                        <div class="subpage-toolbar__group">
+                            <span class="subpage-kicker">Ort</span>
+                            <div class="subpage-chip-row" role="group" aria-label="Nach Trainingsort filtern">
+                                <button type="button" class="subpage-chip training-filter is-active" data-filter-group="location" data-filter-value="all" aria-pressed="true">Alle Orte</button>
+                                <button type="button" class="subpage-chip training-filter" data-filter-group="location" data-filter-value="stadion" aria-pressed="false">Stadion Hohenhorst</button>
+                                <button type="button" class="subpage-chip training-filter" data-filter-group="location" data-filter-value="kraftraum" aria-pressed="false">Kraftraum</button>
+                                <button type="button" class="subpage-chip training-filter" data-filter-group="location" data-filter-value="hohenzollernhalle" aria-pressed="false">Hohenzollernhalle</button>
+                                <button type="button" class="subpage-chip training-filter" data-filter-group="location" data-filter-value="5fach" aria-pressed="false">5-fach Sporthalle</button>
+                            </div>
+                        </div>
+                        <p id="training-filter-status" class="subpage-toolbar__status" aria-live="polite">Alle Einheiten sichtbar.</p>
+                    </section>
+
                     <div class="subpage-table-note subpage-table-note--intro">
                         <p id="training-table-intro">Der Wochenplan zeigt alle aktuellen Sommertermine.</p>
-                        <a href="../RLC1952_Trainingszeiten_2026_Sommer.pdf" class="subpage-link">Original-PDF Ã¶ffnen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                        <a href="../RLC1952_Trainingszeiten_2026_Sommer.pdf" class="subpage-link">Original-PDF öffnen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                     </div>
 
                     <div class="subpage-table-shell">
                         <table class="subpage-table">
-                            <caption class="sr-only">TrainingsÃ¼bersicht mit Tag, Uhrzeit, Gruppe, Jahrgang, Ort und Trainerteam</caption>
+                            <caption class="sr-only">Trainingsübersicht mit Tag, Uhrzeit, Gruppe, Jahrgang, Ort und Trainerteam</caption>
                             <thead>
                                 <tr>
                                     <th scope="col">Tag</th>
@@ -80,14 +116,14 @@
                         </table>
                     </div>
 
-                    <div class="subpage-mobile-schedule" aria-label="Mobile TrainingsÃ¼bersicht als Kartenliste">
+                    <div class="subpage-mobile-schedule" aria-label="Mobile Trainingsübersicht als Kartenliste">
                         <div class="subpage-schedule-cards" id="training-cards"></div>
                     </div>
 
                     <div class="subpage-table-note">
                         <p>
                             Vor dem ersten Termin bitte kurz Kontakt aufnehmen. So kann das passende Trainerteam den Treffpunkt und die
-                            richtige Gruppe direkt bestÃ¤tigen.
+                            richtige Gruppe direkt bestätigen.
                         </p>
                         <a href="contact.html#contact" class="subpage-link">Kontakt aufnehmen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                     </div>
@@ -108,9 +144,56 @@
             const validityNote = document.getElementById('training-validity-note');
             const performanceNote = document.getElementById('training-performance-note');
             const tableIntro = document.getElementById('training-table-intro');
+            const filterStatus = document.getElementById('training-filter-status');
+            const filterButtons = Array.from(document.querySelectorAll('.training-filter'));
+
+            const activeFilters = {
+                age: 'all',
+                location: 'all'
+            };
 
             const uniqueTrainerCount = new Set(schedule.flatMap((entry) => entry.trainers || [])).size;
             const uniqueDayCount = new Set(schedule.map((entry) => entry.day)).size;
+            const normalize = (value) => (value || '').toString().normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+            const escapeHtml = (value) => (value || '')
+                .toString()
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;');
+
+            const getAgeGroup = (entry) => {
+                const value = normalize(`${entry.group} ${entry.year}`);
+
+                if (value.includes('u6') || value.includes('vorschulkinder')) return 'u6';
+                if (value.includes('u8')) return 'u8';
+                if (value.includes('u10')) return 'u10';
+                if (value.includes('u12')) return 'u12';
+                if (value.includes('u14')) return 'u14';
+                if (value.includes('u16') || value.includes('u23')) return 'u16-u23';
+                if (value.includes('erwachsene')) return 'adults';
+                if (value.includes('senioren') || value.includes('sen ')) return 'seniors';
+
+                return 'all';
+            };
+
+            const locationMatches = (entry, filterValue) => {
+                const location = normalize(entry.location);
+
+                if (filterValue === 'all') return true;
+                if (filterValue === 'stadion') return location.includes('stadion hohenhorst');
+                if (filterValue === 'kraftraum') return location.includes('kraftraum');
+                if (filterValue === 'hohenzollernhalle') return location.includes('hohenzollernhalle');
+                if (filterValue === '5fach') return location.includes('5-fach sporthalle');
+
+                return false;
+            };
+
+            const getFilteredSchedule = () => schedule.filter((entry) => {
+                const ageMatch = activeFilters.age === 'all' || getAgeGroup(entry) === activeFilters.age;
+                return ageMatch && locationMatches(entry, activeFilters.location);
+            });
 
             const renderMeta = () => {
                 metaRow.innerHTML = [
@@ -121,7 +204,7 @@
                     },
                     {
                         icon: 'event_available',
-                        label: 'GÃ¼ltig',
+                        label: 'Gültig',
                         value: meta.validRange || 'Aktueller Sommerstand'
                     },
                     {
@@ -142,72 +225,106 @@
                 `).join('');
             };
 
-            const renderTable = () => {
-                if (schedule.length === 0) {
+            const renderTable = (items) => {
+                if (items.length === 0) {
                     tableBody.innerHTML = `
                         <tr>
-                            <td colspan="6">Aktuell liegen noch keine Trainingsdaten vor.</td>
+                            <td colspan="6">Für diese Auswahl liegen aktuell keine passenden Trainingszeiten vor.</td>
                         </tr>
                     `;
                     return;
                 }
 
-                tableBody.innerHTML = schedule.map((entry) => `
+                tableBody.innerHTML = items.map((entry) => `
                     <tr>
-                        <th scope="row">${entry.day}</th>
-                        <td>${entry.time}</td>
+                        <th scope="row">${escapeHtml(entry.day)}</th>
+                        <td>${escapeHtml(entry.time)}</td>
                         <td>
                             <div class="training-table-cell">
-                                <strong>${entry.group}</strong>
+                                <strong>${escapeHtml(entry.group)}</strong>
                                 ${entry.performance ? '<span class="subpage-pill training-badge">Leistung</span>' : ''}
                             </div>
                         </td>
-                        <td>${entry.year}</td>
-                        <td>${entry.location}</td>
-                        <td>${(entry.trainers || []).join(', ')}</td>
+                        <td>${escapeHtml(entry.year)}</td>
+                        <td>${escapeHtml(entry.location)}</td>
+                        <td>${escapeHtml((entry.trainers || []).join(', '))}</td>
                     </tr>
                 `).join('');
             };
 
-            const renderCards = () => {
-                if (schedule.length === 0) {
-                    cardContainer.innerHTML = '<article class="subpage-schedule-card"><p>Aktuell liegen noch keine Trainingsdaten vor.</p></article>';
+            const renderCards = (items) => {
+                if (items.length === 0) {
+                    cardContainer.innerHTML = '<article class="subpage-schedule-card"><p>Für diese Auswahl liegen aktuell keine passenden Trainingszeiten vor.</p></article>';
                     return;
                 }
 
-                cardContainer.innerHTML = schedule.map((entry) => `
+                cardContainer.innerHTML = items.map((entry) => `
                     <article class="subpage-schedule-card">
                         <div class="subpage-schedule-card__top">
                             <div class="training-card-top">
-                                <div class="subpage-schedule-card__day">${entry.day}</div>
-                                <strong class="training-card-group">${entry.group}</strong>
+                                <div class="subpage-schedule-card__day">${escapeHtml(entry.day)}</div>
+                                <strong class="training-card-group">${escapeHtml(entry.group)}</strong>
                             </div>
-                            <div class="subpage-schedule-card__time">${entry.time}</div>
+                            <div class="subpage-schedule-card__time">${escapeHtml(entry.time)}</div>
                         </div>
                         ${entry.performance ? '<div class="subpage-inline-list subpage-pill-row"><span class="subpage-pill training-badge">Leistung</span></div>' : ''}
                         <div class="subpage-schedule-card__grid">
                             <div class="subpage-schedule-card__item">
                                 <span>Jahrgang</span>
-                                <strong>${entry.year}</strong>
+                                <strong>${escapeHtml(entry.year)}</strong>
                             </div>
                             <div class="subpage-schedule-card__item">
                                 <span>Ort</span>
-                                <strong>${entry.location}</strong>
+                                <strong>${escapeHtml(entry.location)}</strong>
                             </div>
                             <div class="subpage-schedule-card__item">
                                 <span>Trainer</span>
-                                <strong>${(entry.trainers || []).join(', ')}</strong>
+                                <strong>${escapeHtml((entry.trainers || []).join(', '))}</strong>
                             </div>
                         </div>
                     </article>
                 `).join('');
             };
 
-            renderMeta();
-            renderTable();
-            renderCards();
+            const renderFilterStatus = (items) => {
+                if (!filterStatus) return;
 
-            validityNote.textContent = `GÃ¼ltig: ${meta.validRange || 'den aktuellen Sommerstand'}.`;
+                filterStatus.textContent = items.length === schedule.length
+                    ? `Alle ${schedule.length} Einheiten sichtbar.`
+                    : `${items.length} von ${schedule.length} Einheiten sichtbar.`;
+            };
+
+            const renderSchedule = () => {
+                const filteredSchedule = getFilteredSchedule();
+                renderTable(filteredSchedule);
+                renderCards(filteredSchedule);
+                renderFilterStatus(filteredSchedule);
+            };
+
+            filterButtons.forEach((button) => {
+                button.addEventListener('click', () => {
+                    const group = button.dataset.filterGroup;
+                    const value = button.dataset.filterValue;
+
+                    if (!group || !value) return;
+
+                    activeFilters[group] = value;
+                    filterButtons
+                        .filter((filterButton) => filterButton.dataset.filterGroup === group)
+                        .forEach((filterButton) => {
+                            const isActive = filterButton === button;
+                            filterButton.classList.toggle('is-active', isActive);
+                            filterButton.setAttribute('aria-pressed', String(isActive));
+                        });
+
+                    renderSchedule();
+                });
+            });
+
+            renderMeta();
+            renderSchedule();
+
+            validityNote.textContent = `Gültig: ${meta.validRange || 'den aktuellen Sommerstand'}.`;
             performanceNote.textContent = `${meta.performanceNote || '* Wettkampf- und Leistungstraining'} ist auf der Seite direkt an den betreffenden Gruppen markiert.`;
             tableIntro.textContent = `${schedule.length} Einheiten an ${uniqueDayCount} Wochentagen. Grundlage ist ${meta.seasonLabel || 'Sommersaison 2026'}.`;
         });
