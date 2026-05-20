@@ -1,22 +1,25 @@
 @import url('./design-tokens.css');
 
 :root {
-    --home-paper: oklch(0.985 0.008 255);
-    --home-paper-strong: oklch(0.965 0.014 252);
-    --home-paper-deep: oklch(0.93 0.022 247);
-    --home-ink: oklch(0.24 0.032 255);
-    --home-muted: oklch(0.5 0.028 252);
-    --home-line: oklch(0.87 0.024 247);
-    --home-wash: oklch(0.95 0.026 240);
-    --home-sand: oklch(0.94 0.015 250);
-    --home-brand: var(--color-primary);
-    --home-brand-strong: var(--color-primary-dark);
-    --home-accent: color-mix(in srgb, var(--home-brand) 68%, white);
-    --home-accent-soft: color-mix(in srgb, var(--home-brand) 18%, white);
-    --home-accent-deep: var(--home-brand-strong);
-    --home-club-yellow: #fff599;
-    --home-shadow: 0 34px 120px color-mix(in srgb, var(--color-secondary) 18%, transparent);
-    --home-shadow-soft: 0 24px 68px color-mix(in srgb, var(--color-secondary) 11%, transparent);
+    --home-logo-green: #10b582;
+
+    --home-paper: #eef5ff;
+    --home-paper-strong: #d6e5ff;
+    --home-paper-deep: #c5d8f0;
+    --home-ink: #071528;
+    --home-muted: #465a78;
+    --home-line: #c4d0e4;
+    --home-wash: #f4f8ff;
+    --home-sand: #dcecff;
+    --home-brand: #0057b8;
+    --home-brand-strong: #00428f;
+    --home-accent: color-mix(in srgb, var(--home-brand) 68%, #ffffff);
+    --home-accent-soft: color-mix(in srgb, var(--home-brand) 18%, #ffffff);
+    --home-accent-deep: #0f4ca8;
+    --home-club-accent: var(--home-logo-green);
+
+    --home-shadow: 0 34px 120px color-mix(in srgb, var(--home-brand-strong) 16%, transparent);
+    --home-shadow-soft: 0 24px 68px color-mix(in srgb, var(--home-brand-strong) 10%, transparent);
     --home-radius: clamp(1.1rem, 1rem + 0.8vw, 1.9rem);
     --home-gutter: clamp(1rem, 2vw, 1.6rem);
     --home-section-space: clamp(4rem, 7vw, 7.5rem);
@@ -27,6 +30,25 @@ body.homepage {
     font-family: "Inter", Arial, sans-serif;
     color: var(--home-ink);
     background: color-mix(in srgb, var(--home-paper) 86%, var(--home-wash));
+}
+
+body.homepage[data-rlc-theme="navy"] {
+    --home-paper: #071426;
+    --home-paper-strong: #0a203e;
+    --home-paper-deep: #091929;
+    --home-ink: #f7fbff;
+    --home-muted: #8da6c8;
+    --home-line: #2d4568;
+    --home-wash: #0a1831;
+    --home-sand: #132445;
+    --home-brand: #1c7dff;
+    --home-brand-strong: #0754b8;
+    --home-accent: #5ee1ff;
+    --home-accent-soft: #2b7fcb;
+    --home-accent-deep: #3b98ea;
+    --home-club-accent: color-mix(in srgb, var(--home-logo-green) 60%, #ffffff);
+    --home-shadow: 0 34px 120px color-mix(in srgb, #0055ba 20%, transparent);
+    --home-shadow-soft: 0 24px 68px color-mix(in srgb, #003f8f 16%, transparent);
 }
 
 .homepage .site-shell {
@@ -395,10 +417,10 @@ body.homepage {
     align-items: center;
     width: fit-content;
     padding: 0.65rem 0.9rem;
-    border: 1px solid color-mix(in srgb, var(--home-club-yellow) 48%, var(--home-line));
+    border: 1px solid color-mix(in srgb, var(--home-club-accent) 40%, var(--home-line));
     background: color-mix(in srgb, white 72%, var(--home-wash));
     color: var(--home-accent-deep);
-    box-shadow: inset 0 -3px 0 color-mix(in srgb, var(--home-club-yellow) 68%, transparent);
+    box-shadow: inset 0 -3px 0 color-mix(in srgb, var(--home-club-accent) 68%, transparent);
     font-size: 0.76rem;
     font-weight: 800;
     letter-spacing: 0.08em;
@@ -433,7 +455,7 @@ body.homepage {
 .home-hero__media {
     position: absolute;
     inset: 0;
-    z-index: -2;
+    z-index: 0;
 }
 
 .home-hero__media img {
@@ -445,15 +467,33 @@ body.homepage {
     transform: scale(1.05);
 }
 
+.home-hero__photo-copyright {
+    position: absolute;
+    inset: auto 0.75rem 0.7rem auto;
+    z-index: 2;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.4rem;
+    border: 1px solid color-mix(in srgb, var(--home-club-accent) 35%, transparent);
+    background: color-mix(in srgb, var(--home-paper-deep) 75%, transparent);
+    color: color-mix(in srgb, var(--home-ink) 80%, var(--home-club-accent));
+    font-size: 0.68rem;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    backdrop-filter: blur(2px);
+}
+
 .home-hero::after {
     content: "";
     position: absolute;
     inset: 0;
-    z-index: -1;
+    z-index: 1;
     background: color-mix(in srgb, var(--home-brand-strong) 78%, transparent);
 }
 
 .home-hero__inner {
+    position: relative;
+    z-index: 2;
     display: grid;
     gap: clamp(1.4rem, 2vw, 2rem);
     align-items: end;
@@ -527,6 +567,41 @@ body.homepage {
     flex-wrap: wrap;
     gap: 0.8rem 1rem;
     align-items: center;
+}
+
+.home-hero__theme-switch {
+    display: inline-flex;
+    gap: 0.55rem;
+    align-items: center;
+    width: fit-content;
+    padding: 0.3rem;
+    border: 1px solid color-mix(in srgb, var(--home-accent-soft) 28%, transparent);
+    background: color-mix(in srgb, var(--home-wash) 82%, #ffffff);
+}
+
+.home-hero__theme-btn {
+    min-height: 2.5rem;
+    border: 0;
+    padding: 0 0.95rem;
+    background: transparent;
+    color: color-mix(in srgb, var(--home-ink) 74%, var(--home-accent-deep));
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 0.72rem;
+}
+
+.home-hero__theme-btn:focus-visible {
+    outline: 2px solid color-mix(in srgb, var(--home-ink) 80%, var(--home-club-accent));
+    outline-offset: 2px;
+}
+
+.home-hero__theme-btn.is-active {
+    background: var(--home-brand);
+    color: var(--home-paper);
+    border-radius: 0.45rem;
+    box-shadow: inset 0 0 0 1px color-mix(in srgb, #ffffff 20%, transparent);
 }
 
 .home-button,

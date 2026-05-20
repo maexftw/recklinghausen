@@ -21,7 +21,7 @@
     <script src="assets/js/components.js"></script>
 </head>
 
-<body class="homepage font-sans transition-colors duration-300">
+<body class="homepage font-sans transition-colors duration-300" data-rlc-theme="royal">
     <header data-shared-shell-placeholder></header>
     <div class="sportabzeichen-layer" data-sportabzeichen-ui>
         <section class="sportabzeichen-notice" id="sportabzeichen-notice" aria-labelledby="sportabzeichen-notice-title"
@@ -76,8 +76,9 @@
     <main id="main-content" class="home-main">
         <section class="home-hero" aria-labelledby="home-hero-title">
         <div class="home-hero__media" aria-hidden="true">
-            <img src="https://images.unsplash.com/photo-1526676537331-7747bf8278fc?auto=format&fit=crop&w=1600&q=80"
-                alt="" loading="eager" decoding="async">
+            <img src="sketches/001-rlc-hero-farbvarianten/assets/stadion.jpg"
+                alt="Leichtathletik-Stadion in Recklinghausen mit Laufbahn" loading="eager" decoding="async">
+            <small class="home-hero__photo-copyright">© RVR, 2020, dl-de/by-2-0</small>
         </div>
         <div class="home-hero__inner">
             <div class="home-hero__content">
@@ -99,6 +100,10 @@
                     <a href="pages/training.html" class="home-link">
                         Trainingszeiten ansehen <span class="material-icons-round text-sm" aria-hidden="true">arrow_forward</span>
                     </a>
+                </div>
+                <div class="home-hero__theme-switch" role="group" aria-label="Hero-Farbmodus wählen">
+                    <button type="button" class="home-hero__theme-btn" data-rlc-theme="royal" aria-label="Royal Club Blue aktivieren">Royal</button>
+                    <button type="button" class="home-hero__theme-btn" data-rlc-theme="navy" aria-label="Premium Navy aktivieren">Navy</button>
                 </div>
             </div>
         </div>
@@ -550,6 +555,60 @@
             });
 
             window.setTimeout(showNotice, 420);
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const body = document.body;
+            const themeButtons = Array.from(document.querySelectorAll('.home-hero__theme-btn[data-rlc-theme]'));
+
+            if (themeButtons.length === 0) {
+                return;
+            }
+
+            const themeStorageKey = 'rlc-home-theme';
+            const themePalette = {
+                royal: 'royal',
+                navy: 'navy'
+            };
+
+            const setTheme = (theme) => {
+                const normalizedTheme = themePalette[theme] || themePalette.royal;
+                body.dataset.rlcTheme = normalizedTheme;
+
+                themeButtons.forEach((button) => {
+                    const isActive = button.dataset.rlcTheme === normalizedTheme;
+                    button.classList.toggle('is-active', isActive);
+                    button.setAttribute('aria-pressed', String(isActive));
+                });
+
+                try {
+                    window.localStorage.setItem(themeStorageKey, normalizedTheme);
+                } catch (error) {
+                    console.warn('Theme persistence unavailable.', error);
+                }
+            };
+
+            const initialTheme = (() => {
+                try {
+                    const stored = window.localStorage.getItem(themeStorageKey);
+                    if (stored && themePalette[stored]) {
+                        return stored;
+                    }
+                } catch (error) {
+                    console.warn('Theme preference read failed.', error);
+                }
+
+                return body.dataset.rlcTheme || 'royal';
+            })();
+
+            setTheme(initialTheme);
+
+            themeButtons.forEach((button) => {
+                button.addEventListener('click', () => {
+                    setTheme(button.dataset.rlcTheme);
+                });
+            });
         });
     </script>
 </body>

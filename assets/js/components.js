@@ -182,7 +182,6 @@ function initSharedComponents() {
 
     document.documentElement.dataset.sharedComponentsInitialized = 'true';
 
-    enforceLightTheme();
     highlightActiveNavigation();
     initMobileMenu();
 }
@@ -203,17 +202,6 @@ function ensureSharedStyles(basePath) {
         }
     });
 
-}
-
-function enforceLightTheme() {
-    document.documentElement.classList.remove('dark');
-    document.documentElement.classList.add('light');
-
-    try {
-        localStorage.removeItem('theme');
-    } catch (error) {
-        console.warn('Theme preference cleanup unavailable.', error);
-    }
 }
 
 function highlightActiveNavigation() {
