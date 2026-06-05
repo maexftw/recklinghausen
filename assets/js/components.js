@@ -82,9 +82,9 @@ function initSharedComponents() {
                         <a class="site-nav-link text-sm font-semibold transition-colors" href="${basePath}index.html">Startseite</a>
                         <a class="site-nav-link text-sm font-semibold transition-colors" href="${basePath}pages/news.html">Aktuelles</a>
                         <a class="site-nav-link text-sm font-semibold transition-colors" href="${basePath}pages/training.html">Training</a>
-                        <a class="site-nav-link text-sm font-semibold transition-colors" href="${basePath}pages/team.html">Unser Team</a>
+                        <a class="site-nav-link text-sm font-semibold transition-colors" href="${basePath}pages/sponsors.html">Verein</a>
+                        <a class="site-nav-link text-sm font-semibold transition-colors" href="${basePath}pages/team.html">Trainerteam</a>
                         <a class="site-nav-link text-sm font-semibold transition-colors" href="${basePath}pages/facilities.html">Sportstätten</a>
-                        <a class="site-nav-link text-sm font-semibold transition-colors" href="${basePath}pages/sponsors.html">Partner</a>
                         <a class="site-nav-link text-sm font-semibold transition-colors" href="${basePath}pages/contact.html">Kontakt</a>
                     </nav>
                     <div class="site-shell__actions">
@@ -106,9 +106,9 @@ function initSharedComponents() {
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}index.html">Startseite</a>
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/news.html">Aktuelles</a>
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/training.html">Training</a>
-                <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/team.html">Unser Team</a>
+                <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/sponsors.html">Verein</a>
+                <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/team.html">Trainerteam</a>
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/facilities.html">Sportstätten</a>
-                <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/sponsors.html">Partner</a>
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/contact.html">Kontakt</a>
             </div>
         </div>
@@ -137,7 +137,8 @@ function initSharedComponents() {
                 <div>
                     <h4 class="font-bold mb-6 uppercase tracking-widest text-xs text-primary">Verein</h4>
                     <ul class="space-y-4 text-slate-400 text-sm">
-                        <li><a href="${basePath}pages/team.html" class="site-footer-link transition-colors focus:outline-none">Unser Team</a></li>
+                        <li><a href="${basePath}pages/sponsors.html" class="site-footer-link transition-colors focus:outline-none">Verein & Vorstand</a></li>
+                        <li><a href="${basePath}pages/team.html" class="site-footer-link transition-colors focus:outline-none">Trainerteam</a></li>
                         <li><a href="${basePath}pages/training.html" class="site-footer-link transition-colors focus:outline-none">Trainingszeiten</a></li>
                         <li><a href="${basePath}pages/facilities.html" class="site-footer-link transition-colors focus:outline-none">Sportstätten</a></li>
                         <li><a href="${basePath}pages/news.html" class="site-footer-link transition-colors focus:outline-none">Aktuelles</a></li>
@@ -149,7 +150,7 @@ function initSharedComponents() {
                         <li><a href="${basePath}pages/contact.html#imprint" class="site-footer-link transition-colors focus:outline-none">Impressum</a></li>
                         <li><a href="${basePath}pages/contact.html#privacy" class="site-footer-link transition-colors focus:outline-none">Datenschutz</a></li>
                         <li><a href="${basePath}pages/contact.html#contact" class="site-footer-link transition-colors focus:outline-none">Kontakt</a></li>
-                        <li><a href="${basePath}pages/sponsors.html" class="site-footer-link transition-colors focus:outline-none">Sponsoren</a></li>
+                        <li><a href="${basePath}pages/sponsors.html#partnerliste" class="site-footer-link transition-colors focus:outline-none">Partner</a></li>
                     </ul>
                 </div>
             </div>

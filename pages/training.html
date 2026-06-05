@@ -28,7 +28,7 @@
                 <div class="subpage-intro__content">
                     <span class="subpage-eyebrow">Trainingszeiten 2026</span>
                     <h1 id="training-page-title" class="subpage-display">Sommerfahrplan für Kinder, Jugend, Erwachsene und Senioren.</h1>
-                    <p class="subpage-lead">Hier stehen die aktuellen Sommer-Trainingszeiten des RLC 1952 mit Gruppen, Jahrgängen, Orten und Trainerteam.</p>
+                    <p class="subpage-lead">Hier stehen die aktuellen Sommer-Trainingszeiten des RLC 1952 mit Gruppen, Jahrgängen, Orten und Trainerteam. Für den Einstieg gilt: erst Kontakt aufnehmen, dann Probetraining abstimmen, danach Mitgliedschaft klären.</p>
                     <div class="subpage-meta-row" id="training-meta-row" aria-label="Schnellüberblick zu den Trainingszeiten"></div>
                     <div class="subpage-actions">
                         <a href="#training-plan-title" class="subpage-button">Zum Wochenplan <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
@@ -37,19 +37,8 @@
                     </div>
                 </div>
                 <figure class="subpage-intro__visual">
-                    <img src="../assets/images/subpage-placeholder.svg" alt="Bildplatzhalter für ein zukünftiges Trainingsfoto" loading="lazy" decoding="async" />
+                    <img src="../assets/images/rlc-training-action.jpg" alt="Läuferinnen und Läufer beim RLC-Training auf der Bahn" loading="lazy" decoding="async" />
                 </figure>
-            </section>
-
-            <section class="subpage-grid" aria-label="Wichtige Hinweise zum Sommertraining">
-                <article class="subpage-note subpage-note--info">
-                    <strong>Gültigkeit</strong>
-                    <p id="training-validity-note">Gültig von April 2026 bis zu den Herbstferien in NRW.</p>
-                </article>
-                <article class="subpage-note subpage-note--warning">
-                    <strong>Leistungsgruppen</strong>
-                    <p id="training-performance-note">Markierte Einträge kennzeichnen Wettkampf- und Leistungstraining.</p>
-                </article>
             </section>
 
             <section class="subpage-section subpage-section--tight" aria-labelledby="training-plan-title">
@@ -61,11 +50,13 @@
                         </div>
                     </div>
 
-                    <section class="subpage-toolbar training-filter-toolbar" aria-labelledby="training-filter-title">
-                        <div>
+                    <details class="subpage-toolbar training-filter-toolbar training-filter-disclosure" aria-labelledby="training-filter-title" open>
+                        <summary>
                             <span class="subpage-eyebrow">Filter</span>
-                            <h3 id="training-filter-title" class="subpage-panel__title">Nach Altersgruppe und Ort eingrenzen.</h3>
-                        </div>
+                            <strong id="training-filter-title" class="subpage-panel__title">Nach Altersgruppe und Ort eingrenzen.</strong>
+                            <span class="material-icons-round" aria-hidden="true">expand_more</span>
+                        </summary>
+                        <div class="training-filter-disclosure__body">
                         <div class="subpage-toolbar__group">
                             <span class="subpage-kicker">Altersgruppe</span>
                             <div class="subpage-chip-row" role="group" aria-label="Nach Altersgruppe filtern">
@@ -92,7 +83,8 @@
                             </div>
                         </div>
                         <p id="training-filter-status" class="subpage-toolbar__status" aria-live="polite">Alle Einheiten sichtbar.</p>
-                    </section>
+                        </div>
+                    </details>
 
                     <div class="subpage-table-note subpage-table-note--intro">
                         <p id="training-table-intro">Der Wochenplan zeigt alle aktuellen Sommertermine.</p>
@@ -122,11 +114,26 @@
 
                     <div class="subpage-table-note">
                         <p>
-                            Vor dem ersten Termin bitte kurz Kontakt aufnehmen. So kann das passende Trainerteam den Treffpunkt und die
-                            richtige Gruppe direkt bestätigen.
+                            Vor dem ersten Termin bitte kurz Kontakt aufnehmen. Gerade bei Kindern und Jugendlichen helfen Alter,
+                            gewünschte Gruppe und Kontaktdaten der Erziehungsberechtigten, damit Treffpunkt, Probetraining und mögliche Wartelisten sauber geklärt werden.
                         </p>
-                        <a href="contact.html#contact" class="subpage-link">Kontakt aufnehmen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                        <a href="contact.html#contact" class="subpage-link">Kontakt / Probetraining abstimmen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                     </div>
+
+                    <section class="subpage-grid training-plan-notes" aria-label="Gültigkeit, Leistungsgruppen und Einstiegshinweise">
+                        <article class="subpage-note subpage-note--info">
+                            <strong>Gültigkeit</strong>
+                            <p id="training-validity-note">Gültig von April 2026 bis zu den Herbstferien in NRW.</p>
+                        </article>
+                        <article class="subpage-note subpage-note--warning">
+                            <strong>Leistungsgruppen</strong>
+                            <p id="training-performance-note">Markierte Einträge kennzeichnen Wettkampf- und Leistungstraining.</p>
+                        </article>
+                        <article class="subpage-note subpage-note--success">
+                            <strong>Einstieg</strong>
+                            <p>Bitte zuerst Kontakt aufnehmen. Probetraining ist der nächste Schritt; Mitgliedschaft und Formulare folgen erst nach Rückmeldung des Vereins.</p>
+                        </article>
+                    </section>
                 </section>
             </section>
         </div>

@@ -76,7 +76,7 @@
     <main id="main-content" class="home-main">
         <section class="home-hero" aria-labelledby="home-hero-title">
         <div class="home-hero__media" aria-hidden="true">
-            <img src="sketches/001-rlc-hero-farbvarianten/assets/stadion.jpg"
+            <img src="assets/images/rlc-hero-stadion.jpg"
                 alt="Leichtathletik-Stadion in Recklinghausen mit Laufbahn" loading="eager" decoding="async">
             <small class="home-hero__photo-copyright">© RVR, 2020, dl-de/by-2-0</small>
         </div>
@@ -84,14 +84,14 @@
             <div class="home-hero__content">
                 <span class="home-kicker">
                     <span>Leidenschaft seit 1952</span>
-                    <strong>Training, Teamgeist, Wettkampf</strong>
+                    <strong>Leichtathletik lebt hier</strong>
                 </span>
                 <h1 id="home-hero-title" class="home-hero__title home-display">
-                    Leichtathletik in Recklinghausen <em>für jedes Alter.</em>
+                    Leidenschaft seit 1952. <em>Leichtathletik lebt hier.</em>
                 </h1>
                 <p class="home-hero__lead">
-                    Der RLC 1952 verbindet Einstieg, regelmäßiges Training und Vereinsleben für Kinder, Jugendliche
-                    und Erwachsene in Recklinghausen.
+                    Der Recklinghäuser Leichtathletik Club 1952 e.V. steht für engagiertes Training,
+                    nachhaltige Nachwuchsförderung und die Begeisterung für Bewegung – vom Kindertraining bis zum Seniorensport.
                 </p>
                 <div class="home-actions">
                     <a href="pages/contact.html#contact" class="home-button">
@@ -166,7 +166,7 @@
                         <h3 id="home-shortcuts-title">Schnelle Wege</h3>
                         <div class="home-list-links">
                             <a class="home-list-link" href="pages/training.html"><span>Training &amp; Gruppen</span><span>Zur Übersicht</span></a>
-                            <a class="home-list-link" href="pages/team.html"><span>Team &amp; Ansprechpartner</span><span>Zum Verein</span></a>
+                            <a class="home-list-link" href="pages/sponsors.html"><span>Verein &amp; Vorstand</span><span>Zum Überblick</span></a>
                             <a class="home-list-link" href="pages/facilities.html"><span>Sportstätten</span><span>Orte ansehen</span></a>
                             <a class="home-list-link" href="pages/contact.html"><span>Kontakt zum Verein</span><span>Jetzt schreiben</span></a>
                         </div>
@@ -209,8 +209,8 @@
             <section class="home-visit" aria-labelledby="home-visit-title">
                 <div class="home-visit__intro">
                     <span class="home-section-label">Rund um den Verein</span>
-                    <h2 id="home-visit-title" class="home-visit__title home-display">Sportstätten und Partner im schnellen Überblick.</h2>
-                    <p>Für den Rundgang reichen hier die wichtigsten Orte und die zentrale Partnerübersicht.</p>
+                    <h2 id="home-visit-title" class="home-visit__title home-display">Sportstätten, Abendlauf und Verein im schnellen Überblick.</h2>
+                    <p>Die wichtigsten Orte, aktuelle Veranstaltungen und Vereinsinfos bleiben direkt erreichbar.</p>
                 </div>
                 <div class="home-visit__grid">
                     <article class="home-visit-card">
@@ -219,20 +219,17 @@
                         <p>Die Übersicht zeigt kompakt, wo die wichtigsten Einheiten stattfinden.</p>
                         <a href="pages/facilities.html" class="home-link">Sportstätten ansehen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                     </article>
-                    <article class="home-partner-card">
-                        <small>Unsere Partner</small>
-                        <div class="home-partner-mark">
-                            <span>by Lückenotto</span>
-                            <b><span>body</span>nostic</b>
-                            <p>Das Bewegungslabor</p>
-                        </div>
-                        <p>bodynostic begleitet den Verein als sichtbarer Partner rund um Bewegung, Events und Vereinsalltag.</p>
+                    <article class="home-partner-card home-event-card">
+                        <small>Veranstaltung</small>
+                        <h3 class="home-display">Abendlauf am 29.08.</h3>
+                        <p>Der Abendlauf wird als sichtbarer Termin vorbereitet. Neue Bilder aus dem aktuellen Material sind für Vorschau und Galerie ausgewählt.</p>
+                        <a href="pages/abendlauf.html" class="home-link">Abendlauf ansehen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                     </article>
                     <article class="home-partner-card">
-                        <small>Förderung</small>
-                        <h3 class="home-display">Landessportbund Nordrhein-Westfalen</h3>
-                        <p>Öffentliche Förderung unterstützt Training, Vereinsleben und Angebote für Familien.</p>
-                        <a href="pages/sponsors.html" class="home-link">Partnerübersicht öffnen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                        <small>Verein</small>
+                        <h3 class="home-display">Vorstand, Geschichte und Partner.</h3>
+                        <p>Die Vereinsseite bündelt Vorstand, Historie, Partner und künftig Satzung, Schutzkonzept und Mitgliedsunterlagen.</p>
+                        <a href="pages/sponsors.html" class="home-link">Verein öffnen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                     </article>
                     <article class="home-partner-card">
                         <small>Instagram</small>
@@ -316,6 +313,23 @@
                 });
             }
         });
+    </script>
+
+    <script>
+        window.homeTermine = [
+            {
+                isoDate: '2026-08-29',
+                title: 'Abendlauf am 29.08.',
+                detail: 'Abendlauf am Hohenhorster Wald – Inhalte und Bilder werden vorbereitet',
+                location: 'Stadion Hohenhorst / Hohenhorster Wald'
+            },
+            {
+                isoDate: '2026-04-01',
+                title: 'Sommertrainingsplan 2026',
+                detail: 'Trainingszeiten gültig ab April bis zu den Herbstferien NRW',
+                location: 'Stadion und Hallenstandorte'
+            }
+        ];
     </script>
 
     <script>

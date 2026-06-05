@@ -36,7 +36,7 @@
                     </div>
                 </div>
                 <figure class="subpage-intro__visual">
-                    <img src="../assets/images/subpage-placeholder.svg" alt="Bildplatzhalter für ein zukünftiges Sportstättenfoto" loading="lazy" decoding="async" />
+                    <img src="../assets/images/rlc-sportstaetten-stadion.jpg" alt="Stadion Hohenhorst als zentrale Sportstätte des RLC 1952" loading="lazy" decoding="async" />
                 </figure>
             </section>
 
@@ -67,9 +67,11 @@
                     badge: 'Hauptstandort',
                     category: 'Bahn',
                     accent: 'facility-accent--stadium',
-                    summary: 'Unser Hauptstandort für viele Gruppen.',
+                    summary: 'Unser Hauptstandort für Bahntraining, Wettkampfvorbereitung und viele Gruppen.',
                     copy: 'Kinder, Jugend und Erwachsene trainieren hier regelmäßig auf der Bahn und im Außenbereich.',
-                    match: (entry) => entry.location.includes('Stadion Hohenhorst')
+                    address: 'Am Stadion 1, 45659 Recklinghausen',
+                    mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Stadion%20Hohenhorst%20Am%20Stadion%201%2045659%20Recklinghausen',
+                    match: (entry) => entry.location.includes('Stadion Hohenhorst') && !entry.location.includes('Kraftraum')
                 },
                 {
                     name: 'Kraftraum am Stadion Hohenhorst',
@@ -78,25 +80,31 @@
                     accent: 'facility-accent--gym',
                     summary: 'Ergänzt das Bahntraining mit Kraft- und Aufbauarbeit.',
                     copy: 'Hier trainieren leistungsorientierte Gruppen und ergänzende Krafteinheiten.',
+                    address: 'Am Stadion 1, 45659 Recklinghausen',
+                    mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Stadion%20Hohenhorst%20Am%20Stadion%201%2045659%20Recklinghausen',
                     match: (entry) => entry.location.includes('Kraftraum')
                 },
                 {
-                    name: 'Hohenzollernhalle',
-                    badge: 'Halle',
+                    name: 'Vestische Arena Alfons Schütt',
+                    badge: '5-fach Sporthalle',
+                    category: 'Indoor',
+                    accent: 'facility-accent--hall',
+                    summary: 'Die 5-fach Sporthalle für ausgewählte Hallenzeiten und Gruppen.',
+                    copy: 'Die Halle wird für konkrete Termine und Gruppen aus dem Wochenplan genutzt.',
+                    address: 'Campus Blumenthal 5, 45665 Recklinghausen',
+                    mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Vestische%20Arena%20Alfons%20Sch%C3%BCtt%20Campus%20Blumenthal%205%2045665%20Recklinghausen',
+                    match: (entry) => entry.location.includes('5-fach Sporthalle')
+                },
+                {
+                    name: 'Sporthalle Hohenzollernschule',
+                    badge: 'Hohenzollernhalle',
                     category: 'Indoor',
                     accent: 'facility-accent--hall',
                     summary: 'Innenort für Senioren- und Ausweichtraining.',
                     copy: 'Hier finden Hallenzeiten, Gesundheitssport und ergänzende Einheiten statt.',
+                    address: 'Hohenzollernstraße 3, 45659 Recklinghausen',
+                    mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Sporthalle%20Hohenzollernschule%20Hohenzollernstra%C3%9Fe%203%2045659%20Recklinghausen',
                     match: (entry) => entry.location.includes('Hohenzollernhalle')
-                },
-                {
-                    name: '5-fach Sporthalle',
-                    badge: 'Ausweichort',
-                    category: 'Indoor',
-                    accent: 'facility-accent--hall',
-                    summary: 'Weitere Hallenfläche für einzelne Gruppen.',
-                    copy: 'Die Halle wird für konkrete Termine und Gruppen aus dem Wochenplan genutzt.',
-                    match: (entry) => entry.location.includes('5-fach Sporthalle')
                 }
             ];
 
@@ -154,8 +162,8 @@
                             </div>
                             <p class="facility-card__copy">${location.copy}</p>
                             <div class="facility-card__footer">
-                                <span class="facility-card__address">${location.trainerCount} Trainerinnen und Trainer</span>
-                                <span class="facility-card__action">${location.groups.length} Gruppen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></span>
+                                <span class="facility-card__address">${location.address}</span>
+                                <a class="facility-card__action" href="${location.mapsUrl}" target="_blank" rel="noopener">Google Maps <span class="material-icons-round" aria-hidden="true">open_in_new</span></a>
                             </div>
                         </div>
                     </div>
