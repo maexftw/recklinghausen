@@ -1,8 +1,8 @@
 # RLC Recklinghausen – aktueller Arbeitsstand
 
-Stand: 2026-06-05
+Stand: 2026-06-05T08:10Z
 Branch: `codex/rlc-customer-go-content-round`
-Status: lokale Umsetzungsrunde nach Kunden-Go, noch **nicht gepusht** und **nicht deployed**.
+Status: lokale Umsetzungsrunde nach Kunden-Go plus GStack-Review-Fixes, noch **nicht gepusht** und **nicht deployed**.
 
 ## Kontext
 
@@ -69,8 +69,8 @@ Neue Seite:
 Enthält:
 
 - Event-Hero für Abendlauf am 29.08.
-- Statuskarten: Inhalte in Vorbereitung, Bildauswahl vorhanden, finale Freigabe nötig.
-- Galerie mit sechs ausgewählten Motiven.
+- Öffentlich lesbare Statuskarten ohne interne Freigabe-/Review-Sprache.
+- Galerie mit sechs ausgewählten Motiven, lazy geladen und mit intrinsischen Bildmaßen.
 - CTA zu News/Kontakt.
 
 Offen für finale Kunden-/Vereinsdaten:
@@ -112,6 +112,11 @@ Offen für finale Kunden-/Vereinsdaten:
 
 Navigation/Footer wurden entsprechend auf „Verein“, „Trainerteam“, „Partner“ angepasst.
 
+Review-Fix nach GStack:
+
+- Startseitenkarte „Verein“ verlinkt jetzt konsistent auf `pages/sponsors.html` statt auf das Trainerteam.
+- Alte, nicht mehr referenzierte Sponsor-CSS-Blöcke wurden entfernt; nur die aktuell genutzten `sponsor-feature-*` Styles bleiben.
+
 ### Kontakt / Legal
 
 - Impressum deutlich erweitert:
@@ -123,6 +128,20 @@ Navigation/Footer wurden entsprechend auf „Verein“, „Trainerteam“, „Pa
 - Datenschutz bleibt mit Hinweis auf rechtliche Prüfung markiert.
 
 ## Verifikation
+
+GStack Pre-Landing Review:
+
+- Review wurde nachgezogen, nachdem GStack von `1.47.0.0` auf `1.56.0.0` aktualisiert und fehlende Hermes-Review-Hilfsdateien verlinkt wurden.
+- Auto-gefixte Review-Funde:
+  - öffentliche Abendlauf-Seite enthielt interne Freigabe-/Finalisierungsformulierungen
+  - Startseitenkarte „Zum Verein“ zeigte auf `pages/team.html`
+  - Abendlauf-Galerie lud alle sechs großen Bilder `eager`
+  - neue statische Bilder hatten keine `width`/`height`-Attribute
+  - tote Sponsor-CSS-Selektoren blieben nach Umbau zur Vereinsseite zurück
+- Nicht als Schnellfix umgesetzt:
+  - globales Tailwind-CDN-Produktionsrisiko: bestehendes Site-Muster, braucht separaten Build-/CSS-Härtungsscope
+  - responsive WebP/AVIF-Varianten: sinnvoll, aber wegen geplanter nächster Foto-Runde nicht jetzt vorziehen
+  - Rename `sponsors.html` → `verein.html`: bewusst nicht ohne Abstimmung, weil URL-/Link-Scope größer ist
 
 Lokale Vorschau:
 
@@ -146,9 +165,15 @@ Statische Validierung:
 
 - HTML parser: 12 HTML-Dateien, 0 Parse-Fehler
 - lokale `src`/`href`-Prüfung: 0 fehlende lokale Ziele
+- neue statische Bilder geprüft: alle haben `alt`, `width` und `height`
 - `node --check assets/js/components.js`: OK
 - `node --check assets/js/training_schedule.js`: OK
 - `git diff --check`: OK
+
+Review-Fix HTTP-Smoke nach Änderungen:
+
+- temporär `python3 -m http.server 8000 --bind 127.0.0.1`
+- `200` für `/`, `/index.html`, `/pages/abendlauf.html`, `/pages/sponsors.html`, `/pages/training.html`, `/pages/facilities.html`, `/pages/team.html`, `/assets/images/rlc-hero-stadion.jpg`, `/assets/css/subpages.css`
 
 GStack Headless-Smoke:
 
@@ -178,8 +203,10 @@ Vor Push/Preview/Deploy noch prüfen lassen:
 1. Visuelle Abnahme durch Maxi/Kunde: passt Royal/Navy-Richtung, Startseite und Verein-Struktur?
 2. Rechtliche Prüfung/Freigabe von Datenschutz und Impressum.
 3. Abendlauf finalisieren: Ausschreibung, Anmeldung, Strecke, Bildrechte/Freigaben.
-4. Entscheiden, ob der lokale ältere Commit `f877eaf` plus diese Runde zusammen auf Remote/Preview gehen soll.
-5. Danach erst Push/Cloudflare-Preview/QA/Deploy.
+4. Entscheiden, ob Tailwind-CDN separat gehärtet werden soll oder für diese Kundenrunde als bestehendes technisches Debt akzeptiert wird.
+5. Entscheiden, ob `pages/sponsors.html` später als `verein.html` sauber umgezogen werden soll.
+6. Entscheiden, ob der lokale ältere Commit `f877eaf` plus diese Runde zusammen auf Remote/Preview gehen soll.
+7. Danach erst Push/Cloudflare-Preview/QA/Deploy.
 
 ## Nächste sinnvolle Schritte
 
