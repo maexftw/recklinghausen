@@ -101,10 +101,6 @@
                         Trainingszeiten ansehen <span class="material-icons-round text-sm" aria-hidden="true">arrow_forward</span>
                     </a>
                 </div>
-                <div class="home-hero__theme-switch" role="group" aria-label="Hero-Farbmodus wählen">
-                    <button type="button" class="home-hero__theme-btn" data-rlc-theme="royal" aria-label="Royal Club Blue aktivieren">Royal</button>
-                    <button type="button" class="home-hero__theme-btn" data-rlc-theme="navy" aria-label="Premium Navy aktivieren">Navy</button>
-                </div>
             </div>
         </div>
         </section>
@@ -569,60 +565,6 @@
             });
 
             window.setTimeout(showNotice, 420);
-        });
-    </script>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const body = document.body;
-            const themeButtons = Array.from(document.querySelectorAll('.home-hero__theme-btn[data-rlc-theme]'));
-
-            if (themeButtons.length === 0) {
-                return;
-            }
-
-            const themeStorageKey = 'rlc-home-theme';
-            const themePalette = {
-                royal: 'royal',
-                navy: 'navy'
-            };
-
-            const setTheme = (theme) => {
-                const normalizedTheme = themePalette[theme] || themePalette.royal;
-                body.dataset.rlcTheme = normalizedTheme;
-
-                themeButtons.forEach((button) => {
-                    const isActive = button.dataset.rlcTheme === normalizedTheme;
-                    button.classList.toggle('is-active', isActive);
-                    button.setAttribute('aria-pressed', String(isActive));
-                });
-
-                try {
-                    window.localStorage.setItem(themeStorageKey, normalizedTheme);
-                } catch (error) {
-                    console.warn('Theme persistence unavailable.', error);
-                }
-            };
-
-            const initialTheme = (() => {
-                try {
-                    const stored = window.localStorage.getItem(themeStorageKey);
-                    if (stored && themePalette[stored]) {
-                        return stored;
-                    }
-                } catch (error) {
-                    console.warn('Theme preference read failed.', error);
-                }
-
-                return body.dataset.rlcTheme || 'royal';
-            })();
-
-            setTheme(initialTheme);
-
-            themeButtons.forEach((button) => {
-                button.addEventListener('click', () => {
-                    setTheme(button.dataset.rlcTheme);
-                });
-            });
         });
     </script>
 </body>
