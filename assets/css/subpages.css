@@ -1852,6 +1852,113 @@ body.subpage {
     gap: clamp(1rem, 1.8vw, 1.4rem);
 }
 
+.events-panel {
+    gap: clamp(1.15rem, 2vw, 1.8rem);
+}
+
+.events-source-note {
+    margin: 0;
+    color: var(--subpage-muted);
+    font-size: 0.88rem;
+    font-weight: 700;
+}
+
+.events-list {
+    display: grid;
+    gap: 0.9rem;
+}
+
+.event-list-card {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: clamp(0.9rem, 2vw, 1.35rem);
+    align-items: stretch;
+    padding: clamp(1rem, 1.9vw, 1.35rem);
+    border: 1px solid color-mix(in srgb, var(--subpage-line) 82%, white);
+    background: color-mix(in srgb, white 88%, var(--subpage-paper));
+    box-shadow: 0 18px 42px rgba(15, 47, 79, 0.08);
+}
+
+.event-list-card--featured {
+    border-color: color-mix(in srgb, var(--subpage-brand) 46%, white);
+    background: linear-gradient(135deg, color-mix(in srgb, var(--subpage-accent-soft) 16%, white), color-mix(in srgb, white 86%, var(--subpage-paper)));
+}
+
+.event-list-card--past {
+    opacity: 0.78;
+}
+
+.event-list-card__date {
+    display: grid;
+    place-items: center;
+    align-self: stretch;
+    min-width: clamp(5.1rem, 9vw, 6.4rem);
+    padding: 0.75rem;
+    border: 1px solid color-mix(in srgb, var(--subpage-accent-soft) 36%, white);
+    background: var(--subpage-brand-strong);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.event-list-card__date span {
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+}
+
+.event-list-card__date strong {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: clamp(1.18rem, 1rem + 0.9vw, 1.75rem);
+    line-height: 1;
+}
+
+.event-list-card__body {
+    display: grid;
+    gap: 0.42rem;
+    align-content: center;
+}
+
+.event-list-card__body h3 {
+    color: var(--subpage-ink);
+    font-size: clamp(1.12rem, 1rem + 0.55vw, 1.5rem);
+    font-weight: 900;
+    letter-spacing: -0.035em;
+}
+
+.event-list-card__body p {
+    margin: 0;
+    color: var(--subpage-muted);
+    line-height: 1.58;
+}
+
+.subpage-inline-link {
+    display: inline-flex;
+    width: fit-content;
+    align-items: center;
+    gap: 0.4rem;
+    color: var(--subpage-brand-strong);
+    font-weight: 850;
+    text-decoration: none;
+}
+
+.subpage-inline-link .material-icons-round {
+    font-size: 1rem;
+}
+
+@media (max-width: 640px) {
+    .event-list-card {
+        grid-template-columns: 1fr;
+    }
+
+    .event-list-card__date {
+        min-width: 0;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        gap: 0.7rem;
+    }
+}
+
 .sponsor-feature-card {
     display: grid;
     gap: 1.1rem;
@@ -1892,6 +1999,35 @@ body.subpage {
 
 .sponsor-feature-card__logo--energy {
     background: linear-gradient(135deg, color-mix(in srgb, var(--subpage-sand) 78%, white), color-mix(in srgb, var(--subpage-paper-deep) 70%, white));
+}
+
+.sponsor-feature-card__logo--image {
+    min-height: clamp(6rem, 10vw, 8.5rem);
+    padding: clamp(0.9rem, 1.8vw, 1.2rem);
+    background: color-mix(in srgb, white 88%, var(--subpage-paper));
+}
+
+.sponsor-feature-card__logo--image img {
+    display: block;
+    width: 100%;
+    max-height: 5.8rem;
+    object-fit: contain;
+}
+
+.sponsor-feature-card__logo--sparkasse {
+    background: color-mix(in srgb, #f5f7fb 88%, white);
+}
+
+.sponsor-feature-card__logo--sparkasse img {
+    max-height: 4.7rem;
+}
+
+.sponsor-feature-card__logo--bodynostic img {
+    max-height: 5.2rem;
+}
+
+.sponsor-feature-card__logo--lauflust img {
+    max-height: 5.4rem;
 }
 
 .sponsor-feature-card__body,
