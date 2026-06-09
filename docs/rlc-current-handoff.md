@@ -131,10 +131,14 @@ QA-Artefakte:
 
 ## GBrain / GStack
 
-- GStack Browse wurde für lokale und Cloudflare-Preview-QA genutzt.
-- GBrain ist installiert (`gbrain 0.42.26.0`) und diese Worktree ist gepinnt über `.gbrain-source`:
+- GStack Browse wurde für lokale und Cloudflare-Preview-QA genutzt und ist für diesen Final-Check grün.
+- GBrain-CLI ist installiert (`gbrain 0.42.26.0`) und diese Worktree ist gepinnt über `.gbrain-source`:
   - `gstack-code-c1d3b65a-240242`
-- Hinweis: Der aktuelle GBrain-Code-Sync klassifiziert die statischen HTML-Seiten hier nicht als suchbare Code-Pages. Der finale Stand ist deshalb über diesen repo-visible Handoff und Git/Cloudflare-Artefakte verlässlich rekonstruierbar; für semantische Suche nach den neuen HTML-Inhalten nicht allein auf GBrain verlassen.
+- GBrain ist für diese Runde **nicht als grün geladen** zu werten:
+  - `gbrain sync --source gstack-code-c1d3b65a-240242` lief, aber die statischen HTML-Seiten wurden als nicht suchbare Code-Pages behandelt.
+  - `gbrain put` für den finalen Handoff und eine Kurzfassung scheiterte mit `[embed(ollama:nomic-embed-text)] Bad Request`.
+  - `ollama` ist in dieser WSL-Umgebung nicht auf PATH und `127.0.0.1:11434` war nicht erreichbar.
+- Verlässlicher Wiederanlauf ist deshalb: GitHub PR, dieser Handoff und Cloudflare-Preview. GBrain semantische Suche erst nach Reparatur/Start der lokalen Embedding-Engine wieder als Quelle nutzen.
 
 ## Offene Gates vor Merge/Production
 
