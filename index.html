@@ -218,7 +218,7 @@
                     <article class="home-partner-card home-event-card">
                         <small>Veranstaltung</small>
                         <h3 class="home-display">Abendlauf am 29.08.</h3>
-                        <p>Der Abendlauf wird als sichtbarer Termin vorbereitet. Neue Bilder aus dem aktuellen Material sind für Vorschau und Galerie ausgewählt.</p>
+                        <p>Der Abendlauf ist als sichtbarer Termin gesetzt. Aktuelle Bilder aus dem Stadion und von der Strecke sind für Vorschau und Galerie ausgewählt.</p>
                         <a href="pages/abendlauf.html" class="home-link">Abendlauf ansehen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                     </article>
                     <article class="home-partner-card">
@@ -277,7 +277,7 @@
                     articleEl.className = 'home-news-card home-news-reveal';
                     articleEl.dataset.size = 'compact';
 
-                    const imageUrl = article.images && article.images.length > 0 ? article.images[0].local : 'https://via.placeholder.com/600x400?text=RLC+1952';
+                    const imageUrl = article.images && article.images.length > 0 ? article.images[0].local : 'assets/images/news-placeholder.svg';
                     const fullImageUrl = imageUrl.startsWith('http') ? imageUrl : imageUrl;
                     const articleLink = article.id ? `pages/news/${article.id}.html` : 'pages/news.html';
                     const articleTitle = article.title || 'Vereinsmeldung';
@@ -287,7 +287,7 @@
 
                     articleEl.innerHTML = `
                         <div class="home-news-card__media">
-                            <img src="${fullImageUrl}" alt="${articleTitle}" loading="lazy" decoding="async" onerror="this.src='https://via.placeholder.com/800x600?text=RLC+1952'">
+                            <img src="${fullImageUrl}" alt="${articleTitle}" loading="lazy" decoding="async" onerror="this.src='assets/images/news-placeholder.svg'">
                         </div>
                         <div class="home-news-card__body">
                             <div class="home-news-card__meta">
@@ -316,7 +316,7 @@
             {
                 isoDate: '2026-08-29',
                 title: 'Abendlauf am 29.08.',
-                detail: 'Abendlauf am Hohenhorster Wald – Inhalte und Bilder werden vorbereitet',
+                detail: 'Abendlauf am Hohenhorster Wald – Termin, Kontakt und Bilder sind online',
                 location: 'Stadion Hohenhorst / Hohenhorster Wald'
             },
             {
