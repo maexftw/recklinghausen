@@ -209,10 +209,21 @@ function ensureSharedStyles(basePath) {
 }
 
 function highlightActiveNavigation() {
-    const currentPath = window.location.pathname || '';
+    const normalizePath = (path) => {
+        if (!path) {
+            return '/';
+        }
+        const withoutTrailingSlash = path.length > 1 ? path.replace(/\/$/, '') : path;
+        if (withoutTrailingSlash === '/index.html') {
+            return '/';
+        }
+        return withoutTrailingSlash.replace(/\.html$/, '');
+    };
+
+    const currentPath = normalizePath(window.location.pathname || '/');
     const navLinks = document.querySelectorAll('.site-nav-link, .site-mobile-link');
-    const isNewsDetailPath = /\/pages\/news\/[^/]+\.html$/.test(currentPath);
-    const isEventPath = /\/pages\/(?:events|abendlauf)\.html$/.test(currentPath);
+    const isNewsDetailPath = /\/pages\/news\/[^/]+$/.test(currentPath);
+    const isEventPath = /\/pages\/(?:events|abendlauf)$/.test(currentPath);
 
     navLinks.forEach((link) => {
         const href = link.getAttribute('href') || '';
@@ -220,10 +231,10 @@ function highlightActiveNavigation() {
             return;
         }
 
-        const resolvedHref = new URL(href, window.location.href).pathname;
-        const isIndex = /\/(?:index\.html)?$/.test(currentPath) && /\/index\.html$/.test(resolvedHref);
-        const isNewsArchiveMatch = isNewsDetailPath && /\/pages\/news\.html$/.test(resolvedHref);
-        const isEventArchiveMatch = isEventPath && /\/pages\/events\.html$/.test(resolvedHref);
+        const resolvedHref = normalizePath(new URL(href, window.location.href).pathname);
+        const isIndex = currentPath === '/' && resolvedHref === '/';
+        const isNewsArchiveMatch = isNewsDetailPath && resolvedHref === '/pages/news';
+        const isEventArchiveMatch = isEventPath && resolvedHref === '/pages/events';
         const isCurrent = currentPath === resolvedHref || isIndex || isNewsArchiveMatch || isEventArchiveMatch;
 
         link.classList.toggle('is-active', isCurrent);
