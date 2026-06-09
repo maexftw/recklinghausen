@@ -6,27 +6,27 @@ Status: finaler Foto-/Copy-Pass ist umgesetzt, gepusht, als Cloudflare Pages Pre
 
 ## Links
 
-- **Git-backed Cloudflare Preview, geprüft:** https://fa4cb371.rlc-1952-recklinghausen.pages.dev
-- Branch-Alias: https://codex-rlc-customer-go-conten.rlc-1952-recklinghausen.pages.dev
-- Vorheriger Direct Deploy aus lokalem Archiv: https://63b66c98.rlc-1952-recklinghausen.pages.dev
+- PR: https://github.com/maexftw/recklinghausen/pull/21
+- Stabiler Branch-Alias: https://codex-rlc-customer-go-conten.rlc-1952-recklinghausen.pages.dev
 - Projekt: `rlc-1952-recklinghausen`
+- Letzte vor dieser Handoff-Korrektur geprüfte commit-spezifische Branch-Preview:
+  - `https://fe269b1a.rlc-1952-recklinghausen.pages.dev`
+  - Source: `709a4aa`
+- Vorheriger Direct Deploy aus lokalem Archiv: https://63b66c98.rlc-1952-recklinghausen.pages.dev
 
-Für Kundenversand die geprüfte Git-backed Preview verwenden:
-
-```text
-https://fa4cb371.rlc-1952-recklinghausen.pages.dev
-```
+Hinweis: Jede Docs-only-Handoff-Korrektur erzeugt bei Cloudflare Pages eine neue commit-spezifische Preview-URL. Für den jeweils neuesten exakten Link die erfolgreiche `Cloudflare Pages`-Check-Run-URL im PR oder `wrangler pages deployment list --project-name rlc-1952-recklinghausen` verwenden. Die sichtbaren UI-Inhalte stammen aus dem UI-/Content-Commit `7e7477a`; spätere Commits in diesem Branch sind Handoff-Dokumentation.
 
 ## Git-/Deploy-Stand
 
 - Remote: `https://github.com/maexftw/recklinghausen.git`
 - Branch: `codex/rlc-customer-go-content-round`
+- PR: `#21`, offen gegen `main`
 - UI-/Content-Commit: `7e7477a feat(content): finalize RLC photos and preview copy`
+- Handoff-/Docs-Commits danach:
+  - `a9c015c docs: update RLC final preview handoff`
+  - `709a4aa docs: record RLC gbrain sync limitation`
 - Branch ist auf GitHub gepusht und trackt `origin/codex/rlc-customer-go-content-round`.
-- Cloudflare Pages hat nach dem Push eine Git-backed Preview erzeugt:
-  - Deployment-ID: `fa4cb371-2930-4ab1-b9b9-4e1ab6ca726b`
-  - Source: `7e7477a`
-  - URL: `https://fa4cb371.rlc-1952-recklinghausen.pages.dev`
+- Cloudflare Pages Check im PR war zuletzt grün für die Branch-Spitze.
 
 ## Was finalisiert wurde
 
@@ -91,7 +91,7 @@ https://fa4cb371.rlc-1952-recklinghausen.pages.dev
 - Textflags geprüft: kein `Porträt folgt`, kein `Details folgen`, kein `placeholder.com`, kein `ROYAL/NAVY` in den geprüften Flächen.
 - `git diff --check`: OK vor Commit.
 
-### Cloudflare Preview `fa4cb371`
+### Cloudflare Preview Snapshots
 
 HTTP/Marker:
 
@@ -116,11 +116,13 @@ GStack Browser:
 - Desktop-Element-Screenshot der Abendlauf-Galerie geprüft: alle 9 Bilder sichtbar, keine leeren Karten.
 - Mobile-Screenshot Startseite bei 375px geprüft: Hero/Navigation/Content stabil.
 
-QA-Artefakte:
+QA-Artefakte der geprüften Snapshots:
 
 - `.gstack/qa-reports/final-content-pass-20260609-075909/screenshots/git-preview-home-fa4cb371.png`
 - `.gstack/qa-reports/final-content-pass-20260609-075909/screenshots/git-preview-abendlauf-gallery-fa4cb371.png`
 - `.gstack/qa-reports/final-content-pass-20260609-075909/screenshots/git-preview-home-mobile-fa4cb371.png`
+- `.gstack/qa-reports/final-content-pass-20260609-075909/screenshots/git-preview-home-a9c015c.png`
+- `.gstack/qa-reports/final-content-pass-20260609-075909/screenshots/git-preview-home-709a4aa.png`
 
 ## Bekannte technische Hinweise
 
@@ -151,7 +153,7 @@ QA-Artefakte:
 
 ```text
 Hier ist der aktuelle finale Preview-Stand der Website:
-https://fa4cb371.rlc-1952-recklinghausen.pages.dev
+https://codex-rlc-customer-go-conten.rlc-1952-recklinghausen.pages.dev
 
 Bilder, Abendlauf-Seite, Navigation und die wichtigsten Inhalte sind jetzt sauber eingearbeitet und auf Desktop sowie mobil geprüft. Bitte einmal in Ruhe durchklicken und Bescheid geben, ob aus eurer Sicht noch letzte Text- oder Bildkorrekturen fehlen.
 ```
