@@ -4249,3 +4249,19 @@ body.subpage-news .subpage-news-list-item__footer .subpage-link {
         grid-template-columns: 4.75rem minmax(0, 1fr);
     }
 }
+
+
+/* Archive safety: old imported news sometimes referenced missing PDFs/legacy PHP pages.
+   Keep the citation visible, but do not expose dead 404 links to visitors. */
+.legacy-link-unavailable {
+    color: color-mix(in srgb, var(--subpage-muted) 88%, var(--subpage-ink));
+    text-decoration: underline dotted;
+    text-underline-offset: 0.18em;
+    cursor: default;
+}
+
+.legacy-link-unavailable::after {
+    content: " (Archivlink aktuell nicht verfügbar)";
+    font-size: 0.86em;
+    color: color-mix(in srgb, var(--subpage-muted) 78%, white);
+}

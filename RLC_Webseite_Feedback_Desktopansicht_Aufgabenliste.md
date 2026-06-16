@@ -21,7 +21,7 @@ Verifiziert:
 - JS-Syntaxchecks für `components.js`, `training_schedule.js`, `news_data.js` erfolgreich.
 - `git diff --check` erfolgreich.
 - Browser-Smoke: Startseite, Termine, Training-U6-Filter, Verein/Partner, Sportstätten, Kontakt/Rechtliches, Newsdetail, Footer und mobile Startseite.
-- Bekannter Restbefund: Linkcheck findet 20 alte importierte News-Links auf nicht vorhandene historische PDFs/Legacy-Ziele (`rlc.php`, alte Ergebnislisten). Dafür braucht es alte Homepage-/PDF-Quelle oder die Links müssen vor Go-live entfernt/ersetzt werden.
+- Linkcheck-Fund bereinigt: alte importierte News-Links auf nicht vorhandene historische PDFs/Legacy-Ziele (`rlc.php`, alte Ergebnislisten) sind nicht mehr als anklickbare 404-Ziele sichtbar. Die Originalquellen bleiben als Materialfrage offen, falls die alten Ergebnislisten/PDFs später wiederhergestellt werden sollen.
 
 ## Muss direkt eingepflegt / umgesetzt werden
 
@@ -86,7 +86,7 @@ Verifiziert:
 - [x] News-Kacheln reparieren, die laut Screenshot „zerschossen“ sind.
 - [x] Footer in Meldungsdetailseiten reparieren; aktuell unvollständig/defekt.
 - [ ] Alle News-Einträge vor Go-live vollständig von der alten Homepage übernehmen.
-  - Stand 2026-06-16: Newsdetailseiten sind vorhanden/importiert; 20 alte Legacy-Links/PDF-Ziele fehlen noch und müssen vor Go-live geklärt werden.
+  - Stand 2026-06-16: Newsdetailseiten sind vorhanden/importiert; alte fehlende Legacy-Links/PDF-Ziele wurden als anklickbare 404-Ziele entschärft. Die Original-PDFs/Ergebnislisten können später ergänzt werden, wenn Recklinghausen die alten Quellen liefert.
 
 ### Termine
 
