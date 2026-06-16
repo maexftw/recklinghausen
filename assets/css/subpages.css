@@ -3799,3 +3799,453 @@ body.subpage-team .subpage-person-card__media {
         height: 7rem;
     }
 }
+
+
+/* Deep GStack design review: systemic anti-slop pass.
+   Fixes repeated template/card patterns instead of one-off screenshot issues. */
+:root {
+    --subpage-container: min(100% - 2rem, 94rem);
+    --subpage-content: min(100% - 2rem, 88rem);
+    --subpage-section-space: clamp(2rem, 3.4vw, 3.4rem);
+    --subpage-radius: 0.95rem;
+}
+
+.subpage-main {
+    width: var(--subpage-content);
+}
+
+.subpage-surface,
+.subpage-panel,
+.subpage-person-card,
+.facility-card__button,
+.subpage-news-list-item,
+.subpage-news-feature {
+    border-radius: 0.75rem;
+    box-shadow: 0 14px 32px rgba(15, 35, 65, 0.07);
+}
+
+.subpage-surface {
+    border-color: color-mix(in srgb, var(--subpage-line) 86%, white);
+}
+
+.subpage-title-row {
+    gap: 1rem;
+    align-items: end;
+}
+
+.subpage-title,
+.subpage-display {
+    text-wrap: balance;
+}
+
+.subpage-copy,
+.subpage-lead,
+.subpage-news-list-item .subpage-copy,
+.facility-card__copy,
+.facility-card__address,
+.subpage-person-card__copy,
+.subpage-person-card__header p {
+    font-size: clamp(0.98rem, 0.94rem + 0.12vw, 1.05rem);
+    line-height: 1.62;
+}
+
+.subpage-button,
+.subpage-link,
+.subpage-inline-link,
+.facility-card__action,
+.subpage-news-list-item__title a {
+    min-height: 2.75rem;
+}
+
+.subpage-link,
+.subpage-inline-link,
+.facility-card__action {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+/* News: stop the tiny-card archive. Make it scan like an editorial archive. */
+.subpage-news .subpage-news-feature {
+    grid-template-columns: minmax(15rem, 0.42fr) minmax(0, 1fr);
+    border: 1px solid color-mix(in srgb, var(--subpage-line) 82%, white);
+    background: linear-gradient(180deg, #fff 0%, color-mix(in srgb, white 90%, var(--subpage-paper)) 100%);
+    overflow: hidden;
+}
+
+.subpage-news .subpage-news-feature__media {
+    max-width: none;
+    min-height: 100%;
+    aspect-ratio: 16 / 10;
+    background: color-mix(in srgb, var(--subpage-paper) 70%, white);
+}
+
+.subpage-news .subpage-news-feature__media img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.subpage-news .subpage-news-feature__body {
+    display: grid;
+    align-content: center;
+    gap: 1rem;
+    padding: clamp(1.3rem, 2.3vw, 2rem);
+}
+
+.subpage-news .subpage-news-feature__title {
+    font-size: clamp(1.35rem, 1.08rem + 1vw, 2.1rem);
+    line-height: 1.05;
+}
+
+.subpage-news .subpage-news-archive-list {
+    padding: clamp(1rem, 1.8vw, 1.35rem);
+    gap: clamp(1.2rem, 2vw, 1.65rem);
+}
+
+.subpage-news .subpage-news-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.subpage-news .subpage-news-list-item {
+    grid-template-columns: minmax(9rem, 11rem) minmax(0, 1fr);
+    gap: 1rem;
+    min-height: 10.5rem;
+    padding: 1rem;
+    border: 1px solid color-mix(in srgb, var(--subpage-line) 86%, white);
+    background: #fff;
+    box-shadow: 0 10px 24px rgba(15, 35, 65, 0.055);
+}
+
+.subpage-news .subpage-news-list-item:first-child {
+    padding-top: 1rem;
+    border-top: 1px solid color-mix(in srgb, var(--subpage-line) 86%, white);
+}
+
+.subpage-news .subpage-news-list-item__media {
+    height: 100%;
+    min-height: 8.5rem;
+    border-radius: 0.55rem;
+    border-color: color-mix(in srgb, var(--subpage-line) 88%, white);
+}
+
+.subpage-news .subpage-news-list-item__media img {
+    aspect-ratio: auto;
+    height: 100%;
+    object-fit: cover;
+}
+
+.subpage-news .subpage-news-list-item__body {
+    gap: 0.65rem;
+}
+
+.subpage-news .subpage-news-list-item__title {
+    font-size: clamp(1.06rem, 1rem + 0.22vw, 1.28rem);
+    line-height: 1.14;
+    letter-spacing: -0.025em;
+}
+
+.subpage-news .subpage-news-list-item .subpage-copy {
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+}
+
+.subpage-news-date-chip,
+.subpage-news-category,
+.subpage-person-card__badge,
+.subpage-person-card__license,
+.subpage-pill,
+.facility-card__badge,
+.facility-card__category {
+    border-radius: 0.45rem;
+    letter-spacing: 0.06em;
+}
+
+.subpage-news .subpage-news-list-item__footer .subpage-link {
+    min-height: 2.5rem;
+}
+
+/* Team: turn the initial-wall into a compact directory. */
+.subpage-card-grid--team {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.8rem;
+}
+
+.subpage-person-card {
+    grid-template-columns: 5.25rem minmax(0, 1fr);
+    grid-template-rows: auto;
+    align-items: stretch;
+    min-height: 0;
+    background: #fff;
+    box-shadow: 0 8px 20px rgba(15, 35, 65, 0.055);
+}
+
+.subpage-person-card__media {
+    display: grid;
+    place-items: center;
+    min-height: 100%;
+    aspect-ratio: auto;
+    padding: 0.9rem 0.65rem;
+    background: color-mix(in srgb, var(--subpage-brand) 8%, white);
+    border-right: 1px solid color-mix(in srgb, var(--subpage-line) 84%, white);
+}
+
+.subpage-person-card__image--placeholder {
+    width: 3.25rem;
+    height: 3.25rem;
+    border-radius: 999px;
+    background-image: linear-gradient(135deg, var(--subpage-brand-strong), var(--subpage-brand));
+    font-size: 1.05rem;
+    letter-spacing: 0.04em;
+    box-shadow: none;
+}
+
+.subpage-person-card__badge {
+    position: static;
+    margin-top: 0.65rem;
+    min-height: 1.65rem;
+    padding: 0.2rem 0.45rem;
+    font-size: 0.62rem;
+    line-height: 1;
+    box-shadow: none;
+}
+
+.subpage-person-card:hover .subpage-person-card__image,
+.subpage-person-card:focus-within .subpage-person-card__image {
+    transform: none;
+}
+
+.subpage-person-card__body {
+    gap: 0.7rem;
+    padding: 0.95rem 1rem;
+}
+
+.subpage-person-card__header {
+    display: grid;
+    gap: 0.4rem;
+}
+
+.subpage-person-card__header h3 {
+    font-size: clamp(1.04rem, 0.98rem + 0.18vw, 1.16rem);
+    line-height: 1.15;
+}
+
+.subpage-person-card__header p {
+    margin-top: 0.15rem;
+}
+
+.subpage-person-card__license {
+    justify-self: start;
+    min-height: 1.8rem;
+    padding: 0.24rem 0.55rem;
+    font-size: 0.68rem;
+}
+
+.subpage-person-card__copy {
+    display: none;
+}
+
+.subpage-person-card__details {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.45rem;
+}
+
+.subpage-person-card__details div {
+    padding-top: 0.45rem;
+}
+
+.subpage-pill-row {
+    gap: 0.4rem;
+}
+
+.subpage-pill {
+    min-height: 1.8rem;
+    padding: 0.24rem 0.5rem;
+    font-size: 0.7rem;
+}
+
+/* Facilities: no decorative AI blobs. If there is no real photo, make it an information panel. */
+.facility-card__button {
+    background: #fff;
+    box-shadow: 0 10px 24px rgba(15, 35, 65, 0.055);
+}
+
+.facility-card__button:hover,
+.facility-card__button:focus-visible,
+.facility-card__button.is-selected {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 30px rgba(15, 35, 65, 0.08);
+}
+
+.facility-card__media {
+    aspect-ratio: 16 / 8.5;
+    background-color: color-mix(in srgb, var(--subpage-brand) 10%, white);
+    background-size: cover;
+    background-position: center;
+}
+
+.facility-card__media::before,
+.facility-card__media::after,
+.facility-detail-card__visual::before,
+.facility-detail-card__visual::after {
+    display: none;
+}
+
+.facility-card__media:not([style]) {
+    display: grid;
+    align-items: end;
+    background:
+        linear-gradient(135deg, color-mix(in srgb, var(--subpage-brand-strong) 88%, black) 0%, color-mix(in srgb, var(--subpage-brand) 72%, white) 100%);
+}
+
+.facility-accent--gym,
+.facility-accent--hall {
+    background-image: linear-gradient(135deg, color-mix(in srgb, var(--subpage-brand-strong) 90%, black) 0%, color-mix(in srgb, var(--subpage-brand) 72%, white) 100%);
+}
+
+.facility-card__badge {
+    background: rgba(255, 255, 255, 0.94);
+}
+
+.facility-card__body {
+    gap: 0.8rem;
+}
+
+.facility-card__header h3 {
+    font-size: clamp(1.12rem, 1.02rem + 0.24vw, 1.28rem);
+    line-height: 1.18;
+}
+
+.facility-card__footer {
+    align-items: center;
+}
+
+.facility-card__action {
+    min-height: 2.75rem;
+    padding-inline: 0.05rem;
+}
+
+/* Tablet/mobile: prefer readable vertical rhythm over cramped two-column remnants. */
+@media (max-width: 980px) {
+    :root {
+        --subpage-content: min(100% - 1.5rem, 58rem);
+    }
+
+    .subpage-news .subpage-news-list,
+    .subpage-card-grid--team,
+    .subpage-card-grid--facilities {
+        grid-template-columns: 1fr;
+    }
+
+    .subpage-news .subpage-news-feature {
+        grid-template-columns: 1fr;
+    }
+
+    .subpage-news .subpage-news-feature__media {
+        aspect-ratio: 16 / 9;
+        min-height: 0;
+    }
+}
+
+@media (max-width: 720px) {
+    :root {
+        --subpage-content: min(100% - 1rem, 100%);
+        --subpage-section-space: 1.55rem;
+    }
+
+    .subpage-main {
+        padding-top: 0.75rem;
+    }
+
+    .subpage-title-row {
+        align-items: start;
+    }
+
+    .subpage-news .subpage-news-feature,
+    .subpage-news .subpage-news-list-item {
+        grid-template-columns: 1fr;
+    }
+
+    .subpage-news .subpage-news-list-item__media {
+        min-height: 0;
+        aspect-ratio: 16 / 9;
+    }
+
+    .subpage-news .subpage-news-list-item__media img {
+        aspect-ratio: 16 / 9;
+        height: auto;
+    }
+
+    .subpage-news .subpage-news-list-item__footer .subpage-link,
+    .subpage-news .subpage-news-list-item__title a {
+        display: inline-flex;
+        align-items: center;
+        min-height: 2.75rem;
+    }
+
+    .subpage-person-card {
+        grid-template-columns: 4.75rem minmax(0, 1fr);
+    }
+
+    .subpage-person-card__media {
+        padding: 0.8rem 0.45rem;
+    }
+
+    .subpage-person-card__image--placeholder {
+        width: 2.8rem;
+        height: 2.8rem;
+        font-size: 0.95rem;
+    }
+
+    .subpage-person-card__details {
+        grid-template-columns: 1fr;
+    }
+
+    .facility-card__media {
+        aspect-ratio: 16 / 9;
+    }
+}
+
+
+/* Deep GStack design review final correction: specific rules that beat older page overrides. */
+body.subpage-team .subpage-card-grid--team {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+body.subpage-team .subpage-person-card {
+    grid-template-columns: 5.25rem minmax(0, 1fr);
+}
+
+body.subpage-news .subpage-news-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+body.subpage-news .subpage-news-list-item__title a,
+body.subpage-news .subpage-news-list-item__footer .subpage-link,
+body.subpage-news .subpage-link,
+body.subpage-news .subpage-button {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.75rem;
+}
+
+body.subpage-news .subpage-news-list-item__title a {
+    padding-block: 0.12rem;
+}
+
+body.subpage-news .subpage-news-list-item__footer .subpage-link {
+    padding-inline: 0.1rem;
+}
+
+@media (max-width: 980px) {
+    body.subpage-team .subpage-card-grid--team,
+    body.subpage-news .subpage-news-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 720px) {
+    body.subpage-team .subpage-person-card {
+        grid-template-columns: 4.75rem minmax(0, 1fr);
+    }
+}

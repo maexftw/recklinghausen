@@ -1471,3 +1471,43 @@ body.homepage[data-rlc-theme="navy"] {
 .sportabzeichen-drawer__item--link:first-child {
     border-top: none;
 }
+
+
+/* Deep GStack design review final correction: homepage touch targets. */
+.sportabzeichen-drawer__close,
+.sportabzeichen-notice__dismiss {
+    min-width: 2.75rem;
+    min-height: 2.75rem;
+}
+
+.home-list-link {
+    min-height: 2.75rem;
+    align-items: center;
+}
+
+.home-list-link__action,
+.home-list-link span:last-child {
+    min-height: 2.75rem;
+    display: inline-flex;
+    align-items: center;
+}
+
+
+/* Deep GStack design review final correction v2: beat fixed 2.2rem homepage controls. */
+.sportabzeichen-drawer__close,
+.sportabzeichen-notice__dismiss {
+    inline-size: 3rem;
+    block-size: 3rem;
+    min-width: 3rem;
+    min-height: 3rem;
+}
+
+.home-list-link {
+    min-height: 3rem;
+    padding-block: 0.35rem;
+}
+
+.home-list-link__action,
+.home-list-link span:last-child {
+    min-height: 3rem;
+}

@@ -498,3 +498,36 @@ main,
         min-height: 2.75rem;
     }
 }
+
+
+/* Deep GStack design review: real touch targets across navigation/footer. */
+.site-nav-link {
+    min-height: 2.75rem;
+}
+
+.site-cta {
+    min-height: 2.75rem;
+}
+
+.site-icon-button,
+.site-mobile-toggle {
+    min-width: 2.75rem;
+    min-height: 2.75rem;
+}
+
+.site-wordmark {
+    min-height: 2.75rem;
+    display: inline-flex;
+    align-items: center;
+}
+
+.site-footer .site-footer-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.75rem;
+}
+
+.site-social-link,
+.site-social-link--labeled {
+    min-height: 2.75rem;
+}
