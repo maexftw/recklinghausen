@@ -70,6 +70,9 @@ def generate_page(article, all_articles):
         f'<title>{escape(title)} | RLC 1952</title>'
     )
     
+    if 'cdn.tailwindcss.com?plugins=forms,typography' not in page:
+        page = page.replace('<script src="../../assets/js/components.js"></script>', '<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>\n    <script src="../../assets/js/components.js"></script>')
+
     # Replace background image
     page = re.sub(r'url\("https?://.*?"\)', f'url("{main_image}")', page)
     
@@ -121,6 +124,8 @@ def generate_page(article, all_articles):
     # Fix relative paths for the logo/nav (handled in template mostly, but double check)
     # The template already has relative paths ../../index.html and ../news.html
     
+    page = re.sub(r'\n\s*<button class="subpage-button subpage-button--secondary" onclick="window\.print\(\)">\s*<span class="material-icons-round" aria-hidden="true">print</span> Beitrag drucken\s*</button>', '', page)
+
     # Save output
     output_path = os.path.join(OUTPUT_DIR, f"{article_id}.html")
     with open(output_path, 'w', encoding='utf-8') as f:

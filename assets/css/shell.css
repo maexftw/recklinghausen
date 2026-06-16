@@ -470,3 +470,17 @@ main,
 .items-center { align-items: center !important; }
 .justify-center { justify-content: center !important; }
 
+
+
+.site-social-link--labeled {
+    align-items: center;
+    gap: 0.65rem;
+    color: color-mix(in srgb, white 84%, var(--color-primary-light));
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.site-social-link--labeled:hover,
+.site-social-link--labeled:focus-visible {
+    color: white;
+}

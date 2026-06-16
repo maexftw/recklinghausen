@@ -3614,3 +3614,117 @@ body.subpage-facilities .subpage-actions .subpage-link[href="#facilities-directo
         padding-left: 2.55rem;
     }
 }
+
+
+/* Customer feedback round: Unterseiten-Hero kompakter, ruhiger und breiter lesbar. */
+.subpage-intro {
+    gap: clamp(0.85rem, 1.4vw, 1.1rem);
+    grid-template-columns: minmax(0, 1.55fr) minmax(14rem, 0.68fr);
+    padding: clamp(1rem, 2vw, 1.55rem);
+}
+
+.subpage-intro--visual {
+    grid-template-columns: minmax(0, 1.08fr) minmax(14rem, 0.58fr);
+}
+
+.subpage-intro__content {
+    gap: clamp(0.85rem, 1.4vw, 1.1rem);
+}
+
+.subpage-intro__visual {
+    min-height: clamp(13rem, 22vw, 18.5rem);
+}
+
+.subpage-display {
+    max-width: 18ch;
+    font-size: clamp(1.62rem, 2.65vw, 2.55rem);
+    line-height: 1.04;
+}
+
+.subpage-news-intro .subpage-display {
+    max-width: 24ch;
+    font-size: clamp(1.48rem, 2.2vw, 2.2rem);
+}
+
+.event-detail-list {
+    display: grid;
+    gap: 0.45rem;
+    margin-top: 0.85rem;
+}
+
+.event-detail-list div {
+    display: grid;
+    grid-template-columns: minmax(5rem, auto) 1fr;
+    gap: 0.65rem;
+    padding-top: 0.45rem;
+    border-top: 1px solid color-mix(in srgb, var(--subpage-line) 68%, white);
+}
+
+.event-detail-list div:first-child {
+    border-top: none;
+    padding-top: 0;
+}
+
+.event-detail-list dt {
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--subpage-brand-strong);
+}
+
+.event-detail-list dd {
+    margin: 0;
+    color: var(--subpage-muted);
+    line-height: 1.55;
+}
+
+.events-empty-note {
+    margin: 0.8rem 0 0;
+    color: var(--subpage-muted);
+}
+
+.subpage-photo-credit {
+    position: absolute;
+    right: 0.75rem;
+    bottom: 0.75rem;
+    z-index: 2;
+    padding: 0.28rem 0.55rem;
+    border: 1px solid rgba(255,255,255,0.36);
+    background: rgba(8, 20, 42, 0.72);
+    color: white;
+    font-size: 0.72rem;
+    line-height: 1.2;
+    backdrop-filter: blur(4px);
+}
+
+.facility-card__media {
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-simple-stack,
+.legal-page-content {
+    display: grid;
+    gap: clamp(1rem, 1.8vw, 1.35rem);
+}
+
+.legal-page-content {
+    max-width: 56rem;
+}
+
+.legal-page-content p {
+    color: var(--subpage-muted);
+    line-height: 1.7;
+}
+
+.legal-page-content .subpage-title:not(:first-child) {
+    margin-top: 0.65rem;
+}
+
+@media (max-width: 900px) {
+    .subpage-intro,
+    .subpage-intro--visual {
+        grid-template-columns: 1fr;
+    }
+}

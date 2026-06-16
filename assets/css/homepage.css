@@ -1407,3 +1407,67 @@ body.homepage[data-rlc-theme="navy"] {
         max-width: 4.8rem;
     }
 }
+
+
+/* Customer feedback round: den Desktop-Hero kompakter und breiter nutzbar machen. */
+.home-hero {
+    padding: clamp(1.35rem, 2.4vw, 2.15rem) 0 clamp(2.6rem, 5vw, 4.25rem);
+}
+
+.home-hero__inner {
+    min-height: clamp(23rem, 42vw, 30rem);
+}
+
+.home-hero__content {
+    max-width: min(100%, 48rem);
+    padding-block: clamp(1.2rem, 2.2vw, 1.8rem);
+}
+
+.home-hero__title {
+    max-width: 16ch;
+    font-size: clamp(2.35rem, 4.2vw, 4.15rem);
+    line-height: 0.96;
+}
+
+.home-grid-shell {
+    gap: clamp(1.8rem, 2.5vw, 2.6rem);
+    padding-top: clamp(1.6rem, 2.4vw, 2.25rem);
+}
+
+.home-news__title,
+.home-visit__title,
+.home-involvement__title {
+    font-size: clamp(1.42rem, 1.18rem + 0.9vw, 2.12rem);
+}
+
+.home-visit__grid--seven {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 15.5rem), 1fr));
+}
+
+.home-timeline__item--link,
+.sportabzeichen-drawer__item--link {
+    color: inherit;
+    text-decoration: none;
+    transition: transform 180ms ease, border-color 180ms ease, background-color 180ms ease;
+}
+
+.home-timeline__item--link {
+    padding: 0.35rem;
+    margin: -0.35rem;
+}
+
+.home-timeline__item--link:hover,
+.home-timeline__item--link:focus-visible,
+.sportabzeichen-drawer__item--link:hover,
+.sportabzeichen-drawer__item--link:focus-visible {
+    transform: translateX(2px);
+    color: var(--home-brand-strong);
+}
+
+.sportabzeichen-drawer__item--link {
+    border-top: 1px solid color-mix(in srgb, var(--home-line) 72%, white);
+}
+
+.sportabzeichen-drawer__item--link:first-child {
+    border-top: none;
+}

@@ -117,6 +117,9 @@
                             Vor dem ersten Termin bitte kurz Kontakt aufnehmen. Gerade bei Kindern und Jugendlichen helfen Alter,
                             gewünschte Gruppe und Kontaktdaten der Erziehungsberechtigten, damit Treffpunkt, Probetraining und mögliche Wartelisten sauber geklärt werden.
                         </p>
+                        <p>
+                            Änderungen an Trainingszeiten werden im digitalen Trainingsplan aus dem freigegebenen RLC-Trainingsplan nachgezogen; die angezeigten Filter lesen diese Daten direkt aus.
+                        </p>
                         <a href="contact.html#contact" class="subpage-link">Kontakt / Probetraining abstimmen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                     </div>
 
@@ -170,19 +173,21 @@
                 .replace(/"/g, '&quot;')
                 .replace(/'/g, '&#39;');
 
-            const getAgeGroup = (entry) => {
+            const getAgeGroups = (entry) => {
                 const value = normalize(`${entry.group} ${entry.year}`);
+                const groups = new Set();
 
-                if (value.includes('u6') || value.includes('vorschulkinder')) return 'u6';
-                if (value.includes('u8')) return 'u8';
-                if (value.includes('u10')) return 'u10';
-                if (value.includes('u12')) return 'u12';
-                if (value.includes('u14')) return 'u14';
-                if (value.includes('u16') || value.includes('u23')) return 'u16-u23';
-                if (value.includes('erwachsene')) return 'adults';
-                if (value.includes('senioren') || value.includes('sen ')) return 'seniors';
+                if (/u\s*6/.test(value) || value.includes('vorschulkinder')) groups.add('u6');
+                if (/u\s*8/.test(value)) groups.add('u8');
+                if (/u\s*10/.test(value)) groups.add('u10');
+                if (/u\s*12/.test(value)) groups.add('u12');
+                if (/u\s*14/.test(value)) groups.add('u14');
+                if (/u\s*(16|18|20|23)/.test(value) || value.includes('u16 - u23')) groups.add('u16-u23');
+                if (value.includes('erwachsene')) groups.add('adults');
+                if (value.includes('senioren') || /sen\s*\d/.test(value)) groups.add('seniors');
 
-                return 'all';
+                if (groups.size === 0) groups.add('all');
+                return groups;
             };
 
             const locationMatches = (entry, filterValue) => {
@@ -198,7 +203,7 @@
             };
 
             const getFilteredSchedule = () => schedule.filter((entry) => {
-                const ageMatch = activeFilters.age === 'all' || getAgeGroup(entry) === activeFilters.age;
+                const ageMatch = activeFilters.age === 'all' || getAgeGroups(entry).has(activeFilters.age);
                 return ageMatch && locationMatches(entry, activeFilters.location);
             });
 

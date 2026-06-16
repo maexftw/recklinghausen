@@ -129,10 +129,11 @@ function initSharedComponents() {
                         Seit über 70 Jahren die Heimat für Leichtathletik in Recklinghausen. Wir fördern Talente und leben Gemeinschaft.
                     </p>
                     <div class="site-footer__social-row">
-                        <a href="https://www.instagram.com/rlc_1952/" class="site-social-link" target="_blank" rel="noopener" aria-label="Instagram">
+                        <a href="https://www.instagram.com/rlc_1952/" class="site-social-link site-social-link--labeled" target="_blank" rel="noopener" aria-label="Instagram">
                             <span class="site-placeholder-icon" aria-hidden="true">
                                 <img src="https://www.svgrepo.com/show/521711/instagram.svg" class="site-social-icon" alt="Instagram Logo">
                             </span>
+                            <span>Instagram</span>
                         </a>
                     </div>
                 </div>
@@ -150,8 +151,8 @@ function initSharedComponents() {
                 <div>
                     <h4 class="font-bold mb-6 uppercase tracking-widest text-xs text-primary">Rechtliches</h4>
                     <ul class="space-y-4 text-slate-400 text-sm">
-                        <li><a href="${basePath}pages/contact.html#imprint" class="site-footer-link transition-colors focus:outline-none">Impressum</a></li>
-                        <li><a href="${basePath}pages/contact.html#privacy" class="site-footer-link transition-colors focus:outline-none">Datenschutz</a></li>
+                        <li><a href="${basePath}pages/impressum.html" class="site-footer-link transition-colors focus:outline-none">Impressum</a></li>
+                        <li><a href="${basePath}pages/datenschutz.html" class="site-footer-link transition-colors focus:outline-none">Datenschutz</a></li>
                         <li><a href="${basePath}pages/contact.html#contact" class="site-footer-link transition-colors focus:outline-none">Kontakt</a></li>
                         <li><a href="${basePath}pages/sponsors.html#partnerliste" class="site-footer-link transition-colors focus:outline-none">Partner</a></li>
                     </ul>

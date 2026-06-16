@@ -36,7 +36,7 @@
                     </div>
                 </div>
                 <figure class="subpage-intro__visual">
-                    <img src="../assets/images/rlc-team-nachwuchs.jpg" alt="RLC-Nachwuchs beim Sprinttraining im Vereinsalltag" width="1261" height="945" loading="lazy" decoding="async" />
+                    <img src="../assets/images/rlc-training-action.jpg" alt="Trainerinnen und Trainer begleiten eine RLC-Trainingseinheit" width="1261" height="945" loading="lazy" decoding="async" />
                 </figure>
             </section>
 
@@ -123,7 +123,7 @@
                     summary = 'Begleitet leistungsnahe Gruppen und markierte Wettkampfeinheiten.';
                 }
 
-                return { badge, summary };
+                return { badge, summary: `Trainerteam ${badge}` };
             };
 
             const trainerMap = new Map();
@@ -146,7 +146,7 @@
                 {
                     icon: 'calendar_month',
                     label: 'Stand',
-                    value: meta.seasonLabel || 'Sommer 2026'
+                    value: `aus ${meta.seasonLabel || 'Sommer 2026'}`
                 },
                 {
                     icon: 'schedule',
@@ -177,7 +177,7 @@
                                     <h3>${trainer}</h3>
                                     <p>${summary}</p>
                                 </div>
-                                <span class="subpage-person-card__license">Trainingsplan</span>
+                                <span class="subpage-person-card__license">aus Trainingsplan</span>
                             </div>
                             <div class="subpage-inline-list subpage-pill-row" aria-label="Einsatzfelder von ${trainer}">
                                 ${groups.slice(0, 3).map((group) => `<span class="subpage-pill">${group}</span>`).join('')}

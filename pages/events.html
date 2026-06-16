@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Termine & Veranstaltungen | RLC 1952</title>
-    <meta name="description" content="Termine und Veranstaltungen des Recklinghäuser Leichtathletik Clubs 1952 für das Jahr 2026." />
+    <meta name="description" content="Termine und Veranstaltungen des Recklinghäuser Leichtathletik Clubs 1952 mit Datum, Ort, Anmeldung und weiteren Hinweisen." />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Montserrat:wght@700;900&amp;display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
     <link href="../assets/css/design-tokens.css" rel="stylesheet" />
@@ -20,8 +20,8 @@
             <section class="subpage-intro subpage-intro--full" aria-labelledby="events-page-title">
                 <div class="subpage-intro__content">
                     <span class="subpage-eyebrow">Termine & Veranstaltungen</span>
-                    <h1 id="events-page-title" class="subpage-display">Die wichtigsten RLC-Termine für <em>2026</em>.</h1>
-                    <p class="subpage-lead">Der Jahresüberblick bündelt die zentralen Wettkämpfe und Vereinsveranstaltungen im Stadion Hohenhorst und Außenbereich. Grundlage ist die vom Verein bereitgestellte Terminübersicht.</p>
+                    <h1 id="events-page-title" class="subpage-display">Veranstaltungen und Wettkämpfe im Überblick.</h1>
+                    <p class="subpage-lead">Der Überblick bündelt zentrale Wettkämpfe und Vereinsveranstaltungen mit Datum, Ort, Zuständigkeit und Anmeldehinweis. Das Jahr steht direkt beim jeweiligen Termin.</p>
                     <div class="subpage-actions">
                         <a href="#jahresueberblick" class="subpage-button">Termine ansehen <span class="material-icons-round" aria-hidden="true">south</span></a>
                         <a href="../Termine/RLC1952_Poster_A2_QUER.pdf" class="subpage-button subpage-button--secondary" target="_blank" rel="noopener">Terminposter öffnen <span class="material-icons-round" aria-hidden="true">open_in_new</span></a>
@@ -33,50 +33,86 @@
                 <div class="subpage-title-row">
                     <div>
                         <span class="subpage-eyebrow">Jahresüberblick</span>
-                        <h2 id="jahresueberblick-title" class="subpage-title">Veranstaltungen 2026.</h2>
+                        <h2 id="jahresueberblick-title" class="subpage-title">Aktuelle Veranstaltungen.</h2>
                     </div>
                     <p class="events-source-note">Quelle: RLC-Terminposter 2026</p>
                 </div>
+                <p class="events-empty-note" id="events-empty-note" hidden>Aktuell sind keine bevorstehenden Termine sichtbar. Vergangene Termine werden automatisch ausgeblendet.</p>
                 <div class="events-list" aria-label="RLC Termine 2026">
-                    <article class="event-list-card event-list-card--past">
-                        <time datetime="2026-05-09" class="event-list-card__date"><span>Sa</span><strong>09.05.</strong></time>
+                    <article id="event-bodynostic-meeting" class="event-list-card" data-event-date="2026-05-09">
+                        <time datetime="2026-05-09" class="event-list-card__date"><span>Sa</span><strong>09.05.2026</strong></time>
                         <div class="event-list-card__body">
                             <span class="subpage-kicker">Meeting</span>
                             <h3>4. Bodynostic Meeting</h3>
-                            <p>Stadion Hohenhorst</p>
+                            <p>Stadion Hohenhorst · zentrale Wettkampfveranstaltung.</p>
+                            <dl class="event-detail-list">
+                                <div><dt>Was</dt><dd>Leichtathletik-Meeting</dd></div>
+                                <div><dt>Wann</dt><dd>Samstag, 09. Mai 2026</dd></div>
+                                <div><dt>Wo</dt><dd>Stadion Hohenhorst</dd></div>
+                                <div><dt>Wer</dt><dd>RLC 1952 / Wettkampforga</dd></div>
+                                <div><dt>Anmeldung</dt><dd>Details über die Vereins-/Wettkampfmeldung.</dd></div>
+                            </dl>
                         </div>
                     </article>
-                    <article class="event-list-card event-list-card--past">
-                        <time datetime="2026-06-04" class="event-list-card__date"><span>Do</span><strong>04.06.</strong></time>
+                    <article id="event-kidscup" class="event-list-card" data-event-date="2026-06-04">
+                        <time datetime="2026-06-04" class="event-list-card__date"><span>Do</span><strong>04.06.2026</strong></time>
                         <div class="event-list-card__body">
                             <span class="subpage-kicker">Nachwuchs</span>
                             <h3>15. KidsCup Recklinghausen</h3>
-                            <p>Stadion Hohenhorst</p>
+                            <p>Nachwuchsveranstaltung im Stadion Hohenhorst.</p>
+                            <dl class="event-detail-list">
+                                <div><dt>Was</dt><dd>KidsCup / Nachwuchswettkampf</dd></div>
+                                <div><dt>Wann</dt><dd>Donnerstag, 04. Juni 2026</dd></div>
+                                <div><dt>Wo</dt><dd>Stadion Hohenhorst</dd></div>
+                                <div><dt>Wer</dt><dd>Kinder- und Jugendbereich</dd></div>
+                                <div><dt>Anmeldung</dt><dd>Details über den Verein.</dd></div>
+                            </dl>
                         </div>
                     </article>
-                    <article class="event-list-card event-list-card--featured">
-                        <time datetime="2026-08-28" class="event-list-card__date"><span>Fr</span><strong>28.08.</strong></time>
+                    <article id="event-abendlauf" class="event-list-card event-list-card--featured" data-event-date="2026-08-28">
+                        <time datetime="2026-08-28" class="event-list-card__date"><span>Fr</span><strong>28.08.2026</strong></time>
                         <div class="event-list-card__body">
                             <span class="subpage-kicker">Laufveranstaltung</span>
                             <h3>9. Sparkassen Abendlauf</h3>
-                            <p>5 km · 10 km · Kreismeisterschaften 10 km · Stadion Hohenhorst & Außenbereich</p>
+                            <p>5 km · 10 km · Kreismeisterschaften 10 km · Stadion Hohenhorst & Außenbereich.</p>
+                            <dl class="event-detail-list">
+                                <div><dt>Was</dt><dd>Abendlauf mit 5 km, 10 km und Kreismeisterschaften 10 km</dd></div>
+                                <div><dt>Wann</dt><dd>Freitag, 28. August 2026</dd></div>
+                                <div><dt>Wo</dt><dd>Stadion Hohenhorst & Außenbereich</dd></div>
+                                <div><dt>Wer</dt><dd>Läuferinnen und Läufer / RLC 1952</dd></div>
+                                <div><dt>Anmeldung</dt><dd>Über die Abendlauf-Seite und Ausschreibung.</dd></div>
+                            </dl>
                             <a href="abendlauf.html" class="subpage-inline-link">Zur Abendlauf-Seite <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                         </div>
                     </article>
-                    <article class="event-list-card">
-                        <time datetime="2026-09-19" class="event-list-card__date"><span>Sa</span><strong>19.09.</strong></time>
+                    <article id="event-stadtmeisterschaften" class="event-list-card" data-event-date="2026-09-19">
+                        <time datetime="2026-09-19" class="event-list-card__date"><span>Sa</span><strong>19.09.2026</strong></time>
                         <div class="event-list-card__body">
                             <span class="subpage-kicker">Stadion</span>
                             <h3>43. Stadtmeisterschaften</h3>
-                            <p>Stadion Hohenhorst</p>
+                            <p>Stadtmeisterschaften im Stadion Hohenhorst.</p>
+                            <dl class="event-detail-list">
+                                <div><dt>Was</dt><dd>Stadtmeisterschaften</dd></div>
+                                <div><dt>Wann</dt><dd>Samstag, 19. September 2026</dd></div>
+                                <div><dt>Wo</dt><dd>Stadion Hohenhorst</dd></div>
+                                <div><dt>Wer</dt><dd>RLC 1952 / teilnehmende Vereine</dd></div>
+                                <div><dt>Anmeldung</dt><dd>Details folgen über die offizielle Ausschreibung.</dd></div>
+                            </dl>
                         </div>
                     </article>
-                    <article class="event-list-card">
-                        <time datetime="2026-12-31" class="event-list-card__date"><span>Do</span><strong>31.12.</strong></time>
+                    <article id="event-silvesterlauf" class="event-list-card" data-event-date="2026-12-31">
+                        <time datetime="2026-12-31" class="event-list-card__date"><span>Do</span><strong>31.12.2026</strong></time>
                         <div class="event-list-card__body">
                             <span class="subpage-kicker">Jahresabschluss</span>
                             <h3>39. Silvesterlauf</h3>
-                            <p>5 km · 10 km · Nordic Walking · Walking · Stadion Hohenhorst & Außenbereich</p>
+                            <p>5 km · 10 km · Nordic Walking · Walking · Stadion Hohenhorst & Außenbereich.</p>
+                            <dl class="event-detail-list">
+                                <div><dt>Was</dt><dd>Silvesterlauf mit Lauf- und Walking-Angeboten</dd></div>
+                                <div><dt>Wann</dt><dd>Donnerstag, 31. Dezember 2026</dd></div>
+                                <div><dt>Wo</dt><dd>Stadion Hohenhorst & Außenbereich</dd></div>
+                                <div><dt>Wer</dt><dd>Läuferinnen, Läufer, Walking/Nordic-Walking</dd></div>
+                                <div><dt>Anmeldung</dt><dd>Details folgen über die offizielle Ausschreibung.</dd></div>
+                            </dl>
                         </div>
                     </article>
                 </div>
@@ -96,5 +132,23 @@
         </div>
     </main>
     <footer data-shared-footer-placeholder></footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const today = new Date();
+            today.setHours(0, 0, 0, 0);
+            const cards = Array.from(document.querySelectorAll('[data-event-date]'));
+            let visibleCount = 0;
+            cards.forEach((card) => {
+                const date = new Date(`${card.dataset.eventDate}T00:00:00`);
+                const isPast = date < today;
+                card.classList.toggle('event-list-card--past', isPast);
+                card.hidden = isPast;
+                if (!isPast) visibleCount += 1;
+            });
+            const emptyNote = document.getElementById('events-empty-note');
+            if (emptyNote) emptyNote.hidden = visibleCount !== 0;
+        });
+    </script>
 </body>
 </html>
