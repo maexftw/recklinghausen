@@ -3728,3 +3728,74 @@ body.subpage-facilities .subpage-actions .subpage-link[href="#facilities-directo
         grid-template-columns: 1fr;
     }
 }
+
+/* Design review polish: remove cramped mobile news feature and low-touch text links. */
+@media (max-width: 640px) {
+    body.subpage-news .subpage-news-feature {
+        grid-template-columns: 1fr;
+    }
+
+    body.subpage-news .subpage-news-feature__media {
+        width: 100%;
+        max-width: none;
+        aspect-ratio: 16 / 10;
+    }
+
+    body.subpage-news .subpage-news-feature__body {
+        padding: 1rem;
+    }
+
+    body.subpage-news .subpage-news-feature__actions {
+        align-items: stretch;
+    }
+
+    body.subpage-news .subpage-news-feature__actions .subpage-button,
+    body.subpage-news .subpage-news-feature__actions .subpage-link {
+        width: 100%;
+        justify-content: center;
+    }
+
+    body.subpage-news .subpage-news-list-item__media {
+        min-height: 5.25rem;
+    }
+}
+
+body.subpage-facilities .facility-card__action {
+    min-height: 2.75rem;
+    padding-block: 0.45rem;
+}
+
+body.subpage-facilities .facility-accent--gym {
+    background-image:
+        linear-gradient(135deg, rgba(25, 74, 89, 0.92) 0%, rgba(49, 118, 111, 0.86) 48%, rgba(173, 218, 190, 0.78) 100%);
+}
+
+body.subpage-team .subpage-person-card__media {
+    aspect-ratio: 16 / 9;
+}
+
+body.subpage-team .subpage-person-card__image--placeholder {
+    background-image:
+        radial-gradient(circle at 22% 20%, rgba(255, 255, 255, 0.28) 0%, transparent 24%),
+        linear-gradient(135deg, color-mix(in srgb, var(--subpage-brand) 74%, #0b1f3d 26%) 0%, color-mix(in srgb, var(--subpage-brand-strong) 58%, #0b1f3d 42%) 100%);
+    font-size: clamp(1.45rem, 1.1rem + 0.9vw, 2.1rem);
+    letter-spacing: 0.06em;
+}
+
+/* Design review correction: trainer placeholders should not dominate the first viewport. */
+@media (min-width: 960px) {
+    body.subpage-team .subpage-card-grid--team {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+body.subpage-team .subpage-person-card__media {
+    height: clamp(7.5rem, 10vw, 9rem);
+    aspect-ratio: auto;
+}
+
+@media (max-width: 720px) {
+    body.subpage-team .subpage-person-card__media {
+        height: 7rem;
+    }
+}

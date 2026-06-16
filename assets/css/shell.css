@@ -484,3 +484,17 @@ main,
 .site-social-link--labeled:focus-visible {
     color: white;
 }
+
+/* Design review polish: footer links are secondary, but still need real touch targets on mobile. */
+@media (max-width: 720px) {
+    .site-footer .site-footer-link {
+        display: inline-flex;
+        align-items: center;
+        min-height: 2.75rem;
+        padding-block: 0.35rem;
+    }
+
+    .site-social-link--labeled {
+        min-height: 2.75rem;
+    }
+}
