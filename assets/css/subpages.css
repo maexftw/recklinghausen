@@ -1932,6 +1932,25 @@ body.subpage {
     line-height: 1.58;
 }
 
+.event-detail-list a {
+    color: var(--subpage-brand-strong);
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.event-detail-list a:hover,
+.event-detail-list a:focus-visible {
+    color: var(--subpage-ink);
+}
+
+.event-card-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem 0.9rem;
+    align-items: center;
+    padding-top: 0.35rem;
+}
+
 .subpage-inline-link {
     display: inline-flex;
     width: fit-content;
@@ -2116,9 +2135,79 @@ body.subpage {
     text-transform: uppercase;
 }
 
+.abendlauf-resource-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(15rem, 0.42fr);
+    gap: clamp(1rem, 2vw, 1.45rem);
+    align-items: start;
+}
+
+.abendlauf-resource-list {
+    display: grid;
+    gap: 0.9rem;
+}
+
+.abendlauf-resource-card,
+.abendlauf-flyer-card {
+    border: 1px solid color-mix(in srgb, var(--subpage-line) 76%, white);
+    background: color-mix(in srgb, white 90%, var(--subpage-paper));
+    box-shadow: 0 18px 36px rgba(8, 39, 39, 0.08);
+}
+
+.abendlauf-resource-card {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 0.85rem;
+    padding: clamp(0.95rem, 1.8vw, 1.25rem);
+}
+
+.abendlauf-resource-card > .material-icons-round {
+    display: inline-grid;
+    place-items: center;
+    width: 2.35rem;
+    height: 2.35rem;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--subpage-brand) 14%, white);
+    color: var(--subpage-brand-strong);
+}
+
+.abendlauf-resource-card h3 {
+    margin: 0 0 0.25rem;
+    font-size: 1.05rem;
+    font-weight: 900;
+    color: var(--subpage-ink);
+}
+
+.abendlauf-resource-card p {
+    margin: 0 0 0.55rem;
+}
+
+.abendlauf-flyer-card {
+    display: grid;
+    gap: 0.65rem;
+    padding: 0.75rem;
+}
+
+.abendlauf-flyer-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid color-mix(in srgb, var(--subpage-line) 70%, white);
+}
+
+.abendlauf-flyer-card figcaption {
+    color: var(--subpage-muted);
+    font-size: 0.72rem;
+    line-height: 1.45;
+}
+
 @media (max-width: 900px) {
     .training-plan-notes,
     .event-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .abendlauf-resource-layout {
         grid-template-columns: 1fr;
     }
 }
