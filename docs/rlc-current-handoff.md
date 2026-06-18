@@ -1,8 +1,8 @@
 # RLC Recklinghausen – aktueller Arbeitsstand
 
-Stand: 2026-06-09T06:13:13Z
+Stand: 2026-06-18T17:50:00Z
 Branch: `codex/rlc-customer-go-content-round`
-Status: finaler Foto-/Copy-Pass ist umgesetzt, gepusht, als Cloudflare Pages Preview live und mit GStack/Browser geprüft.
+Status: Kundenbestätigung aus Meeting liegt vor; die nachgereichten Abendlauf-Infos sind eingearbeitet, lokal mit GStack Browse geprüft und Review-Gate wurde gegen den aktuellen Commit ausgeführt.
 
 ## Links
 
@@ -27,6 +27,41 @@ Hinweis: Jede Docs-only-Handoff-Korrektur erzeugt bei Cloudflare Pages eine neue
   - `709a4aa docs: record RLC gbrain sync limitation`
 - Branch ist auf GitHub gepusht und trackt `origin/codex/rlc-customer-go-content-round`.
 - Cloudflare Pages Check im PR war zuletzt grün für die Branch-Spitze.
+
+## Nachtrag 2026-06-18 – Kundenbestätigung und Abendlauf-Unterlagen
+
+Neu eingearbeitet:
+
+- RaceResult-Anmeldung: `https://my.raceresult.com/397333/info`
+- 5-km-Streckenplan: `https://www.rlc1952.de/assets/pdf/RLC_Laufstrecke_5km_Hohenhorst.pdf`
+- 10-km-Streckenplan: `https://www.rlc1952.de/assets/pdf/RLC_Laufstrecke_10km_Hohenhors.pdf`
+  - Wichtig: Die Kunden-URL mit `Hohenhors.pdf` ist korrekt erreichbar (`200 application/pdf`). Die naheliegende Schreibweise `Hohenhorst.pdf` liefert `404` und darf nicht automatisch korrigiert werden.
+- Neuer Flyer aus dem Workspace wurde als Website-Asset abgelegt:
+  - PDF: `assets/pdf/abendlauf-2026-flyer.pdf`
+  - Vorschau: `assets/images/abendlauf-2026-flyer.jpg`
+
+Sichtbare Änderungen:
+
+- `pages/abendlauf.html`: primärer Anmelde-CTA, Flyer-Download, Flyer-Vorschau, Startzeit, Gebühr, 5-km-/10-km-Streckenlinks und Rückfrage-CTA.
+- `pages/events.html`: Abendlauf-Karte mit RaceResult, Flyer und Streckenlinks.
+- `index.html`: Startseiten-Termintext mit Startzeit ergänzt.
+- `assets/js/components.js`: `Bilder` als eigener Navigationspunkt in Desktop-, Mobile- und Footer-Navigation.
+- `assets/css/subpages.css`: Ressourcen-/Flyer-Karten und Event-Linkleisten ergänzt.
+
+Neue Review-/QA-Evidenz:
+
+- Externe Linkprüfung:
+  - RaceResult: `GET 200 text/html`
+  - 5-km-PDF: `HEAD 200 application/pdf`
+  - 10-km-PDF Kunden-URL: `HEAD 200 application/pdf`
+  - 10-km-PDF mit korrigierter Schreibweise: `404`
+- Lokaler HTTP-Smoke auf `127.0.0.1:52835`: `200` für `/`, `/index.html`, `/pages/events.html`, `/pages/abendlauf.html`, `/pages/gallery.html`, `/assets/pdf/abendlauf-2026-flyer.pdf`, `/assets/images/abendlauf-2026-flyer.jpg`.
+- Lokale Referenzprüfung: `index.html`, `pages/abendlauf.html`, `pages/events.html`, `pages/gallery.html` ohne fehlende lokale `href`/`src`-Referenzen.
+- GStack Browse:
+  - Abendlauf Desktop: Inhalte/Links vorhanden, keine Browser-Fehler außer bekannter Tailwind-CDN-Warnung.
+  - Abendlauf Mobile 375px: `scrollWidth=clientWidth=375`, keine horizontale Überläufe.
+  - Screenshots unter `.gstack/qa-reports/abendlauf-info-20260618-173819/screenshots/`.
+- `codex review --commit HEAD`: ein P2-Hinweis zur vermeintlich falsch geschriebenen 10-km-URL; als False Positive unterdrückt, weil URL real erreichbar und die naheliegende Korrektur nicht erreichbar ist.
 
 ## Was finalisiert wurde
 
