@@ -4326,7 +4326,13 @@ body.subpage-team .subpage-card-grid--team {
 }
 
 body.subpage-team .subpage-person-card {
-    grid-template-columns: 5.25rem minmax(0, 1fr);
+    grid-template-columns: 7.25rem minmax(0, 1fr);
+}
+
+body.subpage-team .subpage-person-card__badge {
+    max-width: 100%;
+    text-align: center;
+    white-space: normal;
 }
 
 body.subpage-news .subpage-news-list {
@@ -4359,7 +4365,7 @@ body.subpage-news .subpage-news-list-item__footer .subpage-link {
 
 @media (max-width: 720px) {
     body.subpage-team .subpage-person-card {
-        grid-template-columns: 4.75rem minmax(0, 1fr);
+        grid-template-columns: 6.25rem minmax(0, 1fr);
     }
 }
 
