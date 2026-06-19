@@ -72,8 +72,28 @@ Metrics after local pass:
 - `/pages/sponsors`
 - `/pages/abendlauf`
 
+## Component-level detail polish update
+
+Customer screenshot feedback exposed a review gap: broad contact sheets showed the subpages as directionally aligned, but the Training hero content block still had cramped internal rhythm.
+
+Fixed in the follow-up detail pass:
+
+- Added a final hero detail polish CSS block for non-gallery subpages.
+- Reduced long subpage H1 scale slightly while preserving the Gallery-inspired editorial look.
+- Separated hero zones more clearly: eyebrow, H1, lead, meta row, actions.
+- Fixed Training meta layout so 4 facts no longer render as an awkward 3+1 layout.
+- Made mobile meta rows compact but not cramped via auto-fit columns.
+- Shortened mobile visual areas for Training and Abendlauf.
+- Removed heavy Stats hero point/checklist load from the hero; Stats now uses a lighter H1 and hides its long aside on mobile.
+- Bumped every `subpages.css` reference to `?v=9` and replaced old Montserrat page links with Lexend so all generated/news detail subpages receive the same baseline.
+
+Verification report:
+
+- `.gstack/design-reports/subpage-hero-detail-polish-20260619-124151/`
+
 ## Remaining polish candidates
 
-- Training and Abendlauf mobile heros are still long because they contain many meta fields, multiple CTAs, and imagery. They are readable, but they can be shortened in a later page-specific pass if desired.
-- News detail pages may still need a separate detail-template typography pass. The current pass focused on the main subpages.
+- `training` and `abendlauf` remain information-rich on mobile, but their hero internals are no longer visibly broken or compressed.
+- Abendlauf has lower-page image/detail placeholders that should be reviewed in a later page-specific polish pass.
+- News detail pages now inherit the updated CSS/font baseline, but they were not individually redesigned in this pass.
 - Tailwind CDN warning is pre-existing technical debt and was not introduced by this alignment pass.
