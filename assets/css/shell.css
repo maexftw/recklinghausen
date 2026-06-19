@@ -404,6 +404,14 @@ main,
 }
 
 .site-footer .site-footer-link {
+    display: inline-flex;
+    align-items: center;
+    min-width: 2.75rem;
+    min-height: 2.75rem;
+    margin-block: -0.55rem;
+    margin-inline: -0.25rem;
+    padding-inline: 0.25rem;
+    border-radius: var(--border-radius-sm);
     color: color-mix(in srgb, white 84%, var(--color-primary-light));
 }
 
