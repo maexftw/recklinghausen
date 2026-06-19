@@ -1,194 +1,197 @@
 # RLC Recklinghausen – aktueller Arbeitsstand
 
-Stand: 2026-06-18T17:50:00Z
+Stand: 2026-06-19T08:56:33+02:00
 Branch: `codex/rlc-customer-go-content-round`
-Status: Kundenbestätigung aus Meeting liegt vor; die nachgereichten Abendlauf-Infos sind eingearbeitet, lokal mit GStack Browse geprüft und Review-Gate wurde gegen den aktuellen Commit ausgeführt.
+PR: https://github.com/maexftw/recklinghausen/pull/21
+Status: Meeting-Feedback ist als Website-Überarbeitungsrunde umgesetzt, gepusht, von Cloudflare gebaut und auf der exakten UI-Preview geprüft. Kein Merge auf `main` ohne finale Abnahme.
 
-## Links
+## Aktuelle Links
 
+- Kundentauglicher Branch-Alias: https://codex-rlc-customer-go-conten.rlc-1952-recklinghausen.pages.dev
+- Exakte UI-/Content-Preview für den geprüften Website-Stand:
+  - https://42f1713e.rlc-1952-recklinghausen.pages.dev
+  - Cloudflare Deployment: `42f1713e-993d-45e1-8cb6-68dfad58a3b2`
+  - Source/Commit: `892598f fix(content): finish RLC feedback list items`
 - PR: https://github.com/maexftw/recklinghausen/pull/21
-- Stabiler Branch-Alias: https://codex-rlc-customer-go-conten.rlc-1952-recklinghausen.pages.dev
-- Projekt: `rlc-1952-recklinghausen`
-- Letzte vor dieser Handoff-Korrektur geprüfte commit-spezifische Branch-Preview:
-  - `https://fe269b1a.rlc-1952-recklinghausen.pages.dev`
-  - Source: `709a4aa`
-- Vorheriger Direct Deploy aus lokalem Archiv: https://63b66c98.rlc-1952-recklinghausen.pages.dev
+- Cloudflare Pages Projekt: `rlc-1952-recklinghausen`
 
-Hinweis: Jede Docs-only-Handoff-Korrektur erzeugt bei Cloudflare Pages eine neue commit-spezifische Preview-URL. Für den jeweils neuesten exakten Link die erfolgreiche `Cloudflare Pages`-Check-Run-URL im PR oder `wrangler pages deployment list --project-name rlc-1952-recklinghausen` verwenden. Die sichtbaren UI-Inhalte stammen aus dem UI-/Content-Commit `7e7477a`; spätere Commits in diesem Branch sind Handoff-Dokumentation.
+Hinweis: Handoff-/Docs-only-Commits nach `892598f` erzeugen ebenfalls neue Cloudflare-Preview-URLs, ändern aber nicht die sichtbare Website-UI. Für die jeweils neueste exakte Branch-Spitze immer den erfolgreichen `Cloudflare Pages`-Check im PR oder `wrangler pages deployment list --project-name rlc-1952-recklinghausen` verwenden und kurz HTTP-smoken.
 
 ## Git-/Deploy-Stand
 
 - Remote: `https://github.com/maexftw/recklinghausen.git`
 - Branch: `codex/rlc-customer-go-content-round`
-- PR: `#21`, offen gegen `main`
-- UI-/Content-Commit: `7e7477a feat(content): finalize RLC photos and preview copy`
-- Handoff-/Docs-Commits danach:
-  - `a9c015c docs: update RLC final preview handoff`
-  - `709a4aa docs: record RLC gbrain sync limitation`
-- Branch ist auf GitHub gepusht und trackt `origin/codex/rlc-customer-go-content-round`.
-- Cloudflare Pages Check im PR war zuletzt grün für die Branch-Spitze.
+- PR `#21` ist offen gegen `main`.
+- UI-/Content-Commit: `892598fa6e5401e91796eb9438804d062159a8cd`.
+- Aktuelle Branch-Spitze kann durch spätere Handoff-/Docs-only-Commits neuer sein; diese Handoff-Commits sind Teil des PRs, aber nicht als weitere UI-Änderung zu werten.
+- Rohmaterial aus dem Meeting bleibt untracked und wird durch `.gitignore` geschützt: `Neues Meeting/`.
 
-## Nachtrag 2026-06-18 – Kundenbestätigung und Abendlauf-Unterlagen
+## In dieser Runde umgesetzt
 
-Neu eingearbeitet:
+### Startseite
 
-- RaceResult-Anmeldung: `https://my.raceresult.com/397333/info`
-- 5-km-Streckenplan: `https://www.rlc1952.de/assets/pdf/RLC_Laufstrecke_5km_Hohenhorst.pdf`
-- 10-km-Streckenplan: `https://www.rlc1952.de/assets/pdf/RLC_Laufstrecke_10km_Hohenhors.pdf`
-  - Wichtig: Die Kunden-URL mit `Hohenhors.pdf` ist korrekt erreichbar (`200 application/pdf`). Die naheliegende Schreibweise `Hohenhorst.pdf` liefert `404` und darf nicht automatisch korrigiert werden.
-- Neuer Flyer aus dem Workspace wurde als Website-Asset abgelegt:
-  - PDF: `assets/pdf/abendlauf-2026-flyer.pdf`
-  - Vorschau: `assets/images/abendlauf-2026-flyer.jpg`
+- Hero-Headline auf `Recklinghäuser Leichtathletik Club.` geändert.
+- Jahreszahl `1952` aus der großen Hero-Headline entfernt; nur noch in kleinem Kontext/Claim.
+- Dopplung um `Leidenschaft seit 1952` bereinigt.
+- Desktop: `Schnelle Wege` bleibt sichtbar.
+- Mobile: `Schnelle Wege` wird ausgeblendet, weil dieselben Links weiter unten unter `Rund um den Verein` verfügbar sind.
+- Trainerteam-Teaser gekürzt und langfristiger formuliert.
 
-Sichtbare Änderungen:
+### Aktuelles / News
 
-- `pages/abendlauf.html`: primärer Anmelde-CTA, Flyer-Download, Flyer-Vorschau, Startzeit, Gebühr, 5-km-/10-km-Streckenlinks und Rückfrage-CTA.
-- `pages/events.html`: Abendlauf-Karte mit RaceResult, Flyer und Streckenlinks.
-- `index.html`: Startseiten-Termintext mit Startzeit ergänzt.
-- `assets/js/components.js`: `Bilder` als eigener Navigationspunkt in Desktop-, Mobile- und Footer-Navigation.
-- `assets/css/subpages.css`: Ressourcen-/Flyer-Karten und Event-Linkleisten ergänzt.
+- News-Seite zeigt jetzt:
+  1. eine große neueste Meldung,
+  2. zwei weitere aktuelle Meldungen,
+  3. danach das Archiv.
+- Neue Zwischenrubrik `Weitere aktuelle Beiträge` ergänzt.
+- Responsive Grid-Styling für die zwei aktuellen Karten ergänzt.
 
-Neue Review-/QA-Evidenz:
+### Termine / Veranstaltungen
 
-- Externe Linkprüfung:
-  - RaceResult: `GET 200 text/html`
-  - 5-km-PDF: `HEAD 200 application/pdf`
-  - 10-km-PDF Kunden-URL: `HEAD 200 application/pdf`
-  - 10-km-PDF mit korrigierter Schreibweise: `404`
-- Lokaler HTTP-Smoke auf `127.0.0.1:52835`: `200` für `/`, `/index.html`, `/pages/events.html`, `/pages/abendlauf.html`, `/pages/gallery.html`, `/assets/pdf/abendlauf-2026-flyer.pdf`, `/assets/images/abendlauf-2026-flyer.jpg`.
-- Lokale Referenzprüfung: `index.html`, `pages/abendlauf.html`, `pages/events.html`, `pages/gallery.html` ohne fehlende lokale `href`/`src`-Referenzen.
-- GStack Browse:
-  - Abendlauf Desktop: Inhalte/Links vorhanden, keine Browser-Fehler außer bekannter Tailwind-CDN-Warnung.
-  - Abendlauf Mobile 375px: `scrollWidth=clientWidth=375`, keine horizontale Überläufe.
-  - Screenshots unter `.gstack/qa-reports/abendlauf-info-20260618-173819/screenshots/`.
-- `codex review --commit HEAD`: ein P2-Hinweis zur vermeintlich falsch geschriebenen 10-km-URL; als False Positive unterdrückt, weil URL real erreichbar und die naheliegende Korrektur nicht erreichbar ist.
+- Intro-Text gekürzt.
+- sichtbare Quellenzeile entfernt.
+- Abendlauf-Links aus vorheriger Runde bleiben eingebunden: RaceResult, Flyer, 5-km-/10-km-Streckenplan.
+- Terminstruktur bleibt auf `Was / Wann / Wo / Anmeldung/Infos` ausgerichtet.
 
-## Was finalisiert wurde
+### Training / Trainerteam
 
-### Fotos / Assets
+- Trainingsfilter bleibt vorhanden, ist mobil/initial eingeklappt.
+- Überschriften ohne pflegeintensive Jahreszahl.
+- erklärende Texte gekürzt.
+- Trainerteam-Karten zeigen weiterhin zentrale Gruppen-/Bereichsinformationen und vermeiden unnötige, schnell veraltende Detailzeilen.
+- Trainerfotos bleiben ein Material-/Freigabe-Thema und sind nicht frei erfunden.
 
-- Abendlauf-Galerie wurde auf 9 echte, weboptimierte Motive erweitert:
-  - `assets/images/abendlauf-2025/abendlauf-start-banner.jpg`
-  - `assets/images/abendlauf-2025/abendlauf-startfeld.jpg`
-  - `assets/images/abendlauf-2025/abendlauf-start-dynamik.jpg`
-  - `assets/images/abendlauf-2025/abendlauf-laufgruppe-bahn.jpg`
-  - `assets/images/abendlauf-2025/abendlauf-waldstrecke.jpg`
-  - `assets/images/abendlauf-2025/abendlauf-zielgerade.jpg`
-  - `assets/images/abendlauf-2025/abendlauf-verpflegung.jpg`
-  - `assets/images/abendlauf-2025/abendlauf-siegerehrung.jpg`
-  - `assets/images/abendlauf-2025/abendlauf-stadion-atmosphaere.jpg`
-- Team-/Nachwuchs-Intro nutzt jetzt ein höherwertiges Vereinsalltag-/Sprintmotiv:
-  - `assets/images/rlc-team-nachwuchs.jpg`
-- Rohmaterial bleibt aus Git herausgehalten:
-  - ZIPs
-  - DOCX
-  - WhatsApp-Export / `_chat.txt`
-  - `Neuer Ordner/`
-  - `client_secret*.json`
+### Sportstätten
 
-### Copy / sichtbare Platzhalter
+- separate Kraftraum-Karte entfernt.
+- Stadion Hohenhorst ist jetzt als Gesamt-Standort formuliert, nicht mehr eng als reine `Outdoor`-Karte, damit auch Hohenhorst-/Kraftraum-nahe Trainingsgruppen nicht falsch verschwinden.
+- alle Trainingsgruppen sind wieder einer Standortkarte zugeordnet.
+- Google-Maps-Links und kurzer Eindruck stehen im Vordergrund.
+- Stadion-Copyright bleibt sichtbar: `©RVR, 2020 DL-DE/BY-2-0`.
 
-- Abendlauf-Seite wirkt nicht mehr wie ein vorbereiteter Platzhalter.
-- `Details folgen` und `Porträt folgt` wurden aus den geprüften Kundenflächen entfernt.
-- Kontaktseiten-Hinweis wurde von „Spezielle Details folgen bei Bedarf“ auf kundenfähige Formulierung geändert.
-- Externe `placeholder.com`-Fallbacks wurden aus den geprüften HTML-Flächen entfernt.
-- Der frühere sichtbare `ROYAL / NAVY` Theme-Schalter bleibt entfernt.
+### Kontakt / Mitmachen
 
-### Geänderte Dateien im UI-/Content-Commit
+- Kontaktformular sendet primär an `/api/contact` über eine Cloudflare Pages Function.
+- Honeypot, Pflichtfeldvalidierung und JSON-Antworten ergänzt.
+- Wenn der Mail-Zustellweg noch nicht konfiguriert ist oder die Function nicht erreichbar ist, fällt das Formular auf eine vorbereitete E-Mail an `info@rlc1952.de` zurück.
+- Wichtiger Gate: echte direkte Formularzustellung ist vorbereitet, aber erst aktiv, wenn `CONTACT_WEBHOOK_URL` und optional `CONTACT_WEBHOOK_TOKEN` in Cloudflare gesetzt und mit einem echten Ziel getestet sind.
 
-- `index.html`
-- `pages/abendlauf.html`
-- `pages/team.html`
-- `pages/contact.html`
-- `assets/images/rlc-team-nachwuchs.jpg`
-- `assets/images/abendlauf-2025/abendlauf-startfeld.jpg`
-- `assets/images/abendlauf-2025/abendlauf-start-dynamik.jpg`
-- `assets/images/abendlauf-2025/abendlauf-laufgruppe-bahn.jpg`
-- `assets/images/abendlauf-2025/abendlauf-siegerehrung.jpg`
-- `assets/images/abendlauf-2025/abendlauf-stadion-atmosphaere.jpg`
+### Bildergalerie
+
+- Navigationspunkt `Bilder` ist weiterhin vorhanden und in der Preview erreichbar.
 
 ## Verifikation
 
-### Lokal
+### Code / Review
 
-- Lokaler Static Server auf `127.0.0.1:52835`.
-- HTTP-Smoke: `200` für:
-  - `/`
-  - `/index.html`
-  - `/pages/abendlauf.html`
-  - `/pages/team.html`
-  - `/pages/training.html`
-  - `/pages/facilities.html`
-  - `/pages/contact.html`
-  - `/pages/news.html`
-  - `/pages/membership-info.html`
-- Statische Bildreferenzprüfung: `missing_img_refs=0`.
-- Textflags geprüft: kein `Porträt folgt`, kein `Details folgen`, kein `placeholder.com`, kein `ROYAL/NAVY` in den geprüften Flächen.
-- `git diff --check`: OK vor Commit.
+- `git diff --check`: OK.
+- Inline-JS-/Function-Syntaxchecks: OK.
+- Sportstätten-Datencheck:
+  - `unmatched_count 0`
+  - Stadion Hohenhorst, Vestische Arena und Hohenzollernhalle decken die Trainingsdaten ab.
+- `codex review --commit HEAD`: nach mehreren Review-Fixes sauber; keine blockierenden Findings.
 
-### Cloudflare Preview Snapshots
+### Cloudflare / HTTP
 
-HTTP/Marker:
+Exakte UI-Preview: `https://42f1713e.rlc-1952-recklinghausen.pages.dev`
+
+HTTP-Smoke mit `curl -L`:
 
 - `200 /`
-- `200 /pages/abendlauf`
+- `200 /pages/news`
+- `200 /pages/training`
 - `200 /pages/team`
+- `200 /pages/facilities`
 - `200 /pages/contact`
-- `200 /assets/images/abendlauf-2025/abendlauf-stadion-atmosphaere.jpg`
-- `200 /assets/images/rlc-team-nachwuchs.jpg`
-- Marker auf `/pages/abendlauf`:
-  - `Bildauswahl online`: vorhanden
-  - `Stadionatmosphäre`: vorhanden
-  - `abendlauf-stadion-atmosphaere.jpg`: vorhanden
-  - `Details folgen`: nicht vorhanden
-  - `Porträt folgt`: nicht vorhanden
+- `200 /pages/events`
+- `200 /pages/gallery`
 
-GStack Browser:
+Markerchecks:
 
-- Startseite: `missing` images = `0`; keine geprüften Placeholder-/Debugflags.
-- Abendlauf-Galerie: alle 9 Bilder geladen, `naturalWidth > 0`.
-- Desktop-Screenshot Startseite geprüft.
-- Desktop-Element-Screenshot der Abendlauf-Galerie geprüft: alle 9 Bilder sichtbar, keine leeren Karten.
-- Mobile-Screenshot Startseite bei 375px geprüft: Hero/Navigation/Content stabil.
+- Startseite enthält `Recklinghäuser` und `Leichtathletik Club`.
+- Kontaktseite enthält `/api/contact`, `mail_delivery_not_configured` und Fallback-Text für vorbereitete E-Mail.
+- Newsseite enthält `news-current-container`, `Weitere aktuelle Beiträge` und `subpage-news-current-grid`.
 
-QA-Artefakte der geprüften Snapshots:
+Kontakt-API auf der exakten UI-Preview:
 
-- `.gstack/qa-reports/final-content-pass-20260609-075909/screenshots/git-preview-home-fa4cb371.png`
-- `.gstack/qa-reports/final-content-pass-20260609-075909/screenshots/git-preview-abendlauf-gallery-fa4cb371.png`
-- `.gstack/qa-reports/final-content-pass-20260609-075909/screenshots/git-preview-home-mobile-fa4cb371.png`
-- `.gstack/qa-reports/final-content-pass-20260609-075909/screenshots/git-preview-home-a9c015c.png`
-- `.gstack/qa-reports/final-content-pass-20260609-075909/screenshots/git-preview-home-709a4aa.png`
+- `POST /api/contact` mit Testdaten liefert aktuell erwartungsgemäß `503 mail_delivery_not_configured`, weil noch kein Mailprovider/Webhook in Cloudflare konfiguriert ist.
+- Das ist kein Fake-Erfolg; die UI nutzt dafür den Mailto-Fallback.
 
-## Bekannte technische Hinweise
+### GStack Browser QA
 
-- Tailwind-CDN-Warnung ist weiterhin in der Browser-Konsole sichtbar:
-  - `cdn.tailwindcss.com should not be used in production`
-- Das ist für Besucher nicht sichtbar, sollte aber vor finalem Livegang/Production-Härtung separat gelöst werden.
-- Die aktuelle Preview ist kundenfähig als finaler Zwischenstand/Freigabe-Link, aber nicht als Production-Merge ohne finales Review-Gate zu behandeln.
+GStack-Report:
 
-## GBrain / GStack
+- `.gstack/qa-reports/final-preview-892598f-20260619-085510/`
 
-- GStack Browse wurde für lokale und Cloudflare-Preview-QA genutzt und ist für diesen Final-Check grün.
-- GBrain-CLI ist installiert (`gbrain 0.42.26.0`) und diese Worktree ist gepinnt über `.gbrain-source`:
-  - `gstack-code-c1d3b65a-240242`
-- GBrain ist für diese Runde **nicht als grün geladen** zu werten:
-  - `gbrain sync --source gstack-code-c1d3b65a-240242` lief, aber die statischen HTML-Seiten wurden als nicht suchbare Code-Pages behandelt.
-  - `gbrain put` für den finalen Handoff und eine Kurzfassung scheiterte mit `[embed(ollama:nomic-embed-text)] Bad Request`.
-  - `ollama` ist in dieser WSL-Umgebung nicht auf PATH und `127.0.0.1:11434` war nicht erreichbar.
-- Verlässlicher Wiederanlauf ist deshalb: GitHub PR, dieser Handoff und Cloudflare-Preview. GBrain semantische Suche erst nach Reparatur/Start der lokalen Embedding-Engine wieder als Quelle nutzen.
+Geprüft auf der exakten UI-Preview `42f1713e`:
 
-## Offene Gates vor Merge/Production
+- Desktop Startseite:
+  - H1: `Recklinghäuser Leichtathletik Club.`
+  - `Schnelle Wege`: sichtbar (`display: grid`)
+  - horizontaler Overflow: `0`
+- Mobile Startseite `375x812`:
+  - H1: `Recklinghäuser Leichtathletik Club.`
+  - `Schnelle Wege`: ausgeblendet (`display: none`)
+  - horizontaler Overflow: `0`
+- Seiten geprüft mit Browser-Navigation und DOM-Probe:
+  - `/pages/news`
+  - `/pages/training`
+  - `/pages/team`
+  - `/pages/facilities`
+  - `/pages/contact`
+  - `/pages/events`
+  - `/pages/gallery`
+- Alle geprüften Seiten: `200`, H1 vorhanden, horizontaler Overflow `0`.
+- Trainingsfilter mobil: echtes `<details>`-Element, `open=false`.
+- Screenshots:
+  - `.gstack/qa-reports/final-preview-892598f-20260619-085510/screenshots/home-desktop-42f1713e.png`
+  - `.gstack/qa-reports/final-preview-892598f-20260619-085510/screenshots/home-mobile-42f1713e.png`
+  - `.gstack/qa-reports/final-preview-892598f-20260619-085510/screenshots/news-current-42f1713e.png`
+  - `.gstack/qa-reports/final-preview-892598f-20260619-085510/screenshots/training-mobile-filter-42f1713e.png`
 
-1. Maxi/Kunde finale visuelle Abnahme der Preview.
-2. Rechtliche finale Prüfung von Datenschutz/Impressum, falls das als Production-Inhalt gelten soll.
-3. Entscheidung, ob Tailwind-CDN vor Livegang gehärtet wird.
-4. Optional später: `pages/sponsors.html` sauber als Vereinsseite/URL migrieren. Nicht ohne Abstimmung umbenennen.
+## Offene Gates vor finalem Livegang / Merge
 
-## Kundentext-Vorschlag
+1. **Kunden-/Maxi-Abnahme der Preview**
+   Der aktuelle Stand ist ein Freigabeentwurf, nicht ungeprüft live mergen.
+
+2. **Kontaktformular-Zustellung aktivieren**
+   Cloudflare Env Vars setzen:
+   - `CONTACT_WEBHOOK_URL`
+   - optional `CONTACT_WEBHOOK_TOKEN`
+   Danach echten Submit-End-to-End testen.
+
+3. **PagesCMS / Redaktionsübergabe**
+   Noch nicht umgesetzt. Dafür braucht es einen eigenen Setup-Schritt: Content-Modell, Branch-Konzept, Editor-Test und Deploy-Test.
+
+4. **Kundenmaterial**
+   Noch abhängig von Freigaben/Lieferung:
+   - Trainerfotos mit Namen/Zuordnung und Einverständnissen
+   - Sportstättenfotos oder Bildquellen/Copyright-Hinweise
+   - optionale Telefonnummern / persönliche Kontaktangaben
+   - finale Bestätigung weiterer Veranstaltungsmaterialien
+
+5. **Production-Härtung**
+   - rechtliche finale Prüfung Impressum/Datenschutz
+   - Tailwind-CDN-Warnung vor echtem Production-Livegang separat bewerten/härten
+
+## Wiederanlauf für nächste Session
+
+```bash
+cd /home/llm/workspaces/recklinghausen
+git fetch origin
+git status --short --branch
+gh pr view 21 --json url,state,headRefName,baseRefName,statusCheckRollup
+wrangler pages deployment list --project-name rlc-1952-recklinghausen | sed -n '1,20p'
+```
+
+Kundentauglicher Branch-Alias:
 
 ```text
-Hier ist der aktuelle finale Preview-Stand der Website:
 https://codex-rlc-customer-go-conten.rlc-1952-recklinghausen.pages.dev
+```
 
-Bilder, Abendlauf-Seite, Navigation und die wichtigsten Inhalte sind jetzt sauber eingearbeitet und auf Desktop sowie mobil geprüft. Bitte einmal in Ruhe durchklicken und Bescheid geben, ob aus eurer Sicht noch letzte Text- oder Bildkorrekturen fehlen.
+Exakte UI-Preview des geprüften Website-Commits:
+
+```text
+https://42f1713e.rlc-1952-recklinghausen.pages.dev
 ```
