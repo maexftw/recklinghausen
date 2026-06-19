@@ -56,3 +56,26 @@ The Stitch direction is materially better than the current gallery page because 
    - `assets/images/rlc-team-nachwuchs.jpg`
    - `assets/images/rlc-hero-stadion.jpg`
 5. Verify via local Wrangler preview, desktop/mobile GStack Browse, design review, and Cloudflare preview.
+
+## Implementation status
+
+Ported into the existing static site instead of copying Stitch code directly.
+
+Changed files:
+
+- `pages/gallery.html`
+- `assets/css/subpages.css`
+
+Local verification artifacts:
+
+- Desktop hero: `.gstack/design-reports/gallery-stitch-port-20260619-105200/screenshots/gallery-stitch-desktop-bgfix.png`
+- Desktop series: `.gstack/design-reports/gallery-stitch-port-20260619-105200/screenshots/gallery-stitch-desktop-series-final.png`
+- Desktop index: `.gstack/design-reports/gallery-stitch-port-20260619-105200/screenshots/gallery-stitch-desktop-index-final.png`
+- Mobile hero: `.gstack/design-reports/gallery-stitch-port-20260619-105200/screenshots/gallery-stitch-mobile-final.png`
+- Mobile series: `.gstack/design-reports/gallery-stitch-port-20260619-105200/screenshots/gallery-stitch-mobile-series-final.png`
+- Mobile index: `.gstack/design-reports/gallery-stitch-port-20260619-105200/screenshots/gallery-stitch-mobile-index-final.png`
+
+Notes:
+
+- Hero/series/index image surfaces are rendered via CSS background images for stable crops while keeping `<img>` elements in the DOM for loading/alt context.
+- The only local console warning observed is the existing Tailwind CDN production warning.
