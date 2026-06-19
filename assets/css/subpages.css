@@ -4236,6 +4236,14 @@ body.subpage-gallery {
     line-height: 1.55;
 }
 
+.event-detail-list a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.75rem;
+    color: var(--subpage-brand-strong);
+    font-weight: 800;
+}
+
 .events-empty-note {
     margin: 0.8rem 0 0;
     color: var(--subpage-muted);
