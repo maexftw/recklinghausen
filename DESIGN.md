@@ -12,8 +12,8 @@ audience:
 color_mode: light
 headline_font: Lexend
 body_font: Inter
-primary_color: "#006860"
-secondary_color: "#FCD400"
+primary_color: "#20488E"
+secondary_color: "#006860"
 tertiary_color: "#BC0000"
 roundness: 4px
 source: repo
@@ -41,9 +41,16 @@ Die Gestaltung soll sich wie ein modernes Vereinsmagazin anfühlen, nicht wie ei
 
 ### Primär
 
-- Track Green: `#006860` / `#1C887F`
-- Deep Navy: `#10284F`
 - Club Blue: `#20488E`
+- Deep Navy: `#10284F`
+
+Blau ist die tragende Website-Linie für Navigation, Primary-CTAs, aktive Zustände, wichtige Infoflächen und zusammenhaltende Unterseiten-Akzente. Es soll sichtbar sein, aber nicht jede Fläche dominieren.
+
+### Sportlicher Sekundärakzent
+
+- Track Green: `#006860` / `#1C887F`
+
+Grün bleibt für sportliche Kicker/Labels, kleine Linien, Trainings-/Stadion-Anmutung und einzelne redaktionelle Akzente.
 
 ### Akzent
 
