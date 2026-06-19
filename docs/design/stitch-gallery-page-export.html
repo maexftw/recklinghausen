@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+
+<html class="light" lang="de"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Bilder - RLC 1952</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-primary": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "on-secondary-container": "#6e5c00",
+                        "inverse-primary": "#78d6cc",
+                        "error": "#ba1a1a",
+                        "on-tertiary-fixed-variant": "#930000",
+                        "on-error": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "primary-fixed-dim": "#78d6cc",
+                        "outline-variant": "#bdc9c6",
+                        "surface-variant": "#e3e2e2",
+                        "tertiary-fixed-dim": "#ffb4a8",
+                        "on-surface": "#1b1c1c",
+                        "tertiary-fixed": "#ffdad4",
+                        "surface-container-highest": "#e3e2e2",
+                        "on-secondary-fixed-variant": "#544600",
+                        "inverse-surface": "#303031",
+                        "secondary-fixed-dim": "#e9c400",
+                        "primary-container": "#10827a",
+                        "inverse-on-surface": "#f2f0f0",
+                        "surface-bright": "#faf9f9",
+                        "primary": "#006860",
+                        "secondary-fixed": "#ffe16d",
+                        "surface-container": "#efeded",
+                        "tertiary-container": "#e7180d",
+                        "on-primary-container": "#f3fffc",
+                        "error-container": "#ffdad6",
+                        "background": "#faf9f9",
+                        "surface-tint": "#006a63",
+                        "on-tertiary-fixed": "#410000",
+                        "surface-container-low": "#f5f3f3",
+                        "on-surface-variant": "#3e4947",
+                        "on-secondary-fixed": "#221b00",
+                        "on-primary-fixed": "#00201d",
+                        "surface-dim": "#dbdad9",
+                        "on-secondary": "#ffffff",
+                        "on-background": "#1b1c1c",
+                        "surface": "#faf9f9",
+                        "primary-fixed": "#94f3e8",
+                        "on-tertiary": "#ffffff",
+                        "secondary": "#705d00",
+                        "tertiary": "#bc0000",
+                        "outline": "#6e7977",
+                        "on-tertiary-container": "#fffbff",
+                        "surface-container-high": "#e9e8e8",
+                        "secondary-container": "#fcd400",
+                        "on-primary-fixed-variant": "#00504a"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {},
+                    "fontFamily": {
+                        "headline": [
+                            "Lexend", "sans-serif"
+                        ],
+                        "display": [
+                            "Lexend", "sans-serif"
+                        ],
+                        "body": [
+                            "Inter", "sans-serif"
+                        ],
+                        "label": [
+                            "Lexend", "sans-serif"
+                        ]
+                    },
+                    "fontSize": {
+                        "display-lg": ["3.5rem", { lineHeight: "4rem", letterSpacing: "-0.02em" }],
+                        "display-md": ["2.8125rem", { lineHeight: "3.25rem", letterSpacing: "-0.02em" }],
+                        "display-sm": ["2.25rem", { lineHeight: "2.75rem" }],
+                        "headline-lg": ["2rem", { lineHeight: "2.5rem" }],
+                        "headline-md": ["1.75rem", { lineHeight: "2.25rem" }],
+                        "headline-sm": ["1.5rem", { lineHeight: "2rem" }],
+                        "title-lg": ["1.375rem", { lineHeight: "1.75rem" }],
+                        "title-md": ["1.125rem", { lineHeight: "1.5rem", letterSpacing: "0.01em" }],
+                        "title-sm": ["0.875rem", { lineHeight: "1.25rem", letterSpacing: "0.01em" }],
+                        "label-lg": ["0.875rem", { lineHeight: "1.25rem", letterSpacing: "0.01em" }],
+                        "label-md": ["0.75rem", { lineHeight: "1rem", letterSpacing: "0.04em" }],
+                        "label-sm": ["0.6875rem", { lineHeight: "1rem", letterSpacing: "0.04em" }],
+                        "body-lg": ["1rem", { lineHeight: "1.5rem", letterSpacing: "0.03em" }],
+                        "body-md": ["0.875rem", { lineHeight: "1.25rem", letterSpacing: "0.01em" }],
+                        "body-sm": ["0.75rem", { lineHeight: "1rem", letterSpacing: "0.03em" }]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #006860 0%, #10827a 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .cta-primary {
+            background: linear-gradient(135deg, #006860 0%, #10827a 100%);
+        }
+        
+        .glass-panel {
+            background: rgba(250, 249, 249, 0.8);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+        
+        .text-shadow-sm {
+            text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        }
+        
+        /* Subtle image zoom on hover for cards */
+        .img-zoom-container {
+            overflow: hidden;
+        }
+        .img-zoom-container img {
+            transition: transform 0.7s cubic-bezier(0.25, 1, 0.5, 1);
+        }
+        .img-zoom-container:hover img {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body antialiased selection:bg-secondary-container selection:text-on-secondary-container">
+<!-- Navigation Shell: TopNavBar (Web) / BottomNavBar (Mobile Fallback Concept applied to Top Nav) -->
+<nav class="bg-surface/80 backdrop-blur-xl dark:bg-surface-dim/80 docked full-width top-0 sticky z-50 flat no shadows bg-surface dark:bg-surface-dim">
+<div class="flex justify-between items-center px-8 py-4 w-full max-w-7xl mx-auto">
+<div class="text-2xl font-headline font-black tracking-tighter text-primary dark:text-primary-fixed">RLC 1952</div>
+<!-- Desktop Nav Links -->
+<div class="hidden md:flex items-center space-x-8">
+<a class="text-on-surface-variant dark:text-outline-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors duration-300" href="#">Startseite</a>
+<a class="text-on-surface-variant dark:text-outline-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors duration-300" href="#">Aktuelles</a>
+<a class="text-on-surface-variant dark:text-outline-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors duration-300" href="#">Termine</a>
+<a class="text-on-surface-variant dark:text-outline-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors duration-300" href="#">Training</a>
+<a class="text-on-surface-variant dark:text-outline-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors duration-300" href="#">Verein</a>
+<!-- Active State Logic Applied to "Bilder" equivalent (Using "Bilder" as it was in SideNav, mapping to "Aktuelles" context or adding it) -->
+<a class="text-primary dark:text-primary-fixed font-bold border-b-2 border-secondary-container hover:text-primary dark:hover:text-primary-fixed transition-colors duration-300" href="#">Bilder</a>
+<a class="text-on-surface-variant dark:text-outline-variant font-medium hover:text-primary dark:hover:text-primary-fixed transition-colors duration-300" href="#">Mitmachen</a>
+</div>
+<!-- Actions -->
+<div class="flex items-center space-x-4">
+<button class="hidden md:inline-flex cta-primary text-on-primary font-headline text-label-lg font-semibold px-6 py-2.5 rounded-md hover:opacity-90 transition-opacity shadow-sm">
+                    Mitmachen
+                </button>
+<button class="md:hidden text-on-surface p-2 scale-95 active:scale-90 transition-transform">
+<span class="material-symbols-outlined text-2xl">menu</span>
+</button>
+</div>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="w-full">
+<!-- Section 1: Hero Editorial -->
+<section class="relative pt-16 pb-24 lg:pt-32 lg:pb-40 px-6 lg:px-12 max-w-[1440px] mx-auto flex flex-col lg:flex-row gap-16 items-start">
+<!-- Left: Typography & Actions (40%) -->
+<div class="w-full lg:w-2/5 flex flex-col z-10 lg:sticky lg:top-32">
+<div class="mb-4 flex items-center space-x-3 text-label-md font-label uppercase tracking-widest text-on-surface-variant">
+<span class="w-8 h-[1px] bg-outline-variant"></span>
+<span>Galerie</span>
+</div>
+<h1 class="text-display-md lg:text-display-lg font-headline font-bold text-on-surface leading-tight tracking-tighter mb-8 break-words hyphens-auto">
+                    Bilder aus Training, Wettkampf und Vereinsleben.
+                </h1>
+<p class="text-title-md font-body text-on-surface-variant mb-12 max-w-md leading-relaxed">
+                    Ein kuratierter Blick auf den RLC 1952: Starts, Training, Nachwuchs, Abendlauf und gemeinsame Vereinsmomente.
+                </p>
+<div class="flex flex-wrap gap-4 mb-16">
+<button class="cta-primary text-on-primary font-headline text-label-lg font-semibold px-8 py-3.5 rounded-md hover:opacity-90 transition-opacity shadow-[0_8px_24px_-8px_rgba(0,104,96,0.4)] flex items-center gap-2">
+<span>Bildserien ansehen</span>
+<span class="material-symbols-outlined text-lg">arrow_downward</span>
+</button>
+<button class="bg-surface-container-low text-on-surface font-headline text-label-lg font-semibold px-8 py-3.5 rounded-md hover:bg-surface-container-high transition-colors flex items-center gap-2">
+<span>Training kennenlernen</span>
+<span class="material-symbols-outlined text-lg">arrow_forward</span>
+</button>
+</div>
+<!-- Metadata Strip -->
+<div class="mt-auto border-l-2 border-secondary-container pl-4 py-1">
+<p class="text-label-md font-label uppercase tracking-widest text-on-surface-variant mb-1">Status 2025/2026</p>
+<p class="text-body-sm font-body text-on-surface">4 Bildwelten · Training · Wettkampf · Verein</p>
+</div>
+</div>
+<!-- Right: High-Impact Visual Collage (60%) -->
+<div class="w-full lg:w-3/5 grid grid-cols-12 grid-rows-6 gap-4 lg:gap-6 h-[614px] lg:h-[800px]">
+<!-- Large Main Image -->
+<div class="col-span-12 row-span-4 lg:col-span-8 lg:row-span-6 rounded-xl overflow-hidden shadow-[0_24px_48px_-12px_rgba(27,28,28,0.15)] relative img-zoom-container">
+<div class="w-full h-full bg-cover bg-center" data-alt="A dynamic, high-quality sports photography shot of a track and field athlete mid-sprint on a bright red synthetic track. The lighting is sunny and energetic, casting sharp shadows. The stadium bleachers blur in the background. The mood is intense, fast, and highly professional, reflecting a premium sports editorial aesthetic. Track Green and Podium Gold color accents are naturally woven into the athlete's apparel." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCAnsIJRajWyF13_c7r_8wKjBw3qu2G8SjhmCZDViOK5tfu7IsYNYVxTDiOEM2tImENoyiOqTaRfUntazYZ_pH87e0O-OXDxqf_tV1Q4OUtfI7MoBP3RBsactjgktqQZfyDZCm_WiM61ecXB_xGrVkkpl7azbqI9aFIo3K11dn8SU0pDu1uKQxMpdylX5MfVDDxZF_PHDGm0VmWKr6c1p8DhHtRO_gnkhWY_TuSftDp52-eU9Cf9LTbesPsew69ZiNYHJJHsn2lv-D-')"></div>
+<!-- Glass overlay caption -->
+<div class="absolute bottom-6 left-6 right-6 glass-panel p-4 rounded-lg flex justify-between items-center border border-white/20">
+<div>
+<span class="text-label-sm font-label uppercase tracking-widest text-primary mb-1 block">Highlight</span>
+<span class="text-title-sm font-headline font-semibold text-on-surface">Deutsche Meisterschaften 2024</span>
+</div>
+<button class="w-10 h-10 rounded-full bg-surface/50 hover:bg-surface flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-on-surface">open_in_full</span>
+</button>
+</div>
+</div>
+<!-- Secondary Images Stack -->
+<div class="col-span-6 row-span-2 lg:col-span-4 lg:row-span-3 rounded-xl overflow-hidden img-zoom-container mt-4 lg:mt-0 lg:ml-[-2rem] z-20 shadow-[0_16px_32px_-8px_rgba(27,28,28,0.1)]">
+<div class="w-full h-full bg-cover bg-center" data-alt="A close-up, highly focused shot of a starting block on a running track. A runner's hands are placed firmly on the ground, anticipating the starting gun. Shallow depth of field blurs the background track into a mix of deep forest greens and bright synthetic reds. Lighting is dramatic morning sunlight. The image conveys anticipation, precision, and athletic tension." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBAMGCeOYfLvG9Rk4lboK8YbPlptfMFcSF3L16-aFy8AwIvPnhi8DzUgOyQqePIV3vaB8lVKfUoW2sdwrI7Q15OaqZ6eDRUPIkmlUyIRQHISYQPzVpHFZ2VC7gIgQJLP9lbgR5ha7niCnxLKBBsTJTsEF8E026ZiewSl8RhU26eNvTAzWpJyYpNAnDN_hSM8NemiYtrqhx7qEzuwmnCuhr92pR3yvuoT0ZdvgVHg6qY7gBNF46DIAnVftgc38QbBnbgN8YGSdWaQ3Xk')"></div>
+</div>
+<div class="col-span-6 row-span-2 lg:col-span-4 lg:row-span-3 rounded-xl overflow-hidden img-zoom-container mt-4 lg:mt-0 lg:-ml-4 z-10 opacity-90 hover:opacity-100 transition-opacity">
+<div class="w-full h-full bg-cover bg-center" data-alt="A candid, warm editorial photo of a group of young athletes in Track Green team jackets laughing and high-fiving after a training session. The setting is a bright, open sports field with late afternoon golden hour lighting casting long, soft shadows. The mood is community-focused, energetic, and joyful, highlighting the team spirit of a modern sports club." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC-8OeJYwqr4uxIwErM5Cluc04ulcbs0_ZfjvQTiJ3cUCDhCPqFa8Hek6CjlcUzRO9ARERnTBwDXYdyJttN1WmSC3pOL7M2guvIojXAxspHXve08mAAc6S3SVruVDeaaLMdV6C7UisRWLZG6X1p0OYEKXu3OOyfLf0pKP5Y02Ce-lA-f9gxnBqJXWJ5D2pz54lmlvGp2LSSjfh4vfc_nar8FHxoSAWisJZUib8Oibp7UPY9LNHkduvrwjOXWSJmC5hgSr9bDsfeetTZ')"></div>
+</div>
+</div>
+</section>
+<!-- Section 2: Featured Series (Asymmetric Layout) -->
+<section class="py-24 px-6 lg:px-12 max-w-[1440px] mx-auto border-t border-surface-container-high/50">
+<div class="mb-16 md:mb-24 flex flex-col md:flex-row md:items-end justify-between gap-8">
+<div class="max-w-2xl">
+<h2 class="text-headline-lg lg:text-display-sm font-headline font-bold text-on-surface tracking-tight mb-4">
+                        Kuratierte Serien
+                    </h2>
+<p class="text-body-lg text-on-surface-variant">Tauche tiefer ein in die zentralen Momente unseres Vereinslebens. Ausgewählte Reportagen statt endloser Kachelwände.</p>
+</div>
+<div class="flex gap-2">
+<button class="w-12 h-12 rounded-full border border-outline-variant/30 flex items-center justify-center hover:bg-surface-container-low transition-colors group">
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary transition-colors">arrow_back</span>
+</button>
+<button class="w-12 h-12 rounded-full border border-outline-variant/30 flex items-center justify-center hover:bg-surface-container-low transition-colors group">
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary transition-colors">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Asymmetric Grid: 1 Large + 3 Small -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 lg:gap-10">
+<!-- Main Feature (Takes up large left space) -->
+<a class="col-span-1 md:col-span-12 lg:col-span-7 group block" href="#">
+<div class="relative w-full aspect-[4/3] lg:aspect-[16/10] rounded-xl overflow-hidden bg-surface-container-low mb-6">
+<div class="w-full h-full bg-cover bg-center transform group-hover:scale-105 transition-transform duration-700 ease-in-out" data-alt="A wide, sweeping evening shot of the 'Sparkassen Abendlauf' running event. Runners are streaming down a tree-lined path illuminated by warm street lamps and temporary event lighting. The sky is a deep twilight blue. Motion blur on the runners conveys speed and energy, while spectators line the sides. The atmosphere is vibrant, communal, and dynamic." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC4W3UIgYICKhdEFq71_Sj8_CiTWwnM6DaYBQMtLQAVJxZh4ZMvjqEDuS_jaqb-pFfBcjL0JSP90x3LvD4dx1iKNxUiLdzLxoD0p6bRvNxE7zVyh5xaEML4hHp_AtZ6-5EZr8WO6wWk-uMD6iJ7x0stod-ZKKQWLnxJWm0nzFFC4R77v5EiO3-BXy3cI3qMNL2anOuQLmIa5CIli7g8wl9-OX6jQyfBsIlfM6E3B22jUI0rl2zqP8JNYO-Jaeqxrn1ShjjJsYu5r9pz')"></div>
+<div class="absolute top-6 left-6 flex gap-2">
+<span class="bg-secondary-container text-on-secondary-container text-label-sm font-label font-bold px-3 py-1 rounded-full shadow-sm">Event</span>
+<span class="bg-surface/90 backdrop-blur-sm text-on-surface text-label-sm font-label px-3 py-1 rounded-full">124 Bilder</span>
+</div>
+</div>
+<h3 class="text-headline-md font-headline font-bold text-on-surface group-hover:text-primary transition-colors mb-2">Sparkassen Abendlauf</h3>
+<p class="text-body-md text-on-surface-variant mb-4">Start, Strecke und Zieleinlauf unter Flutlicht. Die Highlights des Jahres.</p>
+</a>
+<!-- 3 Smaller Features Stacked/Grid -->
+<div class="col-span-1 md:col-span-12 lg:col-span-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-8 lg:gap-10">
+<!-- Small Feature 1 -->
+<a class="group block grid grid-cols-1 lg:grid-cols-5 gap-4 lg:gap-6 items-center" href="#">
+<div class="col-span-1 lg:col-span-2 relative aspect-square lg:aspect-[4/3] rounded-xl overflow-hidden bg-surface-container-low">
+<div class="w-full h-full bg-cover bg-center transform group-hover:scale-105 transition-transform duration-500 ease-in-out" data-alt="A bright, cheerful photo of young children participating in a track and field training session. A coach is demonstrating a jumping technique while the kids watch attentively. The setting is a sunny, green sports field. The colors are vibrant and optimistic. The focus is on learning, growth, and the foundation of youth sports." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDGtYPsGDS4Y8vfWyKrkZXmet245D9bZy7vj6pcf8lgZRTEYkaUlrApoXd516NgKU60oUEO26_ktBNNUQpLBhmU6CBXu0bto0NROrSSWOhmCTQEPl56ov7Ez3MNfXQI8E0g4btZimFN1kzXoIaZ_-ySk32VbuRD2eLndS26ES6sILM0zSTbC6B03PrL3KJ1Mhi19IPnGjI70TQ3t33BUzwNQWsMca683KcY1572lzpW0b4uvFuPolzcpBNBeL2mgMJNw74yTtuLUT0l')"></div>
+</div>
+<div class="col-span-1 lg:col-span-3">
+<div class="flex gap-2 mb-2">
+<span class="text-label-sm font-label text-primary font-semibold uppercase tracking-wider">Nachwuchs</span>
+</div>
+<h4 class="text-title-md font-headline font-bold text-on-surface group-hover:text-primary transition-colors mb-2">Training &amp; Jugend</h4>
+<p class="text-body-sm text-on-surface-variant line-clamp-2">Grundlagen, Technik und der Spaß an der Bewegung auf dem Platz.</p>
+</div>
+</a>
+<!-- Small Feature 2 -->
+<a class="group block grid grid-cols-1 lg:grid-cols-5 gap-4 lg:gap-6 items-center" href="#">
+<div class="col-span-1 lg:col-span-2 relative aspect-square lg:aspect-[4/3] rounded-xl overflow-hidden bg-surface-container-low">
+<div class="w-full h-full bg-cover bg-center transform group-hover:scale-105 transition-transform duration-500 ease-in-out" data-alt="A highly intense, close-up shot of a relay race baton handoff between two athletes. The precise moment of transfer is captured sharply against a blurred background of the track and competitors. The lighting is stark and dramatic, emphasizing the tension, speed, and teamwork required in competitive track events. Colors feature deep track green and stark whites." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAXWhzc-9uwy5gL9nkswf9VXjDaAC08bmRzOEp2cWmdkjFQOUjYpmu6gDkEK32WQOBZOQH2djpS3-LQCqnwEYe96kYIwtZlFaHFKdUUdEV8tkK97BP-aX9a3JuhhBu-YqZJQ83Ag_T40VSoWMKXr_58g6Trr3fUWs7L_BSqrdEuOi43vRGMq0dlaBKudmnYHHuUxjb9f8jV2sAJ5fn9BSm8fYvlgqSHi7I7DTXdO9k5_nTc_Q7eSACM0C_CBT0D7nyNtLIuwUHx831u')"></div>
+</div>
+<div class="col-span-1 lg:col-span-3">
+<div class="flex gap-2 mb-2">
+<span class="text-label-sm font-label text-tertiary font-semibold uppercase tracking-wider">Wettkampf</span>
+</div>
+<h4 class="text-title-md font-headline font-bold text-on-surface group-hover:text-primary transition-colors mb-2">Meisterschaften</h4>
+<p class="text-body-sm text-on-surface-variant line-clamp-2">Entscheidende Staffeln, persönliche Bestleistungen und Siegerehrungen.</p>
+</div>
+</a>
+<!-- Small Feature 3 -->
+<a class="group block grid grid-cols-1 lg:grid-cols-5 gap-4 lg:gap-6 items-center" href="#">
+<div class="col-span-1 lg:col-span-2 relative aspect-square lg:aspect-[4/3] rounded-xl overflow-hidden bg-surface-container-low">
+<div class="w-full h-full bg-cover bg-center transform group-hover:scale-105 transition-transform duration-500 ease-in-out" data-alt="A relaxed, candid photo of sports club members enjoying a summer barbecue event outdoors. People of various ages are gathered around tables, talking and laughing, with a clubhouse slightly visible in the background. The lighting is warm golden hour, creating a cozy, inviting atmosphere that highlights community and off-field camaraderie." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBjlRPPfJNqzhMwEQlZ3o_A6HPS-eShaaz5EFsMvuANo55lvs2Mr3D9kCDHbNGEFLbFhS6UY_7uQMCiddqjDYK34emCK2S8adRfjeHoPLcRL6hdgSkUvdNtLgQdISstU_WKYO5Cq5HLx4kgm4rR4eAX5fE7Uao5wspOYqpinfLB6jyOWHSdyDLg5Yz1IWA-geVrEVvW2vvzNGl43VE_ja1LkY5oEqTythbvtpmrsqCAxb7SkoL4nN8NYhjCO_R9XSQqSd2MWjw5fcm7')"></div>
+</div>
+<div class="col-span-1 lg:col-span-3">
+<div class="flex gap-2 mb-2">
+<span class="text-label-sm font-label text-secondary font-semibold uppercase tracking-wider">Verein</span>
+</div>
+<h4 class="text-title-md font-headline font-bold text-on-surface group-hover:text-primary transition-colors mb-2">Vereinsleben</h4>
+<p class="text-body-sm text-on-surface-variant line-clamp-2">Sommerfeste, Jubiläen, Ehrungen und gemeinsame Ausflüge abseits des Sports.</p>
+</div>
+</a>
+</div>
+</div>
+</section>
+<!-- Section 3: Gallery Index (Structured Grid) -->
+<section class="py-24 px-6 lg:px-12 max-w-[1440px] mx-auto bg-surface-container-lowest">
+<div class="flex flex-col md:flex-row md:items-center justify-between mb-12 gap-6">
+<h2 class="text-headline-sm font-headline font-bold text-on-surface">Archiv &amp; Kategorien</h2>
+<!-- Category Chips (Horizontal Scroll on Mobile) -->
+<div class="flex overflow-x-auto pb-2 -mx-6 px-6 md:mx-0 md:px-0 md:pb-0 gap-3 no-scrollbar">
+<button class="whitespace-nowrap px-5 py-2 rounded-full bg-primary-container text-on-primary-container font-label text-label-md font-semibold transition-colors">Alle</button>
+<button class="whitespace-nowrap px-5 py-2 rounded-full bg-surface-container-high text-on-surface-variant hover:bg-surface-variant font-label text-label-md font-medium transition-colors">Abendlauf</button>
+<button class="whitespace-nowrap px-5 py-2 rounded-full bg-surface-container-high text-on-surface-variant hover:bg-surface-variant font-label text-label-md font-medium transition-colors">Nachwuchs</button>
+<button class="whitespace-nowrap px-5 py-2 rounded-full bg-surface-container-high text-on-surface-variant hover:bg-surface-variant font-label text-label-md font-medium transition-colors">Wettkampf</button>
+<button class="whitespace-nowrap px-5 py-2 rounded-full bg-surface-container-high text-on-surface-variant hover:bg-surface-variant font-label text-label-md font-medium transition-colors">Training</button>
+<button class="whitespace-nowrap px-5 py-2 rounded-full bg-surface-container-high text-on-surface-variant hover:bg-surface-variant font-label text-label-md font-medium transition-colors">Vereinsleben</button>
+</div>
+</div>
+<!-- Structured Grid: Not masonry, clean rows -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16">
+<!-- Grid Item 1 -->
+<div class="group cursor-pointer">
+<div class="aspect-[4/3] rounded-xl overflow-hidden bg-surface-container mb-4 img-zoom-container">
+<div class="w-full h-full bg-cover bg-center" data-alt="A sweeping wide-angle shot of a large indoor track and field arena during a winter competition. The lighting is bright, artificial, and clean, highlighting the smooth curves of the indoor track. Athletes can be seen warming up in the distance. The mood is vast, professional, and disciplined. Dominant colors are white, grey, and track red." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuALy-KqNe23VCguxWYLjyfdfzpYCjsbDJ9goTisccTpm0NOcXOOo-sG2xBXDhBaI_oZCkpy9XQOseVG1we_XeldAdlQNoOzwGIX5qlhWH1dNZzwkOn7-kSraSrxuVD8EmwlOvLVhB7UrMVjMk4dlsBgvrfsuAdDGkBCoH25UmEn7TTKdMauuJ628WU8AnmTX250sudYDHhCe0TOMzXiWfYiuD6wFLsy3e73U8g6EZtNgxTAr1Nugd7afrxPDmFT0VgkNsMAyLNbKJHl')"></div>
+</div>
+<div class="flex justify-between items-start">
+<div>
+<h4 class="text-title-md font-headline font-semibold text-on-surface mb-1 group-hover:text-primary transition-colors">Hallenmeisterschaften 2024</h4>
+<p class="text-body-sm text-on-surface-variant">Dortmund · 42 Bilder</p>
+</div>
+<span class="material-symbols-outlined text-outline opacity-0 group-hover:opacity-100 transition-opacity">arrow_outward</span>
+</div>
+</div>
+<!-- Grid Item 2 -->
+<div class="group cursor-pointer">
+<div class="aspect-[4/3] rounded-xl overflow-hidden bg-surface-container mb-4 img-zoom-container">
+<div class="w-full h-full bg-cover bg-center" data-alt="A dynamic, low-angle shot of a high jumper clearing the bar against a clear, bright blue sky. The athlete's body is arched perfectly in mid-air. The lighting is bright mid-day sun, emphasizing the athletic form and the height of the jump. The image feels aspirational, energetic, and peak-performance oriented." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDlSoo5--spKJ_RE6qr7pnVBjj7-vktOmf5k5yf0Tc_JWvy2WpRcGsI_4uDOEDCQURZY0Y32CX6jWqqK8xVMGjRC5O4Pspscb2uqIUwlPmd8PlDuPUTswCJ0Gws0sRTVJKUGjtbMSyIkloVjBQX4TjPHqOmpMKkdgcySD7SZt9nIHqOTFFXx8IajHnH-2_3idWttzPNK5pKAcqJjzh-nXMzI9KP6nxv3YlFHZX0zxiYicphX6r1QPQkEv9faY7TKazqLVxI5GcB3Ixb')"></div>
+</div>
+<div class="flex justify-between items-start">
+<div>
+<h4 class="text-title-md font-headline font-semibold text-on-surface mb-1 group-hover:text-primary transition-colors">Hochsprung Meeting</h4>
+<p class="text-body-sm text-on-surface-variant">Recklinghausen · 86 Bilder</p>
+</div>
+<span class="material-symbols-outlined text-outline opacity-0 group-hover:opacity-100 transition-opacity">arrow_outward</span>
+</div>
+</div>
+<!-- Grid Item 3 -->
+<div class="group cursor-pointer">
+<div class="aspect-[4/3] rounded-xl overflow-hidden bg-surface-container mb-4 img-zoom-container">
+<div class="w-full h-full bg-cover bg-center" data-alt="A portrait-style editorial shot of a senior track coach giving instructions to an athlete. The coach is wearing a green team jacket and holding a stopwatch. The background is softly out of focus, drawing attention to the serious, focused expression on the coach's face. The lighting is natural and documentary-style. Conveys experience, dedication, and mentorship." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAGU_HnEloJxGHrpBPXz3SRDdV98rRJr5k45RDM4jkEXPl1RsiHDzdfCTA1MGp1x-_-FsyyjAVLiYudZPMBB_Xb7996DTpITtPmTMpWYQKq4fpOt38U-zKs9FrG9shf5n4oYik4k0RIwUyYXLtoCn5yiutrS06g9ezNTPgFZd8e4mZGLdvxshBn1-aNeF38HSCMYQ4WJu_pLYVm5CXln4wUEEYb7vD6FO_Nuj69MrwJpEhthuBoclrBkG1Aver0zeVcDJwC2g6Y3a_0')"></div>
+</div>
+<div class="flex justify-between items-start">
+<div>
+<h4 class="text-title-md font-headline font-semibold text-on-surface mb-1 group-hover:text-primary transition-colors">Trainingslager Kienbaum</h4>
+<p class="text-body-sm text-on-surface-variant">Kienbaum · 150 Bilder</p>
+</div>
+<span class="material-symbols-outlined text-outline opacity-0 group-hover:opacity-100 transition-opacity">arrow_outward</span>
+</div>
+</div>
+<!-- Grid Item 4 -->
+<div class="group cursor-pointer">
+<div class="aspect-[4/3] rounded-xl overflow-hidden bg-surface-container mb-4 img-zoom-container">
+<div class="w-full h-full bg-cover bg-center" data-alt="A muddy, action-packed photograph of a cross-country race. Runners are navigating a challenging, wet terrain through a forest path. Splashes of mud are frozen in mid-air around their running spikes. The lighting is overcast and moody, highlighting the grit, endurance, and raw effort of outdoor athletics. Colors are muted earth tones with bright pops of runner's jerseys." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBpcb4MwGsAi6QqcxGPHfGIG6Gc8-dXB97dGiTGcbIzl5QCthIvRxlQ2f72H-krtt3qoSqfmARFaXXaIaiSCcnYKKwowCbtx9ge8vDao7jDip3i5r2cq2IslEcLHK04VHrnzhchQXQu32VYUfbYnaP2rI0EN6awXwL7TydZozZS99UO07Ih4OFAcxBA-FYIt0cILWplU6MDC5J9RVDcffP22na9i8Dbs__wfM89R_c6Dd8hzxPSdjnEg7O071duMLULkV4k3aH_ph-y')"></div>
+</div>
+<div class="flex justify-between items-start">
+<div>
+<h4 class="text-title-md font-headline font-semibold text-on-surface mb-1 group-hover:text-primary transition-colors">Crosslauf Serie West</h4>
+<p class="text-body-sm text-on-surface-variant">Herten · 64 Bilder</p>
+</div>
+<span class="material-symbols-outlined text-outline opacity-0 group-hover:opacity-100 transition-opacity">arrow_outward</span>
+</div>
+</div>
+<!-- Grid Item 5 -->
+<div class="group cursor-pointer">
+<div class="aspect-[4/3] rounded-xl overflow-hidden bg-surface-container mb-4 img-zoom-container">
+<div class="w-full h-full bg-cover bg-center" data-alt="A wide architectural shot of an empty stadium track at dawn. The morning mist is just beginning to clear, and the sun is rising, casting long, dramatic shadows across the red running lanes and the bright white lines. The image is serene, minimalist, and highly structured, evoking the calm before the storm of a competition day." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDYs1oxN0u9yHjTt1IHj1Vq8dEgE3sX59rcP2G6bO8t5-nHd7p-PPywD9WUABh6kXHvr_eBIIqoYdIy6BS4ZiWPKEpQ4dn2_fUo0RCHDHC2TNnlUoevQu0Fp32FJc6wj8iMSzRGFlAwQiLpad8Kn9D3s394KnjUsZENC8umu6_owXo4badm80JskcO1b4Qefblwb2xNLz4qRwcFPRTNeC-iVQYn83FkEP3YYjcHqgSkPkbJYK7LIMPI7jXqbdSwq3fGV_Ea534vMje8')"></div>
+</div>
+<div class="flex justify-between items-start">
+<div>
+<h4 class="text-title-md font-headline font-semibold text-on-surface mb-1 group-hover:text-primary transition-colors">Stadionumbau 2023</h4>
+<p class="text-body-sm text-on-surface-variant">Hohenhorst · 28 Bilder</p>
+</div>
+<span class="material-symbols-outlined text-outline opacity-0 group-hover:opacity-100 transition-opacity">arrow_outward</span>
+</div>
+</div>
+<!-- Grid Item 6 -->
+<div class="group cursor-pointer">
+<div class="aspect-[4/3] rounded-xl overflow-hidden bg-surface-container mb-4 img-zoom-container">
+<div class="w-full h-full bg-cover bg-center" data-alt="A lively photo capturing a children's relay race event. Young kids are running on the track, handing off oversized, colorful foam batons. Parents and supporters are cheering excitedly in the softly blurred background. The image is full of motion, vibrant colors, and pure joy, capturing the grassroots level of track and field sports." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBrYSsXA9-YyU7g43elKlUVwke4EDBjRg9ydtXxx8Mn8k3EO2ofIf7NThenecx9gUbQetMikTUpyDLE3fDZGv9yRkE3fc1GXNLtUYlAfHNx9U-NWSPbdzIa1ZhFAJDlWLiQr_MHnAZxqYUsOvEZ0MRZVc52Ip10W-elVryWjqENUE1v7DMCIvyCP3iGZJGLp-ZhUM9o9BeBxn7XB_tUosCSHp-gM2Ge0rsmCl4ZVvpj7K4SYhWBInTkBJvDUkp5mHAAkeJb9fiVkkv4')"></div>
+</div>
+<div class="flex justify-between items-start">
+<div>
+<h4 class="text-title-md font-headline font-semibold text-on-surface mb-1 group-hover:text-primary transition-colors">KiLa-Sportfest</h4>
+<p class="text-body-sm text-on-surface-variant">Stadion · 112 Bilder</p>
+</div>
+<span class="material-symbols-outlined text-outline opacity-0 group-hover:opacity-100 transition-opacity">arrow_outward</span>
+</div>
+</div>
+</div>
+<div class="mt-16 text-center">
+<button class="inline-flex items-center gap-2 border-b border-outline hover:border-primary text-on-surface hover:text-primary font-headline font-medium pb-1 transition-all">
+<span>Ältere Alben laden</span>
+<span class="material-symbols-outlined text-sm">add</span>
+</button>
+</div>
+</section>
+<!-- Section 4: CTA Ending -->
+<section class="py-32 px-6 relative overflow-hidden bg-surface-container-low">
+<!-- Subtle background aesthetic element -->
+<div class="absolute top-0 right-0 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3 pointer-events-none"></div>
+<div class="max-w-4xl mx-auto text-center relative z-10">
+<h2 class="text-display-sm lg:text-display-md font-headline font-bold text-on-surface tracking-tight mb-6">
+                    Du möchtest Training live erleben?
+                </h2>
+<p class="text-title-lg font-body text-on-surface-variant mb-12 max-w-2xl mx-auto leading-relaxed">
+                    Komm zum Probetraining vorbei oder schreib uns, wenn du Fragen zu einer Bildserie hast. Wir freuen uns auf dich.
+                </p>
+<div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+<button class="w-full sm:w-auto cta-primary text-on-primary font-headline text-label-lg font-semibold px-8 py-4 rounded-md hover:opacity-90 transition-opacity shadow-md">
+                        Training ansehen
+                    </button>
+<button class="w-full sm:w-auto bg-surface text-on-surface border border-outline-variant/50 font-headline text-label-lg font-semibold px-8 py-4 rounded-md hover:bg-surface-container-high transition-colors">
+                        Kontakt aufnehmen
+                    </button>
+<button class="w-full sm:w-auto text-on-surface-variant hover:text-primary font-headline text-label-lg font-semibold px-6 py-4 rounded-md transition-colors underline-offset-4 hover:underline">
+                        Termine prüfen
+                    </button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer Component -->
+<footer class="bg-surface-container-low dark:bg-surface-container-highest w-full mt-16 flat no shadows">
+<div class="flex flex-col md:flex-row justify-between items-center px-8 py-12 w-full max-w-7xl mx-auto">
+<div class="mb-8 md:mb-0 text-center md:text-left">
+<div class="font-headline font-bold text-primary text-xl mb-2">RLC 1952</div>
+<div class="font-body text-label-md text-on-surface-variant">© 2024 Recklinghäuser Leichtathletik Club 1952 e.V.</div>
+</div>
+<div class="flex flex-wrap justify-center gap-6">
+<a class="font-body text-label-md text-on-surface-variant hover:text-secondary-fixed-variant transition-colors opacity-80 hover:opacity-100" href="#">Impressum</a>
+<a class="font-body text-label-md text-on-surface-variant hover:text-secondary-fixed-variant transition-colors opacity-80 hover:opacity-100" href="#">Datenschutz</a>
+<a class="font-body text-label-md text-on-surface-variant hover:text-secondary-fixed-variant transition-colors opacity-80 hover:opacity-100" href="#">Kontakt</a>
+<a class="font-body text-label-md text-on-surface-variant hover:text-secondary-fixed-variant transition-colors opacity-80 hover:opacity-100" href="#">Sponsoren</a>
+<a class="font-body text-label-md text-on-surface-variant hover:text-secondary-fixed-variant transition-colors opacity-80 hover:opacity-100" href="#">Anfahrt</a>
+</div>
+</div>
+</footer>
+</body></html>
