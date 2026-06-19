@@ -73,6 +73,19 @@
                 </article>
             </section>
 
+            <section class="subpage-surface subpage-surface--flush" aria-labelledby="news-current-title">
+                <div class="subpage-surface__header">
+                    <div class="subpage-title-row">
+                        <div>
+                            <span class="subpage-eyebrow">Aktuelle Meldungen</span>
+                            <h2 id="news-current-title" class="subpage-title">Weitere aktuelle Beiträge.</h2>
+                        </div>
+                        <p class="subpage-copy">Die neuesten Meldungen vor dem Archiv.</p>
+                    </div>
+                </div>
+                <div id="news-current-container" class="subpage-news-current-grid" aria-live="polite"></div>
+            </section>
+
             <section class="subpage-surface subpage-surface--flush" aria-labelledby="news-archive-title">
                 <div class="subpage-surface__header">
                     <div class="subpage-title-row">
@@ -101,6 +114,7 @@
             const featuredTitle = document.getElementById('featured-story-title');
             const featuredExcerpt = document.getElementById('featured-story-excerpt');
             const featuredLink = document.getElementById('featured-story-link');
+            const currentContainer = document.getElementById('news-current-container');
             const introContext = document.getElementById('news-intro-context');
             const lastUpdated = document.getElementById('news-last-updated');
             const archiveSummary = document.getElementById('news-archive-summary');
@@ -274,7 +288,8 @@
             }
 
             const featured = sortedNews[0];
-            const archiveNews = sortedNews.slice(1);
+            const currentNews = sortedNews.slice(1, 3);
+            const archiveNews = sortedNews.slice(3);
             const groupedArchive = archiveNews.reduce((groups, article) => {
                 const year = getYear(article);
                 if (!groups.has(year)) {
@@ -316,6 +331,20 @@
                 archiveSummary.textContent = archiveNews.length > 0
                     ? `${archiveNews.length} weitere Meldungen im Archiv.`
                     : 'Aktuell gibt es keine weiteren Meldungen im Archiv.';
+            }
+
+            if (currentContainer) {
+                currentContainer.innerHTML = '';
+                currentNews.forEach((article) => currentContainer.appendChild(createArchiveItem(article)));
+
+                if (currentNews.length === 0) {
+                    currentContainer.innerHTML = `
+                        <article class="subpage-panel">
+                            <span class="subpage-eyebrow">Noch keine weiteren aktuellen Meldungen</span>
+                            <p class="subpage-copy">Sobald weitere News eingespielt werden, erscheinen sie hier vor dem Archiv.</p>
+                        </article>
+                    `;
+                }
             }
 
             if (container) {

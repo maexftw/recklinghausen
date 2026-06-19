@@ -49,7 +49,11 @@
                                 <h2 id="contact-form-title" class="subpage-title">Anfrage klar formulieren, damit der erste Rückruf oder die erste Antwort sofort passt.</h2>
                             </div>
                         </div>
-                        <form id="contact-form" class="contact-form">
+                        <form id="contact-form" class="contact-form" novalidate>
+                            <div class="contact-field contact-field--hidden" aria-hidden="true">
+                                <label for="website-field">Website</label>
+                                <input type="text" id="website-field" name="website" tabindex="-1" autocomplete="off">
+                            </div>
                             <div class="contact-form__grid">
                                 <div class="contact-field">
                                     <label for="first-name">Vorname</label>
@@ -132,7 +136,7 @@
 
             if (!form) return;
 
-            form.addEventListener('submit', (event) => {
+            form.addEventListener('submit', async (event) => {
                 event.preventDefault();
 
                 if (!form.checkValidity()) {
@@ -145,22 +149,63 @@
 
                 const data = new FormData(form);
                 const getValue = (name) => (data.get(name) || '').toString().trim();
-                const subject = getValue('subject-select') || 'Kontaktanfrage';
-                const body = [
-                    `Vorname: ${getValue('first-name')}`,
-                    `Nachname: ${getValue('last-name')}`,
-                    `E-Mail: ${getValue('email-address')}`,
-                    `Betreff: ${subject}`,
-                    `Kontext: ${getValue('contact-context') || '-'}`,
-                    '',
-                    getValue('message-text')
-                ].join('\n');
+                const payload = {
+                    firstName: getValue('first-name'),
+                    lastName: getValue('last-name'),
+                    email: getValue('email-address'),
+                    subject: getValue('subject-select') || 'Allgemeine Anfrage',
+                    context: getValue('contact-context'),
+                    message: getValue('message-text'),
+                    website: getValue('website')
+                };
 
-                if (status) {
-                    status.textContent = 'E-Mail-Programm wird geöffnet. Falls nichts passiert: info@rlc1952.de direkt anschreiben.';
+                const submitButton = form.querySelector('button[type="submit"]');
+                const buildFallbackMailto = () => {
+                    const body = [
+                        `Vorname: ${payload.firstName}`,
+                        `Nachname: ${payload.lastName}`,
+                        `E-Mail: ${payload.email}`,
+                        `Betreff: ${payload.subject}`,
+                        `Kontext: ${payload.context || '-'}`,
+                        '',
+                        payload.message
+                    ].join('\n');
+
+                    return `mailto:info@rlc1952.de?subject=${encodeURIComponent(`RLC Website: ${payload.subject}`)}&body=${encodeURIComponent(body)}`;
+                };
+                if (submitButton) submitButton.disabled = true;
+                if (status) status.textContent = 'Nachricht wird über die Website gesendet …';
+
+                try {
+                    const response = await fetch('/api/contact', {
+                        method: 'POST',
+                        headers: { 'content-type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
+                    const result = await response.json().catch(() => ({}));
+
+                    if (!response.ok) {
+                        if (result.error === 'mail_delivery_not_configured') {
+                            if (status) {
+                                status.textContent = 'Der direkte Website-Versand ist vorbereitet, aber die Mail-Zustellung muss noch freigeschaltet werden. Ich öffne ersatzweise eine vorbereitete E-Mail.';
+                            }
+                            window.location.href = buildFallbackMailto();
+                            return;
+                        }
+
+                        throw new Error('Die Nachricht konnte gerade nicht gesendet werden. Bitte versuche es später erneut oder nutze info@rlc1952.de.');
+                    }
+
+                    form.reset();
+                    if (status) status.textContent = 'Danke, deine Nachricht wurde gesendet.';
+                } catch (error) {
+                    if (status) {
+                        status.textContent = 'Der direkte Website-Versand ist gerade nicht verfügbar. Ich öffne ersatzweise eine vorbereitete E-Mail.';
+                    }
+                    window.location.href = buildFallbackMailto();
+                } finally {
+                    if (submitButton) submitButton.disabled = false;
                 }
-
-                window.location.href = `mailto:info@rlc1952.de?subject=${encodeURIComponent(`RLC Website: ${subject}`)}&body=${encodeURIComponent(body)}`;
             });
         });
     </script>
