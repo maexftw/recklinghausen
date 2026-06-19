@@ -4159,12 +4159,22 @@ body.subpage-team .subpage-person-card__media {
 }
 
 .subpage-person-card__details {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 0.45rem;
+    grid-template-columns: minmax(8.5rem, 11rem) minmax(0, 1fr);
+    align-items: start;
+    gap: 0.5rem 1.15rem;
+    margin-top: 0.05rem;
+    padding-top: 0.65rem;
+    border-top: 1px solid color-mix(in srgb, var(--subpage-line) 78%, white);
 }
 
 .subpage-person-card__details div {
-    padding-top: 0.45rem;
+    min-width: 0;
+    padding-top: 0;
+    border-top: 0;
+}
+
+.subpage-person-card__details dd {
+    overflow-wrap: anywhere;
 }
 
 .subpage-pill-row {
