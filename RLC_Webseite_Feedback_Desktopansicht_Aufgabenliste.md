@@ -1,7 +1,7 @@
 # RLC Webseite – Aufgabenliste aus Feedback Desktopansicht
 
-Quelle: `RLC_Webseite_Feedback_Desktopansicht.docx`  
-Preview im Dokument: https://85957764.rlc-1952-recklinghausen.pages.dev/  
+Quelle: `RLC_Webseite_Feedback_Desktopansicht.docx`
+Preview im Dokument: https://85957764.rlc-1952-recklinghausen.pages.dev/
 Auswertung: 2026-06-16
 
 ## Kurzfazit
