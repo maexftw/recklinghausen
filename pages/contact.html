@@ -54,6 +54,7 @@
                                 <label for="website-field">Website</label>
                                 <input type="text" id="website-field" name="website" tabindex="-1" autocomplete="off">
                             </div>
+                            <p id="contact-form-status" class="contact-form__status" role="status" aria-live="polite" tabindex="-1" hidden></p>
                             <div class="contact-form__grid">
                                 <div class="contact-field">
                                     <label for="first-name">Vorname</label>
@@ -92,7 +93,6 @@
                                 <p class="contact-form__note">Alter, gewünschte Gruppe oder Anlass helfen dabei, deine Anfrage direkt passend einzuordnen.</p>
                                 <button type="submit" class="subpage-button">Nachricht senden <span class="material-icons-round" aria-hidden="true">send</span></button>
                             </div>
-                            <p id="contact-form-status" class="contact-form__status" aria-live="polite"></p>
                         </form>
                     </section>
 
@@ -136,16 +136,42 @@
 
             if (!form) return;
 
+            const setStatus = (message, tone = 'info') => {
+                if (!status) return;
+
+                status.textContent = message;
+                status.hidden = !message;
+                status.classList.toggle('contact-form__status--error', tone === 'error');
+                status.classList.toggle('contact-form__status--success', tone === 'success');
+            };
+
+            form.addEventListener('input', (event) => {
+                const field = event.target;
+                if (field instanceof HTMLElement && field.matches('input, textarea, select') && field.checkValidity()) {
+                    field.removeAttribute('aria-invalid');
+                }
+            });
+
             form.addEventListener('submit', async (event) => {
                 event.preventDefault();
 
                 if (!form.checkValidity()) {
+                    const invalidFields = [...form.querySelectorAll('input, textarea, select')]
+                        .filter((field) => !field.checkValidity());
+                    invalidFields.forEach((field) => field.setAttribute('aria-invalid', 'true'));
+
+                    setStatus('Bitte fülle die markierten Pflichtfelder aus: Vorname, Nachname, E-Mail-Adresse und Nachricht.', 'error');
+
                     if (status) {
-                        status.textContent = 'Bitte fülle Name, E-Mail-Adresse und Nachricht aus.';
+                        status.scrollIntoView({ block: 'center', behavior: 'smooth' });
+                        status.focus({ preventScroll: true });
                     }
-                    form.reportValidity();
+
+                    invalidFields[0]?.focus({ preventScroll: true });
                     return;
                 }
+
+                form.querySelectorAll('[aria-invalid="true"]').forEach((field) => field.removeAttribute('aria-invalid'));
 
                 const data = new FormData(form);
                 const getValue = (name) => (data.get(name) || '').toString().trim();
@@ -174,7 +200,7 @@
                     return `mailto:info@rlc1952.de?subject=${encodeURIComponent(`RLC Website: ${payload.subject}`)}&body=${encodeURIComponent(body)}`;
                 };
                 if (submitButton) submitButton.disabled = true;
-                if (status) status.textContent = 'Nachricht wird über die Website gesendet …';
+                setStatus('Nachricht wird über die Website gesendet …');
 
                 try {
                     const response = await fetch('/api/contact', {
@@ -186,9 +212,7 @@
 
                     if (!response.ok) {
                         if (result.error === 'mail_delivery_not_configured') {
-                            if (status) {
-                                status.textContent = 'Der direkte Website-Versand ist vorbereitet, aber die Mail-Zustellung muss noch freigeschaltet werden. Ich öffne ersatzweise eine vorbereitete E-Mail.';
-                            }
+                            setStatus('Der direkte Website-Versand ist vorbereitet, aber die Mail-Zustellung muss noch freigeschaltet werden. Ich öffne ersatzweise eine vorbereitete E-Mail.');
                             window.location.href = buildFallbackMailto();
                             return;
                         }
@@ -197,11 +221,9 @@
                     }
 
                     form.reset();
-                    if (status) status.textContent = 'Danke, deine Nachricht wurde gesendet.';
+                    setStatus('Danke, deine Nachricht wurde gesendet.', 'success');
                 } catch (error) {
-                    if (status) {
-                        status.textContent = 'Der direkte Website-Versand ist gerade nicht verfügbar. Ich öffne ersatzweise eine vorbereitete E-Mail.';
-                    }
+                    setStatus('Der direkte Website-Versand ist gerade nicht verfügbar. Ich öffne ersatzweise eine vorbereitete E-Mail.');
                     window.location.href = buildFallbackMailto();
                 } finally {
                     if (submitButton) submitButton.disabled = false;

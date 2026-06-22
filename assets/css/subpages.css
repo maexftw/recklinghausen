@@ -332,6 +332,12 @@ body.subpage {
     min-height: 0;
 }
 
+.subpage-news .subpage-news-feature__media img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center 34%;
+}
+
 .subpage-news .subpage-news-feature__body {
     border-top: 0;
     padding: clamp(1.05rem, 1.9vw, 1.55rem);
@@ -416,12 +422,13 @@ body.subpage {
 
 @media (max-width: 720px) {
     .subpage-news .subpage-news-feature {
-        grid-template-columns: 6.5rem minmax(0, 1fr);
+        grid-template-columns: 1fr;
     }
 
     .subpage-news .subpage-news-feature__media {
-        max-width: 6.5rem;
-        aspect-ratio: 1 / 1;
+        max-width: none;
+        min-height: 0;
+        aspect-ratio: 16 / 11;
     }
 
     .subpage-news .subpage-news-list {
@@ -3296,6 +3303,13 @@ body.subpage-facilities .subpage-actions .subpage-link[href="#facilities-directo
     border-color: color-mix(in srgb, var(--subpage-brand) 52%, white);
 }
 
+.contact-field input[aria-invalid="true"],
+.contact-field select[aria-invalid="true"],
+.contact-field textarea[aria-invalid="true"] {
+    border-color: oklch(0.5 0.18 28);
+    background: color-mix(in srgb, white 88%, oklch(0.95 0.06 35));
+}
+
 .contact-form__footer {
     display: flex;
     justify-content: space-between;
@@ -3312,10 +3326,34 @@ body.subpage-facilities .subpage-actions .subpage-link[href="#facilities-directo
 }
 
 .contact-form__status {
-    min-height: 1.35rem;
+    padding: 0.9rem 1rem;
+    border: 1px solid color-mix(in srgb, var(--subpage-brand) 30%, white);
+    background: color-mix(in srgb, white 88%, var(--subpage-accent-soft));
     color: var(--subpage-brand-strong);
-    font-size: 0.92rem;
+    font-size: 0.95rem;
     font-weight: 700;
+    line-height: 1.55;
+}
+
+.contact-form__status[hidden] {
+    display: none;
+}
+
+.contact-form__status:focus {
+    outline: 2px solid color-mix(in srgb, var(--subpage-brand) 38%, white);
+    outline-offset: 3px;
+}
+
+.contact-form__status--error {
+    border-color: color-mix(in srgb, oklch(0.5 0.18 28) 38%, white);
+    background: color-mix(in srgb, white 84%, oklch(0.95 0.06 35));
+    color: oklch(0.42 0.14 28);
+}
+
+.contact-form__status--success {
+    border-color: color-mix(in srgb, oklch(0.52 0.14 154) 34%, white);
+    background: color-mix(in srgb, white 86%, oklch(0.93 0.06 154));
+    color: oklch(0.34 0.1 154);
 }
 
 .contact-form button[disabled] {
