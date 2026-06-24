@@ -27,8 +27,11 @@ body.subpage {
     font-family: "Inter", Arial, sans-serif;
     color: var(--subpage-ink);
     background:
+        linear-gradient(color-mix(in srgb, #eef6ff 93%, transparent), color-mix(in srgb, #eef6ff 93%, transparent)),
+        url('../../RLC-Logo_vector/RLC-Logo_vector_transparent.svg') 1.25rem 1.25rem / 8rem auto repeat,
         radial-gradient(circle at top, color-mix(in srgb, var(--subpage-wash) 80%, white) 0%, transparent 45%),
         linear-gradient(180deg, color-mix(in srgb, var(--subpage-paper) 82%, var(--subpage-wash)) 0%, color-mix(in srgb, white 80%, var(--subpage-paper)) 100%);
+    background-attachment: fixed, fixed, scroll, scroll;
 }
 
 .subpage a {
@@ -62,12 +65,11 @@ body.subpage {
     display: grid;
     gap: clamp(1rem, 1.8vw, 1.35rem);
     grid-template-columns: minmax(0, 1.35fr) minmax(16rem, 0.82fr);
-    padding: clamp(1.35rem, 2.6vw, 2rem);
-    border: 1px solid color-mix(in srgb, var(--subpage-line) 82%, white);
-    background:
-        radial-gradient(circle at 86% 18%, color-mix(in srgb, var(--subpage-accent-soft) 82%, white) 0%, transparent 29%),
-        linear-gradient(180deg, color-mix(in srgb, white 82%, var(--subpage-paper)) 0%, color-mix(in srgb, var(--subpage-paper) 74%, var(--subpage-wash)) 100%);
-    box-shadow: var(--subpage-shadow);
+    padding: var(--spacing-xl);
+    border: 1px solid oklch(0.24 0.10 254.3 / 0.04);
+    border-radius: var(--border-radius-xl);
+    background: var(--surface-container-lowest);
+    box-shadow: var(--home-shadow-soft);
 }
 
 .subpage-intro--full {
@@ -80,11 +82,7 @@ body.subpage {
 }
 
 .subpage-intro::before {
-    content: "";
-    position: absolute;
-    inset: clamp(0.7rem, 1.4vw, 1rem);
-    border: 1px solid color-mix(in srgb, var(--subpage-accent) 22%, transparent);
-    pointer-events: none;
+    content: none;
 }
 
 .subpage-intro::after {
@@ -949,8 +947,10 @@ body.subpage {
     border: 1px solid color-mix(in srgb, var(--subpage-line) 76%, white);
     background: color-mix(in srgb, var(--subpage-paper-strong) 72%, white);
     color: var(--subpage-ink);
+    font: inherit;
     font-size: 0.94rem;
     font-weight: 700;
+    cursor: pointer;
     transition: background-color 180ms ease, border-color 180ms ease, color 180ms ease, transform 180ms ease;
 }
 
@@ -3798,4 +3798,46 @@ body.subpage-team .subpage-person-card__media {
     body.subpage-team .subpage-person-card__media {
         height: 7rem;
     }
+}
+
+/* WhatsApp quick-fix round 2026-06-24: Heros klarer in Vereinsblau/Dunkelblau. */
+.subpage-intro {
+    border-color: rgba(255, 255, 255, 0.18);
+    background:
+        radial-gradient(circle at 10% 0%, rgba(54, 128, 255, 0.28) 0%, transparent 28%),
+        linear-gradient(135deg, #0a1f4b 0%, #103c83 58%, #071426 100%);
+    color: #f7fbff;
+    box-shadow: 0 26px 70px rgba(10, 31, 75, 0.22);
+}
+
+.subpage-intro .subpage-eyebrow,
+.subpage-intro .subpage-display,
+.subpage-intro .subpage-display em,
+.subpage-intro .subpage-lead,
+.subpage-intro .subpage-copy,
+.subpage-intro .subpage-meta,
+.subpage-intro .subpage-meta strong {
+    color: #f7fbff;
+}
+
+.subpage-intro .subpage-eyebrow {
+    color: #b7d4ff;
+}
+
+.subpage-intro .subpage-lead,
+.subpage-intro .subpage-copy {
+    color: rgba(247, 251, 255, 0.84);
+}
+
+.subpage-intro .subpage-meta {
+    border-color: rgba(255, 255, 255, 0.18);
+    background: rgba(255, 255, 255, 0.08);
+}
+
+body.subpage-contact .subpage-intro {
+    padding-block: clamp(0.95rem, 1.6vw, 1.3rem);
+}
+
+body.subpage-contact .subpage-intro__content {
+    gap: 0.7rem;
 }

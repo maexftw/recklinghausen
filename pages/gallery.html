@@ -91,15 +91,15 @@
                             </div>
                         </div>
                         <div class="gallery-chip-row" aria-label="Themen in der Bildergalerie">
-                            <span class="subpage-chip is-active" aria-pressed="true">Alle Serien</span>
-                            <span class="subpage-chip" aria-pressed="false">Wettkämpfe</span>
-                            <span class="subpage-chip" aria-pressed="false">Training</span>
-                            <span class="subpage-chip" aria-pressed="false">Jugend</span>
-                            <span class="subpage-chip" aria-pressed="false">Trainingslager</span>
-                            <span class="subpage-chip" aria-pressed="false">Vereinsleben</span>
+                            <button type="button" class="subpage-chip is-active" aria-pressed="true" data-gallery-filter="all">Alle Serien</button>
+                            <button type="button" class="subpage-chip" aria-pressed="false" data-gallery-filter="wettkampf">Wettkämpfe</button>
+                            <button type="button" class="subpage-chip" aria-pressed="false" data-gallery-filter="training">Training</button>
+                            <button type="button" class="subpage-chip" aria-pressed="false" data-gallery-filter="jugend">Jugend</button>
+                            <button type="button" class="subpage-chip" aria-pressed="false" data-gallery-filter="trainingslager">Trainingslager</button>
+                            <button type="button" class="subpage-chip" aria-pressed="false" data-gallery-filter="vereinsleben">Vereinsleben</button>
                         </div>
                         <div class="gallery-masonry" aria-label="Galerie mit ausgewählten Vereinsmotiven">
-                            <article class="gallery-tile gallery-tile--tall">
+                            <article class="gallery-tile gallery-tile--tall" data-gallery-tags="wettkampf">
                                 <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&amp;fit=crop&amp;q=80&amp;w=900" alt="Sprintszene auf der Tartanbahn bei einem Wettkampf" loading="lazy" decoding="async" />
                                 <div class="gallery-tile__body">
                                     <span class="gallery-tile__tag">Wettkämpfe</span>
@@ -107,7 +107,7 @@
                                     <p>Schnelle, klare Motive für die leistungsorientierte Außenwirkung des Vereins.</p>
                                 </div>
                             </article>
-                            <article class="gallery-tile">
+                            <article class="gallery-tile" data-gallery-tags="wettkampf team">
                                 <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&amp;fit=crop&amp;q=80&amp;w=900" alt="Staffelteam nach einem gelungenen Lauf" loading="lazy" decoding="async" />
                                 <div class="gallery-tile__body">
                                     <span class="gallery-tile__tag">Team</span>
@@ -115,7 +115,7 @@
                                     <p>Leistung und Teamgefühl bleiben in einer Serie zusammen lesbar.</p>
                                 </div>
                             </article>
-                            <article class="gallery-tile">
+                            <article class="gallery-tile" data-gallery-tags="training jugend">
                                 <img src="https://images.unsplash.com/photo-1502904550040-7534597429ae?auto=format&amp;fit=crop&amp;q=80&amp;w=900" alt="Jugendliche beim Training auf der Laufbahn" loading="lazy" decoding="async" />
                                 <div class="gallery-tile__body">
                                     <span class="gallery-tile__tag">Nachwuchs</span>
@@ -123,7 +123,7 @@
                                     <p>Die Galerie zeigt Entwicklung, Betreuung und positive Trainingsmomente.</p>
                                 </div>
                             </article>
-                            <article class="gallery-tile gallery-tile--wide">
+                            <article class="gallery-tile gallery-tile--wide" data-gallery-tags="training">
                                 <img src="https://images.unsplash.com/photo-1547347298-4074fc3086f0?auto=format&amp;fit=crop&amp;q=80&amp;w=1200" alt="Trainingsgruppe bei einer Technikübung im Stadion" loading="lazy" decoding="async" />
                                 <div class="gallery-tile__body">
                                     <span class="gallery-tile__tag">Training</span>
@@ -131,7 +131,7 @@
                                     <p>Zwischen Serien und Einzelmomenten wird sichtbar, wie strukturiert der Vereinsalltag organisiert ist.</p>
                                 </div>
                             </article>
-                            <article class="gallery-tile">
+                            <article class="gallery-tile" data-gallery-tags="vereinsleben">
                                 <img src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?auto=format&amp;fit=crop&amp;q=80&amp;w=900" alt="Gruppe beim Sommerfest oder Vereinsereignis" loading="lazy" decoding="async" />
                                 <div class="gallery-tile__body">
                                     <span class="gallery-tile__tag">Vereinsleben</span>
@@ -139,7 +139,7 @@
                                     <p>Der soziale Teil des Vereins bekommt denselben Stellenwert wie sportliche Bilder.</p>
                                 </div>
                             </article>
-                            <article class="gallery-tile gallery-tile--tall">
+                            <article class="gallery-tile gallery-tile--tall" data-gallery-tags="trainingslager">
                                 <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&amp;fit=crop&amp;q=80&amp;w=900" alt="Trainingslager-Szene mit Gruppe im Freien" loading="lazy" decoding="async" />
                                 <div class="gallery-tile__body">
                                     <span class="gallery-tile__tag">Trainingslager</span>
@@ -151,22 +151,34 @@
                     </section>
                 </div>
             </section>
-            <section class="subpage-cta-band subpage-cta-band--gallery" aria-labelledby="gallery-cta-title">
-                <div class="subpage-cta-band__content">
-                    <span class="subpage-kicker">Nächster Schritt nach dem visuellen Eindruck</span>
-                    <h2 id="gallery-cta-title" class="subpage-panel__title">Vom Galerieeindruck direkt zu Training, Team oder persönlichem Kontakt.</h2>
-                    <p>Konntest du einen ersten Eindruck von uns gewinnen? Dann komm doch einfach mal vorbei oder nimm Kontakt zu unserem Team auf.</p>
-                </div>
-                <div class="subpage-cta-band__actions">
-                    <a href="training.html" class="subpage-button">Training entdecken <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
-                    <a href="contact.html#contact" class="subpage-button subpage-button--secondary">Kontakt aufnehmen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
-                    <a href="team.html" class="subpage-link">Trainerteam ansehen <span class="material-icons-round" aria-hidden="true">east</span></a>
-                </div>
-            </section>
         </div>
     </main>
 
     <footer data-shared-footer-placeholder></footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const filters = Array.from(document.querySelectorAll('[data-gallery-filter]'));
+            const tiles = Array.from(document.querySelectorAll('[data-gallery-tags]'));
+
+            filters.forEach((filter) => {
+                filter.addEventListener('click', () => {
+                    const activeFilter = filter.dataset.galleryFilter || 'all';
+
+                    filters.forEach((button) => {
+                        const isActive = button === filter;
+                        button.classList.toggle('is-active', isActive);
+                        button.setAttribute('aria-pressed', String(isActive));
+                    });
+
+                    tiles.forEach((tile) => {
+                        const tags = (tile.dataset.galleryTags || '').split(/\s+/);
+                        tile.hidden = activeFilter !== 'all' && !tags.includes(activeFilter);
+                    });
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>

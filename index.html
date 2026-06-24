@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="de">
 
 <head>
@@ -19,6 +19,22 @@
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
     <script src="assets/js/news_data.js"></script>
     <script src="assets/js/components.js"></script>
+    <script type="speculationrules">
+    {
+      "prerender": [
+        {
+          "source": "list",
+          "urls": [
+            "pages/training.html",
+            "pages/team.html",
+            "pages/facilities.html",
+            "pages/contact.html",
+            "pages/events.html"
+          ]
+        }
+      ]
+    }
+    </script>
 </head>
 
 <body class="homepage font-sans transition-colors duration-300" data-rlc-theme="royal">
@@ -77,7 +93,7 @@
         <div class="home-hero__media" aria-hidden="true">
             <img src="assets/images/rlc-hero-stadion.jpg"
                 alt="Leichtathletik-Stadion in Recklinghausen mit Laufbahn" width="1757" height="920" loading="eager" decoding="async">
-            <small class="home-hero__photo-copyright">© RVR, 2020, dl-de/by-2-0</small>
+            <small class="home-hero__photo-copyright">© RVR, 2020, DL-DE/BY-2-0</small>
         </div>
         <div class="home-hero__inner">
             <div class="home-hero__content">
@@ -86,7 +102,7 @@
                     <strong>Leichtathletik lebt hier</strong>
                 </span>
                 <h1 id="home-hero-title" class="home-hero__title home-display">
-                    Leidenschaft seit 1952. <em>Leichtathletik lebt hier.</em>
+                    Leichtathletik in Recklinghausen <em>für jedes Alter.</em>
                 </h1>
                 <p class="home-hero__lead">
                     Der Recklinghäuser Leichtathletik Club 1952 e.V. steht für engagiertes Training,
@@ -168,11 +184,9 @@
                 </aside>
             </section>
 
-            <section class="home-visit" aria-labelledby="home-visit-title">
+            <section class="home-visit" aria-label="Rund um den Verein">
                 <div class="home-visit__intro">
                     <span class="home-section-label">Rund um den Verein</span>
-                    <h2 id="home-visit-title" class="home-visit__title home-display">Alles Wichtige in Menü-Reihenfolge.</h2>
-                    <p>Termine, Training, Verein, Trainerteam, Sportstätten, Einstieg und Instagram sind als schnelle Einstiege gebündelt.</p>
                 </div>
                 <div class="home-visit__grid home-visit__grid--seven">
                     <article class="home-partner-card home-event-card">
