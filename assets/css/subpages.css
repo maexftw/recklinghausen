@@ -3334,8 +3334,8 @@ body.subpage-facilities .subpage-actions .subpage-link[href="#facilities-directo
 
 .gallery-tile img {
     width: 100%;
-    min-height: 15rem;
-    height: 100%;
+    aspect-ratio: 16 / 10;
+    height: auto;
     object-fit: cover;
     display: block;
 }
