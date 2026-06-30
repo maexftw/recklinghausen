@@ -134,6 +134,7 @@
                     <div class="facility-card__button">
                         <div class="facility-card__media ${location.accent}" aria-hidden="true" ${location.image ? `style="background-image: linear-gradient(135deg, rgba(11, 31, 61, 0.34), rgba(11, 31, 61, 0.08)), url('${location.image}')"` : ''}>
                             <span class="facility-card__badge">${location.badge}</span>
+                            ${location.image ? '' : '<span class="facility-card__placeholder"><span class="material-icons-round" aria-hidden="true">photo_camera</span>Foto folgt</span>'}
                         </div>
                         <div class="facility-card__body">
                             <div class="facility-card__header">

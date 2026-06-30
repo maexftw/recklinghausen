@@ -28,10 +28,24 @@ body.subpage {
     color: var(--subpage-ink);
     background:
         linear-gradient(color-mix(in srgb, #eef6ff 93%, transparent), color-mix(in srgb, #eef6ff 93%, transparent)),
-        url('../../RLC-Logo_vector/RLC-Logo_vector_transparent.svg') 1.25rem 1.25rem / 8rem auto repeat,
         radial-gradient(circle at top, color-mix(in srgb, var(--subpage-wash) 80%, white) 0%, transparent 45%),
         linear-gradient(180deg, color-mix(in srgb, var(--subpage-paper) 82%, var(--subpage-wash)) 0%, color-mix(in srgb, white 80%, var(--subpage-paper)) 100%);
-    background-attachment: fixed, fixed, scroll, scroll;
+    background-attachment: fixed, scroll, scroll;
+}
+
+/* Subtle logo watermark on its own fixed pseudo-element (single image layer)
+   so the SVG keeps its intended tile size instead of painting full-bleed. */
+body.subpage::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background-image: url('../../RLC-Logo_vector/RLC-Logo_vector_transparent.svg');
+    background-position: 1.25rem 1.25rem;
+    background-size: 8rem 3.085rem;
+    background-repeat: repeat;
+    opacity: 0.045;
 }
 
 .subpage a {
@@ -1262,6 +1276,28 @@ body.subpage {
     aspect-ratio: 4 / 2.8;
 }
 
+.facility-card__placeholder {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    color: rgba(255, 255, 255, 0.86);
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-shadow: 0 1px 3px rgba(8, 22, 40, 0.4);
+    pointer-events: none;
+}
+
+.facility-card__placeholder .material-icons-round {
+    font-size: 1.85rem;
+    opacity: 0.92;
+}
+
 .facility-detail-card__visual {
     min-height: 17rem;
 }
@@ -1848,8 +1884,9 @@ body.subpage {
 
 .sponsor-feature-grid {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
     gap: clamp(1rem, 1.8vw, 1.4rem);
+    align-items: stretch;
 }
 
 .events-panel {
@@ -1961,8 +1998,8 @@ body.subpage {
 
 .sponsor-feature-card {
     display: grid;
+    grid-template-rows: auto 1fr;
     gap: 1.1rem;
-    align-content: start;
     padding: clamp(1.1rem, 2vw, 1.45rem);
     border: 1px solid color-mix(in srgb, var(--subpage-line) 78%, white);
     background:
@@ -2034,6 +2071,16 @@ body.subpage {
 .sponsor-feature-card__header {
     display: grid;
     gap: 0.8rem;
+}
+
+.sponsor-feature-card__body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.sponsor-feature-card__body > a.subpage-link {
+    margin-top: auto;
 }
 
 .sponsor-feature-card__header {

@@ -34,9 +34,24 @@ body.homepage {
     color: var(--home-ink);
     background:
         linear-gradient(color-mix(in srgb, #eef6ff 92%, transparent), color-mix(in srgb, #eef6ff 92%, transparent)),
-        url('../../RLC-Logo_vector/RLC-Logo_vector_transparent.svg') 1.25rem 1.25rem / 8rem auto repeat,
         color-mix(in srgb, var(--home-paper) 86%, var(--home-wash));
-    background-attachment: fixed, fixed, scroll;
+}
+
+/* Subtle logo watermark. Kept on a dedicated fixed pseudo-element with a
+   single image layer so the SVG background-size is honoured. Stacking it as a
+   layer alongside gradient backgrounds made Chromium ignore the size and paint
+   the logo at full resolution across the page. */
+body.homepage::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background-image: url('../../RLC-Logo_vector/RLC-Logo_vector_transparent.svg');
+    background-position: 1.25rem 1.25rem;
+    background-size: 8rem 3.085rem;
+    background-repeat: repeat;
+    opacity: 0.05;
 }
 
 body.homepage[data-rlc-theme="navy"] {
