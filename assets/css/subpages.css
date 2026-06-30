@@ -3258,6 +3258,25 @@ body.subpage-facilities .subpage-actions .subpage-link[href="#facilities-directo
     font-weight: 700;
 }
 
+.contact-form__status.is-success {
+    color: color-mix(in srgb, var(--subpage-brand) 84%, black);
+}
+
+.contact-form__status.is-error {
+    color: #9d2d20;
+}
+
+.contact-form__status a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 0.18em;
+}
+
+.contact-form button[disabled] {
+    cursor: wait;
+    opacity: 0.72;
+}
+
 .contact-direct-card {
     display: grid;
     gap: 0.7rem;

@@ -10,7 +10,7 @@
         content="Kontaktseite des Recklinghäuser Leichtathletik Clubs 1952 e.V. mit klarer Erstorientierung, direktem Kontaktweg und strukturierter Anfrage für Training, Mitgliedschaft oder Medienanliegen.">
     <link href="../assets/css/design-tokens.css" rel="stylesheet" />
     <link href="../assets/css/shell.css" rel="stylesheet" />
-    <link href="../assets/css/subpages.css?v=5" rel="stylesheet" />
+    <link href="../assets/css/subpages.css?v=9" rel="stylesheet" />
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Montserrat:wght@700;900&amp;display=swap"
         rel="stylesheet" />
@@ -26,7 +26,7 @@
             <section class="subpage-intro subpage-intro--full" aria-labelledby="contact-page-title">
                 <div class="subpage-intro__content">
                     <span class="subpage-eyebrow">Kontakt</span>
-                    <h1 id="contact-page-title" class="subpage-display">Kontakt zum RLC 1952</h1>
+                    <h1 id="contact-page-title" class="subpage-display">Kontakt zum RLC</h1>
                     <p class="subpage-lead">Probetraining, Mitgliedschaft oder allgemeine Frage – hier beginnt der Kontakt.</p>
                 </div>
 </section>
@@ -36,10 +36,14 @@
                         <div class="subpage-title-row">
                             <div>
                                 <span class="subpage-eyebrow">Kontaktformular</span>
-                                <h2 id="contact-form-title" class="subpage-title">Nachricht vorbereiten.</h2>
+                                <h2 id="contact-form-title" class="subpage-title">Nachricht senden.</h2>
                             </div>
                         </div>
-                        <form id="contact-form" class="contact-form">
+                        <form id="contact-form" class="contact-form" action="https://formsubmit.co/ajax/info@rlc1952.de" method="POST">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_template" value="box">
+                            <input type="hidden" name="_subject" value="RLC Website: Kontaktanfrage">
+                            <input type="text" name="_honey" autocomplete="off" tabindex="-1" aria-hidden="true" hidden>
                             <div class="contact-form__grid">
                                 <div class="contact-field">
                                     <label for="first-name">Vorname</label>
@@ -52,7 +56,7 @@
                             </div>
                             <div class="contact-field">
                                 <label for="email-address">E-Mail-Adresse</label>
-                                <input type="email" id="email-address" name="email-address" placeholder="deine@email.de" autocomplete="email" required>
+                                <input type="email" id="email-address" name="email" placeholder="deine@email.de" autocomplete="email" required>
                             </div>
                             <div class="contact-form__grid">
                                 <div class="contact-field">
@@ -122,13 +126,19 @@
 
             if (!form) return;
 
-            form.addEventListener('submit', (event) => {
+            const setStatus = (message, type = 'info') => {
+                if (!status) return;
+                status.classList.remove('is-success', 'is-error');
+                if (type === 'success') status.classList.add('is-success');
+                if (type === 'error') status.classList.add('is-error');
+                status.innerHTML = message;
+            };
+
+            form.addEventListener('submit', async (event) => {
                 event.preventDefault();
 
                 if (!form.checkValidity()) {
-                    if (status) {
-                        status.textContent = 'Bitte fülle Name, E-Mail-Adresse und Nachricht aus.';
-                    }
+                    setStatus('Bitte f&uuml;lle Name, E-Mail-Adresse und Nachricht aus.', 'error');
                     form.reportValidity();
                     return;
                 }
@@ -136,21 +146,42 @@
                 const data = new FormData(form);
                 const getValue = (name) => (data.get(name) || '').toString().trim();
                 const subject = getValue('subject-select') || 'Kontaktanfrage';
-                const body = [
-                    `Vorname: ${getValue('first-name')}`,
-                    `Nachname: ${getValue('last-name')}`,
-                    `E-Mail: ${getValue('email-address')}`,
-                    `Betreff: ${subject}`,
-                    `Kontext: ${getValue('contact-context') || '-'}`,
-                    '',
-                    getValue('message-text')
-                ].join('\n');
+                const submitButton = form.querySelector('button[type="submit"]');
 
-                if (status) {
-                    status.textContent = 'E-Mail-Programm wird geöffnet. Falls nichts passiert: info@rlc1952.de direkt anschreiben.';
+                data.set('_subject', `RLC Website: ${subject}`);
+                data.set('_replyto', getValue('email'));
+                data.set('name', `${getValue('first-name')} ${getValue('last-name')}`.trim());
+
+                if (submitButton) {
+                    submitButton.disabled = true;
+                    submitButton.dataset.originalText = submitButton.innerHTML;
+                    submitButton.innerHTML = 'Nachricht wird gesendet <span class="material-icons-round" aria-hidden="true">hourglass_top</span>';
                 }
 
-                window.location.href = `mailto:info@rlc1952.de?subject=${encodeURIComponent(`RLC Website: ${subject}`)}&body=${encodeURIComponent(body)}`;
+                setStatus('Nachricht wird direkt &uuml;ber die Website gesendet ...');
+
+                try {
+                    const response = await fetch(form.action, {
+                        method: 'POST',
+                        body: data,
+                        headers: { Accept: 'application/json' }
+                    });
+
+                    if (!response.ok) {
+                        throw new Error(`Formularversand fehlgeschlagen (${response.status})`);
+                    }
+
+                    form.reset();
+                    setStatus('Danke, die Anfrage wurde an den RLC gesendet.', 'success');
+                } catch (error) {
+                    console.warn('RLC contact form submission failed.', error);
+                    setStatus('Der direkte Versand ist gerade nicht verf&uuml;gbar. Bitte schreibe an <a href="mailto:info@rlc1952.de">info@rlc1952.de</a>.', 'error');
+                } finally {
+                    if (submitButton) {
+                        submitButton.disabled = false;
+                        submitButton.innerHTML = submitButton.dataset.originalText || 'Nachricht senden <span class="material-icons-round" aria-hidden="true">send</span>';
+                    }
+                }
             });
         });
     </script>

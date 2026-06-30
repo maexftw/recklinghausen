@@ -28,7 +28,7 @@
                 <div class="subpage-intro__content">
                     <span class="subpage-eyebrow">Trainerteam</span>
                     <h1 id="team-page-title" class="subpage-display">Unser Trainerteam im Überblick.</h1>
-                    <p class="subpage-lead">Hier findest du die Trainerinnen und Trainer, die aktuell unsere Gruppen begleiten, mit ihren Einsatzbereichen und Trainingstagen.</p>
+                    <p class="subpage-lead">Hier findest du die Trainerinnen und Trainer, die aktuell unsere Gruppen begleiten, mit ihren Einsatzbereichen.</p>
                     <div class="subpage-meta-row" id="team-meta-row" aria-label="Schnellüberblick zum Trainerteam"></div>
                     <div class="subpage-actions">
                         <a href="#team-directory-title" class="subpage-button">Zum Trainerteam <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
@@ -45,7 +45,7 @@
                     <div class="subpage-title-row subpage-surface__header">
                         <div>
                             <span class="subpage-eyebrow">Teamverzeichnis</span>
-                            <h2 id="team-directory-title" class="subpage-title">Trainerteam mit Gruppen und Trainingstagen.</h2>
+                            <h2 id="team-directory-title" class="subpage-title">Trainerteam mit Gruppen und Einsatzbereichen.</h2>
                         </div>
                     </div>
                     <div class="subpage-card-grid subpage-card-grid--team" id="team-card-grid"></div>
@@ -76,19 +76,6 @@
             const grid = document.getElementById('team-card-grid');
 
             const unique = (values) => [...new Set(values.filter(Boolean))];
-            const abbreviateDays = (days) => {
-                const labels = {
-                    Montag: 'Mo',
-                    Dienstag: 'Di',
-                    Mittwoch: 'Mi',
-                    Donnerstag: 'Do',
-                    Freitag: 'Fr',
-                    Samstag: 'Sa'
-                };
-
-                return days.map((day) => labels[day] || day);
-            };
-
             const initials = (name) => name
                 .split(/[\s-]+/)
                 .filter(Boolean)
@@ -162,7 +149,7 @@
 
             grid.innerHTML = trainers.map(([trainer, entries]) => {
                 const groups = unique(entries.map((entry) => entry.group));
-                const days = abbreviateDays(unique(entries.map((entry) => entry.day)));
+                const years = unique(entries.map((entry) => entry.year));
                 const { badge, summary } = classifyTrainer(entries);
 
                 return `
@@ -181,21 +168,17 @@
                             </div>
                             <div class="subpage-inline-list subpage-pill-row" aria-label="Einsatzfelder von ${trainer}">
                                 ${groups.slice(0, 3).map((group) => `<span class="subpage-pill">${group}</span>`).join('')}
-                                ${days.map((day) => `<span class="subpage-pill">${day}</span>`).join('')}
+                                ${years.slice(0, 2).map((year) => `<span class="subpage-pill">${year}</span>`).join('')}
                             </div>
                             <p class="subpage-person-card__copy">Trainingsgruppen: ${groups.join(', ')}.</p>
                             <dl class="subpage-detail-list subpage-person-card__details">
-                                <div>
-                                    <dt>Trainingstage</dt>
-                                    <dd>${days.join(', ')}</dd>
-                                </div>
                                 <div>
                                     <dt>Bereich</dt>
                                     <dd>${badge}</dd>
                                 </div>
                                 <div>
-                                    <dt>Saison</dt>
-                                    <dd>${meta.seasonLabel || 'Sommersaison 2026'}</dd>
+                                    <dt>Kontakt</dt>
+                                    <dd><a href="contact.html#contact">&Uuml;ber Kontaktformular</a></dd>
                                 </div>
                             </dl>
                         </div>

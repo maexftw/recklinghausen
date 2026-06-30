@@ -86,6 +86,7 @@ function initSharedComponents() {
                         <a class="site-nav-link text-sm font-semibold transition-colors" href="${basePath}pages/sponsors.html">Verein</a>
                         <a class="site-nav-link text-sm font-semibold transition-colors" href="${basePath}pages/team.html">Trainerteam</a>
                         <a class="site-nav-link text-sm font-semibold transition-colors" href="${basePath}pages/facilities.html">Sportstätten</a>
+                        <a class="site-nav-link text-sm font-semibold transition-colors" href="${basePath}pages/gallery.html">Bilder</a>
                         <a class="site-nav-link text-sm font-semibold transition-colors" href="${basePath}pages/contact.html">Kontakt</a>
                     </nav>
                     <div class="site-shell__actions">
@@ -111,6 +112,7 @@ function initSharedComponents() {
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/sponsors.html">Verein</a>
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/team.html">Trainerteam</a>
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/facilities.html">Sportstätten</a>
+                <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/gallery.html">Bildergalerie</a>
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/contact.html">Kontakt</a>
             </div>
         </div>
@@ -145,6 +147,7 @@ function initSharedComponents() {
                         <li><a href="${basePath}pages/team.html" class="site-footer-link transition-colors focus:outline-none">Trainerteam</a></li>
                         <li><a href="${basePath}pages/training.html" class="site-footer-link transition-colors focus:outline-none">Trainingszeiten</a></li>
                         <li><a href="${basePath}pages/facilities.html" class="site-footer-link transition-colors focus:outline-none">Sportstätten</a></li>
+                        <li><a href="${basePath}pages/gallery.html" class="site-footer-link transition-colors focus:outline-none">Bildergalerie</a></li>
                         <li><a href="${basePath}pages/news.html" class="site-footer-link transition-colors focus:outline-none">Aktuelles</a></li>
                     </ul>
                 </div>
