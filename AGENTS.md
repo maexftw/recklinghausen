@@ -1,104 +1,33 @@
-# RLC Recklinghausen Website — Agent Guide
+# Repository Guidelines
 
-This repo is the static website for Recklinghäuser Leichtathletik Club 1952 e.V.
+## Project Structure & Module Organization
 
-## Default operating mode: GStack-first
+This repository is a static website for RLC 1952. The root `index.html` is the homepage. Public subpages live in `pages/`, with generated news detail pages in `pages/news/`. Shared styles are under `assets/css/`, shared behavior and injected header/footer live in `assets/js/components.js`, and news data is in `assets/js/news_data.js`. News images are stored in `news_assets/`; other assets are under `assets/`, `RLC-Logo_vector/`, and `Termine/`. Cloudflare Pages config is in `wrangler.toml`.
 
-For any website, GitHub, preview, QA, deploy, or production task, work in the GStack flow instead of ad-hoc shell commands.
+Do not commit local meeting exports, audit artifacts, preview ZIPs, screenshots, or temporary design files.
 
-Start by stating the active flow/phase in plain language, for example:
+## Build, Test, and Development Commands
 
-- `/ship`: repo check → checks → preview/main → production verification
-- `/qa` or `/qa-only`: browser/HTTP QA → findings/evidence → fixes or report
-- `/review`: diff review → findings → fixes or handoff
-- `/design-review`: responsive/spacing/visual QA → screenshots/findings
-- `/investigate`: reproduce → root cause → smallest verified fix
+- `python server.py` starts the local static server at `http://localhost:8001`.
+- `python sync_news.py` refreshes news images/data from the source archive.
+- `python generate_detail_pages.py` regenerates static files in `pages/news/`.
+- `python update_js_data.py` updates the compact JavaScript news dataset.
+- `npx wrangler pages deploy . --project-name rlc-1952-recklinghausen` deploys the current static root to Cloudflare Pages when authenticated.
 
-When the user's wording is ambiguous or Git terminology is wrong, briefly correct the workflow before acting. Example: if the user says “push the preview branch to main”, interpret it as: verify the preview branch, confirm it fast-forwards from `origin/main`, run checks, push/merge safely, then verify production. Do not blindly run `git push origin HEAD:main` without explaining the step.
+There is no npm build step and no framework compile phase.
 
-## Required GitHub / deploy safety checks
+## Coding Style & Naming Conventions
 
-Before pushing, merging, or deploying:
+Use plain HTML, CSS, and vanilla JavaScript. Keep indentation consistent with surrounding files, generally four spaces in HTML and JS. Prefer semantic HTML, descriptive class names, and existing BEM-like patterns such as `subpage-*`, `home-*`, and `site-*`. Put shared navigation/footer changes in `assets/js/components.js` and verify all pages after changing it. Keep generated news output stable; edit the data source/scripts instead of hand-editing many `pages/news/*.html` files.
 
-1. Verify repo identity and branch state:
-   ```bash
-   git status --short --branch
-   git remote -v
-   git branch --show-current
-   git log --oneline --decorate --graph --max-count=20 --all
-   ```
-2. Check whether `origin/main` is an ancestor of the candidate branch:
-   ```bash
-   git fetch origin main
-   git merge-base --is-ancestor origin/main HEAD
-   ```
-3. Inspect untracked/unstaged files and stage only intentional files.
-4. Run relevant checks listed below.
-5. Push the preview branch first when applicable.
-6. Move to `main` only via PR/merge or a verified fast-forward. Never force-push unless the user explicitly approves and the risk is explained.
-7. Verify Cloudflare/GitHub checks and smoke the live URL after production deploy.
+## Testing Guidelines
 
-## Repo-specific checks
+There is no formal test framework. Before handing off changes, run the local server and manually check desktop and mobile widths for the touched pages. For navigation, verify header links, mobile menu, footer links, and key CTAs. For content/data changes, check `index.html`, `pages/news.html`, and at least one representative `pages/news/*.html` detail page. For forms or external links, confirm behavior without sending real customer data.
 
-This is a static HTML/CSS/JS site with no build toolchain.
+## Commit & Pull Request Guidelines
 
-Baseline checks:
+Recent history uses short imperative messages, often with `fix:` or a concise implementation summary, for example `fix: finalize RLC customer feedback cleanup` or `Implement customer audit fixes`. Keep commits focused. Pull requests should include a short change summary, touched pages, manual test notes, screenshots for visual changes, and any known blockers such as missing approved photos or source material.
 
-```bash
-git diff --check origin/main..HEAD
-node --check assets/js/components.js
-[ -f assets/js/news_data.js ] && node --check assets/js/news_data.js
-[ -f assets/js/training_schedule.js ] && node --check assets/js/training_schedule.js
-python3 -m py_compile server.py generate_detail_pages.py scraper.py sync_news.py update_js_data.py tools/component_qa.py
-```
+## Security & Configuration Tips
 
-Local smoke:
-
-```bash
-python3 server.py
-# Then smoke key routes:
-# /, /pages/training.html, /pages/abendlauf.html, /pages/events.html, /pages/contact.html
-```
-
-Production smoke after deploy:
-
-```bash
-curl -L -sS -o /tmp/rlc-home.html -w '%{http_code}\n' https://rlc-1952-recklinghausen.pages.dev/
-curl -L -sS -o /tmp/rlc-training.html -w '%{http_code}\n' https://rlc-1952-recklinghausen.pages.dev/pages/training.html
-curl -L -sS -o /tmp/rlc-abendlauf.html -w '%{http_code}\n' https://rlc-1952-recklinghausen.pages.dev/pages/abendlauf.html
-curl -L -sS -o /tmp/rlc-contact.html -w '%{http_code}\n' https://rlc-1952-recklinghausen.pages.dev/pages/contact.html
-```
-
-Cloudflare Pages status:
-
-```bash
-wrangler pages deployment list --project-name rlc-1952-recklinghausen
-```
-
-## Communication rule for Maxi
-
-Maxi sometimes uses Git/GitHub terms loosely. Do not treat that as exact low-level command intent. Translate it into the safe flow, briefly explain the step, then execute only after the prerequisite checks pass.
-
-Examples:
-
-- “Push Preview auf Main” → “I will verify the preview branch, check fast-forward safety, push/update preview, then move that exact commit to main and verify production.”
-- “Ist live?” → Check Cloudflare/GitHub state and HTTP-smoke production, do not answer from memory.
-- “Mach GStack-Flow” → Name the matching GStack skill/phase and follow its gates.
-
-## Scope discipline
-
-- Do not add app frameworks, build systems, or new dependencies unless explicitly needed.
-- Prefer small static HTML/CSS/JS fixes.
-- Keep customer-facing wording plain and nontechnical.
-- Do not commit local meeting notes, audit scratch files, exported zips, or tool artifacts unless explicitly requested.
-- Do not delete Cloudflare resources.
-
-## Current known repo shape
-
-- `index.html`: homepage
-- `pages/`: public subpages
-- `pages/news/`: generated news detail pages
-- `assets/css/`: shared styles and design tokens
-- `assets/js/components.js`: shared navigation/footer/theme behavior
-- `assets/js/news_data.js`: compact news dataset
-- `wrangler.toml`: Cloudflare Pages config with `pages_build_output_dir = "."`
+Never commit secrets, credentials, private customer exports, or raw personal data. Treat contact forms, DNS/MX changes, and Cloudflare settings as deployment-sensitive; document what was verified and what still needs owner confirmation.
