@@ -31,3 +31,12 @@ Recent history uses short imperative messages, often with `fix:` or a concise im
 ## Security & Configuration Tips
 
 Never commit secrets, credentials, private customer exports, or raw personal data. Treat contact forms, DNS/MX changes, and Cloudflare settings as deployment-sensitive; document what was verified and what still needs owner confirmation.
+
+## Current Handoff - RLC Customer Feedback Pass (2026-07-06)
+
+- Correct preview base is `origin/fix/ui-ux-politur`, matching the Cloudflare preview that ended in `6ea933f8`. Do not rebuild this pass from `origin/main`; that caused a wrong preview with older visual sections.
+- Implemented on the corrected base: latest-news section on `pages/news.html`, green event names on `pages/events.html`, Abendlauf page cleanup/restructure, sponsor/club history/document updates, contact subject prefill and Turnstile payload, gallery structure labels/import cleanup, header stability for `Bilder`, homepage alignment in `Rund um den Verein`, and the current handoff files.
+- Key files touched: `assets/css/homepage.css`, `assets/css/shell.css`, `assets/css/subpages.css`, `assets/js/components.js`, `pages/news.html`, `pages/events.html`, `pages/abendlauf.html`, `pages/sponsors.html`, `pages/contact.html`, `pages/gallery.html`, `functions/api/contact.js`, `functions/api/contact-config.js`, `tests/contact-api.test.mjs`, `handoff/`.
+- Verify before handoff: `node --check assets/js/components.js`, `node --check functions/api/contact.js`, `node --check functions/api/contact-config.js`, `node tests/contact-api.test.mjs`, `git diff --check`, plus desktop/mobile browser checks on homepage, news, training, events, Abendlauf, contact, facilities, sponsors, and gallery.
+- Still needs owner/deployment confirmation: Cloudflare Turnstile sitekey/`TURNSTILE_SECRET_KEY`, webhook must map `to`/`cc` into real mail delivery, and missing approved PDFs/photos must not be invented.
+- Handoff files are intentionally versioned for continuity between agents. Do not commit secrets, private customer exports, screenshots, preview ZIPs, or raw personal data.

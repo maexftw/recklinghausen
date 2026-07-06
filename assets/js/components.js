@@ -67,9 +67,7 @@ function initSharedComponents() {
 
     const basePath = getSharedBasePath();
 
-    ensureSharedStyles(basePath);
-
-    const ctaTarget = `${basePath}pages/contact.html#contact`;
+    const ctaTarget = `${basePath}pages/contact.html?subject=probetraining#contact`;
     const headerHTML = `
     <header class="site-shell border-b border-slate-200">
         <div class="site-shell__inner max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -112,7 +110,7 @@ function initSharedComponents() {
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/sponsors.html">Verein</a>
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/team.html">Trainerteam</a>
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/facilities.html">Sportstätten</a>
-                <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/gallery.html">Bilder</a>
+                <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/gallery.html">Bildergalerie</a>
                 <a class="site-mobile-link block px-3 py-4 text-base font-semibold" href="${basePath}pages/contact.html">Kontakt</a>
             </div>
         </div>
@@ -147,7 +145,7 @@ function initSharedComponents() {
                         <li><a href="${basePath}pages/team.html" class="site-footer-link transition-colors focus:outline-none">Trainerteam</a></li>
                         <li><a href="${basePath}pages/training.html" class="site-footer-link transition-colors focus:outline-none">Trainingszeiten</a></li>
                         <li><a href="${basePath}pages/facilities.html" class="site-footer-link transition-colors focus:outline-none">Sportstätten</a></li>
-                        <li><a href="${basePath}pages/gallery.html" class="site-footer-link transition-colors focus:outline-none">Bilder</a></li>
+                        <li><a href="${basePath}pages/gallery.html" class="site-footer-link transition-colors focus:outline-none">Bildergalerie</a></li>
                         <li><a href="${basePath}pages/news.html" class="site-footer-link transition-colors focus:outline-none">Aktuelles</a></li>
                     </ul>
                 </div>
@@ -192,24 +190,6 @@ function initSharedComponents() {
 
     highlightActiveNavigation();
     initMobileMenu();
-}
-
-function ensureSharedStyles(basePath) {
-    const stylesheets = [
-        `${basePath}assets/css/design-tokens.css`,
-        `${basePath}assets/css/shell.css`
-    ];
-
-    stylesheets.forEach((href) => {
-        const existingLink = Array.from(document.querySelectorAll('link[rel="stylesheet"]')).find((link) => link.getAttribute('href') === href);
-        if (!existingLink) {
-            const link = document.createElement('link');
-            link.rel = 'stylesheet';
-            link.href = href;
-            document.head.appendChild(link);
-        }
-    });
-
 }
 
 function highlightActiveNavigation() {

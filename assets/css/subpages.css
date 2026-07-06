@@ -27,8 +27,25 @@ body.subpage {
     font-family: "Inter", Arial, sans-serif;
     color: var(--subpage-ink);
     background:
+        linear-gradient(color-mix(in srgb, #eef6ff 93%, transparent), color-mix(in srgb, #eef6ff 93%, transparent)),
         radial-gradient(circle at top, color-mix(in srgb, var(--subpage-wash) 80%, white) 0%, transparent 45%),
         linear-gradient(180deg, color-mix(in srgb, var(--subpage-paper) 82%, var(--subpage-wash)) 0%, color-mix(in srgb, white 80%, var(--subpage-paper)) 100%);
+    background-attachment: fixed, scroll, scroll;
+}
+
+/* Subtle logo watermark on its own fixed pseudo-element (single image layer)
+   so the SVG keeps its intended tile size instead of painting full-bleed. */
+body.subpage::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background-image: url('../../RLC-Logo_vector/RLC-Logo_vector_transparent.svg');
+    background-position: 1.25rem 1.25rem;
+    background-size: 8rem 3.085rem;
+    background-repeat: repeat;
+    opacity: 0.045;
 }
 
 .subpage a {
@@ -62,12 +79,11 @@ body.subpage {
     display: grid;
     gap: clamp(1rem, 1.8vw, 1.35rem);
     grid-template-columns: minmax(0, 1.35fr) minmax(16rem, 0.82fr);
-    padding: clamp(1.35rem, 2.6vw, 2rem);
-    border: 1px solid color-mix(in srgb, var(--subpage-line) 82%, white);
-    background:
-        radial-gradient(circle at 86% 18%, color-mix(in srgb, var(--subpage-accent-soft) 82%, white) 0%, transparent 29%),
-        linear-gradient(180deg, color-mix(in srgb, white 82%, var(--subpage-paper)) 0%, color-mix(in srgb, var(--subpage-paper) 74%, var(--subpage-wash)) 100%);
-    box-shadow: var(--subpage-shadow);
+    padding: var(--spacing-xl);
+    border: 1px solid oklch(0.24 0.10 254.3 / 0.04);
+    border-radius: var(--border-radius-xl);
+    background: var(--surface-container-lowest);
+    box-shadow: var(--home-shadow-soft);
 }
 
 .subpage-intro--full {
@@ -80,11 +96,7 @@ body.subpage {
 }
 
 .subpage-intro::before {
-    content: "";
-    position: absolute;
-    inset: clamp(0.7rem, 1.4vw, 1rem);
-    border: 1px solid color-mix(in srgb, var(--subpage-accent) 22%, transparent);
-    pointer-events: none;
+    content: none;
 }
 
 .subpage-intro::after {
@@ -116,6 +128,8 @@ body.subpage {
 
 .subpage-news-intro__meta .subpage-copy {
     margin: 0;
+    color: #0d4a45;
+    font-weight: 700;
 }
 
 .subpage-news-feature {
@@ -151,16 +165,6 @@ body.subpage {
 
 .subpage-news-feature__actions {
     align-items: center;
-}
-
-.subpage-news-current-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1rem;
-}
-
-.subpage-news-current-grid .subpage-news-list-item {
-    height: 100%;
 }
 
 .subpage-news-archive-list {
@@ -332,12 +336,6 @@ body.subpage {
     min-height: 0;
 }
 
-.subpage-news .subpage-news-feature__media img {
-    height: 100%;
-    object-fit: cover;
-    object-position: center 34%;
-}
-
 .subpage-news .subpage-news-feature__body {
     border-top: 0;
     padding: clamp(1.05rem, 1.9vw, 1.55rem);
@@ -422,13 +420,12 @@ body.subpage {
 
 @media (max-width: 720px) {
     .subpage-news .subpage-news-feature {
-        grid-template-columns: 1fr;
+        grid-template-columns: 6.5rem minmax(0, 1fr);
     }
 
     .subpage-news .subpage-news-feature__media {
-        max-width: none;
-        min-height: 0;
-        aspect-ratio: 16 / 11;
+        max-width: 6.5rem;
+        aspect-ratio: 1 / 1;
     }
 
     .subpage-news .subpage-news-list {
@@ -625,15 +622,15 @@ body.subpage {
     gap: 0.5rem;
     min-height: 2.65rem;
     padding: 0.55rem 0.9rem;
-    border: 1px solid color-mix(in srgb, var(--subpage-line) 78%, white);
-    background: color-mix(in srgb, white 72%, var(--subpage-wash));
-    color: var(--subpage-muted);
+    border: 1px solid color-mix(in srgb, #00c78f 34%, white);
+    background: color-mix(in srgb, white 82%, #dff8ef);
+    color: #0d4a45;
     font-size: 0.88rem;
     font-weight: 600;
 }
 
 .subpage-meta strong {
-    color: var(--subpage-ink);
+    color: color-mix(in srgb, #006860 86%, var(--subpage-brand-strong));
 }
 
 .subpage-meta .material-icons-round,
@@ -966,8 +963,10 @@ body.subpage {
     border: 1px solid color-mix(in srgb, var(--subpage-line) 76%, white);
     background: color-mix(in srgb, var(--subpage-paper-strong) 72%, white);
     color: var(--subpage-ink);
+    font: inherit;
     font-size: 0.94rem;
     font-weight: 700;
+    cursor: pointer;
     transition: background-color 180ms ease, border-color 180ms ease, color 180ms ease, transform 180ms ease;
 }
 
@@ -1277,6 +1276,28 @@ body.subpage {
 
 .facility-card__media {
     aspect-ratio: 4 / 2.8;
+}
+
+.facility-card__placeholder {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    color: rgba(255, 255, 255, 0.86);
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-shadow: 0 1px 3px rgba(8, 22, 40, 0.4);
+    pointer-events: none;
+}
+
+.facility-card__placeholder .material-icons-round {
+    font-size: 1.85rem;
+    opacity: 0.92;
 }
 
 .facility-detail-card__visual {
@@ -1865,8 +1886,9 @@ body.subpage {
 
 .sponsor-feature-grid {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
     gap: clamp(1rem, 1.8vw, 1.4rem);
+    align-items: stretch;
 }
 
 .events-panel {
@@ -1878,6 +1900,30 @@ body.subpage {
     color: var(--subpage-muted);
     font-size: 0.88rem;
     font-weight: 700;
+}
+
+.events-hero-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    margin-top: 1rem;
+}
+
+.events-hero-icons > span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    min-height: 2.4rem;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid color-mix(in srgb, #00c78f 34%, white);
+    background: color-mix(in srgb, white 82%, #dff8ef);
+    color: #0d4a45;
+    font-weight: 800;
+}
+
+.events-hero-icons .material-icons-round {
+    color: #00856f;
+    font-size: 1.1rem;
 }
 
 .events-list {
@@ -1937,7 +1983,7 @@ body.subpage {
 }
 
 .event-list-card__body h3 {
-    color: var(--subpage-ink);
+    color: #00c78f;
     font-size: clamp(1.12rem, 1rem + 0.55vw, 1.5rem);
     font-weight: 900;
     letter-spacing: -0.035em;
@@ -1949,23 +1995,59 @@ body.subpage {
     line-height: 1.58;
 }
 
-.event-detail-list a {
+.verein-history-text,
+.verein-document-card {
+    display: grid;
+    gap: 0.8rem;
+}
+
+.verein-history-text p {
+    margin: 0;
+    color: var(--subpage-muted);
+    line-height: 1.7;
+}
+
+.verein-document-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.verein-document-card {
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: start;
+    padding: 1.1rem;
+    border: 1px solid color-mix(in srgb, var(--subpage-line) 76%, white);
+    background: color-mix(in srgb, white 88%, var(--subpage-paper));
+}
+
+.verein-document-card > .material-icons-round {
     color: var(--subpage-brand-strong);
-    font-weight: 800;
-    text-decoration: none;
 }
 
-.event-detail-list a:hover,
-.event-detail-list a:focus-visible {
+.verein-document-card h3,
+.verein-document-card p {
+    margin: 0;
+}
+
+.verein-document-card h3 {
     color: var(--subpage-ink);
+    font-weight: 900;
 }
 
-.event-card-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.55rem 0.9rem;
-    align-items: center;
-    padding-top: 0.35rem;
+.verein-document-card p {
+    color: var(--subpage-muted);
+    line-height: 1.6;
+}
+
+.verein-document-card--pending {
+    opacity: 0.78;
+}
+
+@media (max-width: 720px) {
+    .verein-document-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 .subpage-inline-link {
@@ -1997,8 +2079,8 @@ body.subpage {
 
 .sponsor-feature-card {
     display: grid;
+    grid-template-rows: auto 1fr;
     gap: 1.1rem;
-    align-content: start;
     padding: clamp(1.1rem, 2vw, 1.45rem);
     border: 1px solid color-mix(in srgb, var(--subpage-line) 78%, white);
     background:
@@ -2070,6 +2152,16 @@ body.subpage {
 .sponsor-feature-card__header {
     display: grid;
     gap: 0.8rem;
+}
+
+.sponsor-feature-card__body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.sponsor-feature-card__body > a.subpage-link {
+    margin-top: auto;
 }
 
 .sponsor-feature-card__header {
@@ -2152,79 +2244,9 @@ body.subpage {
     text-transform: uppercase;
 }
 
-.abendlauf-resource-layout {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(15rem, 0.42fr);
-    gap: clamp(1rem, 2vw, 1.45rem);
-    align-items: start;
-}
-
-.abendlauf-resource-list {
-    display: grid;
-    gap: 0.9rem;
-}
-
-.abendlauf-resource-card,
-.abendlauf-flyer-card {
-    border: 1px solid color-mix(in srgb, var(--subpage-line) 76%, white);
-    background: color-mix(in srgb, white 90%, var(--subpage-paper));
-    box-shadow: 0 18px 36px rgba(8, 39, 39, 0.08);
-}
-
-.abendlauf-resource-card {
-    display: grid;
-    grid-template-columns: auto minmax(0, 1fr);
-    gap: 0.85rem;
-    padding: clamp(0.95rem, 1.8vw, 1.25rem);
-}
-
-.abendlauf-resource-card > .material-icons-round {
-    display: inline-grid;
-    place-items: center;
-    width: 2.35rem;
-    height: 2.35rem;
-    border-radius: 999px;
-    background: color-mix(in srgb, var(--subpage-brand) 14%, white);
-    color: var(--subpage-brand-strong);
-}
-
-.abendlauf-resource-card h3 {
-    margin: 0 0 0.25rem;
-    font-size: 1.05rem;
-    font-weight: 900;
-    color: var(--subpage-ink);
-}
-
-.abendlauf-resource-card p {
-    margin: 0 0 0.55rem;
-}
-
-.abendlauf-flyer-card {
-    display: grid;
-    gap: 0.65rem;
-    padding: 0.75rem;
-}
-
-.abendlauf-flyer-card img {
-    display: block;
-    width: 100%;
-    height: auto;
-    border: 1px solid color-mix(in srgb, var(--subpage-line) 70%, white);
-}
-
-.abendlauf-flyer-card figcaption {
-    color: var(--subpage-muted);
-    font-size: 0.72rem;
-    line-height: 1.45;
-}
-
 @media (max-width: 900px) {
     .training-plan-notes,
     .event-gallery {
-        grid-template-columns: 1fr;
-    }
-
-    .abendlauf-resource-layout {
         grid-template-columns: 1fr;
     }
 }
@@ -3256,12 +3278,8 @@ body.subpage-facilities .subpage-actions .subpage-link[href="#facilities-directo
     gap: 0.55rem;
 }
 
-.contact-field--hidden {
-    position: absolute;
-    left: -9999px;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
+.contact-field--turnstile {
+    min-height: 4rem;
 }
 
 .contact-field label {
@@ -3303,13 +3321,6 @@ body.subpage-facilities .subpage-actions .subpage-link[href="#facilities-directo
     border-color: color-mix(in srgb, var(--subpage-brand) 52%, white);
 }
 
-.contact-field input[aria-invalid="true"],
-.contact-field select[aria-invalid="true"],
-.contact-field textarea[aria-invalid="true"] {
-    border-color: oklch(0.5 0.18 28);
-    background: color-mix(in srgb, white 88%, oklch(0.95 0.06 35));
-}
-
 .contact-form__footer {
     display: flex;
     justify-content: space-between;
@@ -3326,39 +3337,29 @@ body.subpage-facilities .subpage-actions .subpage-link[href="#facilities-directo
 }
 
 .contact-form__status {
-    padding: 0.9rem 1rem;
-    border: 1px solid color-mix(in srgb, var(--subpage-brand) 30%, white);
-    background: color-mix(in srgb, white 88%, var(--subpage-accent-soft));
+    min-height: 1.35rem;
     color: var(--subpage-brand-strong);
-    font-size: 0.95rem;
+    font-size: 0.92rem;
     font-weight: 700;
-    line-height: 1.55;
 }
 
-.contact-form__status[hidden] {
-    display: none;
+.contact-form__status.is-success {
+    color: color-mix(in srgb, var(--subpage-brand) 84%, black);
 }
 
-.contact-form__status:focus {
-    outline: 2px solid color-mix(in srgb, var(--subpage-brand) 38%, white);
-    outline-offset: 3px;
+.contact-form__status.is-error {
+    color: #9d2d20;
 }
 
-.contact-form__status--error {
-    border-color: color-mix(in srgb, oklch(0.5 0.18 28) 38%, white);
-    background: color-mix(in srgb, white 84%, oklch(0.95 0.06 35));
-    color: oklch(0.42 0.14 28);
-}
-
-.contact-form__status--success {
-    border-color: color-mix(in srgb, oklch(0.52 0.14 154) 34%, white);
-    background: color-mix(in srgb, white 86%, oklch(0.93 0.06 154));
-    color: oklch(0.34 0.1 154);
+.contact-form__status a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 0.18em;
 }
 
 .contact-form button[disabled] {
     cursor: wait;
-    opacity: 0.68;
+    opacity: 0.72;
 }
 
 .contact-direct-card {
@@ -3385,622 +3386,178 @@ body.subpage-facilities .subpage-actions .subpage-link[href="#facilities-directo
 /* Removed inconsistent blue theme overrides to restore brand consistency */
 
 
-body.subpage-gallery {
-    --gallery-track-green: #006860;
-    --gallery-deep-navy: #10284f;
-    --gallery-podium-gold: #fcd400;
-    --gallery-cream: #faf9f9;
-    --gallery-ink: #111827;
-    --gallery-muted: #4b5563;
-}
-
-.gallery-page {
-    width: min(100% - 2rem, 82rem);
-}
-
-.gallery-page__stack {
-    gap: clamp(1.25rem, 2.2vw, 2rem);
-}
-
-.gallery-eyebrow {
-    color: var(--gallery-track-green);
-    font-family: 'Lexend', var(--font-family-heading);
-}
-
-.gallery-hero,
-.gallery-series,
-.gallery-index {
-    position: relative;
-    overflow: hidden;
-    border-radius: clamp(1.15rem, 2vw, 1.75rem);
-    background: color-mix(in srgb, var(--gallery-cream) 92%, white);
-}
-
-.gallery-hero {
+.gallery-feature-grid {
     display: grid;
-    grid-template-columns: minmax(0, 0.78fr) minmax(0, 1.22fr);
-    gap: clamp(1.5rem, 3vw, 3rem);
-    align-items: center;
-    min-height: clamp(31rem, 54vw, 43rem);
-    padding: clamp(1.4rem, 3.6vw, 3.8rem);
-    background:
-        radial-gradient(circle at 76% 18%, color-mix(in srgb, var(--gallery-podium-gold) 16%, transparent), transparent 28%),
-        linear-gradient(135deg, #ffffff 0%, color-mix(in srgb, var(--color-background-light) 78%, white) 48%, color-mix(in srgb, var(--gallery-track-green) 9%, white) 100%);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
 }
 
-.gallery-hero__content {
+.gallery-feature-card {
     display: grid;
-    align-content: center;
-    gap: clamp(0.9rem, 1.8vw, 1.25rem);
-    max-width: 31rem;
-    z-index: 2;
-}
-
-.gallery-hero__title,
-.gallery-section-title {
-    margin: 0;
-    font-family: 'Lexend', var(--font-family-heading);
-    color: var(--gallery-ink);
-    letter-spacing: -0.055em;
-}
-
-.gallery-hero__title {
-    max-width: 11.2ch;
-    font-size: clamp(2.55rem, 5.25vw, 5rem);
-    line-height: 0.95;
-}
-
-.gallery-hero__lead {
-    max-width: 30rem;
-    margin: 0;
-    color: var(--gallery-muted);
-    font-size: clamp(1rem, 1.25vw, 1.16rem);
-    line-height: 1.65;
-}
-
-.gallery-hero__actions,
-.gallery-hero__meta,
-.gallery-series-card__meta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.8rem;
-}
-
-.gallery-hero__meta {
-    display: grid;
-    grid-template-columns: minmax(0, 0.92fr) minmax(0, 0.8fr) minmax(0, 1.32fr);
     gap: 0;
-    margin: clamp(0.75rem, 1.8vw, 1.25rem) 0 0;
-    padding: 0.85rem 0 0;
-    border-top: 1px solid color-mix(in srgb, var(--gallery-track-green) 22%, white);
-}
-
-.gallery-hero__meta div {
-    display: grid;
-    gap: 0.2rem;
-    padding-right: 1rem;
-}
-
-.gallery-hero__meta dt,
-.gallery-series-card__label,
-.gallery-index-card span {
-    font-family: 'Lexend', var(--font-family-heading);
-    font-size: 0.72rem;
-    font-weight: 800;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-}
-
-.gallery-hero__meta dt,
-.gallery-index-card span {
-    color: var(--gallery-track-green);
-}
-
-.gallery-hero__meta dd {
-    margin: 0;
-    color: var(--gallery-ink);
-    font-weight: 750;
-    line-height: 1.35;
-}
-
-.gallery-hero__visual {
-    display: grid;
-    grid-template-columns: repeat(12, minmax(0, 1fr));
-    grid-template-rows: repeat(8, minmax(0, 1fr));
-    gap: clamp(0.65rem, 1.4vw, 1rem);
-    min-height: clamp(24rem, 42vw, 36rem);
-}
-
-.gallery-hero__image,
-.gallery-series-card__media,
-.gallery-index-card {
-    position: relative;
+    min-height: 100%;
     overflow: hidden;
-    margin: 0;
-    background: color-mix(in srgb, var(--gallery-track-green) 8%, white);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    border-radius: 1.5rem;
+    border: 1px solid color-mix(in srgb, var(--subpage-line) 76%, white);
+    background: linear-gradient(180deg, color-mix(in srgb, white 92%, var(--subpage-paper)) 0%, color-mix(in srgb, white 84%, var(--subpage-paper-strong)) 100%);
+    box-shadow: 0 24px 60px color-mix(in srgb, var(--subpage-brand) 10%, transparent);
 }
 
-.gallery-hero__image {
-    border-radius: 1rem;
-    box-shadow: 0 24px 54px rgba(16, 40, 79, 0.14);
+.gallery-feature-card--wide {
+    grid-column: 1 / -1;
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
 }
 
-.gallery-hero__image--main {
-    grid-column: 1 / span 8;
-    grid-row: 1 / -1;
-    background-image: url('../images/abendlauf-2025/abendlauf-startfeld.jpg');
-    background-position: 48% 70%;
+.gallery-feature-card__media {
+    position: relative;
+    min-height: 16rem;
+    overflow: hidden;
+    background: color-mix(in srgb, var(--subpage-accent-soft) 42%, white);
 }
 
-.gallery-hero__image--top {
-    grid-column: 9 / -1;
-    grid-row: 1 / span 4;
-    background-image: url('../images/rlc-hero-stadion.jpg');
-}
-
-.gallery-hero__image--bottom {
-    grid-column: 8 / -1;
-    grid-row: 5 / -1;
-    background-image: url('../images/rlc-team-nachwuchs.jpg');
-    background-position: center 52%;
-}
-
-.gallery-hero__image img,
-.gallery-series-card__media img,
-.gallery-index-card img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.gallery-hero__image--main img {
-    opacity: 0;
-    object-position: 48% 70%;
-}
-
-.gallery-hero__image--top img {
-    opacity: 0;
-    object-position: center center;
-}
-
-.gallery-hero__image--bottom img {
-    opacity: 0;
-    object-position: 50% 52%;
-}
-
-.gallery-series-card--lead .gallery-series-card__media img,
-.gallery-index-card--wide img {
-    object-position: center 58%;
-}
-
-.gallery-hero__image::after,
-.gallery-series-card__media::after,
-.gallery-index-card::after {
+.gallery-feature-card__media::after {
     content: '';
     position: absolute;
     inset: 0;
-    pointer-events: none;
-    background: linear-gradient(180deg, transparent 46%, rgba(8, 20, 42, 0.44) 100%);
+    background: linear-gradient(180deg, transparent 12%, color-mix(in srgb, var(--color-secondary) 28%, transparent) 100%);
 }
 
-.gallery-hero__image figcaption {
-    position: absolute;
-    right: clamp(0.75rem, 1.5vw, 1.2rem);
-    bottom: clamp(0.75rem, 1.5vw, 1.2rem);
-    left: clamp(0.75rem, 1.5vw, 1.2rem);
-    z-index: 2;
-    display: grid;
-    gap: 0.2rem;
-    width: fit-content;
-    max-width: min(23rem, calc(100% - 1.5rem));
-    padding: 0.8rem 0.95rem;
-    border: 1px solid rgba(255, 255, 255, 0.28);
-    border-radius: 0.75rem;
-    background: rgba(250, 249, 249, 0.82);
-    color: var(--gallery-ink);
-    font-family: 'Lexend', var(--font-family-heading);
-    font-weight: 800;
-    backdrop-filter: blur(14px);
+.gallery-feature-card__media--soft::after {
+    background: linear-gradient(180deg, transparent 28%, color-mix(in srgb, var(--color-secondary) 18%, transparent) 100%);
 }
 
-.gallery-hero__image figcaption span {
-    color: var(--gallery-track-green);
-    font-size: 0.72rem;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-}
-
-.gallery-series,
-.gallery-index {
-    display: grid;
-    gap: clamp(1rem, 2vw, 1.5rem);
-    padding: clamp(1.25rem, 3vw, 2.4rem);
-}
-
-.gallery-series {
-    background: linear-gradient(180deg, #ffffff 0%, color-mix(in srgb, var(--gallery-cream) 76%, var(--color-background-light)) 100%);
-}
-
-.gallery-section-header,
-.gallery-index__header {
-    display: grid;
-    gap: 0.55rem;
-    max-width: 44rem;
-}
-
-.gallery-index__header {
-    grid-template-columns: minmax(0, 0.85fr) minmax(16rem, 0.7fr);
-    align-items: end;
-    max-width: none;
-}
-
-.gallery-section-title {
-    max-width: 18ch;
-    font-size: clamp(2rem, 4vw, 4.1rem);
-    line-height: 0.98;
-}
-
-.gallery-section-header p,
-.gallery-index__header p {
-    margin: 0;
-    color: var(--gallery-muted);
-    line-height: 1.65;
-}
-
-.gallery-series-grid {
-    display: grid;
-    grid-template-columns: minmax(0, 1.28fr) minmax(0, 0.9fr);
-    grid-template-rows: repeat(3, minmax(10.5rem, auto));
-    gap: clamp(0.8rem, 1.4vw, 1rem);
-}
-
-.gallery-series-card {
-    overflow: hidden;
-    border-radius: 1rem;
-    background: #fff;
-    box-shadow: 0 18px 42px rgba(16, 40, 79, 0.08);
-}
-
-.gallery-series-card--lead {
-    grid-row: 1 / span 3;
-}
-
-.gallery-series-card__link,
-.gallery-series-card:not(.gallery-series-card--lead) {
-    display: grid;
+.gallery-feature-card__media img {
+    width: 100%;
     height: 100%;
-    color: inherit;
-    text-decoration: none;
+    object-fit: cover;
+    display: block;
 }
 
-.gallery-series-card:not(.gallery-series-card--lead) {
-    grid-template-columns: minmax(8.5rem, 11rem) minmax(0, 1fr);
-}
-
-.gallery-series-card--lead .gallery-series-card__link {
-    grid-template-rows: minmax(22rem, 1fr) auto;
-}
-
-.gallery-series-card__media {
-    min-height: 100%;
-}
-
-.gallery-series-card:nth-child(1) .gallery-series-card__media {
-    background-image: url('../images/abendlauf-2025/abendlauf-stadion-atmosphaere.jpg');
-    background-position: center 58%;
-}
-
-.gallery-series-card:nth-child(2) .gallery-series-card__media {
-    background-image: url('../images/rlc-team-nachwuchs.jpg');
-    background-position: center 52%;
-}
-
-.gallery-series-card:nth-child(3) .gallery-series-card__media {
-    background-image: url('../images/abendlauf-2025/abendlauf-start-dynamik.jpg');
-    background-position: 42% 58%;
-}
-
-.gallery-series-card:nth-child(4) .gallery-series-card__media {
-    background-image: url('../images/abendlauf-2025/abendlauf-siegerehrung.jpg');
-    background-position: center 42%;
-}
-
-.gallery-series-card__media img,
-.gallery-index-card img {
-    opacity: 0;
-}
-
-.gallery-series-card__body {
-    position: relative;
-    z-index: 1;
+.gallery-feature-card__body {
     display: grid;
-    align-content: center;
-    gap: 0.65rem;
-    padding: clamp(1rem, 1.8vw, 1.35rem);
+    align-content: start;
+    gap: 0.9rem;
+    padding: 1.35rem;
 }
 
-.gallery-series-card__label {
-    color: var(--gallery-track-green);
-}
-
-.gallery-series-card__body h3 {
-    margin: 0;
-    font-family: 'Lexend', var(--font-family-heading);
-    font-size: clamp(1.05rem, 1rem + 0.55vw, 1.55rem);
-    font-weight: 850;
-    letter-spacing: -0.04em;
-    color: var(--gallery-ink);
-}
-
-.gallery-series-card--lead .gallery-series-card__body h3 {
-    font-size: clamp(1.65rem, 2.8vw, 2.65rem);
-    line-height: 1;
-}
-
-.gallery-series-card__body p {
-    margin: 0;
-    color: var(--gallery-muted);
-    line-height: 1.6;
-}
-
-.gallery-series-card__meta span {
-    display: inline-flex;
-    width: fit-content;
-    align-items: center;
-    min-height: 1.8rem;
-    padding: 0.28rem 0.62rem;
-    border-radius: 999px;
-    background: color-mix(in srgb, var(--gallery-podium-gold) 18%, white);
-    color: var(--gallery-deep-navy);
-    font-family: 'Lexend', var(--font-family-heading);
-    font-size: 0.72rem;
+.gallery-feature-card__body h3 {
+    font-size: clamp(1.2rem, 1.05rem + 0.45vw, 1.55rem);
     font-weight: 800;
-    letter-spacing: 0.05em;
+    letter-spacing: -0.03em;
+    color: var(--subpage-ink);
+}
+
+.gallery-feature-card__body p {
+    color: var(--subpage-muted);
+    line-height: 1.7;
 }
 
 .gallery-chip-row {
     display: flex;
     flex-wrap: wrap;
     gap: 0.75rem;
+    padding: 0 1.5rem 1.5rem;
 }
 
-.gallery-chip-row--editorial {
-    padding: 0;
-}
-
-.gallery-index {
-    background:
-        radial-gradient(circle at 14% 4%, color-mix(in srgb, var(--gallery-track-green) 10%, transparent), transparent 22%),
-        color-mix(in srgb, var(--color-background-light) 76%, white);
-}
-
-.gallery-index-grid {
+.gallery-masonry {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: clamp(0.8rem, 1.4vw, 1rem);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    padding: 0 1.5rem 1.5rem;
 }
 
-.gallery-index-card {
-    min-height: 18rem;
-    border-radius: 1rem;
-    box-shadow: 0 16px 36px rgba(16, 40, 79, 0.08);
+.gallery-tile {
+    display: grid;
+    overflow: hidden;
+    border-radius: 1.35rem;
+    border: 1px solid color-mix(in srgb, var(--subpage-line) 74%, white);
+    background: linear-gradient(180deg, color-mix(in srgb, white 94%, var(--subpage-paper)) 0%, color-mix(in srgb, white 86%, var(--subpage-paper-strong)) 100%);
+    box-shadow: 0 20px 50px color-mix(in srgb, var(--subpage-brand) 8%, transparent);
 }
 
-.gallery-index-card:nth-child(1) {
-    background-image: url('../images/abendlauf-2025/abendlauf-zielgerade.jpg');
-    background-position: center 58%;
-}
-
-.gallery-index-card:nth-child(2) {
-    background-image: url('../images/rlc-training-action.jpg');
-    background-position: 42% 58%;
-}
-
-.gallery-index-card:nth-child(3) {
-    background-image: url('../images/abendlauf-2025/abendlauf-laufgruppe-bahn.jpg');
-    background-position: 48% 58%;
-}
-
-.gallery-index-card:nth-child(4) {
-    background-image: url('../images/abendlauf-2025/abendlauf-waldstrecke.jpg');
-    background-position: center 58%;
-}
-
-.gallery-index-card:nth-child(5) {
-    background-image: url('../images/abendlauf-2025/abendlauf-verpflegung.jpg');
-    background-position: center 54%;
-}
-
-.gallery-index-card:nth-child(6) {
-    background-image: url('../images/rlc-hero-stadion.jpg');
-    background-position: center center;
-}
-
-.gallery-index-card--wide {
+.gallery-tile--wide {
     grid-column: span 2;
 }
 
-.gallery-index-card div {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 2;
+.gallery-tile--tall {
+    grid-row: span 2;
+}
+
+.gallery-tile img {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.gallery-tile__body {
+    display: grid;
+    gap: 0.6rem;
+    padding: 1rem 1.1rem 1.15rem;
+}
+
+.gallery-tile__tag {
+    display: inline-flex;
+    width: fit-content;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.35rem 0.7rem;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--subpage-accent-soft) 48%, white);
+    color: var(--subpage-accent-deep);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.gallery-tile__body h3 {
+    font-size: clamp(1.05rem, 0.98rem + 0.25vw, 1.22rem);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    color: var(--subpage-ink);
+}
+
+.gallery-tile__body p {
+    color: var(--subpage-muted);
+    line-height: 1.65;
+}
+
+.gallery-side-panel {
+    gap: 1rem;
+}
+
+.gallery-stat-grid {
+    display: grid;
+    gap: 0.85rem;
+}
+
+.gallery-stat-card {
     display: grid;
     gap: 0.35rem;
-    padding: 1rem;
-    color: white;
+    padding: 1rem 1.05rem;
+    border-radius: 1rem;
+    border: 1px solid color-mix(in srgb, var(--subpage-line) 78%, white);
+    background: linear-gradient(180deg, color-mix(in srgb, white 95%, var(--subpage-paper)) 0%, color-mix(in srgb, white 88%, var(--subpage-paper-strong)) 100%);
 }
 
-.gallery-index-card span {
-    color: color-mix(in srgb, var(--gallery-podium-gold) 86%, white);
+.gallery-stat-card span {
+    color: var(--subpage-accent-deep);
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
 }
 
-.gallery-index-card h3 {
-    margin: 0;
-    font-family: 'Lexend', var(--font-family-heading);
-    font-size: clamp(1.05rem, 1vw + 0.85rem, 1.45rem);
-    font-weight: 850;
-    letter-spacing: -0.035em;
-    line-height: 1.05;
+.gallery-stat-card strong {
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--subpage-ink);
 }
 
-.gallery-final-cta {
-    background:
-        linear-gradient(135deg, color-mix(in srgb, var(--gallery-track-green) 9%, white), color-mix(in srgb, var(--gallery-podium-gold) 12%, white)),
-        #fff;
-}
-
-.gallery-side-panel,
-.gallery-stat-grid {
-    display: none;
-}
-
-@media (max-width: 1080px) {
-    .gallery-hero {
-        grid-template-columns: 1fr;
-        min-height: auto;
-    }
-
-    .gallery-hero__content {
-        max-width: 44rem;
-    }
-
-    .gallery-hero__title {
-        max-width: 12ch;
-    }
-
-    .gallery-series-grid {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-    }
-
-    .gallery-series-card--lead {
-        grid-row: auto;
-    }
-
-    .gallery-series-card:not(.gallery-series-card--lead) {
-        grid-template-columns: minmax(12rem, 0.42fr) minmax(0, 1fr);
-    }
-
-    .gallery-index__header {
-        grid-template-columns: 1fr;
-        align-items: start;
-    }
-
-    .gallery-index-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-}
-
-@media (max-width: 720px) {
-    .gallery-page {
-        width: min(100% - 1.25rem, 82rem);
-    }
-
-    .gallery-page__stack {
-        gap: 1rem;
-    }
-
-    .gallery-hero,
-    .gallery-series,
-    .gallery-index {
-        border-radius: 1rem;
-        padding: 1rem;
-    }
-
-    .gallery-hero__title {
-        max-width: 12ch;
-        font-size: clamp(2rem, 10vw, 3.05rem);
-        line-height: 0.97;
-    }
-
-    .gallery-hero__lead {
-        font-size: 0.98rem;
-    }
-
-    .gallery-hero__meta {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-        gap: 0.45rem;
-        padding-top: 0.7rem;
-    }
-
-    .gallery-hero__meta div {
-        padding-right: 0.35rem;
-    }
-
-    .gallery-hero__meta dt {
-        font-size: 0.66rem;
-        letter-spacing: 0.1em;
-    }
-
-    .gallery-hero__meta dd {
-        font-size: 0.86rem;
-    }
-
-    .gallery-hero__visual {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: minmax(13rem, 54vw);
-        min-height: auto;
-        gap: 0;
-    }
-
-    .gallery-hero__image--main {
-        grid-column: 1;
-        grid-row: 1;
-    }
-
-    .gallery-hero__image--top,
-    .gallery-hero__image--bottom {
-        display: none;
-    }
-
-    .gallery-hero__image figcaption {
-        max-width: calc(100% - 1rem);
-        padding: 0.68rem 0.78rem;
-        font-size: 0.9rem;
-    }
-
-    .gallery-section-title {
-        max-width: 12ch;
-        font-size: clamp(2rem, 10vw, 3.1rem);
-    }
-
-    .gallery-series-card:not(.gallery-series-card--lead),
-    .gallery-series-card--lead .gallery-series-card__link {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-    }
-
-    .gallery-series-card__media {
-        aspect-ratio: 16 / 10;
-        min-height: 0;
-    }
-
-    .gallery-series-card--lead .gallery-series-card__media {
-        aspect-ratio: 16 / 9;
-        min-height: 0;
-    }
-
-    .gallery-index-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .gallery-index-card,
-    .gallery-index-card--wide {
-        grid-column: auto;
-        min-height: 17rem;
-    }
-
-    .gallery-chip-row--editorial .subpage-chip {
-        width: auto;
-        justify-content: center;
-    }
+.gallery-stat-card p {
+    color: var(--subpage-muted);
+    line-height: 1.6;
 }
 
 .subpage-empty {
@@ -4059,8 +3616,7 @@ body.subpage-gallery {
     .stats-toolbar__layout,
     .stats-priority-grid,
     .gallery-feature-grid,
-    .gallery-masonry,
-    .subpage-news-current-grid {
+    .gallery-masonry {
         grid-template-columns: 1fr;
     }
 
@@ -4274,14 +3830,6 @@ body.subpage-gallery {
     line-height: 1.55;
 }
 
-.event-detail-list a {
-    display: inline-flex;
-    align-items: center;
-    min-height: 2.75rem;
-    color: var(--subpage-brand-strong);
-    font-weight: 800;
-}
-
 .events-empty-note {
     margin: 0.8rem 0 0;
     color: var(--subpage-muted);
@@ -4403,991 +3951,44 @@ body.subpage-team .subpage-person-card__media {
     }
 }
 
-
-/* Deep GStack design review: systemic anti-slop pass.
-   Fixes repeated template/card patterns instead of one-off screenshot issues. */
-:root {
-    --subpage-container: min(100% - 2rem, 94rem);
-    --subpage-content: min(100% - 2rem, 88rem);
-    --subpage-section-space: clamp(2rem, 3.4vw, 3.4rem);
-    --subpage-radius: 0.95rem;
+/* WhatsApp quick-fix round 2026-06-24: Heros klarer in Vereinsblau/Dunkelblau. */
+.subpage-intro {
+    border-color: rgba(255, 255, 255, 0.18);
+    background:
+        radial-gradient(circle at 10% 0%, rgba(54, 128, 255, 0.28) 0%, transparent 28%),
+        linear-gradient(135deg, #0a1f4b 0%, #103c83 58%, #071426 100%);
+    color: #f7fbff;
+    box-shadow: 0 26px 70px rgba(10, 31, 75, 0.22);
 }
 
-.subpage-main {
-    width: var(--subpage-content);
+.subpage-intro .subpage-eyebrow,
+.subpage-intro .subpage-display,
+.subpage-intro .subpage-display em,
+.subpage-intro .subpage-lead,
+.subpage-intro .subpage-copy,
+.subpage-intro .subpage-meta,
+.subpage-intro .subpage-meta strong {
+    color: #f7fbff;
 }
 
-.subpage-surface,
-.subpage-panel,
-.subpage-person-card,
-.facility-card__button,
-.subpage-news-list-item,
-.subpage-news-feature {
-    border-radius: 0.75rem;
-    box-shadow: 0 14px 32px rgba(15, 35, 65, 0.07);
+.subpage-intro .subpage-eyebrow {
+    color: #b7d4ff;
 }
 
-.subpage-surface {
-    border-color: color-mix(in srgb, var(--subpage-line) 86%, white);
+.subpage-intro .subpage-lead,
+.subpage-intro .subpage-copy {
+    color: rgba(247, 251, 255, 0.84);
 }
 
-.subpage-title-row {
-    gap: 1rem;
-    align-items: end;
+.subpage-intro .subpage-meta {
+    border-color: rgba(255, 255, 255, 0.18);
+    background: rgba(255, 255, 255, 0.08);
 }
 
-.subpage-title,
-.subpage-display {
-    text-wrap: balance;
+body.subpage-contact .subpage-intro {
+    padding-block: clamp(0.95rem, 1.6vw, 1.3rem);
 }
 
-.subpage-copy,
-.subpage-lead,
-.subpage-news-list-item .subpage-copy,
-.facility-card__copy,
-.facility-card__address,
-.subpage-person-card__copy,
-.subpage-person-card__header p {
-    font-size: clamp(0.98rem, 0.94rem + 0.12vw, 1.05rem);
-    line-height: 1.62;
-}
-
-.subpage-button,
-.subpage-link,
-.subpage-inline-link,
-.facility-card__action,
-.subpage-news-list-item__title a {
-    min-height: 2.75rem;
-}
-
-.subpage-link,
-.subpage-inline-link,
-.facility-card__action {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.35rem;
-}
-
-/* News: stop the tiny-card archive. Make it scan like an editorial archive. */
-.subpage-news .subpage-news-feature {
-    grid-template-columns: minmax(15rem, 0.42fr) minmax(0, 1fr);
-    border: 1px solid color-mix(in srgb, var(--subpage-line) 82%, white);
-    background: linear-gradient(180deg, #fff 0%, color-mix(in srgb, white 90%, var(--subpage-paper)) 100%);
-    overflow: hidden;
-}
-
-.subpage-news .subpage-news-feature__media {
-    max-width: none;
-    min-height: 100%;
-    aspect-ratio: 16 / 10;
-    background: color-mix(in srgb, var(--subpage-paper) 70%, white);
-}
-
-.subpage-news .subpage-news-feature__media img {
-    height: 100%;
-    object-fit: cover;
-}
-
-.subpage-news .subpage-news-feature__body {
-    display: grid;
-    align-content: center;
-    gap: 1rem;
-    padding: clamp(1.3rem, 2.3vw, 2rem);
-}
-
-.subpage-news .subpage-news-feature__title {
-    font-size: clamp(1.35rem, 1.08rem + 1vw, 2.1rem);
-    line-height: 1.05;
-}
-
-.subpage-news .subpage-news-archive-list {
-    padding: clamp(1rem, 1.8vw, 1.35rem);
-    gap: clamp(1.2rem, 2vw, 1.65rem);
-}
-
-.subpage-news .subpage-news-list {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1rem;
-}
-
-.subpage-news .subpage-news-list-item {
-    grid-template-columns: minmax(9rem, 11rem) minmax(0, 1fr);
-    gap: 1rem;
-    min-height: 10.5rem;
-    padding: 1rem;
-    border: 1px solid color-mix(in srgb, var(--subpage-line) 86%, white);
-    background: #fff;
-    box-shadow: 0 10px 24px rgba(15, 35, 65, 0.055);
-}
-
-.subpage-news .subpage-news-list-item:first-child {
-    padding-top: 1rem;
-    border-top: 1px solid color-mix(in srgb, var(--subpage-line) 86%, white);
-}
-
-.subpage-news .subpage-news-list-item__media {
-    height: 100%;
-    min-height: 8.5rem;
-    border-radius: 0.55rem;
-    border-color: color-mix(in srgb, var(--subpage-line) 88%, white);
-}
-
-.subpage-news .subpage-news-list-item__media img {
-    aspect-ratio: auto;
-    height: 100%;
-    object-fit: cover;
-}
-
-.subpage-news .subpage-news-list-item__body {
-    gap: 0.65rem;
-}
-
-.subpage-news .subpage-news-list-item__title {
-    font-size: clamp(1.06rem, 1rem + 0.22vw, 1.28rem);
-    line-height: 1.14;
-    letter-spacing: -0.025em;
-}
-
-.subpage-news .subpage-news-list-item .subpage-copy {
-    -webkit-line-clamp: 3;
-    line-clamp: 3;
-}
-
-.subpage-news-date-chip,
-.subpage-news-category,
-.subpage-person-card__badge,
-.subpage-person-card__license,
-.subpage-pill,
-.facility-card__badge,
-.facility-card__category {
-    border-radius: 0.45rem;
-    letter-spacing: 0.06em;
-}
-
-.subpage-news .subpage-news-list-item__footer .subpage-link {
-    min-height: 2.5rem;
-}
-
-/* Team: turn the initial-wall into a compact directory. */
-.subpage-card-grid--team {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.8rem;
-}
-
-.subpage-person-card {
-    grid-template-columns: 5.25rem minmax(0, 1fr);
-    grid-template-rows: auto;
-    align-items: stretch;
-    min-height: 0;
-    background: #fff;
-    box-shadow: 0 8px 20px rgba(15, 35, 65, 0.055);
-}
-
-.subpage-person-card__media {
-    display: grid;
-    place-items: center;
-    min-height: 100%;
-    aspect-ratio: auto;
-    padding: 0.9rem 0.65rem;
-    background: color-mix(in srgb, var(--subpage-brand) 8%, white);
-    border-right: 1px solid color-mix(in srgb, var(--subpage-line) 84%, white);
-}
-
-.subpage-person-card__image--placeholder {
-    width: 3.25rem;
-    height: 3.25rem;
-    border-radius: 999px;
-    background-image: linear-gradient(135deg, var(--subpage-brand-strong), var(--subpage-brand));
-    font-size: 1.05rem;
-    letter-spacing: 0.04em;
-    box-shadow: none;
-}
-
-.subpage-person-card__badge {
-    position: static;
-    margin-top: 0.65rem;
-    min-height: 1.65rem;
-    padding: 0.2rem 0.45rem;
-    font-size: 0.62rem;
-    line-height: 1;
-    box-shadow: none;
-}
-
-.subpage-person-card:hover .subpage-person-card__image,
-.subpage-person-card:focus-within .subpage-person-card__image {
-    transform: none;
-}
-
-.subpage-person-card__body {
+body.subpage-contact .subpage-intro__content {
     gap: 0.7rem;
-    padding: 0.95rem 1rem;
-}
-
-.subpage-person-card__header {
-    display: grid;
-    gap: 0.4rem;
-}
-
-.subpage-person-card__header h3 {
-    font-size: clamp(1.04rem, 0.98rem + 0.18vw, 1.16rem);
-    line-height: 1.15;
-}
-
-.subpage-person-card__header p {
-    margin-top: 0.15rem;
-}
-
-.subpage-person-card__license {
-    justify-self: start;
-    min-height: 1.8rem;
-    padding: 0.24rem 0.55rem;
-    font-size: 0.68rem;
-}
-
-.subpage-person-card__copy {
-    display: none;
-}
-
-.subpage-person-card__details {
-    grid-template-columns: minmax(8.5rem, 11rem) minmax(0, 1fr);
-    align-items: start;
-    gap: 0.5rem 1.15rem;
-    margin-top: 0.05rem;
-    padding-top: 0.65rem;
-    border-top: 1px solid color-mix(in srgb, var(--subpage-line) 78%, white);
-}
-
-.subpage-person-card__details div {
-    min-width: 0;
-    padding-top: 0;
-    border-top: 0;
-}
-
-.subpage-person-card__details dd {
-    overflow-wrap: anywhere;
-}
-
-.subpage-pill-row {
-    gap: 0.4rem;
-}
-
-.subpage-pill {
-    min-height: 1.8rem;
-    padding: 0.24rem 0.5rem;
-    font-size: 0.7rem;
-}
-
-/* Facilities: no decorative AI blobs. If there is no real photo, make it an information panel. */
-.facility-card__button {
-    background: #fff;
-    box-shadow: 0 10px 24px rgba(15, 35, 65, 0.055);
-}
-
-.facility-card__button:hover,
-.facility-card__button:focus-visible,
-.facility-card__button.is-selected {
-    transform: translateY(-2px);
-    box-shadow: 0 14px 30px rgba(15, 35, 65, 0.08);
-}
-
-.facility-card__media {
-    aspect-ratio: 16 / 8.5;
-    background-color: color-mix(in srgb, var(--subpage-brand) 10%, white);
-    background-size: cover;
-    background-position: center;
-}
-
-.facility-card__media::before,
-.facility-card__media::after,
-.facility-detail-card__visual::before,
-.facility-detail-card__visual::after {
-    display: none;
-}
-
-.facility-card__media:not([style]) {
-    display: grid;
-    align-items: end;
-    background:
-        linear-gradient(135deg, color-mix(in srgb, var(--subpage-brand-strong) 88%, black) 0%, color-mix(in srgb, var(--subpage-brand) 72%, white) 100%);
-}
-
-.facility-accent--gym,
-.facility-accent--hall {
-    background-image: linear-gradient(135deg, color-mix(in srgb, var(--subpage-brand-strong) 90%, black) 0%, color-mix(in srgb, var(--subpage-brand) 72%, white) 100%);
-}
-
-.facility-card__badge {
-    background: rgba(255, 255, 255, 0.94);
-}
-
-.facility-card__body {
-    gap: 0.8rem;
-}
-
-.facility-card__header h3 {
-    font-size: clamp(1.12rem, 1.02rem + 0.24vw, 1.28rem);
-    line-height: 1.18;
-}
-
-.facility-card__footer {
-    align-items: center;
-}
-
-.facility-card__action {
-    min-height: 2.75rem;
-    padding-inline: 0.05rem;
-}
-
-/* Tablet/mobile: prefer readable vertical rhythm over cramped two-column remnants. */
-@media (max-width: 980px) {
-    :root {
-        --subpage-content: min(100% - 1.5rem, 58rem);
-    }
-
-    .subpage-news .subpage-news-list,
-    .subpage-card-grid--team,
-    .subpage-card-grid--facilities {
-        grid-template-columns: 1fr;
-    }
-
-    .subpage-news .subpage-news-feature {
-        grid-template-columns: 1fr;
-    }
-
-    .subpage-news .subpage-news-feature__media {
-        aspect-ratio: 16 / 9;
-        min-height: 0;
-    }
-}
-
-@media (max-width: 720px) {
-    :root {
-        --subpage-content: min(100% - 1rem, 100%);
-        --subpage-section-space: 1.55rem;
-    }
-
-    .subpage-main {
-        padding-top: 0.75rem;
-    }
-
-    .subpage-title-row {
-        align-items: start;
-    }
-
-    .subpage-news .subpage-news-feature,
-    .subpage-news .subpage-news-list-item {
-        grid-template-columns: 1fr;
-    }
-
-    .subpage-news .subpage-news-list-item__media {
-        min-height: 0;
-        aspect-ratio: 16 / 9;
-    }
-
-    .subpage-news .subpage-news-list-item__media img {
-        aspect-ratio: 16 / 9;
-        height: auto;
-    }
-
-    .subpage-news .subpage-news-list-item__footer .subpage-link,
-    .subpage-news .subpage-news-list-item__title a {
-        display: inline-flex;
-        align-items: center;
-        min-height: 2.75rem;
-    }
-
-    .subpage-person-card {
-        grid-template-columns: 4.75rem minmax(0, 1fr);
-    }
-
-    .subpage-person-card__media {
-        padding: 0.8rem 0.45rem;
-    }
-
-    .subpage-person-card__image--placeholder {
-        width: 2.8rem;
-        height: 2.8rem;
-        font-size: 0.95rem;
-    }
-
-    .subpage-person-card__details {
-        grid-template-columns: 1fr;
-    }
-
-    .facility-card__media {
-        aspect-ratio: 16 / 9;
-    }
-}
-
-
-/* Deep GStack design review final correction: specific rules that beat older page overrides. */
-body.subpage-team .subpage-card-grid--team {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-body.subpage-team .subpage-person-card {
-    grid-template-columns: 7.25rem minmax(0, 1fr);
-}
-
-body.subpage-team .subpage-person-card__badge {
-    max-width: 100%;
-    text-align: center;
-    white-space: normal;
-}
-
-body.subpage-news .subpage-news-list {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-body.subpage-news .subpage-news-list-item__title a,
-body.subpage-news .subpage-news-list-item__footer .subpage-link,
-body.subpage-news .subpage-link,
-body.subpage-news .subpage-button {
-    display: inline-flex;
-    align-items: center;
-    min-height: 2.75rem;
-}
-
-body.subpage-news .subpage-news-list-item__title a {
-    padding-block: 0.12rem;
-}
-
-body.subpage-news .subpage-news-list-item__footer .subpage-link {
-    padding-inline: 0.1rem;
-}
-
-@media (max-width: 980px) {
-    body.subpage-team .subpage-card-grid--team,
-    body.subpage-news .subpage-news-list {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 720px) {
-    body.subpage-team .subpage-person-card {
-        grid-template-columns: 6.25rem minmax(0, 1fr);
-    }
-}
-
-
-/* Archive safety: old imported news sometimes referenced missing PDFs/legacy PHP pages.
-   Keep the citation visible, but do not expose dead 404 links to visitors. */
-.legacy-link-unavailable {
-    color: color-mix(in srgb, var(--subpage-muted) 88%, var(--subpage-ink));
-    text-decoration: underline dotted;
-    text-underline-offset: 0.18em;
-    cursor: default;
-}
-
-.legacy-link-unavailable::after {
-    content: " (Archivlink aktuell nicht verfügbar)";
-    font-size: 0.86em;
-    color: color-mix(in srgb, var(--subpage-muted) 78%, white);
-}
-
-/* Gallery-aligned subpage baseline: the Stitch-ported Bilder page is the visual source of truth. */
-body.subpage:not(.subpage-gallery) {
-    --subpage-section-space: clamp(1rem, 2.2vw, 2rem);
-    --subpage-content: min(100% - 2rem, 82rem);
-    --subpage-radius: clamp(1.15rem, 2vw, 1.75rem);
-    --subpage-shadow: 0 22px 64px color-mix(in srgb, var(--color-primary) 10%, transparent);
-    --subpage-shadow-soft: 0 16px 42px color-mix(in srgb, var(--color-primary) 8%, transparent);
-}
-
-body.subpage:not(.subpage-gallery) .subpage-main {
-    width: var(--subpage-content);
-    padding-top: clamp(1rem, 1.8vw, 1.4rem);
-    padding-bottom: clamp(2.5rem, 5vw, 4.5rem);
-}
-
-body.subpage:not(.subpage-gallery) .subpage-stack {
-    gap: var(--subpage-section-space);
-}
-
-body.subpage:not(.subpage-gallery) .subpage-intro {
-    align-items: center;
-    gap: clamp(1.35rem, 3vw, 3rem);
-    grid-template-columns: minmax(0, 0.88fr) minmax(18rem, 0.82fr);
-    padding: clamp(1.45rem, 3.6vw, 3.6rem);
-    border: none;
-    border-radius: var(--subpage-radius);
-    background:
-        radial-gradient(circle at 82% 16%, color-mix(in srgb, var(--color-primary-light) 54%, transparent), transparent 31%),
-        radial-gradient(circle at 70% 8%, color-mix(in srgb, #fcd400 12%, transparent), transparent 28%),
-        linear-gradient(135deg, #ffffff 0%, color-mix(in srgb, var(--color-background-light) 78%, white) 50%, color-mix(in srgb, var(--color-primary) 8%, white) 100%);
-    box-shadow: var(--subpage-shadow);
-}
-
-body.subpage:not(.subpage-gallery) .subpage-intro--full {
-    grid-template-columns: 1fr;
-}
-
-body.subpage:not(.subpage-gallery) .subpage-intro--visual {
-    grid-template-columns: minmax(0, 0.82fr) minmax(20rem, 0.82fr);
-}
-
-body.subpage:not(.subpage-gallery) .subpage-intro::before {
-    content: none;
-}
-
-body.subpage:not(.subpage-gallery) .subpage-intro__content {
-    align-content: center;
-    gap: clamp(0.9rem, 1.8vw, 1.25rem);
-}
-
-body.subpage:not(.subpage-gallery) .subpage-eyebrow,
-body.subpage:not(.subpage-gallery) .subpage-kicker,
-body.subpage:not(.subpage-gallery) .subpage-news-category,
-body.subpage:not(.subpage-gallery) .subpage-news-year-heading span {
-    font-family: 'Lexend', var(--font-family-heading);
-    color: color-mix(in srgb, #006860 86%, var(--color-primary-dark));
-}
-
-body.subpage:not(.subpage-gallery) .subpage-display,
-body.subpage:not(.subpage-gallery) .subpage-title,
-body.subpage:not(.subpage-gallery) .subpage-panel__title,
-body.subpage:not(.subpage-gallery) .subpage-news-list-item__title,
-body.subpage:not(.subpage-gallery) .subpage-news-year-heading h3 {
-    font-family: 'Lexend', var(--font-family-heading);
-}
-
-body.subpage:not(.subpage-gallery) .subpage-display {
-    max-width: 12.5ch;
-    font-size: clamp(2.45rem, 4.7vw, 4.85rem);
-    line-height: 0.96;
-    letter-spacing: -0.055em;
-}
-
-body.subpage:not(.subpage-gallery) .subpage-lead {
-    max-width: 36rem;
-    font-size: clamp(1rem, 1.1vw, 1.16rem);
-    line-height: 1.65;
-}
-
-body.subpage:not(.subpage-gallery) .subpage-intro__visual {
-    min-height: clamp(19rem, 30vw, 27rem);
-    border: none;
-    border-radius: 1rem;
-    box-shadow: 0 22px 54px color-mix(in srgb, var(--color-primary) 13%, transparent);
-}
-
-body.subpage:not(.subpage-gallery) .subpage-meta-row {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 0;
-    margin-top: 0.15rem;
-    padding-top: 0.85rem;
-    border-top: 1px solid color-mix(in srgb, var(--color-primary) 20%, white);
-}
-
-body.subpage:not(.subpage-gallery) .subpage-meta {
-    display: grid;
-    align-items: start;
-    gap: 0.2rem;
-    min-height: 0;
-    padding: 0 1rem 0 0;
-    border: 0;
-    background: transparent;
-    color: var(--subpage-ink);
-    font-weight: 750;
-    line-height: 1.35;
-}
-
-body.subpage:not(.subpage-gallery) .subpage-meta .material-icons-round {
-    display: none;
-}
-
-body.subpage:not(.subpage-gallery) .subpage-meta strong {
-    display: block;
-    color: color-mix(in srgb, #006860 86%, var(--color-primary-dark));
-    font-family: 'Lexend', var(--font-family-heading);
-    font-size: 0.72rem;
-    font-weight: 800;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-}
-
-body.subpage:not(.subpage-gallery) .subpage-button {
-    border-color: color-mix(in srgb, var(--color-primary-dark) 78%, black 8%);
-    background: var(--color-primary);
-    box-shadow: 0 22px 40px color-mix(in srgb, var(--color-primary) 24%, transparent);
-}
-
-body.subpage:not(.subpage-gallery) .subpage-button--secondary {
-    border-color: color-mix(in srgb, var(--subpage-line) 80%, white);
-    background: color-mix(in srgb, white 90%, var(--subpage-paper));
-    color: var(--subpage-ink);
-    box-shadow: none;
-}
-
-body.subpage:not(.subpage-gallery) .subpage-button:hover,
-body.subpage:not(.subpage-gallery) .subpage-button:focus-visible {
-    border-color: color-mix(in srgb, var(--color-primary-dark) 90%, black 6%);
-    background: var(--color-primary-dark);
-    box-shadow: 0 28px 52px color-mix(in srgb, var(--color-primary) 30%, transparent);
-}
-
-body.subpage:not(.subpage-gallery) .subpage-button--secondary:hover,
-body.subpage:not(.subpage-gallery) .subpage-button--secondary:focus-visible {
-    border-color: color-mix(in srgb, var(--color-primary) 28%, white);
-    background: color-mix(in srgb, var(--color-primary-light) 28%, white);
-    color: var(--color-primary-dark);
-    box-shadow: 0 18px 36px color-mix(in srgb, var(--color-primary) 12%, transparent);
-}
-
-body.subpage:not(.subpage-gallery) .subpage-surface,
-body.subpage:not(.subpage-gallery) .subpage-panel,
-body.subpage:not(.subpage-gallery) .subpage-toolbar,
-body.subpage:not(.subpage-gallery) .subpage-empty,
-body.subpage:not(.subpage-gallery) .subpage-cta-band {
-    border-color: color-mix(in srgb, var(--subpage-line) 62%, white);
-    border-radius: var(--subpage-radius);
-    box-shadow: var(--subpage-shadow-soft);
-}
-
-body.subpage:not(.subpage-gallery) .subpage-cta-band {
-    background:
-        linear-gradient(135deg, color-mix(in srgb, var(--color-primary) 8%, white), color-mix(in srgb, #fcd400 10%, white)),
-        #fff;
-}
-
-@media (max-width: 980px) {
-    body.subpage:not(.subpage-gallery) .subpage-intro,
-    body.subpage:not(.subpage-gallery) .subpage-intro--visual {
-        grid-template-columns: 1fr;
-    }
-
-    body.subpage:not(.subpage-gallery) .subpage-intro__visual {
-        min-height: clamp(14rem, 48vw, 22rem);
-    }
-}
-
-@media (max-width: 720px) {
-    body.subpage:not(.subpage-gallery) {
-        --subpage-section-space: 1rem;
-        --subpage-content: min(100% - 1rem, 82rem);
-    }
-
-    body.subpage:not(.subpage-gallery) .subpage-main {
-        padding-top: 0.75rem;
-    }
-
-    body.subpage:not(.subpage-gallery) .subpage-intro {
-        gap: 1.05rem;
-        padding: 1rem;
-    }
-
-    body.subpage:not(.subpage-gallery) .subpage-display {
-        max-width: 12ch;
-        font-size: clamp(2rem, 9.6vw, 3.05rem);
-        line-height: 0.97;
-    }
-
-    body.subpage:not(.subpage-gallery) .subpage-lead {
-        font-size: 0.98rem;
-        line-height: 1.6;
-    }
-
-    body.subpage:not(.subpage-gallery) .subpage-meta-row {
-        grid-template-columns: repeat(auto-fit, minmax(min(100%, 8.5rem), 1fr));
-        gap: 0.75rem 0.9rem;
-        overflow-wrap: anywhere;
-    }
-
-    body.subpage:not(.subpage-gallery) .subpage-meta {
-        padding-right: 0;
-        font-size: 0.88rem;
-    }
-
-    body.subpage:not(.subpage-gallery) .subpage-actions {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 0.75rem;
-    }
-
-    body.subpage:not(.subpage-gallery) .subpage-button,
-    body.subpage:not(.subpage-gallery) .subpage-button--secondary {
-        width: 100%;
-    }
-
-    body.subpage:not(.subpage-gallery) .subpage-intro__visual {
-        min-height: clamp(12.5rem, 48vw, 18rem);
-    }
-}
-
-/* Hero detail polish: component-level rhythm after customer screenshot feedback.
-   The Gallery page remains the visual baseline, but long subpage heroes need
-   a calmer internal layout: headline, lead, meta facts and actions must read as
-   separate zones instead of one compressed block. */
-body.subpage:not(.subpage-gallery) .subpage-intro__content {
-    display: grid;
-    align-content: center;
-    gap: 0;
-}
-
-body.subpage:not(.subpage-gallery) .subpage-eyebrow {
-    margin-bottom: clamp(1.05rem, 1.6vw, 1.45rem);
-}
-
-body.subpage:not(.subpage-gallery) .subpage-display {
-    max-width: 12.8ch;
-    font-size: clamp(2.35rem, 4.25vw, 4.35rem);
-    line-height: 0.98;
-    letter-spacing: -0.052em;
-}
-
-body.subpage:not(.subpage-gallery) .subpage-lead {
-    max-width: 40rem;
-    margin-top: clamp(1.15rem, 1.8vw, 1.6rem);
-    font-size: clamp(1rem, 1.03vw, 1.12rem);
-    line-height: 1.68;
-}
-
-body.subpage:not(.subpage-gallery) .subpage-meta-row {
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr));
-    gap: clamp(0.95rem, 1.6vw, 1.35rem) clamp(1.25rem, 2vw, 2rem);
-    margin-top: clamp(1.55rem, 2.4vw, 2.15rem);
-    padding-top: clamp(1.2rem, 1.8vw, 1.5rem);
-}
-
-body.subpage:not(.subpage-gallery) .subpage-meta {
-    padding: 0;
-    font-size: clamp(0.92rem, 0.94vw, 1rem);
-    line-height: 1.38;
-}
-
-body.subpage:not(.subpage-gallery) .subpage-meta strong {
-    margin-bottom: 0.22rem;
-}
-
-body.subpage:not(.subpage-gallery) .subpage-actions {
-    gap: 0.9rem 1.05rem;
-    margin-top: clamp(1.65rem, 2.6vw, 2.4rem);
-}
-
-body.subpage:not(.subpage-gallery) .subpage-button {
-    min-height: 3.45rem;
-    padding: 1.02rem 1.55rem;
-}
-
-body.subpage-training .subpage-meta-row {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
-@media (max-width: 1080px) {
-    body.subpage-training .subpage-meta-row,
-    body.subpage:not(.subpage-gallery) .subpage-meta-row {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-}
-
-@media (max-width: 720px) {
-    body.subpage:not(.subpage-gallery) .subpage-eyebrow {
-        margin-bottom: 0.9rem;
-    }
-
-    body.subpage:not(.subpage-gallery) .subpage-display {
-        max-width: 12.4ch;
-        font-size: clamp(2rem, 8.7vw, 2.85rem);
-        line-height: 1;
-    }
-
-    body.subpage:not(.subpage-gallery) .subpage-lead {
-        margin-top: 1rem;
-        font-size: 0.98rem;
-        line-height: 1.58;
-    }
-
-    body.subpage-training .subpage-meta-row,
-    body.subpage:not(.subpage-gallery) .subpage-meta-row {
-        grid-template-columns: repeat(auto-fit, minmax(min(100%, 9.5rem), 1fr));
-        gap: 0.85rem 0.9rem;
-        margin-top: 1.2rem;
-        padding-top: 1rem;
-    }
-
-    body.subpage:not(.subpage-gallery) .subpage-meta {
-        font-size: 0.92rem;
-    }
-
-    body.subpage:not(.subpage-gallery) .subpage-actions {
-        margin-top: 1.25rem;
-        gap: 0.7rem;
-    }
-
-    body.subpage:not(.subpage-gallery) .subpage-button {
-        min-height: 3.2rem;
-        padding: 0.92rem 1.1rem;
-    }
-}
-
-body.subpage-stats .subpage-hero-points {
-    display: none;
-}
-
-body.subpage-stats .subpage-display {
-    max-width: 13.8ch;
-    font-size: clamp(2.15rem, 3.65vw, 3.75rem);
-}
-
-body.subpage-stats .subpage-intro__aside .subpage-checklist {
-    display: none;
-}
-
-body.subpage-stats .subpage-intro__aside {
-    align-self: center;
-}
-
-@media (max-width: 720px) {
-    body.subpage-training .subpage-intro__visual,
-    body.subpage-event .subpage-intro__visual {
-        min-height: 10.5rem;
-    }
-
-    body.subpage-stats .subpage-intro__aside {
-        display: none;
-    }
-}
-
-body.subpage.subpage-stats:not(.subpage-gallery) .subpage-display {
-    max-width: 14ch;
-    font-size: clamp(2.05rem, 3.25vw, 3.45rem);
-}
-
-@media (max-width: 720px) {
-    body.subpage.subpage-stats:not(.subpage-gallery) .subpage-display {
-        max-width: 13.4ch;
-        font-size: clamp(1.9rem, 8vw, 2.55rem);
-    }
-}
-
-/* Component contract variants: PageHero / MetaRow / CtaGroup.
-   These named variants make the current static HTML behave like a component system:
-   reusable class contracts first, page-specific overrides only where content is unique. */
-body.subpage:not(.subpage-gallery) .subpage-intro--standard {
-    align-items: center;
-}
-
-body.subpage:not(.subpage-gallery) .subpage-intro--compact {
-    padding-block: clamp(1.05rem, 2vw, 1.75rem);
-}
-
-body.subpage:not(.subpage-gallery) .subpage-intro--compact .subpage-display {
-    max-width: 18ch;
-    font-size: clamp(1.75rem, 3vw, 2.85rem);
-    line-height: 1.03;
-}
-
-body.subpage:not(.subpage-gallery) .subpage-intro--compact .subpage-lead {
-    max-width: 42rem;
-    margin-top: clamp(0.8rem, 1.3vw, 1.05rem);
-}
-
-body.subpage:not(.subpage-gallery) .subpage-intro--process {
-    align-items: start;
-    grid-template-columns: minmax(0, 1fr) minmax(18rem, 0.55fr);
-}
-
-body.subpage:not(.subpage-gallery) .subpage-intro--process .subpage-hero-points {
-    display: none;
-}
-
-body.subpage:not(.subpage-gallery) .subpage-intro--data-heavy {
-    align-items: center;
-}
-
-body.subpage:not(.subpage-gallery) .subpage-intro--data-heavy .subpage-lead {
-    max-width: 42rem;
-}
-
-body.subpage:not(.subpage-gallery) .subpage-intro--data-heavy .subpage-actions--hero {
-    margin-top: clamp(1.75rem, 2.8vw, 2.55rem);
-}
-
-body.subpage:not(.subpage-gallery) .subpage-meta-row--2 {
-    align-items: start;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-body.subpage:not(.subpage-gallery) .subpage-meta-row--3 {
-    align-items: start;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-body.subpage:not(.subpage-gallery) .subpage-meta-row--4 {
-    align-items: start;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
-body.subpage:not(.subpage-gallery) .subpage-meta-row--dynamic:empty {
-    display: none;
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
-body.subpage:not(.subpage-gallery) .subpage-actions--hero {
-    align-items: center;
-}
-
-body.subpage:not(.subpage-gallery) .subpage-actions--inline,
-body.subpage:not(.subpage-gallery) .subpage-actions--feature {
-    margin-top: clamp(0.75rem, 1.5vw, 1.1rem);
-}
-
-body.subpage:not(.subpage-gallery) .subpage-actions--form-footer {
-    justify-content: flex-end;
-}
-
-body.subpage-gallery .gallery-hero--editorial {
-    isolation: isolate;
-}
-
-@media (max-width: 1080px) {
-    body.subpage:not(.subpage-gallery) .subpage-meta-row--4 {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    body.subpage:not(.subpage-gallery) .subpage-intro--process {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 980px) {
-    body.subpage-stats .subpage-table-shell {
-        display: none;
-    }
-
-    body.subpage-stats .stats-mobile-cards {
-        display: grid;
-    }
-}
-
-@media (max-width: 720px) {
-    body.subpage:not(.subpage-gallery) .subpage-intro--compact {
-        padding-block: 1rem 1.15rem;
-    }
-
-    body.subpage:not(.subpage-gallery) .subpage-intro--compact .subpage-display {
-        font-size: clamp(1.7rem, 7.5vw, 2.35rem);
-    }
-
-    body.subpage:not(.subpage-gallery) .subpage-intro--process .subpage-intro__aside {
-        display: none;
-    }
-
-    body.subpage:not(.subpage-gallery) .subpage-meta-row--2,
-    body.subpage:not(.subpage-gallery) .subpage-meta-row--3,
-    body.subpage:not(.subpage-gallery) .subpage-meta-row--4 {
-        grid-template-columns: repeat(auto-fit, minmax(min(100%, 9.5rem), 1fr));
-    }
-
-    body.subpage:not(.subpage-gallery) .subpage-actions--hero,
-    body.subpage:not(.subpage-gallery) .subpage-actions--inline,
-    body.subpage:not(.subpage-gallery) .subpage-actions--feature,
-    body.subpage:not(.subpage-gallery) .subpage-actions--form-footer {
-        display: grid;
-        grid-template-columns: 1fr;
-        align-items: stretch;
-    }
 }

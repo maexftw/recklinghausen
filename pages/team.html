@@ -10,9 +10,9 @@
     />
     <link href="../assets/css/design-tokens.css" rel="stylesheet" />
     <link href="../assets/css/shell.css" rel="stylesheet" />
-    <link href="../assets/css/subpages.css?v=10" rel="stylesheet" />
+    <link href="../assets/css/subpages.css?v=6" rel="stylesheet" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Lexend:wght@600;700;800;900&amp;display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Montserrat:wght@700;900&amp;display=swap"
         rel="stylesheet"
     />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
@@ -24,13 +24,13 @@
     <header data-shared-shell-placeholder></header>
     <main class="subpage-main">
         <div class="subpage-stack">
-            <section class="subpage-intro subpage-intro--visual subpage-intro--standard" aria-labelledby="team-page-title">
+            <section class="subpage-intro subpage-intro--visual" aria-labelledby="team-page-title">
                 <div class="subpage-intro__content">
                     <span class="subpage-eyebrow">Trainerteam</span>
                     <h1 id="team-page-title" class="subpage-display">Unser Trainerteam im Überblick.</h1>
-                    <p class="subpage-lead">Hier findest du die Trainerinnen und Trainer mit ihren wichtigsten Einsatzbereichen. Für konkrete Rückfragen nutzt du den zentralen Kontaktweg.</p>
-                    <div class="subpage-meta-row subpage-meta-row--dynamic subpage-meta-row--3" id="team-meta-row" aria-label="Schnellüberblick zum Trainerteam"></div>
-                    <div class="subpage-actions subpage-actions--hero">
+                    <p class="subpage-lead">Hier findest du die Trainerinnen und Trainer, die aktuell unsere Gruppen begleiten, mit ihren Einsatzbereichen.</p>
+                    <div class="subpage-meta-row" id="team-meta-row" aria-label="Schnellüberblick zum Trainerteam"></div>
+                    <div class="subpage-actions">
                         <a href="#team-directory-title" class="subpage-button">Zum Trainerteam <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                         <a href="contact.html#contact" class="subpage-button subpage-button--secondary">Kontakt aufnehmen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                     </div>
@@ -45,7 +45,7 @@
                     <div class="subpage-title-row subpage-surface__header">
                         <div>
                             <span class="subpage-eyebrow">Teamverzeichnis</span>
-                            <h2 id="team-directory-title" class="subpage-title">Trainerteam mit Gruppen und Bereichen.</h2>
+                            <h2 id="team-directory-title" class="subpage-title">Trainerteam mit Gruppen und Einsatzbereichen.</h2>
                         </div>
                     </div>
                     <div class="subpage-card-grid subpage-card-grid--team" id="team-card-grid"></div>
@@ -133,7 +133,12 @@
                 {
                     icon: 'calendar_month',
                     label: 'Stand',
-                    value: 'aus dem Trainingsplan'
+                    value: `aus ${meta.seasonLabel || 'Sommer 2026'}`
+                },
+                {
+                    icon: 'schedule',
+                    label: 'Trainingstage',
+                    value: `${unique(schedule.map((entry) => entry.day)).length} Tage pro Woche`
                 }
             ].map((item) => `
                 <span class="subpage-meta">
@@ -144,6 +149,7 @@
 
             grid.innerHTML = trainers.map(([trainer, entries]) => {
                 const groups = unique(entries.map((entry) => entry.group));
+                const years = unique(entries.map((entry) => entry.year));
                 const { badge, summary } = classifyTrainer(entries);
 
                 return `
@@ -162,8 +168,9 @@
                             </div>
                             <div class="subpage-inline-list subpage-pill-row" aria-label="Einsatzfelder von ${trainer}">
                                 ${groups.slice(0, 3).map((group) => `<span class="subpage-pill">${group}</span>`).join('')}
+                                ${years.slice(0, 2).map((year) => `<span class="subpage-pill">${year}</span>`).join('')}
                             </div>
-                            <p class="subpage-person-card__copy">Gruppen/Bereiche: ${groups.join(', ')}.</p>
+                            <p class="subpage-person-card__copy">Trainingsgruppen: ${groups.join(', ')}.</p>
                             <dl class="subpage-detail-list subpage-person-card__details">
                                 <div>
                                     <dt>Bereich</dt>
@@ -171,7 +178,7 @@
                                 </div>
                                 <div>
                                     <dt>Kontakt</dt>
-                                    <dd>über info@rlc1952.de</dd>
+                                    <dd><a href="contact.html#contact">&Uuml;ber Kontaktformular</a></dd>
                                 </div>
                             </dl>
                         </div>

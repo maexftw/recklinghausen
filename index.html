@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="de">
 
 <head>
@@ -15,10 +15,27 @@
     <link href="assets/css/style.css" rel="stylesheet" />
     <link href="assets/css/responsive.css" rel="stylesheet" />
     <link href="assets/css/shell.css" rel="stylesheet" />
-    <link href="assets/css/homepage.css?v=7" rel="stylesheet" />
+    <link href="assets/css/homepage.css" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
     <script src="assets/js/news_data.js"></script>
     <script src="assets/js/components.js"></script>
+    <script type="speculationrules">
+    {
+      "prerender": [
+        {
+          "source": "list",
+          "urls": [
+            "pages/training.html",
+            "pages/team.html",
+            "pages/facilities.html",
+            "pages/gallery.html",
+            "pages/contact.html",
+            "pages/events.html"
+          ]
+        }
+      ]
+    }
+    </script>
 </head>
 
 <body class="homepage font-sans transition-colors duration-300" data-rlc-theme="royal">
@@ -77,16 +94,16 @@
         <div class="home-hero__media" aria-hidden="true">
             <img src="assets/images/rlc-hero-stadion.jpg"
                 alt="Leichtathletik-Stadion in Recklinghausen mit Laufbahn" width="1757" height="920" loading="eager" decoding="async">
-            <small class="home-hero__photo-copyright">© RVR, 2020, dl-de/by-2-0</small>
+            <small class="home-hero__photo-copyright">© RVR, 2020, DL-DE/BY-2-0</small>
         </div>
         <div class="home-hero__inner">
             <div class="home-hero__content">
                 <span class="home-kicker">
-                    <span>Leichtathletik seit 1952</span>
+                    <span>Recklinghausen</span>
                     <strong>Leichtathletik lebt hier</strong>
                 </span>
                 <h1 id="home-hero-title" class="home-hero__title home-display">
-                    Recklinghäuser <em>Leichtathletik Club.</em>
+                    Recklingh&auml;user<br><em>Leichtathletik Club.</em>
                 </h1>
                 <p class="home-hero__lead">
                     Der Recklinghäuser Leichtathletik Club 1952 e.V. steht für engagiertes Training,
@@ -168,53 +185,57 @@
                 </aside>
             </section>
 
-            <section class="home-visit" aria-labelledby="home-visit-title">
+            <section class="home-visit" aria-label="Rund um den Verein">
                 <div class="home-visit__intro">
                     <span class="home-section-label">Rund um den Verein</span>
-                    <h2 id="home-visit-title" class="home-visit__title home-display">Alles Wichtige in Menü-Reihenfolge.</h2>
-                    <p>Termine, Training, Verein, Trainerteam, Sportstätten, Einstieg und Instagram sind als schnelle Einstiege gebündelt.</p>
                 </div>
                 <div class="home-visit__grid home-visit__grid--seven">
-                    <article class="home-partner-card home-event-card">
+                    <article class="home-partner-card">
                         <small>Termine</small>
                         <h3 class="home-display">Veranstaltungen im Überblick</h3>
-                        <p>Wettkämpfe und Veranstaltungen mit weiteren Informationen (Datum, Ort, Anmeldung usw.).</p>
+                        <p>Datum, Ort und Anmeldung.</p>
                         <a href="pages/events.html" class="home-link">Termine ansehen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                     </article>
-                    <article class="home-visit-card">
-                        <strong>Training</strong>
-                        <h3 class="home-display">Angebote für Kinder, Jugendliche und Erwachsene.</h3>
-                        <p>Details zu Trainingszeiten, Gruppen und Orten zur Übersicht.</p>
+                    <article class="home-partner-card">
+                        <small>Training</small>
+                        <h3 class="home-display">Zeiten, Gruppen &amp; Orte</h3>
+                        <p>Angebote für Kinder, Jugendliche und Erwachsene.</p>
                         <a href="pages/training.html" class="home-link">Training ansehen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                     </article>
                     <article class="home-partner-card">
                         <small>Verein</small>
-                        <h3 class="home-display">Vorstand, Geschichte und Partner</h3>
-                        <p>Die Vereinsseite bündelt Vorstand, Historie, Partner, Satzung, Schutzkonzept und Mitgliedsunterlagen. Unser Trainerteam im Überblick.</p>
+                        <h3 class="home-display">Verein &amp; Vorstand</h3>
+                        <p>Vorstand, Partner und Dokumente.</p>
                         <a href="pages/sponsors.html" class="home-link">Verein öffnen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                     </article>
                     <article class="home-partner-card">
                         <small>Trainerteam</small>
-                        <h3 class="home-display">Unser Trainerteam im Überblick.</h3>
-                        <p>Trainerinnen und Trainer mit ihren wichtigsten Gruppen, Bereichen und dem zentralen Kontaktweg.</p>
+                        <h3 class="home-display">Unser Team im Überblick</h3>
+                        <p>Trainerinnen und Trainer.</p>
                         <a href="pages/team.html" class="home-link">Trainerteam ansehen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                     </article>
-                    <article class="home-visit-card">
-                        <strong>Sportstätten</strong>
-                        <h3 class="home-display">Stadion, Hallen und Kursräume</h3>
-                        <p>Stadion und Hallen für Training, Kurse und Wettkämpfe uvm.</p>
+                    <article class="home-partner-card">
+                        <small>Sportstätten</small>
+                        <h3 class="home-display">Stadion, Hallen &amp; Kursräume</h3>
+                        <p>Adressen und Google Maps.</p>
                         <a href="pages/facilities.html" class="home-link">Sportstätten ansehen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                     </article>
                     <article class="home-partner-card">
+                        <small>Bildergalerie</small>
+                        <h3 class="home-display">Training, Wettkampf &amp; Vereinsleben</h3>
+                        <p>Ausgew&auml;hlte Bilder nach Anlass sortiert.</p>
+                        <a href="pages/gallery.html" class="home-link">Bilder ansehen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                    </article>
+                    <article class="home-partner-card">
                         <small>Einstieg</small>
-                        <h3 class="home-display">Probetraining und Kontakt</h3>
-                        <p>Nimm Kontakt auf und vereinbare ein erstes Probetraining oder stelle Deine offenen Fragen.</p>
+                        <h3 class="home-display">Probetraining &amp; Kontakt</h3>
+                        <p>Probetraining oder Frage senden.</p>
                         <a href="pages/contact.html#contact" class="home-link">Kontakt aufnehmen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                     </article>
                     <article class="home-partner-card">
                         <small>Instagram</small>
                         <h3 class="home-display">Aktuelles aus dem Vereinsalltag</h3>
-                        <p>Auf Instagram findest Du von aktuellen Beiträgen aus dem Vereinsalltag bis hin zu Wettkampfbildern und -videos nützliche Einblicke in das Vereinsgeschehen.</p>
+                        <p>Aktuelle Einblicke aus dem Vereinsalltag.</p>
                         <a href="https://www.instagram.com/rlc_1952/" class="home-link" target="_blank" rel="noopener">Instagram öffnen <span class="material-icons-round" aria-hidden="true">open_in_new</span></a>
                     </article>
                 </div>
@@ -314,7 +335,7 @@
             {
                 isoDate: '2026-08-28',
                 title: '9. Sparkassen Abendlauf',
-                detail: '5 km, 10 km, Kreismeisterschaft 10 km · Start 18:30 Uhr',
+                detail: '5 km, 10 km und Kreismeisterschaften 10 km',
                 location: 'Stadion Hohenhorst & Außenbereich',
                 href: 'pages/events.html#event-abendlauf'
             },

@@ -1,35 +1,57 @@
 @import url('./design-tokens.css');
 
 :root {
-    --home-logo-green: #10b582;
+    --home-logo-green: var(--color-club-green);
 
-    --home-paper: #eef5ff;
-    --home-paper-strong: #d6e5ff;
-    --home-paper-deep: #c5d8f0;
-    --home-ink: #071528;
-    --home-muted: #465a78;
-    --home-line: #c4d0e4;
-    --home-wash: #f4f8ff;
-    --home-sand: #dcecff;
-    --home-brand: #0057b8;
-    --home-brand-strong: #00428f;
-    --home-accent: color-mix(in srgb, var(--home-brand) 68%, #ffffff);
-    --home-accent-soft: color-mix(in srgb, var(--home-brand) 18%, #ffffff);
-    --home-accent-deep: #0f4ca8;
+    --home-paper: var(--surface);
+    --home-paper-strong: var(--color-neutral-200);
+    --home-paper-deep: var(--surface-muted);
+    --home-ink: var(--color-text-contrast);
+    --home-muted: var(--color-text-muted);
+    --home-line: var(--color-border-default);
+    --home-wash: var(--surface-container-low);
+    --home-sand: var(--color-primary-light);
+    --home-brand: var(--color-primary);
+    --home-brand-strong: var(--color-primary-dark);
+    --home-accent: var(--color-primary);
+    --home-accent-soft: var(--color-primary-light);
+    --home-accent-deep: var(--color-primary-dark);
     --home-club-accent: var(--home-logo-green);
 
-    --home-shadow: 0 34px 120px color-mix(in srgb, var(--home-brand-strong) 16%, transparent);
-    --home-shadow-soft: 0 24px 68px color-mix(in srgb, var(--home-brand-strong) 10%, transparent);
-    --home-radius: clamp(1.1rem, 1rem + 0.8vw, 1.9rem);
-    --home-gutter: clamp(1rem, 2vw, 1.6rem);
-    --home-section-space: clamp(4rem, 7vw, 7.5rem);
-    --home-container: min(100% - 2rem, 78rem);
+    --home-shadow: 0 24px 64px oklch(0.24 0.10 254.3 / 0.08);
+    --home-shadow-soft: 0 16px 48px oklch(0.24 0.10 254.3 / 0.05);
+    --home-radius: var(--border-radius-xl);
+    --home-gutter: var(--spacing-lg);
+    --home-section-space: var(--spacing-xxxl);
+    --home-container: min(100% - 2rem, var(--content-max-width));
+
+    /* Spring curve for premium physical interactions */
+    --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 body.homepage {
     font-family: "Inter", Arial, sans-serif;
     color: var(--home-ink);
-    background: color-mix(in srgb, var(--home-paper) 86%, var(--home-wash));
+    background:
+        linear-gradient(color-mix(in srgb, #eef6ff 92%, transparent), color-mix(in srgb, #eef6ff 92%, transparent)),
+        color-mix(in srgb, var(--home-paper) 86%, var(--home-wash));
+}
+
+/* Subtle logo watermark. Kept on a dedicated fixed pseudo-element with a
+   single image layer so the SVG background-size is honoured. Stacking it as a
+   layer alongside gradient backgrounds made Chromium ignore the size and paint
+   the logo at full resolution across the page. */
+body.homepage::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background-image: url('../../RLC-Logo_vector/RLC-Logo_vector_transparent.svg');
+    background-position: 1.25rem 1.25rem;
+    background-size: 8rem 3.085rem;
+    background-repeat: repeat;
+    opacity: 0.05;
 }
 
 body.homepage[data-rlc-theme="navy"] {
@@ -142,6 +164,13 @@ body.homepage[data-rlc-theme="navy"] {
     transform: translateY(0);
     opacity: 1;
     pointer-events: auto;
+}
+
+@starting-style {
+    .sportabzeichen-notice.is-visible {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
 }
 
 .sportabzeichen-notice__eyebrow {
@@ -488,7 +517,8 @@ body.homepage[data-rlc-theme="navy"] {
     position: absolute;
     inset: 0;
     z-index: 1;
-    background: color-mix(in srgb, var(--home-brand-strong) 78%, transparent);
+    background:
+        linear-gradient(135deg, rgba(10, 31, 75, 0.95) 0%, rgba(14, 55, 126, 0.88) 54%, rgba(7, 20, 38, 0.64) 100%);
 }
 
 .home-hero__inner {
@@ -519,7 +549,7 @@ body.homepage[data-rlc-theme="navy"] {
 
 .home-hero__title em {
     font-style: normal;
-    color: color-mix(in srgb, white 92%, var(--home-accent-soft));
+    color: var(--color-club-green);
 }
 
 .home-hero__lead {
@@ -616,18 +646,20 @@ body.homepage[data-rlc-theme="navy"] {
 .home-button {
     justify-content: center;
     padding: 0.98rem 1.45rem;
-    border: 1px solid color-mix(in srgb, var(--home-accent-deep) 75%, black 8%);
+    border: 1px solid var(--color-primary-dark);
     background: var(--home-brand);
     color: oklch(0.985 0.004 180);
-    box-shadow: 0 22px 40px color-mix(in srgb, var(--home-accent-deep) 28%, transparent);
+    border-radius: var(--border-radius-lg);
+    box-shadow: 0 16px 36px oklch(0.38 0.15 254.3 / 0.18);
+    transition: transform 0.4s var(--ease-spring), background-color 0.2s ease, box-shadow 0.3s ease;
 }
 
 .home-button:hover,
 .home-button:focus-visible {
     transform: translateY(-3px);
-    border-color: color-mix(in srgb, var(--home-accent-deep) 90%, black 6%);
+    border-color: var(--color-primary-dark);
     background: var(--home-brand-strong);
-    box-shadow: 0 28px 52px color-mix(in srgb, var(--home-accent-deep) 32%, transparent);
+    box-shadow: 0 24px 48px oklch(0.38 0.15 254.3 / 0.26);
     color: oklch(0.985 0.004 180);
 }
 
@@ -820,22 +852,36 @@ body.homepage[data-rlc-theme="navy"] {
     grid-template-columns: clamp(4.75rem, 8vw, 5.75rem) minmax(0, 1fr);
     gap: clamp(0.9rem, 1.5vw, 1.15rem);
     align-items: stretch;
-    background: color-mix(in srgb, white 94%, var(--home-paper));
-    border: 1px solid color-mix(in srgb, var(--home-accent) 20%, white);
-    box-shadow: 0 24px 54px color-mix(in srgb, var(--home-brand-strong) 10%, transparent);
+    background: var(--surface-container-lowest);
+    border: 1px solid oklch(0.24 0.10 254.3 / 0.04);
+    box-shadow: var(--home-shadow-soft);
+    border-radius: var(--border-radius-xl);
     overflow: clip;
     min-height: 100%;
     block-size: 100%;
     min-block-size: clamp(12rem, 18vw, 13.5rem);
-    padding: clamp(0.95rem, 1.7vw, 1.2rem);
-    transition: transform 260ms cubic-bezier(.22, 1, .36, 1), border-color 260ms ease, box-shadow 260ms ease, background-color 260ms ease;
+    padding: var(--spacing-lg);
+    transition: transform 0.4s var(--ease-spring), border-color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
 .home-news-card:hover,
 .home-news-card:focus-within {
-    transform: translateY(-5px);
-    border-color: color-mix(in srgb, var(--home-accent) 48%, white);
-    box-shadow: 0 30px 62px color-mix(in srgb, var(--home-brand-strong) 16%, transparent);
+    transform: translateY(-5px) scale(1.01);
+    border-color: oklch(0.38 0.15 254.3 / 0.12);
+    box-shadow: var(--home-shadow);
+}
+
+@media (min-width: 768px) {
+    .home-news-card:first-child {
+        grid-column: span 2;
+        grid-template-columns: 1fr 1fr;
+        gap: var(--spacing-xl);
+    }
+    .home-news-card:first-child .home-news-card__media {
+        aspect-ratio: 16 / 10;
+        max-height: 100%;
+        width: 100%;
+    }
 }
 
 .home-news-card__media {
@@ -991,11 +1037,12 @@ body.homepage[data-rlc-theme="navy"] {
     position: relative;
     display: grid;
     gap: 0.8rem;
-    padding: clamp(0.95rem, 1.6vw, 1.2rem);
-    background: color-mix(in srgb, white 92%, var(--home-paper));
-    border: 1px solid color-mix(in srgb, var(--home-accent-soft) 26%, white);
+    padding: var(--spacing-lg);
+    background: var(--surface-container-lowest);
+    border: 1px solid oklch(0.24 0.10 254.3 / 0.04);
+    border-radius: var(--border-radius-xl);
     overflow: clip;
-    box-shadow: 0 22px 44px rgba(15, 70, 66, 0.08);
+    box-shadow: var(--home-shadow-soft);
 }
 
 .home-panel::before {
@@ -1003,9 +1050,9 @@ body.homepage[data-rlc-theme="navy"] {
     position: absolute;
     inset: 0 auto auto 0;
     width: 100%;
-    height: 2px;
+    height: 3px;
     background: var(--home-brand);
-    opacity: 0.55;
+    opacity: 0.25;
 }
 
 .home-panel h3 {
@@ -1111,17 +1158,42 @@ body.homepage[data-rlc-theme="navy"] {
     gap: clamp(1rem, 2vw, 1.4rem);
 }
 
-.home-essence-card {
+.home-essence-card,
+.home-visit-card,
+.home-partner-card,
+.home-involvement-card,
+.home-empty {
     display: grid;
-    gap: 0.85rem;
-    padding: clamp(1.25rem, 2vw, 1.7rem);
-    background: color-mix(in srgb, white 92%, var(--home-paper));
-    border: 1px solid color-mix(in srgb, var(--home-accent-soft) 24%, white);
-    box-shadow: 0 18px 36px rgba(17, 63, 59, 0.06);
+    gap: var(--spacing-sm);
+    padding: var(--spacing-lg);
+    background: var(--surface-container-lowest);
+    border: 1px solid oklch(0.24 0.10 254.3 / 0.04);
+    border-radius: var(--border-radius-xl);
+    box-shadow: var(--home-shadow-soft);
+    transition: transform 0.4s var(--ease-spring), box-shadow 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.home-essence-card:hover,
+.home-visit-card:hover,
+.home-partner-card:hover,
+.home-involvement-card:hover,
+.home-empty:hover {
+    transform: translateY(-5px) scale(1.01);
+    box-shadow: var(--home-shadow);
+    border-color: oklch(0.38 0.15 254.3 / 0.12);
+}
+
+.home-essence-card:focus-within,
+.home-visit-card:focus-within,
+.home-partner-card:focus-within,
+.home-involvement-card:focus-within {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 4px;
 }
 
 .home-essence-card--accent {
-    background: color-mix(in srgb, white 84%, var(--home-accent-soft));
+    background: var(--color-primary-light);
+    border-color: oklch(0.38 0.15 254.3 / 0.08);
 }
 
 .home-essence-card h3,
@@ -1149,18 +1221,6 @@ body.homepage[data-rlc-theme="navy"] {
     display: grid;
     gap: clamp(1rem, 2vw, 1.4rem);
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
-}
-
-.home-visit-card,
-.home-partner-card,
-.home-involvement-card,
-.home-empty {
-    display: grid;
-    gap: 0.9rem;
-    padding: clamp(1.2rem, 2vw, 1.6rem);
-    background: color-mix(in srgb, white 91%, var(--home-paper));
-    border: 1px solid color-mix(in srgb, var(--home-accent-soft) 26%, white);
-    box-shadow: 0 18px 36px rgba(15, 65, 61, 0.06);
 }
 
 .home-partner-card {
@@ -1442,6 +1502,22 @@ body.homepage[data-rlc-theme="navy"] {
 
 .home-visit__grid--seven {
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 15.5rem), 1fr));
+    grid-auto-rows: 1fr;
+    align-items: stretch;
+}
+
+.home-visit__grid--seven > article {
+    height: 100%;
+    grid-template-rows: auto auto minmax(0, 1fr) auto;
+}
+
+.home-visit__grid--seven > article .home-link {
+    align-self: end;
+}
+
+.home-visit__intro .home-section-label,
+.home-visit__grid--seven small {
+    display: none;
 }
 
 .home-timeline__item--link,

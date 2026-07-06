@@ -185,10 +185,13 @@ main,
 .site-nav-link {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
     min-height: 2.5rem;
     padding-inline: clamp(0.5rem, 0.7vw, 0.75rem);
     border-radius: var(--border-radius-pill);
     white-space: nowrap;
+    line-height: 1;
 }
 
 .site-nav-link.is-active,
