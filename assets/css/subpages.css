@@ -31,6 +31,19 @@ body.subpage {
         linear-gradient(180deg, color-mix(in srgb, var(--subpage-paper) 82%, var(--subpage-wash)) 0%, color-mix(in srgb, white 80%, var(--subpage-paper)) 100%);
 }
 
+body.subpage::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background-image: url('../../RLC-Logo_vector/RLC-Logo_vector_transparent.svg');
+    background-position: 1.25rem 1.25rem;
+    background-size: 8rem 3.085rem;
+    background-repeat: repeat;
+    opacity: 0.045;
+}
+
 .subpage a {
     text-decoration: none;
 }
@@ -116,6 +129,8 @@ body.subpage {
 
 .subpage-news-intro__meta .subpage-copy {
     margin: 0;
+    color: #0d4a45;
+    font-weight: 700;
 }
 
 .subpage-news-feature {
@@ -1880,6 +1895,30 @@ body.subpage {
     font-weight: 700;
 }
 
+.events-hero-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    margin-top: 1rem;
+}
+
+.events-hero-icons > span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    min-height: 2.4rem;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid color-mix(in srgb, #00c78f 34%, white);
+    background: color-mix(in srgb, white 82%, #dff8ef);
+    color: #0d4a45;
+    font-weight: 800;
+}
+
+.events-hero-icons .material-icons-round {
+    color: #00856f;
+    font-size: 1.1rem;
+}
+
 .events-list {
     display: grid;
     gap: 0.9rem;
@@ -1937,7 +1976,7 @@ body.subpage {
 }
 
 .event-list-card__body h3 {
-    color: var(--subpage-ink);
+    color: #00c78f;
     font-size: clamp(1.12rem, 1rem + 0.55vw, 1.5rem);
     font-weight: 900;
     letter-spacing: -0.035em;
@@ -3264,6 +3303,10 @@ body.subpage-facilities .subpage-actions .subpage-link[href="#facilities-directo
     overflow: hidden;
 }
 
+.contact-field--turnstile {
+    min-height: 4rem;
+}
+
 .contact-field label {
     font-size: 0.76rem;
     font-weight: 800;
@@ -4301,6 +4344,18 @@ body.subpage-gallery {
     backdrop-filter: blur(4px);
 }
 
+.facility-card__credit {
+    position: absolute;
+    right: 0.55rem;
+    bottom: 0.55rem;
+    z-index: 3;
+    padding: 0.18rem 0.42rem;
+    background: rgba(8, 20, 42, 0.72);
+    color: white;
+    font-size: 0.68rem;
+    line-height: 1.2;
+}
+
 .facility-card__media {
     background-size: cover;
     background-position: center;
@@ -4974,7 +5029,7 @@ body.subpage:not(.subpage-gallery) .subpage-intro__visual {
 body.subpage:not(.subpage-gallery) .subpage-meta-row {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 0;
+    gap: 0.75rem;
     margin-top: 0.15rem;
     padding-top: 0.85rem;
     border-top: 1px solid color-mix(in srgb, var(--color-primary) 20%, white);
@@ -4984,11 +5039,11 @@ body.subpage:not(.subpage-gallery) .subpage-meta {
     display: grid;
     align-items: start;
     gap: 0.2rem;
-    min-height: 0;
-    padding: 0 1rem 0 0;
-    border: 0;
-    background: transparent;
-    color: var(--subpage-ink);
+    min-height: 3.1rem;
+    padding: 0.72rem 0.85rem;
+    border: 1px solid color-mix(in srgb, #00c78f 34%, white);
+    background: color-mix(in srgb, white 82%, #dff8ef);
+    color: #0d4a45;
     font-weight: 750;
     line-height: 1.35;
 }
@@ -5005,6 +5060,61 @@ body.subpage:not(.subpage-gallery) .subpage-meta strong {
     font-weight: 800;
     letter-spacing: 0.12em;
     text-transform: uppercase;
+}
+
+.verein-history-text,
+.verein-document-card {
+    display: grid;
+    gap: 0.8rem;
+}
+
+.verein-history-text p {
+    margin: 0;
+    color: var(--subpage-muted);
+    line-height: 1.7;
+}
+
+.verein-document-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.verein-document-card {
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: start;
+    padding: 1.1rem;
+    border: 1px solid color-mix(in srgb, var(--subpage-line) 76%, white);
+    background: color-mix(in srgb, white 88%, var(--subpage-paper));
+}
+
+.verein-document-card > .material-icons-round {
+    color: var(--subpage-brand-strong);
+}
+
+.verein-document-card h3,
+.verein-document-card p {
+    margin: 0;
+}
+
+.verein-document-card h3 {
+    color: var(--subpage-ink);
+    font-weight: 900;
+}
+
+.verein-document-card p {
+    color: var(--subpage-muted);
+    line-height: 1.6;
+}
+
+.verein-document-card--pending {
+    opacity: 0.78;
+}
+
+@media (max-width: 720px) {
+    .verein-document-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 body.subpage:not(.subpage-gallery) .subpage-button {
@@ -5151,7 +5261,11 @@ body.subpage:not(.subpage-gallery) .subpage-meta-row {
 }
 
 body.subpage:not(.subpage-gallery) .subpage-meta {
-    padding: 0;
+    min-height: 3.1rem;
+    padding: 0.72rem 0.85rem;
+    border: 1px solid color-mix(in srgb, #00c78f 34%, white);
+    background: color-mix(in srgb, white 82%, #dff8ef);
+    color: #0d4a45;
     font-size: clamp(0.92rem, 0.94vw, 1rem);
     line-height: 1.38;
 }

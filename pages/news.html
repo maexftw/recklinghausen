@@ -77,10 +77,10 @@
                 <div class="subpage-surface__header">
                     <div class="subpage-title-row">
                         <div>
-                            <span class="subpage-eyebrow">Aktuelle Meldungen</span>
-                            <h2 id="news-current-title" class="subpage-title">Weitere aktuelle Beiträge.</h2>
+                            <span class="subpage-eyebrow">Neueste Meldungen</span>
+                            <h2 id="news-current-title" class="subpage-title">Die letzten drei Beitr&auml;ge.</h2>
                         </div>
-                        <p class="subpage-copy">Die neuesten Meldungen vor dem Archiv.</p>
+                        <p class="subpage-copy">Kompakt wie auf der Startseite: die drei aktuellsten Vereinsmeldungen.</p>
                     </div>
                 </div>
                 <div id="news-current-container" class="subpage-news-current-grid" aria-live="polite"></div>
@@ -288,7 +288,7 @@
             }
 
             const featured = sortedNews[0];
-            const currentNews = sortedNews.slice(1, 3);
+            const currentNews = sortedNews.slice(0, 3);
             const archiveNews = sortedNews.slice(3);
             const groupedArchive = archiveNews.reduce((groups, article) => {
                 const year = getYear(article);
@@ -340,8 +340,8 @@
                 if (currentNews.length === 0) {
                     currentContainer.innerHTML = `
                         <article class="subpage-panel">
-                            <span class="subpage-eyebrow">Noch keine weiteren aktuellen Meldungen</span>
-                            <p class="subpage-copy">Sobald weitere News eingespielt werden, erscheinen sie hier vor dem Archiv.</p>
+                            <span class="subpage-eyebrow">Noch keine aktuellen Meldungen</span>
+                            <p class="subpage-copy">Sobald News eingespielt werden, erscheinen hier die letzten drei Beitr&auml;ge.</p>
                         </article>
                     `;
                 }

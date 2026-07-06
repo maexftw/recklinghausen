@@ -16,6 +16,7 @@
         rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" async defer></script>
     <script src="../assets/js/components.js"></script>
 </head>
 
@@ -89,6 +90,9 @@
                                 <textarea rows="6" id="message-text" name="message-text"
                                     placeholder="Schreib kurz, worum es geht, für wen die Anfrage ist und was der passende nächste Schritt wäre." required></textarea>
                             </div>
+                            <div class="contact-field contact-field--turnstile" id="contact-turnstile-wrap" hidden>
+                                <div id="contact-turnstile"></div>
+                            </div>
                             <div class="contact-form__footer">
                                 <p class="contact-form__note">Alter, gewünschte Gruppe oder Anlass helfen dabei, deine Anfrage direkt passend einzuordnen.</p>
                                 <button type="submit" class="subpage-button">Nachricht senden <span class="material-icons-round" aria-hidden="true">send</span></button>
@@ -133,8 +137,15 @@
         document.addEventListener('DOMContentLoaded', () => {
             const form = document.getElementById('contact-form');
             const status = document.getElementById('contact-form-status');
+            const subjectSelect = document.getElementById('subject-select');
+            const turnstileWrap = document.getElementById('contact-turnstile-wrap');
+            const turnstileTarget = document.getElementById('contact-turnstile');
+            let turnstileWidgetId = null;
 
             if (!form) return;
+            if (subjectSelect && new URLSearchParams(window.location.search).get('subject') === 'probetraining') {
+                subjectSelect.value = 'Probetraining';
+            }
 
             const setStatus = (message, tone = 'info') => {
                 if (!status) return;
@@ -151,6 +162,36 @@
                     field.removeAttribute('aria-invalid');
                 }
             });
+
+            const loadTurnstile = async () => {
+                if (!turnstileWrap || !turnstileTarget) return;
+                if (['localhost', '127.0.0.1'].includes(window.location.hostname) && window.location.port === '8001') return;
+                try {
+                    const response = await fetch('/api/contact-config', { headers: { accept: 'application/json' } });
+                    const config = await response.json().catch(() => ({}));
+                    const siteKey = (config.turnstileSiteKey || '').toString().trim();
+                    if (!response.ok || !siteKey) return;
+
+                    const render = () => {
+                        if (!window.turnstile || turnstileWidgetId !== null) return;
+                        turnstileWrap.hidden = false;
+                        turnstileWidgetId = window.turnstile.render(turnstileTarget, {
+                            sitekey: siteKey,
+                            theme: 'light'
+                        });
+                    };
+
+                    if (window.turnstile) {
+                        render();
+                    } else {
+                        window.addEventListener('load', render, { once: true });
+                    }
+                } catch (error) {
+                    // ponytail: local static server has no Functions API; mailto fallback still covers local checks.
+                }
+            };
+
+            loadTurnstile();
 
             form.addEventListener('submit', async (event) => {
                 event.preventDefault();
@@ -182,8 +223,14 @@
                     subject: getValue('subject-select') || 'Allgemeine Anfrage',
                     context: getValue('contact-context'),
                     message: getValue('message-text'),
-                    website: getValue('website')
+                    website: getValue('website'),
+                    turnstileToken: window.turnstile && turnstileWidgetId !== null ? window.turnstile.getResponse(turnstileWidgetId) : ''
                 };
+
+                if (turnstileWidgetId !== null && !payload.turnstileToken) {
+                    setStatus('Bitte bestätige kurz die Sicherheitsprüfung.', 'error');
+                    return;
+                }
 
                 const submitButton = form.querySelector('button[type="submit"]');
                 const buildFallbackMailto = () => {
@@ -197,7 +244,7 @@
                         payload.message
                     ].join('\n');
 
-                    return `mailto:info@rlc1952.de?subject=${encodeURIComponent(`RLC Website: ${payload.subject}`)}&body=${encodeURIComponent(body)}`;
+                    return `mailto:info@rlc1952.de?cc=${encodeURIComponent(payload.email)}&subject=${encodeURIComponent(`RLC Website: ${payload.subject}`)}&body=${encodeURIComponent(body)}`;
                 };
                 if (submitButton) submitButton.disabled = true;
                 setStatus('Nachricht wird über die Website gesendet …');
@@ -217,10 +264,17 @@
                             return;
                         }
 
+                        if (result.error === 'captcha_required' || result.error === 'captcha_failed') {
+                            setStatus('Die Sicherheitsprüfung ist fehlgeschlagen. Bitte versuche es erneut.', 'error');
+                            if (window.turnstile && turnstileWidgetId !== null) window.turnstile.reset(turnstileWidgetId);
+                            return;
+                        }
+
                         throw new Error('Die Nachricht konnte gerade nicht gesendet werden. Bitte versuche es später erneut oder nutze info@rlc1952.de.');
                     }
 
                     form.reset();
+                    if (window.turnstile && turnstileWidgetId !== null) window.turnstile.reset(turnstileWidgetId);
                     setStatus('Danke, deine Nachricht wurde gesendet.', 'success');
                 } catch (error) {
                     setStatus('Der direkte Website-Versand ist gerade nicht verfügbar. Ich öffne ersatzweise eine vorbereitete E-Mail.');

@@ -68,6 +68,7 @@
                     category: 'Standort',
                     accent: 'facility-accent--stadium',
                     image: '../assets/images/rlc-sportstaetten-stadion.jpg',
+                    credit: '&copy;RVR, 2020 DL-DE/BY-2-0',
                     summary: 'Unser Hauptstandort für Training, Wettkampfvorbereitung und viele Gruppen.',
                     copy: 'Kinder, Jugend, Erwachsene und ergänzende Einheiten sind hier am Standort Hohenhorst gebündelt.',
                     address: 'Am Stadion 1, 45659 Recklinghausen',
@@ -138,6 +139,7 @@
                     <div class="facility-card__button">
                         <div class="facility-card__media ${location.accent}" aria-hidden="true" ${location.image ? `style="background-image: linear-gradient(135deg, rgba(11, 31, 61, 0.34), rgba(11, 31, 61, 0.08)), url('${location.image}')"` : ''}>
                             <span class="facility-card__badge">${location.badge}</span>
+                            ${location.credit ? `<span class="facility-card__credit">${location.credit}</span>` : ''}
                         </div>
                         <div class="facility-card__body">
                             <div class="facility-card__header">

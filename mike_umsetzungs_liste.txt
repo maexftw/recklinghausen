@@ -1,0 +1,48 @@
+Besprochen und abgearbeitet
+
+• Neuer Entwurf zeitnah liefern: erledigt, Branch ist gepusht und Cloudflare-Preview existiert.
+• Aktuelles/News als zentrales Element: umgesetzt. Aktuelles-Seite ist ausgebaut, mehr Beiträge sichtbar, News-Daten angebunden.
+• News mobil lesbar machen: umgesetzt. News-Übersicht und Detailseiten sind nutzbar, kein alter kaputter Scroll-Mechanismus.
+• News-Bilder zu pixelig/zu klein: verbessert. Vorschaubilder auf der Aktuelles-Seite sind sauberer und stabiler dimensioniert.
+• News-Detailseiten: Browser-Titel sind jetzt echte Beitragstitel statt generisch „RLC 1952 - News Detail“.
+• Umlaut-/Encoding-Probleme: korrigiert, z. B. „RECKLINGHäUSER“ zu „RECKLINGHÄUSER“.
+• Training als wichtiger Einstieg: umgesetzt.
+• Trainingsplan aus PDF/Sommerfahrplan: umgesetzt mit 24 Trainingseinheiten.
+• Altersgruppenfilter behalten: umgesetzt.
+• Disziplinfilter vorerst nicht fokussieren: umgesetzt bzw. nicht als zentrale Logik nach vorne gestellt.
+• Orte/Sportstätten beim Training berücksichtigen: umgesetzt, Trainingsorte sind integriert.
+• Sportstätten als eigener Bereich: umgesetzt.
+• Sportstätten mit Platzhalter/Füllbild-Logik: umgesetzt als Entwurfszustand, ohne falsche echte Fotos vorzutäuschen.
+• Team/Trainer sichtbar machen: umgesetzt als eigene Team-Unterseite.
+• Kontaktaufnahme als klares Ziel: umgesetzt, Kontakt/Probetraining ist klarer Einstieg.
+• Kontakt mindestens per Mail: umgesetzt.
+• Kontaktformular ohne Browser-Warnung: umgesetzt, keine mailto-Form-Action mehr.
+• Mitgliedsantrag nicht als fertige digitale Funktion darstellen: umgesetzt, zurückgenommen auf Kontakt/Anfrage.
+• Mitgliederbereich nicht blind bauen: umgesetzt, nicht als fertige Funktion nach vorne gestellt.
+• Newsletter vorerst raus: umgesetzt, kein Newsletter als fertige Funktion im Entwurf.
+• Instagram gerne sichtbar, aber API erst später: umgesetzt als Link/Präsenz, keine falsche API-Integration behauptet.
+• Sponsorenbereich vorbereiten: umgesetzt.
+• Sponsoren mit Ansprechpartner/Interesse an neuen Partnern: umgesetzt.
+• Statistiken erstmal weniger fokussieren/rausnehmen: umgesetzt. Aus sichtbarer Navigation/Footer entfernt.
+• Galerie/Fotos nicht final ohne echte Fotoquelle: umgesetzt. Galerie aus sichtbarer Navigation entfernt, Dateien aber nicht gelöscht.
+• Alte/kritische Pfade entschärfen: umgesetzt. /rlc_1952/ leitet auf /.
+• Homepage auf Kernwege verdichten: umgesetzt: Aktuelles, Training, Team, Sportstätten, Kontakt, Sponsoren.
+• Hellere/saubere Darstellung statt Dark-Mode-Verwirrung: umgesetzt, Dark-Mode-Toggle entfernt und helle Darstellung fixiert.
+• Keine kaputten Altpfad-/CSS-Zustände im Kundenpfad: umgesetzt.
+
+Besprochen und bewusst offen gelassen
+
+• Echte Vereinsfotos sammeln: offen beim Verein. Im Entwurf nicht als erledigt behauptet.
+• Hochauflösende Fotodaten/Fotografen-Cloud klären: offen beim Verein.
+• Neues offizielles Logo/AI/SVG final liefern: offen bzw. abhängig von Vereinsdateien.
+• Claim der Startseite final abstimmen: teilweise vorbereitet, aber finaler Wortlaut braucht Freigabe.
+• Logo-/Farblogik inkl. Gelb final entscheiden: offen, Vereinsentscheidung.
+• Instagram-API/Meta Developer Account: offen, braucht Zugang/Entscheidung vom Verein.
+• Interner Bereich mit zwei Berechtigungsgruppen: offen, weil Anforderungen und aktueller Altbereich noch unklar sind.
+• Digitale Mitgliederverwaltung / digitaler Antrag: Phase 2, nicht im aktuellen Entwurf als fertig verkauft.
+• Dokumentenbereich / interne Kommunikation: Phase 2, erst spezifizieren.
+• Statistik-Dashboard: zurückgestellt, weil Daten-/Scope-Frage noch nicht sauber genug ist.
+• Galerie/Fotobereich final: zurückgestellt bis echte Fotoquelle/Rechte/Struktur klar sind.
+• Sponsoren echte finale Inhalte: Struktur ist da, echte Partnerdaten können noch nachgezogen werden.
+• Scope/Vertrag Hosting/Betreuung vs. Übergabe: organisatorisch offen.
+• Nächster Termin / Abstimmung: organisatorisch offen.

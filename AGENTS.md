@@ -31,3 +31,11 @@ Recent history uses short imperative messages, often with `fix:` or a concise im
 ## Security & Configuration Tips
 
 Never commit secrets, credentials, private customer exports, or raw personal data. Treat contact forms, DNS/MX changes, and Cloudflare settings as deployment-sensitive; document what was verified and what still needs owner confirmation.
+
+## Current Handoff - RLC Customer Feedback Pass (2026-07-06)
+
+- Implemented and intended for commit/push on a preview branch: latest-news section on `pages/news.html`, green event names on `pages/events.html`, Abendlauf page cleanup/restructure, sponsor/club history/document updates, contact subject prefill and Turnstile payload, gallery structure labels/import cleanup, facilities stadium copyright, repeating RLC logo background on homepage/subpages, and the current handoff files.
+- Key files touched: `index.html`, `assets/css/homepage.css`, `assets/css/subpages.css`, `assets/js/components.js`, `pages/news.html`, `pages/events.html`, `pages/abendlauf.html`, `pages/sponsors.html`, `pages/contact.html`, `pages/gallery.html`, `pages/facilities.html`, `functions/api/contact.js`, `functions/api/contact-config.js`, `tests/contact-api.test.mjs`.
+- Verified locally: `node --check assets/js/components.js`, `node --check functions/api/contact.js`, `node --check functions/api/contact-config.js`, `node tests/contact-api.test.mjs`, `git diff --check` (CRLF warnings only), plus browser checks on desktop/mobile including `http://localhost:8001/index.html?homepage-logo-check=1`.
+- Still needs owner/deployment confirmation: Cloudflare Turnstile sitekey/`TURNSTILE_SECRET_KEY`, webhook must map `to`/`cc` into real mail delivery, and missing approved PDFs/photos must not be invented.
+- Handoff files are intentionally versioned for continuity between agents. Do not commit secrets, private customer exports, screenshots, preview ZIPs, or raw personal data.
