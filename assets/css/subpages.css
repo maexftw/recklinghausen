@@ -128,6 +128,8 @@ body.subpage::before {
 
 .subpage-news-intro__meta .subpage-copy {
     margin: 0;
+    color: #0d4a45;
+    font-weight: 700;
 }
 
 .subpage-news-feature {
@@ -620,15 +622,15 @@ body.subpage::before {
     gap: 0.5rem;
     min-height: 2.65rem;
     padding: 0.55rem 0.9rem;
-    border: 1px solid color-mix(in srgb, var(--subpage-line) 78%, white);
-    background: color-mix(in srgb, white 72%, var(--subpage-wash));
-    color: var(--subpage-muted);
+    border: 1px solid color-mix(in srgb, #00c78f 34%, white);
+    background: color-mix(in srgb, white 82%, #dff8ef);
+    color: #0d4a45;
     font-size: 0.88rem;
     font-weight: 600;
 }
 
 .subpage-meta strong {
-    color: var(--subpage-ink);
+    color: color-mix(in srgb, #006860 86%, var(--subpage-brand-strong));
 }
 
 .subpage-meta .material-icons-round,
@@ -1900,6 +1902,30 @@ body.subpage::before {
     font-weight: 700;
 }
 
+.events-hero-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    margin-top: 1rem;
+}
+
+.events-hero-icons > span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    min-height: 2.4rem;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid color-mix(in srgb, #00c78f 34%, white);
+    background: color-mix(in srgb, white 82%, #dff8ef);
+    color: #0d4a45;
+    font-weight: 800;
+}
+
+.events-hero-icons .material-icons-round {
+    color: #00856f;
+    font-size: 1.1rem;
+}
+
 .events-list {
     display: grid;
     gap: 0.9rem;
@@ -1957,7 +1983,7 @@ body.subpage::before {
 }
 
 .event-list-card__body h3 {
-    color: var(--subpage-ink);
+    color: #00c78f;
     font-size: clamp(1.12rem, 1rem + 0.55vw, 1.5rem);
     font-weight: 900;
     letter-spacing: -0.035em;
@@ -1967,6 +1993,61 @@ body.subpage::before {
     margin: 0;
     color: var(--subpage-muted);
     line-height: 1.58;
+}
+
+.verein-history-text,
+.verein-document-card {
+    display: grid;
+    gap: 0.8rem;
+}
+
+.verein-history-text p {
+    margin: 0;
+    color: var(--subpage-muted);
+    line-height: 1.7;
+}
+
+.verein-document-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.verein-document-card {
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: start;
+    padding: 1.1rem;
+    border: 1px solid color-mix(in srgb, var(--subpage-line) 76%, white);
+    background: color-mix(in srgb, white 88%, var(--subpage-paper));
+}
+
+.verein-document-card > .material-icons-round {
+    color: var(--subpage-brand-strong);
+}
+
+.verein-document-card h3,
+.verein-document-card p {
+    margin: 0;
+}
+
+.verein-document-card h3 {
+    color: var(--subpage-ink);
+    font-weight: 900;
+}
+
+.verein-document-card p {
+    color: var(--subpage-muted);
+    line-height: 1.6;
+}
+
+.verein-document-card--pending {
+    opacity: 0.78;
+}
+
+@media (max-width: 720px) {
+    .verein-document-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 .subpage-inline-link {
@@ -3195,6 +3276,10 @@ body.subpage-facilities .subpage-actions .subpage-link[href="#facilities-directo
 .contact-field {
     display: grid;
     gap: 0.55rem;
+}
+
+.contact-field--turnstile {
+    min-height: 4rem;
 }
 
 .contact-field label {
