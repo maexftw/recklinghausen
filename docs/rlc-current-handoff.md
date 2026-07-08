@@ -1,197 +1,242 @@
 # RLC Recklinghausen – aktueller Arbeitsstand
 
-Stand: 2026-06-19T08:56:33+02:00
-Branch: `codex/rlc-customer-go-content-round`
-PR: https://github.com/maexftw/recklinghausen/pull/21
-Status: Meeting-Feedback ist als Website-Überarbeitungsrunde umgesetzt, gepusht, von Cloudflare gebaut und auf der exakten UI-Preview geprüft. Kein Merge auf `main` ohne finale Abnahme.
+Stand: 2026-07-08T16:47:47+02:00
+Branch: `preview-rlc-qa-polish-2026-07-08`
+HEAD: `fc375b5 fix: harden mobile subpage widths`
+Status: Kundenfeedback-Bundle aus `C:\Users\User\Documents\RLC Update` wurde ausgewertet, sichtbare Feedbackpunkte wurden auf einem Preview-Branch umgesetzt, gepusht, von Cloudflare gebaut und mit echten Browser-/Screenshot-Checks geprüft. Kein Merge auf `main` und keine Production-Aktualisierung ohne finale Abnahme.
 
-## Aktuelle Links
+## Source of Truth
 
-- Kundentauglicher Branch-Alias: https://codex-rlc-customer-go-conten.rlc-1952-recklinghausen.pages.dev
-- Exakte UI-/Content-Preview für den geprüften Website-Stand:
-  - https://42f1713e.rlc-1952-recklinghausen.pages.dev
-  - Cloudflare Deployment: `42f1713e-993d-45e1-8cb6-68dfad58a3b2`
-  - Source/Commit: `892598f fix(content): finish RLC feedback list items`
-- PR: https://github.com/maexftw/recklinghausen/pull/21
-- Cloudflare Pages Projekt: `rlc-1952-recklinghausen`
+- Canonical repo: `https://github.com/maexftw/recklinghausen`
+- Canonical local worktree: `D:/Arbeit/0_ACTIVE/Recklinghausen`
+- Canonical Cloudflare Pages project: `rlc-1952-recklinghausen`
+- Do not use old/archived worktrees as deploy source, especially:
+  - `C:/Users/User/Documents/antigravity/happy-chandrasekhar`
+  - `D:/Arbeit/9_ARCHIVE/Alt V1/Recklinghausen`
 
-Hinweis: Handoff-/Docs-only-Commits nach `892598f` erzeugen ebenfalls neue Cloudflare-Preview-URLs, ändern aber nicht die sichtbare Website-UI. Für die jeweils neueste exakte Branch-Spitze immer den erfolgreichen `Cloudflare Pages`-Check im PR oder `wrangler pages deployment list --project-name rlc-1952-recklinghausen` verwenden und kurz HTTP-smoken.
+## Current preview links
 
-## Git-/Deploy-Stand
+- Exact commit preview checked after the final mobile fix:
+  - https://cd7b2703.rlc-1952-recklinghausen.pages.dev
+  - Cloudflare status: Deploy successful
+  - Source/Commit: `fc375b55157bf8e950b1c8d5b8418e27957f5f12`
+- Stable branch preview:
+  - https://preview-rlc-qa-polish-2026-0.rlc-1952-recklinghausen.pages.dev
 
-- Remote: `https://github.com/maexftw/recklinghausen.git`
-- Branch: `codex/rlc-customer-go-content-round`
-- PR `#21` ist offen gegen `main`.
-- UI-/Content-Commit: `892598fa6e5401e91796eb9438804d062159a8cd`.
-- Aktuelle Branch-Spitze kann durch spätere Handoff-/Docs-only-Commits neuer sein; diese Handoff-Commits sind Teil des PRs, aber nicht als weitere UI-Änderung zu werten.
-- Rohmaterial aus dem Meeting bleibt untracked und wird durch `.gitignore` geschützt: `Neues Meeting/`.
+Note: Cloudflare truncates/normalizes long branch aliases. Always extract preview URLs from the successful `Cloudflare Pages` check-run; do not guess them.
 
-## In dieser Runde umgesetzt
+## Customer feedback sources reviewed
 
-### Startseite
+Feedback folder: `C:/Users/User/Documents/RLC Update`
 
-- Hero-Headline auf `Recklinghäuser Leichtathletik Club.` geändert.
-- Jahreszahl `1952` aus der großen Hero-Headline entfernt; nur noch in kleinem Kontext/Claim.
-- Dopplung um `Leidenschaft seit 1952` bereinigt.
-- Desktop: `Schnelle Wege` bleibt sichtbar.
-- Mobile: `Schnelle Wege` wird ausgeblendet, weil dieselben Links weiter unten unter `Rund um den Verein` verfügbar sind.
-- Trainerteam-Teaser gekürzt und langfristiger formuliert.
+Inventory checked:
 
-### Aktuelles / News
+- `Textdokument (neu).txt`
+- `WhatsApp Chat - Dev_ Neue RLC-Hompage (1).zip`
+- ZIP extracted folder: `extracted-2026-07-06/`
+- `extracted-2026-07-06/_chat.txt`
+- `extracted-2026-07-06/00003033-RLC_Webseite_Feedback_Desktopansicht.docx`
+- DOCX embedded media/screenshots: 20 media files were detected and reviewed via local contact sheets.
+- `extracted-2026-07-06/00003042-Abendlauf2026-komprimiert_A4.pdf`
+- `extracted-2026-07-06/00003022-Logo sparkasse.pdf`
+- `extracted-2026-07-06/00003023-Lauflust Recklinghausen Logo.svg`
+- `extracted-2026-07-06/00003024-Bodynostic_logo_Abmessungen.odt`
+- `extracted-2026-07-06/00003047-PHOTO-2026-06-22-12-27-56.jpg`
+- `WhatsApp Ptt 2026-07-06 at 08.58.59.transcript.txt`
+- `WhatsApp Ptt 2026-07-06 at 08.58.59.transcript.srt`
+- `WhatsApp Ptt 2026-07-01 at 09.56.23.ogg`
+- `WhatsApp Ptt 2026-07-01 at 10.20.24.ogg`
 
-- News-Seite zeigt jetzt:
-  1. eine große neueste Meldung,
-  2. zwei weitere aktuelle Meldungen,
-  3. danach das Archiv.
-- Neue Zwischenrubrik `Weitere aktuelle Beiträge` ergänzt.
-- Responsive Grid-Styling für die zwei aktuellen Karten ergänzt.
+Important evidence notes:
+
+- The two PDFs `Logo sparkasse.pdf` and `Abendlauf2026-komprimiert_A4.pdf` yielded no extractable text. They were treated as visual/image PDFs and rendered/reviewed as assets, not as textual requirement documents.
+- The two older 2026-07-01 WhatsApp voice notes were transcribed during the final audit. They confirmed these points: header stability at `Bilder`, hero-link contrast, and alignment of `Rund um den Verein` cards.
+- Raw customer exports, audio files, screenshots, contact sheets, and local QA artifacts must not be committed.
+
+## Implemented / verified customer-visible work
+
+### Source-drift recovery
+
+- Corrected the wrong-base problem reported by the customer: the preview is back on the dark-blue hero direction, not the old/bright stale stand.
+- The forbidden old mobile/start-page copy `Alles Wichtige in Menü-Reihenfolge` is absent.
+- Intermediate/old “Alles über den Verein” style headings are not present on the current homepage.
+
+### Homepage
+
+- Dark blue hero restored/preserved.
+- `Schnelle Wege` remains desktop-only and is hidden on mobile.
+- `Der Verein auf einen Blick` is removed.
+- `Rund um den Verein` cards are in menu-like order and are aligned in rows on desktop.
+- Homepage term cards link to event details.
+- Footer Instagram icon/text is visible.
+
+### News / Aktuelles
+
+- News page shows a latest-news/current-post structure.
+- Print function is removed.
+- Latest/current news cards render without broken-image findings in the final screenshot/browser pass.
 
 ### Termine / Veranstaltungen
 
-- Intro-Text gekürzt.
-- sichtbare Quellenzeile entfernt.
-- Abendlauf-Links aus vorheriger Runde bleiben eingebunden: RaceResult, Flyer, 5-km-/10-km-Streckenplan.
-- Terminstruktur bleibt auf `Was / Wann / Wo / Anmeldung/Infos` ausgerichtet.
+- Event names use the green club accent.
+- Unfitting `Aktuelle Meldungen ansehen` link is removed from Rückfragen.
+- `Quelle`, `Details folgen`, and stale placeholder-style event text are removed from the current checked preview.
+- `RLC 1952 / ...` labels were removed from event `Wer` entries after final review.
+- Event cards expose structured details for `Was / Wann / Wo / Wer / Anmeldung`.
+
+### Abendlauf
+
+- Abendlauf page is structured as: Hero, Beschreibung, Anmeldung & Strecken, Bilder, Kontakt.
+- Flyer image/PDF, RaceResult registration, 5-km route PDF, and 10-km route PDF are linked.
+- Duplicate/awkward RaceResult CTA repetition was reduced; the current page keeps the external RaceResult link in the Anmeldung card.
 
 ### Training / Trainerteam
 
-- Trainingsfilter bleibt vorhanden, ist mobil/initial eingeklappt.
-- Überschriften ohne pflegeintensive Jahreszahl.
-- erklärende Texte gekürzt.
-- Trainerteam-Karten zeigen weiterhin zentrale Gruppen-/Bereichsinformationen und vermeiden unnötige, schnell veraltende Detailzeilen.
-- Trainerfotos bleiben ein Material-/Freigabe-Thema und sind nicht frei erfunden.
+- Training filter remains available and is initially collapsed/mobile-friendly.
+- U6 filter behavior was checked in earlier QA and no customer-blocking issue remains.
+- Trainer/team cards use readable placeholders where approved photos are missing; no invented trainer photos.
 
 ### Sportstätten
 
-- separate Kraftraum-Karte entfernt.
-- Stadion Hohenhorst ist jetzt als Gesamt-Standort formuliert, nicht mehr eng als reine `Outdoor`-Karte, damit auch Hohenhorst-/Kraftraum-nahe Trainingsgruppen nicht falsch verschwinden.
-- alle Trainingsgruppen sind wieder einer Standortkarte zugeordnet.
-- Google-Maps-Links und kurzer Eindruck stehen im Vordergrund.
-- Stadion-Copyright bleibt sichtbar: `©RVR, 2020 DL-DE/BY-2-0`.
+- Stadion Hohenhorst copyright remains visible.
+- `OUTDOOR` marker is used instead of the old `BAHN` wording.
+- Standalone Kraftraum card was removed.
+- `Zum Trainingsplan` CTA is removed from facilities.
+- Hall/location placeholders remain honest where approved photos/source material are missing.
 
-### Kontakt / Mitmachen
+### Kontakt
 
-- Kontaktformular sendet primär an `/api/contact` über eine Cloudflare Pages Function.
-- Honeypot, Pflichtfeldvalidierung und JSON-Antworten ergänzt.
-- Wenn der Mail-Zustellweg noch nicht konfiguriert ist oder die Function nicht erreichbar ist, fällt das Formular auf eine vorbereitete E-Mail an `info@rlc1952.de` zurück.
-- Wichtiger Gate: echte direkte Formularzustellung ist vorbereitet, aber erst aktiv, wenn `CONTACT_WEBHOOK_URL` und optional `CONTACT_WEBHOOK_TOKEN` in Cloudflare gesetzt und mit einem echten Ziel getestet sind.
+- Contact page hero/content is shortened.
+- `Und jetzt?` block is removed.
+- Legal `Impressum/Datenschutz auf einen Blick` block is removed from the contact content area.
+- Direct website form exists and posts to `/api/contact`.
+- Turnstile markup/payload support exists, but preview config currently has no site key until Cloudflare env vars are set.
 
-### Bildergalerie
+### Galerie
 
-- Navigationspunkt `Bilder` ist weiterhin vorhanden und in der Preview erreichbar.
+- Gallery is accessible as its own page/menu item.
+- Filter buttons are present and visible.
+- Old unnecessary training-time/end links are absent.
+- Gallery cards/images render in the screenshot pass.
 
-## Verifikation
+## Final verification performed
 
-### Code / Review
+### Cloudflare deploy
 
-- `git diff --check`: OK.
-- Inline-JS-/Function-Syntaxchecks: OK.
-- Sportstätten-Datencheck:
-  - `unmatched_count 0`
-  - Stadion Hohenhorst, Vestische Arena und Hohenzollernhalle decken die Trainingsdaten ab.
-- `codex review --commit HEAD`: nach mehreren Review-Fixes sauber; keine blockierenden Findings.
+- Commit `fc375b5` pushed to `preview-rlc-qa-polish-2026-07-08`.
+- Cloudflare Pages check completed successfully.
+- Exact preview URL from the check-run: `https://cd7b2703.rlc-1952-recklinghausen.pages.dev`.
 
-### Cloudflare / HTTP
+### Remote route / marker smoke
 
-Exakte UI-Preview: `https://42f1713e.rlc-1952-recklinghausen.pages.dev`
+Remote preview `cd7b2703` checked on these representative routes:
 
-HTTP-Smoke mit `curl -L`:
+- `/`
+- `/pages/events.html`
+- `/pages/abendlauf.html`
+- `/pages/contact.html`
+- `/pages/facilities.html`
+- `/pages/gallery.html`
+- `/api/contact-config`
 
-- `200 /`
-- `200 /pages/news`
-- `200 /pages/training`
-- `200 /pages/team`
-- `200 /pages/facilities`
-- `200 /pages/contact`
-- `200 /pages/events`
-- `200 /pages/gallery`
+Observed at final smoke stage:
 
-Markerchecks:
+- Routes returned HTTP 200.
+- Homepage no longer contains `Alles Wichtige in Menü-Reihenfolge`.
+- Events page no longer contains `RLC 1952 /`, `Aktuelle Meldungen ansehen`, or `Details folgen`.
+- Abendlauf contains the flyer, 5-km link, 10-km link, and one RaceResult registration URL.
+- Contact page no longer contains `Und jetzt` or the removed legal overview block.
+- Facilities contains copyright and `OUTDOOR`, and does not contain `Zum Trainingsplan`.
+- Gallery has expected filters.
+- `/api/contact-config` currently returns an empty Turnstile key object until env vars are configured.
 
-- Startseite enthält `Recklinghäuser` und `Leichtathletik Club`.
-- Kontaktseite enthält `/api/contact`, `mail_delivery_not_configured` und Fallback-Text für vorbereitete E-Mail.
-- Newsseite enthält `news-current-container`, `Weitere aktuelle Beiträge` und `subpage-news-current-grid`.
+### Browser / screenshot QA
 
-Kontakt-API auf der exakten UI-Preview:
+Browser QA was done with real Chrome/Puppeteer rendering, not only code/string checks.
 
-- `POST /api/contact` mit Testdaten liefert aktuell erwartungsgemäß `503 mail_delivery_not_configured`, weil noch kein Mailprovider/Webhook in Cloudflare konfiguriert ist.
-- Das ist kein Fake-Erfolg; die UI nutzt dafür den Mailto-Fallback.
+Final screenshot evidence folders are local QA artifacts and intentionally not committed:
 
-### GStack Browser QA
+- Desktop/final mixed screenshot pass:
+  - `.hermes/rlc-feedback-sources/final-browser-check-169b7dde/`
+- Final mobile breakpoint pass after the mobile-width fix:
+  - `.hermes/rlc-feedback-sources/mobile-breakpoint-check-cd7b2703/`
+  - Contact sheet: `.hermes/rlc-feedback-sources/mobile-breakpoint-check-cd7b2703/mobile-contact-sheet.jpg`
 
-GStack-Report:
+Remote mobile QA after `fc375b5`:
 
-- `.gstack/qa-reports/final-preview-892598f-20260619-085510/`
+- Base: `https://cd7b2703.rlc-1952-recklinghausen.pages.dev`
+- Pages checked: `/`, `/pages/news.html`, `/pages/events.html`, `/pages/abendlauf.html`, `/pages/training.html`, `/pages/contact.html`, `/pages/facilities.html`, `/pages/gallery.html`
+- Widths checked: `320`, `360`, `390`, `430`
+- Total checks: `32`
+- Result: no problems reported.
+- No horizontal overflow.
+- No console errors/request failures from the checked pages.
+- Mobile menu opens and is visible.
+- Mobile home keeps `Schnelle Wege` hidden.
 
-Geprüft auf der exakten UI-Preview `42f1713e`:
+Extra regression checks from the 2026-07-01 voice notes:
 
-- Desktop Startseite:
-  - H1: `Recklinghäuser Leichtathletik Club.`
-  - `Schnelle Wege`: sichtbar (`display: grid`)
-  - horizontaler Overflow: `0`
-- Mobile Startseite `375x812`:
-  - H1: `Recklinghäuser Leichtathletik Club.`
-  - `Schnelle Wege`: ausgeblendet (`display: none`)
-  - horizontaler Overflow: `0`
-- Seiten geprüft mit Browser-Navigation und DOM-Probe:
-  - `/pages/news`
-  - `/pages/training`
-  - `/pages/team`
-  - `/pages/facilities`
-  - `/pages/contact`
-  - `/pages/events`
-  - `/pages/gallery`
-- Alle geprüften Seiten: `200`, H1 vorhanden, horizontaler Overflow `0`.
-- Trainingsfilter mobil: echtes `<details>`-Element, `open=false`.
-- Screenshots:
-  - `.gstack/qa-reports/final-preview-892598f-20260619-085510/screenshots/home-desktop-42f1713e.png`
-  - `.gstack/qa-reports/final-preview-892598f-20260619-085510/screenshots/home-mobile-42f1713e.png`
-  - `.gstack/qa-reports/final-preview-892598f-20260619-085510/screenshots/news-current-42f1713e.png`
-  - `.gstack/qa-reports/final-preview-892598f-20260619-085510/screenshots/training-mobile-filter-42f1713e.png`
+- Header/nav dimensions are stable across `Bilder`/Gallery and other pages.
+- Hero links no longer have the old black-on-dark low-contrast problem.
+- `Rund um den Verein` cards align in rows with consistent heights on desktop.
 
-## Offene Gates vor finalem Livegang / Merge
+### Code / syntax checks
 
-1. **Kunden-/Maxi-Abnahme der Preview**
-   Der aktuelle Stand ist ein Freigabeentwurf, nicht ungeprüft live mergen.
+- `node --check assets/js/components.js`: OK.
+- `node --check functions/api/contact.js`: OK in earlier pass when contact was checked.
+- `node --check functions/api/contact-config.js`: OK in earlier pass when contact was checked.
+- `node tests/contact-api.test.mjs`: OK in earlier pass (`contact-api selftest ok`).
+- `git diff --check`: OK after the final mobile CSS fix.
 
-2. **Kontaktformular-Zustellung aktivieren**
-   Cloudflare Env Vars setzen:
-   - `CONTACT_WEBHOOK_URL`
-   - optional `CONTACT_WEBHOOK_TOKEN`
-   Danach echten Submit-End-to-End testen.
+## Known open gates before merge / production
 
-3. **PagesCMS / Redaktionsübergabe**
-   Noch nicht umgesetzt. Dafür braucht es einen eigenen Setup-Schritt: Content-Modell, Branch-Konzept, Editor-Test und Deploy-Test.
+1. Customer/Maxi acceptance of the current preview.
+   - The preview is customer-ready for review, but not merged to `main` and not production-live.
 
-4. **Kundenmaterial**
-   Noch abhängig von Freigaben/Lieferung:
-   - Trainerfotos mit Namen/Zuordnung und Einverständnissen
-   - Sportstättenfotos oder Bildquellen/Copyright-Hinweise
-   - optionale Telefonnummern / persönliche Kontaktangaben
-   - finale Bestätigung weiterer Veranstaltungsmaterialien
+2. Turnstile/Captcha activation.
+   - Required Cloudflare env vars:
+     - `TURNSTILE_SITE_KEY`
+     - `TURNSTILE_SECRET_KEY`
+   - Current `/api/contact-config` returns an empty site key until these are set.
 
-5. **Production-Härtung**
-   - rechtliche finale Prüfung Impressum/Datenschutz
-   - Tailwind-CDN-Warnung vor echtem Production-Livegang separat bewerten/härten
+3. Real contact-mail delivery.
+   - `CONTACT_WEBHOOK_URL` must be configured in Cloudflare.
+   - Optional `CONTACT_WEBHOOK_TOKEN` if the webhook requires auth.
+   - Then perform a real end-to-end submit test with owner-approved test data.
+   - Do not claim real mail delivery until this is verified.
 
-## Wiederanlauf für nächste Session
+4. Missing approved materials.
+   - Schutzkonzept PDF.
+   - Ehrenkodex PDF.
+   - Approved trainer photos / board photos / location photos where desired.
+   - Do not invent these assets.
+
+5. Production/domain/redaktionelle Übergabe.
+   - Domain/DNS and PagesCMS/editorial workflow are separate go-live tasks.
+   - Tailwind CDN warning should be evaluated/hardened before final production if required.
+
+## Restart checklist for the next agent/session
 
 ```bash
-cd /home/llm/workspaces/recklinghausen
-git fetch origin
+cd 'D:/Arbeit/0_ACTIVE/Recklinghausen'
+git fetch --all --prune
 git status --short --branch
-gh pr view 21 --json url,state,headRefName,baseRefName,statusCheckRollup
-wrangler pages deployment list --project-name rlc-1952-recklinghausen | sed -n '1,20p'
+git log --oneline -5 --decorate
 ```
 
-Kundentauglicher Branch-Alias:
+Expected current branch/HEAD for this handoff:
 
 ```text
-https://codex-rlc-customer-go-conten.rlc-1952-recklinghausen.pages.dev
+preview-rlc-qa-polish-2026-07-08
+fc375b5 fix: harden mobile subpage widths
 ```
 
-Exakte UI-Preview des geprüften Website-Commits:
+Confirm the exact Cloudflare preview from the latest check-run instead of guessing:
 
-```text
-https://42f1713e.rlc-1952-recklinghausen.pages.dev
+```bash
+SHA=$(git rev-parse HEAD)
+gh api repos/maexftw/recklinghausen/commits/$SHA/check-runs \
+  --jq '.check_runs[] | select(.name=="Cloudflare Pages") | .output.summary'
 ```
+
+Then smoke the current preview and only report success if the actual URL returns expected content.

@@ -42,12 +42,24 @@ Recent history uses short imperative messages, often with `fix:` or a concise im
 
 Never commit secrets, credentials, private customer exports, or raw personal data. Treat contact forms, DNS/MX changes, and Cloudflare settings as deployment-sensitive; document what was verified and what still needs owner confirmation.
 
-## RLC Feedback Handoff Notes (2026-07-06)
+## RLC Feedback Handoff Notes
+
+### Current preview handoff (2026-07-08)
+
+- Latest repo handoff is `docs/rlc-current-handoff.md`; `docs/NEXT_CHAT_HANDOFF.md` points there. Read these before continuing RLC feedback work.
+- Current preview branch: `preview-rlc-qa-polish-2026-07-08`.
+- Current checked HEAD at handoff: `fc375b5 fix: harden mobile subpage widths`.
+- Exact checked Cloudflare preview: `https://cd7b2703.rlc-1952-recklinghausen.pages.dev`.
+- Stable branch preview: `https://preview-rlc-qa-polish-2026-0.rlc-1952-recklinghausen.pages.dev`.
+- This pass audited `C:/Users/User/Documents/RLC Update`, including extracted ZIP contents, DOCX screenshot feedback, PDF/image assets, WhatsApp chat export, and voice-note transcripts. Do not commit raw customer exports, audio, screenshots, `.hermes/`, `.agent/`, or secrets.
+- Final browser QA used real Chrome/Puppeteer screenshots plus mobile breakpoint checks at 320/360/390/430px across key pages. Keep evidence local; summarize only in tracked handoff docs.
+- Production/main was not updated by this preview branch. Do not merge or deploy production until the user accepts the preview and the open gates in `docs/rlc-current-handoff.md` are understood.
+
+### Historical corrected pass (2026-07-06)
 
 - The corrected customer-feedback pass was built from `origin/fix/ui-ux-politur` to match the approved Cloudflare preview ending in `6ea933f8`. That fix is now contained in `origin/main` via `78fab5b merge: release RLC feedback preview`.
 - For normal new work, start from current `origin/main` unless the user names a specific trusted preview/branch. For forensic recovery of the July 6 feedback pass, use `a47c236` / `origin/preview-rlc-feedback-pass-2026-07-06-corrected` as the corrected checkpoint.
 - Implemented in that pass: latest-news section on `pages/news.html`, green event names on `pages/events.html`, Abendlauf page cleanup/restructure, sponsor/club history/document updates, contact subject prefill and Turnstile payload, gallery structure labels/import cleanup, header stability for `Bilder`, homepage alignment in `Rund um den Verein`, and the current handoff files.
-- Key files touched in that pass: `assets/css/homepage.css`, `assets/css/shell.css`, `assets/css/subpages.css`, `assets/js/components.js`, `pages/news.html`, `pages/events.html`, `pages/abendlauf.html`, `pages/sponsors.html`, `pages/contact.html`, `pages/gallery.html`, `functions/api/contact.js`, `functions/api/contact-config.js`, `tests/contact-api.test.mjs`, `handoff/`.
 - Verify before handoff: `node --check assets/js/components.js`, `node --check functions/api/contact.js`, `node --check functions/api/contact-config.js`, `node tests/contact-api.test.mjs`, `git diff --check`, plus desktop/mobile browser checks on homepage, news, training, events, Abendlauf, contact, facilities, sponsors, and gallery.
 - Still needs owner/deployment confirmation: Cloudflare Turnstile sitekey/`TURNSTILE_SECRET_KEY`, webhook must map `to`/`cc` into real mail delivery, and missing approved PDFs/photos must not be invented.
 - Handoff files are intentionally versioned for continuity between agents. Do not commit secrets, private customer exports, screenshots, preview ZIPs, or raw personal data.
