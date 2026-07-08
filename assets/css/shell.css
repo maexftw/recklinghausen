@@ -1,5 +1,11 @@
 @import url('./design-tokens.css');
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 .site-shell {
     position: fixed;
     inset-block-start: 0;

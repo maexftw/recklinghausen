@@ -4013,6 +4013,8 @@ body.subpage-team .subpage-person-card__media {
     .subpage-empty,
     .subpage-cta-band {
         box-sizing: border-box;
+        width: 100%;
+        min-width: 0;
         max-width: 100%;
     }
 }
