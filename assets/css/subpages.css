@@ -3985,6 +3985,38 @@ body.subpage-team .subpage-person-card__media {
     background: rgba(255, 255, 255, 0.08);
 }
 
+.subpage-intro .subpage-link {
+    color: #dbeafe;
+}
+
+.subpage-intro .subpage-link:hover,
+.subpage-intro .subpage-link:focus-visible {
+    color: #ffffff;
+}
+
+/* Preflight-Korrektur: die späteren Hero-Overrides dürfen auf 320px nicht gegen die Mobile-Regeln gewinnen. */
+@media (max-width: 720px) {
+    .subpage-main {
+        max-width: calc(100% - 1.25rem);
+    }
+
+    .subpage-intro,
+    .subpage-intro--full,
+    .subpage-intro--visual {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .subpage-intro,
+    .subpage-panel,
+    .subpage-surface,
+    .subpage-toolbar,
+    .subpage-empty,
+    .subpage-cta-band {
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+}
+
 body.subpage-contact .subpage-intro {
     padding-block: clamp(0.95rem, 1.6vw, 1.3rem);
 }

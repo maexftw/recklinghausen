@@ -60,8 +60,8 @@ window.newsData = [
         "id": "10189",
         "title": "EHRUNG IM KILA-CUP U8",
         "date": "03. Dezember 2025",
-        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20251203180020_U8KiLaCup.jpeg\"/></div><p class=\"detailViewTop\"><b>Auch die jüngsten Wettkämpferinnen und Wettkämpfer der Jahrgänge 2018/2019 wurden für ihren 4. Platz im Kreis-KiLa-Cup 2025 durhc einen Pokal geehrt. </b></p>",
-        "content_text": "Auch die jüngsten Wettkämpferinnen und Wettkämpfer der Jahrgänge 2018/2019 wurden für ihren 4. Platz im Kreis-KiLa-Cup 2025 durhc einen Pokal geehrt.",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20251203180020_U8KiLaCup.jpeg\"/></div><p class=\"detailViewTop\"><b>Auch die jüngsten Wettkämpferinnen und Wettkämpfer der Jahrgänge 2018/2019 wurden für ihren 4. Platz im Kreis-KiLa-Cup 2025 durch einen Pokal geehrt. </b></p>",
+        "content_text": "Auch die jüngsten Wettkämpferinnen und Wettkämpfer der Jahrgänge 2018/2019 wurden für ihren 4. Platz im Kreis-KiLa-Cup 2025 durch einen Pokal geehrt.",
         "images": [
             {
                 "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20251203180020_U8KiLaCup.jpeg",
@@ -88,8 +88,8 @@ window.newsData = [
         "id": "10187",
         "title": "WINTERSPORTFEST 2025",
         "date": "03. Dezember 2025",
-        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20251203174201_Totale_Wintersportfest.jpeg\"/></div><p class=\"detailViewTop\"><b>Am 01.12.2025 lud der Recklinghäuser LC wieder alle Kinder der Jahrgänge 2020 - 2013 zum traditionellen Wintersportfest ein. Fast 90 Kinder folgten dieser Einladung und tobten sich bei alternativen Diziplinen wie</b></p>",
-        "content_text": "Am 01.12.2025 lud der Recklinghäuser LC wieder alle Kinder der Jahrgänge 2020 - 2013 zum traditionellen Wintersportfest ein. Fast 90 Kinder folgten dieser Einladung und tobten sich bei alternativen Diziplinen wie",
+        "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20251203174201_Totale_Wintersportfest.jpeg\"/></div><p class=\"detailViewTop\"><b>Am 01.12.2025 lud der Recklinghäuser LC wieder alle Kinder der Jahrgänge 2020 - 2013 zum traditionellen Wintersportfest ein. Fast 90 Kinder folgten dieser Einladung und tobten sich bei alternativen Disziplinen wie</b></p>",
+        "content_text": "Am 01.12.2025 lud der Recklinghäuser LC wieder alle Kinder der Jahrgänge 2020 - 2013 zum traditionellen Wintersportfest ein. Fast 90 Kinder folgten dieser Einladung und tobten sich bei alternativen Disziplinen wie",
         "images": [
             {
                 "remote": "https://www.rlc1952.de/assets/images/uploads/zoom_20251203174201_Totale_Wintersportfest.jpeg",

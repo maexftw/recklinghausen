@@ -6,13 +6,23 @@ This repository is a static website for RLC 1952. The root `index.html` is the h
 
 Do not commit local meeting exports, audit artifacts, preview ZIPs, screenshots, or temporary design files.
 
+## Source of Truth & Duplicate Avoidance
+
+- Canonical GitHub repo: `https://github.com/maexftw/recklinghausen`; default branch is `main`.
+- Canonical local Hermes worktree: `D:/Arbeit/0_ACTIVE/Recklinghausen`.
+- Do **not** edit or deploy from `C:/Users/User/Documents/antigravity/happy-chandrasekhar` unless the user explicitly says to use that older feedback workspace.
+- Do **not** treat `D:/Arbeit/9_ARCHIVE/Alt V1/Recklinghausen` or other archive/export folders as the deploy source; use them only as reference material when explicitly needed.
+- Canonical Cloudflare Pages project is the Git-connected `rlc-1952-recklinghausen` (`rlc-1952-recklinghausen.pages.dev`). Legacy Direct Upload projects `rlc1952` and `rlc-1952` exist and must not be used for normal deployment.
+- For any manual Wrangler deploy, pass `--project-name rlc-1952-recklinghausen` and verify the returned deployment URL/check-run before calling it successful.
+- Before editing, run `git status --short` and identify the active branch. Preserve existing uncommitted changes unless the user explicitly asks to discard or overwrite them.
+
 ## Build, Test, and Development Commands
 
 - `python server.py` starts the local static server at `http://localhost:8001`.
 - `python sync_news.py` refreshes news images/data from the source archive.
 - `python generate_detail_pages.py` regenerates static files in `pages/news/`.
 - `python update_js_data.py` updates the compact JavaScript news dataset.
-- `npx wrangler pages deploy . --project-name rlc-1952-recklinghausen` deploys the current static root to Cloudflare Pages when authenticated.
+- `npx wrangler pages deploy . --project-name rlc-1952-recklinghausen` deploys the current static root to the canonical Cloudflare Pages project when authenticated. Keep the project name explicit for manual deploys so older clones/configs cannot target legacy Direct Upload projects by accident.
 
 There is no npm build step and no framework compile phase.
 
@@ -22,7 +32,7 @@ Use plain HTML, CSS, and vanilla JavaScript. Keep indentation consistent with su
 
 ## Testing Guidelines
 
-There is no formal test framework. Before handing off changes, run the local server and manually check desktop and mobile widths for the touched pages. For navigation, verify header links, mobile menu, footer links, and key CTAs. For content/data changes, check `index.html`, `pages/news.html`, and at least one representative `pages/news/*.html` detail page. For forms or external links, confirm behavior without sending real customer data.
+There is no formal test framework. Before handing off changes, run `git diff --check` and any direct syntax checks for touched scripts (for example `node --check assets/js/components.js`, `node --check functions/api/contact.js`, and `node tests/contact-api.test.mjs` when the contact API is touched). Run the local server and manually check desktop and mobile widths for the touched pages. For navigation, verify header links, mobile menu, footer links, and key CTAs. For content/data changes, check `index.html`, `pages/news.html`, and at least one representative `pages/news/*.html` detail page. For forms or external links, confirm behavior without sending real customer data.
 
 ## Commit & Pull Request Guidelines
 
@@ -32,11 +42,12 @@ Recent history uses short imperative messages, often with `fix:` or a concise im
 
 Never commit secrets, credentials, private customer exports, or raw personal data. Treat contact forms, DNS/MX changes, and Cloudflare settings as deployment-sensitive; document what was verified and what still needs owner confirmation.
 
-## Current Handoff - RLC Customer Feedback Pass (2026-07-06)
+## RLC Feedback Handoff Notes (2026-07-06)
 
-- Correct preview base is `origin/fix/ui-ux-politur`, matching the Cloudflare preview that ended in `6ea933f8`. Do not rebuild this pass from `origin/main`; that caused a wrong preview with older visual sections.
-- Implemented on the corrected base: latest-news section on `pages/news.html`, green event names on `pages/events.html`, Abendlauf page cleanup/restructure, sponsor/club history/document updates, contact subject prefill and Turnstile payload, gallery structure labels/import cleanup, header stability for `Bilder`, homepage alignment in `Rund um den Verein`, and the current handoff files.
-- Key files touched: `assets/css/homepage.css`, `assets/css/shell.css`, `assets/css/subpages.css`, `assets/js/components.js`, `pages/news.html`, `pages/events.html`, `pages/abendlauf.html`, `pages/sponsors.html`, `pages/contact.html`, `pages/gallery.html`, `functions/api/contact.js`, `functions/api/contact-config.js`, `tests/contact-api.test.mjs`, `handoff/`.
+- The corrected customer-feedback pass was built from `origin/fix/ui-ux-politur` to match the approved Cloudflare preview ending in `6ea933f8`. That fix is now contained in `origin/main` via `78fab5b merge: release RLC feedback preview`.
+- For normal new work, start from current `origin/main` unless the user names a specific trusted preview/branch. For forensic recovery of the July 6 feedback pass, use `a47c236` / `origin/preview-rlc-feedback-pass-2026-07-06-corrected` as the corrected checkpoint.
+- Implemented in that pass: latest-news section on `pages/news.html`, green event names on `pages/events.html`, Abendlauf page cleanup/restructure, sponsor/club history/document updates, contact subject prefill and Turnstile payload, gallery structure labels/import cleanup, header stability for `Bilder`, homepage alignment in `Rund um den Verein`, and the current handoff files.
+- Key files touched in that pass: `assets/css/homepage.css`, `assets/css/shell.css`, `assets/css/subpages.css`, `assets/js/components.js`, `pages/news.html`, `pages/events.html`, `pages/abendlauf.html`, `pages/sponsors.html`, `pages/contact.html`, `pages/gallery.html`, `functions/api/contact.js`, `functions/api/contact-config.js`, `tests/contact-api.test.mjs`, `handoff/`.
 - Verify before handoff: `node --check assets/js/components.js`, `node --check functions/api/contact.js`, `node --check functions/api/contact-config.js`, `node tests/contact-api.test.mjs`, `git diff --check`, plus desktop/mobile browser checks on homepage, news, training, events, Abendlauf, contact, facilities, sponsors, and gallery.
 - Still needs owner/deployment confirmation: Cloudflare Turnstile sitekey/`TURNSTILE_SECRET_KEY`, webhook must map `to`/`cc` into real mail delivery, and missing approved PDFs/photos must not be invented.
 - Handoff files are intentionally versioned for continuity between agents. Do not commit secrets, private customer exports, screenshots, preview ZIPs, or raw personal data.

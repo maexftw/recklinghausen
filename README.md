@@ -76,6 +76,7 @@ Das Ziel ist, dass externe Mitwirkende hier nur noch das sehen, was fuer die Web
 ## Hinweis fuer Mitwirkende
 
 - Dieses Repo ist kein App-Framework-Projekt, sondern eine statische Site.
+- Agenten und KI-Coding-Tools muessen vor Aenderungen `AGENTS.md` lesen; dort stehen der kanonische lokale Worktree, das Cloudflare-Pages-Ziel und die Schutzregeln gegen alte/duplizierte Quellen.
 - Bitte keine neuen lokalen Tooling-, Meeting-, Audit- oder Export-Dateien einchecken.
 - Wenn Header/Footer oder globale Navigation geaendert werden, immer `assets/js/components.js` mitpruefen.
 
