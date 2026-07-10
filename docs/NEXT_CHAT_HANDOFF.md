@@ -12,10 +12,10 @@ AGENTS.md
 Current active RLC workstream at handoff time:
 
 - Branch: `preview-rlc-qa-polish-2026-07-08`
-- HEAD: `fc375b5 fix: harden mobile subpage widths`
-- Exact checked Cloudflare preview: https://cd7b2703.rlc-1952-recklinghausen.pages.dev
+- Release content commit: `84b9709 feat: finalize RLC customer feedback update`
+- Exact accepted Cloudflare preview: https://ad59482a.rlc-1952-recklinghausen.pages.dev
 - Stable branch preview: https://preview-rlc-qa-polish-2026-0.rlc-1952-recklinghausen.pages.dev
-- Production/main: not updated by this preview branch.
+- Production/main: approved for release on 2026-07-10; verify the final `main` check/deployment before further edits.
 
 The full source audit, screenshot/browser QA evidence summary, implemented feedback points, and open gates are in:
 

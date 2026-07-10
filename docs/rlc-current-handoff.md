@@ -1,9 +1,9 @@
 # RLC Recklinghausen – aktueller Arbeitsstand
 
-Stand: 2026-07-08T16:47:47+02:00
+Stand: 2026-07-10
 Branch: `preview-rlc-qa-polish-2026-07-08`
-HEAD: `fc375b5 fix: harden mobile subpage widths`
-Status: Kundenfeedback-Bundle aus `C:\Users\User\Documents\RLC Update` wurde ausgewertet, sichtbare Feedbackpunkte wurden auf einem Preview-Branch umgesetzt, gepusht, von Cloudflare gebaut und mit echten Browser-/Screenshot-Checks geprüft. Kein Merge auf `main` und keine Production-Aktualisierung ohne finale Abnahme.
+Release content commit: `84b9709 feat: finalize RLC customer feedback update`
+Status: Kundenfeedback-Bundle aus `C:\Users\User\Documents\RLC Update` wurde ausgewertet, sichtbare Feedbackpunkte wurden umgesetzt und mit echten Browser-/Screenshot-Checks geprüft. Maxi hat den Stand am 2026-07-10 zur Übernahme auf `main` freigegeben.
 
 ## Source of Truth
 
@@ -14,12 +14,12 @@ Status: Kundenfeedback-Bundle aus `C:\Users\User\Documents\RLC Update` wurde aus
   - `C:/Users/User/Documents/antigravity/happy-chandrasekhar`
   - `D:/Arbeit/9_ARCHIVE/Alt V1/Recklinghausen`
 
-## Current preview links
+## Accepted preview links
 
-- Exact commit preview checked after the final mobile fix:
-  - https://cd7b2703.rlc-1952-recklinghausen.pages.dev
+- Exact accepted preview including the confirmed board portraits:
+  - https://ad59482a.rlc-1952-recklinghausen.pages.dev
   - Cloudflare status: Deploy successful
-  - Source/Commit: `fc375b55157bf8e950b1c8d5b8418e27957f5f12`
+  - The accepted production artifact is captured in release content commit `84b97099a5f3caf079839673d6bcca44e5edf630`.
 - Stable branch preview:
   - https://preview-rlc-qa-polish-2026-0.rlc-1952-recklinghausen.pages.dev
 
@@ -96,6 +96,17 @@ Important evidence notes:
 - U6 filter behavior was checked in earlier QA and no customer-blocking issue remains.
 - Trainer/team cards use readable placeholders where approved photos are missing; no invented trainer photos.
 
+### Verein / Vorstand
+
+- The club page hero uses the transparent RLC logo on the dark-blue hero treatment.
+- Board roles are represented as one card per person; combined roles stay on the same card.
+- Confirmed portrait mapping from the 2026-07-10 customer feedback:
+  - Christian Dahmen: `vorstand-portrait-02.webp`
+  - Marc Manderla: `vorstand-portrait-04.webp`
+  - Stephen Wandelt: `vorstand-portrait-03.webp`
+  - Mike Wickert: `vorstand-portrait-01.webp`
+- Remaining board members use initials until approved portraits are supplied.
+
 ### Sportstätten
 
 - Stadion Hohenhorst copyright remains visible.
@@ -126,6 +137,8 @@ Important evidence notes:
 - Commit `fc375b5` pushed to `preview-rlc-qa-polish-2026-07-08`.
 - Cloudflare Pages check completed successfully.
 - Exact preview URL from the check-run: `https://cd7b2703.rlc-1952-recklinghausen.pages.dev`.
+- Final accepted working-tree artifact including the confirmed board portraits was manually deployed to the canonical Pages project and visually checked at `https://ad59482a.rlc-1952-recklinghausen.pages.dev`.
+- The same customer-visible artifact is captured in release content commit `84b9709` for the `main` release.
 
 ### Remote route / marker smoke
 
@@ -183,35 +196,34 @@ Extra regression checks from the 2026-07-01 voice notes:
 ### Code / syntax checks
 
 - `node --check assets/js/components.js`: OK.
-- `node --check functions/api/contact.js`: OK in earlier pass when contact was checked.
-- `node --check functions/api/contact-config.js`: OK in earlier pass when contact was checked.
-- `node tests/contact-api.test.mjs`: OK in earlier pass (`contact-api selftest ok`).
-- `git diff --check`: OK after the final mobile CSS fix.
+- `node --check functions/api/contact.js`: OK before the 2026-07-10 release commit.
+- `node --check functions/api/contact-config.js`: OK before the 2026-07-10 release commit.
+- `node tests/contact-api.test.mjs`: OK (`contact-api selftest ok`).
+- `python -m py_compile generate_detail_pages.py update_js_data.py`: OK.
+- `git diff --check`: OK before the 2026-07-10 release commit.
+- All four portrait references resolve to non-empty WebP files.
 
-## Known open gates before merge / production
+## Known open gates after the accepted release
 
-1. Customer/Maxi acceptance of the current preview.
-   - The preview is customer-ready for review, but not merged to `main` and not production-live.
-
-2. Turnstile/Captcha activation.
+1. Turnstile/Captcha activation.
    - Required Cloudflare env vars:
      - `TURNSTILE_SITE_KEY`
      - `TURNSTILE_SECRET_KEY`
    - Current `/api/contact-config` returns an empty site key until these are set.
 
-3. Real contact-mail delivery.
+2. Real contact-mail delivery.
    - `CONTACT_WEBHOOK_URL` must be configured in Cloudflare.
    - Optional `CONTACT_WEBHOOK_TOKEN` if the webhook requires auth.
    - Then perform a real end-to-end submit test with owner-approved test data.
    - Do not claim real mail delivery until this is verified.
 
-4. Missing approved materials.
+3. Missing approved materials.
    - Schutzkonzept PDF.
    - Ehrenkodex PDF.
-   - Approved trainer photos / board photos / location photos where desired.
+   - Approved trainer photos / remaining board photos / location photos where desired.
    - Do not invent these assets.
 
-5. Production/domain/redaktionelle Übergabe.
+4. Production/domain/redaktionelle Übergabe.
    - Domain/DNS and PagesCMS/editorial workflow are separate go-live tasks.
    - Tailwind CDN warning should be evaluated/hardened before final production if required.
 
