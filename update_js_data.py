@@ -1,5 +1,5 @@
 import json
-import os
+from pathlib import Path
 
 ARCHIVE_FILE = 'news_archive.json'
 JS_DATA_FILE = 'assets/js/news_data.js'
@@ -37,6 +37,10 @@ archive.sort(key=lambda x: int(x['id']), reverse=True)
 export = repair_text(archive[:EXPORT_LIMIT])
 for article in export:
     article['title'] = normalize_headline(article.get('title', ''))
+    article['images'] = [
+        image for image in article.get('images', [])
+        if image.get('local') and Path(image['local']).exists()
+    ]
 js_content = "window.newsData = " + json.dumps(export, ensure_ascii=False, indent=4) + ";"
 
 with open(JS_DATA_FILE, 'w', encoding='utf-8') as f:

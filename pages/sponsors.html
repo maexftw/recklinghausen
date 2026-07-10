@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
     <link href="../assets/css/design-tokens.css" rel="stylesheet" />
     <link href="../assets/css/shell.css" rel="stylesheet" />
-    <link href="../assets/css/subpages.css?v=10" rel="stylesheet" />
+    <link href="../assets/css/subpages.css?v=12" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
     <script src="../assets/js/components.js"></script>
 </head>
@@ -17,7 +17,7 @@
     <header data-shared-shell-placeholder></header>
     <main class="subpage-main">
         <div class="subpage-stack">
-            <section class="subpage-intro subpage-intro--full subpage-intro--standard subpage-sponsors-intro" aria-labelledby="verein-page-title">
+            <section class="subpage-intro subpage-intro--visual subpage-sponsors-intro" aria-labelledby="verein-page-title">
                 <div class="subpage-intro__content">
                     <span class="subpage-eyebrow">Verein</span>
                     <h1 id="verein-page-title" class="subpage-display">Menschen, Geschichte und Partner des <em>RLC 1952</em>.</h1>
@@ -27,6 +27,9 @@
                         <a href="#partnerliste" class="subpage-button subpage-button--secondary">Zu den Partnern <span class="material-icons-round" aria-hidden="true">south</span></a>
                     </div>
                 </div>
+                <figure class="subpage-intro__visual subpage-intro__visual--logo">
+                    <img src="../RLC-Logo_vector/RLC-Logo_vector_transparent.svg" alt="RLC 1952 Logo" width="640" height="640" loading="eager" decoding="async" />
+                </figure>
             </section>
 
             <section class="subpage-panel" aria-labelledby="vorstand-title" id="vorstand">
@@ -37,16 +40,51 @@
                     </div>
                 </div>
                 <div class="subpage-card-grid subpage-card-grid--team">
-                    <article class="subpage-person-card"><div class="subpage-person-card__body"><h3>Christian Dahmen</h3><p>1. Vorstand</p><a class="subpage-link" href="mailto:c.dahmen@rlc1952.de">c.dahmen@rlc1952.de <span class="material-icons-round" aria-hidden="true">east</span></a></div></article>
-                    <article class="subpage-person-card"><div class="subpage-person-card__body"><h3>Marc Manderla</h3><p>2. Vorstand · 2. Kassierer</p><a class="subpage-link" href="mailto:info@rlc1952.de">info@rlc1952.de <span class="material-icons-round" aria-hidden="true">east</span></a></div></article>
-                    <article class="subpage-person-card"><div class="subpage-person-card__body"><h3>Barbara Ziesmer-Praßni</h3><p>1. Geschäftsführerin</p><a class="subpage-link" href="mailto:geschaeftsfuehrung@rlc1952.de">geschaeftsfuehrung@rlc1952.de <span class="material-icons-round" aria-hidden="true">east</span></a></div></article>
-                    <article class="subpage-person-card"><div class="subpage-person-card__body"><h3>Sebastian Stephani</h3><p>2. Geschäftsführer</p><a class="subpage-link" href="mailto:geschaeftsfuehrung@rlc1952.de">geschaeftsfuehrung@rlc1952.de <span class="material-icons-round" aria-hidden="true">east</span></a></div></article>
-                    <article class="subpage-person-card"><div class="subpage-person-card__body"><h3>Stephen Wandelt</h3><p>1. Kassierer</p><a class="subpage-link" href="mailto:info@rlc1952.de">info@rlc1952.de <span class="material-icons-round" aria-hidden="true">east</span></a></div></article>
-                    <article class="subpage-person-card"><div class="subpage-person-card__body"><h3>Ludger Zander & Carsten Praßni</h3><p>Sportwarte</p><a class="subpage-link" href="mailto:info@rlc1952.de">info@rlc1952.de <span class="material-icons-round" aria-hidden="true">east</span></a></div></article>
-                    <article class="subpage-person-card"><div class="subpage-person-card__body"><h3>Leni Nefedev & Helge Meise</h3><p>Jugendwarte</p><a class="subpage-link" href="mailto:info@rlc1952.de">info@rlc1952.de <span class="material-icons-round" aria-hidden="true">east</span></a></div></article>
-                    <article class="subpage-person-card"><div class="subpage-person-card__body"><h3>Mike Wickert</h3><p>Pressewart und Öffentlichkeitsarbeit</p><a class="subpage-link" href="mailto:info@rlc1952.de">info@rlc1952.de <span class="material-icons-round" aria-hidden="true">east</span></a></div></article>
-                    <article class="subpage-person-card"><div class="subpage-person-card__body"><h3>Christina Sip</h3><p>Schutzbeauftragte gegen sexualisierte Gewalt</p><a class="subpage-link" href="mailto:info@rlc1952.de">info@rlc1952.de <span class="material-icons-round" aria-hidden="true">east</span></a></div></article>
-                    <article class="subpage-person-card"><div class="subpage-person-card__body"><h3>Carsten Praßni</h3><p>Datenschutzbeauftragter</p><a class="subpage-link" href="mailto:info@rlc1952.de">info@rlc1952.de <span class="material-icons-round" aria-hidden="true">east</span></a></div></article>
+                    <!-- Zuordnung der gelieferten Vorstandsfotos, bestätigt am 10.07.2026. -->
+                    <article class="subpage-person-card">
+                        <div class="subpage-person-card__media"><img class="subpage-person-card__image" src="../assets/images/vorstand/vorstand-portrait-02.webp" alt="" width="900" height="1209" loading="eager" decoding="async" /></div>
+                        <div class="subpage-person-card__body"><h3>Christian Dahmen</h3><p>1. Vorsitzender</p><a class="subpage-link" href="mailto:c.dahmen@rlc1952.de">c.dahmen@rlc1952.de <span class="material-icons-round" aria-hidden="true">east</span></a></div>
+                    </article>
+                    <article class="subpage-person-card">
+                        <div class="subpage-person-card__media"><img class="subpage-person-card__image" src="../assets/images/vorstand/vorstand-portrait-04.webp" alt="" width="900" height="1196" loading="eager" decoding="async" /></div>
+                        <div class="subpage-person-card__body"><h3>Marc Manderla</h3><p>2. Vorsitzender · 2. Kassierer</p><a class="subpage-link" href="mailto:info@rlc1952.de">info@rlc1952.de <span class="material-icons-round" aria-hidden="true">east</span></a></div>
+                    </article>
+                    <article class="subpage-person-card">
+                        <div class="subpage-person-card__media"><div class="subpage-person-card__image subpage-person-card__image--placeholder" aria-hidden="true">BZ</div></div>
+                        <div class="subpage-person-card__body"><h3>Barbara Ziesmer-Praßni</h3><p>1. Geschäftsführerin</p><a class="subpage-link" href="mailto:geschaeftsfuehrung@rlc1952.de">geschaeftsfuehrung@rlc1952.de <span class="material-icons-round" aria-hidden="true">east</span></a></div>
+                    </article>
+                    <article class="subpage-person-card">
+                        <div class="subpage-person-card__media"><div class="subpage-person-card__image subpage-person-card__image--placeholder" aria-hidden="true">SS</div></div>
+                        <div class="subpage-person-card__body"><h3>Sebastian Stephani</h3><p>2. Geschäftsführer</p><a class="subpage-link" href="mailto:geschaeftsfuehrung@rlc1952.de">geschaeftsfuehrung@rlc1952.de <span class="material-icons-round" aria-hidden="true">east</span></a></div>
+                    </article>
+                    <article class="subpage-person-card">
+                        <div class="subpage-person-card__media"><img class="subpage-person-card__image" src="../assets/images/vorstand/vorstand-portrait-03.webp" alt="" width="900" height="1196" loading="eager" decoding="async" /></div>
+                        <div class="subpage-person-card__body"><h3>Stephen Wandelt</h3><p>1. Kassierer</p><a class="subpage-link" href="mailto:info@rlc1952.de">info@rlc1952.de <span class="material-icons-round" aria-hidden="true">east</span></a></div>
+                    </article>
+                    <article class="subpage-person-card">
+                        <div class="subpage-person-card__media"><div class="subpage-person-card__image subpage-person-card__image--placeholder" aria-hidden="true">LZ</div></div>
+                        <div class="subpage-person-card__body"><h3>Ludger Zander</h3><p>Sportwart</p><a class="subpage-link" href="mailto:info@rlc1952.de">info@rlc1952.de <span class="material-icons-round" aria-hidden="true">east</span></a></div>
+                    </article>
+                    <article class="subpage-person-card">
+                        <div class="subpage-person-card__media"><div class="subpage-person-card__image subpage-person-card__image--placeholder" aria-hidden="true">CP</div></div>
+                        <div class="subpage-person-card__body"><h3>Carsten Praßni</h3><p>Sportwart · Datenschutzbeauftragter</p><a class="subpage-link" href="mailto:info@rlc1952.de">info@rlc1952.de <span class="material-icons-round" aria-hidden="true">east</span></a></div>
+                    </article>
+                    <article class="subpage-person-card">
+                        <div class="subpage-person-card__media"><div class="subpage-person-card__image subpage-person-card__image--placeholder" aria-hidden="true">LN</div></div>
+                        <div class="subpage-person-card__body"><h3>Leni Nefedev</h3><p>Jugendwartin</p><a class="subpage-link" href="mailto:info@rlc1952.de">info@rlc1952.de <span class="material-icons-round" aria-hidden="true">east</span></a></div>
+                    </article>
+                    <article class="subpage-person-card">
+                        <div class="subpage-person-card__media"><div class="subpage-person-card__image subpage-person-card__image--placeholder" aria-hidden="true">HM</div></div>
+                        <div class="subpage-person-card__body"><h3>Helge Meise</h3><p>Jugendwart</p><a class="subpage-link" href="mailto:info@rlc1952.de">info@rlc1952.de <span class="material-icons-round" aria-hidden="true">east</span></a></div>
+                    </article>
+                    <article class="subpage-person-card">
+                        <div class="subpage-person-card__media"><img class="subpage-person-card__image" src="../assets/images/vorstand/vorstand-portrait-01.webp" alt="" width="900" height="1196" loading="eager" decoding="async" /></div>
+                        <div class="subpage-person-card__body"><h3>Mike Wickert</h3><p>Pressewart und Öffentlichkeitsarbeit</p><a class="subpage-link" href="mailto:info@rlc1952.de">info@rlc1952.de <span class="material-icons-round" aria-hidden="true">east</span></a></div>
+                    </article>
+                    <article class="subpage-person-card">
+                        <div class="subpage-person-card__media"><div class="subpage-person-card__image subpage-person-card__image--placeholder" aria-hidden="true">CS</div></div>
+                        <div class="subpage-person-card__body"><h3>Christina Sip</h3><p>Schutzbeauftragte gegen sexualisierte Gewalt</p><a class="subpage-link" href="mailto:info@rlc1952.de">info@rlc1952.de <span class="material-icons-round" aria-hidden="true">east</span></a></div>
+                    </article>
                 </div>
             </section>
 

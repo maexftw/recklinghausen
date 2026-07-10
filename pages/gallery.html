@@ -9,7 +9,7 @@
     <meta name="description" content="Die Bildergalerie des RLC 1952 bündelt Wettkampf-, Trainings- und Vereinsmomente mit klarer Orientierung nach Anlass, Saison und Zielgruppe." />
     <link href="../assets/css/design-tokens.css?v=2" rel="stylesheet" />
     <link href="../assets/css/shell.css?v=2" rel="stylesheet" />
-    <link href="../assets/css/subpages.css?v=4" rel="stylesheet" />
+    <link href="../assets/css/subpages.css?v=11" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Montserrat:wght@700;900&amp;display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
@@ -44,59 +44,32 @@
                             <button type="button" class="subpage-chip is-active" aria-pressed="true" data-gallery-filter="all">Alle</button>
                             <button type="button" class="subpage-chip" aria-pressed="false" data-gallery-filter="abendlauf">Abendlauf</button>
                             <button type="button" class="subpage-chip" aria-pressed="false" data-gallery-filter="nachwuchs">Nachwuchs</button>
-                            <button type="button" class="subpage-chip" aria-pressed="false" data-gallery-filter="wettkampf">Wettkämpfe</button>
                             <button type="button" class="subpage-chip" aria-pressed="false" data-gallery-filter="training">Training</button>
-                            <button type="button" class="subpage-chip" aria-pressed="false" data-gallery-filter="vereinsleben">Vereinsleben</button>
                         </div>
-                        <div class="gallery-masonry" aria-label="Galerie mit ausgewählten Vereinsmotiven">
-                            <article class="gallery-tile" data-gallery-tags="abendlauf wettkampf">
-                                <img src="../assets/images/abendlauf-2025/abendlauf-zielgerade.jpg" alt="Läuferin auf der Zielgeraden beim Abendlauf" loading="eager" decoding="async" />
-                                <div class="gallery-tile__body">
-                                    <span class="gallery-tile__tag">Abendlauf</span>
-                                    <h3>Zielgerade</h3>
-                                    <p>Rennen im Stadion Hohenhorst.</p>
+                        <div class="gallery-event-list" aria-label="Galerie nach Veranstaltung und Datum">
+                            <section class="gallery-event" data-gallery-tags="abendlauf">
+                                <div class="gallery-event__header">
+                                    <span class="subpage-eyebrow">2025-08-29</span>
+                                    <h3>Abendlauf 2025</h3>
                                 </div>
-                            </article>
-                            <article class="gallery-tile" data-gallery-tags="abendlauf wettkampf">
-                                <img src="../assets/images/abendlauf-2025/abendlauf-startfeld.jpg" alt="Startfeld beim Abendlauf" loading="eager" decoding="async" />
-                                <div class="gallery-tile__body">
-                                    <span class="gallery-tile__tag">Wettkampf</span>
-                                    <h3>Startfeld</h3>
-                                    <p>Gemeinsamer Start in die Laufstrecke.</p>
+                                <div class="gallery-event__grid">
+                                    <article class="gallery-tile"><img src="../assets/images/abendlauf-2025/abendlauf-zielgerade.jpg" alt="Läuferin auf der Zielgeraden beim Abendlauf 2025" loading="eager" decoding="async" /><div class="gallery-tile__body"><span class="gallery-tile__tag">Abendlauf 2025</span><h3>Zielgerade</h3><p>Rennen im Stadion Hohenhorst.</p></div></article>
+                                    <article class="gallery-tile"><img src="../assets/images/abendlauf-2025/abendlauf-startfeld.jpg" alt="Startfeld beim Abendlauf 2025" loading="eager" decoding="async" /><div class="gallery-tile__body"><span class="gallery-tile__tag">Abendlauf 2025</span><h3>Startfeld</h3><p>Gemeinsamer Start in die Laufstrecke.</p></div></article>
+                                    <article class="gallery-tile"><img src="../assets/images/abendlauf-2025/abendlauf-siegerehrung.jpg" alt="Siegerehrung beim Abendlauf 2025" loading="eager" decoding="async" /><div class="gallery-tile__body"><span class="gallery-tile__tag">Abendlauf 2025</span><h3>Siegerehrung</h3><p>Gemeinsamer Abschluss nach dem Lauf.</p></div></article>
+                                    <article class="gallery-tile"><img src="../assets/images/abendlauf-2025/abendlauf-waldstrecke.jpg" alt="Läuferinnen und Läufer auf der Waldstrecke beim Abendlauf 2025" loading="eager" decoding="async" /><div class="gallery-tile__body"><span class="gallery-tile__tag">Abendlauf 2025</span><h3>Waldstrecke</h3><p>Streckenmoment außerhalb des Stadions.</p></div></article>
                                 </div>
-                            </article>
-                            <article class="gallery-tile" data-gallery-tags="training nachwuchs">
-                                <img src="../assets/images/rlc-team-nachwuchs.jpg" alt="Nachwuchsgruppe des RLC beim Training" loading="eager" decoding="async" />
-                                <div class="gallery-tile__body">
-                                    <span class="gallery-tile__tag">Nachwuchs</span>
-                                    <h3>Training</h3>
-                                    <p>Jugendgruppe im Vereinsalltag.</p>
+                            </section>
+
+                            <section class="gallery-event" data-gallery-tags="training nachwuchs">
+                                <div class="gallery-event__header">
+                                    <span class="subpage-eyebrow">Training</span>
+                                    <h3>Training & Nachwuchs</h3>
                                 </div>
-                            </article>
-                            <article class="gallery-tile" data-gallery-tags="training">
-                                <img src="../assets/images/rlc-training-action.jpg" alt="Trainingseinheit auf der Laufbahn" loading="eager" decoding="async" />
-                                <div class="gallery-tile__body">
-                                    <span class="gallery-tile__tag">Training</span>
-                                    <h3>Laufbahntraining</h3>
-                                    <p>Technik und Athletik auf der Bahn.</p>
+                                <div class="gallery-event__grid">
+                                    <article class="gallery-tile"><img src="../assets/images/rlc-team-nachwuchs.jpg" alt="Nachwuchsgruppe des RLC beim Training" loading="eager" decoding="async" /><div class="gallery-tile__body"><span class="gallery-tile__tag">Nachwuchs</span><h3>Gruppentraining</h3><p>Jugendgruppe im Vereinsalltag.</p></div></article>
+                                    <article class="gallery-tile"><img src="../assets/images/rlc-training-action.jpg" alt="Trainingseinheit auf der Laufbahn" loading="eager" decoding="async" /><div class="gallery-tile__body"><span class="gallery-tile__tag">Training</span><h3>Laufbahntraining</h3><p>Technik und Athletik auf der Bahn.</p></div></article>
                                 </div>
-                            </article>
-                            <article class="gallery-tile" data-gallery-tags="abendlauf vereinsleben">
-                                <img src="../assets/images/abendlauf-2025/abendlauf-siegerehrung.jpg" alt="Siegerehrung beim Abendlauf" loading="eager" decoding="async" />
-                                <div class="gallery-tile__body">
-                                    <span class="gallery-tile__tag">Vereinsleben</span>
-                                    <h3>Siegerehrung</h3>
-                                    <p>Gemeinsamer Abschluss nach dem Lauf.</p>
-                                </div>
-                            </article>
-                            <article class="gallery-tile" data-gallery-tags="abendlauf wettkampf">
-                                <img src="../assets/images/abendlauf-2025/abendlauf-waldstrecke.jpg" alt="Läuferinnen und Läufer auf der Waldstrecke" loading="eager" decoding="async" />
-                                <div class="gallery-tile__body">
-                                    <span class="gallery-tile__tag">Abendlauf</span>
-                                    <h3>Waldstrecke</h3>
-                                    <p>Streckenmoment außerhalb des Stadions.</p>
-                                </div>
-                            </article>
+                            </section>
                         </div>
                     </section>
             </section>
@@ -108,7 +81,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const filters = Array.from(document.querySelectorAll('[data-gallery-filter]'));
-            const tiles = Array.from(document.querySelectorAll('[data-gallery-tags]'));
+            const events = Array.from(document.querySelectorAll('.gallery-event[data-gallery-tags]'));
 
             filters.forEach((filter) => {
                 filter.addEventListener('click', () => {
@@ -120,9 +93,9 @@
                         button.setAttribute('aria-pressed', String(isActive));
                     });
 
-                    tiles.forEach((tile) => {
-                        const tags = (tile.dataset.galleryTags || '').split(/\s+/);
-                        tile.hidden = activeFilter !== 'all' && !tags.includes(activeFilter);
+                    events.forEach((event) => {
+                        const tags = (event.dataset.galleryTags || '').split(/\s+/);
+                        event.hidden = activeFilter !== 'all' && !tags.includes(activeFilter);
                     });
                 });
             });

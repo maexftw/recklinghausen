@@ -63,3 +63,18 @@ Never commit secrets, credentials, private customer exports, or raw personal dat
 - Verify before handoff: `node --check assets/js/components.js`, `node --check functions/api/contact.js`, `node --check functions/api/contact-config.js`, `node tests/contact-api.test.mjs`, `git diff --check`, plus desktop/mobile browser checks on homepage, news, training, events, Abendlauf, contact, facilities, sponsors, and gallery.
 - Still needs owner/deployment confirmation: Cloudflare Turnstile sitekey/`TURNSTILE_SECRET_KEY`, webhook must map `to`/`cc` into real mail delivery, and missing approved PDFs/photos must not be invented.
 - Handoff files are intentionally versioned for continuity between agents. Do not commit secrets, private customer exports, screenshots, preview ZIPs, or raw personal data.
+
+## graphify
+
+This project has a knowledge graph at graphify-out/ with god nodes, community structure, and cross-file relationships.
+
+When the user types `/graphify`, use the installed graphify skill or instructions before doing anything else.
+
+Rules:
+- `graphify-out/` is intentionally local and ignored; do not commit graph artifacts unless the user explicitly asks.
+- In this Hermes/Windows terminal, prefix Graphify commands with `PYTHONPATH=` (for example `PYTHONPATH= graphify query "<question>"`) so the uv tool does not accidentally import packages from Hermes' own venv.
+- For codebase questions, first run `PYTHONPATH= graphify query "<question>"` when graphify-out/graph.json exists. Use `PYTHONPATH= graphify path "<A>" "<B>"` for relationships and `PYTHONPATH= graphify explain "<concept>"` for focused concepts. These return a scoped subgraph, usually much smaller than GRAPH_REPORT.md or raw grep output.
+- Dirty graphify-out/ files are expected after hooks or incremental updates; dirty graph files are not a reason to skip graphify. Only skip graphify if the task is about stale or incorrect graph output, or the user explicitly says not to use it.
+- If graphify-out/wiki/index.md exists, use it for broad navigation instead of raw source browsing.
+- Read graphify-out/GRAPH_REPORT.md only for broad architecture review or when query/path/explain do not surface enough context.
+- After modifying code, run `PYTHONPATH= graphify update .` to keep the graph current (AST-only, no API cost).

@@ -10,7 +10,7 @@
         content="Aktuelle News und Vereinsmeldungen des Recklingh&auml;user Leichtathletik Clubs 1952 e.V. in einer klaren, entschlackten Archivansicht." />
     <link href="../assets/css/design-tokens.css" rel="stylesheet" />
     <link href="../assets/css/shell.css" rel="stylesheet" />
-    <link href="../assets/css/subpages.css?v=5" rel="stylesheet" />
+    <link href="../assets/css/subpages.css?v=11" rel="stylesheet" />
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Montserrat:wght@700;900&amp;display=swap"
         rel="stylesheet" />
@@ -34,43 +34,10 @@
                         <p id="news-last-updated" class="subpage-copy">Neueste Meldung wird geladen.</p>
                     </div>
                     <div class="subpage-actions">
-                        <a href="#news-feature-title" class="subpage-button">Zur neuesten Meldung <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
+                        <a href="#news-current-title" class="subpage-button">Zu den neuesten Meldungen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                         <a href="#news-archive-title" class="subpage-link">Zum Archiv <span class="material-icons-round" aria-hidden="true">south</span></a>
                     </div>
                 </div>
-            </section>
-
-            <section class="subpage-surface subpage-surface--flush" aria-labelledby="news-feature-title">
-                <div class="subpage-surface__header">
-                    <div class="subpage-title-row">
-                        <div>
-                            <span class="subpage-eyebrow">Neueste Meldung</span>
-                            <h2 id="news-feature-title" class="subpage-title">Neueste Meldung kompakt.</h2>
-                        </div>
-                    </div>
-                </div>
-
-                <article class="subpage-news-feature" aria-labelledby="featured-story-title">
-                    <div class="subpage-news-feature__media">
-                        <img id="featured-story-image" src="" alt="" loading="eager" decoding="async" />
-                    </div>
-                    <div class="subpage-news-feature__body">
-                        <div class="subpage-news-card-meta">
-                            <span class="subpage-news-date-chip" id="featured-story-date">Aktuell</span>
-                            <span class="subpage-news-category" id="featured-story-category">Vereinsnews</span>
-                        </div>
-
-                        <div class="subpage-news-feature__intro">
-                            <h3 id="featured-story-title" class="subpage-news-feature__title">Die neueste Meldung wird geladen.</h3>
-                            <p id="featured-story-excerpt" class="subpage-copy">Sobald die News-Daten verf&uuml;gbar sind, erscheint hier automatisch die aktuellste Vereinsmeldung.</p>
-                        </div>
-
-                        <div class="subpage-actions subpage-news-feature__actions">
-                            <a id="featured-story-link" href="contact.html#contact" class="subpage-button">Zum Beitrag <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
-                            <a href="#news-archive-title" class="subpage-link">Weitere Meldungen <span class="material-icons-round" aria-hidden="true">south</span></a>
-                        </div>
-                    </div>
-                </article>
             </section>
 
             <section class="subpage-surface subpage-surface--flush" aria-labelledby="news-current-title">
@@ -108,12 +75,6 @@
         document.addEventListener('DOMContentLoaded', () => {
             const news = Array.isArray(window.newsData) ? window.newsData : [];
             const container = document.getElementById('news-container');
-            const featuredImage = document.getElementById('featured-story-image');
-            const featuredDate = document.getElementById('featured-story-date');
-            const featuredCategory = document.getElementById('featured-story-category');
-            const featuredTitle = document.getElementById('featured-story-title');
-            const featuredExcerpt = document.getElementById('featured-story-excerpt');
-            const featuredLink = document.getElementById('featured-story-link');
             const currentContainer = document.getElementById('news-current-container');
             const introContext = document.getElementById('news-intro-context');
             const lastUpdated = document.getElementById('news-last-updated');
@@ -173,6 +134,8 @@
                 return imageUrl.startsWith('http') ? imageUrl : `../${imageUrl}`;
             };
 
+            const hasNewsImage = (article) => article.images && article.images.length > 0;
+
             const getArticleUrl = (article) => article.id ? `news/${article.id}.html` : 'contact.html#contact';
 
             const getExcerpt = (article, maxLength = 220) => {
@@ -213,7 +176,7 @@
 
                 card.className = 'subpage-news-list-item';
                 card.innerHTML = `
-                    <a class="subpage-news-list-item__media" href="${articleUrl}" aria-label="Meldung \u00f6ffnen: ${escapeHtml(title)}">
+                    <a class="subpage-news-list-item__media${hasNewsImage(article) ? '' : ' is-placeholder'}" href="${articleUrl}" aria-label="Meldung \u00f6ffnen: ${escapeHtml(title)}">
                         <img src="${getImageUrl(article)}" alt="${escapeHtml(title)}" loading="lazy" decoding="async">
                     </a>
                     <div class="subpage-news-list-item__body">
@@ -238,6 +201,7 @@
                 if (image) {
                     image.onerror = () => {
                         image.src = fallbackImage;
+                        image.closest('.subpage-news-list-item__media')?.classList.add('is-placeholder');
                     };
                 }
 
@@ -287,7 +251,7 @@
                 return;
             }
 
-            const featured = sortedNews[0];
+            const latest = sortedNews[0];
             const currentNews = sortedNews.slice(0, 3);
             const archiveNews = sortedNews.slice(3);
             const groupedArchive = archiveNews.reduce((groups, article) => {
@@ -309,23 +273,11 @@
                 return rightYear - leftYear;
             });
 
-            featuredImage.src = getImageUrl(featured);
-            featuredImage.alt = featured.title || 'Neueste Vereinsmeldung';
-            featuredImage.onerror = () => {
-                featuredImage.src = fallbackImage;
-            };
-            featuredDate.textContent = featured.date || 'Aktuell';
-            featuredCategory.textContent = getCategory(featured);
-            featuredTitle.textContent = featured.title || 'Neueste Vereinsmeldung';
-            featuredExcerpt.textContent = getExcerpt(featured, 180);
-            featuredLink.href = getArticleUrl(featured);
-            featuredLink.setAttribute('aria-label', `Meldung lesen: ${featured.title || 'Neueste Vereinsmeldung'}`);
-
             if (introContext) {
                 introContext.textContent = `${sortedNews.length} Meldungen \u00b7 ${getYearCountLabel(sortedNews)}`;
             }
             if (lastUpdated) {
-                lastUpdated.textContent = `Stand ${featured.date || 'aktueller Vereinsmeldung'}.`;
+                lastUpdated.textContent = `Stand ${latest.date || 'aktueller Vereinsmeldung'}.`;
             }
             if (archiveSummary) {
                 archiveSummary.textContent = archiveNews.length > 0

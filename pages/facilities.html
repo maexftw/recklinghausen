@@ -10,7 +10,7 @@
     />
     <link href="../assets/css/design-tokens.css" rel="stylesheet" />
     <link href="../assets/css/shell.css" rel="stylesheet" />
-    <link href="../assets/css/subpages.css?v=6" rel="stylesheet" />
+    <link href="../assets/css/subpages.css?v=12" rel="stylesheet" />
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Montserrat:wght@700;900&amp;display=swap"
         rel="stylesheet"
@@ -68,6 +68,7 @@
                     category: 'OUTDOOR',
                     accent: 'facility-accent--stadium',
                     image: '../assets/images/rlc-sportstaetten-stadion.jpg',
+                    photoCredit: '© RVR, 2020, DL-DE/BY-2-0',
                     summary: 'Unser Hauptstandort für Bahntraining, Wettkampfvorbereitung und viele Gruppen.',
                     copy: 'Kinder, Jugend und Erwachsene trainieren hier regelmäßig auf der Bahn und im Außenbereich.',
                     address: 'Am Stadion 1, 45659 Recklinghausen',
@@ -137,6 +138,7 @@
                             ${location.image ? '' : '<span class="facility-card__placeholder"><span class="material-icons-round" aria-hidden="true">photo_camera</span>Foto folgt</span>'}
                         </div>
                         <div class="facility-card__body">
+                            ${location.photoCredit ? `<p class="facility-card__photo-credit">${location.photoCredit}</p>` : ''}
                             <div class="facility-card__header">
                                 <div>
                                     <h3>${location.name}</h3>
