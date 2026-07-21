@@ -1,233 +1,107 @@
 # RLC Recklinghausen – aktueller Arbeitsstand
 
-Stand: 2026-07-10
-Branch: `preview-rlc-qa-polish-2026-07-08`
-Release content commit: `84b9709 feat: finalize RLC customer feedback update`
-Status: Kundenfeedback-Bundle aus `C:\Users\User\Documents\RLC Update` wurde ausgewertet, sichtbare Feedbackpunkte wurden umgesetzt und mit echten Browser-/Screenshot-Checks geprüft. Maxi hat den Stand am 2026-07-10 zur Übernahme auf `main` freigegeben.
+Stand: 2026-07-21
+Branch: `preview-rlc-customer-update-2026-07-21`
+Content-Commit: `2df7a79 feat: umsetzen des Kundenfeedbacks vom 2026-07-17 (19 Punkte + Chat-Nachzügler)`
+Status: Gebündeltes Kundenfeedback vom 2026-07-17 (Excel, 19 Punkte) plus vier Chat-Nachzügler vom 09./10.07. wurden umgesetzt und mit lokalem Browser-QA (60 Checks: 12 Seiten × Desktop + 320/360/390/430 px) verifiziert. Kundenfreigabe steht noch aus.
 
 ## Source of Truth
 
 - Canonical repo: `https://github.com/maexftw/recklinghausen`
 - Canonical local worktree: `D:/Arbeit/0_ACTIVE/Recklinghausen`
 - Canonical Cloudflare Pages project: `rlc-1952-recklinghausen`
-- Do not use old/archived worktrees as deploy source, especially:
-  - `C:/Users/User/Documents/antigravity/happy-chandrasekhar`
-  - `D:/Arbeit/9_ARCHIVE/Alt V1/Recklinghausen`
+- Produktion (main): https://rlc-1952-recklinghausen.pages.dev
+- Feedback-Quellen dieser Runde:
+  - `2026-07-17 RLC Neue Homepage - Feedback.xlsx` (19 Punkte, Melder: Barbara, Christina, Mike, Carsten, Ludger) – nicht committen
+  - WhatsApp-Chatverlauf bis 20.07. (Chat-Nachzügler vom 09./10.07.)
+- Keine Roh-Exporte, Screenshots, `.hermes/`, `.agent/`, `.claude/` oder Excel/WhatsApp-Dateien committen (.gitignore erweitert).
 
-## Accepted preview links
+## Umgesetzt in dieser Runde (Commit 2df7a79)
 
-- Exact accepted preview including the confirmed board portraits:
-  - https://ad59482a.rlc-1952-recklinghausen.pages.dev
-  - Cloudflare status: Deploy successful
-  - The accepted production artifact is captured in release content commit `84b97099a5f3caf079839673d6bcca44e5edf630`.
-- Stable branch preview:
-  - https://preview-rlc-qa-polish-2026-0.rlc-1952-recklinghausen.pages.dev
+### Trainingszeiten (Excel P1, P2, P3, P5)
 
-Note: Cloudflare truncates/normalizes long branch aliases. Always extract preview URLs from the successful `Cloudflare Pages` check-run; do not guess them.
+- Dienstag U10: Trainer jetzt Carsten Praßni, Maja Rothers.
+- Donnerstag U12 und U14: Trainer jeweils Barbara Ziesmer-Praßni & Max Esther.
+- U6: Linda Beerhorst ergänzt (jetzt Nefedev, Ribbrock, Beerhorst).
+- Montag U14: 17:00–18:30 Uhr (vorher bis 19:00).
 
-## Customer feedback sources reviewed
+### Training-Bugfixes (P4, P14)
 
-Feedback folder: `C:/Users/User/Documents/RLC Update`
+- Altersgruppen-Filter U8/U10/U12/U14 repariert. Root Cause: `pages/training.html` enthielt echte Backspace-Bytes (0x08) an den Stellen, wo `\b`-Word-Boundaries in den Filter-Regexes stehen sollten – die Filter konnten nie matchen. U6/U16/Erwachsene funktionierten nur über ihre `includes()`-Fallbacks. Byte-Fix auf `\b`, alle Filter liefern jetzt korrekte Treffer.
+- Doppelter Hero-Meta-Eintrag entfernt: „Stand" und „Gültig" zeigten beide `meta.validRange`; „Stand" wurde entfernt, Meta-Row auf 3 Einträge umgestellt.
 
-Inventory checked:
+### Termine (P13, P18)
 
-- `Textdokument (neu).txt`
-- `WhatsApp Chat - Dev_ Neue RLC-Hompage (1).zip`
-- ZIP extracted folder: `extracted-2026-07-06/`
-- `extracted-2026-07-06/_chat.txt`
-- `extracted-2026-07-06/00003033-RLC_Webseite_Feedback_Desktopansicht.docx`
-- DOCX embedded media/screenshots: 20 media files were detected and reviewed via local contact sheets.
-- `extracted-2026-07-06/00003042-Abendlauf2026-komprimiert_A4.pdf`
-- `extracted-2026-07-06/00003022-Logo sparkasse.pdf`
-- `extracted-2026-07-06/00003023-Lauflust Recklinghausen Logo.svg`
-- `extracted-2026-07-06/00003024-Bodynostic_logo_Abmessungen.odt`
-- `extracted-2026-07-06/00003047-PHOTO-2026-06-22-12-27-56.jpg`
-- `WhatsApp Ptt 2026-07-06 at 08.58.59.transcript.txt`
-- `WhatsApp Ptt 2026-07-06 at 08.58.59.transcript.srt`
-- `WhatsApp Ptt 2026-07-01 at 09.56.23.ogg`
-- `WhatsApp Ptt 2026-07-01 at 10.20.24.ogg`
+- „Kalender"-Chip aus dem Hero entfernt (alle Viewports, konsistent Desktop/Mobile).
+- Kategorien: Stadtmeisterschaften → „Wettkampf", Silvesterlauf → „Laufveranstaltung" (Abendlauf war bereits „Laufveranstaltung").
 
-Important evidence notes:
+### Verein-Seite `pages/sponsors.html` (P8, P15, P16)
 
-- The two PDFs `Logo sparkasse.pdf` and `Abendlauf2026-komprimiert_A4.pdf` yielded no extractable text. They were treated as visual/image PDFs and rendered/reviewed as assets, not as textual requirement documents.
-- The two older 2026-07-01 WhatsApp voice notes were transcribed during the final audit. They confirmed these points: header stability at `Bilder`, hero-link contrast, and alignment of `Rund um den Verein` cards.
-- Raw customer exports, audio files, screenshots, contact sheets, and local QA artifacts must not be committed.
+- Neue Abschnitts-Reihenfolge: Hero → Vereinsbeschreibung (neu) → Vereinsgeschichte → Vorstand → Dokumente → Partner; Hero enthält Anker-Chips zu allen fünf Bereichen.
+- Vereinsbeschreibung wurde neu getextet (aus vorhandenem Material abgeleitet, keine erfundenen Fakten) – **Kundenfreigabe für den Text einholen**.
+- Marc Manderlas Portrait (`vorstand-portrait-04.webp`): eigener Fokuspunkt `object-position: center 34%` (Modifier `subpage-person-card__image--focus-low`), Gesicht jetzt vollständig sichtbar.
+- Footer-Link „Dokumente" → `sponsors.html#dokumente`.
 
-## Implemented / verified customer-visible work
+### Dokumente & Schutzkonzept (P6, P7, P17)
 
-### Source-drift recovery
+- Mitgliedsantrag: verlinkt auf das aktuelle PDF der alten Website (`rlc1952.de/assets/pdf/rlc_aufnahmeantrag_2024.pdf`, Stand Okt. 2024).
+- Mitgliedsbeiträge (aktuell) und Mitgliedsbeiträge ab 01.01.2027: als „folgt"-Karten angelegt – **PDFs vom Verein nachliefern lassen**.
+- Neue Seite `pages/schutzkonzept.html`: Anspruch, Ansprechperson (Christina Sip), Hinweis auf ausstehenden Volltext; im Footer unter „Rechtliches" verlinkt. **Schutzkonzept-Text/PDF weiterhin offen.**
+- Ehrenkodex bleibt „folgt"-Karte.
 
-- Corrected the wrong-base problem reported by the customer: the preview is back on the dark-blue hero direction, not the old/bright stale stand.
-- The forbidden old mobile/start-page copy `Alles Wichtige in Menü-Reihenfolge` is absent.
-- Intermediate/old “Alles über den Verein” style headings are not present on the current homepage.
+### Footer-Rubrik Links (P11)
 
-### Homepage
+- Neue Seite `pages/links.html` mit FLVW, DLV, SSV RE, KSB RE (alle `target="_blank"`); nur im Footer verlinkt, nicht im Hauptmenü.
 
-- Dark blue hero restored/preserved.
-- `Schnelle Wege` remains desktop-only and is hidden on mobile.
-- `Der Verein auf einen Blick` is removed.
-- `Rund um den Verein` cards are in menu-like order and are aligned in rows on desktop.
-- Homepage term cards link to event details.
-- Footer Instagram icon/text is visible.
+### Favicon (P12)
 
-### News / Aktuelles
+- Weißer RLC-Läufer (aus dem Logo extrahiert) auf Vereinsblau `#0B1F3D`: `favicon.ico` (Root) + `assets/images/favicon/` (32/192/apple-touch); in allen 835 HTML-Seiten verlinkt.
+- Alternative „grüner Läufer auf Weiß" liegt als Vergleichsbild lokal vor (nicht committet) – dem Kunden zur Wahl zeigen.
 
-- News page shows a latest-news/current-post structure.
-- Print function is removed.
-- Latest/current news cards render without broken-image findings in the final screenshot/browser pass.
+### Trainerteam (P9, P10)
 
-### Termine / Veranstaltungen
+- Standard-Sortierung alphabetisch nach Nachname; Umschalter „Nach Trainingsgruppe" (U6 → Erwachsene/Senioren) als Chip-Toggle im Teamverzeichnis.
 
-- Event names use the green club accent.
-- Unfitting `Aktuelle Meldungen ansehen` link is removed from Rückfragen.
-- `Quelle`, `Details folgen`, and stale placeholder-style event text are removed from the current checked preview.
-- `RLC 1952 / ...` labels were removed from event `Wer` entries after final review.
-- Event cards expose structured details for `Was / Wann / Wo / Wer / Anmeldung`.
+### Galerie (P19)
 
-### Abendlauf
+- Kleinere, vollständig sichtbare Kacheln (`object-fit: contain`, auto-fill-Grid ab 13rem).
+- Gruppen nach Veranstaltung mit Datum, zeitlich absteigend sortiert (`data-event-date`).
+- Lightbox-Viewer: Klick öffnet Overlay mit Bildunterschrift, Vor/Zurück, Escape, „Originalgröße"-Link (neuer Tab); Kacheln sind echte Links aufs Original (Fallback ohne JS/Mittelklick).
 
-- Abendlauf page is structured as: Hero, Beschreibung, Anmeldung & Strecken, Bilder, Kontakt.
-- Flyer image/PDF, RaceResult registration, 5-km route PDF, and 10-km route PDF are linked.
-- Duplicate/awkward RaceResult CTA repetition was reduced; the current page keeps the external RaceResult link in the Anmeldung card.
+### Chat-Nachzügler (09./10.07., nicht in der Excel)
 
-### Training / Trainerteam
+- Sportstätten-Copyright: der lose Credit-Text im Kartenkörper (mutmaßlich Mikes „Kommentar muss noch entfernt werden") wurde als Overlay auf das Stadionbild der Karte gelegt – gleicher Stil wie im Hero. **Interpretation dem Kunden bestätigen lassen** (Screenshot aus dem Chat lag nicht vor).
+- Mobile-Bug „fehlende Zwischenüberschriften" (iPhone 16, 10.07.): auf aktueller Produktion und lokal nicht mehr reproduzierbar – wurde durch `fc375b5` behoben. Verifiziert.
+- Grüne Veranstaltungstitel auf der Startseite: bereits umgesetzt, verifiziert.
 
-- Training filter remains available and is initially collapsed/mobile-friendly.
-- U6 filter behavior was checked in earlier QA and no customer-blocking issue remains.
-- Trainer/team cards use readable placeholders where approved photos are missing; no invented trainer photos.
+### Responsive-Fixes
 
-### Verein / Vorstand
+- Vorstandskarten-Overflow bei 320 px behoben: Team-Grid mobil auf `minmax(0, 1fr)`, lange E-Mail-Adressen mit `overflow-wrap: anywhere`.
+- Asset-Versionen gebumpt: `subpages.css?v=14`, `components.js?v=3`, `training_schedule.js?v=3`.
 
-- The club page hero uses the transparent RLC logo on the dark-blue hero treatment.
-- Board roles are represented as one card per person; combined roles stay on the same card.
-- Confirmed portrait mapping from the 2026-07-10 customer feedback:
-  - Christian Dahmen: `vorstand-portrait-02.webp`
-  - Marc Manderla: `vorstand-portrait-04.webp`
-  - Stephen Wandelt: `vorstand-portrait-03.webp`
-  - Mike Wickert: `vorstand-portrait-01.webp`
-- Remaining board members use initials until approved portraits are supplied.
+## Verifikation
 
-### Sportstätten
+- Puppeteer-QA: 12 Seiten × 5 Viewports (Desktop, 320, 360, 390, 430) = 60 Checks. Ergebnis: kein horizontaler Überlauf, keine kaputten Bilder, keine Konsolen-/Seitenfehler. Einzige Ausnahme: lokaler 404 auf `/api/contact-config` (Cloudflare Function, existiert nur im Pages-Deploy – kein Bug).
+- Screenshots: Verein (Desktop + 320), Galerie inkl. Lightbox, Training, Termine mobil, Trainerteam, Links, Sportstätten – visuell geprüft.
+- `node --check` components.js/training_schedule.js OK; `node tests/contact-api.test.mjs` OK; `py_compile` OK; `git diff --check` OK.
+- Filter-Verifikation Training: U6=1, U8=1, U10=3, U12=3, U14=3, U16-U23=4, Erwachsene=3, Senioren=6 Einheiten.
 
-- Stadion Hohenhorst copyright remains visible.
-- `OUTDOOR` marker is used instead of the old `BAHN` wording.
-- Standalone Kraftraum card was removed.
-- `Zum Trainingsplan` CTA is removed from facilities.
-- Hall/location placeholders remain honest where approved photos/source material are missing.
+## Offene Punkte für die Kundenrückmeldung
 
-### Kontakt
+1. **Fehlende Materialien:** Mitgliedsbeiträge-PDFs (aktuell + ab 01.01.2027), Schutzkonzept-Text/PDF, Ehrenkodex-PDF, weitere Vorstands-/Trainerfotos. Nichts erfinden.
+2. **Schreibweise Trainerin:** Excel sagt „Leni Nefendev", Repo durchgehend „Leni Nefedev" – bestätigen lassen.
+3. **Vereinsbeschreibung:** neuer Text zur Freigabe.
+4. **Favicon-Variante:** Weiß-auf-Blau ist umgesetzt; grüne Variante als Alternative anbieten.
+5. **„Kommentar entfernt"-Interpretation** (Sportstätten-Credit) bestätigen lassen.
+6. Mike wartet seit 20.07. auf Rückmeldung zu Machbarkeit + Zeitplan.
 
-- Contact page hero/content is shortened.
-- `Und jetzt?` block is removed.
-- Legal `Impressum/Datenschutz auf einen Blick` block is removed from the contact content area.
-- Direct website form exists and posts to `/api/contact`.
-- Turnstile markup/payload support exists, but preview config currently has no site key until Cloudflare env vars are set.
+## Bekannte offene Gates (unverändert aus dem 2026-07-10-Release)
 
-### Galerie
+1. Turnstile: `TURNSTILE_SITE_KEY` / `TURNSTILE_SECRET_KEY` in Cloudflare setzen.
+2. Mailzustellung: `CONTACT_WEBHOOK_URL` (+ optional `CONTACT_WEBHOOK_TOKEN`) setzen, dann echter End-to-End-Test.
+3. Domain/DNS, redaktionelle Übergabe (PagesCMS), Tailwind-CDN-Härtung vor finaler Produktion.
 
-- Gallery is accessible as its own page/menu item.
-- Filter buttons are present and visible.
-- Old unnecessary training-time/end links are absent.
-- Gallery cards/images render in the screenshot pass.
-
-## Final verification performed
-
-### Cloudflare deploy
-
-- Commit `fc375b5` pushed to `preview-rlc-qa-polish-2026-07-08`.
-- Cloudflare Pages check completed successfully.
-- Exact preview URL from the check-run: `https://cd7b2703.rlc-1952-recklinghausen.pages.dev`.
-- Final accepted working-tree artifact including the confirmed board portraits was manually deployed to the canonical Pages project and visually checked at `https://ad59482a.rlc-1952-recklinghausen.pages.dev`.
-- The same customer-visible artifact is captured in release content commit `84b9709` for the `main` release.
-
-### Remote route / marker smoke
-
-Remote preview `cd7b2703` checked on these representative routes:
-
-- `/`
-- `/pages/events.html`
-- `/pages/abendlauf.html`
-- `/pages/contact.html`
-- `/pages/facilities.html`
-- `/pages/gallery.html`
-- `/api/contact-config`
-
-Observed at final smoke stage:
-
-- Routes returned HTTP 200.
-- Homepage no longer contains `Alles Wichtige in Menü-Reihenfolge`.
-- Events page no longer contains `RLC 1952 /`, `Aktuelle Meldungen ansehen`, or `Details folgen`.
-- Abendlauf contains the flyer, 5-km link, 10-km link, and one RaceResult registration URL.
-- Contact page no longer contains `Und jetzt` or the removed legal overview block.
-- Facilities contains copyright and `OUTDOOR`, and does not contain `Zum Trainingsplan`.
-- Gallery has expected filters.
-- `/api/contact-config` currently returns an empty Turnstile key object until env vars are configured.
-
-### Browser / screenshot QA
-
-Browser QA was done with real Chrome/Puppeteer rendering, not only code/string checks.
-
-Final screenshot evidence folders are local QA artifacts and intentionally not committed:
-
-- Desktop/final mixed screenshot pass:
-  - `.hermes/rlc-feedback-sources/final-browser-check-169b7dde/`
-- Final mobile breakpoint pass after the mobile-width fix:
-  - `.hermes/rlc-feedback-sources/mobile-breakpoint-check-cd7b2703/`
-  - Contact sheet: `.hermes/rlc-feedback-sources/mobile-breakpoint-check-cd7b2703/mobile-contact-sheet.jpg`
-
-Remote mobile QA after `fc375b5`:
-
-- Base: `https://cd7b2703.rlc-1952-recklinghausen.pages.dev`
-- Pages checked: `/`, `/pages/news.html`, `/pages/events.html`, `/pages/abendlauf.html`, `/pages/training.html`, `/pages/contact.html`, `/pages/facilities.html`, `/pages/gallery.html`
-- Widths checked: `320`, `360`, `390`, `430`
-- Total checks: `32`
-- Result: no problems reported.
-- No horizontal overflow.
-- No console errors/request failures from the checked pages.
-- Mobile menu opens and is visible.
-- Mobile home keeps `Schnelle Wege` hidden.
-
-Extra regression checks from the 2026-07-01 voice notes:
-
-- Header/nav dimensions are stable across `Bilder`/Gallery and other pages.
-- Hero links no longer have the old black-on-dark low-contrast problem.
-- `Rund um den Verein` cards align in rows with consistent heights on desktop.
-
-### Code / syntax checks
-
-- `node --check assets/js/components.js`: OK.
-- `node --check functions/api/contact.js`: OK before the 2026-07-10 release commit.
-- `node --check functions/api/contact-config.js`: OK before the 2026-07-10 release commit.
-- `node tests/contact-api.test.mjs`: OK (`contact-api selftest ok`).
-- `python -m py_compile generate_detail_pages.py update_js_data.py`: OK.
-- `git diff --check`: OK before the 2026-07-10 release commit.
-- All four portrait references resolve to non-empty WebP files.
-
-## Known open gates after the accepted release
-
-1. Turnstile/Captcha activation.
-   - Required Cloudflare env vars:
-     - `TURNSTILE_SITE_KEY`
-     - `TURNSTILE_SECRET_KEY`
-   - Current `/api/contact-config` returns an empty site key until these are set.
-
-2. Real contact-mail delivery.
-   - `CONTACT_WEBHOOK_URL` must be configured in Cloudflare.
-   - Optional `CONTACT_WEBHOOK_TOKEN` if the webhook requires auth.
-   - Then perform a real end-to-end submit test with owner-approved test data.
-   - Do not claim real mail delivery until this is verified.
-
-3. Missing approved materials.
-   - Schutzkonzept PDF.
-   - Ehrenkodex PDF.
-   - Approved trainer photos / remaining board photos / location photos where desired.
-   - Do not invent these assets.
-
-4. Production/domain/redaktionelle Übergabe.
-   - Domain/DNS and PagesCMS/editorial workflow are separate go-live tasks.
-   - Tailwind CDN warning should be evaluated/hardened before final production if required.
-
-## Restart checklist for the next agent/session
+## Restart-Checkliste für die nächste Session
 
 ```bash
 cd 'D:/Arbeit/0_ACTIVE/Recklinghausen'
@@ -236,19 +110,17 @@ git status --short --branch
 git log --oneline -5 --decorate
 ```
 
-Expected current branch/HEAD for this handoff:
+Erwarteter Stand für dieses Handoff:
 
 ```text
-preview-rlc-qa-polish-2026-07-08
-fc375b5 fix: harden mobile subpage widths
+preview-rlc-customer-update-2026-07-21
+2df7a79 feat: umsetzen des Kundenfeedbacks vom 2026-07-17 (19 Punkte + Chat-Nachzügler)
 ```
 
-Confirm the exact Cloudflare preview from the latest check-run instead of guessing:
+Preview-URL immer aus dem Cloudflare-Check-Run extrahieren, nie raten:
 
 ```bash
 SHA=$(git rev-parse HEAD)
 gh api repos/maexftw/recklinghausen/commits/$SHA/check-runs \
   --jq '.check_runs[] | select(.name=="Cloudflare Pages") | .output.summary'
 ```
-
-Then smoke the current preview and only report success if the actual URL returns expected content.
