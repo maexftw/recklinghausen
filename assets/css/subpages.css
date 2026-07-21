@@ -2122,6 +2122,7 @@ a.subpage-chip {
 
 .verein-history-text p {
     margin: 0;
+    max-width: 70ch;
     color: var(--subpage-muted);
     line-height: 1.7;
 }
@@ -2177,6 +2178,14 @@ a.subpage-chip {
     color: var(--subpage-brand-strong);
     font-weight: 850;
     text-decoration: none;
+}
+
+/* Touch-Geraete: komfortable Tap-Hoehe (~44px) fuer Inline-Links,
+   z. B. "PDF oeffnen" in Dokument-Karten und die Verbandslinks. */
+@media (pointer: coarse) {
+    .subpage-inline-link {
+        min-height: 2.75rem;
+    }
 }
 
 .subpage-inline-link .material-icons-round {
