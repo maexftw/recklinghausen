@@ -1084,6 +1084,14 @@ body.subpage::before {
     color: var(--subpage-brand-strong);
 }
 
+a.subpage-chip {
+    text-decoration: none;
+}
+
+.subpage-chip-row--hero {
+    margin-top: 1.1rem;
+}
+
 .subpage-chip.is-active,
 .subpage-chip[aria-pressed="true"] {
     border-color: color-mix(in srgb, var(--subpage-accent-deep) 75%, black 8%);
@@ -1489,14 +1497,6 @@ body.subpage::before {
     text-transform: uppercase;
 }
 
-.facility-card__photo-credit {
-    margin: -0.35rem 0 0.2rem;
-    color: var(--subpage-muted);
-    font-size: 0.58rem;
-    line-height: 1.2;
-    opacity: 0.78;
-}
-
 .facility-card__body,
 .facility-detail-card__content {
     display: grid;
@@ -1645,6 +1645,10 @@ body.subpage::before {
 .subpage-person-card:hover .subpage-person-card__image,
 .subpage-person-card:focus-within .subpage-person-card__image {
     transform: scale(1.06);
+}
+
+.subpage-person-card__body .subpage-link {
+    overflow-wrap: anywhere;
 }
 
 .subpage-person-card__badge,
@@ -3597,11 +3601,9 @@ body.subpage-facilities .subpage-actions .subpage-link[href="#facilities-directo
 }
 
 .gallery-event__header {
-    display: flex;
-    align-items: end;
-    justify-content: space-between;
-    gap: 0.8rem;
-    flex-wrap: wrap;
+    display: grid;
+    justify-items: start;
+    gap: 0.2rem;
     padding-top: 0.35rem;
 }
 
@@ -3614,33 +3616,143 @@ body.subpage-facilities .subpage-actions .subpage-link[href="#facilities-directo
 
 .gallery-event__grid {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 13rem), 1fr));
+    gap: 0.9rem;
 }
 
 .gallery-tile {
     display: grid;
     overflow: hidden;
-    border-radius: 1.35rem;
+    border-radius: 1rem;
     border: 1px solid color-mix(in srgb, var(--subpage-line) 74%, white);
     background: linear-gradient(180deg, color-mix(in srgb, white 94%, var(--subpage-paper)) 0%, color-mix(in srgb, white 86%, var(--subpage-paper-strong)) 100%);
-    box-shadow: 0 20px 50px color-mix(in srgb, var(--subpage-brand) 8%, transparent);
+    box-shadow: 0 12px 30px color-mix(in srgb, var(--subpage-brand) 7%, transparent);
+    text-decoration: none;
+    cursor: zoom-in;
+    transition: transform 180ms ease, box-shadow 180ms ease;
 }
 
-.gallery-tile--wide {
-    grid-column: span 2;
-}
-
-.gallery-tile--tall {
-    grid-row: span 2;
+.gallery-tile:hover,
+.gallery-tile:focus-visible {
+    transform: translateY(-2px);
+    box-shadow: 0 18px 40px color-mix(in srgb, var(--subpage-brand) 12%, transparent);
 }
 
 .gallery-tile img {
     width: 100%;
-    aspect-ratio: 16 / 10;
+    aspect-ratio: 4 / 3;
     height: auto;
-    object-fit: cover;
+    object-fit: contain;
+    background: color-mix(in srgb, var(--subpage-paper-strong) 55%, white);
     display: block;
+}
+
+.gallery-tile__caption {
+    padding: 0.55rem 0.8rem 0.65rem;
+    color: var(--subpage-ink);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+}
+
+/* Lightbox-Viewer der Bildergalerie */
+body.gallery-lightbox-open {
+    overflow: hidden;
+}
+
+.gallery-lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 90;
+    display: grid;
+    place-items: center;
+    padding: clamp(0.8rem, 3vw, 2.4rem);
+}
+
+.gallery-lightbox__backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(8, 20, 42, 0.86);
+    backdrop-filter: blur(4px);
+}
+
+.gallery-lightbox__figure {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    gap: 0;
+    max-width: min(64rem, 100%);
+    max-height: 100%;
+    margin: 0;
+    border-radius: 1rem;
+    overflow: hidden;
+    background: rgba(10, 22, 44, 0.92);
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
+}
+
+.gallery-lightbox__image {
+    display: block;
+    width: 100%;
+    max-height: min(74vh, 44rem);
+    object-fit: contain;
+    background: rgba(4, 10, 22, 0.6);
+}
+
+.gallery-lightbox__bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+    padding: 0.7rem 1rem;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.gallery-lightbox__actions {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+}
+
+.gallery-lightbox__original {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    margin-right: 0.4rem;
+    color: #9fe8d2;
+    font-size: 0.82rem;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.gallery-lightbox__original:hover,
+.gallery-lightbox__original:focus-visible {
+    text-decoration: underline;
+}
+
+.gallery-lightbox__original .material-icons-round {
+    font-size: 1rem;
+}
+
+.gallery-lightbox__nav {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.4rem;
+    height: 2.4rem;
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.08);
+    color: white;
+    cursor: pointer;
+    transition: background-color 160ms ease;
+}
+
+.gallery-lightbox__nav:hover,
+.gallery-lightbox__nav:focus-visible {
+    background: rgba(255, 255, 255, 0.2);
 }
 
 .gallery-tile__body {
@@ -3734,7 +3846,7 @@ body.subpage-facilities .subpage-actions .subpage-link[href="#facilities-directo
     }
 
     .subpage-card-grid--team {
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(0, 1fr);
     }
 
     .subpage-card-grid--facilities,
@@ -4207,6 +4319,12 @@ body.subpage-sponsors #vorstand img.subpage-person-card__image {
     display: block;
     object-fit: cover;
     object-position: center 24%;
+}
+
+/* Portrait mit tiefer sitzendem Gesicht (Marc Manderla): Fokuspunkt nach unten,
+   damit das Gesicht im beschnittenen Kartenformat vollständig sichtbar bleibt. */
+body.subpage-sponsors #vorstand img.subpage-person-card__image--focus-low {
+    object-position: center 34%;
 }
 
 @media (min-width: 960px) {

@@ -41,3 +41,7 @@ client_secret*.json
 09.06/
 *:Zone.Identifier
 graphify-out/
+.claude/
+*.xlsx
+.~lock.*
+WhatsApp Chat - Dev_*/

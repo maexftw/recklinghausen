@@ -26,7 +26,7 @@ window.trainingSchedule = [
     },
     {
         day: 'Montag',
-        time: '17:00 - 19:00 Uhr',
+        time: '17:00 - 18:30 Uhr',
         group: 'Jugend U14',
         year: 'Jg. 2013/2014',
         location: 'Stadion Hohenhorst',
@@ -66,7 +66,7 @@ window.trainingSchedule = [
         group: 'Vorschulkinder U6 - Kids',
         year: 'Jg. 2021/2022',
         location: 'Stadion Hohenhorst',
-        trainers: ['Leni Nefedev', 'Tessa Ribbrock'],
+        trainers: ['Leni Nefedev', 'Tessa Ribbrock', 'Linda Beerhorst'],
         performance: false
     },
     {
@@ -84,7 +84,7 @@ window.trainingSchedule = [
         group: 'Kinder U10',
         year: 'Jg. 2017/2018',
         location: 'Stadion Hohenhorst',
-        trainers: ['Carsten Praßni', 'Joris Preckel'],
+        trainers: ['Carsten Praßni', 'Maja Rothers'],
         performance: false
     },
     {
@@ -165,7 +165,7 @@ window.trainingSchedule = [
         group: 'Kinder U12',
         year: 'Jg. 2015/2016',
         location: 'Stadion Hohenhorst',
-        trainers: ['Barbara Ziesmer-Praßni'],
+        trainers: ['Barbara Ziesmer-Praßni', 'Max Esther'],
         performance: false
     },
     {
@@ -174,7 +174,7 @@ window.trainingSchedule = [
         group: 'Jugend U14',
         year: 'Jg. 2014',
         location: 'Stadion Hohenhorst',
-        trainers: ['Barbara Ziesmer-Praßni'],
+        trainers: ['Barbara Ziesmer-Praßni', 'Max Esther'],
         performance: false
     },
     {

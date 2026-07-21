@@ -4,21 +4,25 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Trainingsplan | RLC 1952</title>
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicon/favicon-192.png" />
+    <link rel="apple-touch-icon" href="/assets/images/favicon/apple-touch-icon.png" />
     <meta
         name="description"
         content="Aktuelle Sommer-Trainingszeiten 2026 des Recklinghäuser Leichtathletik Clubs 1952 e.V. mit Gruppen, Jahrgängen, Orten und Trainerteams."
     />
     <link href="../assets/css/design-tokens.css" rel="stylesheet" />
     <link href="../assets/css/shell.css" rel="stylesheet" />
-    <link href="../assets/css/subpages.css?v=10" rel="stylesheet" />
+    <link href="../assets/css/subpages.css?v=14" rel="stylesheet" />
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Lexend:wght@600;700;800;900&amp;display=swap"
         rel="stylesheet"
     />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
-    <script src="../assets/js/components.js"></script>
-    <script src="../assets/js/training_schedule.js?v=2"></script>
+    <script src="../assets/js/components.js?v=3"></script>
+    <script src="../assets/js/training_schedule.js?v=3"></script>
 </head>
 <body class="subpage subpage-training min-h-screen">
     <header data-shared-shell-placeholder></header>
@@ -29,7 +33,7 @@
                     <span class="subpage-eyebrow">Trainingszeiten</span>
                     <h1 id="training-page-title" class="subpage-display">Trainingsplan für Kinder, Jugend, Erwachsene und Senioren.</h1>
                     <p class="subpage-lead">Hier findest du Gruppen, Zeiten, Orte und Trainerteam kompakt im Überblick. Für den Einstieg gilt: erst Kontakt aufnehmen, dann Probetraining abstimmen.</p>
-                    <div class="subpage-meta-row subpage-meta-row--dynamic subpage-meta-row--4" id="training-meta-row" aria-label="Schnellüberblick zu den Trainingszeiten"></div>
+                    <div class="subpage-meta-row subpage-meta-row--dynamic subpage-meta-row--3" id="training-meta-row" aria-label="Schnellüberblick zu den Trainingszeiten"></div>
                     <div class="subpage-actions subpage-actions--hero">
                         <a href="#training-plan-title" class="subpage-button">Zum Wochenplan <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
                         <a href="contact.html#contact" class="subpage-button subpage-button--secondary">Probetraining abstimmen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
@@ -177,14 +181,14 @@
                 const value = normalize(`${entry.group} ${entry.year}`);
                 const groups = new Set();
 
-                if (/u\s*6/.test(value) || value.includes('vorschulkinder')) groups.add('u6');
-                if (/u\s*8/.test(value)) groups.add('u8');
-                if (/u\s*10/.test(value)) groups.add('u10');
-                if (/u\s*12/.test(value)) groups.add('u12');
-                if (/u\s*14/.test(value)) groups.add('u14');
-                if (/u\s*(16|18|20|23)/.test(value) || value.includes('u16 - u23')) groups.add('u16-u23');
+                if (/\bu\s*6\b/.test(value) || value.includes('vorschulkinder')) groups.add('u6');
+                if (/\bu\s*8\b/.test(value)) groups.add('u8');
+                if (/\bu\s*10\b/.test(value)) groups.add('u10');
+                if (/\bu\s*12\b/.test(value)) groups.add('u12');
+                if (/\bu\s*14\b/.test(value)) groups.add('u14');
+                if (/\bu\s*(16|18|20|23)\b/.test(value) || value.includes('u16 - u23')) groups.add('u16-u23');
                 if (value.includes('erwachsene')) groups.add('adults');
-                if (value.includes('senioren') || /sen\s*\d/.test(value)) groups.add('seniors');
+                if (value.includes('senioren') || /\bsen\s*\d/.test(value)) groups.add('seniors');
 
                 if (groups.size === 0) groups.add('all');
                 return groups;
@@ -209,11 +213,6 @@
 
             const renderMeta = () => {
                 metaRow.innerHTML = [
-                    {
-                        icon: 'calendar_month',
-                        label: 'Stand',
-                        value: meta.validRange || 'aktueller Stand'
-                    },
                     {
                         icon: 'event_available',
                         label: 'Gültig',

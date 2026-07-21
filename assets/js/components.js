@@ -147,6 +147,8 @@ function initSharedComponents() {
                         <li><a href="${basePath}pages/facilities.html" class="site-footer-link transition-colors focus:outline-none">Sportstätten</a></li>
                         <li><a href="${basePath}pages/gallery.html" class="site-footer-link transition-colors focus:outline-none">Bildergalerie</a></li>
                         <li><a href="${basePath}pages/news.html" class="site-footer-link transition-colors focus:outline-none">Aktuelles</a></li>
+                        <li><a href="${basePath}pages/sponsors.html#dokumente" class="site-footer-link transition-colors focus:outline-none">Dokumente</a></li>
+                        <li><a href="${basePath}pages/links.html" class="site-footer-link transition-colors focus:outline-none">Links</a></li>
                     </ul>
                 </div>
                 <div>
@@ -154,6 +156,7 @@ function initSharedComponents() {
                     <ul class="space-y-4 text-slate-400 text-sm">
                         <li><a href="${basePath}pages/impressum.html" class="site-footer-link transition-colors focus:outline-none">Impressum</a></li>
                         <li><a href="${basePath}pages/datenschutz.html" class="site-footer-link transition-colors focus:outline-none">Datenschutz</a></li>
+                        <li><a href="${basePath}pages/schutzkonzept.html" class="site-footer-link transition-colors focus:outline-none">Schutzkonzept</a></li>
                         <li><a href="${basePath}pages/contact.html#contact" class="site-footer-link transition-colors focus:outline-none">Kontakt</a></li>
                         <li><a href="${basePath}pages/sponsors.html#partnerliste" class="site-footer-link transition-colors focus:outline-none">Partner</a></li>
                     </ul>

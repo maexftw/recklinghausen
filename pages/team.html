@@ -4,21 +4,25 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Trainerteam | RLC 1952</title>
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicon/favicon-192.png" />
+    <link rel="apple-touch-icon" href="/assets/images/favicon/apple-touch-icon.png" />
     <meta
         name="description"
         content="Das Trainerteam des Recklinghäuser Leichtathletik Clubs 1952 e.V. direkt aus dem aktuellen Trainingsplan abgeleitet."
     />
     <link href="../assets/css/design-tokens.css" rel="stylesheet" />
     <link href="../assets/css/shell.css" rel="stylesheet" />
-    <link href="../assets/css/subpages.css?v=11" rel="stylesheet" />
+    <link href="../assets/css/subpages.css?v=14" rel="stylesheet" />
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Montserrat:wght@700;900&amp;display=swap"
         rel="stylesheet"
     />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
-    <script src="../assets/js/components.js"></script>
-    <script src="../assets/js/training_schedule.js?v=2"></script>
+    <script src="../assets/js/components.js?v=3"></script>
+    <script src="../assets/js/training_schedule.js?v=3"></script>
 </head>
 <body class="subpage subpage-team min-h-screen">
     <header data-shared-shell-placeholder></header>
@@ -46,6 +50,10 @@
                         <div>
                             <span class="subpage-eyebrow">Teamverzeichnis</span>
                             <h2 id="team-directory-title" class="subpage-title">Trainerteam mit Gruppen und Einsatzbereichen.</h2>
+                        </div>
+                        <div class="subpage-chip-row" role="group" aria-label="Sortierung des Trainerteams">
+                            <button type="button" class="subpage-chip team-sort is-active" data-team-sort="name" aria-pressed="true">Nach Nachname</button>
+                            <button type="button" class="subpage-chip team-sort" data-team-sort="group" aria-pressed="false">Nach Trainingsgruppe</button>
                         </div>
                     </div>
                     <div class="subpage-card-grid subpage-card-grid--team" id="team-card-grid"></div>
@@ -122,7 +130,29 @@
                 });
             });
 
-            const trainers = [...trainerMap.entries()].sort((left, right) => left[0].localeCompare(right[0], 'de'));
+            // Sortierung: Standard alphabetisch nach Nachname, optional nach juengster Trainingsgruppe (U6 -> Erwachsene/Senioren)
+            const lastName = (name) => {
+                const parts = name.trim().split(/\s+/);
+                return parts[parts.length - 1];
+            };
+            const byLastName = (left, right) => lastName(left[0]).localeCompare(lastName(right[0]), 'de') || left[0].localeCompare(right[0], 'de');
+            const groupRank = (group) => {
+                const value = (group || '').toLowerCase();
+                if (/u\s*6|vorschulkinder/.test(value)) return 0;
+                if (/u\s*8\b/.test(value)) return 1;
+                if (/u\s*10\b/.test(value)) return 2;
+                if (/u\s*12\b/.test(value)) return 3;
+                if (/u\s*14\b/.test(value)) return 4;
+                if (/u\s*(16|18|20|23)\b/.test(value)) return 5;
+                if (value.includes('erwachsene')) return 6;
+                if (value.includes('senioren') || /sen\s*\d/.test(value)) return 7;
+                return 8;
+            };
+            const trainerMinRank = (entries) => Math.min(...entries.map((entry) => groupRank(entry.group)));
+            const byGroup = (left, right) => trainerMinRank(left[1]) - trainerMinRank(right[1]) || byLastName(left, right);
+
+            const sortedTrainers = (mode) => [...trainerMap.entries()].sort(mode === 'group' ? byGroup : byLastName);
+            const trainers = sortedTrainers('name');
 
             metaRow.innerHTML = [
                 {
@@ -142,7 +172,8 @@
                 </span>
             `).join('');
 
-            grid.innerHTML = trainers.map(([trainer, entries]) => {
+            const renderGrid = (list) => {
+            grid.innerHTML = list.map(([trainer, entries]) => {
                 const groups = unique(entries.map((entry) => entry.group));
                 const years = unique(entries.map((entry) => entry.year));
                 const { badge, summary } = classifyTrainer(entries);
@@ -180,6 +211,21 @@
                     </article>
                 `;
             }).join('');
+            };
+
+            renderGrid(trainers);
+
+            const sortButtons = Array.from(document.querySelectorAll('.team-sort'));
+            sortButtons.forEach((button) => {
+                button.addEventListener('click', () => {
+                    sortButtons.forEach((other) => {
+                        const active = other === button;
+                        other.classList.toggle('is-active', active);
+                        other.setAttribute('aria-pressed', active ? 'true' : 'false');
+                    });
+                    renderGrid(sortedTrainers(button.dataset.teamSort));
+                });
+            });
         });
     </script>
 </body>

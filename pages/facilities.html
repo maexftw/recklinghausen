@@ -4,21 +4,25 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Sportstätten | RLC 1952</title>
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicon/favicon-192.png" />
+    <link rel="apple-touch-icon" href="/assets/images/favicon/apple-touch-icon.png" />
     <meta
         name="description"
         content="Übersicht der realen Trainingsorte des Recklinghäuser Leichtathletik Clubs 1952 e.V. auf Basis des aktuellen Trainingsplans."
     />
     <link href="../assets/css/design-tokens.css" rel="stylesheet" />
     <link href="../assets/css/shell.css" rel="stylesheet" />
-    <link href="../assets/css/subpages.css?v=12" rel="stylesheet" />
+    <link href="../assets/css/subpages.css?v=14" rel="stylesheet" />
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Montserrat:wght@700;900&amp;display=swap"
         rel="stylesheet"
     />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
-    <script src="../assets/js/components.js"></script>
-    <script src="../assets/js/training_schedule.js?v=2"></script>
+    <script src="../assets/js/components.js?v=3"></script>
+    <script src="../assets/js/training_schedule.js?v=3"></script>
 </head>
 <body class="subpage subpage-facilities min-h-screen">
     <header data-shared-shell-placeholder></header>
@@ -133,12 +137,12 @@
             grid.innerHTML = cards.map((location) => `
                 <article class="facility-card">
                     <div class="facility-card__button">
-                        <div class="facility-card__media ${location.accent}" aria-hidden="true" ${location.image ? `style="background-image: linear-gradient(135deg, rgba(11, 31, 61, 0.34), rgba(11, 31, 61, 0.08)), url('${location.image}')"` : ''}>
+                        <div class="facility-card__media ${location.accent}" ${location.image ? `style="background-image: linear-gradient(135deg, rgba(11, 31, 61, 0.34), rgba(11, 31, 61, 0.08)), url('${location.image}')"` : 'aria-hidden="true"'}>
                             <span class="facility-card__badge">${location.badge}</span>
                             ${location.image ? '' : '<span class="facility-card__placeholder"><span class="material-icons-round" aria-hidden="true">photo_camera</span>Foto folgt</span>'}
+                            ${location.photoCredit ? `<span class="subpage-photo-credit">${location.photoCredit}</span>` : ''}
                         </div>
                         <div class="facility-card__body">
-                            ${location.photoCredit ? `<p class="facility-card__photo-credit">${location.photoCredit}</p>` : ''}
                             <div class="facility-card__header">
                                 <div>
                                     <h3>${location.name}</h3>

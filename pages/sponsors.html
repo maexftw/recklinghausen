@@ -4,14 +4,18 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Verein | RLC 1952</title>
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicon/favicon-192.png" />
+    <link rel="apple-touch-icon" href="/assets/images/favicon/apple-touch-icon.png" />
     <meta name="description" content="Vereinsseite des Recklinghäuser Leichtathletik Clubs 1952 e.V. mit Vorstand, Geschichte, Partnern und künftig wichtigen Vereinsunterlagen." />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;family=Lexend:wght@600;700;800;900&amp;display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
     <link href="../assets/css/design-tokens.css" rel="stylesheet" />
     <link href="../assets/css/shell.css" rel="stylesheet" />
-    <link href="../assets/css/subpages.css?v=12" rel="stylesheet" />
+    <link href="../assets/css/subpages.css?v=14" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
-    <script src="../assets/js/components.js"></script>
+    <script src="../assets/js/components.js?v=3"></script>
 </head>
 <body class="subpage subpage-sponsors min-h-screen">
     <header data-shared-shell-placeholder></header>
@@ -22,14 +26,46 @@
                     <span class="subpage-eyebrow">Verein</span>
                     <h1 id="verein-page-title" class="subpage-display">Menschen, Geschichte und Partner des <em>RLC 1952</em>.</h1>
                     <p class="subpage-lead">Diese Seite bündelt den aktuellen Vorstand, Partner und wichtige Vereinsinformationen. Satzung, Schutzkonzept, Ehrenkodex und weitere Unterlagen werden ergänzt, sobald sie final freigegeben sind.</p>
-                    <div class="subpage-actions subpage-actions--hero">
-                        <a href="#vorstand" class="subpage-button">Vorstand ansehen <span class="material-icons-round" aria-hidden="true">arrow_forward</span></a>
-                        <a href="#partnerliste" class="subpage-button subpage-button--secondary">Zu den Partnern <span class="material-icons-round" aria-hidden="true">south</span></a>
-                    </div>
+                    <nav class="subpage-chip-row subpage-chip-row--hero" aria-label="Bereiche dieser Seite">
+                        <a href="#beschreibung" class="subpage-chip">Vereinsbeschreibung</a>
+                        <a href="#geschichte" class="subpage-chip">Vereinsgeschichte</a>
+                        <a href="#vorstand" class="subpage-chip">Vorstand</a>
+                        <a href="#dokumente" class="subpage-chip">Dokumente</a>
+                        <a href="#partnerliste" class="subpage-chip">Partner</a>
+                    </nav>
                 </div>
                 <figure class="subpage-intro__visual subpage-intro__visual--logo">
                     <img src="../RLC-Logo_vector/RLC-Logo_vector_transparent.svg" alt="RLC 1952 Logo" width="640" height="640" loading="eager" decoding="async" />
                 </figure>
+            </section>
+
+            <section class="subpage-panel" aria-labelledby="verein-beschreibung-title" id="beschreibung">
+                <div class="subpage-title-row">
+                    <div>
+                        <span class="subpage-eyebrow">Vereinsbeschreibung</span>
+                        <h2 id="verein-beschreibung-title" class="subpage-title">Der RLC 1952 auf einen Blick.</h2>
+                    </div>
+                </div>
+                <div class="verein-history-text">
+                    <p>Der Recklinghäuser Leichtathletik Club 1952 e.V. ist der Leichtathletikverein für Recklinghausen. Vom Lauf- und Bewegungstraining für Vorschulkinder über Kinder- und Jugendgruppen bis zum Erwachsenen- und Seniorensport bündelt der Verein Training, Wettkampf und Vereinsleben unter einem Dach – mit dem Stadion Hohenhorst als sportlichem Zuhause.</p>
+                    <p>Feste Höhepunkte im Vereinsjahr sind der Sparkassen Abendlauf, die Stadtmeisterschaften und der Silvesterlauf. Getragen wird der Verein von einem ehrenamtlichen Vorstand und einem breiten Trainerteam, das jede Woche mehr als 20 Trainingseinheiten für alle Altersgruppen anbietet.</p>
+                </div>
+            </section>
+
+            <section class="subpage-panel verein-history-panel" aria-labelledby="verein-geschichte-title" id="geschichte">
+                <div class="subpage-title-row">
+                    <div>
+                        <span class="subpage-eyebrow">Vereinsgeschichte</span>
+                        <h2 id="verein-geschichte-title" class="subpage-title">Seit 1952 Leichtathletik in Recklinghausen.</h2>
+                    </div>
+                </div>
+                <div class="verein-history-text">
+                    <p>Der Recklinghäuser Leichtathletik Club 1952 e.V. wurde am 2. November 1952 von 21 Recklinghäuser Leichtathleten gegründet. Bis dahin waren die Aktiven meist Unterabteilungen von Fußball-, Handball- oder Turnvereinen; der RLC gab der Leichtathletik in Recklinghausen einen eigenen Verein.</p>
+                    <p>Bereits 1953 trainierten knapp 100 Mitglieder auf der Viktoria-Kampfbahn an der Dorstener Straße. 1977 zog der Club in das moderne Stadion Hohenhorst mit Kunststoffbahn um, das bis heute zentraler Trainings- und Wettkampfort ist.</p>
+                    <p>Die 50er und 60er Jahre waren geprägt von Rekorden und Wettkampfreisen. 1959 übersprang Claus Schiprowski bei den Stadtmeisterschaften erstmals vier Meter im Stabhochsprung; 1962 stellte die 3 x 1000-Meter-Staffel mit Wolfgang Peter, Hans-Jürgen Holtermann und Manfred Lubba einen Kreisrekord auf.</p>
+                    <p>In den 70er Jahren prägten internationale Vergleichswettkämpfe das Vereinsleben, unter anderem mit Erfolgen gegen Dordrecht. In den 80er Jahren machten Pfingstsportfeste nationale und internationale Leichtathletik sichtbar.</p>
+                    <p>Seit den 90er Jahren stehen Kinder- und Jugendarbeit, Nachwuchsförderung und Breitensport noch stärker im Fokus. Kreismeistertitel, Westfalenmeistertitel und gute Platzierungen bei Deutschen Meisterschaften zeigen diese Entwicklung bis heute.</p>
+                </div>
             </section>
 
             <section class="subpage-panel" aria-labelledby="vorstand-title" id="vorstand">
@@ -46,7 +82,7 @@
                         <div class="subpage-person-card__body"><h3>Christian Dahmen</h3><p>1. Vorsitzender</p><a class="subpage-link" href="mailto:c.dahmen@rlc1952.de">c.dahmen@rlc1952.de <span class="material-icons-round" aria-hidden="true">east</span></a></div>
                     </article>
                     <article class="subpage-person-card">
-                        <div class="subpage-person-card__media"><img class="subpage-person-card__image" src="../assets/images/vorstand/vorstand-portrait-04.webp" alt="" width="900" height="1196" loading="eager" decoding="async" /></div>
+                        <div class="subpage-person-card__media"><img class="subpage-person-card__image subpage-person-card__image--focus-low" src="../assets/images/vorstand/vorstand-portrait-04.webp" alt="" width="900" height="1196" loading="eager" decoding="async" /></div>
                         <div class="subpage-person-card__body"><h3>Marc Manderla</h3><p>2. Vorsitzender · 2. Kassierer</p><a class="subpage-link" href="mailto:info@rlc1952.de">info@rlc1952.de <span class="material-icons-round" aria-hidden="true">east</span></a></div>
                     </article>
                     <article class="subpage-person-card">
@@ -88,23 +124,7 @@
                 </div>
             </section>
 
-            <section class="subpage-panel verein-history-panel" aria-labelledby="verein-geschichte-title">
-                <div class="subpage-title-row">
-                    <div>
-                        <span class="subpage-eyebrow">Vereinsgeschichte</span>
-                        <h2 id="verein-geschichte-title" class="subpage-title">Seit 1952 Leichtathletik in Recklinghausen.</h2>
-                    </div>
-                </div>
-                <div class="verein-history-text">
-                    <p>Der Recklinghäuser Leichtathletik Club 1952 e.V. wurde am 2. November 1952 von 21 Recklinghäuser Leichtathleten gegründet. Bis dahin waren die Aktiven meist Unterabteilungen von Fußball-, Handball- oder Turnvereinen; der RLC gab der Leichtathletik in Recklinghausen einen eigenen Verein.</p>
-                    <p>Bereits 1953 trainierten knapp 100 Mitglieder auf der Viktoria-Kampfbahn an der Dorstener Straße. 1977 zog der Club in das moderne Stadion Hohenhorst mit Kunststoffbahn um, das bis heute zentraler Trainings- und Wettkampfort ist.</p>
-                    <p>Die 50er und 60er Jahre waren geprägt von Rekorden und Wettkampfreisen. 1959 übersprang Claus Schiprowski bei den Stadtmeisterschaften erstmals vier Meter im Stabhochsprung; 1962 stellte die 3 x 1000-Meter-Staffel mit Wolfgang Peter, Hans-Jürgen Holtermann und Manfred Lubba einen Kreisrekord auf.</p>
-                    <p>In den 70er Jahren prägten internationale Vergleichswettkämpfe das Vereinsleben, unter anderem mit Erfolgen gegen Dordrecht. In den 80er Jahren machten Pfingstsportfeste nationale und internationale Leichtathletik sichtbar.</p>
-                    <p>Seit den 90er Jahren stehen Kinder- und Jugendarbeit, Nachwuchsförderung und Breitensport noch stärker im Fokus. Kreismeistertitel, Westfalenmeistertitel und gute Platzierungen bei Deutschen Meisterschaften zeigen diese Entwicklung bis heute.</p>
-                </div>
-            </section>
-
-            <section class="subpage-panel verein-documents-panel" aria-labelledby="verein-dokumente-title">
+            <section class="subpage-panel verein-documents-panel" aria-labelledby="verein-dokumente-title" id="dokumente">
                 <div class="subpage-title-row">
                     <div>
                         <span class="subpage-eyebrow">Dokumente</span>
@@ -112,6 +132,14 @@
                     </div>
                 </div>
                 <div class="verein-document-grid" aria-label="Vereinsdokumente">
+                    <article class="verein-document-card">
+                        <span class="material-icons-round" aria-hidden="true">picture_as_pdf</span>
+                        <div>
+                            <h3>Mitgliedsantrag</h3>
+                            <p>Aktueller Aufnahmeantrag zum Ausdrucken und Ausfüllen.</p>
+                            <a class="subpage-inline-link" href="https://www.rlc1952.de/assets/pdf/rlc_aufnahmeantrag_2024.pdf" target="_blank" rel="noopener">PDF öffnen <span class="material-icons-round" aria-hidden="true">open_in_new</span></a>
+                        </div>
+                    </article>
                     <article class="verein-document-card">
                         <span class="material-icons-round" aria-hidden="true">picture_as_pdf</span>
                         <div>
@@ -131,8 +159,23 @@
                     <article class="verein-document-card verein-document-card--pending">
                         <span class="material-icons-round" aria-hidden="true">pending</span>
                         <div>
-                            <h3>Schutzkonzept</h3>
+                            <h3>Mitgliedsbeiträge (aktuell)</h3>
                             <p>Folgt, sobald die freigegebene PDF-Datei vorliegt.</p>
+                        </div>
+                    </article>
+                    <article class="verein-document-card verein-document-card--pending">
+                        <span class="material-icons-round" aria-hidden="true">pending</span>
+                        <div>
+                            <h3>Mitgliedsbeiträge ab 01.01.2027</h3>
+                            <p>Folgt, sobald die freigegebene PDF-Datei vorliegt.</p>
+                        </div>
+                    </article>
+                    <article class="verein-document-card">
+                        <span class="material-icons-round" aria-hidden="true">shield</span>
+                        <div>
+                            <h3>Schutzkonzept</h3>
+                            <p>Als eigene Seite verfügbar; die PDF-Fassung folgt nach Freigabe.</p>
+                            <a class="subpage-inline-link" href="schutzkonzept.html">Seite öffnen <span class="material-icons-round" aria-hidden="true">east</span></a>
                         </div>
                     </article>
                     <article class="verein-document-card verein-document-card--pending">
