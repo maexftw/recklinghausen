@@ -13,6 +13,7 @@ Current active RLC workstream at handoff time (2026-07-21):
 
 - Branch: `preview-rlc-customer-update-2026-07-21`
 - Content commit: `2df7a79 feat: umsetzen des Kundenfeedbacks vom 2026-07-17 (19 Punkte + Chat-Nachzügler)`
+- Design-Politur: `bb87f94 style(design): UI/UX-Politur nach Design-Review 2026-07-21` (Lesebreite Verein-Texte, 44px Touch-Targets)
 - Exact Cloudflare preview: https://e41c52d9.rlc-1952-recklinghausen.pages.dev
 - Branch preview: https://preview-rlc-customer-update.rlc-1952-recklinghausen.pages.dev
 - Produktion/main: Stand des akzeptierten Releases vom 2026-07-10 (`a7b5d22`); die neue Runde ist NOCH NICHT freigegeben und nicht auf main.

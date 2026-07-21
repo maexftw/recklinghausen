@@ -86,6 +86,20 @@ Status: Gebündeltes Kundenfeedback vom 2026-07-17 (Excel, 19 Punkte) plus vier 
 - `node --check` components.js/training_schedule.js OK; `node tests/contact-api.test.mjs` OK; `py_compile` OK; `git diff --check` OK.
 - Filter-Verifikation Training: U6=1, U8=1, U10=3, U12=3, U14=3, U16-U23=4, Erwachsene=3, Senioren=6 Einheiten.
 
+## Design-Review-Pass 2026-07-21 (nach dem Feature-Commit)
+
+Eigener UI/UX-Durchgang über alle in dieser Runde geänderten Seiten (Desktop + Mobile, automatisierte Prüfungen auf Heading-Hierarchie, Textgröße, Zeilenlänge, Touch-Targets, Fonts). Ergebnis: Design-System sauber (nur Inter + Lexend/Montserrat, keine AI-Slop-Muster, keine Farbabweichungen von DESIGN.md, kein Overflow). Zwei echte Befunde behoben (Commit `bb87f94`):
+
+- **Lesebreite Verein-Texte:** Vereinsbeschreibung und Vereinsgeschichte liefen über die volle Panelbreite (~138 Zeichen/Zeile). Jetzt via `.verein-history-text p { max-width: 70ch }` auf komfortable Lesebreite begrenzt.
+- **Touch-Targets Inline-Links:** „PDF öffnen", „Seite öffnen" und die Verbandslinks waren auf Mobile nur ~24px hoch. Jetzt `@media (pointer: coarse) .subpage-inline-link { min-height: 2.75rem }` → 44px.
+- CSS-Version `subpages.css?v=15`.
+
+Bewusst NICHT geändert (bei Bedarf für eine spätere Runde):
+
+- **Footer-Spaltenüberschriften „Verein"/„Rechtliches" sind `<h4>`** während Seitenabschnitte `<h2>` sind → semantischer Sprung h2→h4 in der Heading-Outline. Betrifft alle 835 Seiten (globales Footer-Template in `components.js`), rein a11y-semantisch, kein sichtbarer Fehler. Fix wäre ein globaler Wechsel auf `<h2>`/`<h3>` im Footer.
+- **Kleine Inline-Textlinks „Über Kontaktformular"** in den Trainerkarten (`team.html`, ~20px). Sind Fließtext-Links in einer Definitionsliste, keine eigenständigen Buttons; eine 44px-Erzwingung würde das Kartenlayout brechen. Konvention lässt Inline-Textlinks kleiner zu.
+- **Footer-/Meta-/Eyebrow-Text bei 12–14px:** bewusst kleiner als die 16px-Body-Vorgabe, da Labels/Kicker/Footer laut DESIGN.md ausdrücklich sparsam und klein sein dürfen.
+
 ## Offene Punkte für die Kundenrückmeldung
 
 1. **Fehlende Materialien:** Mitgliedsbeiträge-PDFs (aktuell + ab 01.01.2027), Schutzkonzept-Text/PDF, Ehrenkodex-PDF, weitere Vorstands-/Trainerfotos. Nichts erfinden.
@@ -114,6 +128,7 @@ Erwarteter Stand für dieses Handoff:
 
 ```text
 preview-rlc-customer-update-2026-07-21
+bb87f94 style(design): UI/UX-Politur nach Design-Review 2026-07-21
 2df7a79 feat: umsetzen des Kundenfeedbacks vom 2026-07-17 (19 Punkte + Chat-Nachzügler)
 ```
 
