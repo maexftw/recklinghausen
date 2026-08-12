@@ -7,7 +7,8 @@ from pathlib import Path
 ARCHIVE_FILE = Path('news_archive.json')
 OUTPUT_DIR = Path('pages/news')
 PLACEHOLDER_IMAGE = '../../assets/images/news-placeholder.svg'
-CSS_VERSION = 11
+CSS_VERSION = 15
+COMPONENTS_VERSION = 3
 
 
 def news_image_path(article, image):
@@ -63,13 +64,17 @@ def page(article):
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>{title_html} | RLC 1952</title>
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicon/favicon-192.png" />
+    <link rel="apple-touch-icon" href="/assets/images/favicon/apple-touch-icon.png" />
     <link href="../../assets/css/design-tokens.css" rel="stylesheet" />
     <link href="../../assets/css/shell.css" rel="stylesheet" />
     <link href="../../assets/css/subpages.css?v={CSS_VERSION}" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Lexend:wght@600;700;800;900&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
-    <script src="../../assets/js/components.js"></script>
+    <script src="../../assets/js/components.js?v={COMPONENTS_VERSION}"></script>
 </head>
 <body class="subpage subpage-news-detail min-h-screen">
     <header data-shared-shell-placeholder></header>

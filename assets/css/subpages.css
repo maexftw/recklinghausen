@@ -2852,7 +2852,6 @@ body.subpage-facilities .subpage-highlight-strip {
 }
 
 body.subpage-facilities .subpage-display {
-    font-size: clamp(1.8rem, 3vw, 2.75rem);
     max-width: 11ch;
 }
 
@@ -4072,7 +4071,6 @@ body.gallery-lightbox-open {
 
 .subpage-news-intro .subpage-display {
     max-width: 24ch;
-    font-size: clamp(1.48rem, 2.2vw, 2.2rem);
 }
 
 .event-detail-list {

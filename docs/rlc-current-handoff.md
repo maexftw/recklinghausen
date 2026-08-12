@@ -1,9 +1,65 @@
 # RLC Recklinghausen – aktueller Arbeitsstand
 
-Stand: 2026-07-21
+Stand: 2026-08-12
 Branch: `preview-rlc-customer-update-2026-07-21`
-Content-Commit: `2df7a79 feat: umsetzen des Kundenfeedbacks vom 2026-07-17 (19 Punkte + Chat-Nachzügler)`
-Status: Gebündeltes Kundenfeedback vom 2026-07-17 (Excel, 19 Punkte) plus vier Chat-Nachzügler vom 09./10.07. wurden umgesetzt und mit lokalem Browser-QA (60 Checks: 12 Seiten × Desktop + 320/360/390/430 px) verifiziert. Kundenfreigabe steht noch aus.
+Status: Kundenänderungswünsche vom 04.08.2026 (WhatsApp + E-Mail Ludger.eml, Christian Dahmen) umgesetzt und lokal im Browser verifiziert. Offene Rückfragen: Gespräch mit Daniel (vertragliche Dinge), Bilder-Diskrepanz (2 statt 3 Fotos), Trainerteam-Fotos Barbara/Carsten/Sebastian fehlen. Noch NICHT committet.
+
+## Umgesetzt in dieser Runde (2026-08-12, Working Tree – uncommitted)
+
+### Satzung direkt auf der Webseite (Kundenwunsch: nicht verlinken, alte Seite geht offline)
+- Neue Seite `pages/satzung.html` mit dem vollständigen Satzungstext (Fassung „gendert", geändert 05.12.2016, in Kraft per 2016) im `legal-page-content`-Stil – eingebunden unter Verein → Dokumente.
+- Dokumente-Karte „Satzung" in `pages/sponsors.html` zeigt jetzt „Satzung ansehen" → lokale `satzung.html` statt externe `rlc1952.de`-URL.
+
+### Alle externen rlc1952.de-Links lokalisiert (GoLive-Absicherung)
+- `assets/pdf/` neu: `rlc_aufnahmeantrag_2024.pdf`, `Protokoll_JHV26_03_unterschrie.pdf`, `RLC_Laufstrecke_5km_Hohenhorst.pdf`, `RLC_Laufstrecke_10km_Hohenhors.pdf` (alle von der alten Seite gesichert).
+- `pages/sponsors.html`: Mitgliedsantrag + Protokoll JHV 2026 → lokale PDFs.
+- `pages/abendlauf.html`: 5-km-/10-km-Strecken → lokale PDFs.
+- Verifiziert: kein `href="https://www.rlc1952.de/..."` mehr in `pages/*.html` (nur mailto).
+
+### Vorstands-/Trainerbilder (Ludger.eml, 07.08.2026, von Christian Dahmen)
+- Nur **2** Bilder in der Mail (nicht 3 wie angekündigt): `PXL_...PORTRAIT.jpg` = Ludger Zander (Sportwart, im Trikot), `UMoschner_01.JPG` = Ulrich Moschner (Trainerteam Sen 1).
+- Aufbereitet als WebP: `assets/images/vorstand/vorstand-portrait-05.webp` (Zander), `vorstand-portrait-06.webp` (Moschner); Trainer-Kopien in `assets/images/trainer/trainer-ludger-zander.webp`, `trainer-ulrich-moschner.webp`.
+- Vorstandsseite: Ludger Zander-Karte hat jetzt sein Foto (ersetzt Initialen-Platzhalter).
+- Trainerteam `pages/team.html`: Foto-Slot ergänzt – Trainer mit Foto zeigen Bild, alle anderen bleiben beim Initialen-Platzhalter. Ludger Zander + Ulrich Moschner haben jetzt Fotos.
+- Laut Mailtext gehören **Ludger, Barbara Ziesmer-Praßni, Carsten Praßni, Sebastian Stephani zusätzlich zum Trainerteam** – für Barbara/Carsten/Sebastian sind KEINE Fotos geliefert (Platzhalter bleiben).
+
+### Seiten-Header vereinheitlicht (blauer Kasten)
+- Ursache der wahrgenommenen Abweichung: Intro-Layout-Varianten (Training `--visual` mit Bild rechts = schmalere Überschriftsspalte, Termine `--full` volle Breite) plus echte Größen-Ausreißer bei Facilities (`clamp(1.8–2.75rem)`) und News-Intro (`clamp(1.48–2.2rem)`).
+- Fix in `assets/css/subpages.css`: Facilities- und News-Intro-Überschriften auf die Standardgröße (`clamp(1.62rem, 2.65vw, 2.55rem)`) gesetzt. Verifiziert: Training, Termine, Facilities, News zeigen jetzt alle **33.337px / weight 400**.
+- CSS-Version unverändert `subpages.css?v=15` (kein weiterer Bump nötig, da keine Verlinkung geändert).
+
+### Aktuelle News-Meldungen gesichert (Kunde: „inkl. aktueller News-Meldungen")
+- Lokales Archiv endete am 06.01.2026 (ID 10193); alte Seite hatte 48 neuere Meldungen (IDs 10194–10243, bis 27.07.2026).
+- `scrape_new_news.py` (neu, temporär) holte die 48 Meldungen inkl. 40 Bilder nach `news_assets/`. `news_archive.json`: 818 → 866 Artikel, genau +48, 0 entfernt, 0 Altdaten verändert (verifiziert).
+- `generate_detail_pages.py` Template-Bug behoben: hatte veraltetes Head (kein Favicon, `subpages.css?v=11`, `components.js` ohne `?v=3`). Jetzt korrekt: Favicons + `v=15` + `components.js?v=3`. Alle Detailseiten konsistent (0 tracked Dateien verändert, nur die 48 neuen untracked).
+- `assets/js/news_data.js` regeneriert → zeigt jetzt die 36 neuesten (bis 27.07.2026: Bronze 4x400m DM, DM Masters, EM Rieti Jonathan Perner). News-Seite + Startseite verifiziert aktuell.
+- 8 neue Meldungen ohne Bild sind legitim (Terminankündigungen, Traueranzeige, Trainingsplan/Saison).
+
+## Verifikation dieser Runde
+- Browser-QA lokal (http://localhost:8791): Satzung-Seite rendert sauber; Vorstand Zander-Foto; Trainerteam Zander+Moschner mit Foto, Rest Platzhalter; News aktuell bis 27.07.2026; Header-Größe Training/Termine/Facilities/News = 33.337px/400.
+- `git diff --check` und Struktur-Checks ok (archiv exakt +48, keine externen rlc1952.de-Links mehr).
+
+## Offene Punkte für den Kunden (Stand 04.08.2026)
+1. **Daniel/vertragliche Dinge:** Kunde fragt, ob du (Maxi) schon mit Daniel gesprochen hast – muss beantwortet werden (nicht Website).
+2. **Bilder-Diskrepanz:** Kunde schrieb „drei weitere Bilder", Mail enthielt nur 2 (Zander, Moschner). Barbara/Carsten/Sebastian-Fotos fürs Trainerteam fehlen – nachliefern lassen.
+3. **Fehlende Materialien (alt, weiter offen):** Mitgliedsbeiträge-PDFs (aktuell + 01.01.2027), Schutzkonzept-Volltext/PDF, Ehrenkodex-PDF.
+4. **Schreibweise Trainerin:** „Leni Nefendev" (Excel) vs. „Leni Nefedev" (Repo) – bestätigen.
+5. **Vereinsbeschreibung-Text:** zur Freigabe.
+6. **Favicon-Variante:** Weiß-auf-Blau umgesetzt, Grün als Alternative.
+7. **Sportstätten-Credit-Interpretation** bestätigen.
+8. **Zeitplan:** Kunde wollte Umsetzung bis Vorstandssitzung 12.08.2026 (heute) für Veröffentlichungsbeschluss + GoLive.
+
+## Bekannte offene Gates (unverändert)
+1. Turnstile: `TURNSTILE_SITE_KEY`/`TURNSTILE_SECRET_KEY` setzen.
+2. Mail: `CONTACT_WEBHOOK_URL` (+ Token) setzen, End-to-End-Test.
+3. Domain/DNS, redaktionelle Übergabe (PagesCMS), Tailwind-CDN-Härtung.
+
+---
+*Historie untenstehend (Stand 2026-07-21) weiterhin gültig als Referenz.*
+
+---
+
+# RLC Recklinghausen – Runde 2026-07-21 (Referenz)
 
 ## Source of Truth
 

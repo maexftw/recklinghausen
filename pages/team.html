@@ -92,6 +92,12 @@
                 .join('')
                 .toUpperCase();
 
+            // Zuordnung Trainer -> Porträtfoto (Stand 12.08.2026). Trainer ohne Foto erhalten den Initialen-Platzhalter.
+            const TRAINER_PHOTOS = {
+                'Ludger Zander': '../assets/images/trainer/trainer-ludger-zander.webp',
+                'Ulrich Moschner': '../assets/images/trainer/trainer-ulrich-moschner.webp'
+            };
+
             const classifyTrainer = (entries) => {
                 const groups = entries.map((entry) => entry.group);
                 const hasKids = groups.some((group) => /^(Vorschulkinder|Kinder)/.test(group));
@@ -181,7 +187,9 @@
                 return `
                     <article class="subpage-person-card">
                         <div class="subpage-person-card__media">
-                            <div class="subpage-person-card__image subpage-person-card__image--placeholder" aria-hidden="true">${initials(trainer)}</div>
+                            ${TRAINER_PHOTOS[trainer]
+                                ? `<img class="subpage-person-card__image" src="${TRAINER_PHOTOS[trainer]}" alt="${trainer}" width="900" height="1200" loading="lazy" decoding="async" />`
+                                : `<div class="subpage-person-card__image subpage-person-card__image--placeholder" aria-hidden="true">${initials(trainer)}</div>`}
                             <span class="subpage-person-card__badge">${badge}</span>
                         </div>
                         <div class="subpage-person-card__body">
