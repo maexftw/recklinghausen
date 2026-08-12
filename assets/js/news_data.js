@@ -31,7 +31,7 @@ window.newsData = [
         "url": "https://www.rlc1952.de/rlc.php?id=0-0000-0-10241",
         "id": "10241",
         "title": "JONATHAN PERNER BEI EM IN RIETI (ITALIEN) ERSTMALS UNTER 48 SEKUNDEN",
-        "date": "19. Juli 2026 -  19. Juli 2027",
+        "date": "19. Juli 2026",
         "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20260720151414_Jonathan.jpeg\"/></div><p class=\"detailViewTop\"><b>Ein Klasse-Auftritt von RLC-Langsprinter Jonathan Perner bei den Europameisterschaften der U18-Aktiven in Rieti. Mit 47,96sec legte Jonathan bereits im  Vorlauf über 400m eine neue persönliche Bestzeit hin und sicherte sich durch diese Leistung einen Platz im Semifinale.</b></p>",
         "content_text": "Ein Klasse-Auftritt von RLC-Langsprinter Jonathan Perner bei den Europameisterschaften der U18-Aktiven in Rieti. Mit 47,96sec legte Jonathan bereits im  Vorlauf über 400m eine neue persönliche Bestzeit hin und sicherte sich durch diese Leistung einen Platz im Semifinale.",
         "images": [
@@ -269,7 +269,7 @@ window.newsData = [
         "url": "https://www.rlc1952.de/rlc.php?id=0-0000-0-10224",
         "id": "10224",
         "title": "U14-MÄDELS IM AUFWIND",
-        "date": "09.  -  10. Mai2026",
+        "date": "09. - 10. Mai 2026",
         "content_html": "<div class=\"preView\"><img alt=\"\" src=\"assets/images/uploads/zoom_20260510195616_U14.jpg\"/></div><p class=\"detailViewTop\"><b>Beim 4. Bodynostic-Meeting am 09.05.2026 im heimischen Hohenhorst-Stadion starteten auch die Wettkämpferinnen W12 um Trainerin Christina Sip und bewiesen durch diverse Bestleistungen, dass das intensive Training weiterhin Früchte trägt.</b></p>",
         "content_text": "Beim 4. Bodynostic-Meeting am 09.05.2026 im heimischen Hohenhorst-Stadion starteten auch die Wettkämpferinnen W12 um Trainerin Christina Sip und bewiesen durch diverse Bestleistungen, dass das intensive Training weiterhin Früchte trägt.",
         "images": [

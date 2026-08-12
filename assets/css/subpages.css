@@ -4210,6 +4210,13 @@ body.subpage-team .subpage-person-card__image--placeholder {
     letter-spacing: 0.06em;
 }
 
+/* Trainer-Fotos: Portrait-Bilder beschneiden statt verzerren (konsistent zu Vorstandsseite). */
+body.subpage-team img.subpage-person-card__image {
+    display: block;
+    object-fit: cover;
+    object-position: center 24%;
+}
+
 /* Design review correction: trainer placeholders should not dominate the first viewport. */
 @media (min-width: 960px) {
     body.subpage-team .subpage-card-grid--team {
@@ -4222,9 +4229,18 @@ body.subpage-team .subpage-person-card__media {
     aspect-ratio: auto;
 }
 
+/* Trainer-Fotos: Porträt-Karten mit Foto bekommen eine höhere Bildzone
+   (analog Vorstandsseite), damit der Kopf nicht abgeschnitten wird. */
+body.subpage-team .subpage-person-card:has(img.subpage-person-card__image) .subpage-person-card__media {
+    height: clamp(12rem, 18vw, 15.5rem);
+}
+
 @media (max-width: 720px) {
     body.subpage-team .subpage-person-card__media {
         height: 7rem;
+    }
+    body.subpage-team .subpage-person-card:has(img.subpage-person-card__image) .subpage-person-card__media {
+        height: 13.5rem;
     }
 }
 
