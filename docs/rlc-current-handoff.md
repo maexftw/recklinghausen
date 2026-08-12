@@ -2,7 +2,7 @@
 
 Stand: 2026-08-12
 Branch: `preview-rlc-customer-update-2026-07-21`
-Status: Kundenänderungswünsche vom 04.08.2026 (WhatsApp + E-Mail Ludger.eml, Christian Dahmen) umgesetzt und lokal im Browser verifiziert. Offene Rückfragen: Gespräch mit Daniel (vertragliche Dinge), Bilder-Diskrepanz (2 statt 3 Fotos), Trainerteam-Fotos Barbara/Carsten/Sebastian fehlen. Noch NICHT committet.
+Status: Kundenänderungswünsche vom 04.08.2026 (WhatsApp + E-Mail Ludger.eml, Christian Dahmen) umgesetzt, committet und per Browser-Check verifiziert. Commits: `3fbe927` (Content) + `7bef74d` (News-Datum + Trainerfoto-Fix). Preview-URL (stabil): `https://preview-customer-update-2026.rlc-1952-recklinghausen.pages.dev`. Offene Rückfragen: Gespräch mit Daniel (vertragliche Dinge), Bilder-Diskrepanz (2 statt 3 Fotos), Trainerteam-Fotos Barbara/Carsten/Sebastian fehlen.
 
 ## Umgesetzt in dieser Runde (2026-08-12, Working Tree – uncommitted)
 
@@ -27,6 +27,16 @@ Status: Kundenänderungswünsche vom 04.08.2026 (WhatsApp + E-Mail Ludger.eml, C
 - Ursache der wahrgenommenen Abweichung: Intro-Layout-Varianten (Training `--visual` mit Bild rechts = schmalere Überschriftsspalte, Termine `--full` volle Breite) plus echte Größen-Ausreißer bei Facilities (`clamp(1.8–2.75rem)`) und News-Intro (`clamp(1.48–2.2rem)`).
 - Fix in `assets/css/subpages.css`: Facilities- und News-Intro-Überschriften auf die Standardgröße (`clamp(1.62rem, 2.65vw, 2.55rem)`) gesetzt. Verifiziert: Training, Termine, Facilities, News zeigen jetzt alle **33.337px / weight 400**.
 - CSS-Version unverändert `subpages.css?v=15` (kein weiterer Bump nötig, da keine Verlinkung geändert).
+
+### News-Datum: Anzeigezeitraum entfernt (beseitigt falsche Jahresgruppe) [Commit 7bef74d]
+- Ursache: Die alte Site legt im `.redDate`-Feld einen **Veröffentlichungszeitraum** ab (z.B. `19. Juli 2026 - 19. Juli 2027`), den der Scraper 1:1 als `date` übernahm. Die Render-Logik extrahiert das **letzte** 4-stellige Jahr → Meldung 10241 (Jonathan Perner EM Rieti) landete fälschlich unter einer eigenen Gruppe **2027** statt 2026.
+- Fix: `news_archive.json` bereinigt – 36 Anzeigezeiträume → nur Startdatum; 10 echte 2-Tages-Termine + 2 Monatsbereiche sauber formatiert. Verifiziert per Python: nur 48 `date`-Felder geändert, 0 sonstige Felder, 866→866 IDs.
+- Danach `update_js_data.py` + `generate_detail_pages.py` regeneriert. News-Seite zeigt jetzt „36 Meldungen · 1 Jahr", nur Gruppe 2026. Startseite-Daten korrekt (27./20./19. Juli 2026).
+
+### Trainerfoto-Verzerrung/Anschnitt [Commit 7bef74d]
+- Ursache: Trainer-Karten fielen auf `object-fit: fill` zurück → 900×1200-Porträt wurde auf die flache Bildzone (~370×129) gestreckt (verzerrt) bzw. bei `cover` der Kopf abgeschnitten.
+- Fix in `assets/css/subpages.css`: `body.subpage-team img.subpage-person-card__image { object-fit: cover; object-position: center 24%; }` + höhere Porträt-Bildzone (`clamp(12rem, 18vw, 15.5rem)`) **nur für Karten mit Foto** via `:has(img)`. Initialen-Platzhalter-Karten bleiben flach.
+- Verifiziert: Zander + Moschner zeigen jetzt Gesicht/Kopf vollständig, nicht verzerrt.
 
 ### Aktuelle News-Meldungen gesichert (Kunde: „inkl. aktueller News-Meldungen")
 - Lokales Archiv endete am 06.01.2026 (ID 10193); alte Seite hatte 48 neuere Meldungen (IDs 10194–10243, bis 27.07.2026).
