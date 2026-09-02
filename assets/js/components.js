@@ -248,6 +248,8 @@ function initMobileMenu() {
         const updateMenuState = (isOpen) => {
             mobileMenu.hidden = !isOpen;
             mobileMenu.classList.toggle('hidden', !isOpen);
+            document.documentElement.classList.toggle('has-open-mobile-menu', isOpen);
+            document.body.classList.toggle('has-open-mobile-menu', isOpen);
             menuBtn.setAttribute('aria-expanded', String(isOpen));
             menuBtn.setAttribute('aria-label', isOpen ? 'Hauptmenü schließen' : 'Hauptmenü öffnen');
 

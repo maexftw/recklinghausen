@@ -282,6 +282,18 @@ main,
 .site-mobile-panel {
     border-top: 1px solid var(--color-border-default);
     padding-block-end: var(--spacing-sm);
+    max-height: calc(100vh - var(--header-height));
+    max-height: calc(100dvh - var(--header-height));
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-y;
+}
+
+html.has-open-mobile-menu,
+body.has-open-mobile-menu {
+    overflow: hidden;
+    overscroll-behavior: none;
 }
 
 .site-mobile-panel__inner {
@@ -367,6 +379,11 @@ main,
         padding-inline: var(--spacing-md);
         font-size: var(--font-size-sm);
         white-space: nowrap;
+    }
+
+    .site-mobile-panel {
+        max-height: calc(100vh - var(--header-height-mobile));
+        max-height: calc(100dvh - var(--header-height-mobile));
     }
 
     .site-mobile-panel > div {
