@@ -36,6 +36,28 @@ python server.py
 
 Danach ist die Website unter `http://localhost:8001` erreichbar.
 
+## Website-Pflege mit KI (für Redakteure & Vorstand)
+
+Sie können dieses Projekt direkt in KI-Coding-Tools (z. B. **Cursor**, **Claude Code** oder **GitHub Copilot**) öffnen und Änderungen in natürlicher deutscher Sprache beauftragen. Das Repo enthält automatische Schutzregeln ([AGENTS.md](AGENTS.md), `CLAUDE.md`, `.cursorrules`), sodass die KI weiß, wie sie Änderungen sicher ausführt und veröffentlicht.
+
+### 4 Beispiel-Aufträge, die Sie Ihrer KI geben können:
+
+1. **Neuen Blog-/News-Beitrag veröffentlichen:**
+   > *„Erstelle einen neuen News-Beitrag mit dem Titel 'Erfolge bei den Kreismeisterschaften' und folgendem Text: [...] Das Bild dazu liegt unter downloads/foto.jpg.“*
+   *(Die KI nutzt dafür automatisch das interne Werkzeug `tools/add_news.py`)*
+
+2. **Trainingszeiten anpassen:**
+   > *„Die Trainingszeit für die Altersklasse U12 am Mittwoch verschiebt sich auf 17:30 bis 19:00 Uhr im Stadion Hohenhorst.“*
+
+3. **Text oder Telefonnummer ändern:**
+   > *„Ändere bitte die Kontakttelefonnummer im Impressum und auf der Kontaktseite auf 02361 / 123456.“*
+
+4. **Neuen Trainer ergänzen:**
+   > *„Füge auf der Trainerteam-Seite eine neue Trainerin 'Anna Müller' für U10 Leichtathletik hinzu.“*
+
+Die KI führt die Änderungen durch, testet sie und bringt sie per Git-Push direkt auf die Live-Website ([rlc-1952-recklinghausen.pages.dev](https://rlc-1952-recklinghausen.pages.dev)).
+
+
 ## Wo man typischerweise aendert
 
 - Inhalte und Seitenstruktur: `index.html`, `pages/*.html`
