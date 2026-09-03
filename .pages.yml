@@ -1,0 +1,47 @@
+# PagesCMS Configuration for RLC 1952 Recklinghausen
+# Zero-Build Web CMS integration via pagescms.org
+
+media:
+  input: news_assets
+  output: news_assets
+
+content:
+  - name: news_archive
+    label: Vereinsberichte & Aktuelles
+    type: file
+    path: news_archive.json
+    format: json
+    list: true
+    fields:
+      - name: id
+        label: Artikel-ID
+        type: string
+        description: Eindeutige Nummer des Berichts (z.B. 10244)
+      - name: title
+        label: Überschrift (Großbuchstaben, max. 70 Zeichen)
+        type: string
+        required: true
+      - name: date
+        label: Datum (z.B. 03. September 2026)
+        type: string
+        required: true
+      - name: content_text
+        label: Berichtstext (in 2-3 Absätze gliedern)
+        type: rich-text
+        required: true
+      - name: images
+        label: Beigefügte Fotos (Querformat empfohlen)
+        type: list
+        fields:
+          - name: local
+            label: Bilddatei
+            type: image
+          - name: remote
+            label: Vollständige Web-Adresse
+            type: string
+
+  - name: training_schedule
+    label: Trainingszeiten & Sportgruppen
+    type: file
+    path: assets/js/training_schedule.js
+    format: code

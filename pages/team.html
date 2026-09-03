@@ -84,13 +84,16 @@
             const grid = document.getElementById('team-card-grid');
 
             const unique = (values) => [...new Set(values.filter(Boolean))];
-            const initials = (name) => name
-                .split(/[\s-]+/)
-                .filter(Boolean)
-                .map((part) => part[0])
-                .slice(0, 2)
-                .join('')
-                .toUpperCase();
+            const initials = (name) => {
+                const code = name
+                    .split(/[\s-]+/)
+                    .filter(Boolean)
+                    .map((part) => part[0])
+                    .slice(0, 2)
+                    .join('')
+                    .toUpperCase();
+                return code === 'SS' ? 'S.' : code;
+            };
 
             // Zuordnung Trainer -> Porträtfoto (Stand 12.08.2026). Trainer ohne Foto erhalten den Initialen-Platzhalter.
             const TRAINER_PHOTOS = {
